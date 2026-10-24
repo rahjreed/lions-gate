@@ -1,5 +1,9 @@
 // Original oscillator patches. SFX and music have independent buses and mute states.
 export const patches={
+ swordStrike:[[1760,.09,'sawtooth',0,.018,220],[1319,.16,'triangle',.08,.06,659],[988,.1,'square',.11,.018]],
+ damage:[[164,.1,'sawtooth',0,.035,65],[98,.2,'square',.08,.028,49]],
+ perfectVictory:[[392,.12,'square',0,.035],[523,.12,'square',.1,.035],[659,.14,'square',.2,.035],[784,.16,'square',.3,.035],[1047,.45,'triangle',.44,.075],[1319,.42,'triangle',.44,.04],[523,.45,'triangle',.44,.04]],
+ gateOpen:[[98,.24,'triangle',0,.045,196],[196,.24,'triangle',.2,.05,392],[784,.24,'square',.4,.022]],
  correct:[[523,.12,'square',0,.04],[784,.14,'square',.09,.035],[1047,.24,'triangle',.18,.085],[1319,.18,'square',.27,.025]],
  wrong:[[196,.16,'sawtooth',0,.035,98],[147,.23,'square',.12,.035,73]],
  lifeLost:[[110,.16,'triangle',0,.09,55],[82,.2,'square',.08,.035,41]],

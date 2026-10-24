@@ -12,7 +12,7 @@ document.querySelector('#run').onclick=async()=>{
  }
  const offline=new OfflineAudioContext(1,4800,48000);const adapter={state:'running',currentTime:0,destination:offline.destination,createGain:()=>offline.createGain(),createOscillator:()=>offline.createOscillator()};
  const muted=new ArcadeAudio({contextFactory:()=>adapter});muted.configure(false,false);await muted.effect('correct');const buffer=await offline.startRendering();if(buffer.getChannelData(0).some(v=>v!==0))throw Error('Muted output is not silent');
- lines.push('PASS muted output: digital silence','ALL 15 CHECKS PASSED');output.textContent=lines.join('\n');
+ lines.push('PASS muted output: digital silence',`ALL ${Object.keys(patches).length+1} CHECKS PASSED`);output.textContent=lines.join('\n');
  }catch(e){output.textContent=lines.join('\n')+'\nFAIL '+e.message}
 };
 </script></html>
