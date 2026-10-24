@@ -1,6 +1,7 @@
+import {additions} from './extra-questions.js';
 import {validateQuestions} from './question-rules.js';
 // Each record is reviewed against the passage, independently of research documents.
-const record=(id,topic,q,options,answer,book,chapter,verse,explain,excerpt)=>({id,topic,q,options,answer,correctAnswer:options[answer],explain,scripture:{book,chapter,verse,translation:'KJV',excerpt,url:`https://www.kingjamesbibleonline.org/${book.replaceAll(' ','-')}-${chapter}-${verse}/`},review:{status:'verified',reviewedOn:'2026-10-24',basis:'explicit-passage',rationale:explain,contentFingerprint:null}});
+const record=(id,topic,q,options,answer,book,chapter,verse,explain,excerpt,difficulty=1)=>({id,topic,category:topic,difficulty,q,options,answer,correctAnswer:options[answer],explain,scripture:{book,chapter,verse,translation:'KJV',excerpt,url:`https://www.kingjamesbibleonline.org/${book.replaceAll(' ','-')}-${chapter}-${verse}/`},review:{status:'verified',reviewedOn:'2026-10-24',basis:'explicit-passage',rationale:explain,contentFingerprint:null}});
 export const questions=[
  record('sabbath-day','THE COMMANDMENTS','Which day does Exodus 20 call the Sabbath of the LORD?',['The first day','The seventh day','The third day','The sixth day'],1,'Exodus',20,10,'Exodus 20:10 identifies the seventh day as the Sabbath of the LORD.','But the seventh day is the sabbath of the LORD thy God'),
  record('wisdom-soul','WISDOM OF SOLOMON','Into what kind of soul does Wisdom of Solomon 1:4 say wisdom will not enter?',['A sorrowful soul','A patient soul','A humble soul','A malicious soul'],3,'Wisdom of Solomon',1,4,'The passage explicitly says wisdom will not enter a malicious soul.','For into a malicious soul wisdom shall not enter'),
@@ -13,8 +14,12 @@ export const questions=[
  record('receive-commandments','PROVERBS','According to Proverbs 10:8, what will the wise in heart receive?',['Riches','Commandments','Fame','An easy life'],1,'Proverbs',10,8,'Proverbs 10:8 states that the wise in heart will receive commandments.','The wise in heart will receive commandments'),
  record('enemy-falls','PROVERBS','What does Proverbs 24:17 warn against when your enemy falls?',['Remembering wisdom','Keeping silent','Searching your heart','Rejoicing at their fall'],3,'Proverbs',24,17,'The verse forbids rejoicing when an enemy falls or being glad when that person stumbles.','Rejoice not when thine enemy falleth')
 ];
+questions.forEach((q,i)=>{q.difficulty=[1,2,2,1,1,1,1,2,1,2][i]});
+questions.push(...additions.map(row=>record(...row)));
+const wise=questions.find(q=>q.id==='wise-count');wise.scripture.endVerse=12;wise.scripture.url='https://www.kingjamesbibleonline.org/Matthew-Chapter-2/';
 // Fixed after passage review; publishing must not silently regenerate these approvals.
-const approvals={"sabbath-day":"a2f2732d","wisdom-soul":"d99b90a0","hear-first":"f2c832ab","unleavened-days":"dc33b37f","honor-parents":"6b3c8859","guard-heart":"fe40d69f","trust-lord":"7b38f6a3","hope-deferred":"c1816958","receive-commandments":"c38d4dbc","enemy-falls":"4c4c2314"};
+const approvals={"sabbath-day":"6e050359","wisdom-soul":"d15b2f13","hear-first":"bddb18ed","unleavened-days":"b628e231","honor-parents":"7f1e46ed","guard-heart":"cc1a52a3","trust-lord":"8486a993","hope-deferred":"5a547567","receive-commandments":"07dca6cc","enemy-falls":"1d3f3057","moses-brother":"4c41b479","jonah-days":"4bb0fa3f","creation-rest":"ab73a11c","spirit-sword":"1bffde9e","wise-count":"c0ae0c26","wise-house":"18a750c0","david-stones":"d4b5ea14","antioch-name":"0c9d8e21","vengeance":"83d1787b","city-descends":"d618ddb8","raphael":"e04cdb11","learned-leisure":"27bcc951","esdras-comparison":"91970bad","law-prophets-psalms":"06e6c385","salem-meaning":"ec6a1492","weightier-matters":"e8606a36","measure-number-weight":"d0cc95b2","apollos-origin":"f435403f","lydia-city":"8046ce7f","sychar":"5496a7ae"};
 questions.forEach(q=>{q.review.contentFingerprint=approvals[q.id]});
 validateQuestions(questions);
-export const scriptureReference=q=>`${q.scripture.book} ${q.scripture.chapter}:${q.scripture.verse} (KJV)`;
+export const difficultyCounts=[1,2,3].map(difficulty=>({difficulty,count:questions.filter(q=>q.difficulty===difficulty).length}));
+export const scriptureReference=q=>`${q.scripture.book} ${q.scripture.chapter}:${q.scripture.verse}${q.scripture.endVerse?'–'+q.scripture.endVerse:''} (KJV)`;
