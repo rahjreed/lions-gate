@@ -1,3 +1,5 @@
+import {focusTags} from './focus-questions.js';
+import {contentFingerprint} from './question-rules.js';
 export const VERSION=3;
 export function rankFor(completed=0){
  const level=completed+1;
@@ -14,15 +16,24 @@ export function levelConfig(level){const difficulty=level<2?1:level<5?2:3;return
 export function shuffled(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 export function selectQuestions(bank,run,random=Math.random){
  const config=levelConfig(run.level),used=run.history||{};
- // Least-seen first prevents repetition until the verified bank has been encountered.
- // After exhaustion, least-recent exposure spaces approved questions across levels.
- const eligible=bank.filter(q=>q.difficulty<=config.difficulty);
- return shuffled(eligible.length>=10?eligible:bank,random).sort((a,b)=>{
+ const approved=bank.filter(q=>q.review?.status==='verified'&&q.review.contentFingerprint===contentFingerprint(q));
+ const eligible=approved.filter(q=>q.difficulty<=config.difficulty);
+ const pool=shuffled(eligible.length>=10?eligible:approved,random).sort((a,b)=>{
   const x=used[a.id]||{count:0,last:-1},y=used[b.id]||{count:0,last:-1};
   return x.count-y.count || (x.count?x.last-y.last:0) ||
-   (config.boss?(Number(b.category==='Tradition Traps')-Number(a.category==='Tradition Traps')):0) ||
    Math.abs(a.difficulty-config.difficulty)-Math.abs(b.difficulty-config.difficulty);
- }).slice(0,10).map(q=>({id:q.id,order:shuffled([0,1,2,3],random)}));
+ });
+ if(pool.length<10)throw Error('At least ten passage-approved questions are required.');
+ const selected=[],focus=q=>q.tags.some(t=>focusTags.includes(t));
+ const take=(predicate,n)=>{for(const q of pool){if(n<=0)break;if(!selected.includes(q)&&predicate(q)){selected.push(q);n--}}};
+ // Trap quota is part of the seven focus slots, never an additional score rule.
+ const types=shuffled(['tradition','context','misquote'],random),target=config.boss?3:2;
+ for(const type of types.slice(0,target))take(q=>focus(q)&&q.trapType===type,1);
+ take(q=>focus(q)&&q.trapType,target-selected.length);
+ take(focus,7-selected.filter(focus).length);
+ take(q=>!focus(q),10-selected.length);
+ take(()=>true,10-selected.length);
+ return shuffled(selected,random).map(q=>({id:q.id,order:shuffled([0,1,2,3],random)}));
 }
 export function createRun(bank,nickname='PLAYER 1',random=Math.random){
  const run={version:VERSION,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:3,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};

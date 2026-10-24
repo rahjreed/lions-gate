@@ -1,4 +1,5 @@
 import {additions} from './extra-questions.js';
+import {focusQuestions,tagsById,trapsById} from './focus-questions.js';
 import {validateQuestions} from './question-rules.js';
 // Each record is reviewed against the passage, independently of research documents.
 const record=(id,topic,q,options,answer,book,chapter,verse,explain,excerpt,difficulty=1)=>({id,topic,category:topic,difficulty,q,options,answer,correctAnswer:options[answer],explain,scripture:{book,chapter,verse,translation:'KJV',excerpt,url:`https://www.kingjamesbibleonline.org/${book.replaceAll(' ','-')}-${chapter}-${verse}/`},review:{status:'verified',reviewedOn:'2026-10-24',basis:'explicit-passage',rationale:explain,contentFingerprint:null}});
@@ -16,9 +17,11 @@ export const questions=[
 ];
 questions.forEach((q,i)=>{q.difficulty=[1,2,2,1,1,1,1,2,1,2][i]});
 questions.push(...additions.map(row=>record(...row)));
+questions.push(...focusQuestions.map(row=>record(...row)));
+questions.forEach(q=>{q.tags=tagsById[q.id]||['general'];q.trapType=trapsById[q.id]?.[0]||null;q.trap=q.trapType?{correction:trapsById[q.id][1]}:null;});
 const wise=questions.find(q=>q.id==='wise-count');wise.scripture.endVerse=12;wise.scripture.url='https://www.kingjamesbibleonline.org/Matthew-Chapter-2/';
 // Fixed after passage review; publishing must not silently regenerate these approvals.
-const approvals={"sabbath-day":"6e050359","wisdom-soul":"d15b2f13","hear-first":"bddb18ed","unleavened-days":"b628e231","honor-parents":"7f1e46ed","guard-heart":"cc1a52a3","trust-lord":"8486a993","hope-deferred":"5a547567","receive-commandments":"07dca6cc","enemy-falls":"1d3f3057","moses-brother":"4c41b479","jonah-days":"4bb0fa3f","creation-rest":"ab73a11c","spirit-sword":"1bffde9e","wise-count":"c0ae0c26","wise-house":"18a750c0","david-stones":"d4b5ea14","antioch-name":"0c9d8e21","vengeance":"83d1787b","city-descends":"d618ddb8","raphael":"e04cdb11","learned-leisure":"27bcc951","esdras-comparison":"91970bad","law-prophets-psalms":"06e6c385","salem-meaning":"ec6a1492","weightier-matters":"e8606a36","measure-number-weight":"d0cc95b2","apollos-origin":"f435403f","lydia-city":"8046ce7f","sychar":"5496a7ae"};
+const approvals={"sabbath-day":"7c986c3e","wisdom-soul":"e4fa7767","hear-first":"5ae89fb9","unleavened-days":"b72d279f","honor-parents":"ac2eed2d","guard-heart":"aba0a8d7","trust-lord":"02ecbde7","hope-deferred":"327aeb63","receive-commandments":"746970d6","enemy-falls":"3ffad6f3","moses-brother":"9cccf8fd","jonah-days":"34c5a76b","creation-rest":"1df3e3dc","spirit-sword":"4cdaeaee","wise-count":"d7e69f5f","wise-house":"c28d9d5c","david-stones":"182e033d","antioch-name":"de1a9415","vengeance":"c7f264b9","city-descends":"db534728","raphael":"afedc725","learned-leisure":"ef0c08e5","esdras-comparison":"238b60f9","law-prophets-psalms":"0b10671c","salem-meaning":"3c80d4ea","weightier-matters":"d80edb6d","measure-number-weight":"cb50a78a","apollos-origin":"c8a93d6b","lydia-city":"30d4532b","sychar":"be01581e","land-animals":"e96b8020","water-creatures":"b68e5125","six-days":"a26aa2df","love-commandments":"e2b6716f","hands-complaint":"5e180cfb","hands-conclusion":"86c2c45a","establish-law":"ab3594da","doers-word":"07af7626","command-tradition":"f563c7c1","grace-sin":"3e447ffd","keeping-commandments":"246ed5f7","teach-children":"e98e7405"};
 questions.forEach(q=>{q.review.contentFingerprint=approvals[q.id]});
 validateQuestions(questions);
 export const difficultyCounts=[1,2,3].map(difficulty=>({difficulty,count:questions.filter(q=>q.difficulty===difficulty).length}));

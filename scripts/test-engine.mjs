@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {questions} from '../dist/questions.js';
 import {createRun,submit,advance,nextLevel,rankFor,levelConfig,selectQuestions,usePower,validRun,leaderboardSort,weekStart} from '../dist/engine.js';
-const bank=questions.map((q,i)=>({...q,difficulty:i%3+1,category:q.topic}));
+const bank=questions;
 const random=()=>.42;
 let r=createRun(bank,'TEST',random);assert.equal(r.lives,3);assert.equal(validRun(JSON.parse(JSON.stringify(r)),bank),true);
 for(let i=0;i<10;i++){const q=bank.find(q=>q.id===r.queue[r.index].id);assert.equal(submit(r,bank,q.answer),true);assert.equal(submit(r,bank,q.answer),false);advance(r,bank)}
