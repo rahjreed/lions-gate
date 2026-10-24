@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Local audio waveform verification</title><style>body{font:16px monospace;background:#102033;color:#def;padding:30px}button{padding:14px;font:inherit}pre{white-space:pre-wrap;line-height:1.6}</style><h1>Original SFX waveform verification</h1><p>Local QA only. Renders the production audio patches through the browser’s real Web Audio engine.</p><button id="run">Run waveform checks</button><pre id="results" role="status">Ready</pre><script type="module">
+import {ArcadeAudio,patches} from '../dist/audio.js';
+document.querySelector('#run').onclick=async()=>{
+ const output=document.querySelector('#results');output.textContent='Rendering…';let lines=[];
+ try{for(const name of Object.keys(patches)){
+  const offline=new OfflineAudioContext(1,72000,48000);
+  const adapter={state:'running',currentTime:0,destination:offline.destination,createGain:()=>offline.createGain(),createOscillator:()=>offline.createOscillator()};
+  const a=new ArcadeAudio({contextFactory:()=>adapter});a.configure(true,false);await a.effect(name);
+  const buffer=await offline.startRendering();const data=buffer.getChannelData(0);let energy=0,peak=0;for(const v of data){energy+=v*v;peak=Math.max(peak,Math.abs(v))}const rms=Math.sqrt(energy/data.length);
+  if(rms<.0001||peak>=1)throw Error(`${name}: silent or clipped`);
+  lines.push(`PASS ${name}: RMS ${rms.toFixed(5)}, peak ${peak.toFixed(4)}`);
+ }
+ const offline=new OfflineAudioContext(1,4800,48000);const adapter={state:'running',currentTime:0,destination:offline.destination,createGain:()=>offline.createGain(),createOscillator:()=>offline.createOscillator()};
+ const muted=new ArcadeAudio({contextFactory:()=>adapter});muted.configure(false,false);await muted.effect('correct');const buffer=await offline.startRendering();if(buffer.getChannelData(0).some(v=>v!==0))throw Error('Muted output is not silent');
+ lines.push('PASS muted output: digital silence','ALL 15 CHECKS PASSED');output.textContent=lines.join('\n');
+ }catch(e){output.textContent=lines.join('\n')+'\nFAIL '+e.message}
+};
+</script></html>

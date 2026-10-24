@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {ArcadeAudio,patches} from '../dist/audio.js';
+class Param{constructor(){this.value=1;this.events=[]}setValueAtTime(...a){this.events.push(['set',...a])}linearRampToValueAtTime(...a){this.events.push(['linear',...a])}exponentialRampToValueAtTime(...a){this.events.push(['exp',...a])}}
+class Node{constructor(){this.gain=new Param();this.frequency=new Param();this.connections=[];this.stopped=0}connect(n){this.connections.push(n)}disconnect(){this.connections=[]}start(at){this.started=at}stop(at){this.stopped++;this.stopAt=at}}
+class Context{constructor(){this.state='suspended';this.currentTime=4;this.destination={};this.oscillators=[];this.resumeCount=0}async resume(){this.resumeCount++;this.state='running'}createGain(){return new Node()}createOscillator(){const n=new Node();this.oscillators.push(n);return n}}
+const c=new Context(),reports=[],a=new ArcadeAudio({contextFactory:()=>c,onState:s=>reports.push(s)});
+assert.equal(await a.effect('correct'),false);assert.equal(c.oscillators.length,0);
+a.configure(true,false);for(const name of Object.keys(patches)){const before=c.oscillators.length;assert.equal(await a.effect(name),true);assert.equal(c.oscillators.length-before,patches[name].length);for(const o of c.oscillators.slice(before)){assert.ok(o.stopAt>o.started);assert.ok(o.connections[0].connections.includes(a.sfxBus));}}
+assert.equal(c.state,'running');assert.equal(a.playCount,Object.keys(patches).length);
+const beforeMute=c.oscillators.length;a.configure(false,false);assert.equal(a.sfxBus.gain.events.at(-1)[1],0);assert.equal(a.voices.size,0);assert.equal(await a.effect('next'),false);assert.equal(c.oscillators.length,beforeMute);
+a.configure(true,false);await a.effect('select');assert.ok(c.oscillators.length>beforeMute);assert.equal(reports.at(-1).effect,'select');
+const d=new Context();let release;d.resume=()=>new Promise(resolve=>{release=()=>{d.state='running';resolve()}});const delayed=new ArcadeAudio({contextFactory:()=>d});delayed.configure(true,false);const pending=delayed.effect('correct');delayed.configure(false,false);release();assert.equal(await pending,false);assert.equal(d.oscillators.length,0);
+const bad=new ArcadeAudio({contextFactory:()=>{throw Error('No audio device')}});bad.configure(true,false);assert.equal(await bad.effect('correct'),false);
+const musicContext=new Context();let releaseMusic;musicContext.resume=()=>new Promise(resolve=>{releaseMusic=()=>{musicContext.state='running';resolve()}});const musicRace=new ArcadeAudio({contextFactory:()=>musicContext});musicRace.configure(true,true,true);musicRace.configure(true,true,false);releaseMusic();await Promise.resolve();await Promise.resolve();assert.equal(musicRace.loop,null);musicRace.configure(false,false,false);
+for(const [name,patch] of Object.entries(patches)){assert.ok(patch.length<=8,name);for(const [f,d,t,delay,v,end] of patch){assert.ok(f>=40&&f<2000);assert.ok(d>0&&d<=.5);assert.ok(delay>=0&&delay<=.6);assert.ok(v>0&&v<=.1);assert.ok(['square','triangle','sawtooth'].includes(t));if(end)assert.ok(end>0)}}
+a.configure(false,false);console.log('PASS audio: all 14 original cues schedule envelopes/oscillators, suspended-context resume, immediate mute, no muted nodes, re-enable, mute-during-resume race, unavailable-audio fallback, bounded patches.');
