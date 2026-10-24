@@ -1,0 +1,16 @@
+{
+  "name": "lions-gate-sword-sharpener",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The static Scripture arcade and Judah adventure game.",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node scripts/build-site.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

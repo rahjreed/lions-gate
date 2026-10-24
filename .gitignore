@@ -1,0 +1,8 @@
+node_modules/
+.vercel/
+.env
+.env.*
+*.log
+__pycache__/
+
+# dist is the checked-in game, not disposable generated output.
