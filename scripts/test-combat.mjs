@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {opponentFor} from '../dist/opponents.js';
 import {CombatDirector,combatFrames,combatDuration,defeatStart,defeatDuration,combatHealth,combatHealthMarkup} from '../dist/combat.js';
 import {createRun,submit,advance,nextLevel,usePower} from '../dist/engine.js';
 import {questions} from '../dist/questions.js';
@@ -36,7 +37,7 @@ for(const outcome of ['correct','wrong','timeout','shield']){
  assert.equal(submit(run,questions,choice),false);assert.deepEqual(combatHealth(run),expected,'Duplicate events cannot subtract HP');
  assert.deepEqual(run,result,'Health rendering cannot change engine/save state');
  assert.match(combatHealthMarkup(run),/aria-label="JUDAH health"/);
- assert.match(combatHealthMarkup(run),/aria-label="ROMAN GUARD health"/);
+ assert.ok(combatHealthMarkup(run).includes(`aria-label="${opponentFor(run.level).name} health"`));
 }
 // An imperfect clear retains enemy health; next level resets only the enemy.
 const imperfect=createRun(questions);

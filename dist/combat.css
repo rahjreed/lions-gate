@@ -31,3 +31,8 @@
 @media(prefers-reduced-motion:reduce){.game-scene .judah,.roman-soldier{translate:none!important;filter:none!important}}
 @media(max-width:700px){.combat-health{padding:8px;gap:6px 12px}.health-label{font-size:7px;letter-spacing:.3px;gap:4px}.health-value{font-size:7px}.health-track{height:13px}.combat-health>small{font-size:6px;letter-spacing:0}}
 @media(prefers-reduced-motion:reduce){.roman-sprite,.game-scene[data-combat=defeat] .roman-soldier,.health-fill{animation:none!important}.health-fill,.health-lag{transition:none}}
+
+/* Long opponent titles wrap without squeezing or covering the health value. */
+.health-label{align-items:flex-end;min-height:26px}.health-label b{min-width:0;overflow-wrap:anywhere}.health-value{flex-shrink:0}
+.health-enemy .health-label b{font-size:10px;line-height:1.5}
+@media(max-width:700px){.health-enemy .health-label b{font-size:9px}}
