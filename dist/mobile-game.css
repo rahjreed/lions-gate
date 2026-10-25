@@ -1,0 +1,63 @@
+/* Installation controls are shown only when a native prompt is available. */
+[hidden]{display:none!important}
+.install-panel{max-width:1120px;margin:0 auto;padding:0 20px 16px;text-align:center}
+.install-panel:not(:has(#install-game:not([hidden]),#ios-install:not([hidden]),#offline-status:not(:empty))){display:none}
+#install-game{min-height:44px}
+#ios-install,#offline-status{font:12px/1.6 Arial,sans-serif;color:var(--muted);margin:10px auto;max-width:520px}
+#offline-status:empty{display:none}
+body.gameplay .install-panel{display:none}
+body{padding-bottom:env(safe-area-inset-bottom)}
+header{padding-top:max(12px,env(safe-area-inset-top));padding-left:max(17px,env(safe-area-inset-left));padding-right:max(17px,env(safe-area-inset-right))}
+.answer-reveal{max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px)}
+@media(max-width:760px){
+ html:has(body.gameplay){scrollbar-gutter:auto}
+ body.gameplay{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);overflow-x:hidden;overflow-y:auto}
+ body.gameplay.game-fit{overflow:hidden;overscroll-behavior:none}
+ body.gameplay>header{flex:none;min-height:44px;padding:0 8px;gap:6px}
+ body.gameplay>header #brand{font-size:9px;letter-spacing:0;gap:4px}
+ body.gameplay>header #brand>span{font-size:16px}
+ body.gameplay>header small{display:none}
+ body.gameplay>header button{min-height:44px;min-width:44px;padding:6px;font-size:8px;letter-spacing:0}
+ body.gameplay>footer{display:none}
+ body.gameplay #app{flex:1;min-height:0;width:100%;max-width:620px;padding:4px 9px 7px;display:flex;flex-direction:column;gap:5px}
+ body.gameplay .hud{flex:none;padding:5px 8px;gap:6px;grid-template-columns:1.1fr .65fr 1fr .7fr;box-shadow:none}
+ body.gameplay .hud>div:first-child{display:none}
+ body.gameplay .hud small{font-size:7px;letter-spacing:0;margin-bottom:3px}
+ body.gameplay .hud strong{font-size:9px;letter-spacing:0;overflow-wrap:anywhere}
+ body.gameplay .hud .hearts{font-size:17px!important}
+ body.gameplay .rank-strip{flex:none;min-height:32px;padding:0;gap:5px;flex-wrap:nowrap;font-size:8px}
+ body.gameplay .rank-strip>span:first-child{font-size:9px;min-width:0}
+ body.gameplay .rank-strip>span:nth-child(2),body.gameplay .rank-strip progress{display:none}
+ body.gameplay .rank-strip .tiny{margin-left:auto;min-width:62px;min-height:44px;padding:4px;font-size:9px}
+ body.gameplay .combat-health{flex:none;margin:0;padding:4px 6px;gap:0 10px;box-shadow:none}
+ body.gameplay .health-label{min-height:18px;line-height:1.3;margin-bottom:3px}
+ body.gameplay .health-label b{font-size:9px;line-height:1.3;letter-spacing:0}
+ body.gameplay .health-track{height:10px}
+ body.gameplay .combat-health>small{display:none}
+ body.gameplay .game-scene{flex:none;height:clamp(90px,18dvh,150px);container-type:size}
+ body.gameplay .game-scene .scene-status{padding:5px 8px}
+ body.gameplay .scene-status>span{font-size:7px;line-height:1.4;max-width:48%}
+ body.gameplay .scene-status>span b{display:none}
+ body.gameplay .game-scene .scene-status>.judah{width:60cqh;left:calc(50% - 53cqh);bottom:0}
+ body.gameplay .roman-soldier{width:100cqh;height:100cqh;left:calc(50% - 12cqh);bottom:-4cqh}
+ body.gameplay .boss-health{width:90px;font-size:6px}
+ body.gameplay .boss-health>div{margin-top:4px;gap:2px}
+ body.gameplay .boss-health i{height:7px}
+ body.gameplay .question-panel{flex:1 0 auto;display:flex;flex-direction:column;padding:8px;min-height:min-content;box-shadow:inset 0 2px #b7bfd04d;border-top-width:2px}
+ body.gameplay .question-meta{font-size:8px;letter-spacing:0;gap:6px;align-items:center;flex:none}
+ body.gameplay .question-meta>span:first-child>b,body.gameplay .trap-label,body.gameplay .difficulty{display:none}
+ body.gameplay .clock b{font-size:13px}
+ body.gameplay .time-track{flex:none;margin:6px 0 8px;height:3px}
+ body.gameplay .question-panel h1{flex:none;font-size:clamp(16px,4.5vw,20px);line-height:1.25;letter-spacing:0;margin:0 0 8px;overflow-wrap:anywhere}
+ body.gameplay .answers{flex:1;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(48px,auto);gap:6px}
+ body.gameplay .answer{min-width:0;min-height:48px;padding:7px 5px;gap:5px;box-shadow:inset 0 2px #a4b5cf24}
+ body.gameplay .answer>span:first-child{width:20px;height:24px;font-size:8px}
+ body.gameplay .answer>strong{font-size:14px;line-height:1.3;overflow-wrap:anywhere}
+ body.gameplay .answer>b{font-size:12px}
+ body.gameplay .power-row{flex:none;flex-wrap:nowrap;gap:5px;padding-top:7px}
+ body.gameplay .power-row>span{display:none}
+ body.gameplay .power{flex:1;min-width:0;min-height:44px;font-size:9px;padding:6px 2px}
+ body.gameplay .controls-hint{display:none}
+ body.gameplay #storage-warning{flex:none;font-size:12px;margin:0;padding:6px}
+ .pause-overlay{padding:max(12px,env(safe-area-inset-top)) 12px max(12px,env(safe-area-inset-bottom));overflow-y:auto}
+}

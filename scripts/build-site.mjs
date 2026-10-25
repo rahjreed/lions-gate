@@ -1,7 +1,8 @@
 // The game is already authored in dist/. Validate it in place; do not run Vite
 // against dist/ (that would treat the checked-in game as disposable output).
 import assert from 'node:assert/strict';
-import {readFile,readdir,stat} from 'node:fs/promises';
+import {readFile,readdir,stat,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import {resolve,relative,dirname,extname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
@@ -38,6 +39,15 @@ async function checkText(text,from){
  for(const pattern of patterns)for(const match of text.matchAll(pattern))await checkReference(match[1],from);
 }
 async function walk(dir){let files=[];for(const item of await readdir(dir,{withFileTypes:true})){const path=resolve(dir,item.name);files.push(...item.isDirectory()?await walk(path):[path])}return files}
+// Revision the entire offline shell, including every rank/arena/journey asset.
+// A failed install never replaces the previous complete version.
+const shell=(await walk(output)).filter(file=>file!==resolve(output,'sw.js')).sort();
+const template=await readFile(resolve(root,'scripts/service-worker.template.js'),'utf8');
+const digest=createHash('sha256').update(template);
+for(const file of shell)digest.update(relative(output,file)).update(await readFile(file));
+const revision=digest.digest('hex').slice(0,20);
+const worker=template.replace('__REVISION__',revision).replace('__FILES__',JSON.stringify(shell.map(file=>'./'+relative(output,file).split(sep).join('/'))));
+await writeFile(resolve(output,'sw.js'),worker);
 const files=await walk(output);
 assert.ok(files.includes(resolve(output,'index.html')),'dist/index.html is required.');
 for(const file of files){
@@ -50,9 +60,9 @@ for(const completed of [0,5,15,30,50,60,10000])for(const pose of ['idle','ready'
 for(let env=0;env<5;env++)await checkText(landscape(env),virtual);
 await checkText(sword+symbolicGate({broken:5}),virtual);
 for(const [slug] of journeyLocations)for(const plane of ['sky','far','near'])await checkReference(`assets/console/journey-${slug}-${plane}.png`,virtual);
-for(const name of ['validate-content','test-engine','test-storage','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal','test-combat','test-opponents']){
+for(const name of ['validate-content','test-engine','test-storage','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal','test-combat','test-opponents','test-pwa']){
  const result=spawnSync(process.execPath,[`scripts/${name}.mjs`],{cwd:root,stdio:'inherit'});
  assert.equal(result.status,0,`${name} failed.`);
 }
-console.log(`Build ready: ${files.length} files in dist/, ${references.size} local asset/module references checked. Game files left unchanged.`);
+console.log(`Build ready: ${files.length} files in dist/, ${references.size} local asset/module references checked; offline revision ${revision}.`);
 

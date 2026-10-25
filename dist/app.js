@@ -1,3 +1,4 @@
+import {setGameLayout} from './mobile-game.js';
 import {opponentFor} from './opponents.js';
 import {CombatDirector,romanSoldier,paintCombat,combatHealth,combatHealthMarkup,updateCombatHealth} from './combat.js';
 import {AnswerReveal,answerRevealMarkup} from './answer-reveal.js';
@@ -72,6 +73,7 @@ function render(deferReveal=false){
  juice.clear();
  updateAudioControls();
  app.innerHTML=view==='journey'?journeyScreen():view==='title'?titleScreen():view==='hall'?hallScreen():view==='guide'?guideScreen():view==='armory'?armoryScreen():run?.status==='levelup'||run?.status==='gameover'?resultScreen():questionScreen();
+ setGameLayout(view==='game'&&['playing','feedback'].includes(run?.status));
  if(paused)app.insertAdjacentHTML('beforeend',pauseScreen());
  app.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>choose(Number(b.dataset.answer)));
  app.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>act(b.dataset.action));
