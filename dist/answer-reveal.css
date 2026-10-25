@@ -1,0 +1,20 @@
+/* The reveal lives in the browser's top layer, outside the question layout. */
+html{scrollbar-gutter:stable}html.answer-reveal-open{overflow:hidden}
+.answer-reveal{--reveal-accent:#b7e6ae;width:min(640px,calc(100vw - 32px));max-width:none;max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:0;overflow:hidden;color:var(--white);background:#19253a;border:2px solid #8d9cb0;border-top-color:var(--reveal-accent);box-shadow:inset 2px 2px #bdc9d32b,inset -2px -3px #070f22,0 0 0 3px #0c1427,0 0 0 4px #56627b,0 12px 0 #050a1480;overscroll-behavior:contain;animation:reveal-window-in .22s steps(5,end) both}
+.answer-reveal[open]{display:grid;grid-template-rows:auto minmax(0,1fr) auto}
+.answer-reveal::backdrop{background:#080f1e99;animation:reveal-backdrop-in .16s steps(4,end) both}
+.answer-reveal.reveal-incorrect{--reveal-accent:#f1a1ab}
+.answer-reveal .reveal-heading{width:100%;max-width:none;margin:0;padding:23px 26px 18px;display:flex;justify-content:flex-start;align-items:flex-start;gap:15px;border-bottom:1px solid #6d7d925e;background:#233149}
+.reveal-heading .feedback-icon{color:var(--reveal-accent);font:30px/1.2 var(--mono);flex-shrink:0}
+.reveal-heading h2{margin:0;color:var(--reveal-accent);font:16px/1.7 var(--pixel);overflow-wrap:anywhere}
+.reveal-reward{margin:7px 0 0;color:#bacbd9;font:10px/1.8 var(--mono);letter-spacing:.6px}
+.reveal-copy{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:22px 26px;font:15px/1.8 'DM Sans',Arial,sans-serif;overflow-wrap:anywhere;scroll-padding:12px}
+.reveal-copy:focus-visible{outline:2px solid var(--cyan);outline-offset:-5px}
+#reveal-answer{margin:0 0 12px}#reveal-answer small{display:block;margin-bottom:7px;color:#a4b9cc;font:9px/1.6 var(--mono);letter-spacing:1.5px}#reveal-answer strong{font-size:21px;color:#f6ecd4;line-height:1.5}
+.reveal-copy .scripture-confirmation{font:11px/1.9 var(--mono);color:#a9e2d9;margin:0 0 18px;border-bottom:1px solid #78aaa15c;padding-bottom:5px}
+.reveal-explanation{margin:0 0 15px;white-space:pre-line}.reveal-copy .trap-check{font-size:13px;margin:0;line-height:1.85}
+.answer-reveal .reveal-footer{width:100%;max-width:none;margin:0;padding:17px 26px 22px;border-top:1px solid #6d7d925e;display:flex;flex-direction:column;align-items:center;gap:12px;background:#162136}
+.reveal-footer>span{font:8px/1.7 var(--mono);letter-spacing:1px;color:#b0c2d3}.reveal-footer .button{width:100%;min-height:52px;font-size:11px;margin:0}
+@keyframes reveal-window-in{from{opacity:0;transform:translateY(9px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes reveal-backdrop-in{from{opacity:0}to{opacity:1}}
+@media(max-width:560px){.answer-reveal{width:calc(100vw - 24px);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px)}.answer-reveal .reveal-heading{padding:18px 18px 14px;gap:11px}.reveal-heading h2{font-size:12px}.reveal-heading .feedback-icon{font-size:25px}.reveal-reward{font-size:9px;letter-spacing:0}.reveal-copy{padding:18px;font-size:14px;line-height:1.8}#reveal-answer strong{font-size:19px}.reveal-copy .scripture-confirmation{font-size:11px!important}.answer-reveal .reveal-footer{padding:13px 18px 18px;gap:9px}}
+@media(prefers-reduced-motion:reduce){.answer-reveal,.answer-reveal::backdrop{animation:none!important}}
