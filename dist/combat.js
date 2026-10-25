@@ -61,7 +61,7 @@ export class CombatDirector{
  cancel(){this.generation++;this.timers.forEach(this.clearTimer);this.timers=[];this.active=false}
 }
 
-export function paintCombat(scene,frame,completed){
+export function paintCombat(scene,frame,completed,equipment=[]){
  if(!scene)return;
  scene.dataset.combat=frame.phase;scene.dataset.outcome=frame.correct?'correct':'wrong';
  const soldier=scene.querySelector('.roman-soldier');
@@ -70,7 +70,7 @@ export function paintCombat(scene,frame,completed){
  const sprite=scene.querySelector('.roman-sprite');
  sprite.style.backgroundPosition=`${frame.enemy%3*50}% ${Math.floor(frame.enemy/3)*100}%`;
  const hero=scene.querySelector('.scene-status>.judah');
- if(frame.phase==='windup'&&frame.correct)hero.outerHTML=judah(completed,'slash',false);
- if(frame.phase==='impact'&&!frame.correct)hero.outerHTML=judah(completed,'recoil',false);
- if(frame.phase==='ready'||frame.heroReady)hero.outerHTML=judah(completed,'ready',false);
+ if(frame.phase==='windup'&&frame.correct)hero.outerHTML=judah(completed,'slash',false,equipment);
+ if(frame.phase==='impact'&&!frame.correct)hero.outerHTML=judah(completed,'recoil',false,equipment);
+ if(frame.phase==='ready'||frame.heroReady)hero.outerHTML=judah(completed,'ready',false,equipment);
 }

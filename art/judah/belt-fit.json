@@ -1,0 +1,3202 @@
+{
+  "judah-novice.png": {
+    "sourceHash": "8ef1f476f701f6e4a9eeb360f5e086bb6405c51bba67ca465a5474a1a0b64211",
+    "frames": [
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "2d00aff58ef3b1e926889252b9f4dc5d28fbcf0a17cbc818d695d5bfc4829058"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "2d00aff58ef3b1e926889252b9f4dc5d28fbcf0a17cbc818d695d5bfc4829058"
+      },
+      {
+        "bounds": [
+          66,
+          149,
+          125,
+          164
+        ],
+        "hash": "a29c011b289a27326d50918d5c7c8ad41b8b5d265e5090b89884d2278540bd97"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "2d00aff58ef3b1e926889252b9f4dc5d28fbcf0a17cbc818d695d5bfc4829058"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "9b46e79510976f92ac8f39856b3f02d82590c8418d4773b7f3349714825673d7"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "9b46e79510976f92ac8f39856b3f02d82590c8418d4773b7f3349714825673d7"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "448fa05393e41b139a67900d509c63d4b0ca1215b1f9903e2bea3fde94bb57ca"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "9b46e79510976f92ac8f39856b3f02d82590c8418d4773b7f3349714825673d7"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "b25bea81c44ed730db7a5a82f79bb7d2a650c278c98162785d247e90a8d042bb"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "b25bea81c44ed730db7a5a82f79bb7d2a650c278c98162785d247e90a8d042bb"
+      },
+      {
+        "bounds": [
+          66,
+          161,
+          125,
+          176
+        ],
+        "hash": "7231ac02192d458a59909a6eabd3696cd94cbfa1a24825aa8fb64f4dc3416730"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "b25bea81c44ed730db7a5a82f79bb7d2a650c278c98162785d247e90a8d042bb"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "3f904b49127d8a31ec781db8abb5f8f765dd1a84d8c894696d9c6bee3e270509"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "3f904b49127d8a31ec781db8abb5f8f765dd1a84d8c894696d9c6bee3e270509"
+      },
+      {
+        "bounds": [
+          66,
+          183,
+          125,
+          198
+        ],
+        "hash": "8f86e75a35e1f7e263f61c29ae10ea453a8d16340c87deb89f7401117af6f564"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "3f904b49127d8a31ec781db8abb5f8f765dd1a84d8c894696d9c6bee3e270509"
+      }
+    ]
+  },
+  "judah-novice-adventure.png": {
+    "sourceHash": "83cdec849d6cf9c224e580bc0be4b4b9128ff8a1ec41195dc8c92aea6aeb9203",
+    "frames": [
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7b946559dcb6f23f9c96efeb0a8018c1e96f2614842e5ee4da3f3f34da129ce6"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b4c3750a49369af5f234c8750e0bfce7c80b775069bcd7ffff466d690647e939"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "f16ae06b385d8a290dc2cf200a0f363a02631fc48f78c1432cc3f46c926830b3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3a582ccfc398351e0f470717df394759d041f8b6f8a0642e1ee5769b73763fc9"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "98e8a9fbdec157a8fd7800d2303b14b7ed909d1a3df291c2f4713ef512b0d84c"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "07bb9ceb921d2d3994a763562668f9ae35cb23d91465a16241c091f9541c64f5"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "07bb9ceb921d2d3994a763562668f9ae35cb23d91465a16241c091f9541c64f5"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7b946559dcb6f23f9c96efeb0a8018c1e96f2614842e5ee4da3f3f34da129ce6"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b4c3750a49369af5f234c8750e0bfce7c80b775069bcd7ffff466d690647e939"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "f16ae06b385d8a290dc2cf200a0f363a02631fc48f78c1432cc3f46c926830b3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3a582ccfc398351e0f470717df394759d041f8b6f8a0642e1ee5769b73763fc9"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "98e8a9fbdec157a8fd7800d2303b14b7ed909d1a3df291c2f4713ef512b0d84c"
+      },
+      {
+        "bounds": [
+          85,
+          235,
+          125,
+          250
+        ],
+        "hash": "665e5c2cb6ef59776e8b9b46859eac890febee773a096e95c0496d49f89747da"
+      },
+      {
+        "bounds": [
+          78,
+          237,
+          122,
+          252
+        ],
+        "hash": "d0e40f929e4b313ec45ba1dccbdfdd1b561b9655f1021ac67612dffd4281f36d"
+      },
+      {
+        "bounds": [
+          81,
+          232,
+          114,
+          249
+        ],
+        "hash": "65cbafe487a3abc77eb5668067f24008b2eb7f9bf2adac1bf1e6fa28f74b20d9"
+      },
+      {
+        "bounds": [
+          84,
+          240,
+          133,
+          253
+        ],
+        "hash": "5e167cb649b0fac27100a6f8edfbc2429e8d3ce541325175c93885018448dd9a"
+      },
+      {
+        "bounds": [
+          83,
+          242,
+          121,
+          259
+        ],
+        "hash": "cfc2046631db7f31d36d7a2efe3f7a03cc92d97821420d8f57976e2fb8e248be"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "07bb9ceb921d2d3994a763562668f9ae35cb23d91465a16241c091f9541c64f5"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "45e357e54c5f02f3600b35fa29915708c478d590785bb1f610a4fb804c45ee8f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "f2422a9ea17503ada99bae49482a2a0a164a3f202f55771f6659969485ac8a97"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "251fc4628f203635e2b167d591f5eaf1cdb0766200ae2690c0973d72223b6fde"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "fe9539bea3a30f376898b1c9bf06d248fdc361d5a4cdf07451e9d032ba2908ff"
+      },
+      {
+        "bounds": [
+          95,
+          247,
+          136,
+          265
+        ],
+        "hash": "f4aa496a659b20f1efa51acf3ab19b3dc6fc1402957511a26b700fa40bb592b7"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "cb4ed7c96d59156549213a1784d2443e5e84e545606862c938dad456c228756c"
+      },
+      {
+        "bounds": [
+          80,
+          234,
+          127,
+          249
+        ],
+        "hash": "43c58d6f93cdd8bc6bb4649bd50b9280829aa3960e195414151b229dce472fb9"
+      },
+      {
+        "bounds": [
+          79,
+          216,
+          128,
+          239
+        ],
+        "hash": "84d385b2926d397c91848c1dd80e6c5212ef5b78f33298df17a535f4b9672b7c"
+      },
+      {
+        "bounds": [
+          86,
+          253,
+          127,
+          268
+        ],
+        "hash": "3deba3b8a018e33e9a819765ec84ef3da1ee87777ab32df819bee4bd4aee8b78"
+      },
+      {
+        "bounds": [
+          85,
+          236,
+          132,
+          255
+        ],
+        "hash": "f4f97e2609fc9823deac5c43c1f8bc6d2d2fd9a6027bcb8c4d20095a0487368e"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          127,
+          251
+        ],
+        "hash": "800f35c7b4574f0d62a18202bd66c1c5b9e2f737a3c376eba9f09b783f0c8ab1"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "07bb9ceb921d2d3994a763562668f9ae35cb23d91465a16241c091f9541c64f5"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          125,
+          247
+        ],
+        "hash": "99de1c7328e2b48114407d975d01fcd55a4d3b7d6a48bee1e7e9d27c62300d3e"
+      },
+      {
+        "bounds": [
+          79,
+          228,
+          126,
+          249
+        ],
+        "hash": "93b9c357283c35c6b4ec4d79eb8f16c0d9861f6a55eb96cda85fcbe068700288"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          127,
+          251
+        ],
+        "hash": "7508f19995d79800a369379a577f7a562cae04a994394d2aebdca7f41ae72718"
+      },
+      {
+        "bounds": [
+          81,
+          237,
+          126,
+          253
+        ],
+        "hash": "0e928e154b04b2adc183756095860d7ea60096a8ad03ebf6f9c05b6a45e6862d"
+      },
+      {
+        "bounds": [
+          80,
+          234,
+          128,
+          253
+        ],
+        "hash": "aca785d4cf20fa4eabed93f81ff1c1433ce7c4d9580e84df918c3336d40ff8f4"
+      },
+      {
+        "bounds": [
+          78,
+          234,
+          128,
+          253
+        ],
+        "hash": "366999e3a3cfd2164bf7dcf7a4aa6b705842f8c0b3a39a9320f84730f90cc71a"
+      },
+      {
+        "bounds": [
+          78,
+          240,
+          125,
+          255
+        ],
+        "hash": "cb78da95be961b8faa856e89845b2c472880123c8b6995dfba248d4d8180932a"
+      },
+      {
+        "bounds": [
+          86,
+          238,
+          128,
+          257
+        ],
+        "hash": "09a048504744249da09d55e58cff24f46ab6b17ad3579cf880519cf789a53ce3"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          128,
+          259
+        ],
+        "hash": "779fd59caea6c609e702fd4a8a3768abb8cb4d12abcbb08cdf568015edd93d59"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          128,
+          257
+        ],
+        "hash": "2e173859f992d8f9bffd0e947dcc145106f951fe3eddf86a2969979d6cc427a6"
+      },
+      {
+        "bounds": [
+          77,
+          236,
+          128,
+          257
+        ],
+        "hash": "a5775c9977371454dc6820e580689ca0467947d5fd3063439a9fe978bf5db6d2"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          101,
+          251
+        ],
+        "hash": "382845b56f1290298f4a793eeddaa7eef02bf4018da85fb971c9bf21c5404eec"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "45e357e54c5f02f3600b35fa29915708c478d590785bb1f610a4fb804c45ee8f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "f2422a9ea17503ada99bae49482a2a0a164a3f202f55771f6659969485ac8a97"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "251fc4628f203635e2b167d591f5eaf1cdb0766200ae2690c0973d72223b6fde"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "fe9539bea3a30f376898b1c9bf06d248fdc361d5a4cdf07451e9d032ba2908ff"
+      },
+      {
+        "bounds": [
+          95,
+          247,
+          136,
+          265
+        ],
+        "hash": "f4aa496a659b20f1efa51acf3ab19b3dc6fc1402957511a26b700fa40bb592b7"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "cb4ed7c96d59156549213a1784d2443e5e84e545606862c938dad456c228756c"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "45e357e54c5f02f3600b35fa29915708c478d590785bb1f610a4fb804c45ee8f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "f2422a9ea17503ada99bae49482a2a0a164a3f202f55771f6659969485ac8a97"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "251fc4628f203635e2b167d591f5eaf1cdb0766200ae2690c0973d72223b6fde"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "fe9539bea3a30f376898b1c9bf06d248fdc361d5a4cdf07451e9d032ba2908ff"
+      },
+      {
+        "bounds": [
+          95,
+          247,
+          136,
+          265
+        ],
+        "hash": "f4aa496a659b20f1efa51acf3ab19b3dc6fc1402957511a26b700fa40bb592b7"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "cb4ed7c96d59156549213a1784d2443e5e84e545606862c938dad456c228756c"
+      }
+    ]
+  },
+  "judah-student.png": {
+    "sourceHash": "e917fc11e2fade40d1bb403f89f556647228ae1e932bc068f0b77e097e9c6c14",
+    "frames": [
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "402686c08f09737ed8b0127dc28ecf0060fb43cda75ee0b6d02ad085363f5fd8"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "402686c08f09737ed8b0127dc28ecf0060fb43cda75ee0b6d02ad085363f5fd8"
+      },
+      {
+        "bounds": [
+          66,
+          149,
+          125,
+          164
+        ],
+        "hash": "e28bae162070068ad8642713db8c2c6d09b40c22144d8925f0ae7063ed4cbbcd"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "402686c08f09737ed8b0127dc28ecf0060fb43cda75ee0b6d02ad085363f5fd8"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "6bbe18c956754821b5dd4bf34a32875adb1c435dff6f9ecef2f63cead9f276a7"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "6bbe18c956754821b5dd4bf34a32875adb1c435dff6f9ecef2f63cead9f276a7"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "149a61a652b51113d7dd32b0260a5502d4333ab5bf8beea8b15265003c6479d7"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "6bbe18c956754821b5dd4bf34a32875adb1c435dff6f9ecef2f63cead9f276a7"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "ae6144d3a4077f234fadcf5850ae46d4cdea3fafe1a55ce39abc5750e61e2a17"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "ae6144d3a4077f234fadcf5850ae46d4cdea3fafe1a55ce39abc5750e61e2a17"
+      },
+      {
+        "bounds": [
+          66,
+          162,
+          125,
+          176
+        ],
+        "hash": "c8677f6d59efaa1b5173c7c9726efcce2833cd9ab74f339785f0a34ba0982f6b"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "ae6144d3a4077f234fadcf5850ae46d4cdea3fafe1a55ce39abc5750e61e2a17"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "a8dcff223591f672bdcf06e733ad314adc45cbdbdc79b72497a40de4deb0ea8d"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "a8dcff223591f672bdcf06e733ad314adc45cbdbdc79b72497a40de4deb0ea8d"
+      },
+      {
+        "bounds": [
+          66,
+          184,
+          125,
+          198
+        ],
+        "hash": "ab27b49fc56a6b46aaba6edfa70cf29d3c6c110aa9750ec78f9a433152e680c7"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "a8dcff223591f672bdcf06e733ad314adc45cbdbdc79b72497a40de4deb0ea8d"
+      }
+    ]
+  },
+  "judah-student-adventure.png": {
+    "sourceHash": "ab8196fa9dfe0f0bcb90788766acc4ef98c4f9808375196974b4ff9289a0f64c",
+    "frames": [
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "1717b189b0338f9a3bafef2cb2cab4b78ac6a16164b219918d9546c5bd4dae92"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3b07f18f2f4e5bd68ec3b7334352c05f8dbe3d67c0ba68b84b1d3d8d97ee0fcd"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "f4624f197cb55d24b2ecaddb9b2941d910c2af15bfb43dd748db90a1bf7e2ae7"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "c5f03b0ac017abb79ec9299def03be1184258c03d760467396369185e3f67869"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "4f794dede6baab7ef095b2ec978acb08e8a1cd90eec1ccd168fb7e0dadea344a"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "aba2be268a7084945f6d5fd33cea5bbba6f67da6421ec047f4ac9667978e72a1"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "aba2be268a7084945f6d5fd33cea5bbba6f67da6421ec047f4ac9667978e72a1"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "1717b189b0338f9a3bafef2cb2cab4b78ac6a16164b219918d9546c5bd4dae92"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3b07f18f2f4e5bd68ec3b7334352c05f8dbe3d67c0ba68b84b1d3d8d97ee0fcd"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "f4624f197cb55d24b2ecaddb9b2941d910c2af15bfb43dd748db90a1bf7e2ae7"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "c5f03b0ac017abb79ec9299def03be1184258c03d760467396369185e3f67869"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "4f794dede6baab7ef095b2ec978acb08e8a1cd90eec1ccd168fb7e0dadea344a"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          125,
+          250
+        ],
+        "hash": "286e8d120f49fa9eb70d1e73f95e109d6d5cdaf7de592a0cb0e7030d73d44706"
+      },
+      {
+        "bounds": [
+          78,
+          237,
+          121,
+          252
+        ],
+        "hash": "83a480eb2365508463afbcae54c675f75dec138dd4f815fa38cb7e6c3805620e"
+      },
+      {
+        "bounds": [
+          81,
+          234,
+          113,
+          249
+        ],
+        "hash": "6bf2c6a8aa498feb10fa91ef50f940156b6f192236be2753cf8c133543191a13"
+      },
+      {
+        "bounds": [
+          84,
+          239,
+          133,
+          253
+        ],
+        "hash": "0af93c30f40d01210c1e306b3ff4dd824cabe4492b89b1e743a460e7c5338148"
+      },
+      {
+        "bounds": [
+          81,
+          242,
+          128,
+          259
+        ],
+        "hash": "09ec4db702fff16981efd4eb05204b6791da7a77e240a54ca18557ce1de424f6"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "aba2be268a7084945f6d5fd33cea5bbba6f67da6421ec047f4ac9667978e72a1"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          251
+        ],
+        "hash": "44dce51f4091128ae5b667f97eca7d4213bf41b3a0409ecc7761647a67e9654f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "3e71aae0b05e35b7a49de246ef30505373c96e92b85b3d8bc19dc6a20b824212"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "b4aa5c413c94520d7cc2d12920d776a66be7fc52791f113ee12cad109f8b49f1"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "a63ed954db8d5c59fad38127ee1c2b7055b021488e7a9dfa456def7e5f75283f"
+      },
+      {
+        "bounds": [
+          93,
+          247,
+          135,
+          265
+        ],
+        "hash": "405669375875dea2d9f50ab73b173fc5a266f33470e04452f16484d41980fb3e"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "1b5368f3f31876c686126d63786f769dd929c80b7196bd6c5088d6aeb2ae4b27"
+      },
+      {
+        "bounds": [
+          80,
+          234,
+          127,
+          249
+        ],
+        "hash": "2b8b3ea8ca80c409468ea97a6cbdeea08f97a8a872da8764da334373ffba0953"
+      },
+      {
+        "bounds": [
+          79,
+          216,
+          130,
+          239
+        ],
+        "hash": "6bdb7d3e51af89f38601e85b7ca561f8734ee09ea385632feba8174ab96810ba"
+      },
+      {
+        "bounds": [
+          86,
+          251,
+          127,
+          266
+        ],
+        "hash": "a455463b9c7ffd18bf5613e9ddcc5da40d1f68c7de887e24e8c5a8529b9618d4"
+      },
+      {
+        "bounds": [
+          86,
+          240,
+          131,
+          257
+        ],
+        "hash": "0848dc710a135cd3e5a4bf0c62a60d93c4239e6dbaf3c1c8deade26f137d5a17"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          127,
+          251
+        ],
+        "hash": "45914391537ac801d09fe98442ddc7833b6e658685f1c201b55ba99acf0f5d31"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "aba2be268a7084945f6d5fd33cea5bbba6f67da6421ec047f4ac9667978e72a1"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          125,
+          245
+        ],
+        "hash": "0cf635d29822a2ba596b967a883a47fc435432cc25d4fd099892149a90fbd9b6"
+      },
+      {
+        "bounds": [
+          79,
+          228,
+          126,
+          248
+        ],
+        "hash": "6252e876bfb67f9322d77c993d11ae2423c778699218ee59a556c01b51f1d6ce"
+      },
+      {
+        "bounds": [
+          79,
+          232,
+          128,
+          251
+        ],
+        "hash": "01c48dc6d9ae1e7983160f3fa48bfd5fd55439e25eee60ef6f146656b24cf00f"
+      },
+      {
+        "bounds": [
+          78,
+          236,
+          126,
+          252
+        ],
+        "hash": "a1930f53039c4b6c9fe49429751342566c2feb632156af9bb1517394c4c00776"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          127,
+          252
+        ],
+        "hash": "e015d1ae5d028b7b8487b85d75fa1d324c68f0a8b00f293b0e6eb313b642692a"
+      },
+      {
+        "bounds": [
+          77,
+          234,
+          127,
+          252
+        ],
+        "hash": "0dd6a3a1a4ac6c163cb3eb64ad630757e2ba975688a516bdcdd85e6c11bfda37"
+      },
+      {
+        "bounds": [
+          78,
+          240,
+          125,
+          255
+        ],
+        "hash": "7141a70a7cc86b94d08ab1a6fbfc6d44fcf66bf39781c0db76064084368c3cbe"
+      },
+      {
+        "bounds": [
+          79,
+          236,
+          128,
+          257
+        ],
+        "hash": "0f1dae4b5cb318872d981b5769a458794c5903ee56b883be814e439e528cfb47"
+      },
+      {
+        "bounds": [
+          81,
+          238,
+          128,
+          258
+        ],
+        "hash": "982290a2a52fb3fc28ee640849457aac75dfc2d6b1b3ca9760c7ef00a42fb124"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          127,
+          256
+        ],
+        "hash": "bf8678c946efa2aec545ee7fdc31d1ad5a4666870f840e1a4e75b57dd3e9ecb4"
+      },
+      {
+        "bounds": [
+          77,
+          236,
+          128,
+          253
+        ],
+        "hash": "c53afabb71c2fa8941db8ff1bf45b2c8f4f79628b69a5c96d62de3dca71cf26f"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          101,
+          251
+        ],
+        "hash": "f69c7f5ce5095bcebd0a201c8fbb6bc9914a4a4ee801da4f751ab6b8bcb144e3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          251
+        ],
+        "hash": "44dce51f4091128ae5b667f97eca7d4213bf41b3a0409ecc7761647a67e9654f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "3e71aae0b05e35b7a49de246ef30505373c96e92b85b3d8bc19dc6a20b824212"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "b4aa5c413c94520d7cc2d12920d776a66be7fc52791f113ee12cad109f8b49f1"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "a63ed954db8d5c59fad38127ee1c2b7055b021488e7a9dfa456def7e5f75283f"
+      },
+      {
+        "bounds": [
+          93,
+          247,
+          135,
+          265
+        ],
+        "hash": "405669375875dea2d9f50ab73b173fc5a266f33470e04452f16484d41980fb3e"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "1b5368f3f31876c686126d63786f769dd929c80b7196bd6c5088d6aeb2ae4b27"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          251
+        ],
+        "hash": "44dce51f4091128ae5b667f97eca7d4213bf41b3a0409ecc7761647a67e9654f"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "3e71aae0b05e35b7a49de246ef30505373c96e92b85b3d8bc19dc6a20b824212"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "b4aa5c413c94520d7cc2d12920d776a66be7fc52791f113ee12cad109f8b49f1"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "a63ed954db8d5c59fad38127ee1c2b7055b021488e7a9dfa456def7e5f75283f"
+      },
+      {
+        "bounds": [
+          93,
+          247,
+          135,
+          265
+        ],
+        "hash": "405669375875dea2d9f50ab73b173fc5a266f33470e04452f16484d41980fb3e"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "1b5368f3f31876c686126d63786f769dd929c80b7196bd6c5088d6aeb2ae4b27"
+      }
+    ]
+  },
+  "judah-scholar.png": {
+    "sourceHash": "39c77b59166196e8fa624676a3c6c75359fe131fb9af651fe76b8e2dce3871d9",
+    "frames": [
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "7d009b7b205eb364485883d497b50d056ebba83433a04f8a6746d7255d989b53"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "7d009b7b205eb364485883d497b50d056ebba83433a04f8a6746d7255d989b53"
+      },
+      {
+        "bounds": [
+          66,
+          149,
+          125,
+          164
+        ],
+        "hash": "b66d11cd45029401857a90de621189673a1233418920983cf76d43cae7849c19"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "7d009b7b205eb364485883d497b50d056ebba83433a04f8a6746d7255d989b53"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "00cab0417117f122b55f19b102f07f82b456998e29d35c743119e909df736e3b"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "00cab0417117f122b55f19b102f07f82b456998e29d35c743119e909df736e3b"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "5bbc6b5e0968bb2fe7d77d3c493051452a3412fdce06a84e95556d2a50f76ee1"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "00cab0417117f122b55f19b102f07f82b456998e29d35c743119e909df736e3b"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "59df6e96ee77c65fcd8ccc8ad1ae9df9886aac78e724fb66bcbd2b080dd5973c"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "59df6e96ee77c65fcd8ccc8ad1ae9df9886aac78e724fb66bcbd2b080dd5973c"
+      },
+      {
+        "bounds": [
+          66,
+          161,
+          125,
+          176
+        ],
+        "hash": "451a0780a8af7c9abb79ec146df33b24e1bde650379adb18ae20758eee63ba0a"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "59df6e96ee77c65fcd8ccc8ad1ae9df9886aac78e724fb66bcbd2b080dd5973c"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "d41d455b004b36db35a89b7db181dc789cbb03aef5c61f7d161c104d6f3f05b4"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "d41d455b004b36db35a89b7db181dc789cbb03aef5c61f7d161c104d6f3f05b4"
+      },
+      {
+        "bounds": [
+          66,
+          184,
+          125,
+          198
+        ],
+        "hash": "b26ef960081e02c54eab09fab8fb2e4e2bb995ce95869c9c18555caa0f1a61d2"
+      },
+      {
+        "bounds": [
+          66,
+          186,
+          125,
+          200
+        ],
+        "hash": "d41d455b004b36db35a89b7db181dc789cbb03aef5c61f7d161c104d6f3f05b4"
+      }
+    ]
+  },
+  "judah-scholar-adventure.png": {
+    "sourceHash": "1d85f84bdac3e320ddab672d510543932fb5022c12ccd5a9e6d6fc5ff5cb19e7",
+    "frames": [
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "768956dea8c7333967bc0dfb6a8d78cbfe383c6fad5b03c74d92d1a4dd361935"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "8009df015f417da236d9ff851301d6d75e8ce78e70269a5b844bad88a8fdd7c0"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "8d01a926b5dcf609e42426f72cd1b176629b1d8f0786832308d0199d677aa74b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0df146260b59a4f6efb1e81ab9e266c7398409216a934bd7b8168acdadad8025"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "6c65e2b1371a4cb2c626e7ed233b7feca7a633794b3ae7aeb1f78b9e314568d6"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7acf79419f1a6a71889f1eaa5502bc0657f697b24c9c30d87fe3f19835d50373"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7acf79419f1a6a71889f1eaa5502bc0657f697b24c9c30d87fe3f19835d50373"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "768956dea8c7333967bc0dfb6a8d78cbfe383c6fad5b03c74d92d1a4dd361935"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "8009df015f417da236d9ff851301d6d75e8ce78e70269a5b844bad88a8fdd7c0"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "8d01a926b5dcf609e42426f72cd1b176629b1d8f0786832308d0199d677aa74b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0df146260b59a4f6efb1e81ab9e266c7398409216a934bd7b8168acdadad8025"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "6c65e2b1371a4cb2c626e7ed233b7feca7a633794b3ae7aeb1f78b9e314568d6"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          125,
+          250
+        ],
+        "hash": "ae55e81cf2505c3cc1f93ac05daade11742566f1d02e3ac85b67e39382978914"
+      },
+      {
+        "bounds": [
+          78,
+          238,
+          120,
+          252
+        ],
+        "hash": "837bd71015ffeb78325607810ff0d1fedfb2430e2162a80963c6e1b37da8b282"
+      },
+      {
+        "bounds": [
+          81,
+          234,
+          114,
+          250
+        ],
+        "hash": "7af56c08ac957f41c00a0b383056c5a397e9ffba2b11770a7229b0f47eb1295a"
+      },
+      {
+        "bounds": [
+          84,
+          239,
+          133,
+          254
+        ],
+        "hash": "54204cac74bc193c3ec1bc1951e7b445a15d313dd0c99b66c5f6b0e51df592ab"
+      },
+      {
+        "bounds": [
+          81,
+          243,
+          128,
+          259
+        ],
+        "hash": "18522d83eb401742be46b1f4149adc1c78190bd045e5e5dc4e2bd623fc683583"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7acf79419f1a6a71889f1eaa5502bc0657f697b24c9c30d87fe3f19835d50373"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "44a5b9d8e1e4e3218ef7d4bdca6a8a214eac9e931a46fd3513fe2718aece86f0"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "6bbedf20f44d149c4d84ffe645f91d0fc06ee84483773b9d44b02a81276d6c0c"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "d1434272a76a02f54098869d44d08eef764820b36e375cd9c7fc55e5c03604da"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "78a1d30bed5b69d5f51952e8c4648546fe7169052edf7cf5900be0021a243cd5"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "50a37e6902b596c8225262e56adb0081ce3f4e44e0c394f5453e599e69b1be4c"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "b1297d7604c887d8455e1bdfa0b557653986213778bd780d62a41a5d369bb94c"
+      },
+      {
+        "bounds": [
+          80,
+          234,
+          127,
+          248
+        ],
+        "hash": "d1cffeccec599684887ff449298c99a7e126acae3fe97fb88c3f3b152c4ba115"
+      },
+      {
+        "bounds": [
+          79,
+          216,
+          128,
+          237
+        ],
+        "hash": "eadbcc98aeb8f7d0b05016a929b51615b6e4220a6d49fbb5f8dc60a151e73801"
+      },
+      {
+        "bounds": [
+          86,
+          251,
+          127,
+          266
+        ],
+        "hash": "af8f2263bf7eade80b43d8e36ba0cc47998a007bf507ac0916a057c2b124d25c"
+      },
+      {
+        "bounds": [
+          85,
+          238,
+          132,
+          256
+        ],
+        "hash": "cb2fe1cf76025cdee337cd64720a2040357de95cbe3204aec14e0dc323960fd0"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          127,
+          251
+        ],
+        "hash": "f9c4c6bd31ec819bde77c29e68e3f123209e33d445dcb3f3f5c8bcc7e5662daa"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7acf79419f1a6a71889f1eaa5502bc0657f697b24c9c30d87fe3f19835d50373"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          125,
+          247
+        ],
+        "hash": "8bf0a3ebb0c7c35488340a370ccea4eaa0f2b2f8f67400521b70d48be00b1630"
+      },
+      {
+        "bounds": [
+          79,
+          228,
+          126,
+          248
+        ],
+        "hash": "9d8cb53c7e758757770e0c49c8bc0a6c7fd0735a0a38dd9233077ebbdcebadfb"
+      },
+      {
+        "bounds": [
+          79,
+          232,
+          128,
+          251
+        ],
+        "hash": "74f363bfb8fde64053fbb4e4e1bed16ffefffaaac5c36dbe887d35d076aaedaa"
+      },
+      {
+        "bounds": [
+          78,
+          236,
+          126,
+          252
+        ],
+        "hash": "b372d9cf5863eddb6b02a5b820a1dd376ec2ec840a9032fb2321ae6216d0bcab"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          127,
+          253
+        ],
+        "hash": "3502c6cf944153467090c9021223af3916c7b1a6403d1b23aa7bbb2b12ce6471"
+      },
+      {
+        "bounds": [
+          77,
+          234,
+          127,
+          252
+        ],
+        "hash": "832ed03e6f8b56fc5afae4b23f589b5aa101d7ea254f5c0f4d2f95748a2bc8eb"
+      },
+      {
+        "bounds": [
+          78,
+          240,
+          125,
+          255
+        ],
+        "hash": "b5d9fb571f9e8c8c93c0948905290c4b3ca0b675128254c64530bd2942933cbe"
+      },
+      {
+        "bounds": [
+          79,
+          236,
+          128,
+          257
+        ],
+        "hash": "12d7ccd7ac142b8615564bfeee0dba83c9099d21ab742353c0241968c9bab220"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          128,
+          259
+        ],
+        "hash": "9dc76d65333257a2bb9f3a3c85ca14cded17cda6626d3924e9645bf166f1f057"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          128,
+          256
+        ],
+        "hash": "21bf52043cc254456e175379c3e9922f802240d1660df8896b404821754ac4d8"
+      },
+      {
+        "bounds": [
+          77,
+          236,
+          127,
+          254
+        ],
+        "hash": "c2274d71e0d46721628d640b484bb2354cb24ab52e9cdff5d2b9002f836d54e0"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          101,
+          251
+        ],
+        "hash": "4d96f6774dc25476c9ae7ac6b8a535287bc5b859356421230d70d5f40d10d18a"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "44a5b9d8e1e4e3218ef7d4bdca6a8a214eac9e931a46fd3513fe2718aece86f0"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "6bbedf20f44d149c4d84ffe645f91d0fc06ee84483773b9d44b02a81276d6c0c"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "d1434272a76a02f54098869d44d08eef764820b36e375cd9c7fc55e5c03604da"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "78a1d30bed5b69d5f51952e8c4648546fe7169052edf7cf5900be0021a243cd5"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "50a37e6902b596c8225262e56adb0081ce3f4e44e0c394f5453e599e69b1be4c"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "b1297d7604c887d8455e1bdfa0b557653986213778bd780d62a41a5d369bb94c"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "44a5b9d8e1e4e3218ef7d4bdca6a8a214eac9e931a46fd3513fe2718aece86f0"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "6bbedf20f44d149c4d84ffe645f91d0fc06ee84483773b9d44b02a81276d6c0c"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "d1434272a76a02f54098869d44d08eef764820b36e375cd9c7fc55e5c03604da"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "78a1d30bed5b69d5f51952e8c4648546fe7169052edf7cf5900be0021a243cd5"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "50a37e6902b596c8225262e56adb0081ce3f4e44e0c394f5453e599e69b1be4c"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "b1297d7604c887d8455e1bdfa0b557653986213778bd780d62a41a5d369bb94c"
+      }
+    ]
+  },
+  "judah-scribe.png": {
+    "sourceHash": "18047066e95068981acad9234daaca9e1336deb29fc55fad40a43e2bda9b0742",
+    "frames": [
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "0fcf8430dede774ee49fe0f6538f38866ea123f2b6ce4f9ea9d1bf84c87fbe6b"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "0fcf8430dede774ee49fe0f6538f38866ea123f2b6ce4f9ea9d1bf84c87fbe6b"
+      },
+      {
+        "bounds": [
+          66,
+          149,
+          125,
+          164
+        ],
+        "hash": "c4e7f57c83feee100b6859b691c0e4debdb63ccfb282a1ec32af6143ac80abe7"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "0fcf8430dede774ee49fe0f6538f38866ea123f2b6ce4f9ea9d1bf84c87fbe6b"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "e80e08e204257c68c8f74621fd706934387d2a695ef6dd2c94a7f4f13bfc716c"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "e80e08e204257c68c8f74621fd706934387d2a695ef6dd2c94a7f4f13bfc716c"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "9cf3e5961436485fc545800097ad0584530e40c5b3623d3e52db6d695cbe6df8"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "e80e08e204257c68c8f74621fd706934387d2a695ef6dd2c94a7f4f13bfc716c"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "568a91403591d15b21574b67070f78d8ff82edc50631eaf09681d7ca5cadf29b"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "568a91403591d15b21574b67070f78d8ff82edc50631eaf09681d7ca5cadf29b"
+      },
+      {
+        "bounds": [
+          66,
+          162,
+          125,
+          176
+        ],
+        "hash": "986514b0dd1539c2e74b6a41ff2613862905c5f8801f075286eb460da04a652c"
+      },
+      {
+        "bounds": [
+          66,
+          164,
+          125,
+          178
+        ],
+        "hash": "568a91403591d15b21574b67070f78d8ff82edc50631eaf09681d7ca5cadf29b"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "434f69bdc182948a2be47f06086ebb9adbbbd7822c2e415fa946a023ad20923c"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "434f69bdc182948a2be47f06086ebb9adbbbd7822c2e415fa946a023ad20923c"
+      },
+      {
+        "bounds": [
+          66,
+          183,
+          125,
+          198
+        ],
+        "hash": "2261d74528173488bc0fc98719db69672f6d4a840f1dd74769ac3c302b7585e0"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "434f69bdc182948a2be47f06086ebb9adbbbd7822c2e415fa946a023ad20923c"
+      }
+    ]
+  },
+  "judah-scribe-adventure.png": {
+    "sourceHash": "813f9b62d9fa603b601124b5f69b64f06deabd80e6f253f915f93688c6344359",
+    "frames": [
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7a849083ae5b8be27932dfe573ab682d0cc92fa7efbe2346784b66cf0dac945b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "21c37842c21a54bee1bb369f0d8daefafa912e1f750088e16605ce0efea9cbb9"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "ed0080fc88aa053baba34eeb8a9731cb22b0a608d6403e7aa04a0f3c87603d5e"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "e9ea062df5e5fd29cf990d8f2d7b40861e7f804d2f4a05ebb0a56ad49e1d74b2"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0e04a684d960b0f9f0c54dfd2d346a271c96b5b028720b95bb9103cd192b2daf"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "72c0ebaaeea02d93377ad4e8b984615f6ba14560e0d275ee1403faec8595d4d3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "72c0ebaaeea02d93377ad4e8b984615f6ba14560e0d275ee1403faec8595d4d3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "7a849083ae5b8be27932dfe573ab682d0cc92fa7efbe2346784b66cf0dac945b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "21c37842c21a54bee1bb369f0d8daefafa912e1f750088e16605ce0efea9cbb9"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "ed0080fc88aa053baba34eeb8a9731cb22b0a608d6403e7aa04a0f3c87603d5e"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "e9ea062df5e5fd29cf990d8f2d7b40861e7f804d2f4a05ebb0a56ad49e1d74b2"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0e04a684d960b0f9f0c54dfd2d346a271c96b5b028720b95bb9103cd192b2daf"
+      },
+      {
+        "bounds": [
+          80,
+          235,
+          125,
+          250
+        ],
+        "hash": "72f960b62e2a29cc15175ad8d6ea830472da8daaf60ff433812d607866330c2a"
+      },
+      {
+        "bounds": [
+          78,
+          237,
+          120,
+          252
+        ],
+        "hash": "fe6e6b14e5688b05916dac9525c8bae0557bd1b38d648d8b694e4dc39c54e0cb"
+      },
+      {
+        "bounds": [
+          81,
+          233,
+          114,
+          250
+        ],
+        "hash": "68519ae9a5bf1b2502f7868d985c0b676441756256b1e28350d71a3c41e35d09"
+      },
+      {
+        "bounds": [
+          84,
+          240,
+          133,
+          254
+        ],
+        "hash": "2dc2561111df9f025328b6d39a3a0b923637a0cacf8890d8817cdb2cce4a9bc2"
+      },
+      {
+        "bounds": [
+          81,
+          243,
+          128,
+          259
+        ],
+        "hash": "d9a202234e0eb7024644b98d5d8ebf6a9c6fe331e1f4644c5d64fd17ce1448c8"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "72c0ebaaeea02d93377ad4e8b984615f6ba14560e0d275ee1403faec8595d4d3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0a8809c8818b0172aa69a3273e5f1dab171cb373e5819290d72bdb523ac20f5a"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "abe67ab315865f93da08a2b905aed3b3dcca91ff5edd5d75d638270b8402ea94"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "7b6de1367d37d1597452bece575571baf7415c077c91218252a3600d51990ef0"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "e00ff60cf2a3c23c66e04a00a0c7bd88d52c138ce7ac5d1d10f93975eb8a3bad"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "9159e84c1f2452820b065e4e3909368bdc387e43639af93e2483df6c53fbc645"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "00ace5f3f10548587023587fe7948c567692bbbe1ad31be3fea1672aba324d8a"
+      },
+      {
+        "bounds": [
+          80,
+          234,
+          127,
+          249
+        ],
+        "hash": "142ea5ac4d67d279204c19c8e452dd36680b51e317fa873c7d5164b9a8de5942"
+      },
+      {
+        "bounds": [
+          79,
+          216,
+          130,
+          237
+        ],
+        "hash": "55925c1ee0d12b748a1e666d6700111dc5fe1c9d3003a4c8086fa7860c222e22"
+      },
+      {
+        "bounds": [
+          86,
+          251,
+          129,
+          266
+        ],
+        "hash": "77d57d00ddadc70878eb8edc91a8e17ab933931c9c558b4e1abac52dbf52b961"
+      },
+      {
+        "bounds": [
+          85,
+          238,
+          131,
+          256
+        ],
+        "hash": "3a2f6b90f56dc908b235e03b96719848c8a48a1c2eaef272aa2e48fe9075becc"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          127,
+          251
+        ],
+        "hash": "1370e0a27611bea9eb51f7c394b1877119483b9c152d594502d7c612bb4280e7"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "72c0ebaaeea02d93377ad4e8b984615f6ba14560e0d275ee1403faec8595d4d3"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          125,
+          247
+        ],
+        "hash": "2b0c8143bc0412521d13e75f5f7d2e3cc6d203553d40a16c8a2857e2418f51fe"
+      },
+      {
+        "bounds": [
+          79,
+          228,
+          126,
+          248
+        ],
+        "hash": "09998e8b5f7293b8f59241a1055443ac393d6ad341b06211ec72eef581cbf3f5"
+      },
+      {
+        "bounds": [
+          79,
+          232,
+          128,
+          251
+        ],
+        "hash": "3bc8958015e67598e5fc7b7019e4595ec613b21ab97294ac5ef5a3591b75fb08"
+      },
+      {
+        "bounds": [
+          78,
+          236,
+          126,
+          252
+        ],
+        "hash": "365bcc4ad6f5d3dd9cdf564273587cd41e43399ff160963607d6f60b9de59162"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          127,
+          252
+        ],
+        "hash": "18dfd23f75f7f91d2045a7973a232667f753625dfc71b630be329b3d8d48debf"
+      },
+      {
+        "bounds": [
+          77,
+          234,
+          127,
+          252
+        ],
+        "hash": "a1e4a0d1295a6deed0b63bdec4eb856ed479a9717ef6fab65729370eb1f3e381"
+      },
+      {
+        "bounds": [
+          78,
+          240,
+          125,
+          255
+        ],
+        "hash": "0bb8df2cba2343ab7de5571a1c76445b3bb597e6ffb8aae6b08de04b1b082a5b"
+      },
+      {
+        "bounds": [
+          79,
+          236,
+          128,
+          257
+        ],
+        "hash": "57089a81be967ccdc860f53bfff390d5de064c01aada34f83a64fdb98a2a9c06"
+      },
+      {
+        "bounds": [
+          81,
+          238,
+          128,
+          259
+        ],
+        "hash": "a52ccf67e74dc0f9a952b608f9e22020aecdbcc8cb094e39c0cfc64a04c4620f"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          128,
+          256
+        ],
+        "hash": "db1892b448cee772a76d5d8343b8adca2dadf4a9619b42f67a68985771df9bb5"
+      },
+      {
+        "bounds": [
+          77,
+          237,
+          128,
+          254
+        ],
+        "hash": "d6e1220063bab3aed94c99fcadee01d191b7512d144d7125d6c0199f5710eece"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          101,
+          251
+        ],
+        "hash": "16a59f8982c950869372f3bd61c06c11f9a7c3b48c1de7c33e836066e472a935"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0a8809c8818b0172aa69a3273e5f1dab171cb373e5819290d72bdb523ac20f5a"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "abe67ab315865f93da08a2b905aed3b3dcca91ff5edd5d75d638270b8402ea94"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "7b6de1367d37d1597452bece575571baf7415c077c91218252a3600d51990ef0"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "e00ff60cf2a3c23c66e04a00a0c7bd88d52c138ce7ac5d1d10f93975eb8a3bad"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "9159e84c1f2452820b065e4e3909368bdc387e43639af93e2483df6c53fbc645"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "00ace5f3f10548587023587fe7948c567692bbbe1ad31be3fea1672aba324d8a"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "0a8809c8818b0172aa69a3273e5f1dab171cb373e5819290d72bdb523ac20f5a"
+      },
+      {
+        "bounds": [
+          84,
+          242,
+          132,
+          259
+        ],
+        "hash": "abe67ab315865f93da08a2b905aed3b3dcca91ff5edd5d75d638270b8402ea94"
+      },
+      {
+        "bounds": [
+          87,
+          239,
+          136,
+          255
+        ],
+        "hash": "7b6de1367d37d1597452bece575571baf7415c077c91218252a3600d51990ef0"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "e00ff60cf2a3c23c66e04a00a0c7bd88d52c138ce7ac5d1d10f93975eb8a3bad"
+      },
+      {
+        "bounds": [
+          91,
+          247,
+          135,
+          265
+        ],
+        "hash": "9159e84c1f2452820b065e4e3909368bdc387e43639af93e2483df6c53fbc645"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "00ace5f3f10548587023587fe7948c567692bbbe1ad31be3fea1672aba324d8a"
+      }
+    ]
+  },
+  "judah-master.png": {
+    "sourceHash": "ffc089a73c9f6d9d6f208f72a5cc3054529dd4869567d321939d88a53ed0b93e",
+    "frames": [
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "d27b232510ad92d7b8596d56d92b9c0ec062a75b0f4ddb5efb3ecd0effef5770"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "d27b232510ad92d7b8596d56d92b9c0ec062a75b0f4ddb5efb3ecd0effef5770"
+      },
+      {
+        "bounds": [
+          66,
+          149,
+          125,
+          164
+        ],
+        "hash": "f83517eaed490aa9675c7bb0763e68248a3f89f1ad1556111ebb2bea796802e6"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "d27b232510ad92d7b8596d56d92b9c0ec062a75b0f4ddb5efb3ecd0effef5770"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "26a9f2f67c3a17f31e63dc86f5d9cde10e1c32bb3af906cc6144c2be2068b293"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "26a9f2f67c3a17f31e63dc86f5d9cde10e1c32bb3af906cc6144c2be2068b293"
+      },
+      {
+        "bounds": [
+          66,
+          151,
+          125,
+          166
+        ],
+        "hash": "27d96ce95996ed2a1b4bff0a33a44c3237ad67b3ffabe921836efd9aa05ba815"
+      },
+      {
+        "bounds": [
+          66,
+          153,
+          125,
+          168
+        ],
+        "hash": "26a9f2f67c3a17f31e63dc86f5d9cde10e1c32bb3af906cc6144c2be2068b293"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "847a0c3fc74450b4bd5cb279282a40c5092f6b2d877115f5ded623e06b57054d"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "847a0c3fc74450b4bd5cb279282a40c5092f6b2d877115f5ded623e06b57054d"
+      },
+      {
+        "bounds": [
+          66,
+          161,
+          125,
+          176
+        ],
+        "hash": "9351a598a95e208db7024ed2548e8923bcfea663917ffc9324ee712e0a191f89"
+      },
+      {
+        "bounds": [
+          66,
+          163,
+          125,
+          178
+        ],
+        "hash": "847a0c3fc74450b4bd5cb279282a40c5092f6b2d877115f5ded623e06b57054d"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "c43678ced03b217793c724daeb5ddb4973fb40ee014afd8527934887e1a81388"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "c43678ced03b217793c724daeb5ddb4973fb40ee014afd8527934887e1a81388"
+      },
+      {
+        "bounds": [
+          66,
+          183,
+          125,
+          198
+        ],
+        "hash": "d3e14bee552659507ce033c70c5003c11d6f2a17afef6777cb5eb1f76b75fd47"
+      },
+      {
+        "bounds": [
+          66,
+          185,
+          125,
+          200
+        ],
+        "hash": "c43678ced03b217793c724daeb5ddb4973fb40ee014afd8527934887e1a81388"
+      }
+    ]
+  },
+  "judah-master-adventure.png": {
+    "sourceHash": "728cbc41c52884efe81e430a45b8a5aceb1e6bc5b388a81c8a1b1aee6a094c02",
+    "frames": [
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "9d20ac03af68c85bce00f1c52bc0a8e03b896cc0df2759627bbfc21327a8cd6b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3e635634a69b28167703781e46c071c24729dbe2f66109c67142bbc907c13bdf"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "26fb285b18ff8c6c473972e84c1092aa6fe4763cad77d233c931977fc81675fb"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "9e9d2aa3da476d374c650e3fe34556fc9a8101955fe1c8f61767c9d9d77f3973"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "735207bf465bcb8b53a203332ee60b79aca77543651d7661f1aa26d4cbb38d89"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b63427a91d1606fea73caa0ff4b680800e569d0e0de7e3b6c7a16fa7f6ff1901"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b63427a91d1606fea73caa0ff4b680800e569d0e0de7e3b6c7a16fa7f6ff1901"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "9d20ac03af68c85bce00f1c52bc0a8e03b896cc0df2759627bbfc21327a8cd6b"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "3e635634a69b28167703781e46c071c24729dbe2f66109c67142bbc907c13bdf"
+      },
+      {
+        "bounds": [
+          82,
+          238,
+          129,
+          253
+        ],
+        "hash": "26fb285b18ff8c6c473972e84c1092aa6fe4763cad77d233c931977fc81675fb"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "9e9d2aa3da476d374c650e3fe34556fc9a8101955fe1c8f61767c9d9d77f3973"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "735207bf465bcb8b53a203332ee60b79aca77543651d7661f1aa26d4cbb38d89"
+      },
+      {
+        "bounds": [
+          80,
+          235,
+          125,
+          250
+        ],
+        "hash": "7f877f4c2aac9589dc4433023c1e67f0c58f0934ce71e583ccaca11dadfd9b15"
+      },
+      {
+        "bounds": [
+          78,
+          237,
+          123,
+          252
+        ],
+        "hash": "4e8844c265a0938b94a675a1584872f801cfd27a870d51ce475e663bf6dc2463"
+      },
+      {
+        "bounds": [
+          81,
+          232,
+          114,
+          250
+        ],
+        "hash": "a60849042a29f2c32a27dbe10204a3cadf823265f1707634af30974ded6aa366"
+      },
+      {
+        "bounds": [
+          84,
+          240,
+          133,
+          254
+        ],
+        "hash": "e4998b7f80af0d6b2961287465360e4b3249d1800aec646b7b67f3370f0094db"
+      },
+      {
+        "bounds": [
+          81,
+          242,
+          129,
+          259
+        ],
+        "hash": "4f2c933629f1189ce5735c8152938f46ea19843e06264978df6d81ea7edbebb3"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b63427a91d1606fea73caa0ff4b680800e569d0e0de7e3b6c7a16fa7f6ff1901"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "64fead34e442a6f956bc05b42ecdeab06c251bf9fe3daf3af832989d39836819"
+      },
+      {
+        "bounds": [
+          83,
+          242,
+          132,
+          259
+        ],
+        "hash": "b19b70260f68bc5220bad3c4eefe09f7abfeb5752944c07ee2bb58d12a7fc1f2"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "2641f9b815a8b42e619e402d0990527d774f485d222ed099eb9f1c7f4d93022c"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "9416521898af76d3849d29f81e13d2bc58521704b3a8b6004f2f6125c6428ae2"
+      },
+      {
+        "bounds": [
+          90,
+          247,
+          136,
+          265
+        ],
+        "hash": "a8f52b311fccc826e843036914fc0df5e20fb7347eb0a5f64f2d45e611a73fda"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "58a2597185cf73ae03c0c0a34dd09403278e78ec6f021cc665e87e3c779c8566"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          126,
+          251
+        ],
+        "hash": "43b513cfbb64b16721a838cf5b1317d1492e2f970ed4a6ebd1c12ec7e0b59b03"
+      },
+      {
+        "bounds": [
+          79,
+          216,
+          130,
+          241
+        ],
+        "hash": "2a3fd907d085de897fea8f474a220602cf1048ccb7d0734a3f11c3b9d494e50f"
+      },
+      {
+        "bounds": [
+          86,
+          249,
+          129,
+          264
+        ],
+        "hash": "32d9126d3d1a10125b32737bd8499bb8dc99dd2fa212d2dcb789a17113193e7b"
+      },
+      {
+        "bounds": [
+          85,
+          236,
+          132,
+          257
+        ],
+        "hash": "efd9f638ba3defb1d6d368fab73af4557f64f566edbd15b3e1aba6e10c27601c"
+      },
+      {
+        "bounds": [
+          80,
+          236,
+          127,
+          251
+        ],
+        "hash": "c64da13aaac971996abee1b30b8b95107a8be09e45849e52f8fa30a1af5c8ba8"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "b63427a91d1606fea73caa0ff4b680800e569d0e0de7e3b6c7a16fa7f6ff1901"
+      },
+      {
+        "bounds": [
+          80,
+          232,
+          125,
+          247
+        ],
+        "hash": "18555ce3a64db8d60fbc07348c63fb2e86a1b367f919ee2be287b30a21886de9"
+      },
+      {
+        "bounds": [
+          79,
+          228,
+          126,
+          249
+        ],
+        "hash": "31b5963a366642cc4464e6271ca21f5651c9499c7a3f686deaa25a693d46dbae"
+      },
+      {
+        "bounds": [
+          79,
+          232,
+          128,
+          251
+        ],
+        "hash": "3c9eb86a6fa9e3d58357a5c54c240f823242ac4e402a12b220780afbda3436d9"
+      },
+      {
+        "bounds": [
+          78,
+          236,
+          126,
+          253
+        ],
+        "hash": "61427b9609b43daad73fb0b9222d864ba0942a4c30b3fd6a1f3f20cf81391659"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          127,
+          253
+        ],
+        "hash": "d4d655c54bd812452cef6b8a8f5b6a01a9ca6e478b0b0b535fe50b9ba96d31b1"
+      },
+      {
+        "bounds": [
+          77,
+          234,
+          128,
+          253
+        ],
+        "hash": "78c0c18c09e7d6d1eeff3d4472d03cd29132686f4d2e9cd59a1b73a9e8ad0f99"
+      },
+      {
+        "bounds": [
+          78,
+          240,
+          125,
+          255
+        ],
+        "hash": "29814e2da964473eeaa0e70f7abe35b60d86c1d9a30b003f7e2de244d6ca7434"
+      },
+      {
+        "bounds": [
+          79,
+          237,
+          128,
+          257
+        ],
+        "hash": "1cf64eb1fe83c7164519883e73d211c6606c712ffe2458226389729910dec660"
+      },
+      {
+        "bounds": [
+          81,
+          238,
+          128,
+          259
+        ],
+        "hash": "31052e2633d135df012a50401a62ef581831b35e67acba998ee28434292fe9a5"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          128,
+          257
+        ],
+        "hash": "c71269e207c27dc52d1b45fe7e206d5590cd6c63f69d27543039430eaf43daa6"
+      },
+      {
+        "bounds": [
+          77,
+          237,
+          128,
+          257
+        ],
+        "hash": "90fd4a96d479445eac13587d4649fbf8ffdc95886e237a4c5f51e616d69414f9"
+      },
+      {
+        "bounds": [
+          79,
+          234,
+          101,
+          251
+        ],
+        "hash": "1402c8bac0a2a62bfdceea78f4ff0d45678a8442ab85abaf601218bc02f02e6e"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "64fead34e442a6f956bc05b42ecdeab06c251bf9fe3daf3af832989d39836819"
+      },
+      {
+        "bounds": [
+          83,
+          242,
+          132,
+          259
+        ],
+        "hash": "b19b70260f68bc5220bad3c4eefe09f7abfeb5752944c07ee2bb58d12a7fc1f2"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "2641f9b815a8b42e619e402d0990527d774f485d222ed099eb9f1c7f4d93022c"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "9416521898af76d3849d29f81e13d2bc58521704b3a8b6004f2f6125c6428ae2"
+      },
+      {
+        "bounds": [
+          90,
+          247,
+          136,
+          265
+        ],
+        "hash": "a8f52b311fccc826e843036914fc0df5e20fb7347eb0a5f64f2d45e611a73fda"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "58a2597185cf73ae03c0c0a34dd09403278e78ec6f021cc665e87e3c779c8566"
+      },
+      {
+        "bounds": [
+          80,
+          237,
+          127,
+          252
+        ],
+        "hash": "64fead34e442a6f956bc05b42ecdeab06c251bf9fe3daf3af832989d39836819"
+      },
+      {
+        "bounds": [
+          83,
+          242,
+          132,
+          259
+        ],
+        "hash": "b19b70260f68bc5220bad3c4eefe09f7abfeb5752944c07ee2bb58d12a7fc1f2"
+      },
+      {
+        "bounds": [
+          87,
+          238,
+          136,
+          255
+        ],
+        "hash": "2641f9b815a8b42e619e402d0990527d774f485d222ed099eb9f1c7f4d93022c"
+      },
+      {
+        "bounds": [
+          88,
+          244,
+          137,
+          259
+        ],
+        "hash": "9416521898af76d3849d29f81e13d2bc58521704b3a8b6004f2f6125c6428ae2"
+      },
+      {
+        "bounds": [
+          90,
+          247,
+          136,
+          265
+        ],
+        "hash": "a8f52b311fccc826e843036914fc0df5e20fb7347eb0a5f64f2d45e611a73fda"
+      },
+      {
+        "bounds": [
+          84,
+          246,
+          131,
+          261
+        ],
+        "hash": "58a2597185cf73ae03c0c0a34dd09403278e78ec6f021cc665e87e3c779c8566"
+      }
+    ]
+  }
+}
