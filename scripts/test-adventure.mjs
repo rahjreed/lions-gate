@@ -4,6 +4,13 @@ import {createRun,submit,advance,nextLevel} from '../dist/engine.js';
 import {questions} from '../dist/questions.js';
 import {loadProfile,saveProfile,emptyProfile} from '../dist/storage.js';
 import {judah} from '../dist/mascot.js';
+import {readFileSync} from 'node:fs';
+import {combatDuration,combatFrames} from '../dist/combat.js';
+const artCSS=readFileSync(new URL('../dist/adventure-frames.css',import.meta.url),'utf8');
+const visualDuration=name=>Number(artCSS.match(new RegExp(`judah-${name}-sequence ([.\\d]+)s steps`))[1])*1000;
+assert.equal(visualDuration('slash'),combatDuration,'Judah attack recovers before combat ends');
+assert.equal(visualDuration('recoil'),combatDuration-combatFrames.find(f=>f.phase==='impact').at,'Judah hit recovery fits the remaining combat window');
+for(const pose of ['slash','recoil'])assert.match(artCSS,new RegExp(`@keyframes judah-${pose}-sequence\\{[^\\n]*100\\.000000%\\{background-position-x:11\\.320755%`),'Combat ends on the canonical guard');
 let time=0,id=0,timers=new Map();const clock={now:()=>time,setTimer:(fn,ms)=>{timers.set(++id,{fn,at:time+ms});return id},clearTimer:id=>timers.delete(id)};
 function tick(ms){const end=time+ms;while(true){const due=[...timers].sort((a,b)=>a[1].at-b[1].at)[0];if(!due||due[1].at>end)break;time=due[1].at;timers.delete(due[0]);due[1].fn()}time=end}
 const phases=[],d=new JourneyDirector(clock);let finishes=0;

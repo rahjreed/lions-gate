@@ -7,13 +7,9 @@
 .roman-sprite{display:block;width:100%;height:100%;background:url('assets/console/roman-soldier.png') 0 0/300% 200% no-repeat;image-rendering:pixelated}
 .game-scene.adventure-arena>.symbolic-gate{right:8%;height:85%;opacity:.65}
 .game-scene .boss-health{margin-left:auto}
-.game-scene[data-combat=windup][data-outcome=correct] .judah{translate:8px 0}
-.game-scene[data-combat=strike][data-outcome=correct] .judah,.game-scene[data-combat=impact][data-outcome=correct] .judah{translate:24px 0}
 .game-scene[data-combat=impact][data-outcome=correct] .roman-soldier{translate:10px 0;filter:brightness(1.8)}
 .game-scene[data-combat=followthrough][data-outcome=correct] .roman-soldier{translate:18px 0}
 .game-scene[data-combat=strike][data-outcome=wrong] .roman-soldier,.game-scene[data-combat=impact][data-outcome=wrong] .roman-soldier{translate:-22px 0}
-.game-scene[data-combat=impact][data-outcome=wrong] .judah{translate:-12px 0;filter:brightness(1.7)}
-.game-scene[data-combat=followthrough][data-outcome=wrong] .judah{translate:-18px 0}
 .combat-sparks{position:absolute;left:57%;top:52%;z-index:5;pointer-events:none}
 .game-scene[data-outcome=wrong] .combat-sparks{left:46%}
 .combat-sparks .pixel-burst{position:absolute;inset:0}

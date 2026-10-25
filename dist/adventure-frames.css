@@ -1,4 +1,4 @@
-/* Generated from the 54-frame adventure atlas contract. */
+/* Generated Judah visual playback; 54-frame atlas, unchanged 920ms combat. */
 @keyframes judah-stance-frames{from{background-position-x:0.000000%}to{background-position-x:9.433962%}}
 .judah-stance .judah-sprite{animation:judah-stance-frames 2.1s steps(5,end) infinite alternate}
 @keyframes judah-ready-frames{from{background-position-x:11.320755%}to{background-position-x:20.754717%}}
@@ -19,7 +19,7 @@
 .judah-walk .judah-sprite{animation:judah-walk-loop .7s steps(1,end) infinite}
 @keyframes judah-run-loop{0.0000%{background-position-x:67.924528%}16.6667%{background-position-x:69.811321%}33.3333%{background-position-x:71.698113%}50.0000%{background-position-x:73.584906%}66.6667%{background-position-x:75.471698%}83.3333%{background-position-x:77.358491%}100.0000%{background-position-x:67.924528%}}
 .judah-run .judah-sprite{animation:judah-run-loop .42s steps(1,end) infinite}
-@keyframes judah-slash-sequence{0.0000%{background-position-x:22.641509%}8.3333%{background-position-x:24.528302%}16.6667%{background-position-x:26.415094%}25.0000%{background-position-x:28.301887%}33.3333%{background-position-x:30.188679%}41.6667%{background-position-x:32.075472%}50.0000%{background-position-x:33.962264%}58.3333%{background-position-x:35.849057%}66.6667%{background-position-x:37.735849%}75.0000%{background-position-x:39.622642%}83.3333%{background-position-x:41.509434%}91.6667%{background-position-x:43.396226%}100.0000%{background-position-x:11.320755%}}
-.judah-slash .judah-sprite{animation:judah-slash-sequence 1.1s steps(1,end) both}
-@keyframes judah-recoil-sequence{0.0000%{background-position-x:45.283019%}12.5000%{background-position-x:47.169811%}25.0000%{background-position-x:49.056604%}37.5000%{background-position-x:50.943396%}50.0000%{background-position-x:52.830189%}62.5000%{background-position-x:54.716981%}75.0000%{background-position-x:15.094340%}87.5000%{background-position-x:13.207547%}100.0000%{background-position-x:11.320755%}}
-.judah-recoil .judah-sprite{animation:judah-recoil-sequence .85s steps(1,end) both}
+@keyframes judah-slash-sequence{0.000000%{background-position-x:11.320755%}6.000000%{background-position-x:22.641509%}15.217391%{background-position-x:24.528302%}26.086957%{background-position-x:26.415094%}36.956522%{background-position-x:28.301887%}52.000000%{background-position-x:30.188679%}76.000000%{background-position-x:32.075472%}100.000000%{background-position-x:11.320755%}}
+.judah-slash .judah-sprite{animation:judah-slash-sequence .92s steps(1,end) both}
+@keyframes judah-recoil-sequence{0.000000%{background-position-x:47.169811%}15.000000%{background-position-x:49.056604%}38.000000%{background-position-x:50.943396%}65.000000%{background-position-x:52.830189%}89.000000%{background-position-x:54.716981%}100.000000%{background-position-x:11.320755%}}
+.judah-recoil .judah-sprite{animation:judah-recoil-sequence .68s steps(1,end) both}
