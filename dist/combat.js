@@ -70,10 +70,21 @@ export function paintCombat(scene,frame,completed,equipment=[]){
  const soldier=scene.querySelector('.roman-soldier');
  soldier.classList.toggle('is-defeated',frame.phase==='defeated');
  soldier.setAttribute('aria-label',`Roman soldier with sword and shield${frame.phase==='defeated'?', defeated':''}`);
+ // Atlas rows have different transparent foot margins. Anchor visible boots, not tiles.
+ soldier.style.setProperty('--roman-foot',String([28,26,26,66,64,64][frame.enemy]/512));
  const sprite=scene.querySelector('.roman-sprite');
  sprite.style.backgroundPosition=`${frame.enemy%3*50}% ${Math.floor(frame.enemy/3)*100}%`;
  const hero=scene.querySelector('.scene-status>.judah');
- if(frame.phase==='windup'&&frame.correct)hero.outerHTML=judah(completed,'slash',false,equipment);
- if(frame.phase==='impact'&&!frame.correct)hero.outerHTML=judah(completed,'recoil',false,equipment);
- if(frame.phase==='ready'||frame.heroReady)hero.outerHTML=judah(completed,'ready',false,equipment);
+ // Keep the figure itself alive: replacing it would restart its travel animation.
+ let pose=hero.dataset.pose;
+ if(frame.phase==='windup'&&frame.correct)pose='run';
+ if(frame.phase==='strike'&&frame.correct)pose='slash';
+ if(frame.phase==='impact'&&!frame.correct)pose='recoil';
+ if(frame.correct&&(frame.phase==='recover'||frame.phase==='defeat'&&frame.at===defeatStart))pose='walk';
+ if(frame.phase==='ready'||frame.heroReady)pose='ready';
+ if(pose!==hero.dataset.pose){
+  const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment);
+  const next=template.content.firstElementChild;
+  hero.className=next.className;hero.dataset.pose=pose;hero.innerHTML=next.innerHTML;
+ }
 }

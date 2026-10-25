@@ -38,8 +38,6 @@ header{padding-top:max(12px,env(safe-area-inset-top));padding-left:max(17px,env(
  body.gameplay .game-scene .scene-status{padding:5px 8px}
  body.gameplay .scene-status>span{font-size:7px;line-height:1.4;max-width:48%}
  body.gameplay .scene-status>span b{display:none}
- body.gameplay .game-scene .scene-status>.judah{width:60cqh;left:calc(50% - 53cqh);bottom:0}
- body.gameplay .roman-soldier{width:100cqh;height:100cqh;left:calc(50% - 12cqh);bottom:-4cqh}
  body.gameplay .boss-health{width:90px;font-size:6px}
  body.gameplay .boss-health>div{margin-top:4px;gap:2px}
  body.gameplay .boss-health i{height:7px}

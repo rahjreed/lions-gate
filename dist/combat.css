@@ -1,17 +1,17 @@
 /* Discrete atlas poses, anticipation, contact hold, recoil and recovery. */
-.game-scene{height:210px}
+.game-scene{height:210px;container-type:size;--fighter-unit:min(1cqh,1.65cqw);--judah-size:calc(var(--fighter-unit) * 74);--roman-size:calc(var(--fighter-unit) * 100);--stance-gap:calc(var(--fighter-unit) * 128);--ground:calc(var(--fighter-unit) * 6)}
 .game-scene .scene-status{align-items:flex-start;padding-top:12px}
-.game-scene .scene-status>.judah{width:128px;left:calc(50% - 108px);bottom:0;z-index:3;transition:none}
+.game-scene .scene-status>.judah{width:var(--judah-size);left:calc(50% - var(--stance-gap) / 2 - var(--judah-size) * .53);bottom:calc(var(--ground) - var(--judah-size) * .1274414);z-index:3;transition:none}
 .game-scene .small-sword{display:none}
-.roman-soldier{position:absolute;width:210px;height:210px;left:calc(50% - 20px);bottom:-8px;z-index:3;pointer-events:none}
+.roman-soldier{position:absolute;width:var(--roman-size);height:var(--roman-size);left:calc(50% + var(--stance-gap) / 2 - var(--roman-size) * .65);bottom:calc(var(--ground) - var(--roman-size) * var(--roman-foot,.0546875));z-index:3;pointer-events:none}
 .roman-sprite{display:block;width:100%;height:100%;background:url('assets/console/roman-soldier.png') 0 0/300% 200% no-repeat;image-rendering:pixelated}
 /* A tiny planted-foot breathing cycle moves the same unmodified guard drawing. */
 .game-scene:not([data-combat]) .roman-soldier:not(.is-defeated) .roman-sprite,.game-scene[data-combat=ready] .roman-soldier:not(.is-defeated) .roman-sprite{animation:roman-idle 3.6s ease-in-out infinite;transform-origin:55% 94%}
 @keyframes roman-idle{0%,100%{transform:translate(0,0) scale(1,1) rotate(0)}28%{transform:translate(-.5px,-.4px) scale(1.003,1.008) rotate(-.15deg)}65%{transform:translate(.5px,0) scale(.998,1.003) rotate(.12deg)}}
-.game-scene[data-combat=defeat] .roman-soldier{transform-origin:55% 90%;animation:roman-defeat .76s steps(10,end) both}
-.roman-soldier.is-defeated{transform-origin:55% 90%;transform:translate(-52px,13px) rotate(82deg);opacity:0}
+.game-scene[data-combat=defeat] .roman-soldier{transform-origin:65% 87.5%;animation:roman-recoil .92s linear both,roman-defeat .76s steps(10,end) both}
+.roman-soldier.is-defeated{transform-origin:65% 87.5%;transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 13)) rotate(82deg);opacity:0}
 .roman-soldier.is-defeated .roman-sprite{background-position:0% 100%}
-@keyframes roman-defeat{0%{transform:translate(18px,0) rotate(0);opacity:1}20%{transform:translate(12px,7px) rotate(12deg)}65%{transform:translate(-34px,16px) rotate(72deg);opacity:1}82%{transform:translate(-52px,11px) rotate(84deg);opacity:.6}100%{transform:translate(-52px,13px) rotate(82deg);opacity:0}}
+@keyframes roman-defeat{0%{transform:translate(0,0) rotate(0);opacity:1}20%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * 7)) rotate(12deg)}65%{transform:translate(calc(var(--fighter-unit) * 10),calc(var(--fighter-unit) * 16)) rotate(72deg);opacity:1}82%{transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 11)) rotate(84deg);opacity:.6}100%{transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 13)) rotate(82deg);opacity:0}}
 .combat-health{display:grid;grid-template-columns:1fr 1fr;gap:7px 28px;padding:10px 14px 8px;background:#121b2c;border:1px solid #7c806f;box-shadow:inset 0 2px #e2cb8b28,0 3px #090d18;margin:0 0 5px}
 .health-label{display:flex;justify-content:space-between;align-items:center;gap:8px;color:#d9dac4;font:8px/1.6 var(--mono);letter-spacing:1px;margin-bottom:4px}.health-label b{color:#a7e4d2}.health-enemy .health-label b{color:#efc883}.health-value{font-size:8px;white-space:nowrap}
 .health-track{height:15px;position:relative;border:2px solid #7a8395;background:#070e1c;box-shadow:0 1px #050912,inset 0 1px #03060e;overflow:hidden;isolation:isolate}
@@ -21,13 +21,26 @@
 .combat-health>small{grid-column:1/-1;text-align:center;font:7px/1.5 var(--mono);letter-spacing:.5px;color:#98a6b8}
 .game-scene.adventure-arena>.symbolic-gate{right:8%;height:85%;opacity:.65}
 .game-scene .boss-health{margin-left:auto}
-.game-scene[data-combat=impact][data-outcome=correct] .roman-soldier{translate:10px 0;filter:brightness(1.8)}
-.game-scene[data-combat=followthrough][data-outcome=correct] .roman-soldier{translate:18px 0}
-.game-scene[data-combat=strike][data-outcome=wrong] .roman-soldier,.game-scene[data-combat=impact][data-outcome=wrong] .roman-soldier{translate:-22px 0}
-.combat-sparks{position:absolute;left:57%;top:52%;z-index:5;pointer-events:none}
-.game-scene[data-outcome=wrong] .combat-sparks{left:46%}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=correct] .scene-status>.judah{animation:judah-advance .92s linear both}
+.game-scene[data-combat]:not([data-combat=ready]):not([data-combat=defeat]):not([data-combat=defeated])[data-outcome=correct] .roman-soldier{animation:roman-recoil .92s linear both}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong] .roman-soldier{animation:roman-advance .92s linear both}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong] .scene-status>.judah{animation:judah-retreat .92s linear both}
+.game-scene[data-combat=impact][data-outcome=correct] .roman-sprite{filter:brightness(1.8)}
+/* The existing 240ms impact is 26.086957% of the 920ms exchange. */
+@keyframes judah-advance{0%{translate:0 0}6%{translate:calc(var(--fighter-unit) * -2) 0}15.217391%{translate:calc(var(--fighter-unit) * 47) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * 57) 0}36.956522%{translate:calc(var(--fighter-unit) * 60) 0}58.695652%{translate:calc(var(--fighter-unit) * 56) 0}70%{translate:calc(var(--fighter-unit) * 40) calc(var(--fighter-unit) * -2)}85%{translate:calc(var(--fighter-unit) * 20) 0}100%{translate:0 0}}
+@keyframes roman-advance{0%{translate:0 0}8%{translate:calc(var(--fighter-unit) * 3) 0}15.217391%{translate:calc(var(--fighter-unit) * -36) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * -43) 0}36.956522%{translate:calc(var(--fighter-unit) * -44) 0}58.695652%{translate:calc(var(--fighter-unit) * -40) 0}76%{translate:calc(var(--fighter-unit) * -18) calc(var(--fighter-unit) * -2)}100%{translate:0 0}}
+@keyframes roman-recoil{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * 8) 0}58.695652%{translate:calc(var(--fighter-unit) * 4) 0}100%{translate:0 0}}
+@keyframes judah-retreat{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * -8) 0}58.695652%{translate:calc(var(--fighter-unit) * -5) 0}100%{translate:0 0}}
+/* Reuse the existing locomotion frames; seek the slash to the shared clock. */
+.game-scene .judah-run .judah-sprite{animation-duration:.28s}
+.game-scene .judah-slash .judah-sprite{animation-name:judah-contact-sequence;animation-delay:-.14s}
+@keyframes judah-contact-sequence{0%{background-position-x:11.320755%}6%{background-position-x:22.641509%}15.217391%{background-position-x:24.528302%}23.913043%{background-position-x:26.415094%}36.956522%{background-position-x:28.301887%}52%{background-position-x:30.188679%}76%{background-position-x:32.075472%}100%{background-position-x:11.320755%}}
+.game-scene .judah-slash .hero-slash{animation-delay:-.06s}
+.game-scene .judah-walk .judah-sprite{animation-duration:.38s;animation-direction:reverse;animation-iteration-count:1;animation-fill-mode:both}
+.combat-sparks{position:absolute;left:calc(50% + var(--fighter-unit) * 40);top:56%;z-index:5;pointer-events:none}
+.game-scene[data-outcome=wrong] .combat-sparks{left:calc(50% - var(--fighter-unit) * 45)}
 .combat-sparks .pixel-burst{position:absolute;inset:0}
-@media(max-width:700px){.game-scene{height:180px}.game-scene .scene-status>span{font-size:8px}.game-scene .scene-status>span b{font-size:6px}.game-scene .scene-status>.judah{width:108px;left:calc(50% - 95px)}.roman-soldier{width:180px;height:180px;left:calc(50% - 22px);bottom:-7px}.game-scene.adventure-arena>.symbolic-gate{right:0;opacity:.4}.game-scene .boss-health{width:100px;font-size:6px}}
+@media(max-width:700px){.game-scene{height:180px}.game-scene .scene-status>span{font-size:8px}.game-scene .scene-status>span b{font-size:6px}.game-scene.adventure-arena>.symbolic-gate{right:0;opacity:.4}.game-scene .boss-health{width:100px;font-size:6px}}
 @media(prefers-reduced-motion:reduce){.game-scene .judah,.roman-soldier{translate:none!important;filter:none!important}}
 @media(max-width:700px){.combat-health{padding:8px;gap:6px 12px}.health-label{font-size:7px;letter-spacing:.3px;gap:4px}.health-value{font-size:7px}.health-track{height:13px}.combat-health>small{font-size:6px;letter-spacing:0}}
 @media(prefers-reduced-motion:reduce){.roman-sprite,.game-scene[data-combat=defeat] .roman-soldier,.health-fill{animation:none!important}.health-fill,.health-lag{transition:none}}
@@ -36,3 +49,5 @@
 .health-label{align-items:flex-end;min-height:26px}.health-label b{min-width:0;overflow-wrap:anywhere}.health-value{flex-shrink:0}
 .health-enemy .health-label b{font-size:10px;line-height:1.5}
 @media(max-width:700px){.health-enemy .health-label b{font-size:9px}}
+.health-enemy .health-label{flex-direction:row-reverse}.health-enemy .health-label b{text-align:right}
+@media(prefers-reduced-motion:reduce){.game-scene .scene-status>.judah,.game-scene .roman-soldier{animation:none!important}}

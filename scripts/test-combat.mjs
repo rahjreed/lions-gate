@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {opponentFor} from '../dist/opponents.js';
-import {CombatDirector,combatFrames,combatDuration,defeatStart,defeatDuration,combatHealth,combatHealthMarkup} from '../dist/combat.js';
+import {CombatDirector,combatFrames,combatDuration,defeatStart,defeatDuration,combatHealth,combatHealthMarkup,paintCombat} from '../dist/combat.js';
 import {createRun,submit,advance,nextLevel,usePower} from '../dist/engine.js';
 import {questions} from '../dist/questions.js';
 for(const outcome of ['correct','wrong','timeout','shield']){
@@ -80,3 +80,28 @@ for(const correct of [true,false])for(const enemyDefeated of [true,false])for(co
  d.start({correct,onFrame:()=>{},onImpact:()=>impact++,onFinish:()=>finish++});d.pause();d.cancel();d.resume();tick(2000);assert.equal(impact,1);assert.equal(finish,1);
 }
 console.log('PASS combat pause: 40 boundary/outcome combinations, background suspension, precise remaining delays, stale callbacks, repeated pause/resume, cancellation and single impact/finish.');
+
+// Pose changes must retain the travelling actor node and its animation clock.
+// This small DOM fixture parses only the production figure attributes it needs.
+const hero={dataset:{pose:'ready'},className:'judah judah-ready',innerHTML:'',ownerDocument:{
+ createElement(){return {content:{},set innerHTML(html){
+  this.content.firstElementChild={className:html.match(/class="([^"]+)"/)[1],innerHTML:html.slice(html.indexOf('>')+1,html.lastIndexOf('</figure>'))};
+ }}}
+}};
+const soldier={classList:{toggle(){}},setAttribute(){},style:{setProperty(name,value){this[name]=value}}},sprite={style:{}},scene={dataset:{},querySelector:s=>s==='.roman-soldier'?soldier:s==='.roman-sprite'?sprite:hero};
+for(const completed of [0,5,15,30,75]){
+ hero.dataset.pose='ready';
+ const equipment=completed===75?['belt']:[];
+ for(const [phase,at,enemy,pose] of [['windup',0,0,'run'],['strike',140,0,'slash'],['impact',240,4,'slash'],['recover',540,5,'walk'],['ready',920,0,'ready']]){
+  paintCombat(scene,{phase,at,enemy,correct:true},completed,equipment);
+  assert.equal(hero.dataset.pose,pose);assert.equal(scene.querySelector('.scene-status>.judah'),hero);
+  assert.ok(!Object.hasOwn(hero,'outerHTML'),'Do not replace/restart the actor');
+  if(equipment.length)assert.match(hero.innerHTML,/data-armor="belt"/);
+ }
+ paintCombat(scene,{phase:'impact',at:240,enemy:2,correct:false},completed,equipment);assert.equal(hero.dataset.pose,'recoil');
+ paintCombat(scene,{phase:'ready',at:920,enemy:0,correct:false},completed,equipment);assert.equal(hero.dataset.pose,'ready');
+}
+for(const [enemy,tail] of [28,26,26,66,64,64].entries()){paintCombat(scene,{phase:'impact',at:240,enemy,correct:true},0);assert.equal(Number(soldier.style['--roman-foot']),tail/512)}
+paintCombat(scene,{phase:'defeat',at:540,enemy:3,correct:true},0);assert.equal(hero.dataset.pose,'walk');
+paintCombat(scene,{phase:'defeat',at:920,enemy:3,correct:true,heroReady:true},0);assert.equal(hero.dataset.pose,'ready');
+console.log('PASS combat staging: persistent actor identity/clock, approach/slash/backstep/home, all ranks and belt, wrong recoil, defeat recovery and all six boot anchors.');
