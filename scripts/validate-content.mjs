@@ -1,9 +1,10 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {legacyKnowledge} from '../dist/knowledge.js';
 import {questions} from '../dist/questions.js';
 import {canon,oldTestament,newTestament,apocrypha,validateQuestions,prohibitedPersonalReferences} from '../dist/question-rules.js';
 assert.equal(oldTestament.length,39);assert.equal(newTestament.length,27);assert.equal(apocrypha.length,14);assert.equal(new Set(canon).size,80);
-assert.equal(questions.length,42);assert.equal(validateQuestions(questions),true);
+assert.ok(questions.length>=42);assert.equal(Object.keys(legacyKnowledge).length,42);assert.ok(Object.keys(legacyKnowledge).every(id=>questions.some(q=>q.id===id))); assert.equal(validateQuestions(questions),true);
 function reject(change,pattern){const q=structuredClone(questions[0]);change(q);assert.throws(()=>validateQuestions([q]),pattern)}
 for(const text of ['Where in your notes is this?','According to my study documents, who?','What does the study assignment say?','See Google Drive','What do the personal notes say?'])reject(q=>q.q=text,/Personal research/);
 reject(q=>delete q.scripture,/citation/);reject(q=>q.scripture.verse=0,/citation/);

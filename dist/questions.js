@@ -1,3 +1,4 @@
+import {publishedQuestions} from './published-questions.js';
 import {additions} from './extra-questions.js';
 import {focusQuestions,tagsById,trapsById} from './focus-questions.js';
 import {validateQuestions} from './question-rules.js';
@@ -23,6 +24,7 @@ const wise=questions.find(q=>q.id==='wise-count');wise.scripture.endVerse=12;wis
 // Fixed after passage review; publishing must not silently regenerate these approvals.
 const approvals={"sabbath-day":"7c986c3e","wisdom-soul":"e4fa7767","hear-first":"5ae89fb9","unleavened-days":"b72d279f","honor-parents":"ac2eed2d","guard-heart":"aba0a8d7","trust-lord":"02ecbde7","hope-deferred":"327aeb63","receive-commandments":"746970d6","enemy-falls":"3ffad6f3","moses-brother":"9cccf8fd","jonah-days":"34c5a76b","creation-rest":"1df3e3dc","spirit-sword":"4cdaeaee","wise-count":"d7e69f5f","wise-house":"c28d9d5c","david-stones":"182e033d","antioch-name":"de1a9415","vengeance":"c7f264b9","city-descends":"db534728","raphael":"afedc725","learned-leisure":"ef0c08e5","esdras-comparison":"238b60f9","law-prophets-psalms":"0b10671c","salem-meaning":"3c80d4ea","weightier-matters":"d80edb6d","measure-number-weight":"cb50a78a","apollos-origin":"c8a93d6b","lydia-city":"30d4532b","sychar":"be01581e","land-animals":"e96b8020","water-creatures":"b68e5125","six-days":"a26aa2df","love-commandments":"e2b6716f","hands-complaint":"5e180cfb","hands-conclusion":"86c2c45a","establish-law":"ab3594da","doers-word":"07af7626","command-tradition":"f563c7c1","grace-sin":"3e447ffd","keeping-commandments":"246ed5f7","teach-children":"e98e7405"};
 questions.forEach(q=>{q.review.contentFingerprint=approvals[q.id]});
+questions.push(...publishedQuestions);
 validateQuestions(questions);
 export const difficultyCounts=[1,2,3].map(difficulty=>({difficulty,count:questions.filter(q=>q.difficulty===difficulty).length}));
 export const scriptureReference=q=>`${q.scripture.book} ${q.scripture.chapter}:${q.scripture.verse}${q.scripture.endVerse?'–'+q.scripture.endVerse:''} (KJV)`;

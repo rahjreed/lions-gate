@@ -15,3 +15,8 @@ context.view='journey';context.pause();now+=50000;context.resume();assert.ok(cal
 context.view='game';run.status='playing';run.remaining=.001;context.startClock();now+=2;context.pause();assert.equal(calls.filter(c=>c==='timeout').length,1);context.pause();context.resume();assert.equal(run.status,'feedback');assert.equal(intervals.size,0,'An already-expired question cannot gain a fresh deadline');
 assert.match(source,/visibilitychange[^\n]+if\(document.hidden\)pause\(\)/);assert.match(source,/pagehide[^\n]+pause\(\);persist\(\)/);assert.match(source,/addEventListener\('freeze',pause\)/);
 console.log('PASS pause integration: exact question time, 20 toggles, no score/life/index mutation, expired deadline, hidden resume blocked, combat/journey resume, background/freeze/save hooks.');
+// Moving Pause to persistent navigation must expose it only on live game/journey views.
+const controls=new Map();const navContext={view:'title',run:{status:'playing'},profile:{settings:{sound:false,music:false}},$:selector=>{if(!controls.has(selector))controls.set(selector,{setAttribute(){}});return controls.get(selector)}};
+vm.createContext(navContext);vm.runInContext(source.slice(source.indexOf('function updateAudioControls('),source.indexOf('\nfunction render(')),navContext);
+for(const [view,status,visible] of [['title','playing',false],['game','playing',true],['game','feedback',true],['journey','levelup',true],['game','levelup',false],['game','gameover',false],['hall','playing',false]]){navContext.view=view;navContext.run.status=status;navContext.updateAudioControls();assert.equal(controls.get('#pause-control').hidden,!visible)}
+console.log('PASS Pause navigation: live question/combat/journey visibility and title/results/menu cleanup.');

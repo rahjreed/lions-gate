@@ -1,0 +1,22 @@
+{
+  "reviewedLive": 42,
+  "candidates": 50,
+  "newlyPublished": 0,
+  "manualReviewRequired": 50,
+  "multiPassage": 14,
+  "categories": {
+    "people": 8,
+    "torah": 8,
+    "yeshua": 7,
+    "connections": 7,
+    "context": 7,
+    "kingdom": 7,
+    "discernment": 6
+  },
+  "validation": {
+    "count": 50,
+    "errors": [],
+    "warnings": [],
+    "publicationReady": false
+  }
+}

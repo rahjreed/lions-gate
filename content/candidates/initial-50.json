@@ -1,0 +1,2843 @@
+[
+  {
+    "id": "bke-melchizedek-gifts",
+    "topic": "Abram and Salem",
+    "category": "Biblical people, places, and events",
+    "difficulty": 1,
+    "q": "Who brought bread and wine to Abram in Genesis 14:18?",
+    "options": [
+      "Melchizedek",
+      "Abimelech",
+      "Bera",
+      "Lot"
+    ],
+    "answer": 0,
+    "correctAnswer": "Melchizedek",
+    "explain": "Melchizedek is the king and priest who brings these provisions in the account.",
+    "scripture": {
+      "book": "Genesis",
+      "chapter": 14,
+      "verse": 18,
+      "translation": "KJV",
+      "excerpt": "Melchizedek king of Salem",
+      "url": "https://www.kingjamesbibleonline.org/Genesis-14-18/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 1,
+      "concept": "melchizedek-gifts",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Genesis-14-18/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-joseph-age",
+    "topic": "Joseph in Egypt",
+    "category": "Biblical people, places, and events",
+    "difficulty": 1,
+    "q": "How old was Joseph when he stood before Pharaoh in Genesis 41:46?",
+    "options": [
+      "Twenty",
+      "Thirty",
+      "Seventeen",
+      "Forty"
+    ],
+    "answer": 1,
+    "correctAnswer": "Thirty",
+    "explain": "The age given at this audience is thirty; it is distinct from his earlier life with his brothers.",
+    "scripture": {
+      "book": "Genesis",
+      "chapter": 41,
+      "verse": 46,
+      "translation": "KJV",
+      "excerpt": "Joseph was thirty years old",
+      "url": "https://www.kingjamesbibleonline.org/Genesis-41-46/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 1,
+      "concept": "joseph-age",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Genesis-41-46/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-moses-hands",
+    "topic": "The battle with Amalek",
+    "category": "Biblical people, places, and events",
+    "difficulty": 2,
+    "q": "Who supported Moses’ hands in Exodus 17:12?",
+    "options": [
+      "Nadab and Abihu",
+      "Eleazar and Ithamar",
+      "Aaron and Hur",
+      "Joshua and Caleb"
+    ],
+    "answer": 2,
+    "correctAnswer": "Aaron and Hur",
+    "explain": "Aaron and Hur hold up his hands while Moses sits on a stone; Joshua’s role is in the battle.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 17,
+      "verse": 12,
+      "translation": "KJV",
+      "excerpt": "Aaron and Hur stayed up his hands",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-17-12/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 2,
+      "concept": "moses-hands",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.biblegateway.com/passage/?search=Exodus+17:12&version=KJV"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-oshea-name",
+    "topic": "The twelve spies",
+    "category": "Biblical people, places, and events",
+    "difficulty": 2,
+    "q": "What name did Moses give Oshea the son of Nun in Numbers 13:16?",
+    "options": [
+      "Caleb",
+      "Gershom",
+      "Eleazar",
+      "Jehoshua"
+    ],
+    "answer": 3,
+    "correctAnswer": "Jehoshua",
+    "explain": "The KJV spells the new name Jehoshua here, a form associated with Joshua. The other choices are different people.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 13,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "Moses called Oshea the son of Nun Jehoshua",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-13-16/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 2,
+      "concept": "oshea-name",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Numbers-Chapter-13/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-jordan-season",
+    "topic": "Crossing the Jordan",
+    "category": "Biblical people, places, and events",
+    "difficulty": 2,
+    "q": "What season is mentioned when the Jordan overflows its banks in Joshua 3:15?",
+    "options": [
+      "Harvest",
+      "Seedtime",
+      "Winter",
+      "Summer"
+    ],
+    "answer": 0,
+    "correctAnswer": "Harvest",
+    "explain": "The narrative specifically identifies harvest as the time of the overflowing river.",
+    "scripture": {
+      "book": "Joshua",
+      "chapter": 3,
+      "verse": 15,
+      "translation": "KJV",
+      "excerpt": "all the time of harvest",
+      "url": "https://www.kingjamesbibleonline.org/Joshua-3-15/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 2,
+      "concept": "jordan-season",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Joshua-3-15/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-ruth-husband",
+    "topic": "Ruth and Boaz",
+    "category": "Biblical people, places, and events",
+    "difficulty": 1,
+    "q": "Whom does Ruth 4:13 identify as Ruth’s husband at the birth of her son?",
+    "options": [
+      "Elimelech",
+      "Boaz",
+      "Mahlon",
+      "Chilion"
+    ],
+    "answer": 1,
+    "correctAnswer": "Boaz",
+    "explain": "Boaz marries Ruth in this verse. The question concerns this marriage, rather than her earlier family history.",
+    "scripture": {
+      "book": "Ruth",
+      "chapter": 4,
+      "verse": 13,
+      "translation": "KJV",
+      "excerpt": "Boaz took Ruth",
+      "url": "https://www.kingjamesbibleonline.org/Ruth-4-13/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 1,
+      "concept": "ruth-husband",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Ruth-4-13/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-elijah-water",
+    "topic": "Elijah on Carmel",
+    "category": "Biblical people, places, and events",
+    "difficulty": 2,
+    "q": "How many barrels of water did Elijah first ask to be filled in 1 Kings 18:33?",
+    "options": [
+      "Seven",
+      "Twelve",
+      "Four",
+      "Three"
+    ],
+    "answer": 2,
+    "correctAnswer": "Four",
+    "explain": "The initial instruction is for four barrels. Later repetitions of pouring should not be confused with this number.",
+    "scripture": {
+      "book": "1 Kings",
+      "chapter": 18,
+      "verse": 33,
+      "translation": "KJV",
+      "excerpt": "Fill four barrels with water",
+      "url": "https://www.kingjamesbibleonline.org/1-Kings-18-33/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 2,
+      "concept": "elijah-water",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/1-Kings-Chapter-18/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-nehemiah-office",
+    "topic": "Nehemiah in exile",
+    "category": "Biblical people, places, and events",
+    "difficulty": 1,
+    "q": "What royal office does Nehemiah name at the end of Nehemiah 1:11?",
+    "options": [
+      "Chamberlain",
+      "Captain of the guard",
+      "Keeper of the wardrobe",
+      "Cupbearer"
+    ],
+    "answer": 3,
+    "correctAnswer": "Cupbearer",
+    "explain": "Nehemiah identifies himself as the king’s cupbearer, rather than one of the other royal offices.",
+    "scripture": {
+      "book": "Nehemiah",
+      "chapter": 1,
+      "verse": 11,
+      "translation": "KJV",
+      "excerpt": "I was the king's cupbearer",
+      "url": "https://www.kingjamesbibleonline.org/Nehemiah-1-11/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 1,
+      "concept": "nehemiah-office",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Nehemiah-1-11/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-enemy-burden",
+    "topic": "Care for an enemy",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "What does Exodus 23:5 direct when an enemy’s ass is lying under its burden?",
+    "options": [
+      "Help with the burden",
+      "Wait for the owner to leave",
+      "Take the animal as payment",
+      "Bring a sacrifice before helping"
+    ],
+    "answer": 0,
+    "correctAnswer": "Help with the burden",
+    "explain": "The instruction requires helping even when the owner hates the observer. Hostility does not cancel the stated duty.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 23,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "thou shalt surely help with him",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-23-5/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "enemy-burden",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Exodus-Chapter-23/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-neighbor-love",
+    "topic": "Love of neighbour",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "How does Leviticus 19:18 say to love your neighbour?",
+    "options": [
+      "As your teacher",
+      "As yourself",
+      "As your ruler",
+      "As your firstborn"
+    ],
+    "answer": 1,
+    "correctAnswer": "As yourself",
+    "explain": "The verse gives one’s own self as the comparison and also prohibits vengeance and grudges.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 18,
+      "translation": "KJV",
+      "excerpt": "love thy neighbour as thyself",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-18/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "commandments"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "concept": "neighbor-love",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Leviticus-19-18/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-impartial-court",
+    "topic": "Justice in Torah",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 3,
+    "q": "Which instruction best matches Leviticus 19:15 about judging a neighbour?",
+    "options": [
+      "Favour the powerful party in public disputes",
+      "Let social standing decide a tied dispute",
+      "Judge righteously without favouring poverty or power",
+      "Favour the poorer party in every dispute"
+    ],
+    "answer": 2,
+    "correctAnswer": "Judge righteously without favouring poverty or power",
+    "explain": "The prohibition names partiality toward both the poor and the mighty. Righteous judgment is the stated standard.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 15,
+      "translation": "KJV",
+      "excerpt": "in righteousness shalt thou judge thy neighbour",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "commandments"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "impartial-court",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-trumpets-date",
+    "topic": "The seventh month",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "On what date does Leviticus 23:24 place the memorial of blowing trumpets?",
+    "options": [
+      "Tenth day of the seventh month",
+      "Fifteenth day of the seventh month",
+      "Fourteenth day of the first month",
+      "First day of the seventh month"
+    ],
+    "answer": 3,
+    "correctAnswer": "First day of the seventh month",
+    "explain": "The verse specifies the first day of the seventh month. Other feast dates must not be substituted.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 23,
+      "verse": 24,
+      "translation": "KJV",
+      "excerpt": "first day of the month",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-23-24/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "feasts"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "trumpets-date",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Leviticus-23-24/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-annual-appearances",
+    "topic": "Pilgrimage feasts",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 3,
+    "q": "Which set of feasts is listed for the three yearly appearances in Deuteronomy 16:16?",
+    "options": [
+      "Unleavened Bread, Weeks, Tabernacles",
+      "Unleavened Bread, Trumpets, Atonement",
+      "Weeks, Trumpets, Tabernacles",
+      "Trumpets, Atonement, Tabernacles"
+    ],
+    "answer": 0,
+    "correctAnswer": "Unleavened Bread, Weeks, Tabernacles",
+    "explain": "The list names Unleavened Bread, Weeks and Tabernacles. It does not equate every seventh-month observance with one of these three appearances.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "three times in a year",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-16-16/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "feasts"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "annual-appearances",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Deuteronomy-16-16/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-king-law-copy",
+    "topic": "The king and the law",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 3,
+    "q": "What must the king write for himself in Deuteronomy 17:18?",
+    "options": [
+      "A register of the tribes and their inheritance",
+      "A copy of the law in a book",
+      "A genealogy proving descent from Levi",
+      "A treaty approved by neighbouring kings"
+    ],
+    "answer": 1,
+    "correctAnswer": "A copy of the law in a book",
+    "explain": "The king is to make a copy from the law kept before the Levitical priests, not author a replacement.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 18,
+      "translation": "KJV",
+      "excerpt": "a copy of this law",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-17-18/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "commandments"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "king-law-copy",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Deuteronomy-17-18/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-forgotten-sheaf",
+    "topic": "Gleaning and provision",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 3,
+    "q": "For whom is the forgotten sheaf left in Deuteronomy 24:19?",
+    "options": [
+      "The merchant, soldier and scribe",
+      "The landowner, steward and debtor",
+      "The stranger, fatherless and widow",
+      "The priest, judge and king"
+    ],
+    "answer": 2,
+    "correctAnswer": "The stranger, fatherless and widow",
+    "explain": "The command prevents returning for the forgotten sheaf and names three groups who benefit from it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 19,
+      "translation": "KJV",
+      "excerpt": "the stranger, for the fatherless, and for the widow",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-19/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "forgotten-sheaf",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-later-passover",
+    "topic": "Passover provision",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 3,
+    "q": "For those covered by Numbers 9:10, when does verse 11 direct keeping the Passover?",
+    "options": [
+      "First day of the second month at even",
+      "Fourteenth day of the seventh month at even",
+      "Fifteenth day of the first month at even",
+      "Fourteenth day of the second month at even"
+    ],
+    "answer": 3,
+    "correctAnswer": "Fourteenth day of the second month at even",
+    "explain": "Verse 10 concerns uncleanness from a dead body or a distant journey. Verse 11 gives the later observance date; this is a specified provision, not a freely chosen date.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 9,
+      "verse": 11,
+      "translation": "KJV",
+      "excerpt": "fourteenth day of the second month",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-9-11/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 9,
+        "verse": 10,
+        "translation": "KJV",
+        "excerpt": "a journey afar off",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-9-10/"
+      }
+    ],
+    "tags": [
+      "torah",
+      "feasts"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "later-passover",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Numbers-9-11/",
+          "https://www.kingjamesbibleonline.org/Numbers-9-10/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-reconcile-first",
+    "topic": "Reconciliation",
+    "category": "Teachings of Yeshua",
+    "difficulty": 2,
+    "q": "What does Yeshua tell a person to do first in Matthew 5:24 before returning to offer a gift?",
+    "options": [
+      "Be reconciled to their brother",
+      "Ask a priest to settle the dispute",
+      "Offer a second gift in the brother’s name",
+      "Wait for the brother to approach"
+    ],
+    "answer": 0,
+    "correctAnswer": "Be reconciled to their brother",
+    "explain": "Reconciliation precedes returning to the offering. The instruction concerns the relational wrong raised in the preceding verse.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 5,
+      "verse": 24,
+      "translation": "KJV",
+      "excerpt": "first be reconciled to thy brother",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-5-24/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 2,
+      "concept": "reconcile-first",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Matthew-5-24/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-rock-hearer",
+    "topic": "Hearing and doing",
+    "category": "Teachings of Yeshua",
+    "difficulty": 3,
+    "q": "Whom does Yeshua compare to the wise builder in Matthew 7:24?",
+    "options": [
+      "One who praises the builder’s craftsmanship",
+      "One who hears his sayings and does them",
+      "One who hears his sayings and memorizes them",
+      "One who teaches his sayings without doing them"
+    ],
+    "answer": 1,
+    "correctAnswer": "One who hears his sayings and does them",
+    "explain": "The comparison includes both hearing and doing. Hearing alone does not satisfy the description.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 7,
+      "verse": 24,
+      "translation": "KJV",
+      "excerpt": "heareth these sayings of mine, and doeth them",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-7-24/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 3,
+      "concept": "rock-hearer",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Matthew-7-24/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-mercy-hosea",
+    "topic": "Mercy and accusation",
+    "category": "Teachings of Yeshua",
+    "difficulty": 3,
+    "q": "Which priority appears in both Hosea 6:6 and Yeshua’s reply in Matthew 12:7?",
+    "options": [
+      "Royal power rather than service",
+      "Temple gifts rather than reconciliation",
+      "Mercy rather than sacrifice",
+      "Sacrifice rather than mercy"
+    ],
+    "answer": 2,
+    "correctAnswer": "Mercy rather than sacrifice",
+    "explain": "Yeshua applies the mercy statement to the condemnation of the guiltless. Comparing the wording does not require assigning a new rule to every sacrifice passage.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 12,
+      "verse": 7,
+      "translation": "KJV",
+      "excerpt": "I will have mercy",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-12-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Hosea",
+        "chapter": 6,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "I desired mercy",
+        "url": "https://www.kingjamesbibleonline.org/Hosea-6-6/"
+      }
+    ],
+    "tags": [
+      "yeshua-context",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 4,
+      "concept": "mercy-hosea",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Matthew-12-7/",
+          "https://www.kingjamesbibleonline.org/Hosea-6-6/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-sabbath-for-man",
+    "topic": "The Sabbath saying",
+    "category": "Teachings of Yeshua",
+    "difficulty": 3,
+    "q": "How does Mark 2:27 describe the relationship between man and the Sabbath?",
+    "options": [
+      "Man was made for the Sabbath",
+      "The Sabbath was made for priests alone",
+      "The Sabbath was made for kings alone",
+      "The Sabbath was made for man"
+    ],
+    "answer": 3,
+    "correctAnswer": "The Sabbath was made for man",
+    "explain": "The saying gives the direction of the relationship explicitly. The question does not ask readers to settle every later Sabbath dispute.",
+    "scripture": {
+      "book": "Mark",
+      "chapter": 2,
+      "verse": 27,
+      "translation": "KJV",
+      "excerpt": "The sabbath was made for man",
+      "url": "https://www.kingjamesbibleonline.org/Mark-2-27/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 3,
+      "concept": "sabbath-for-man",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Mark-Chapter-2/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-neighbor-mercy",
+    "topic": "The Samaritan’s example",
+    "category": "Teachings of Yeshua",
+    "difficulty": 3,
+    "q": "At the conclusion of Luke 10:36–37, what identifies the person who acted as neighbour?",
+    "options": [
+      "Showing mercy to the wounded man",
+      "Sharing the wounded man’s ancestry",
+      "Holding the highest religious office",
+      "Being the first traveller to pass by"
+    ],
+    "answer": 0,
+    "correctAnswer": "Showing mercy to the wounded man",
+    "explain": "The reply identifies the one who showed mercy, and Yeshua directs the listener to act likewise.",
+    "scripture": {
+      "book": "Luke",
+      "chapter": 10,
+      "verse": 37,
+      "translation": "KJV",
+      "excerpt": "He that shewed mercy on him",
+      "url": "https://www.kingjamesbibleonline.org/Luke-10-37/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 3,
+      "concept": "neighbor-mercy",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Luke-10-37/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-chief-serves",
+    "topic": "Greatness and service",
+    "category": "Teachings of Yeshua",
+    "difficulty": 3,
+    "q": "How should the one who is chief act in Luke 22:26?",
+    "options": [
+      "As one who controls every meal",
+      "As one who serves",
+      "As one exempt from service",
+      "As one owed a royal title"
+    ],
+    "answer": 1,
+    "correctAnswer": "As one who serves",
+    "explain": "Yeshua contrasts the disciples’ conduct with rulers who exercise lordship and directs the chief to serve.",
+    "scripture": {
+      "book": "Luke",
+      "chapter": 22,
+      "verse": 26,
+      "translation": "KJV",
+      "excerpt": "as he that doth serve",
+      "url": "https://www.kingjamesbibleonline.org/Luke-22-26/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 3,
+      "concept": "chief-serves",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Luke-22-26/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-footwashing-example",
+    "topic": "The example of the Master",
+    "category": "Teachings of Yeshua",
+    "difficulty": 2,
+    "q": "What action does Yeshua tell his disciples to do for one another in John 13:14?",
+    "options": [
+      "Serve one another at the table",
+      "Anoint one another with oil",
+      "Wash one another’s feet",
+      "Share bread with one another"
+    ],
+    "answer": 2,
+    "correctAnswer": "Wash one another’s feet",
+    "explain": "He names washing one another’s feet after performing that action himself. The question tests the stated example rather than a denominational practice.",
+    "scripture": {
+      "book": "John",
+      "chapter": 13,
+      "verse": 14,
+      "translation": "KJV",
+      "excerpt": "wash one another's feet",
+      "url": "https://www.kingjamesbibleonline.org/John-13-14/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 2,
+      "concept": "footwashing-example",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/John-13-14/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-peter-joel",
+    "topic": "Peter’s citation",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "Which prophet does Peter explicitly name in Acts 2:16?",
+    "options": [
+      "Amos",
+      "Hosea",
+      "Zechariah",
+      "Joel"
+    ],
+    "answer": 3,
+    "correctAnswer": "Joel",
+    "explain": "Peter names Joel before the following prophetic citation. The verse itself identifies the source.",
+    "scripture": {
+      "book": "Acts",
+      "chapter": 2,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "spoken by the prophet Joel",
+      "url": "https://www.kingjamesbibleonline.org/Acts-2-16/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 3,
+      "concept": "peter-joel",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Acts-2-16/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-david-tabernacle",
+    "topic": "James and Amos",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "What restoration image is shared by Amos 9:11 and the citation in Acts 15:16?",
+    "options": [
+      "Rebuilding David’s fallen tabernacle",
+      "Rebuilding Jericho’s fallen walls",
+      "Restoring Saul’s royal house",
+      "Raising the brazen serpent in the wilderness"
+    ],
+    "answer": 0,
+    "correctAnswer": "Rebuilding David’s fallen tabernacle",
+    "explain": "Both passages name David’s fallen tabernacle and its restoration. Acts places the citation in the council discussion; this comparison does not prescribe a detailed prophetic timetable.",
+    "scripture": {
+      "book": "Acts",
+      "chapter": 15,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "tabernacle of David",
+      "url": "https://www.kingjamesbibleonline.org/Acts-15-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Amos",
+        "chapter": 9,
+        "verse": 11,
+        "translation": "KJV",
+        "excerpt": "tabernacle of David",
+        "url": "https://www.kingjamesbibleonline.org/Amos-9-11/"
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "david-tabernacle",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Acts-15-16/",
+          "https://www.kingjamesbibleonline.org/Amos-9-11/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-abraham-counted",
+    "topic": "Paul and Genesis",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "Which shared statement connects Genesis 15:6 with Romans 4:3?",
+    "options": [
+      "Abraham’s birthplace was counted for righteousness",
+      "Abraham’s belief was counted for righteousness",
+      "Abraham’s kingship was counted for righteousness",
+      "Abraham’s wealth was counted for righteousness"
+    ],
+    "answer": 1,
+    "correctAnswer": "Abraham’s belief was counted for righteousness",
+    "explain": "Romans explicitly appeals to Scripture about Abraham’s belief and righteousness, matching Genesis. This tests the textual connection rather than every question about faith and works.",
+    "scripture": {
+      "book": "Romans",
+      "chapter": 4,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "Abraham believed God",
+      "url": "https://www.kingjamesbibleonline.org/Romans-4-3/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Genesis",
+        "chapter": 15,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "counted it to him for righteousness",
+        "url": "https://www.kingjamesbibleonline.org/Genesis-15-6/"
+      }
+    ],
+    "tags": [
+      "paul-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "concept": "abraham-counted",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Romans-4-3/",
+          "https://www.kingjamesbibleonline.org/Genesis-15-6/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-enemy-provision",
+    "topic": "Paul and Proverbs",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "What response to a hungry and thirsty enemy is shared by Proverbs 25:21 and Romans 12:20?",
+    "options": [
+      "Appeal to the king before helping",
+      "Offer help only through a priest",
+      "Provide food and drink",
+      "Wait until the enemy apologizes"
+    ],
+    "answer": 2,
+    "correctAnswer": "Provide food and drink",
+    "explain": "Both texts direct provision for the enemy’s immediate needs. The comparison concerns the commanded actions, not competing explanations of the coals image.",
+    "scripture": {
+      "book": "Romans",
+      "chapter": 12,
+      "verse": 20,
+      "translation": "KJV",
+      "excerpt": "if thine enemy hunger, feed him",
+      "url": "https://www.kingjamesbibleonline.org/Romans-12-20/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Proverbs",
+        "chapter": 25,
+        "verse": 21,
+        "translation": "KJV",
+        "excerpt": "give him bread to eat",
+        "url": "https://www.kingjamesbibleonline.org/Proverbs-25-21/"
+      }
+    ],
+    "tags": [
+      "paul-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "concept": "enemy-provision",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Romans-12-20/",
+          "https://www.kingjamesbibleonline.org/Proverbs-25-21/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-rock-comparison",
+    "topic": "The wilderness and Paul",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "When comparing Exodus 17:6 with 1 Corinthians 10:4, which statement is explicit in Paul’s account?",
+    "options": [
+      "The spiritual Rock was Aaron",
+      "The spiritual Rock was the ark",
+      "The spiritual Rock was the cloud",
+      "The spiritual Rock was Christ"
+    ],
+    "answer": 3,
+    "correctAnswer": "The spiritual Rock was Christ",
+    "explain": "Exodus describes water from the rock at Horeb. Paul identifies the spiritual Rock as Christ; the question reports his identification rather than supplying unstated details about its mechanism.",
+    "scripture": {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verse": 4,
+      "translation": "KJV",
+      "excerpt": "that Rock was Christ",
+      "url": "https://www.kingjamesbibleonline.org/1-Corinthians-10-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 17,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "upon the rock in Horeb",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-17-6/"
+      }
+    ],
+    "tags": [
+      "paul-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "rock-comparison",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/1-Corinthians-10-4/",
+          "https://www.kingjamesbibleonline.org/Exodus-17-6/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-law-hearts",
+    "topic": "The covenant citation",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "What is shared by Jeremiah 31:33 and Hebrews 8:10 concerning God’s law?",
+    "options": [
+      "It is written in the people’s hearts",
+      "It is hidden from the people’s minds",
+      "It is entrusted only to foreign kings",
+      "It is replaced by the memory of the exodus"
+    ],
+    "answer": 0,
+    "correctAnswer": "It is written in the people’s hearts",
+    "explain": "Both passages describe an inward location for the law. The question does not infer that all covenant questions are resolved by this shared wording.",
+    "scripture": {
+      "book": "Hebrews",
+      "chapter": 8,
+      "verse": 10,
+      "translation": "KJV",
+      "excerpt": "write them in their hearts",
+      "url": "https://www.kingjamesbibleonline.org/Hebrews-8-10/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Jeremiah",
+        "chapter": 31,
+        "verse": 33,
+        "translation": "KJV",
+        "excerpt": "write it in their hearts",
+        "url": "https://www.kingjamesbibleonline.org/Jeremiah-31-33/"
+      }
+    ],
+    "tags": [
+      "commandments"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "law-hearts",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Hebrews-8-10/",
+          "https://www.kingjamesbibleonline.org/Jeremiah-31-33/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-no-deceit",
+    "topic": "Peter and Isaiah",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "Which description is shared by Isaiah 53:9 and 1 Peter 2:22?",
+    "options": [
+      "A sword of iron at his side",
+      "No deceit or guile in his mouth",
+      "A staff of judgment in his hand",
+      "A crown of gold on his head"
+    ],
+    "answer": 1,
+    "correctAnswer": "No deceit or guile in his mouth",
+    "explain": "Isaiah uses deceit and Peter uses guile. Both descriptions deny falsehood in the subject’s mouth; this is an observable verbal connection.",
+    "scripture": {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verse": 22,
+      "translation": "KJV",
+      "excerpt": "neither was guile found",
+      "url": "https://www.kingjamesbibleonline.org/1-Peter-2-22/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Isaiah",
+        "chapter": 53,
+        "verse": 9,
+        "translation": "KJV",
+        "excerpt": "neither was any deceit in his mouth",
+        "url": "https://www.kingjamesbibleonline.org/Isaiah-53-9/"
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "no-deceit",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/1-Peter-2-22/",
+          "https://www.kingjamesbibleonline.org/Isaiah-53-9/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-weak-received",
+    "topic": "Romans and reception",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "How does Romans 14:1 direct readers to receive someone weak in faith?",
+    "options": [
+      "Receive them only after a public fast",
+      "Receive them only through a legal advocate",
+      "Receive them without doubtful disputations",
+      "Receive them after settling every doubtful dispute"
+    ],
+    "answer": 2,
+    "correctAnswer": "Receive them without doubtful disputations",
+    "explain": "The instruction is reception without doubtful disputations. It should not be expanded here into an answer to every disputed practice in the chapter.",
+    "scripture": {
+      "book": "Romans",
+      "chapter": 14,
+      "verse": 1,
+      "translation": "KJV",
+      "excerpt": "not to doubtful disputations",
+      "url": "https://www.kingjamesbibleonline.org/Romans-14-1/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "paul-context"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "The instruction is reception without doubtful disputations. It should not be expanded here into an answer to every disputed practice in the chapter."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 3,
+      "concept": "weak-received",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Romans-Chapter-14/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-corban-meaning",
+    "topic": "Tradition and parents",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "What meaning does Mark 7:11 give for Corban?",
+    "options": [
+      "A washing",
+      "A fast",
+      "A debt",
+      "A gift"
+    ],
+    "answer": 3,
+    "correctAnswer": "A gift",
+    "explain": "The passage glosses Corban as a gift in an argument about withholding help from parents. The question asks the stated meaning, not whether such withholding is approved.",
+    "scripture": {
+      "book": "Mark",
+      "chapter": 7,
+      "verse": 11,
+      "translation": "KJV",
+      "excerpt": "that is to say, a gift",
+      "url": "https://www.kingjamesbibleonline.org/Mark-7-11/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "scripture-tradition"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "The passage glosses Corban as a gift in an argument about withholding help from parents. The question asks the stated meaning, not whether such withholding is approved."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 3,
+      "concept": "corban-meaning",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Mark-7-11/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-law-reveals-coveting",
+    "topic": "Paul’s question about sin",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "In Romans 7:7, which command illustrates how the law made sin known?",
+    "options": [
+      "Thou shalt not covet",
+      "Thou shalt not steal",
+      "Thou shalt not kill",
+      "Thou shalt not bear false witness"
+    ],
+    "answer": 0,
+    "correctAnswer": "Thou shalt not covet",
+    "explain": "Paul rejects identifying the law itself with sin and cites the command against coveting as his example. This does not settle every disputed reading of Romans 7.",
+    "scripture": {
+      "book": "Romans",
+      "chapter": 7,
+      "verse": 7,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not covet",
+      "url": "https://www.kingjamesbibleonline.org/Romans-7-7/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "paul-context",
+      "commandments"
+    ],
+    "trapType": "misquote",
+    "trap": {
+      "correction": "Paul rejects identifying the law itself with sin and cites the command against coveting as his example. This does not settle every disputed reading of Romans 7."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "law-reveals-coveting",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Romans-7-7/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-liberty-service",
+    "topic": "Liberty and the flesh",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "What positive action follows Paul’s warning about misusing liberty in Galatians 5:13?",
+    "options": [
+      "By force settle disputes with one another",
+      "By love serve one another",
+      "By status rule over one another",
+      "By lineage separate from one another"
+    ],
+    "answer": 1,
+    "correctAnswer": "By love serve one another",
+    "explain": "Paul joins his warning against an occasion to the flesh with loving service. Liberty is not presented in this sentence as an excuse for selfish conduct.",
+    "scripture": {
+      "book": "Galatians",
+      "chapter": 5,
+      "verse": 13,
+      "translation": "KJV",
+      "excerpt": "by love serve one another",
+      "url": "https://www.kingjamesbibleonline.org/Galatians-5-13/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "paul-context",
+      "obedience"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "Paul joins his warning against an occasion to the flesh with loving service. Liberty is not presented in this sentence as an excuse for selfish conduct."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 3,
+      "concept": "liberty-service",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Galatians-5-13/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-tradition-christ",
+    "topic": "A warning at Colossae",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "What final contrast does Colossians 2:8 make after naming human tradition and worldly rudiments?",
+    "options": [
+      "Not after the Levitical priests",
+      "Not after the congregation’s elders",
+      "Not after Christ",
+      "Not after the Roman emperor"
+    ],
+    "answer": 2,
+    "correctAnswer": "Not after Christ",
+    "explain": "The stated contrast is with Christ. This question does not import a disputed conclusion about feast days from later verses.",
+    "scripture": {
+      "book": "Colossians",
+      "chapter": 2,
+      "verse": 8,
+      "translation": "KJV",
+      "excerpt": "and not after Christ",
+      "url": "https://www.kingjamesbibleonline.org/Colossians-2-8/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "paul-context",
+      "scripture-tradition"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "The stated contrast is with Christ. This question does not import a disputed conclusion about feast days from later verses."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "tradition-christ",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Colossians-2-8/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-paul-wrested",
+    "topic": "Difficult apostolic writings",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "In 2 Peter 3:15–16, what do the unlearned and unstable do with difficult passages in Paul’s letters?",
+    "options": [
+      "Remove them from every synagogue",
+      "Translate them only into Latin",
+      "Reserve them for hereditary priests",
+      "Wrest them, as they do other scriptures"
+    ],
+    "answer": 3,
+    "correctAnswer": "Wrest them, as they do other scriptures",
+    "explain": "The KJV uses wrest for twisting the writings, and the context identifies Paul in verse 15. The warning commends careful reading rather than careless proof-texting.",
+    "scripture": {
+      "book": "2 Peter",
+      "chapter": 3,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "unlearned and unstable wrest",
+      "url": "https://www.kingjamesbibleonline.org/2-Peter-3-16/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "paul-context"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "The KJV uses wrest for twisting the writings, and the context identifies Paul in verse 15. The warning commends careful reading rather than careless proof-texting."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "paul-wrested",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/2-Peter-3-16/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-assembly-seating",
+    "topic": "Partiality in an assembly",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "In James 2:2–3, who is offered the good place to sit?",
+    "options": [
+      "The person wearing fine clothing",
+      "The poor person in shabby clothing",
+      "The visitor who arrives first",
+      "The person carrying a letter"
+    ],
+    "answer": 0,
+    "correctAnswer": "The person wearing fine clothing",
+    "explain": "The described preference favours the finely dressed visitor over the poor person. The following verse criticizes this discrimination rather than endorsing it.",
+    "scripture": {
+      "book": "James",
+      "chapter": 2,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "Sit thou here in a good place",
+      "url": "https://www.kingjamesbibleonline.org/James-2-3/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "obedience"
+    ],
+    "trapType": "context",
+    "trap": {
+      "correction": "The described preference favours the finely dressed visitor over the poor person. The following verse criticizes this discrimination rather than endorsing it."
+    },
+    "knowledge": {
+      "category": "context",
+      "complexity": 3,
+      "concept": "assembly-seating",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-zion-law",
+    "topic": "Isaiah’s mountain vision",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "In Isaiah 2:3, from where does the law go forth?",
+    "options": [
+      "Tyre",
+      "Zion",
+      "Babylon",
+      "Nineveh"
+    ],
+    "answer": 1,
+    "correctAnswer": "Zion",
+    "explain": "Isaiah pairs the law from Zion with the word of the LORD from Jerusalem. The question tests the named place without imposing a date for the vision.",
+    "scripture": {
+      "book": "Isaiah",
+      "chapter": 2,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "out of Zion shall go forth the law",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-2-3/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "zion-law",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Isaiah-Chapter-2/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-kingdom-endures",
+    "topic": "Daniel’s interpretation",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "What duration does Daniel 2:44 give the kingdom set up by the God of heaven?",
+    "options": [
+      "It will last one generation",
+      "It will end with the next king",
+      "It will stand for ever",
+      "It will last seventy years"
+    ],
+    "answer": 2,
+    "correctAnswer": "It will stand for ever",
+    "explain": "The verse denies that this kingdom will be destroyed and says it endures for ever. No identification of contemporary nations is required.",
+    "scripture": {
+      "book": "Daniel",
+      "chapter": 2,
+      "verse": 44,
+      "translation": "KJV",
+      "excerpt": "it shall stand for ever",
+      "url": "https://www.kingjamesbibleonline.org/Daniel-2-44/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "kingdom-endures",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Daniel-2-44/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-wicked-return",
+    "topic": "Judgment and repentance",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "What alternative to the wicked person’s death is named in Ezekiel 18:23?",
+    "options": [
+      "Passing their guilt to their children",
+      "Buying release from a judge",
+      "Escaping to another nation",
+      "Returning from their ways and living"
+    ],
+    "answer": 3,
+    "correctAnswer": "Returning from their ways and living",
+    "explain": "The question names the contrast between death and turning from wicked ways to live. The surrounding discussion addresses responsibility and repentance.",
+    "scripture": {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "verse": 23,
+      "translation": "KJV",
+      "excerpt": "return from his ways, and live",
+      "url": "https://www.kingjamesbibleonline.org/Ezekiel-18-23/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "wicked-return",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Ezekiel-18-23/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-nations-tabernacles",
+    "topic": "Zechariah’s vision",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "Which feast does Zechariah 14:16 name for the nations’ yearly journey?",
+    "options": [
+      "Tabernacles",
+      "Weeks",
+      "Unleavened Bread",
+      "Dedication"
+    ],
+    "answer": 0,
+    "correctAnswer": "Tabernacles",
+    "explain": "The verse explicitly names Tabernacles. Its imagery is tested without presenting a disputed prophetic chronology as settled fact.",
+    "scripture": {
+      "book": "Zechariah",
+      "chapter": 14,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "keep the feast of tabernacles",
+      "url": "https://www.kingjamesbibleonline.org/Zechariah-14-16/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "feasts"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "nations-tabernacles",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Zechariah-14-16/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-stranger-welcomed",
+    "topic": "The King’s judgment scene",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "In Matthew 25:35, what response to the stranger does the King commend?",
+    "options": [
+      "Asking him to return at harvest",
+      "Taking him in",
+      "Sending him to another city",
+      "Giving him a place in the army"
+    ],
+    "answer": 1,
+    "correctAnswer": "Taking him in",
+    "explain": "The verse includes welcoming the stranger among acts of care. It does not identify hospitality with the other responses offered here.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 25,
+      "verse": 35,
+      "translation": "KJV",
+      "excerpt": "I was a stranger, and ye took me in",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-25-35/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "yeshua-context",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 3,
+      "concept": "stranger-welcomed",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Matthew-25-35/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-tree-leaves",
+    "topic": "The tree of life",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "What purpose is assigned to the tree’s leaves in Revelation 22:2?",
+    "options": [
+      "Writing the names of rulers",
+      "Marking the months of drought",
+      "Healing of the nations",
+      "Covering the city’s gates"
+    ],
+    "answer": 2,
+    "correctAnswer": "Healing of the nations",
+    "explain": "The leaves are connected with healing, while the fruit is separately described as recurring monthly. The two descriptions should not be interchanged.",
+    "scripture": {
+      "book": "Revelation",
+      "chapter": 22,
+      "verse": 2,
+      "translation": "KJV",
+      "excerpt": "healing of the nations",
+      "url": "https://www.kingjamesbibleonline.org/Revelation-22-2/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "tree-leaves",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Revelation-22-2/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-rulers-answerable",
+    "topic": "Wisdom addresses rulers",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 3,
+    "q": "According to Wisdom of Solomon 6:3, who gives rulers power and examines their works?",
+    "options": [
+      "The assembly of city elders",
+      "The ruler’s firstborn heir",
+      "The commander of the army",
+      "The Lord, the Highest"
+    ],
+    "answer": 3,
+    "correctAnswer": "The Lord, the Highest",
+    "explain": "The address to kings places both the source of their power and scrutiny of their conduct with the Lord. It is not a claim that rulers escape accountability.",
+    "scripture": {
+      "book": "Wisdom of Solomon",
+      "chapter": 6,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "power is given you of the Lord",
+      "url": "https://www.kingjamesbibleonline.org/Wisdom-of-Solomon-6-3/"
+    },
+    "supportingScriptures": [],
+    "tags": [
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 4,
+      "concept": "rulers-answerable",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Wisdom-of-Solomon-6-3/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check"
+      ]
+    }
+  },
+  {
+    "id": "bke-leader-covetousness",
+    "topic": "Leadership qualifications",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A community is comparing candidates using Exodus 18:21 and 1 Timothy 3:3. Which concern is explicit in both passages?",
+    "options": [
+      "A candidate’s covetousness",
+      "A candidate’s hospitality",
+      "A candidate’s ability to teach",
+      "A candidate’s household management"
+    ],
+    "answer": 0,
+    "correctAnswer": "A candidate’s covetousness",
+    "explain": "Exodus calls for men who hate covetousness; the overseer description in 1 Timothy also excludes it. This comparison does not claim the two offices have identical duties.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 18,
+      "verse": 21,
+      "translation": "KJV",
+      "excerpt": "hating covetousness",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-18-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "1 Timothy",
+        "chapter": 3,
+        "verse": 3,
+        "translation": "KJV",
+        "excerpt": "not covetous",
+        "url": "https://www.kingjamesbibleonline.org/1-Timothy-3-3/"
+      }
+    ],
+    "tags": [
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "concept": "leader-covetousness",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Exodus-18-21/",
+          "https://www.kingjamesbibleonline.org/1-Timothy-3-3/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-impartial-leaders",
+    "topic": "Status and judgment",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A community is comparing hearing policies. Which principle is explicit in both Deuteronomy 1:17 and James 2:1?",
+    "options": [
+      "Require two or three witnesses for every charge",
+      "Hear people without favouring their status",
+      "Begin every correction with a private conversation",
+      "Refer every difficult matter to a higher judge"
+    ],
+    "answer": 1,
+    "correctAnswer": "Hear people without favouring their status",
+    "explain": "Deuteronomy directs hearing small and great without partiality; James warns against respect of persons in holding faith. Both support impartial treatment in the stated scenario.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "verse": 17,
+      "translation": "KJV",
+      "excerpt": "hear the small as well as the great",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-1-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "James",
+        "chapter": 2,
+        "verse": 1,
+        "translation": "KJV",
+        "excerpt": "with respect of persons",
+        "url": "https://www.kingjamesbibleonline.org/James-2-1/"
+      }
+    ],
+    "tags": [
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "concept": "impartial-leaders",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Deuteronomy-1-17/",
+          "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-test-teaching",
+    "topic": "Discernment of teaching",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A persuasive teacher cites one verse to justify an unfamiliar practice. Which response combines Acts 17:11 and 1 Thessalonians 5:21?",
+    "options": [
+      "Accept once the quoted verse is worded accurately",
+      "Accept if most of the congregation agrees",
+      "Examine Scripture and retain what proves good",
+      "Reject because the proposed practice is unfamiliar"
+    ],
+    "answer": 2,
+    "correctAnswer": "Examine Scripture and retain what proves good",
+    "explain": "The Bereans examine Scripture, and the Thessalonian instruction joins testing with retaining good. The combined response requires examination rather than automatic acceptance or rejection.",
+    "scripture": {
+      "book": "Acts",
+      "chapter": 17,
+      "verse": 11,
+      "translation": "KJV",
+      "excerpt": "searched the scriptures daily",
+      "url": "https://www.kingjamesbibleonline.org/Acts-17-11/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "1 Thessalonians",
+        "chapter": 5,
+        "verse": 21,
+        "translation": "KJV",
+        "excerpt": "hold fast that which is good",
+        "url": "https://www.kingjamesbibleonline.org/1-Thessalonians-5-21/"
+      }
+    ],
+    "tags": [
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "concept": "test-teaching",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Acts-17-11/",
+          "https://www.kingjamesbibleonline.org/1-Thessalonians-5-21/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-gentle-correction",
+    "topic": "Restoration and instruction",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A teacher must correct someone at fault. Which approach combines Galatians 6:1 with 2 Timothy 2:25?",
+    "options": [
+      "Restore with meekness but disregard your own temptations",
+      "Watch yourself but withhold instruction about the truth",
+      "Instruct with force while postponing any restoration",
+      "Restore and instruct with meekness"
+    ],
+    "answer": 3,
+    "correctAnswer": "Restore and instruct with meekness",
+    "explain": "Galatians joins restoration with meekness and self-watchfulness. Second Timothy also calls for meek instruction; neither passage licenses pride in the corrector.",
+    "scripture": {
+      "book": "Galatians",
+      "chapter": 6,
+      "verse": 1,
+      "translation": "KJV",
+      "excerpt": "spirit of meekness",
+      "url": "https://www.kingjamesbibleonline.org/Galatians-6-1/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "2 Timothy",
+        "chapter": 2,
+        "verse": 25,
+        "translation": "KJV",
+        "excerpt": "In meekness instructing",
+        "url": "https://www.kingjamesbibleonline.org/2-Timothy-2-25/"
+      }
+    ],
+    "tags": [
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "concept": "gentle-correction",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Galatians-6-1/",
+          "https://www.kingjamesbibleonline.org/2-Timothy-2-25/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-testing-gold",
+    "topic": "An image of testing",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "Which image links Ecclesiasticus 2:5 and 1 Peter 1:7 in their descriptions of adversity or tested faith?",
+    "options": [
+      "Gold tested by fire",
+      "Seed scattered beside a road",
+      "A ship driven by contrary winds",
+      "A vine pruned before harvest"
+    ],
+    "answer": 0,
+    "correctAnswer": "Gold tested by fire",
+    "explain": "Ecclesiasticus compares adversity to a furnace, while Peter discusses tested faith and gold tried by fire. The question identifies the shared image, not an identical explanation of every trial.",
+    "scripture": {
+      "book": "Ecclesiasticus",
+      "chapter": 2,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "gold is tried in the fire",
+      "url": "https://www.kingjamesbibleonline.org/Ecclesiasticus-2-5/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "1 Peter",
+        "chapter": 1,
+        "verse": 7,
+        "translation": "KJV",
+        "excerpt": "though it be tried with fire",
+        "url": "https://www.kingjamesbibleonline.org/1-Peter-1-7/"
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "concept": "testing-gold",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Ecclesiasticus-2-5/",
+          "https://www.kingjamesbibleonline.org/1-Peter-1-7/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  },
+  {
+    "id": "bke-asking-wisdom",
+    "topic": "Seeking wisdom",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "What action connects Wisdom of Solomon 7:7 with James 1:5 for someone seeking wisdom?",
+    "options": [
+      "Consulting the elders before praying",
+      "Praying or asking God",
+      "Fasting until a prophet arrives",
+      "Seeking a sign before asking"
+    ],
+    "answer": 1,
+    "correctAnswer": "Praying or asking God",
+    "explain": "The Wisdom speaker prays and receives understanding; James directs the person lacking wisdom to ask God. Both passages describe seeking rather than purchasing wisdom.",
+    "scripture": {
+      "book": "Wisdom of Solomon",
+      "chapter": 7,
+      "verse": 7,
+      "translation": "KJV",
+      "excerpt": "I prayed, and understanding was given me",
+      "url": "https://www.kingjamesbibleonline.org/Wisdom-of-Solomon-7-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "James",
+        "chapter": 1,
+        "verse": 5,
+        "translation": "KJV",
+        "excerpt": "let him ask of God",
+        "url": "https://www.kingjamesbibleonline.org/James-1-5/"
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "concept": "asking-wisdom",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate",
+      "sourceCheck": {
+        "status": "passage-checked",
+        "checkedOn": "2026-10-25",
+        "checkedBy": "Codex preliminary source check",
+        "urls": [
+          "https://www.kingjamesbibleonline.org/Wisdom-of-Solomon-7-7/",
+          "https://www.kingjamesbibleonline.org/James-1-5/"
+        ]
+      },
+      "manualReviewRequired": true,
+      "pending": [
+        "Independent passage and context review",
+        "Exactly one answer and plausible distractor review",
+        "Difficulty calibration and cross-question check",
+        "Multi-passage reasoning and scope review"
+      ]
+    }
+  }
+]

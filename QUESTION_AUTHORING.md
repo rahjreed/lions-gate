@@ -29,3 +29,8 @@ Passages reviewed independently in the KJV: Exodus 20:10, 20:12; Leviticus 23:6;
 ## Arcade bank extension
 
 Every record now also requires `category` and `difficulty` (1 foundation, 2 challenger, 3 context). Both are covered by the approval fingerprint. The bank has 30 reviewed records, 10 per tier; four are Tradition Traps. Range citations use `endVerse` and a matching chapter URL, and are rendered as a full range. Do not frame an absence claim as a claim about the entire Bible when only a specific passage was reviewed. For example, the wise-men count asks specifically about Matthew 2:1–12. Original question topics remain available; approved records are selected through spaced repetition rather than live generation. See ARCADE_UPGRADE.md for the expansion passage audit.
+
+
+## Biblical Knowledge Engine — current workflow (2026-10-25)
+
+The live bank has 42 preserved reviewed records; 50 new candidates are quarantined outside dist. The current batch, seven-stage metadata, extended fingerprints, independent review checklist and explicit publishing workflow are documented in [BIBLICAL_KNOWLEDGE_ENGINE.md](BIBLICAL_KNOWLEDGE_ENGINE.md). That workflow supersedes the earlier manual-approval instructions for newly imported batches. Existing fixed legacy approvals remain unchanged. Builds never approve content or publish candidates.
