@@ -50,8 +50,9 @@ for(const completed of [0,5,15,30,50,60,10000])for(const pose of ['idle','ready'
 for(let env=0;env<5;env++)await checkText(landscape(env),virtual);
 await checkText(sword+symbolicGate({broken:5}),virtual);
 for(const [slug] of journeyLocations)for(const plane of ['sky','far','near'])await checkReference(`assets/console/journey-${slug}-${plane}.png`,virtual);
-for(const name of ['validate-content','test-engine','test-storage','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal']){
+for(const name of ['validate-content','test-engine','test-storage','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal','test-combat']){
  const result=spawnSync(process.execPath,[`scripts/${name}.mjs`],{cwd:root,stdio:'inherit'});
  assert.equal(result.status,0,`${name} failed.`);
 }
 console.log(`Build ready: ${files.length} files in dist/, ${references.size} local asset/module references checked. Game files left unchanged.`);
+
