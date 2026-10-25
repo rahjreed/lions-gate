@@ -1,0 +1,41 @@
+/* Fixed-scale game shell. Keep single-finger vertical scrolling available;
+   exclude native pinch and double-tap zoom without blocking normal clicks. */
+:root{--game-view-height:100vh;--game-view-height:100dvh;--game-view-width:100vw;--game-vh:1vh;--game-vh:1dvh;--safe-top:env(safe-area-inset-top,0px);--safe-bottom:env(safe-area-inset-bottom,0px);--safe-left:env(safe-area-inset-left,0px);--safe-right:env(safe-area-inset-right,0px)}
+html{touch-action:pan-y;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body,#app,button,input,a,summary,.answer-reveal,.reveal-copy,.pause-overlay{touch-action:pan-y}
+.answer-reveal{top:var(--safe-top);bottom:calc(100% - var(--game-view-height) + var(--safe-bottom));left:var(--safe-left);right:calc(100% - var(--game-view-width) + var(--safe-right));width:min(640px,calc(var(--game-view-width) - var(--safe-left) - var(--safe-right) - 24px));max-height:calc(var(--game-view-height) - var(--safe-top) - var(--safe-bottom) - 24px)}
+.pause-overlay{padding:calc(var(--safe-top) + 12px) calc(var(--safe-right) + 12px) calc(var(--safe-bottom) + 12px) calc(var(--safe-left) + 12px);max-height:var(--game-view-height)}
+@media(max-width:760px),(max-width:1100px) and (max-height:500px){
+ html{max-width:100%;overflow-x:clip}
+ input,textarea,select,.opening #nickname{font-size:16px}
+ body:is(.opening,.gameplay,.game-over,.celebrating,.transition-view){width:min(100%,var(--game-view-width));height:var(--game-view-height);min-height:0;padding:var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left);overflow-x:hidden}
+ body:is(.opening,.gameplay,.game-over,.celebrating,.transition-view) #app{min-width:0;max-width:620px}
+ #app>*{min-width:0}
+ body.gameplay .game-scene{height:clamp(90px,calc(var(--game-vh) * 18),150px)}
+ body.gameplay .question-panel{min-width:0}
+ body.gameplay .question-meta>span:first-child{min-width:0;overflow-wrap:anywhere}
+ body.gameplay .clock{flex-shrink:0;white-space:nowrap}
+ body.gameplay .answer>strong{min-width:0}
+ /* Measured content overflow, rather than device guesses or a whole-game scale. */
+ body.gameplay.compact-game #app{gap:4px;padding-top:3px;padding-bottom:5px}
+ body.gameplay.compact-game .hud{padding-block:4px}
+ body.gameplay.compact-game .rank-strip{min-height:18px}
+ body.gameplay.compact-game .combat-health{padding-block:3px}
+ body.gameplay.compact-game .health-track{height:8px}
+ body.gameplay.compact-game .game-scene{height:clamp(80px,calc(var(--game-vh) * 14),112px)}
+ body.gameplay.compact-game .question-panel{padding:8px}
+ body.gameplay.compact-game .question-panel h1{font-size:16px;margin-bottom:6px}
+ body.gameplay.compact-game .time-track{margin:4px 0 6px}
+ body.gameplay.compact-game .answers{gap:5px}
+ body.gameplay.compact-game .answer{min-height:48px;padding:6px 5px}
+ body.gameplay.compact-game .power-row{padding-top:5px}
+ .opening .title-art{height:clamp(196px,calc(var(--game-vh) * 36),300px)}
+ .opening .floating-sword{height:clamp(90px,calc(var(--game-vh) * 17),132px)}
+ .celebrating .result-screen .result-adventure{height:clamp(150px,calc(var(--game-vh) * 22),195px)}
+ .game-over .result-adventure{height:clamp(100px,calc(var(--game-vh) * 19),150px)}
+ .transition-view .journey-canvas{height:clamp(130px,calc(var(--game-vh) * 34),280px)}
+}
+@media(max-width:760px) and (max-height:620px){.opening .title-art{height:196px}.opening .floating-sword{height:90px}}
+
+body.viewport-short .answer-reveal[open]{display:block;overflow-y:auto}
+body.viewport-short .answer-reveal .reveal-copy{overflow:visible}

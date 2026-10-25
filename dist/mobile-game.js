@@ -1,11 +1,14 @@
+import {syncViewport} from './viewport.js';
 // Measure, never shrink/truncate essential text. Oversized content can scroll.
 let active=false,celebration=false,screen='',frame;
 function measure(){
  cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{
-  document.body.classList.remove('game-fit');
-  if(!(active||celebration||screen)||!matchMedia('(max-width: 760px)').matches)return;
+  syncViewport();document.body.classList.remove('game-fit','compact-game');
+  if(!(active||celebration||screen)||!matchMedia('(max-width: 760px), (max-width: 1100px) and (max-height: 500px)').matches)return;
   const app=document.querySelector('#app');
-  const fits=app.scrollHeight<=app.clientHeight+1&&document.documentElement.scrollHeight<=document.documentElement.clientHeight+1;
+  if(active&&app.scrollHeight>app.clientHeight+1)document.body.classList.add('compact-game');
+  const body=document.body;
+  const fits=(body.scrollHeight??document.documentElement.scrollHeight)<=(body.clientHeight??document.documentElement.clientHeight)+1&&app.scrollHeight<=app.clientHeight+1&&document.documentElement.scrollHeight<=document.documentElement.clientHeight+1;
   document.body.classList.toggle('game-fit',fits);
  });
 }
