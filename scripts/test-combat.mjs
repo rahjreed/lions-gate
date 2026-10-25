@@ -68,3 +68,15 @@ director.start(callbacks);director.cancel();const counts=[impacts,finished];jobs
 director.start({...callbacks,reducedMotion:true});assert.equal(phases.at(-1).phase,'defeated');assert.deepEqual([impacts,finished],counts.map(n=>n+1));
 assert.equal(perfect.status,'feedback','Presentation does not advance a level');
 console.log('PASS health/defeat: derived HP, impact snapshot, correct/wrong/timeout/shield, duplicates, imperfect clear, carry-over lives, reset enemy, zero lives, gated fall completion, cancel and reduced motion.');
+// Pausing at any combat boundary retains pending time and exactly-once effects.
+for(const correct of [true,false])for(const enemyDefeated of [true,false])for(const pauseAt of [0,139,140,239,240,339,539,540,700,919]){
+ let now=0,id=0,impact=0,finish=0;const jobs=new Map(),frames=[];
+ const tick=ms=>{const end=now+ms;while(true){const entry=[...jobs.entries()].filter(([,j])=>j.at<=end).sort((a,b)=>a[1].at-b[1].at)[0];if(!entry)break;jobs.delete(entry[0]);now=entry[1].at;entry[1].fn()}now=end};
+ const d=new CombatDirector({now:()=>now,setTimer:(fn,ms)=>{jobs.set(++id,{fn,at:now+ms});return id},clearTimer:id=>jobs.delete(id)});
+ d.start({correct,enemyDefeated,onFrame:f=>frames.push(f.phase),onImpact:()=>impact++,onFinish:()=>finish++});tick(pauseAt);
+ const stale=[...jobs.values()],before=[impact,finish,frames.length];d.pause();d.pause();tick(60000);stale.forEach(j=>j.fn());assert.deepEqual([impact,finish,frames.length],before,'Hidden time and stale callbacks cannot progress combat');
+ d.resume();d.resume();tick(2000);assert.equal(impact,1);assert.equal(finish,1);assert.equal(d.active,false);
+ assert.equal(frames.length,new Set(frames.filter(p=>p!=='defeat')).size+frames.filter(p=>p==='defeat').length);
+ d.start({correct,onFrame:()=>{},onImpact:()=>impact++,onFinish:()=>finish++});d.pause();d.cancel();d.resume();tick(2000);assert.equal(impact,1);assert.equal(finish,1);
+}
+console.log('PASS combat pause: 40 boundary/outcome combinations, background suspension, precise remaining delays, stale callbacks, repeated pause/resume, cancellation and single impact/finish.');

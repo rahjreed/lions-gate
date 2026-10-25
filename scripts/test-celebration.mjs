@@ -16,3 +16,8 @@ html.scrollHeight=800;context.setGameLayout(true);flush();assert.ok(!classes.has
 context.setGameLayout(false);flush();assert.equal(classes.size,0,'Menus and Game Over do not inherit celebration layout');
 mobile=false;context.setGameLayout(false,true);flush();assert.ok(!classes.has('game-fit'),'Desktop is not scroll locked');
 console.log('PASS celebration layout: scoped state, review expand/collapse, small-screen fallback, resize, gameplay/menu cleanup and desktop scroll behavior.');
+// The same fit measurement now covers only the requested opening/retry/journey screens.
+mobile=true;html.scrollHeight=800;app.scrollHeight=700;
+for(const screen of ['opening','game-over','transition-view']){context.setGameLayout(false,false,screen);flush();assert.ok(classes.has(screen));assert.ok(classes.has('game-fit'));for(const other of ['opening','game-over','transition-view'].filter(s=>s!==screen))assert.ok(!classes.has(other))}
+context.setGameLayout(false,false,'game-over');app.scrollHeight=1100;events.toggle({target:{matches:()=>true}});flush();assert.ok(!classes.has('game-fit'),'Game Over review can expand and scroll');context.setGameLayout(false);flush();assert.equal(classes.size,0);
+console.log('PASS usability fit: opening, Game Over and journey scoping, expanded review fallback and menu cleanup.');

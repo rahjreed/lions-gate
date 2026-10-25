@@ -1,0 +1,86 @@
+/* Focused pause and compact opening / retry presentation. */
+.pause-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:96px;padding:9px 14px;border:2px solid var(--gold);background:#33425c;color:#fff0c4;font:700 13px var(--mono);box-shadow:inset 0 2px #b6c5d044,0 3px #080e20;cursor:pointer}
+.rank-strip .pause-button{margin-left:auto;flex:none}
+.pause-button:hover{background:#465b76}.pause-button:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.app-paused #app>:not(.pause-overlay),.app-paused #app>:not(.pause-overlay) *{animation-play-state:paused!important}
+.pause-overlay{background:#080f20dc;backdrop-filter:blur(3px);overflow-y:auto;overscroll-behavior:contain}
+.pause-overlay>section{max-height:100%;overflow-y:auto;padding:clamp(16px,4vh,40px) 20px}
+.pause-overlay .button,.pause-overlay .menu-link{min-height:48px;min-width:100px}.pause-overlay h1{font-size:clamp(20px,5vw,28px)}
+.journey-screen{position:relative}.journey-pause{display:flex;margin:0 0 12px auto}
+.gameover-level{font:700 12px/1.5 var(--mono);color:var(--cyan);margin:8px 0}
+@media(max-width:760px){
+ html:has(body:is(.opening,.game-over,.transition-view)){scrollbar-gutter:auto}
+ body:is(.opening,.game-over,.transition-view){height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);overflow-x:hidden;overflow-y:auto}
+ body:is(.opening,.game-over,.transition-view).game-fit{overflow:hidden;overscroll-behavior:none}
+ body:is(.opening,.game-over,.transition-view)>header{flex:none;min-height:44px;padding:0 8px;gap:6px}
+ body:is(.opening,.game-over,.transition-view)>header #brand{font-size:9px;letter-spacing:0;gap:4px}
+ body:is(.opening,.game-over,.transition-view)>header #brand>span{font-size:16px}
+ body:is(.opening,.game-over,.transition-view)>header small{display:none}
+ body:is(.opening,.game-over,.transition-view)>header button{min-height:44px;min-width:44px;padding:6px;font-size:8px;letter-spacing:0}
+ body:is(.opening,.game-over,.transition-view)>footer{display:none}
+ body:is(.opening,.game-over,.transition-view) #app{flex:1;min-height:0;width:100%;max-width:620px;padding:5px 10px 8px;display:flex;flex-direction:column}
+ body:is(.opening,.game-over,.transition-view) .install-panel{flex:none;margin:0;padding:0 10px}
+ body:is(.opening,.game-over,.transition-view) #offline-status{display:none}
+ body:is(.opening,.game-over,.transition-view) #storage-warning{flex:none;margin:0;padding:6px;font-size:12px}
+ body.gameplay .rank-strip .pause-button{min-width:92px;min-height:44px;font-size:12px;padding:6px 10px}
+ /* Opening: retain the title tableau and every menu control. */
+ .opening .title-screen{flex:1 0 auto;display:flex;flex-direction:column;justify-content:center;gap:7px}
+ .opening .broadcast{margin:0;font-size:8px;line-height:1.5;letter-spacing:1px}
+ .opening .broadcast span{display:none}
+ .opening .title-art{flex:none;height:clamp(160px,29dvh,255px)}
+ .opening .title-logo{top:16px}
+ .opening .title-logo p{font-size:13px;letter-spacing:6px;margin:0 0 12px}
+ .opening .title-logo h1,.opening .title-logo h1 span{font-size:clamp(36px,10vw,60px);letter-spacing:0;line-height:1.2}
+ .opening .logo-sub{font-size:6px;letter-spacing:1px;margin-top:10px}
+ .opening .title-art>.judah{width:clamp(58px,10dvh,88px);left:1%;bottom:10px}
+ .opening .title-art .judah figcaption{font-size:6px;padding:2px;min-width:55px}
+ .opening .floating-sword{height:clamp(65px,12dvh,100px);width:42px;bottom:14px;right:5%}
+ .opening .art-caption{font-size:6px;letter-spacing:0}
+ .opening .title-menu{padding:0;display:flex;flex-direction:column;align-items:center;gap:7px}
+ .opening .intro-line{font-size:13px;line-height:1.4;margin:3px 0}
+ .opening .nickname-label{display:flex;align-items:center;justify-content:center;gap:8px;margin:0;font-size:8px}
+ .opening #nickname{width:145px;min-height:44px;margin:0;padding:8px;font-size:13px}
+ .opening .title-menu>.button{min-height:48px;width:100%;max-width:330px;min-width:0;margin:0;padding:12px;font-size:10px}
+ .opening .menu-links{margin:0;gap:5px;flex-wrap:wrap;justify-content:center}
+ .opening .menu-link{min-height:44px;font-size:9px;padding:8px 5px}
+ .opening .personal-bar{width:100%;gap:5px;margin:0;padding:7px 0 0;font-size:7px;line-height:1.4;letter-spacing:0;justify-content:space-around}
+ .opening .personal-bar>span{min-width:0;flex:1;overflow-wrap:anywhere}
+ .opening .personal-bar b{font-size:9px;line-height:1.5;margin-top:4px}
+ /* Retry results: duplicated HUD values are shown in the result panel. */
+ .game-over #app>.hud,.game-over #app>.rank-strip{display:none}
+ .game-over .result-screen{flex:1 0 auto;min-width:0;margin:0;padding:10px;display:grid;align-content:center;gap:5px;overflow:visible}
+ .game-over .result-screen>:not(.confetti){min-width:0}
+ .game-over .result-emblem{display:none}
+ .game-over .result-adventure{height:clamp(100px,19dvh,150px);min-height:0;margin:0 auto}
+ .game-over .result-adventure>.judah{width:clamp(65px,11dvh,95px)}
+ .game-over .result-adventure figcaption{font-size:8px;line-height:1.4;gap:3px}
+ .game-over .kicker{font-size:8px;line-height:1.5;margin:0}
+ .game-over .result-screen h1{font-size:clamp(16px,5vw,22px);line-height:1.5;margin:0}
+ .game-over .gameover-level{font-size:11px;margin:0}
+ .game-over .result-sub{font-size:13px;line-height:1.4;margin:0}
+ .game-over .retry-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:5px 0}
+ .game-over .retry-actions>.button,.game-over .result-screen>.button{min-width:0;min-height:48px;padding:9px 5px;font-size:9px}
+ .game-over .result-stats{width:100%;max-width:none;gap:5px;margin:4px 0}
+ .game-over .result-stats small{font-size:8px;letter-spacing:0;line-height:1.4;margin-bottom:3px}
+ .game-over .result-stats strong{font:700 clamp(13px,4vw,17px)/1.3 var(--mono);overflow-wrap:anywhere}
+ .game-over .rank-label{font-size:10px;line-height:1.4;margin:0}
+ .game-over .earned-badges{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin:2px 0}
+ .game-over .earned-badges:empty{display:none}.game-over .earned-badges span{padding:4px 2px;font-size:9px;line-height:1.4;overflow-wrap:anywhere}
+ .game-over .menu-links{margin:0;gap:8px}.game-over .menu-link{min-height:44px;padding:8px;font-size:9px}
+ .game-over .review-list{margin:0;padding:0;border-top:1px solid #4d5a72}
+ .game-over .review-list summary{min-height:44px;display:flex;align-items:center;justify-content:center;font-size:10px;line-height:1.5;padding:6px}
+ .game-over .review-list[open]{overflow-wrap:anywhere}
+ .transition-view .journey-screen{flex:1 0 auto;padding:0;display:flex;flex-direction:column;justify-content:center;gap:8px}
+ .transition-view .journey-pause{align-self:flex-end;margin:0}
+ .transition-view .journey-screen>.kicker{margin:0;font-size:8px}
+ .transition-view .journey-screen h1{margin:0;font-size:14px;line-height:1.5}
+ .transition-view .journey-canvas{flex:none;height:clamp(130px,34dvh,280px);--gate-width:110px}
+ .transition-view .journey-hero{width:clamp(65px,17dvh,112px)}
+ .transition-view .journey-caption{margin:0;font-size:13px;line-height:1.4}
+ .transition-view .journey-screen>.button{min-height:48px;margin:0;padding:10px}
+ .transition-view .journey-screen>.menu-link{min-height:44px;margin:0;padding:8px;font-size:9px}
+ .transition-view .fine-print{margin:0;font-size:11px;line-height:1.4}
+}
+/* Short landscape windows retain readable controls and document scrolling. */
+@media(max-height:450px){.pause-overlay{align-items:start}.pause-overlay>section{padding:12px}.pause-overlay h1{margin:12px 0}.pause-overlay p:not(.kicker){margin:8px 0 12px}.pause-overlay .menu-links{margin-top:8px}}
+.app-paused .question-panel{visibility:hidden}

@@ -13,19 +13,20 @@ export class AnswerReveal{
  constructor(document){this.document=document;this.dialog=null}
  open(dialog,onContinue){
   this.close();this.dialog=dialog;
-  dialog.addEventListener('cancel',event=>{event.preventDefault();onContinue()});
-  dialog.addEventListener('keydown',event=>{
+  this.onCancel=event=>{event.preventDefault();onContinue()};dialog.addEventListener('cancel',this.onCancel);
+  this.onKey=event=>{
    if(event.key!=='Tab')return;
    const controls=[...dialog.querySelectorAll('a[href], button:not([disabled]), [tabindex="0"]')];
    const at=controls.indexOf(this.document.activeElement);
    event.preventDefault();
    controls[at<0?(event.shiftKey?controls.length-1:0):(at+(event.shiftKey?-1:1)+controls.length)%controls.length]?.focus({preventScroll:true});
-  });
+  };dialog.addEventListener('keydown',this.onKey);
   this.document.documentElement.classList.add('answer-reveal-open');
   dialog.showModal();
   dialog.querySelector('#next').focus({preventScroll:true});
  }
  close(){
+  this.dialog?.removeEventListener('cancel',this.onCancel);this.dialog?.removeEventListener('keydown',this.onKey);
   if(this.dialog?.open)this.dialog.close();
   this.dialog=null;
   this.document.documentElement.classList.remove('answer-reveal-open');

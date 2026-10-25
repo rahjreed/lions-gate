@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const source=await readFile(new URL('../dist/app.js',import.meta.url),'utf8');
+const definitions=['stopClock','startClock','pause','resume'].map(name=>source.slice(source.indexOf(`function ${name}(`),source.indexOf('\nfunction ',source.indexOf(`function ${name}(`)+1))).join('\n');
+let now=10000,next=0;const intervals=new Map(),calls=[];
+const run={status:'playing',remaining:35,score:200,lives:3,index:2};
+const context={view:'game',paused:false,run,deadline:0,timer:null,document:{hidden:false},Date:{now:()=>now},setInterval:fn=>{intervals.set(++next,fn);return next},clearInterval:id=>intervals.delete(id),clock:()=>{},combat:{active:false,pause:()=>calls.push('combat pause'),resume:()=>calls.push('combat resume')},director:{pause:()=>calls.push('journey pause'),resume:()=>calls.push('journey resume')},juice:{pause:()=>calls.push('juice pause'),resume:()=>calls.push('juice resume')},persist:()=>calls.push('save'),mountPause:()=>calls.push('mount'),releasePause:()=>calls.push('release'),music:()=>{},audio:{effect:()=>{}},$:()=>null,pauseFocus:null,choose:choice=>{assert.equal(choice,-1);run.status='feedback';calls.push('timeout')}};
+vm.createContext(context);vm.runInContext(definitions,context);
+context.startClock();assert.equal(context.deadline,45000);now+=1234;context.pause();assert.equal(run.remaining,33.766);assert.equal(intervals.size,0);const snapshot=structuredClone(run);now+=60000;context.pause();assert.deepEqual(run,snapshot);assert.equal(calls.filter(c=>c==='mount').length,1);
+context.document.hidden=true;context.resume();assert.equal(context.paused,true,'Hidden pages cannot resume');context.document.hidden=false;context.resume();assert.equal(context.deadline-now,33766);assert.deepEqual(run,snapshot);assert.equal(intervals.size,1);
+for(let i=0;i<20;i++){now+=37;context.pause();now+=10000;context.resume()}assert.ok(Math.abs(run.remaining-(33.766-.74))<1e-8,'Repeated pauses cannot restore timer precision or seconds');assert.equal(run.score,200);assert.equal(run.lives,3);assert.equal(run.index,2);
+context.pause();run.status='feedback';context.resume();assert.equal(intervals.size,0,'Combat/reveal does not start a question clock');context.pause();context.resume();assert.ok(calls.includes('combat resume'));
+context.view='journey';context.pause();now+=50000;context.resume();assert.ok(calls.includes('journey pause'));assert.equal(intervals.size,0);
+context.view='game';run.status='playing';run.remaining=.001;context.startClock();now+=2;context.pause();assert.equal(calls.filter(c=>c==='timeout').length,1);context.pause();context.resume();assert.equal(run.status,'feedback');assert.equal(intervals.size,0,'An already-expired question cannot gain a fresh deadline');
+assert.match(source,/visibilitychange[^\n]+if\(document.hidden\)pause\(\)/);assert.match(source,/pagehide[^\n]+pause\(\);persist\(\)/);assert.match(source,/addEventListener\('freeze',pause\)/);
+console.log('PASS pause integration: exact question time, 20 toggles, no score/life/index mutation, expired deadline, hidden resume blocked, combat/journey resume, background/freeze/save hooks.');

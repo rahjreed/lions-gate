@@ -40,25 +40,28 @@ export function updateCombatHealth(root,run){
 // Owns only presentation callbacks. The quiz engine remains the sole authority
 // for score, lives, shields and answer acceptance. Cancel invalidates stale work.
 export class CombatDirector{
- constructor({setTimer=(fn,ms)=>setTimeout(fn,ms),clearTimer=id=>clearTimeout(id)}={}){this.setTimer=setTimer;this.clearTimer=clearTimer;this.timers=[];this.active=false;this.generation=0}
+ constructor({setTimer=(fn,ms)=>setTimeout(fn,ms),clearTimer=id=>clearTimeout(id),now=()=>performance.now()}={}){this.setTimer=setTimer;this.clearTimer=clearTimer;this.now=now;this.timers=[];this.active=false;this.paused=false;this.generation=0}
  start({correct,enemyDefeated=false,reducedMotion=false,onFrame,onImpact,onFinish}){
   if(this.active)return false;
-  this.active=true;const generation=++this.generation;
+  this.active=true;this.paused=false;this.elapsed=0;this.offset=0;this.started=this.now();this.generation++;
   const finishingBlow=correct&&enemyDefeated;
   const duration=finishingBlow?defeatStart+defeatDuration:combatDuration;
   if(reducedMotion){onFrame({phase:finishingBlow?'defeated':'ready',enemy:finishingBlow?3:0,correct,heroReady:true});onImpact();this.active=false;onFinish();return true}
   const timeline=finishingBlow?[...combatFrames.map(f=>f.at>=defeatStart?{...f,phase:'defeat',enemy:3,heroReady:f.at===combatDuration}:f),{at:duration,phase:'defeated',enemy:3,heroReady:true}]:combatFrames;
-  const apply=frame=>{
-   if(!this.active||generation!==this.generation)return;
+  this.jobs=timeline.map(frame=>({frame,done:false}));
+  this.apply=job=>{
+   if(job.done)return;job.done=true;const frame=job.frame;this.elapsed=Math.max(this.elapsed,frame.at);
    onFrame({...frame,correct,enemy:finishingBlow&&frame.at>=defeatStart?3:finishingBlow&&frame.at>=240?4:correct?(frame.at>=240&&frame.at<540?4:frame.at===540?5:0):frame.enemy});
    if(frame.phase==='impact')onImpact();
    if(frame.at===duration){this.active=false;this.timers=[];onFinish()}
   };
-  apply(timeline[0]);
-  for(const frame of timeline.slice(1))this.timers.push(this.setTimer(()=>apply(frame),frame.at));
-  return true;
+  this.apply(this.jobs[0]);this.schedule();return true;
  }
- cancel(){this.generation++;this.timers.forEach(this.clearTimer);this.timers=[];this.active=false}
+ schedule(){const generation=this.generation;for(const job of this.jobs.filter(j=>!j.done))this.timers.push(this.setTimer(()=>{if(this.active&&!this.paused&&generation===this.generation)this.apply(job)},Math.max(0,job.frame.at-this.elapsed)))}
+ pause(){if(!this.active||this.paused)return;this.elapsed=Math.max(this.elapsed,this.offset+this.now()-this.started);this.paused=true;this.generation++;this.timers.forEach(this.clearTimer);this.timers=[]}
+ resume(){if(!this.active||!this.paused)return;this.paused=false;this.offset=this.elapsed;this.started=this.now();this.schedule()}
+ cancel(){this.generation++;this.timers.forEach(this.clearTimer);this.timers=[];this.active=false;this.paused=false}
+
 }
 
 export function paintCombat(scene,frame,completed,equipment=[]){
