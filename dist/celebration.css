@@ -1,0 +1,41 @@
+/* Level-clear/promotion screens only. Offline caching itself is unchanged. */
+body.celebrating .install-panel{display:none}
+@media(max-width:760px){
+ html:has(body.celebrating){scrollbar-gutter:auto}
+ body.celebrating{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);overflow-x:hidden;overflow-y:auto}
+ body.celebrating.game-fit{overflow:hidden;overscroll-behavior:none}
+ body.celebrating>header{flex:none;min-height:44px;padding:0 8px;gap:6px}
+ body.celebrating>header #brand{font-size:9px;letter-spacing:0;gap:4px}
+ body.celebrating>header #brand>span{font-size:16px}
+ body.celebrating>header small{display:none}
+ body.celebrating>header button{min-height:44px;min-width:44px;padding:6px;font-size:8px;letter-spacing:0}
+ body.celebrating>footer{display:none}
+ body.celebrating #app{flex:1;min-height:0;width:100%;max-width:620px;padding:5px 10px 7px;display:flex;flex-direction:column}
+ /* Score, lives, rank, level and streak are all repeated in the result itself. */
+ body.celebrating #app>.hud,body.celebrating #app>.rank-strip{display:none}
+ body.celebrating .result-screen{flex:1 0 auto;min-width:0;margin:0;padding:10px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:center;gap:5px;overflow:visible}
+ body.celebrating .result-screen>:not(.confetti){grid-column:1/-1;min-width:0}
+ /* Sword, Judah and (when present) the gate share one art row, without changing frames. */
+ body.celebrating .result-screen .result-adventure{grid-row:1;grid-column:1/-1;width:100%;height:clamp(150px,22dvh,195px);min-height:0;margin:0}
+ body.celebrating .result-adventure>.judah{width:clamp(86px,14dvh,112px)}
+ body.celebrating .result-adventure>.symbolic-gate{width:clamp(85px,17dvh,120px);left:calc(50% + 14px);bottom:25px}
+ body.celebrating .result-screen .result-emblem{grid-row:1;grid-column:1;align-self:center;justify-self:start;width:42px;height:clamp(80px,15dvh,110px);margin:0 0 0 12%;z-index:2}
+ body.celebrating .result-adventure figcaption{font-size:8px;line-height:1.4;gap:3px;width:max-content;max-width:calc(100vw - 64px)}
+ body.celebrating .result-screen .kicker{font-size:9px;line-height:1.5;margin:0}
+ body.celebrating .result-screen h1{font-size:clamp(13px,3.8vw,18px);line-height:1.5;margin:0;overflow-wrap:anywhere}
+ body.celebrating .result-sub{font-size:13px;line-height:1.4;margin:0}
+ body.celebrating .result-stats{width:100%;max-width:none;gap:7px;margin:5px 0}
+ body.celebrating .result-stats small{font-size:8px;letter-spacing:0;line-height:1.4;margin-bottom:4px}
+ body.celebrating .result-stats strong{font:700 clamp(13px,4vw,17px)/1.2 var(--mono);overflow-wrap:anywhere}
+ body.celebrating .rank-label{font-size:10px;line-height:1.5;margin:0}
+ body.celebrating .earned-badges{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin:2px 0 4px}
+ body.celebrating .earned-badges:empty{display:none}
+ body.celebrating .earned-badges span{padding:4px 2px;font-size:9px;line-height:1.4;overflow-wrap:anywhere}
+ body.celebrating .result-screen>.button{width:100%;min-height:48px;padding:10px;font-size:10px}
+ body.celebrating .result-screen .menu-links{margin:0;gap:8px}
+ body.celebrating .menu-links .menu-link{min-height:44px;padding:8px;font-size:10px}
+ body.celebrating .review-list{margin:0;padding:0;border-top:1px solid #4d5a72}
+ body.celebrating .review-list summary{min-height:44px;display:flex;align-items:center;justify-content:center;font-size:10px;line-height:1.5;padding:6px}
+ body.celebrating .review-list[open]{overflow-wrap:anywhere}
+ body.celebrating #storage-warning{flex:none;margin:0;padding:6px;font-size:12px}
+}
