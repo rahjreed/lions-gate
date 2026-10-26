@@ -1,29 +1,65 @@
 {
-  "scope": "Explicit previously authorized runtime fixes superseding historical import snapshots; all other snapshot guards remain enforced.",
+  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash.",
   "fixes": [
     {
       "file": "dist/answer-reveal.js",
       "before": "2900e30267046435e0c667963b1d94eb230680e1d19f2e4168d7909ea9e2440a",
       "after": "1e2de12f02a55b53b2e8cd7bc163c8da9e97436a8f1a2eef5ba0293a88389d91",
-      "reason": "Retained supporting-Scripture citation display fix, previously verified."
+      "reason": "Previously authorized supporting-Scripture citation fix, unchanged by mastery update."
+    },
+    {
+      "file": "dist/app.js",
+      "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
+      "after": "b54e1fcf2dfb2d54ce1a3195b655e3b1c9463c646408c36d36104eb7c96ac69e",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes."
     },
     {
       "file": "dist/armor.css",
       "before": "d342b1ab7672bb283a12799e741d2778048b485768357800432db9b36f0cdc71",
       "after": "bbe32560a5e8bd7c67b6404dc604190a98296e2cbcddccaa8e6364b2b70a7112",
-      "reason": "Owner-requested six-piece responsive Armory catalog and locked/equipped presentation; no combat changes."
+      "reason": "Previously authorized responsive six-piece Armory catalog, unchanged by mastery update."
     },
     {
       "file": "dist/armor.js",
       "before": "0b6258545d5282cf8b9ccc9b113829c546f426bc790a8ffec2cec0262457f8ec",
-      "after": "c8fb47096699f91f9a753d785106b56da8c731fc7128a555066b5d0142ae04e9",
-      "reason": "Owner-requested biblical-order preview catalog and revised 75/150/225/300/375/450 schedule; only belt remains earnable."
+      "after": "5f15dc5acab267c692b2bdbd1f854b27146d6a66258c140576eb05fb07fe3248",
+      "reason": "Owner explicitly confirmed Sword 300, Shield 375, Helmet 450; planned-only catalog, belt earnability unchanged."
+    },
+    {
+      "file": "dist/combat.js",
+      "before": "e2fb8aab1236db8c76a1011e19cc8d5abd34eb8d430c1ccbd21bd248ab43a67a",
+      "after": "038cc83c74f5d65ca7be779ad8b6e08cb135c4cae6b62b6487b713504a546cca",
+      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes."
+    },
+    {
+      "file": "dist/engine.js",
+      "before": "7381e3a5c664e96e4f9dd497b051c61bb1104c2ea59ef03de62c5335c23b57a4",
+      "after": "2f1566cc5a538ee5cea7484886d2b704458f634f7ef49341f821488d5c7e5be4",
+      "reason": "Owner-authorized 35/110/185/260 ranks and 75-level Master degrees, completed-level high-water promotion deduplication and rank badges; scoring/lives/questions unchanged."
+    },
+    {
+      "file": "dist/mascot.js",
+      "before": "8e3d529f1ec8b4a01684d4b9e0deb0e5ba5968e0e7506d17a770d2ff660ac63e",
+      "after": "0f6f2c36fdd96692589cf5859d698976b15ffef528d1a4b2a16a1a8995b826cb",
+      "reason": "Reuse existing sprite sheets at new thresholds, preserve legacy wardrobe in all poses; no art or frame changes."
+    },
+    {
+      "file": "dist/storage.js",
+      "before": "578ffd19efbca2b40947f4354b338e1d9c1a23ada2bcd81cd1601412073817e4",
+      "after": "7e8e5beb24e9909080f2a5e5021f608a8e9a95226c9b288260fdd759c1958ead",
+      "reason": "Same version-3 key; idempotent legacy honor/wardrobe migration and promotion high-water checkpoint; retain scores, completed levels and badges."
+    },
+    {
+      "file": "dist/style.css",
+      "before": "36816de9044a20cbfe2564cada6ea7a89569214028467cab7483d7fc05f1331c",
+      "after": "d52a4f804c530f0bb4d7a16596e093f017e2ed889ea0dc1857c0336af0960614",
+      "reason": "Display historical Hall honor beneath current rank in its existing table."
     },
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "f8c8b92e46db39196fb6d84e473171e9b84c9df4b85427935e601cdae1d3635d",
-      "reason": "Rebuilt offline revision covering the owner-requested Armory catalog and its icons, plus the citation fix."
+      "after": "cca65cd952ecd857d6048547ff9e3b79383795ae342941121c9d642077daeae3",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update."
     }
   ]
 }

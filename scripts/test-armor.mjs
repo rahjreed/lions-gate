@@ -22,13 +22,13 @@ nextLevel(r,questions);for(let i=0;i<3;i++)answer(false);retryLevel(r,questions)
 captureProgress(restored,createRun(questions));assert.deepEqual(restored.armor.unlocked,['belt'],'A deliberate new run keeps permanent equipment');
 const legacy=emptyProfile();delete legacy.armor;legacy.bestCompleted=450;reconcileArmor(legacy);assert.deepEqual(legacy.armor.unlocked,['belt'],'Only the reviewed Belt milestone is enabled in this phase');
 legacy.armor={unlocked:['belt','helmet','belt'],pending:['helmet']};reconcileArmor(legacy);assert.deepEqual(legacy.armor,{unlocked:['belt'],pending:[]});
-for(const completed of [0,5,15,30,50,75,450])for(const pose of ['idle','success','reflection','advance','stance','ready','slash','recoil','walk','run','victory','celebrate','transform']){
+for(const completed of [0,35,110,185,260,335,450])for(const pose of ['idle','success','reflection','advance','stance','ready','slash','recoil','walk','run','victory','celebrate','transform']){
  const html=judah(completed,pose,true,['belt']);assert.ok(html.includes('data-armor="belt"'));assert.ok(html.includes('Belt of Truth'));assert.ok(html.includes('--armor-sheet:'));
  assert.ok(!judah(completed,pose).includes('data-armor='),'No cosmetic layer before earning it');
  if(pose==='transform')assert.match(html,/class="rank-before" data-armor="belt"/);
 }
 const reveal=armorRevealMarkup(armorItems[0]);for(const fragment of ['Ephesians 6:14','aria-modal="true"','Belt of Truth','data-action="claim-armor"','does not change combat'])assert.ok(reveal.includes(fragment));
-assert.deepEqual(armorCatalog.map(i=>[i.id,i.level]),[['belt',75],['breastplate',225],['shoes',150],['shield',300],['helmet',375],['sword',450]],'Passage order preserves the revised milestone levels');
+assert.deepEqual(armorCatalog.map(i=>[i.id,i.level]),[['belt',75],['breastplate',225],['shoes',150],['shield',375],['helmet',450],['sword',300]],'Passage order preserves the revised milestone levels');
 assert.deepEqual(armorItems.map(i=>i.id),['belt'],'Display-only roadmap must not activate unfinished equipment');
 const fresh={unlocked:[],pending:[]},owned={unlocked:['belt'],pending:[]};
 for(const armor of [undefined,{},fresh,owned]){

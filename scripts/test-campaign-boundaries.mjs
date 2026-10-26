@@ -6,7 +6,7 @@ import {knowledgeStage} from '../dist/knowledge.js';
 import {armorCatalog,armorItems} from '../dist/armor.js';
 import {emptyProfile,captureProgress,saveProfile,loadProfile} from '../dist/storage.js';
 
-assert.deepEqual([...armorCatalog].sort((a,b)=>a.level-b.level).map(i=>[i.id,i.level]),[['belt',75],['shoes',150],['breastplate',225],['shield',300],['helmet',375],['sword',450]]);
+assert.deepEqual([...armorCatalog].sort((a,b)=>a.level-b.level).map(i=>[i.id,i.level]),[['belt',75],['shoes',150],['breastplate',225],['sword',300],['shield',375],['helmet',450]]);
 assert.deepEqual(armorItems.map(i=>i.id),['belt'],'Planned campaign must not silently enable unfinished equipment');
 const fixture=level=>{const r=createRun(questions,'BOUNDARY TEST',()=>.42);r.level=level;r.completed=level-1;return beginLevel(r,questions,()=>.42)};
 const storage=()=>({data:null,getItem(){return this.data},setItem(key,value){this.data=value}});

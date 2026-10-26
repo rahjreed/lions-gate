@@ -89,9 +89,9 @@ const hero={dataset:{pose:'ready'},className:'judah judah-ready',innerHTML:'',ow
  }}}
 }};
 const soldier={classList:{toggle(){}},setAttribute(){},style:{setProperty(name,value){this[name]=value}}},sprite={style:{}},scene={dataset:{},querySelector:s=>s==='.roman-soldier'?soldier:s==='.roman-sprite'?sprite:hero};
-for(const completed of [0,5,15,30,75]){
+for(const completed of [0,35,110,185,260]){
  hero.dataset.pose='ready';
- const equipment=completed===75?['belt']:[];
+ const equipment=completed===260?['belt']:[];
  for(const [phase,at,enemy,pose] of [['windup',0,0,'run'],['strike',140,0,'slash'],['impact',240,4,'slash'],['recover',540,5,'walk'],['ready',920,0,'ready']]){
   paintCombat(scene,{phase,at,enemy,correct:true},completed,equipment);
   assert.equal(hero.dataset.pose,pose);assert.equal(scene.querySelector('.scene-status>.judah'),hero);

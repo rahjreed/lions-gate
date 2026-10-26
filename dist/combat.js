@@ -64,7 +64,7 @@ export class CombatDirector{
 
 }
 
-export function paintCombat(scene,frame,completed,equipment=[]){
+export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(!scene)return;
  scene.dataset.combat=frame.phase;scene.dataset.outcome=frame.correct?'correct':'wrong';
  const soldier=scene.querySelector('.roman-soldier');
@@ -83,7 +83,7 @@ export function paintCombat(scene,frame,completed,equipment=[]){
  if(frame.correct&&(frame.phase==='recover'||frame.phase==='defeat'&&frame.at===defeatStart))pose='walk';
  if(frame.phase==='ready'||frame.heroReady)pose='ready';
  if(pose!==hero.dataset.pose){
-  const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment);
+  const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment,wardrobe);
   const next=template.content.firstElementChild;
   hero.className=next.className;hero.dataset.pose=pose;hero.innerHTML=next.innerHTML;
  }

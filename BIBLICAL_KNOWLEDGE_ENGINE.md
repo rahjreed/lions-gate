@@ -21,7 +21,7 @@ These are curriculum stages, not new scenery, rank requirements or world transit
 
 ## Planned wilderness finale and Kingdom entry
 
-[GAME_PROGRESSION.md](GAME_PROGRESSION.md) establishes **successful completion of Level 700** as Judah's Kingdom-entry milestone, superseding the earlier proposed Level 450 destination. Level 450 remains the planned Sword of the Spirit unlock and completion of the six-piece armor schedule. Levels 451–700 are the final wilderness campaign with all six pieces retained in the completed design; five pieces still need equipment implementation today.
+[GAME_PROGRESSION.md](GAME_PROGRESSION.md) establishes **successful completion of Level 700** as Judah's Kingdom-entry milestone, superseding the earlier proposed Level 450 destination. Level 450 remains the planned Helmet of Salvation unlock and completion of the six-piece armor schedule. Levels 451–700 are the final wilderness campaign with all six pieces retained in the completed design; five pieces still need equipment implementation today.
 
 The proposed campaign extends advanced Scripture comparison, contextual interpretation and leadership tests across 451–525, 526–600, 601–650 and 651–699, culminating in the Level 700 Gatekeeper. Categories remain mixed. Concrete encounter tuning, additional reviewed questions and any selection changes must be reported before implementation. Current runtime stages, the target ceiling at 525, saves, approved questions and endless progression are unchanged. Neither Kingdom transformation nor post-entry gameplay is implemented by this documentation update.
 

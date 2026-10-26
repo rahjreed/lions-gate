@@ -45,9 +45,9 @@ The achievement reveal cites [Ephesians 6:14 in the KJV](https://www.kingjamesbi
 | --- | --- |
 | 150 | Shoes of Peace |
 | 225 | Breastplate of Righteousness |
-| 300 | Shield of Faith |
-| 375 | Helmet of Salvation |
-| 450 | Sword of the Spirit, then Full Armor of God achievement once all six pieces exist |
+| 300 | Sword of the Spirit |
+| 375 | Shield of Faith |
+| 450 | Helmet of Salvation, then Full Armor of God achievement once all six pieces exist |
 
 Each remaining item needs original artwork fitted to all existing frames, occlusion review (especially hands, locs and face), cumulative-layer composition tests, its own Scripture-grounded reveal and milestone tests. The same sparse-layer approach can avoid duplicating armored character atlases for every combination. Full Armor must wait until all six completed milestones have reviewed visual equipment.
 

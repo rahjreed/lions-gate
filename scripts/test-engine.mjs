@@ -11,7 +11,7 @@ assert.equal(usePower(r,bank,'fifty'),true);assert.equal(r.eliminated.length,2);
 assert.equal(usePower(r,bank,'time'),true);assert.equal(r.remaining,55);
 assert.equal(usePower(r,bank,'shield'),true);submit(r,bank,-1);assert.equal(r.lives,3);advance(r,bank);
 for(let i=0;i<3;i++){submit(r,bank,-1);advance(r,bank)}assert.equal(r.status,'gameover');assert.equal(r.lives,0);assert.equal(nextLevel(r,bank),false);
-for(const [completed,name,degree] of [[0,'Novice',0],[4,'Novice',0],[5,'Student',0],[15,'Scholar',0],[30,'Scribe',0],[50,'Master',1],[60,'Master',2],[70,'Master',3],[80,'Master',4],[10000,'Master',996]]){assert.equal(rankFor(completed).name,name);assert.equal(rankFor(completed).degree,degree)}
+for(const [completed,name,degree] of [[0,'Novice',0],[34,'Novice',0],[35,'Student',0],[110,'Scholar',0],[185,'Scribe',0],[260,'Master',1],[335,'Master',2],[410,'Master',3],[485,'Master',4],[560,'Master',5],[10000,'Master',130]]){assert.equal(rankFor(completed).name,name);assert.equal(rankFor(completed).degree,degree)}
 assert.equal(levelConfig(5).boss,true);assert.equal(levelConfig(1000).boss,true);assert.equal(levelConfig(1001).difficulty,3);assert.ok(levelConfig(1001).seconds>=35);
 for(let level=1;level<=2000;level++){const q=selectQuestions(bank,{level,history:{}});assert.equal(q.length,10);assert.equal(new Set(q.map(x=>x.id)).size,10)}
 assert.equal(weekStart(new Date('2026-10-25T12:00:00Z')),'2026-10-19T00:00:00.000Z');

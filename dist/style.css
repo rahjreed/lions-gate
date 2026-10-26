@@ -8,3 +8,5 @@
 
 /* Retry is the primary defeat action; keep it ahead of secondary run statistics. */
 .retry-result .result-emblem{display:none}.retry-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin:18px 0}.retry-actions .button{min-height:44px}
+/* Historical rank honors do not replace current leaderboard rank calculations. */
+.legacy-record{display:block;font-size:11px;line-height:1.5;color:var(--gold);white-space:normal;min-width:110px}

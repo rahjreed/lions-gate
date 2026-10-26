@@ -17,12 +17,12 @@ for(let level=1;level<=61;level++){
  captureProgress(p,r);saveProfile(fake,p);assert.deepEqual(loadProfile(fake,questions).run,r);
  nextLevel(r,questions);
 }
-assert.ok(seen.size>=Math.min(42,questions.length));assert.equal(r.completed,61);assert.equal(rankFor(r.completed).degree,2);assert.equal(r.bosses,12);assert.equal(r.perfects,61);
-assert.ok(promotions.some(([n])=>n===5));assert.ok(promotions.some(([n])=>n===50));assert.ok(promotions.some(([n])=>n===60));
-assert.ok(p.badges.includes('Master'));assert.equal(p.bestCompleted,61);
+assert.ok(seen.size>=Math.min(42,questions.length));assert.equal(r.completed,61);assert.equal(rankFor(r.completed).name,'Student');assert.equal(r.bosses,12);assert.equal(r.perfects,61);
+assert.deepEqual(promotions.map(([n])=>n),[35]);
+assert.ok(p.badges.includes('Student'));assert.ok(!p.badges.includes('Master'));assert.equal(p.bestCompleted,61);
 for(let i=0;i<3;i++){submit(r,questions,-1);advance(r,questions)}captureProgress(p,r);captureProgress(p,r);assert.equal(p.records.length,1);assert.equal(r.status,'gameover');assert.equal(localScores(p).length,1);
 p.records.push({id:'old',nickname:'OLD',score:10,completed:0,endedAt:'2000-01-01T00:00:00.000Z'});assert.equal(localScores(p,'week',new Date(r.endedAt)).length,1);
 const malformed=structuredClone(r);malformed.answers=[{id:'missing'}];assert.equal(validRun(malformed,questions),false);
 assert.equal(levelConfig(100000).boss,true);assert.equal(levelConfig(100001).difficulty,3);
 const used=Object.fromEntries(questions.map((q,i)=>[q.id,{count:2,last:i}])),asked=Math.max(...Object.values(used).map(h=>h.last));const rotated=selectQuestions(questions,{level:101,asked,history:used},()=>.42);assert.ok(rotated.every(entry=>asked-used[entry.id].last>=20||questions.find(q=>q.id===entry.id).trapType),'Avoid recent non-trap questions; scarce trap-type quotas may need a recent item.');
-console.log(`PASS Phase 4: 61 perfect levels, ${seen.size}/${questions.length} live questions seen, 12 bosses, promotions at 5/50/60, degree 2, saved-run roundtrips, corrupt-save fallback, blocked storage, badge persistence, score deduplication, UTC weekly filter, spaced repetition.`);
+console.log(`PASS Phase 4: 61 perfect levels, ${seen.size}/${questions.length} live questions seen, 12 bosses, promotion at completed 35 only, saved-run roundtrips, corrupt-save fallback, blocked storage, badge persistence, score deduplication, UTC weekly filter, spaced repetition.`);

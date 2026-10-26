@@ -11,9 +11,9 @@ This document establishes the approved narrative destination and proposes the ca
 | 75 | Belt of Truth | Earnable, fitted to Judah's ranks and poses |
 | 150 | Shoes of Peace | Planned; Armory preview only |
 | 225 | Breastplate of Righteousness | Planned; Armory preview only |
-| 300 | Shield of Faith | Planned; Armory preview only |
-| 375 | Helmet of Salvation | Planned; Armory preview only |
-| 450 | Sword of the Spirit | Planned; Armory preview only |
+| 300 | Sword of the Spirit | Planned; Armory preview only |
+| 375 | Shield of Faith | Planned; Armory preview only |
+| 450 | Helmet of Salvation | Planned; Armory preview only |
 
 The Armory lists belt, breastplate, shoes, shield, helmet, sword in Ephesians 6:14–17 order; acquisition order follows the table. No milestone is moved to Level 700. The eventual Full Armor achievement belongs to completing all six equipment milestones at Level 450, not to Kingdom entry.
 

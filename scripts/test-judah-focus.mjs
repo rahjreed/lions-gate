@@ -4,7 +4,7 @@ import {selectQuestions} from '../dist/engine.js';
 import {focusTags} from '../dist/focus-questions.js';
 import {validateQuestions} from '../dist/question-rules.js';
 import {judah} from '../dist/mascot.js';
-for(const [n,name,degree] of [[0,'Novice',0],[5,'Student',0],[15,'Scholar',0],[30,'Scribe',0],[50,'Master',1],[60,'Master',2],[10000,'Master',996]]){const svg=judah(n);assert.ok(svg.includes(`data-rank="${name}"`));assert.ok(svg.includes(`data-degree="${degree}"`));assert.ok(svg.includes('aria-label="Judah'));}
+for(const [n,name,degree] of [[0,'Novice',0],[35,'Student',0],[110,'Scholar',0],[185,'Scribe',0],[260,'Master',1],[335,'Master',2],[10000,'Master',130]]){const svg=judah(n);assert.ok(svg.includes(`data-rank="${name}"`));assert.ok(svg.includes(`data-degree="${degree}"`));assert.ok(svg.includes('aria-label="Judah'));}
 for(let level=1;level<=100;level++){
  const result=selectQuestions(questions,{level,history:{}}).map(e=>questions.find(q=>q.id===e.id));
  assert.equal(result.filter(q=>q.tags.some(t=>focusTags.includes(t))).length,7);

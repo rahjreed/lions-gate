@@ -9,9 +9,9 @@ export const armorCatalog=Object.freeze([
  Object.freeze({...armorItems[0],implemented:true}),
  planned('breastplate',225,'Breastplate of Righteousness',14),
  planned('shoes',150,'Shoes of Peace',15),
- planned('shield',300,'Shield of Faith',16),
- planned('helmet',375,'Helmet of Salvation',17),
- planned('sword',450,'Sword of the Spirit',17)
+ planned('shield',375,'Shield of Faith',16),
+ planned('helmet',450,'Helmet of Salvation',17),
+ planned('sword',300,'Sword of the Spirit',17)
 ]);
 export function reconcileArmor(profile){
  const previous=profile.armor||{},owned=Array.isArray(previous.unlocked)?previous.unlocked:[],pending=Array.isArray(previous.pending)?previous.pending:[];
