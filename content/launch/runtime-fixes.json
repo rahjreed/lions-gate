@@ -10,8 +10,8 @@
     {
       "file": "dist/app.js",
       "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
-      "after": "bc842ea378407792b396d4ca244d2a79b3a86b191abd4dac4fd1d886d7e5cfb1",
-      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged."
+      "after": "32e98d9882c1d137dc43645db5ab5864d7b1a8d4235bffff0115123008a2226f",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
     },
     {
       "file": "dist/armor.css",
@@ -46,20 +46,20 @@
     {
       "file": "dist/storage.js",
       "before": "578ffd19efbca2b40947f4354b338e1d9c1a23ada2bcd81cd1601412073817e4",
-      "after": "7e8e5beb24e9909080f2a5e5021f608a8e9a95226c9b288260fdd759c1958ead",
-      "reason": "Same version-3 key; idempotent legacy honor/wardrobe migration and promotion high-water checkpoint; retain scores, completed levels and badges."
+      "after": "6c35e290d11484d0cfc75109a218ad9df3b958a7a58f3e45244618ba9d0e6735",
+      "reason": "Same version-3 key; idempotent legacy honor/wardrobe migration and promotion high-water checkpoint; retain scores, completed levels and badges. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
     },
     {
       "file": "dist/style.css",
       "before": "36816de9044a20cbfe2564cada6ea7a89569214028467cab7483d7fc05f1331c",
-      "after": "9a93f28fd0e3022ef25172c20e9d854c1780eba581cc2a570a51fe407888b298",
-      "reason": "Display historical Hall honor beneath current rank in its existing table. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged."
+      "after": "8c4617adb21727f1d3082b7ca473a684a2efbac029369cd3e72f130fe2284170",
+      "reason": "Display historical Hall honor beneath current rank in its existing table. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
     },
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "faa52b691f109bdaa618c4475129598debb07e200eef957c9a0bc05e27ddbbb7",
-      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged."
+      "after": "49c6d90e8b54f09a8333663dc3045e0a3099b5458a1392ee2808869e79a3413e",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
     }
   ]
 }
