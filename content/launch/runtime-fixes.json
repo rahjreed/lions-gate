@@ -10,8 +10,8 @@
     {
       "file": "dist/app.js",
       "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
-      "after": "32e98d9882c1d137dc43645db5ab5864d7b1a8d4235bffff0115123008a2226f",
-      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
+      "after": "5a136cdad72bbde01a27100bd1aaddbbb97036c214069896d01b436bec03e93d",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged."
     },
     {
       "file": "dist/armor.css",
@@ -58,8 +58,8 @@
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "49c6d90e8b54f09a8333663dc3045e0a3099b5458a1392ee2808869e79a3413e",
-      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes."
+      "after": "30c7924166f028e0237fcb4b16e6a2235ec530bafc4556b0438dec273c3e96da",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged."
     }
   ]
 }
