@@ -1,0 +1,2699 @@
+[
+  {
+    "id": "kr-101",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Deuteronomy 4:2, what restriction did Yah place upon Israel concerning His commandments?",
+    "options": [
+      "Israel could modify commandments when necessary.",
+      "Israel could replace commandments with traditions.",
+      "Israel must neither add to nor diminish His commandments.",
+      "Only priests were required to follow the commandments."
+    ],
+    "answer": 2,
+    "correctAnswer": "Israel must neither add to nor diminish His commandments.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "verse": 2,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-4-2/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah instructed Israel not to add to or subtract from His commandments. His instructions were not to be altered according to human preference.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "commandment-integrity",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-101",
+      "sourceDifficulty": 2,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Deuteronomy 4:2",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-102",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Deuteronomy 6:6–9, how were Israelites instructed to incorporate Yah's commandments into daily life?",
+    "options": [
+      "Discuss them only during annual feasts.",
+      "Teach them diligently to their children and speak of them throughout daily life.",
+      "Leave instruction exclusively to the priesthood.",
+      "Study them only when approaching the sanctuary."
+    ],
+    "answer": 1,
+    "correctAnswer": "Teach them diligently to their children and speak of them throughout daily life.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 6,
+      "verse": 6,
+      "endVerse": 9,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah commanded that His words remain in Israel's hearts and be taught diligently to their children, including during ordinary daily activities. Obedience and instruction were intended to shape everyday life.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "teach-children",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-102",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Deuteronomy 6:6–9",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-103",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "What purpose does Numbers 15:38–40 give for the fringes Israelites were instructed to wear?",
+    "options": [
+      "To identify military rank.",
+      "To distinguish wealthy families.",
+      "To remember Yah's commandments and perform them.",
+      "To identify members of the priesthood."
+    ],
+    "answer": 2,
+    "correctAnswer": "To remember Yah's commandments and perform them.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 15,
+      "verse": 38,
+      "endVerse": 40,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The fringes, including the commanded blue cord, were to remind Israel of Yah's commandments and encourage obedience rather than following their own hearts and eyes.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "fringes-remembrance",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-103",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Numbers 15:38–40",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-104",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Exodus 31:16–17, how is Israel instructed to regard the Sabbath throughout its generations?",
+    "options": [
+      "As a temporary practice ending in the wilderness.",
+      "As a perpetual covenant and sign between Yah and Israel.",
+      "As an observance belonging exclusively to the priests.",
+      "As a custom to be practiced only in Jerusalem."
+    ],
+    "answer": 1,
+    "correctAnswer": "As a perpetual covenant and sign between Yah and Israel.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 31,
+      "verse": 16,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-31/"
+    },
+    "supportingScriptures": [],
+    "explain": "The Sabbath is expressly described as a perpetual covenant and a sign between Yah and the children of Israel throughout their generations.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-104",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-104",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Exodus 31:16–17",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-105",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Teachings of Yeshua",
+    "difficulty": 2,
+    "q": "What did Yeshua declare concerning His relationship to the Law and the Prophets in Matthew 5:17?",
+    "options": [
+      "He came to interpret the Law, but not to fulfill the Prophets.",
+      "He came to fulfill the Prophets, but to set aside the Law.",
+      "He came not to destroy but to fulfill.",
+      "He came to preserve the Law, but to set aside the Prophets."
+    ],
+    "answer": 2,
+    "correctAnswer": "He came not to destroy but to fulfill.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 5,
+      "verse": 17,
+      "endVerse": 19,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yeshua explicitly denied coming to destroy the Law or the Prophets. He declared that He came to fulfill them and spoke of the continuing significance of God's commandments. The meaning of fulfillment should be studied in its surrounding context.",
+    "tags": [
+      "commandments",
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 4,
+      "concept": "kr-105",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-105",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Matthew 5:17–19",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-106",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Psalm 119:160, what is said concerning Yah's righteous judgments?",
+    "options": [
+      "They change whenever nations change.",
+      "They endure forever.",
+      "They are subject to the authority of kings.",
+      "They apply only when prophets are present."
+    ],
+    "answer": 1,
+    "correctAnswer": "They endure forever.",
+    "scripture": {
+      "book": "Psalms",
+      "chapter": 119,
+      "verse": 160,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Psalms-119-160/"
+    },
+    "supportingScriptures": [],
+    "explain": "The psalmist describes Yah's word as true and His righteous judgments as enduring forever. This is part of the biblical emphasis on the reliability of divine instruction.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-106",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-106",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Psalm 119:160",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-107",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Deuteronomy 12:32 in the KJV, how was Israel to approach everything Yah commanded?",
+    "options": [
+      "Observe it without adding to or diminishing from it.",
+      "Obey only the commandments confirmed by neighboring nations.",
+      "Replace difficult commandments with easier practices.",
+      "Allow rulers to determine which commandments remain valid."
+    ],
+    "answer": 0,
+    "correctAnswer": "Observe it without adding to or diminishing from it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 12,
+      "verse": 32,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-12-32/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah required Israel to observe what He commanded without adding to or diminishing from it. The chapter also warns against adopting forbidden worship practices.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "commandment-integrity",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-107",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Deuteronomy 12:32",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-108",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 2,
+    "q": "According to Jeremiah 31:31–33, what does Yah promise concerning His law under the New Covenant?",
+    "options": [
+      "He will remove all knowledge of righteousness.",
+      "He will write His law in the inward parts and hearts of His people.",
+      "He will replace His law with the laws of foreign rulers.",
+      "He will give each individual authority to invent commandments."
+    ],
+    "answer": 1,
+    "correctAnswer": "He will write His law in the inward parts and hearts of His people.",
+    "scripture": {
+      "book": "Jeremiah",
+      "chapter": 31,
+      "verse": 31,
+      "endVerse": 33,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Jeremiah-Chapter-31/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Hebrews",
+        "chapter": 8,
+        "verse": 8,
+        "endVerse": 10,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-8/"
+      }
+    ],
+    "explain": "Jeremiah foretells a New Covenant with the house of Israel and the house of Judah in which Yah places His law within His people and writes it upon their hearts. Hebrews quotes this promise.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "kr-108",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-108",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Jeremiah 31:31–33; Hebrews 8:8–10",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-109",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "When Paul asks whether faith makes void the law in Romans 3:31, what answer does he give?",
+    "options": [
+      "Faith makes the law void.",
+      "Faith establishes the law.",
+      "Faith establishes the works of the law as the basis of justification.",
+      "Faith establishes separate ways of justification for Jews and Gentiles."
+    ],
+    "answer": 1,
+    "correctAnswer": "Faith establishes the law.",
+    "scripture": {
+      "book": "Romans",
+      "chapter": 3,
+      "verse": 31,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Romans-3-31/"
+    },
+    "supportingScriptures": [],
+    "explain": "Paul answers that faith does not make void the law; rather, he says the law is established. The verse should be understood alongside Paul's wider discussion of faith, righteousness, and the law.",
+    "tags": [
+      "commandments",
+      "torah",
+      "paul-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 5,
+      "concept": "establish-law",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-109",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Romans 3:31",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-110",
+    "topic": "THE LAW AND ITS ENDURING AUTHORITY",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A teacher claims that Yah's commandments may be changed whenever a new generation considers them inconvenient. Which combination of passages most directly challenges the idea of changing divine commandments by human preference?",
+    "options": [
+      "Deuteronomy 4:2 and Deuteronomy 12:32",
+      "Genesis 40:5 and Judges 16:19",
+      "Ruth 2:8 and 1 Samuel 9:20",
+      "Nehemiah 2:6 and Acts 27:12"
+    ],
+    "answer": 0,
+    "correctAnswer": "Deuteronomy 4:2 and Deuteronomy 12:32",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "verse": 2,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-4-2/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 12,
+        "verse": 32,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-12-32/"
+      }
+    ],
+    "explain": "Both passages prohibit adding to or diminishing from Yah's commands. They establish that convenience alone is not authority to rewrite divine instruction.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "concept": "commandment-integrity",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-110",
+      "sourceDifficulty": 6,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE LAW AND ITS ENDURING AUTHORITY",
+      "sourceScripture": "Deuteronomy 4:2; Deuteronomy 12:32",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-111",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "Which day did Yah bless and sanctify after completing His work of creation?",
+    "options": [
+      "First day",
+      "Third day",
+      "Sixth day",
+      "Seventh day"
+    ],
+    "answer": 3,
+    "correctAnswer": "Seventh day",
+    "scripture": {
+      "book": "Genesis",
+      "chapter": 2,
+      "verse": 2,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Genesis-Chapter-2/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah rested on the seventh day, blessed it, and sanctified it. This establishes the seventh day's significance before the giving of the commandments at Sinai.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "creation-rest",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-111",
+      "sourceDifficulty": 2,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Genesis 2:2–3",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-112",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Exodus 20:8–11, why was Israel commanded to remember the Sabbath day?",
+    "options": [
+      "Because Israel selected it as a national holiday.",
+      "Because Yah created heaven and earth in six days and rested on the seventh.",
+      "Because the Sabbath was established by the Roman Empire.",
+      "Because the priests required additional festivals."
+    ],
+    "answer": 1,
+    "correctAnswer": "Because Yah created heaven and earth in six days and rested on the seventh.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 20,
+      "verse": 8,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/"
+    },
+    "supportingScriptures": [],
+    "explain": "The Sabbath commandment connects Israel's rest with Yah's creation, His rest on the seventh day, and His blessing and sanctification of that day.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "sabbath-creation-rationale",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-112",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Exodus 20:8–11",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-113",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Exodus 20:10, who was included in the Sabbath prohibition against working?",
+    "options": [
+      "Only the heads of Israelite households.",
+      "Only priests and Levites.",
+      "Household members, servants, livestock, and the stranger within the gates.",
+      "Only adults who had entered the promised land."
+    ],
+    "answer": 2,
+    "correctAnswer": "Household members, servants, livestock, and the stranger within the gates.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 20,
+      "verse": 10,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-20-10/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command extends Sabbath rest beyond the head of the household, including family members, servants, animals, and the stranger within the gates.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-113",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-113",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Exodus 20:10",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-114",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "What does Leviticus 23:3 identify as part of the weekly Sabbath?",
+    "options": [
+      "A day for commercial trade.",
+      "A holy convocation and cessation from ordinary work.",
+      "A requirement to journey to another nation.",
+      "A day reserved exclusively for agricultural labor."
+    ],
+    "answer": 1,
+    "correctAnswer": "A holy convocation and cessation from ordinary work.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 23,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-23-3/"
+    },
+    "supportingScriptures": [],
+    "explain": "The seventh day is described as a Sabbath of rest and a holy convocation. Israel was commanded to cease ordinary work and recognize the day's sacred purpose.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-114",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-114",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Leviticus 23:3",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-115",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Teachings of Yeshua",
+    "difficulty": 2,
+    "q": "What principle did Yeshua teach when He asked whether it was lawful to do good on the Sabbath?",
+    "options": [
+      "Acts of mercy and doing good are consistent with the Sabbath.",
+      "Merciful acts should be postponed until the Sabbath has ended.",
+      "Helping an animal in distress is lawful, but healing a person must wait.",
+      "Healing on the Sabbath requires prior permission from the synagogue rulers."
+    ],
+    "answer": 0,
+    "correctAnswer": "Acts of mercy and doing good are consistent with the Sabbath.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 12,
+      "verse": 9,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Mark",
+        "chapter": 3,
+        "verse": 1,
+        "endVerse": 5,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-3/"
+      }
+    ],
+    "explain": "Yeshua challenged interpretations that prevented merciful action. He expressly affirmed that doing good on the Sabbath is lawful.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 4,
+      "concept": "kr-115",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-115",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Matthew 12:9–12; Mark 3:1–5",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-116",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Isaiah 58:13–14, what behavior is associated with honoring Yah's holy Sabbath?",
+    "options": [
+      "Pursuing one's own pleasure and disregarding Yah's instruction.",
+      "Treating the Sabbath as an ordinary workday.",
+      "Turning away from personal pursuits and calling the Sabbath a delight.",
+      "Ignoring the needs of other people."
+    ],
+    "answer": 2,
+    "correctAnswer": "Turning away from personal pursuits and calling the Sabbath a delight.",
+    "scripture": {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verse": 13,
+      "endVerse": 14,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/"
+    },
+    "supportingScriptures": [],
+    "explain": "Isaiah associates honoring the Sabbath with turning away from personal pursuits and taking delight in Yah's holy day.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-116",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-116",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Isaiah 58:13–14",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-117",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 2,
+    "q": "What future worship pattern is described in Isaiah 66:22–23?",
+    "options": [
+      "All flesh coming to worship before Yah from Sabbath to Sabbath and new moon to new moon.",
+      "Worship disappearing entirely from the earth.",
+      "Only the priesthood worshipping once every seven years.",
+      "Nations being forbidden from worshipping Yah."
+    ],
+    "answer": 0,
+    "correctAnswer": "All flesh coming to worship before Yah from Sabbath to Sabbath and new moon to new moon.",
+    "scripture": {
+      "book": "Isaiah",
+      "chapter": 66,
+      "verse": 22,
+      "endVerse": 23,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-66/"
+    },
+    "supportingScriptures": [],
+    "explain": "Isaiah describes a future scene in which all flesh comes to worship before Yah from one new moon to another and from one Sabbath to another. The text explicitly retains these recurring observances in its prophetic description.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 5,
+      "concept": "kr-117",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-117",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Isaiah 66:22–23",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-118",
+    "topic": "THE SABBATH AND HOLY CONVOCATIONS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Nehemiah 13:15–22, what action did Nehemiah take to prevent Sabbath commerce in Jerusalem?",
+    "options": [
+      "He encouraged merchants to open additional markets.",
+      "He ordered the gates shut before the Sabbath and guarded against trading.",
+      "He moved Sabbath trading into the temple.",
+      "He abolished the weekly Sabbath."
+    ],
+    "answer": 1,
+    "correctAnswer": "He ordered the gates shut before the Sabbath and guarded against trading.",
+    "scripture": {
+      "book": "Nehemiah",
+      "chapter": 13,
+      "verse": 15,
+      "endVerse": 22,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Nehemiah-Chapter-13/"
+    },
+    "supportingScriptures": [],
+    "explain": "Nehemiah confronted Sabbath trading and arranged for Jerusalem's gates to be closed and guarded to prevent commercial activity on the holy day.",
+    "tags": [
+      "commandments",
+      "torah",
+      "sabbath"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "concept": "kr-118",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-118",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "THE SABBATH AND HOLY CONVOCATIONS",
+      "sourceScripture": "Nehemiah 13:15–22",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-119",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Numbers 15:38, what were the children of Israel commanded to make upon the borders of their garments?",
+    "options": [
+      "Golden crowns",
+      "Fringes with a blue cord",
+      "Leather belts bearing tribal names",
+      "Silver chains"
+    ],
+    "answer": 1,
+    "correctAnswer": "Fringes with a blue cord",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 15,
+      "verse": 38,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-15-38/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah instructed the children of Israel to make fringes upon the borders of their garments throughout their generations, with a blue cord included.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "fringes-garment-command",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-119",
+      "sourceDifficulty": 2,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Numbers 15:38",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-120",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Deuteronomy 22:12, where were Israelites instructed to make fringes or tassels?",
+    "options": [
+      "On the four corners of their covering or garment.",
+      "Exclusively on their footwear.",
+      "Only upon the entrance to their homes.",
+      "Exclusively on priestly crowns."
+    ],
+    "answer": 0,
+    "correctAnswer": "On the four corners of their covering or garment.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 12,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-22-12/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command describes fringes or tassels associated with the four corners of the garment. Different translations use terminology such as fringes, tassels, or twisted cords.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "fringes-garment-command",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-120",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Deuteronomy 22:12",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-121",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Leviticus 19:27, what restrictions are given concerning the hair and beard?",
+    "options": [
+      "Every Israelite man must shave his entire head daily.",
+      "Israelites must not round the corners of the head or mar the corners of the beard.",
+      "Beards may only be worn by priests.",
+      "Every Israelite man must wear the same hairstyle."
+    ],
+    "answer": 1,
+    "correctAnswer": "Israelites must not round the corners of the head or mar the corners of the beard.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 27,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-27/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse prohibits rounding the corners of the head and marring the corners of the beard. The text should be taught accurately without inventing additional measurements or modern grooming rules not expressly given.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-121",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-121",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Leviticus 19:27",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-122",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Deuteronomy 22:5, what distinction concerning clothing does the commandment address?",
+    "options": [
+      "Clothing may only be made from wool.",
+      "Garments must be identical throughout Israel.",
+      "The distinction between apparel associated with men and women.",
+      "Only kings may wear decorated garments."
+    ],
+    "answer": 2,
+    "correctAnswer": "The distinction between apparel associated with men and women.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-22-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage prohibits the specified exchange of male and female apparel or items. The question concerns the commandment's stated distinction without inventing a universal list of modern garments.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-122",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-122",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Deuteronomy 22:5",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-123",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "What does 1 Timothy 2:9–10 emphasize concerning appropriate adornment?",
+    "options": [
+      "Costly clothing establishes righteousness.",
+      "Modesty, propriety, and good works are more important than extravagant display.",
+      "Spiritual character is determined entirely by jewelry.",
+      "Clothing has no relationship to conduct or presentation."
+    ],
+    "answer": 1,
+    "correctAnswer": "Modesty, propriety, and good works are more important than extravagant display.",
+    "scripture": {
+      "book": "1 Timothy",
+      "chapter": 2,
+      "verse": 9,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/1-Timothy-Chapter-2/"
+    },
+    "supportingScriptures": [],
+    "explain": "Paul emphasizes modest apparel, propriety, and good works rather than making outward luxury the measure of godliness.",
+    "tags": [
+      "commandments",
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "kr-123",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-123",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "1 Timothy 2:9–10",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-124",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "How does 1 Peter 3:3–4 direct attention concerning a person's adornment?",
+    "options": [
+      "Toward a meek and quiet spirit of great value before God.",
+      "Toward expensive jewelry as evidence of holiness.",
+      "Toward public recognition as the goal of appearance.",
+      "Toward abandoning concern for inward character."
+    ],
+    "answer": 0,
+    "correctAnswer": "Toward a meek and quiet spirit of great value before God.",
+    "scripture": {
+      "book": "1 Peter",
+      "chapter": 3,
+      "verse": 3,
+      "endVerse": 4,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/1-Peter-Chapter-3/"
+    },
+    "supportingScriptures": [],
+    "explain": "Peter contrasts outward adornment with inward character, emphasizing the lasting value of a meek and quiet spirit.",
+    "tags": [
+      "commandments",
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "kr-124",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-124",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "1 Peter 3:3–4",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-125",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "What warning does Leviticus 19:28 give concerning bodily markings?",
+    "options": [
+      "Every tribe must receive an identical tattoo.",
+      "Bodily markings are required for military officers.",
+      "Israel was prohibited from making the specified cuttings for the dead and tattoo markings.",
+      "Only priests were permitted to receive any markings."
+    ],
+    "answer": 2,
+    "correctAnswer": "Israel was prohibited from making the specified cuttings for the dead and tattoo markings.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 28,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-28/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse prohibits cuttings in the flesh for the dead and tattoo markings. Interpretations of the scope of the Hebrew wording should be distinguished from the prohibition expressly recorded.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-125",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-125",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Leviticus 19:28",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-126",
+    "topic": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 2,
+    "q": "An Israelite wears fringes but deliberately ignores the commandments they are meant to recall. Which passage most directly explains why the fringes were given?",
+    "options": [
+      "Numbers 15:39–40",
+      "Genesis 41:42",
+      "Joshua 6:4",
+      "Judges 14:12"
+    ],
+    "answer": 0,
+    "correctAnswer": "Numbers 15:39–40",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 15,
+      "verse": 39,
+      "endVerse": 40,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The stated purpose of fringes is remembrance and obedience. The outward sign is connected to remembering and performing Yah's commandments, not merely displaying an identifying garment.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "concept": "fringes-remembrance",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-126",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "sourceScripture": "Numbers 15:39–40",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-127",
+    "topic": "PRAYER AND WORSHIP",
+    "category": "Biblical people, places, and events",
+    "difficulty": 1,
+    "q": "According to Daniel 6:10, toward which city were Daniel's windows open when he prayed?",
+    "options": [
+      "Babylon",
+      "Nineveh",
+      "Jerusalem",
+      "Damascus"
+    ],
+    "answer": 2,
+    "correctAnswer": "Jerusalem",
+    "scripture": {
+      "book": "Daniel",
+      "chapter": 6,
+      "verse": 10,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Daniel-6-10/"
+    },
+    "supportingScriptures": [],
+    "explain": "Daniel prayed with his windows open toward Jerusalem, continuing his established practice despite the royal decree.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "people",
+      "complexity": 3,
+      "concept": "kr-127",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-127",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "PRAYER AND WORSHIP",
+      "sourceScripture": "Daniel 6:10",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-128",
+    "topic": "PRAYER AND WORSHIP",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "According to 1 Kings 8:46–49, what direction does Solomon describe for Israel's prayers when they are carried captive and repent?",
+    "options": [
+      "Toward their captors' palace.",
+      "Toward their land, the chosen city, and the house built for Yah's name.",
+      "Toward the nearest mountain regardless of location.",
+      "Toward the rising sun as an independent object of worship."
+    ],
+    "answer": 1,
+    "correctAnswer": "Toward their land, the chosen city, and the house built for Yah's name.",
+    "scripture": {
+      "book": "1 Kings",
+      "chapter": 8,
+      "verse": 46,
+      "endVerse": 49,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/1-Kings-Chapter-8/"
+    },
+    "supportingScriptures": [],
+    "explain": "Solomon describes repentant captives praying toward the land given to their fathers, the city Yah chose, and the house built for His name. The passage should be studied alongside the broader biblical teachings on prayer.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 4,
+      "concept": "kr-128",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-128",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "PRAYER AND WORSHIP",
+      "sourceScripture": "1 Kings 8:46–49",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-129",
+    "topic": "PRAYER AND WORSHIP",
+    "category": "Teachings of Yeshua",
+    "difficulty": 2,
+    "q": "When Yeshua taught His disciples how to pray in Matthew 6:9–13, what priority did He place at the beginning?",
+    "options": [
+      "Seeking public recognition.",
+      "Asking for military conquest.",
+      "Honoring the Father's name and seeking His Kingdom and will.",
+      "Requesting wealth before addressing God."
+    ],
+    "answer": 2,
+    "correctAnswer": "Honoring the Father's name and seeking His Kingdom and will.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 6,
+      "verse": 9,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yeshua's model prayer begins by honoring the Father, calling for His Kingdom to come, and seeking His will to be done.",
+    "tags": [
+      "commandments",
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "yeshua",
+      "complexity": 4,
+      "concept": "kr-129",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-129",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "PRAYER AND WORSHIP",
+      "sourceScripture": "Matthew 6:9–13",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-130",
+    "topic": "PRAYER AND WORSHIP",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 2,
+    "q": "According to Isaiah 56:6–7, what does Yah promise concerning foreigners who join themselves to Him, keep His covenant, and serve Him?",
+    "options": [
+      "He will give them a separate house of prayer apart from the worship of Israel.",
+      "He will bring them to His holy mountain and make them joyful in His house of prayer.",
+      "He will receive their service but require their offerings to remain outside His altar.",
+      "He will bring them to His mountain after they have first joined Levi's priestly family."
+    ],
+    "answer": 1,
+    "correctAnswer": "He will bring them to His holy mountain and make them joyful in His house of prayer.",
+    "scripture": {
+      "book": "Isaiah",
+      "chapter": 56,
+      "verse": 6,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-56/"
+    },
+    "supportingScriptures": [],
+    "explain": "Isaiah describes foreigners who join themselves to Yah, love His name, keep His Sabbath, and hold fast to His covenant. Yah promises to receive them at His holy mountain, and His house is called a house of prayer for all people.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 5,
+      "concept": "kr-130",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-130",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "PRAYER AND WORSHIP",
+      "sourceScripture": "Isaiah 56:6–7",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-131",
+    "topic": "PRAYER AND WORSHIP",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "According to 1 Kings 8:27–30, what does Solomon acknowledge while praying concerning the newly built temple?",
+    "options": [
+      "Yah can only hear prayers offered inside the temple.",
+      "Heaven and the highest heaven cannot contain Yah, yet Solomon asks Him to hear prayers directed toward the temple.",
+      "The temple replaces Yah's authority over heaven.",
+      "The temple makes repentance unnecessary."
+    ],
+    "answer": 1,
+    "correctAnswer": "Heaven and the highest heaven cannot contain Yah, yet Solomon asks Him to hear prayers directed toward the temple.",
+    "scripture": {
+      "book": "1 Kings",
+      "chapter": 8,
+      "verse": 27,
+      "endVerse": 30,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/1-Kings-Chapter-8/"
+    },
+    "supportingScriptures": [],
+    "explain": "Solomon acknowledges that Yah cannot be contained by a building, yet asks Him to attend to prayers offered toward the temple and to hear from heaven. This gives important context to later passages about prayer directed toward Jerusalem.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 5,
+      "concept": "kr-131",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-131",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "PRAYER AND WORSHIP",
+      "sourceScripture": "1 Kings 8:27–30",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-132",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Genesis 2:24, what relationship is established when a man leaves his father and mother and joins his wife?",
+    "options": [
+      "The two become one flesh.",
+      "The husband becomes the property of his wife's relatives.",
+      "Marriage replaces every other commandment.",
+      "The two become members of different households permanently."
+    ],
+    "answer": 0,
+    "correctAnswer": "The two become one flesh.",
+    "scripture": {
+      "book": "Genesis",
+      "chapter": 2,
+      "verse": 24,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Genesis-2-24/"
+    },
+    "supportingScriptures": [],
+    "explain": "Genesis describes a man leaving his father and mother, cleaving to his wife, and the two becoming one flesh. Yeshua later references this passage when discussing marriage.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-132",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-132",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Genesis 2:24",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-133",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "What reason is expressly given in Deuteronomy 7:3–4 for forbidding Israel to intermarry with the nations identified in that passage?",
+    "options": [
+      "Such marriages could weaken Israel's ability to defend the land against surrounding nations.",
+      "Such marriages could transfer Israel's tribal inheritances into the possession of other nations.",
+      "Such marriages could turn Israel's children away from following Yah to serve other gods.",
+      "Such marriages could place Israel under the tribute obligations imposed by neighboring kings."
+    ],
+    "answer": 2,
+    "correctAnswer": "Such marriages could turn Israel's children away from following Yah to serve other gods.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 7,
+      "verse": 1,
+      "endVerse": 4,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-7/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah prohibited the specified intermarriages and gave the danger of being turned from Him toward other gods as the stated reason. Study the named nations, covenant setting, and express wording of the commandment.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-133",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-133",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Deuteronomy 7:1–4",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-134",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Leviticus 18:6, what general restriction introduces the laws concerning prohibited sexual relationships?",
+    "options": [
+      "No one may marry after reaching adulthood.",
+      "No one is to approach a near relative to uncover nakedness.",
+      "Only rulers are subject to marriage restrictions.",
+      "Marriage restrictions apply only during the harvest season."
+    ],
+    "answer": 1,
+    "correctAnswer": "No one is to approach a near relative to uncover nakedness.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verse": 6,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-18-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "Leviticus 18 introduces restrictions concerning near relatives before identifying particular forbidden unions. The detailed provisions should be studied individually rather than reduced to a single broad rule.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-134",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-134",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Leviticus 18:6",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-135",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Numbers 36:6–9, why were the daughters inheriting land in their tribe instructed to marry within their father's tribal family?",
+    "options": [
+      "To prevent the inherited land from passing from one tribe to another.",
+      "To prevent all marriage celebrations.",
+      "To establish identical occupations for every tribe.",
+      "To prevent the daughters from receiving any inheritance."
+    ],
+    "answer": 0,
+    "correctAnswer": "To prevent the inherited land from passing from one tribe to another.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 36,
+      "verse": 6,
+      "endVerse": 9,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-36/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command concerned preserving tribal land inheritance. The daughters could marry whom they considered suitable within the specified tribal family, ensuring their inherited portion remained with the tribe.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "concept": "kr-135",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-135",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Numbers 36:6–9",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-136",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Deuteronomy 24:1–4, what is prohibited after a divorced woman has married another man and that subsequent marriage has ended?",
+    "options": [
+      "She may not marry outside her father's tribe after the second marriage ends.",
+      "She may not enter a third marriage after receiving a second bill of divorcement.",
+      "Her first husband may not take her again as his wife.",
+      "She may not marry outside the second husband's family if he has died."
+    ],
+    "answer": 2,
+    "correctAnswer": "Her first husband may not take her again as his wife.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 1,
+      "endVerse": 4,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage describes a particular divorce and remarriage situation and prohibits the first husband from marrying the woman again after her intervening marriage has ended. It should not be rewritten as a blanket prohibition against every form of remarriage.",
+    "tags": [
+      "commandments",
+      "torah"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "concept": "kr-136",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-136",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Deuteronomy 24:1–4",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-137",
+    "topic": "MARRIAGE AND FAMILY LAW",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 3,
+    "q": "A man considers abandoning his obligation to care for his elderly parents while claiming religious devotion. Which pair of passages most directly addresses honoring parents and rejecting the misuse of religious tradition to avoid that duty?",
+    "options": [
+      "Exodus 20:12 and Mark 7:9–13",
+      "Genesis 37:3 and Acts 16:25",
+      "Joshua 4:9 and Revelation 8:6",
+      "Judges 7:5 and Romans 15:20"
+    ],
+    "answer": 0,
+    "correctAnswer": "Exodus 20:12 and Mark 7:9–13",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 20,
+      "verse": 12,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-20-12/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Mark",
+        "chapter": 7,
+        "verse": 9,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-7/"
+      }
+    ],
+    "explain": "The commandment requires honoring father and mother. Yeshua rebukes the misuse of Corban traditions to excuse neglect of parents, showing that religious claims do not justify setting aside the commandment.",
+    "tags": [
+      "commandments",
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 6,
+      "concept": "kr-137",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-137",
+      "sourceDifficulty": 6,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "MARRIAGE AND FAMILY LAW",
+      "sourceScripture": "Exodus 20:12; Mark 7:9–13",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-138",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Leviticus 11:3, what two characteristics identify the land animals permitted for eating in that category?",
+    "options": [
+      "Having horns and living in groups.",
+      "Dividing the hoof and chewing the cud.",
+      "Having four legs and a tail.",
+      "Being raised within Israel's borders."
+    ],
+    "answer": 1,
+    "correctAnswer": "Dividing the hoof and chewing the cud.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-11-3/"
+    },
+    "supportingScriptures": [],
+    "explain": "Leviticus identifies land animals meeting both characteristics as permitted for eating. The chapter also identifies animals that meet only one characteristic and are therefore unclean.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "concept": "land-animals",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-138",
+      "sourceDifficulty": 2,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Leviticus 11:3",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-139",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "Why is the swine identified as unclean in Leviticus 11:7–8?",
+    "options": [
+      "It lacks a divided hoof.",
+      "It has a divided hoof but does not chew the cud.",
+      "It is exclusively a wild animal.",
+      "It has no place in agricultural societies."
+    ],
+    "answer": 1,
+    "correctAnswer": "It has a divided hoof but does not chew the cud.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verse": 7,
+      "endVerse": 8,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-11/"
+    },
+    "supportingScriptures": [],
+    "explain": "The swine divides the hoof but does not chew the cud, so it fails to meet both requirements given for permitted land animals.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "kr-139",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-139",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Leviticus 11:7–8",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-140",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 1,
+    "q": "According to Leviticus 11:9, which aquatic creatures may be eaten?",
+    "options": [
+      "Any creature captured in salt water.",
+      "Any creature larger than a man's hand.",
+      "Those having fins and scales in the waters.",
+      "Every creature that swims."
+    ],
+    "answer": 2,
+    "correctAnswer": "Those having fins and scales in the waters.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verse": 9,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-11-9/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage identifies fins and scales as the characteristics for permitted aquatic creatures. The requirement is not based simply on whether the creature comes from fresh or salt water.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "concept": "water-creatures",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-140",
+      "sourceDifficulty": 3,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Leviticus 11:9",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-141",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Commandments, Torah, and biblical law",
+    "difficulty": 2,
+    "q": "According to Leviticus 17:10–14, what is the stated reason for the prohibition against eating blood?",
+    "options": [
+      "Blood is reserved as food for the priests who minister at the altar on Israel's behalf.",
+      "The life of the flesh is in the blood, which Yah designated for atonement upon the altar.",
+      "Blood becomes permitted food once the animal's prescribed offering has been presented.",
+      "Blood is withheld from the stranger but permitted as food to those born within Israel."
+    ],
+    "answer": 1,
+    "correctAnswer": "The life of the flesh is in the blood, which Yah designated for atonement upon the altar.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 17,
+      "verse": 10,
+      "endVerse": 14,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-17/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yah connects blood with the life of the flesh and explains its role in atonement. The prohibition is grounded in the meaning and sanctity assigned to blood.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "concept": "kr-141",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-141",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Leviticus 17:10–14",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-142",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 2,
+    "q": "According to Acts 10:28, what understanding did Peter expressly say God had shown him following his vision?",
+    "options": [
+      "That he should call no man common or unclean.",
+      "That the Sabbath should be changed to the first day.",
+      "That Israel's tribal inheritance had ended.",
+      "That prayer toward Jerusalem was forbidden."
+    ],
+    "answer": 0,
+    "correctAnswer": "That he should call no man common or unclean.",
+    "scripture": {
+      "book": "Acts",
+      "chapter": 10,
+      "verse": 9,
+      "endVerse": 28,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-10/"
+    },
+    "supportingScriptures": [],
+    "explain": "After the vision and his encounter with Gentile visitors, Peter states that God showed him not to call any man common or unclean. The account explicitly concerns his reception of Gentiles. Broader dietary interpretations should be distinguished from Peter's express statement.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 5,
+      "concept": "peter-vision",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-142",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Acts 10:9–28",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-143",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Prophecy, judgment, and the Kingdom",
+    "difficulty": 2,
+    "q": "According to Isaiah 66:15–17, which practice is explicitly named among those condemned in the prophetic judgment scene?",
+    "options": [
+      "Eating swine's flesh and other abominable things.",
+      "Traveling beyond Jerusalem.",
+      "Harvesting grain outside the seventh month.",
+      "Living in houses made from stone."
+    ],
+    "answer": 0,
+    "correctAnswer": "Eating swine's flesh and other abominable things.",
+    "scripture": {
+      "book": "Isaiah",
+      "chapter": 66,
+      "verse": 15,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-66/"
+    },
+    "supportingScriptures": [],
+    "explain": "Isaiah's prophecy describes Yah's judgment and specifically includes those eating swine's flesh, the abomination, and the mouse among the condemned. The passage should be studied in relation to the holiness and dietary instructions elsewhere in Scripture.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "kingdom",
+      "complexity": 5,
+      "concept": "kr-143",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-143",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Isaiah 66:15–17",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-144",
+    "topic": "DIETARY LAWS AND HOLINESS",
+    "category": "Difficult and commonly misunderstood passages",
+    "difficulty": 3,
+    "q": "In Mark 7:1–23, which practice introduces the dispute between Yeshua and the Pharisees?",
+    "options": [
+      "Eating with hands that had not undergone the traditional washing.",
+      "Refusing to observe the Feast of Tabernacles.",
+      "Selling sacrificial animals outside Jerusalem.",
+      "Eating food offered to foreign gods."
+    ],
+    "answer": 0,
+    "correctAnswer": "Eating with hands that had not undergone the traditional washing.",
+    "scripture": {
+      "book": "Mark",
+      "chapter": 7,
+      "verse": 1,
+      "endVerse": 23,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Matthew",
+        "chapter": 15,
+        "verse": 1,
+        "endVerse": 20,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-15/"
+      }
+    ],
+    "explain": "The dispute begins with the disciples eating with hands considered defiled under the tradition of the elders. Yeshua addresses traditions, defilement, and the source of evil. Mark 7:19 has an interpretive and translation question concerning the cleansing of foods; this question tests the undisputed immediate setting of the dispute.",
+    "tags": [
+      "commandments",
+      "torah",
+      "clean-unclean",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "context",
+      "complexity": 6,
+      "concept": "hands-complaint",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-144",
+      "sourceDifficulty": 6,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "DIETARY LAWS AND HOLINESS",
+      "sourceScripture": "Mark 7:1–23; Matthew 15:1–20",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-145",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 2,
+    "q": "When Yeshua identifies the greatest commandment in Matthew 22:37, which Torah passage is He drawing upon?",
+    "options": [
+      "Deuteronomy 6:5",
+      "Numbers 3:10",
+      "Genesis 40:8",
+      "Exodus 18:13"
+    ],
+    "answer": 0,
+    "correctAnswer": "Deuteronomy 6:5",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 22,
+      "verse": 37,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-22-37/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 6,
+        "verse": 4,
+        "endVerse": 5,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-6/"
+      }
+    ],
+    "explain": "Yeshua's instruction to love Yah with all one's heart, soul, and mind draws from the command to love Yah in Deuteronomy 6. His teaching directly connects to the Torah.",
+    "tags": [
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "concept": "kr-145",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-145",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Matthew 22:37; Deuteronomy 6:4–5",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-146",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 2,
+    "q": "Which Torah commandment does Yeshua cite when He teaches that one should love one's neighbor as oneself?",
+    "options": [
+      "Leviticus 19:18",
+      "Numbers 20:8",
+      "Exodus 26:30",
+      "Deuteronomy 34:7"
+    ],
+    "answer": 0,
+    "correctAnswer": "Leviticus 19:18",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 22,
+      "verse": 39,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-22-39/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 18,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-18/"
+      }
+    ],
+    "explain": "Yeshua's instruction to love one's neighbor as oneself is taken directly from Leviticus 19:18. He identifies this commandment alongside love for God as central to the Law and the Prophets.",
+    "tags": [
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "concept": "kr-146",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-146",
+      "sourceDifficulty": 4,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Matthew 22:39; Leviticus 19:18",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-147",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 2,
+    "q": "When Yeshua says that mercy is desired rather than sacrifice in Matthew 12:7, which prophet is He quoting?",
+    "options": [
+      "Daniel",
+      "Hosea",
+      "Obadiah",
+      "Haggai"
+    ],
+    "answer": 1,
+    "correctAnswer": "Hosea",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 12,
+      "verse": 7,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-12-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Hosea",
+        "chapter": 6,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Hosea-6-6/"
+      }
+    ],
+    "explain": "Yeshua quotes Hosea's statement about Yah desiring mercy and the knowledge of God rather than mere sacrificial performance. The quotation appears in His response to an accusation against His disciples.",
+    "tags": [
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "mercy-hosea",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-147",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Matthew 12:7; Hosea 6:6",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-148",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "New Testament connections to the Old Testament",
+    "difficulty": 2,
+    "q": "According to Luke 24:44, which three scriptural divisions did Yeshua identify when speaking of the things written concerning Him?",
+    "options": [
+      "The Law of Moses, the Prophets, and the Psalms.",
+      "The writings of Rome, Greece, and Egypt.",
+      "The books of Peter, Paul, and John.",
+      "The books of Ezra, Nehemiah, and Esther exclusively."
+    ],
+    "answer": 0,
+    "correctAnswer": "The Law of Moses, the Prophets, and the Psalms.",
+    "scripture": {
+      "book": "Luke",
+      "chapter": 24,
+      "verse": 44,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Luke-24-44/"
+    },
+    "supportingScriptures": [],
+    "explain": "Yeshua refers to the Law of Moses, the Prophets, and the Psalms when describing Scripture concerning Him. This helps players understand why the earlier Scriptures are central to studying His mission.",
+    "tags": [
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 5,
+      "concept": "law-prophets-psalms",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-148",
+      "sourceDifficulty": 5,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Luke 24:44",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-149",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "According to Acts 17:10–12, why were the Bereans commended in their response to Paul's preaching?",
+    "options": [
+      "They accepted every claim without examination.",
+      "They searched the Scriptures daily to determine whether the teachings were so.",
+      "They refused to hear any teaching outside their hometown.",
+      "They replaced Scripture with popular opinion."
+    ],
+    "answer": 1,
+    "correctAnswer": "They searched the Scriptures daily to determine whether the teachings were so.",
+    "scripture": {
+      "book": "Acts",
+      "chapter": 17,
+      "verse": 10,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-17/"
+    },
+    "supportingScriptures": [],
+    "explain": "The Bereans received the word eagerly while examining Scripture daily. This models the importance of testing teaching against the written Scriptures.",
+    "tags": [
+      "torah",
+      "yeshua-context",
+      "scripture-tradition"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "concept": "berean-examination",
+      "mode": "explicit"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-149",
+      "sourceDifficulty": 6,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Acts 17:10–12",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  },
+  {
+    "id": "kr-150",
+    "topic": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+    "category": "Complex Scripture interpretation, discernment, and leadership",
+    "difficulty": 3,
+    "q": "A teacher argues that because a doctrine appears in the New Testament, there is no need to examine its relationship to the Law and the Prophets. Which combination of passages offers the strongest scriptural reason to reject that study method?",
+    "options": [
+      "Luke 24:44, Acts 17:11, and 2 Timothy 3:15–17",
+      "Genesis 41:1, Judges 15:4, and Acts 28:3",
+      "Exodus 2:3, Ruth 3:7, and John 21:11",
+      "Joshua 8:30, Esther 2:17, and Acts 12:7"
+    ],
+    "answer": 0,
+    "correctAnswer": "Luke 24:44, Acts 17:11, and 2 Timothy 3:15–17",
+    "scripture": {
+      "book": "Luke",
+      "chapter": 24,
+      "verse": 44,
+      "translation": "KJV",
+      "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+      "url": "https://www.kingjamesbibleonline.org/Luke-24-44/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "verse": 11,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/Acts-17-11/"
+      },
+      {
+        "book": "2 Timothy",
+        "chapter": 3,
+        "verse": 15,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "url": "https://www.kingjamesbibleonline.org/2-Timothy-Chapter-3/"
+      }
+    ],
+    "explain": "Yeshua directed attention to the earlier Scriptures concerning Himself. The Bereans examined Scripture to test apostolic preaching, and Paul taught that the sacred writings were able to make Timothy wise concerning salvation and were profitable for doctrine and instruction. These passages establish the importance of examining teachings in light of Scripture as a whole.",
+    "tags": [
+      "torah",
+      "yeshua-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "concept": "kr-150",
+      "mode": "multi-passage"
+    },
+    "review": {
+      "status": "candidate"
+    },
+    "editorial": {
+      "sourceId": "KR-150",
+      "sourceDifficulty": 7,
+      "sourceDifficultyScale": "1–10",
+      "sourceSection": "YESHUA, THE TORAH, AND SCRIPTURAL CONNECTIONS",
+      "sourceScripture": "Luke 24:44; Acts 17:11; 2 Timothy 3:15–17",
+      "sourceFile": "content/sources/kr-101-150.md",
+      "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+      "evidenceStatus": "pending",
+      "manualReviewRequired": true
+    }
+  }
+]

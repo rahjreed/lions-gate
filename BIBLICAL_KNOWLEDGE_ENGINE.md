@@ -1,5 +1,7 @@
 # Biblical Knowledge Engine
 
+Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) maps explicitly calibrated 1–10 editorial ratings without changing existing records or the runtime 1–3 display / 1–7 complexity fields described here. Current inventory: **42 live reviewed questions, 100 unpublished candidates in two batches, zero published additions**. [Coverage tracker guide](content/CURRICULUM_COVERAGE.md) and [publishing audit](QUESTION_PUBLISHING_AUDIT.md) distinguish planned coverage, human review, local publication and deployment, including current workflow limitations.
+
 This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. No candidates have been published.
 
 ## Curriculum
@@ -21,7 +23,7 @@ These are curriculum stages, not new scenery, rank requirements or world transit
 
 The legacy `difficulty` 1–3 remains the display tier. New records additionally have `knowledge.complexity` 1–7, `knowledge.category`, `knowledge.concept` and `knowledge.mode` (`explicit`, `multi-passage`, `framework`). Use 1–2 for recall, 3 for close context, 4–5 for comparison, and 6–7 for demanding passage-supported discernment and leadership scenarios. Difficulty needs human calibration: number of citations alone does not establish difficulty.
 
-**Current limitation:** The 42 live questions still contain only their original three difficulty tiers. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages presently use the hardest eligible reviewed material with rotation. The 50 new candidates have not changed live gameplay content.
+**Current limitation:** The 42 live questions still contain only their original three difficulty tiers. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages presently use the hardest eligible reviewed material with rotation. Neither unpublished 50-question candidate batch has changed live gameplay content.
 
 ## Rotation and saves
 
@@ -54,15 +56,17 @@ Run commands from this repository. Candidate and reviewed working files belong u
 1. Draft an array using the records in `content/candidates/initial-50.json` as a structural example. Use stable globally unique IDs and distinct concepts. Do not change an already published ID to refer to different content.
 2. Import: `node scripts/question-batch.mjs import incoming.json next-batch`. This strips approval metadata, validates structure and creates `content/candidates/next-batch.json` without overwriting an existing file.
 3. Validate: `node scripts/question-batch.mjs validate content/candidates/next-batch.json`. This compares the batch with the live bank and reports errors/warnings. Zero warnings is not an approval.
-4. Create an unchecked checklist: `node scripts/question-batch.mjs template content/candidates/next-batch.json content/next-review.json`.
-5. A reviewer reads all passages, checks the context and wording, supplies `reviewedBy`, `reviewedOn`, `rationale`, all seven `checks`, four nonempty `optionRationales` and `resolvedWarnings` (copy any warning text only after resolving it). Leave uncertain IDs out of the evidence file; they stay candidates. Correct drafts before reviewing. Do not mark uncertainty as verified.
-6. Export completed reviews: `node scripts/question-batch.mjs review content/candidates/next-batch.json content/next-review.json content/next-reviewed.json`. Only completed verified records are exported. This does not touch live content.
-7. Inspect the reviewed diff and preview the questions. When content publication is expressly authorized, use `node scripts/question-batch.mjs publish content/next-reviewed.json`. It checks approvals and duplicates, saves a backup outside the deployed shell, and appends to the published module. No publication command was run for this task.
+4. Start the separate local review app: `node scripts/review-server.mjs`, then open http://127.0.0.1:4310/. It displays all candidate batches, filters and provisional curriculum coverage.
+5. Read every cited passage and supply exact checked excerpts, reviewer/rationale, all seven confirmations, four option rationales and warning resolutions. Approve saves a source-bound decision in `content/editorial/decisions.json`; Revise/Reject never qualify. The editor never rewrites question content. See [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md).
+6. Export current approved records: `node scripts/editorial.mjs export content/reviewed/next-reviewed.json`. This creates a new file without publishing. The raw checklist review command is retired.
+7. Inspect the reviewed diff. Only after explicit owner authorization use `node scripts/question-batch.mjs publish content/reviewed/next-reviewed.json`. Publication rechecks current ledger approval, unchanged source, evidence, schema and duplicates, backs up the module, then appends. Later Revise/Reject or changed content invalidates old exports. No real candidate has been approved or published in this implementation.
 8. Run `node scripts/build-site.mjs` before deployment. This runs the entire configured automated suite, including content, engine, save/retry, combat, armor, pause and PWA tests. Inspect content changes before any separate Git/deployment action.
 
 Builds never import candidates, approve questions or call an AI model. Thousands of records use the same engine and static/offline publication pipeline.
 
 ## Initial batch and review status
+
+The following distribution and preliminary source-check notes describe the **first** 50-candidate batch, not all 100 candidates. The later KR batch remains separately documented in `content/KR_101_150_REVIEW.md`; its 1–10 source ratings, pending evidence and targeted choice revisions are preserved.
 
 - Existing reviewed questions: **42**, preserved.
 - New candidates: **50**, all still `candidate`; published additions: **0**.

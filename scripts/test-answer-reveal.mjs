@@ -20,6 +20,10 @@ const q=structuredClone(questions[0]);q.explain=('Long Scripture explanation.\n\
 const long=answerRevealMarkup({q,last:{correct:true,earned:100},streak:1});
 assert.ok(long.includes(q.explain.slice(0,200)));assert.ok(long.includes('&lt;script&gt;'));assert.ok(!long.includes('<script>'));
 assert.ok(long.includes('tabindex="0" role="region"'));
+const comparison=structuredClone(questions[0]);comparison.supportingScriptures=[questions[1].scripture,questions[2].scripture];
+const comparisonBefore=structuredClone(comparison),multi=answerRevealMarkup({q:comparison,last:{correct:true,earned:100},streak:1});
+for(const scripture of [comparison.scripture,...comparison.supportingScriptures]){assert.ok(multi.includes(scripture.url));assert.ok(multi.includes(scriptureReference({scripture})));}
+assert.equal((multi.match(/class="scripture-confirmation"/g)||[]).length,3);assert.deepEqual(comparison,comparisonBefore,'Rendering supporting evidence never mutates content');
 const classes=new Set(),document={documentElement:{classList:{add:c=>classes.add(c),remove:c=>classes.delete(c)}}};
 function dialog(){return {open:false,listeners:{},addEventListener(name,fn){this.listeners[name]=fn},removeEventListener(name,fn){if(this.listeners[name]===fn)delete this.listeners[name]},showModal(){this.open=true},close(){this.open=false},querySelector(){return {focus:options=>this.focusOptions=options}}}}
 const reveal=new AnswerReveal(document),first=dialog(),second=dialog();let continued=0;

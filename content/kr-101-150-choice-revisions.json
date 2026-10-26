@@ -1,0 +1,153 @@
+{
+  "status": "candidate; no editorial approval",
+  "reason": "Targeted distractor improvements requested by the user; all correct choices and protected fields retained.",
+  "changes": [
+    {
+      "id": "kr-105",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "He came to destroy the Law.",
+          "after": "He came to interpret the Law, but not to fulfill the Prophets."
+        },
+        {
+          "letter": "B",
+          "before": "He came to replace the Prophets with new traditions.",
+          "after": "He came to fulfill the Prophets, but to set aside the Law."
+        },
+        {
+          "letter": "D",
+          "before": "The Law had never been authoritative.",
+          "after": "He came to preserve the Law, but to set aside the Prophets."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Matthew-Chapter-5/"
+    },
+    {
+      "id": "kr-109",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "Faith makes the law unnecessary.",
+          "after": "Faith makes the law void."
+        },
+        {
+          "letter": "C",
+          "before": "Faith replaces every commandment with tradition.",
+          "after": "Faith establishes the works of the law as the basis of justification."
+        },
+        {
+          "letter": "D",
+          "before": "The law was never given by God.",
+          "after": "Faith establishes separate ways of justification for Jews and Gentiles."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Romans-3-31/"
+    },
+    {
+      "id": "kr-115",
+      "choices": [
+        {
+          "letter": "B",
+          "before": "Human suffering must always be ignored on the Sabbath.",
+          "after": "Merciful acts should be postponed until the Sabbath has ended."
+        },
+        {
+          "letter": "C",
+          "before": "The Sabbath was originally established for wrongdoing.",
+          "after": "Helping an animal in distress is lawful, but healing a person must wait."
+        },
+        {
+          "letter": "D",
+          "before": "Doing good is forbidden unless performed by a priest.",
+          "after": "Healing on the Sabbath requires prior permission from the synagogue rulers."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/"
+    },
+    {
+      "id": "kr-130",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "Their worship must always be rejected because of their ancestry.",
+          "after": "He will give them a separate house of prayer apart from the worship of Israel."
+        },
+        {
+          "letter": "C",
+          "before": "They must establish separate gods in their own lands.",
+          "after": "He will receive their service but require their offerings to remain outside His altar."
+        },
+        {
+          "letter": "D",
+          "before": "They may never participate in worship.",
+          "after": "He will bring them to His mountain after they have first joined Levi's priestly family."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-56/"
+    },
+    {
+      "id": "kr-133",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "Those nations spoke different languages.",
+          "after": "Such marriages could weaken Israel's ability to defend the land against surrounding nations."
+        },
+        {
+          "letter": "B",
+          "before": "Their clothing was different.",
+          "after": "Such marriages could transfer Israel's tribal inheritances into the possession of other nations."
+        },
+        {
+          "letter": "D",
+          "before": "Their lands were too far from Jerusalem.",
+          "after": "Such marriages could place Israel under the tribute obligations imposed by neighboring kings."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-7/"
+    },
+    {
+      "id": "kr-136",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "She may never own land.",
+          "after": "She may not marry outside her father's tribe after the second marriage ends."
+        },
+        {
+          "letter": "B",
+          "before": "She may never return to her relatives.",
+          "after": "She may not enter a third marriage after receiving a second bill of divorcement."
+        },
+        {
+          "letter": "D",
+          "before": "She must leave the land of Israel permanently.",
+          "after": "She may not marry outside the second husband's family if he has died."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    {
+      "id": "kr-141",
+      "choices": [
+        {
+          "letter": "A",
+          "before": "Blood was reserved exclusively for military leaders.",
+          "after": "Blood is reserved as food for the priests who minister at the altar on Israel's behalf."
+        },
+        {
+          "letter": "C",
+          "before": "Blood was never used in any sacrificial practice.",
+          "after": "Blood becomes permitted food once the animal's prescribed offering has been presented."
+        },
+        {
+          "letter": "D",
+          "before": "Blood was considered valuable only because of its color.",
+          "after": "Blood is withheld from the stranger but permitted as food to those born within Israel."
+        }
+      ],
+      "sourceUrl": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-17/"
+    }
+  ]
+}

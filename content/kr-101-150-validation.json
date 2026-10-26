@@ -1,0 +1,343 @@
+{
+  "count": 50,
+  "errors": [],
+  "warnings": [
+    "kr-101 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-101 / love-commandments: possible answer disclosure; do not co-select",
+    "kr-101 / kr-107: shared concept; check repetition",
+    "kr-101 / kr-110: shared concept; check repetition",
+    "kr-102 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-103 / kr-126: shared concept; check repetition",
+    "kr-106: check absolute or shortcut distractors",
+    "kr-107 / kr-101: shared concept; check repetition",
+    "kr-107 / kr-110: shared concept; check repetition",
+    "kr-110 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-110 / kr-101: shared concept; check repetition",
+    "kr-110 / kr-107: shared concept; check repetition",
+    "kr-119 / kr-120: shared concept; check repetition",
+    "kr-120 / kr-119: shared concept; check repetition",
+    "kr-126 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-126 / kr-103: shared concept; check repetition",
+    "kr-146 / bke-neighbor-love: possible answer disclosure; do not co-select",
+    "kr-147 / bke-mercy-hosea: shared concept; check repetition"
+  ],
+  "publicationReady": false,
+  "liveCount": 42,
+  "previousCandidates": 50,
+  "sourceSha256": "515bf964b78322ce16477fee304efe05405ba300f20456a3c82966dbca9b5ca2",
+  "evidenceStatus": "pending for all 50",
+  "citationOverlaps": [
+    {
+      "candidate": "kr-101",
+      "other": "kr-110",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-102",
+      "other": "teach-children",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-103",
+      "other": "kr-119",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-103",
+      "other": "kr-126",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-107",
+      "other": "kr-110",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-108",
+      "other": "bke-law-hearts",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-109",
+      "other": "establish-law",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-110",
+      "other": "kr-101",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-110",
+      "other": "kr-107",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-111",
+      "other": "creation-rest",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-112",
+      "other": "sabbath-day",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-112",
+      "other": "six-days",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-112",
+      "other": "kr-113",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-113",
+      "other": "sabbath-day",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-113",
+      "other": "kr-112",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-119",
+      "other": "kr-103",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-126",
+      "other": "kr-103",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-137",
+      "other": "honor-parents",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-137",
+      "other": "bke-corban-meaning",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-137",
+      "other": "kr-144",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-138",
+      "other": "land-animals",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-140",
+      "other": "water-creatures",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-144",
+      "other": "hands-complaint",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-144",
+      "other": "hands-conclusion",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-144",
+      "other": "command-tradition",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-144",
+      "other": "bke-corban-meaning",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-144",
+      "other": "kr-137",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-146",
+      "other": "bke-neighbor-love",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-147",
+      "other": "bke-mercy-hosea",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-148",
+      "other": "law-prophets-psalms",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-148",
+      "other": "kr-150",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-149",
+      "other": "bke-test-teaching",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-149",
+      "other": "kr-150",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-150",
+      "other": "law-prophets-psalms",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-150",
+      "other": "bke-test-teaching",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-150",
+      "other": "kr-148",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    },
+    {
+      "candidate": "kr-150",
+      "other": "kr-149",
+      "reason": "Overlapping cited passage; inspect conceptual duplication, not necessarily a duplicate question."
+    }
+  ],
+  "preservedFiles": {
+    "content/candidates/initial-50.json": "8b2f788a50c5a53df327a7cd6b8f4e62eccab7be6914996dccb7321c0c2238eb",
+    "dist/adventure-frames.css": "56a7371ab836ec53b0a14d34a17d93f1932c756cfe5599db67708c0bd3fcd501",
+    "dist/adventure.css": "c5a3327e68da3d061b2d46556615112fe44558b701516d9661890da70a509301",
+    "dist/adventure.js": "ff57e2e00348e2b63488890d9f165e3f0c51b0fe1f4b3caddec2a8b3391b5cb4",
+    "dist/answer-reveal.css": "4e8122b5c73cb3f1a66e8f3c1a4893cf16a18d921ef358abbd98a736d528967c",
+    "dist/answer-reveal.js": "2900e30267046435e0c667963b1d94eb230680e1d19f2e4168d7909ea9e2440a",
+    "dist/app.js": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
+    "dist/armor.css": "d342b1ab7672bb283a12799e741d2778048b485768357800432db9b36f0cdc71",
+    "dist/armor.js": "0b6258545d5282cf8b9ccc9b113829c546f426bc790a8ffec2cec0262457f8ec",
+    "dist/art.js": "f1d33775d928a83bf188f63b65cce4b7f2893eec1942646cbceb824b052cda64",
+    "dist/assets/armor/belt-icon.png": "2ad160194a09db7b066ff0dcecff8a10cfca91615b0c91a316a6e5432a81c6df",
+    "dist/assets/armor/belt-master-adventure.png": "f791cd17a278bf14de29886cb06bec5b6c0b86809f4c9fa29e3abfde31740206",
+    "dist/assets/armor/belt-master.png": "e6b0ab994d0c0c780e6a9cdc898542c160026cf1b7640252b99902196d3fc0b2",
+    "dist/assets/armor/belt-novice-adventure.png": "ce6b9c7a016b3d702086624afcea35faec264ef23ff54c9b37d7a8e9454083da",
+    "dist/assets/armor/belt-novice.png": "e312b645df3d6ccbdf2801eb03b19dcf6b8e7ae17c37d5b4b36c3baf8ad2007c",
+    "dist/assets/armor/belt-scholar-adventure.png": "2250eb919909921c12530fd26127ef83a4acc468ee68727bbb1d61b8329fe081",
+    "dist/assets/armor/belt-scholar.png": "29e7e5e7efa59bdbdaa1e50941b22c0127d160a350daccaa9638652a85241972",
+    "dist/assets/armor/belt-scribe-adventure.png": "dbf24e878459522d8e120f22aba129c9a8f7151dcf3a87e789d1b6947339b9a7",
+    "dist/assets/armor/belt-scribe.png": "5358dffe96fbc86d1b7414736692b4cf34e91f6d82b053b67ff07263a4593c9c",
+    "dist/assets/armor/belt-student-adventure.png": "bfcf04b0642192e6de15e10420db3c951b7da0d540784cf8bd0dfc229bab340a",
+    "dist/assets/armor/belt-student.png": "0ea849d502d163ec4c3652138fabaeed4b90963a556abf29b37e0b3ac094b65b",
+    "dist/assets/console/challenge-door.png": "41784058331b7ab41880a6ff4e388af72be5b0d8642b59e3c5546bd427cc2ecc",
+    "dist/assets/console/challenge-gate.png": "77d5c20aa98b31e71a68d5f493fdc3413eda604fc928e36cb98cb12c92501182",
+    "dist/assets/console/fire.png": "14f22c984bd4d2c982f97ed9546ce6af619627baf52fa9025fe85872ec550491",
+    "dist/assets/console/journey-desert-far.png": "53029c46a9ab2cd95c1eb4dc6fe2dfad27db574c1772ac177d192b2115cec255",
+    "dist/assets/console/journey-desert-near.png": "b37b02dc53edbbdabff7de4c428062727ffd783bcc3b77720ded06ff625478ba",
+    "dist/assets/console/journey-desert-sky.png": "c8b7c25d8381e0e48fae207b7c716ef2e19255305a063c6dcbd0848342ca1f7f",
+    "dist/assets/console/journey-lions-gate-far.png": "34dfdd55758a786c2d3c2bcafc50f412413b6f49904c11dc626330b84c13f784",
+    "dist/assets/console/journey-lions-gate-near.png": "df8e1fb8805a65175a04f8adb499aaf7528273d0b7a721ea35f032e4d059565d",
+    "dist/assets/console/journey-lions-gate-sky.png": "ca79b8e62dacfd66ce46f8900d73b7fbb5d858b53bbef2d3c7312e055f2d4802",
+    "dist/assets/console/journey-mountain-far.png": "b66d5fcdf0546ae41ce81284dbabe44a20bdeeaf466fed0e94a4d1966ee2a91a",
+    "dist/assets/console/journey-mountain-near.png": "e455a1111f23ad7c636e0127f96f892e40e442efafde60d7f066290929245f82",
+    "dist/assets/console/journey-mountain-sky.png": "cb7e03695fdbfec61351024b0f16bceaffa14fcc77b5ac9c32118a99f6a63e8d",
+    "dist/assets/console/journey-streets-far.png": "c42b47b314c10bc49d9a955e87c39232ee8d856da3750217f2c323f351178dc1",
+    "dist/assets/console/journey-streets-near.png": "6120127d7a2406f46ffafba8bc414091e36151245e341c88d773c4e7238bf2db",
+    "dist/assets/console/journey-streets-sky.png": "463d49f77e4531f8018192cbdb69e92c62fc429f1d13a7a43b528179b5d8d7f4",
+    "dist/assets/console/journey-temple-far.png": "e097e916e4c3c29996742a05c4261505eb240487b37f356ad5f6a081f59f527b",
+    "dist/assets/console/journey-temple-near.png": "027a214968447b304ee7991788daf4180e9430f292be68629b1518cc8d24128b",
+    "dist/assets/console/journey-temple-sky.png": "68e50b4331116f7520076ac6e90251b7156e2614f34eae4dee98a0496eb3a262",
+    "dist/assets/console/journey-village-far.png": "17861f102ee079846707776f6a7bcd32f0fa3f62b04e4e0d9cf41736988a0b24",
+    "dist/assets/console/journey-village-near.png": "7ebca5619d78c5a8c285b70d48603e6d042efdb7902b2a616c269d39ed701ab3",
+    "dist/assets/console/journey-village-sky.png": "bcd4f3feb7bd2e59981a1ead06dce00f76b2f785cc0d9cd1eff87406ad7ffce6",
+    "dist/assets/console/journey-wilderness-far.png": "e27061b26900dbe4aeb47f0bb0781d438d754bcc1700b618e257179bb13cccec",
+    "dist/assets/console/journey-wilderness-near.png": "464a4a794dd37d0b572ceab56765c160cc226bd1d6d51487cdfe76d467bab3e8",
+    "dist/assets/console/journey-wilderness-sky.png": "4969490ce43195a05a7c8c698492bfe9fe8505585d6f30e818a9040bfe728575",
+    "dist/assets/console/judah-master-adventure.png": "728cbc41c52884efe81e430a45b8a5aceb1e6bc5b388a81c8a1b1aee6a094c02",
+    "dist/assets/console/judah-master.png": "ffc089a73c9f6d9d6f208f72a5cc3054529dd4869567d321939d88a53ed0b93e",
+    "dist/assets/console/judah-novice-adventure.png": "83cdec849d6cf9c224e580bc0be4b4b9128ff8a1ec41195dc8c92aea6aeb9203",
+    "dist/assets/console/judah-novice.png": "8ef1f476f701f6e4a9eeb360f5e086bb6405c51bba67ca465a5474a1a0b64211",
+    "dist/assets/console/judah-scholar-adventure.png": "1d85f84bdac3e320ddab672d510543932fb5022c12ccd5a9e6d6fc5ff5cb19e7",
+    "dist/assets/console/judah-scholar.png": "39c77b59166196e8fa624676a3c6c75359fe131fb9af651fe76b8e2dce3871d9",
+    "dist/assets/console/judah-scribe-adventure.png": "813f9b62d9fa603b601124b5f69b64f06deabd80e6f253f915f93688c6344359",
+    "dist/assets/console/judah-scribe.png": "18047066e95068981acad9234daaca9e1336deb29fc55fad40a43e2bda9b0742",
+    "dist/assets/console/judah-student-adventure.png": "ab8196fa9dfe0f0bcb90788766acc4ef98c4f9808375196974b4ff9289a0f64c",
+    "dist/assets/console/judah-student.png": "e917fc11e2fade40d1bb403f89f556647228ae1e932bc068f0b77e097e9c6c14",
+    "dist/assets/console/roman-soldier.png": "0437805f72c62d451c7e26c94e9a4a324f7fd26def95adaf9eabd0158c2eebe1",
+    "dist/assets/console/slash.png": "7eb593163e5895bb91d5eef8bb97da15c35566e40ffe48317c17aa6d0862c89f",
+    "dist/assets/console/sword.png": "15b87612b313715d86c108754c29b05a0a7b87c8e1b15479e3b1459a7624c18f",
+    "dist/assets/console/world-0.png": "2f4ab3e3fad1ed331cda04c1f550419e2f2a6d1b111cffa8a3b0461bbabc3c2c",
+    "dist/assets/console/world-1.png": "84459a25e99f5e4095b301a3da6771af9ba92a9a82d808b3328ec793d0f354a3",
+    "dist/assets/console/world-2.png": "b44ac1ab39b2af962bbc107fd8dcf7c49856afa26dc23fe747687fdcf643c207",
+    "dist/assets/console/world-3.png": "15fffdcf3af2d0fbce929da8a1502a2b47ccf4057b251b53041fe6ab994cab79",
+    "dist/assets/console/world-4.png": "470b6e00146837c2ec8137e2d5b2ac2f06d5c0e104019ec606995c21860a9667",
+    "dist/assets/icons/apple-touch-icon.png": "791ed985b88faa8473334c9bb8fd48a4d5fb9654275b10db3a9a165a83f7492a",
+    "dist/assets/icons/icon-192.png": "247e44d3f185d39c422aeb549ec3c32095cffc46938de0f58594ec5ed4f6d406",
+    "dist/assets/icons/icon-512.png": "d66d94f9d3df730a5cffd1771673ad47bf6fefce5f2fd78ee2e810b04fe60c51",
+    "dist/assets/icons/maskable-512.png": "c8418e3b4fe9ea22110e01275d9e76f5f4f47450be2e39e9a4141c3ea3b85a26",
+    "dist/audio.js": "0214151e2c76ea1980c46f554a16f6b642eb807dd92f8caa61a1ca8b32e83f8a",
+    "dist/celebration.css": "3f76125b1d053c84ca8430e2fc614396e8e6f7b9ffbc097cc7cba667c6db5227",
+    "dist/combat.css": "611860556e418175ddbe18e9018d4b58f8bc59ead541d23d42dba84ebfbce81b",
+    "dist/combat.js": "e2fb8aab1236db8c76a1011e19cc8d5abd34eb8d430c1ccbd21bd248ab43a67a",
+    "dist/console.css": "d16b0a3d2f4e111f6ed5ae68d9922bc903943d78328fa086520e7af6e3ca4a4f",
+    "dist/engine.js": "7381e3a5c664e96e4f9dd497b051c61bb1104c2ea59ef03de62c5335c23b57a4",
+    "dist/extra-questions.js": "c7a8249a1be5a45662e6e1e04555ad6c1ce534c1af73eddf2f109ab6ba45fb4c",
+    "dist/focus-questions.js": "9f1cd9369da7ba798a6e7bda64794deb6b63c06de390b0cd3e2f4751376d948f",
+    "dist/index.html": "be74f16be9dec754fac0ef4f38daf893cfdcb0f14a9feb78b5354eeada154458",
+    "dist/juice.css": "46b36bd6f87ce4398b316573eda5719378068bb6b9e943980a94ebf22f2d6b04",
+    "dist/juice.js": "82ce55be4fa4ad9c166e4561876544e007dcc60aaff50ac3273ca4a6fb00e6ce",
+    "dist/knowledge.js": "6c226f95a0306fcdd04ca18d9cd36250dc2283ea68bb397d710436a59445a8b7",
+    "dist/manifest.webmanifest": "1d984ba2678c97adc2fd06d21dd2253561d0e1b1148cbe469ef292e8303aea20",
+    "dist/mascot.css": "152beba210b49c3b7d60b27f21bbde52ed2009a1696660090fd9200ca92c8579",
+    "dist/mascot.js": "8e3d529f1ec8b4a01684d4b9e0deb0e5ba5968e0e7506d17a770d2ff660ac63e",
+    "dist/mobile-game.css": "056a8382cf523cc9bb8f69a10d5ee3d62897556938272761256919da67e2abab",
+    "dist/mobile-game.js": "64f83812a58be10708e73af4d81d699f1f34e884058d3b09e87c63868a12bb0a",
+    "dist/opponents.js": "581f263070ee83f29643c13b947663029c7cfcea0019f6772238d8890502e6fa",
+    "dist/published-questions.js": "feaaeeb38a35846d0621c10ca013f54d43d1bf406569076c5b16e5abf284430f",
+    "dist/pwa.js": "c9293d31326b815b5d0cde17ea3379d925a52fce0e4b9798739a5dffe33d5efe",
+    "dist/question-rules.js": "c71bf0bbf7dd4054dd7b662d24a89841f47016e77df4c86ed352b190eeb05686",
+    "dist/question-selection.js": "4cf241d5546e6d6c8eebb07c0bcb65eb003f62ecf722426f85c7a80356a64d6c",
+    "dist/questions.js": "8da4f71b10fc64edf23921b21fc3832413a65686bcbe0c78ddab96565c0ac5bd",
+    "dist/storage.js": "578ffd19efbca2b40947f4354b338e1d9c1a23ada2bcd81cd1601412073817e4",
+    "dist/style.css": "36816de9044a20cbfe2564cada6ea7a89569214028467cab7483d7fc05f1331c",
+    "dist/sw.js": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
+    "dist/usability.css": "b18a387d3bf2c634d1fe26bdd22d976bc75fb3c5005e451a16065191a41732d0",
+    "dist/viewport.css": "0d4028e5c69dc092f613f842c201f3eff547a41523b3277bca1e08d1a66f45d0",
+    "dist/viewport.js": "960d38eff7674929334f2a3a7f6a299ef579f73c4be76f2b039b27aac2697e96"
+  },
+  "choiceRevisionFile": "content/kr-101-150-choice-revisions.json",
+  "originalWarningCount": 25,
+  "originalWarnings": [
+    "kr-101 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-101 / love-commandments: possible answer disclosure; do not co-select",
+    "kr-101 / kr-107: shared concept; check repetition",
+    "kr-101 / kr-110: shared concept; check repetition",
+    "kr-102 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-103 / kr-126: shared concept; check repetition",
+    "kr-105: check absolute or shortcut distractors",
+    "kr-106: check absolute or shortcut distractors",
+    "kr-107 / kr-101: shared concept; check repetition",
+    "kr-107 / kr-110: shared concept; check repetition",
+    "kr-109: check absolute or shortcut distractors",
+    "kr-110 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-110 / kr-101: shared concept; check repetition",
+    "kr-110 / kr-107: shared concept; check repetition",
+    "kr-115: check absolute or shortcut distractors",
+    "kr-119 / kr-120: shared concept; check repetition",
+    "kr-120 / kr-119: shared concept; check repetition",
+    "kr-126 / receive-commandments: possible answer disclosure; do not co-select",
+    "kr-126 / kr-103: shared concept; check repetition",
+    "kr-130: check absolute or shortcut distractors",
+    "kr-133: check answer-length clues",
+    "kr-136: check absolute or shortcut distractors",
+    "kr-141: check absolute or shortcut distractors",
+    "kr-146 / bke-neighbor-love: possible answer disclosure; do not co-select",
+    "kr-147 / bke-mercy-hosea: shared concept; check repetition"
+  ]
+}

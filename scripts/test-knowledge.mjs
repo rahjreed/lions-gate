@@ -43,11 +43,12 @@ const savedQueue=structuredClone(run.queue);saveProfile(storage,profile);assert.
 for(const level of [5,75,150,450,10000]){const selected=selectQuestions(questions,{level,history:{}}).map(e=>questions.find(q=>q.id===e.id));assert.equal(selected.length,10);assert.ok(selected.some(q=>q.trapType==='context'));assert.ok(selected.some(q=>q.trapType==='misquote'))}
 const candidates=JSON.parse(await readFile(new URL('../content/candidates/initial-50.json',import.meta.url),'utf8'));
 assert.equal(candidates.length,50);assert.ok(candidates.every(q=>q.review.status==='candidate'));assert.equal(new Set(candidates.map(q=>q.knowledge.category)).size,7);assert.ok(candidates.some(q=>q.scripture.book==='Ecclesiasticus'));
-const report=qualityReport(candidates,questions);assert.deepEqual(report.errors,[]);assert.equal(report.publicationReady,false);
+const unpublishedCandidates=candidates.filter(q=>!questions.some(live=>live.id===q.id));
+const report=unpublishedCandidates.length?qualityReport(unpublishedCandidates,questions):{errors:[],publicationReady:false};assert.deepEqual(report.errors,[]);assert.equal(report.publicationReady,false);
 assert.equal(validateQuestions(candidates,{allowCandidates:true}),true);assert.throws(()=>validateQuestions(candidates),/review/i);
-assert.ok(selectQuestions([...questions,...candidates],{level:525,history:{}}).every(e=>!e.id.startsWith('bke-')));
+assert.ok(selectQuestions([...questions,...candidates],{level:525,history:{}}).every(e=>!unpublishedCandidates.some(q=>q.id===e.id)));
 assert.throws(()=>publicationBatch(questions,candidates),/review/i);assert.throws(()=>reviewBatch(candidates,{[candidates[0].id]:{reviewedBy:'Someone'}}),/incomplete/);
-const one=candidates[0],evidence={[one.id]:{reviewedBy:'TEST ONLY',reviewedOn:'2026-10-25',rationale:'Fixture review.',checks,optionRationales:['Test A','Test B','Test C','Test D'],resolvedWarnings:[]}};
+const one={...structuredClone(candidates[0]),id:'review-harness-candidate',q:'Isolated review harness: choose the proposed fixture response.',knowledge:{...candidates[0].knowledge,concept:'review-harness'}},evidence={[one.id]:{reviewedBy:'TEST ONLY',reviewedOn:'2026-10-25',rationale:'Fixture review.',checks,optionRationales:['Test A','Test B','Test C','Test D'],resolvedWarnings:[]}};
 const reviewed=reviewBatch([one],evidence);assert.equal(publicationBatch(questions,reviewed).length,1);
 const changed=structuredClone(reviewed);changed[0].knowledge.complexity++;assert.throws(()=>publicationBatch(questions,changed),/Content changed/);
 const malformed=structuredClone(one);malformed.scripture.chapter=999;assert.throws(()=>validateQuestions([malformed],{allowCandidates:true}),/bounds/);

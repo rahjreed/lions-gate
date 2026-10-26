@@ -1,0 +1,3767 @@
+{
+  "source": {
+    "title": "King James Version + Apocrypha, standardized 1769 text",
+    "publisher": "eBible.org / CrossWire Bible Society",
+    "editionUpdated": "2026-09-26",
+    "retrievedOn": "2026-10-25",
+    "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip",
+    "descriptionUrl": "https://ebible.org/Bible/details.php?id=eng-kjv",
+    "license": "Public domain outside the United Kingdom; publisher notes UK printing rights.",
+    "archiveSha256": "00d2b622b528b42604c23fddf21fe707a1c79d0b5b2ea480c4b96359b0c9eac3",
+    "textSha256": "fb7b8c10feb607c22b3461e837bfd267c09814f39ce23756a1928f7739a52b3c",
+    "numberingNote": "eBible VPL code 4ES maps to traditional KJV 2 Esdras (not an additional book); SIR = Ecclesiasticus, WIS = Wisdom of Solomon."
+  },
+  "records": [
+    {
+      "id": "sabbath-day",
+      "passages": [
+        {
+          "reference": "Exodus 20:10",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 10,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "But the seventh day [is] the sabbath of the LORD thy God: [in it] thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that [is] within thy gates:"
+            }
+          ],
+          "before": "Six days shalt thou labour, and do all thy work:",
+          "after": "For [in] six days the LORD made heaven and earth, the sea, and all that in them [is], and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it."
+        }
+      ]
+    },
+    {
+      "id": "wisdom-soul",
+      "passages": [
+        {
+          "reference": "Wisdom of Solomon 1:4",
+          "book": "Wisdom of Solomon",
+          "chapter": 1,
+          "verse": 4,
+          "endVerse": 4,
+          "verses": [
+            {
+              "verse": 4,
+              "text": "For into a malicious soul wisdom shall not enter; nor dwell in the body that is subject unto sin."
+            }
+          ],
+          "before": "For froward thoughts separate from God: and his power, when it is tried, reproveth the unwise.",
+          "after": "For the holy spirit of discipline will flee deceit, and remove from thoughts that are without understanding, and will not abide when unrighteousness cometh in."
+        }
+      ]
+    },
+    {
+      "id": "hear-first",
+      "passages": [
+        {
+          "reference": "Ecclesiasticus 11:8",
+          "book": "Ecclesiasticus",
+          "chapter": 11,
+          "verse": 8,
+          "endVerse": 8,
+          "verses": [
+            {
+              "verse": 8,
+              "text": "Answer not before thou hast heard the cause: neither interrupt men in the midst of their talk."
+            }
+          ],
+          "before": "Blame not before thou hast examined the truth: understand first, and then rebuke.",
+          "after": "Strive not in a matter that concerneth thee not; and sit not in judgment with sinners."
+        }
+      ]
+    },
+    {
+      "id": "unleavened-days",
+      "passages": [
+        {
+          "reference": "Leviticus 23:6",
+          "book": "Leviticus",
+          "chapter": 23,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "And on the fifteenth day of the same month [is] the feast of unleavened bread unto the LORD: seven days ye must eat unleavened bread."
+            }
+          ],
+          "before": "In the fourteenth [day] of the first month at even [is] the LORD’s passover.",
+          "after": "In the first day ye shall have an holy convocation: ye shall do no servile work therein."
+        }
+      ]
+    },
+    {
+      "id": "honor-parents",
+      "passages": [
+        {
+          "reference": "Exodus 20:12",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 12,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 12,
+              "text": "¶ Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee."
+            }
+          ],
+          "before": "For [in] six days the LORD made heaven and earth, the sea, and all that in them [is], and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+          "after": "Thou shalt not kill."
+        }
+      ]
+    },
+    {
+      "id": "guard-heart",
+      "passages": [
+        {
+          "reference": "Proverbs 4:23",
+          "book": "Proverbs",
+          "chapter": 4,
+          "verse": 23,
+          "endVerse": 23,
+          "verses": [
+            {
+              "verse": 23,
+              "text": "¶ Keep thy heart with all diligence; for out of it [are] the issues of life."
+            }
+          ],
+          "before": "For they [are] life unto those that find them, and health to all their flesh.",
+          "after": "Put away from thee a froward mouth, and perverse lips put far from thee."
+        }
+      ]
+    },
+    {
+      "id": "trust-lord",
+      "passages": [
+        {
+          "reference": "Proverbs 3:5",
+          "book": "Proverbs",
+          "chapter": 3,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "¶ Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+            }
+          ],
+          "before": "So shalt thou find favour and good understanding in the sight of God and man.",
+          "after": "In all thy ways acknowledge him, and he shall direct thy paths."
+        }
+      ]
+    },
+    {
+      "id": "hope-deferred",
+      "passages": [
+        {
+          "reference": "Proverbs 13:12",
+          "book": "Proverbs",
+          "chapter": 13,
+          "verse": 12,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 12,
+              "text": "Hope deferred maketh the heart sick: but [when] the desire cometh, [it is] a tree of life."
+            }
+          ],
+          "before": "Wealth [gotten] by vanity shall be diminished: but he that gathereth by labour shall increase.",
+          "after": "Whoso despiseth the word shall be destroyed: but he that feareth the commandment shall be rewarded."
+        }
+      ]
+    },
+    {
+      "id": "receive-commandments",
+      "passages": [
+        {
+          "reference": "Proverbs 10:8",
+          "book": "Proverbs",
+          "chapter": 10,
+          "verse": 8,
+          "endVerse": 8,
+          "verses": [
+            {
+              "verse": 8,
+              "text": "The wise in heart will receive commandments: but a prating fool shall fall."
+            }
+          ],
+          "before": "The memory of the just [is] blessed: but the name of the wicked shall rot.",
+          "after": "He that walketh uprightly walketh surely: but he that perverteth his ways shall be known."
+        }
+      ]
+    },
+    {
+      "id": "enemy-falls",
+      "passages": [
+        {
+          "reference": "Proverbs 24:17",
+          "book": "Proverbs",
+          "chapter": 24,
+          "verse": 17,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 17,
+              "text": "Rejoice not when thine enemy falleth, and let not thine heart be glad when he stumbleth:"
+            }
+          ],
+          "before": "For a just [man] falleth seven times, and riseth up again: but the wicked shall fall into mischief.",
+          "after": "Lest the LORD see [it], and it displease him, and he turn away his wrath from him."
+        }
+      ]
+    },
+    {
+      "id": "moses-brother",
+      "passages": [
+        {
+          "reference": "Exodus 4:14",
+          "book": "Exodus",
+          "chapter": 4,
+          "verse": 14,
+          "endVerse": 14,
+          "verses": [
+            {
+              "verse": 14,
+              "text": "And the anger of the LORD was kindled against Moses, and he said, [Is] not Aaron the Levite thy brother? I know that he can speak well. And also, behold, he cometh forth to meet thee: and when he seeth thee, he will be glad in his heart."
+            }
+          ],
+          "before": "And he said, O my Lord, send, I pray thee, by the hand [of him whom] thou wilt send.",
+          "after": "And thou shalt speak unto him, and put words in his mouth: and I will be with thy mouth, and with his mouth, and will teach you what ye shall do."
+        }
+      ]
+    },
+    {
+      "id": "jonah-days",
+      "passages": [
+        {
+          "reference": "Jonah 1:17",
+          "book": "Jonah",
+          "chapter": 1,
+          "verse": 17,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 17,
+              "text": "¶ Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights."
+            }
+          ],
+          "before": "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows."
+        }
+      ]
+    },
+    {
+      "id": "creation-rest",
+      "passages": [
+        {
+          "reference": "Genesis 2:2",
+          "book": "Genesis",
+          "chapter": 2,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made."
+            }
+          ],
+          "before": "Thus the heavens and the earth were finished, and all the host of them.",
+          "after": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made."
+        }
+      ]
+    },
+    {
+      "id": "spirit-sword",
+      "passages": [
+        {
+          "reference": "Ephesians 6:17",
+          "book": "Ephesians",
+          "chapter": 6,
+          "verse": 17,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 17,
+              "text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:"
+            }
+          ],
+          "before": "Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.",
+          "after": "Praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints;"
+        }
+      ]
+    },
+    {
+      "id": "wise-count",
+      "passages": [
+        {
+          "reference": "Matthew 2:1-12",
+          "book": "Matthew",
+          "chapter": 2,
+          "verse": 1,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king, behold, there came wise men from the east to Jerusalem,"
+            },
+            {
+              "verse": 2,
+              "text": "Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him."
+            },
+            {
+              "verse": 3,
+              "text": "When Herod the king had heard [these things], he was troubled, and all Jerusalem with him."
+            },
+            {
+              "verse": 4,
+              "text": "And when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born."
+            },
+            {
+              "verse": 5,
+              "text": "And they said unto him, In Bethlehem of Judaea: for thus it is written by the prophet,"
+            },
+            {
+              "verse": 6,
+              "text": "And thou Bethlehem, [in] the land of Juda, art not the least among the princes of Juda: for out of thee shall come a Governor, that shall rule my people Israel."
+            },
+            {
+              "verse": 7,
+              "text": "Then Herod, when he had privily called the wise men, enquired of them diligently what time the star appeared."
+            },
+            {
+              "verse": 8,
+              "text": "And he sent them to Bethlehem, and said, Go and search diligently for the young child; and when ye have found [him], bring me word again, that I may come and worship him also."
+            },
+            {
+              "verse": 9,
+              "text": "When they had heard the king, they departed; and, lo, the star, which they saw in the east, went before them, till it came and stood over where the young child was."
+            },
+            {
+              "verse": 10,
+              "text": "When they saw the star, they rejoiced with exceeding great joy."
+            },
+            {
+              "verse": 11,
+              "text": "¶ And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense, and myrrh."
+            },
+            {
+              "verse": 12,
+              "text": "And being warned of God in a dream that they should not return to Herod, they departed into their own country another way."
+            }
+          ],
+          "after": "And when they were departed, behold, the angel of the Lord appeareth to Joseph in a dream, saying, Arise, and take the young child and his mother, and flee into Egypt, and be thou there until I bring thee word: for Herod will seek the young child to destroy him."
+        }
+      ]
+    },
+    {
+      "id": "wise-house",
+      "passages": [
+        {
+          "reference": "Matthew 2:11",
+          "book": "Matthew",
+          "chapter": 2,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "¶ And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense, and myrrh."
+            }
+          ],
+          "before": "When they saw the star, they rejoiced with exceeding great joy.",
+          "after": "And being warned of God in a dream that they should not return to Herod, they departed into their own country another way."
+        }
+      ]
+    },
+    {
+      "id": "david-stones",
+      "passages": [
+        {
+          "reference": "1 Samuel 17:40",
+          "book": "1 Samuel",
+          "chapter": 17,
+          "verse": 40,
+          "endVerse": 40,
+          "verses": [
+            {
+              "verse": 40,
+              "text": "And he took his staff in his hand, and chose him five smooth stones out of the brook, and put them in a shepherd’s bag which he had, even in a scrip; and his sling [was] in his hand: and he drew near to the Philistine."
+            }
+          ],
+          "before": "And David girded his sword upon his armour, and he assayed to go; for he had not proved [it]. And David said unto Saul, I cannot go with these; for I have not proved [them]. And David put them off him.",
+          "after": "And the Philistine came on and drew near unto David; and the man that bare the shield [went] before him."
+        }
+      ]
+    },
+    {
+      "id": "antioch-name",
+      "passages": [
+        {
+          "reference": "Acts 11:26",
+          "book": "Acts",
+          "chapter": 11,
+          "verse": 26,
+          "endVerse": 26,
+          "verses": [
+            {
+              "verse": 26,
+              "text": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch."
+            }
+          ],
+          "before": "Then departed Barnabas to Tarsus, for to seek Saul:",
+          "after": "¶ And in these days came prophets from Jerusalem unto Antioch."
+        }
+      ]
+    },
+    {
+      "id": "vengeance",
+      "passages": [
+        {
+          "reference": "Romans 12:19",
+          "book": "Romans",
+          "chapter": 12,
+          "verse": 19,
+          "endVerse": 19,
+          "verses": [
+            {
+              "verse": 19,
+              "text": "Dearly beloved, avenge not yourselves, but [rather] give place unto wrath: for it is written, Vengeance [is] mine; I will repay, saith the Lord."
+            }
+          ],
+          "before": "If it be possible, as much as lieth in you, live peaceably with all men.",
+          "after": "Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head."
+        }
+      ]
+    },
+    {
+      "id": "city-descends",
+      "passages": [
+        {
+          "reference": "Revelation 21:2",
+          "book": "Revelation",
+          "chapter": 21,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband."
+            }
+          ],
+          "before": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
+          "after": "And I heard a great voice out of heaven saying, Behold, the tabernacle of God [is] with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, [and be] their God."
+        }
+      ]
+    },
+    {
+      "id": "raphael",
+      "passages": [
+        {
+          "reference": "Tobit 12:15",
+          "book": "Tobit",
+          "chapter": 12,
+          "verse": 15,
+          "endVerse": 15,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "I am Raphael, one of the seven holy angels, which present the prayers of the saints, and which go in and out before the glory of the Holy One."
+            }
+          ],
+          "before": "And now God hath sent me to heal thee and Sara thy daughter in law.",
+          "after": "Then they were both troubled, and fell upon their faces: for they feared."
+        }
+      ]
+    },
+    {
+      "id": "learned-leisure",
+      "passages": [
+        {
+          "reference": "Ecclesiasticus 38:24",
+          "book": "Ecclesiasticus",
+          "chapter": 38,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "The wisdom of a learned man cometh by opportunity of leisure: and he that hath little business shall become wise."
+            }
+          ],
+          "before": "When the dead is at rest, let his remembrance rest; and be comforted for him, when his Spirit is departed from him.",
+          "after": "How can he get wisdom that holdeth the plough, and that glorieth in the goad, that driveth oxen, and is occupied in their labours, and whose talk is of bullocks?"
+        }
+      ]
+    },
+    {
+      "id": "esdras-comparison",
+      "passages": [
+        {
+          "reference": "2 Esdras 6:9",
+          "book": "2 Esdras",
+          "chapter": 6,
+          "verse": 9,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "For Esau is the end of the world, and Jacob is the beginning of it that followeth."
+            }
+          ],
+          "before": "And he said unto me, From Abraham unto Isaac, when Jacob and Esau were born of him, Jacob’s hand held first the heel of Esau.",
+          "after": "The hand of man is betwixt the heel and the hand: other question, Esdras, ask thou not."
+        }
+      ]
+    },
+    {
+      "id": "law-prophets-psalms",
+      "passages": [
+        {
+          "reference": "Luke 24:44",
+          "book": "Luke",
+          "chapter": 24,
+          "verse": 44,
+          "endVerse": 44,
+          "verses": [
+            {
+              "verse": 44,
+              "text": "And he said unto them, These [are] the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and [in] the prophets, and [in] the psalms, concerning me."
+            }
+          ],
+          "before": "And he took [it], and did eat before them.",
+          "after": "Then opened he their understanding, that they might understand the scriptures,"
+        }
+      ]
+    },
+    {
+      "id": "salem-meaning",
+      "passages": [
+        {
+          "reference": "Hebrews 7:2",
+          "book": "Hebrews",
+          "chapter": 7,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace;"
+            }
+          ],
+          "before": "For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;",
+          "after": "Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually."
+        }
+      ]
+    },
+    {
+      "id": "weightier-matters",
+      "passages": [
+        {
+          "reference": "Matthew 23:23",
+          "book": "Matthew",
+          "chapter": 23,
+          "verse": 23,
+          "endVerse": 23,
+          "verses": [
+            {
+              "verse": 23,
+              "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have omitted the weightier [matters] of the law, judgment, mercy, and faith: these ought ye to have done, and not to leave the other undone."
+            }
+          ],
+          "before": "And he that shall swear by heaven, sweareth by the throne of God, and by him that sitteth thereon.",
+          "after": "[Ye] blind guides, which strain at a gnat, and swallow a camel."
+        }
+      ]
+    },
+    {
+      "id": "measure-number-weight",
+      "passages": [
+        {
+          "reference": "Wisdom of Solomon 11:20",
+          "book": "Wisdom of Solomon",
+          "chapter": 11,
+          "verse": 20,
+          "endVerse": 20,
+          "verses": [
+            {
+              "verse": 20,
+              "text": "Yea, and without these might they have fallen down with one blast, being persecuted of vengeance, and scattered abroad through the breath of thy power: but thou hast ordered all things in measure and number and weight."
+            }
+          ],
+          "before": "Whereof not only the harm might dispatch them at once, but also the terrible sight utterly destroy them.",
+          "after": "For thou canst shew thy great strength at all times when thou wilt; and who may withstand the power of thine arm?"
+        }
+      ]
+    },
+    {
+      "id": "apollos-origin",
+      "passages": [
+        {
+          "reference": "Acts 18:24",
+          "book": "Acts",
+          "chapter": 18,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "¶ And a certain Jew named Apollos, born at Alexandria, an eloquent man, [and] mighty in the scriptures, came to Ephesus."
+            }
+          ],
+          "before": "And after he had spent some time [there], he departed, and went over [all] the country of Galatia and Phrygia in order, strengthening all the disciples.",
+          "after": "This man was instructed in the way of the Lord; and being fervent in the spirit, he spake and taught diligently the things of the Lord, knowing only the baptism of John."
+        }
+      ]
+    },
+    {
+      "id": "lydia-city",
+      "passages": [
+        {
+          "reference": "Acts 16:14",
+          "book": "Acts",
+          "chapter": 16,
+          "verse": 14,
+          "endVerse": 14,
+          "verses": [
+            {
+              "verse": 14,
+              "text": "¶ And a certain woman named Lydia, a seller of purple, of the city of Thyatira, which worshipped God, heard [us]: whose heart the Lord opened, that she attended unto the things which were spoken of Paul."
+            }
+          ],
+          "before": "And on the sabbath we went out of the city by a river side, where prayer was wont to be made; and we sat down, and spake unto the women which resorted [thither.]",
+          "after": "And when she was baptized, and her household, she besought [us], saying, If ye have judged me to be faithful to the Lord, come into my house, and abide [there]. And she constrained us."
+        }
+      ]
+    },
+    {
+      "id": "sychar",
+      "passages": [
+        {
+          "reference": "John 4:5",
+          "book": "John",
+          "chapter": 4,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph."
+            }
+          ],
+          "before": "And he must needs go through Samaria.",
+          "after": "Now Jacob’s well was there. Jesus therefore, being wearied with [his] journey, sat thus on the well: [and] it was about the sixth hour."
+        }
+      ]
+    },
+    {
+      "id": "land-animals",
+      "passages": [
+        {
+          "reference": "Leviticus 11:3",
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "Whatsoever parteth the hoof, and is clovenfooted, [and] cheweth the cud, among the beasts, that shall ye eat."
+            }
+          ],
+          "before": "Speak unto the children of Israel, saying, These [are] the beasts which ye shall eat among all the beasts that [are] on the earth.",
+          "after": "Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: [as] the camel, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you."
+        }
+      ]
+    },
+    {
+      "id": "water-creatures",
+      "passages": [
+        {
+          "reference": "Leviticus 11:9",
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 9,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "¶ These shall ye eat of all that [are] in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat."
+            }
+          ],
+          "before": "Of their flesh shall ye not eat, and their carcase shall ye not touch; they [are] unclean to you.",
+          "after": "And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which [is] in the waters, they [shall be] an abomination unto you:"
+        }
+      ]
+    },
+    {
+      "id": "six-days",
+      "passages": [
+        {
+          "reference": "Exodus 20:9",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 9,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "Six days shalt thou labour, and do all thy work:"
+            }
+          ],
+          "before": "Remember the sabbath day, to keep it holy.",
+          "after": "But the seventh day [is] the sabbath of the LORD thy God: [in it] thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that [is] within thy gates:"
+        }
+      ]
+    },
+    {
+      "id": "love-commandments",
+      "passages": [
+        {
+          "reference": "John 14:15",
+          "book": "John",
+          "chapter": 14,
+          "verse": 15,
+          "endVerse": 15,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "¶ If ye love me, keep my commandments."
+            }
+          ],
+          "before": "If ye shall ask any thing in my name, I will do [it.]",
+          "after": "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;"
+        }
+      ]
+    },
+    {
+      "id": "hands-complaint",
+      "passages": [
+        {
+          "reference": "Matthew 15:2",
+          "book": "Matthew",
+          "chapter": 15,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "Why do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread."
+            }
+          ],
+          "before": "Then came to Jesus scribes and Pharisees, which were of Jerusalem, saying,",
+          "after": "But he answered and said unto them, Why do ye also transgress the commandment of God by your tradition?"
+        }
+      ]
+    },
+    {
+      "id": "hands-conclusion",
+      "passages": [
+        {
+          "reference": "Matthew 15:20",
+          "book": "Matthew",
+          "chapter": 15,
+          "verse": 20,
+          "endVerse": 20,
+          "verses": [
+            {
+              "verse": 20,
+              "text": "These are [the things] which defile a man: but to eat with unwashen hands defileth not a man."
+            }
+          ],
+          "before": "For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies:",
+          "after": "¶ Then Jesus went thence, and departed into the coasts of Tyre and Sidon."
+        }
+      ]
+    },
+    {
+      "id": "establish-law",
+      "passages": [
+        {
+          "reference": "Romans 3:31",
+          "book": "Romans",
+          "chapter": 3,
+          "verse": 31,
+          "endVerse": 31,
+          "verses": [
+            {
+              "verse": 31,
+              "text": "Do we then make void the law through faith? God forbid: yea, we establish the law."
+            }
+          ],
+          "before": "Seeing [it is] one God, which shall justify the circumcision by faith, and uncircumcision through faith."
+        }
+      ]
+    },
+    {
+      "id": "doers-word",
+      "passages": [
+        {
+          "reference": "James 1:22",
+          "book": "James",
+          "chapter": 1,
+          "verse": 22,
+          "endVerse": 22,
+          "verses": [
+            {
+              "verse": 22,
+              "text": "But be ye doers of the word, and not hearers only, deceiving your own selves."
+            }
+          ],
+          "before": "Wherefore lay apart all filthiness and superfluity of naughtiness, and receive with meekness the engrafted word, which is able to save your souls.",
+          "after": "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass:"
+        }
+      ]
+    },
+    {
+      "id": "command-tradition",
+      "passages": [
+        {
+          "reference": "Matthew 15:3",
+          "book": "Matthew",
+          "chapter": 15,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "But he answered and said unto them, Why do ye also transgress the commandment of God by your tradition?"
+            }
+          ],
+          "before": "Why do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread.",
+          "after": "For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death."
+        }
+      ]
+    },
+    {
+      "id": "grace-sin",
+      "passages": [
+        {
+          "reference": "Romans 6:15",
+          "book": "Romans",
+          "chapter": 6,
+          "verse": 15,
+          "endVerse": 15,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "What then? shall we sin, because we are not under the law, but under grace? God forbid."
+            }
+          ],
+          "before": "For sin shall not have dominion over you: for ye are not under the law, but under grace.",
+          "after": "Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; whether of sin unto death, or of obedience unto righteousness?"
+        }
+      ]
+    },
+    {
+      "id": "keeping-commandments",
+      "passages": [
+        {
+          "reference": "1 Corinthians 7:19",
+          "book": "1 Corinthians",
+          "chapter": 7,
+          "verse": 19,
+          "endVerse": 19,
+          "verses": [
+            {
+              "verse": 19,
+              "text": "Circumcision is nothing, and uncircumcision is nothing, but the keeping of the commandments of God."
+            }
+          ],
+          "before": "Is any man called being circumcised? let him not become uncircumcised. Is any called in uncircumcision? let him not be circumcised.",
+          "after": "Let every man abide in the same calling wherein he was called."
+        }
+      ]
+    },
+    {
+      "id": "teach-children",
+      "passages": [
+        {
+          "reference": "Deuteronomy 6:7",
+          "book": "Deuteronomy",
+          "chapter": 6,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up."
+            }
+          ],
+          "before": "And these words, which I command thee this day, shall be in thine heart:",
+          "after": "And thou shalt bind them for a sign upon thine hand, and they shall be as frontlets between thine eyes."
+        }
+      ]
+    },
+    {
+      "id": "bke-melchizedek-gifts",
+      "passages": [
+        {
+          "reference": "Genesis 14:18",
+          "book": "Genesis",
+          "chapter": 14,
+          "verse": 18,
+          "endVerse": 18,
+          "verses": [
+            {
+              "verse": 18,
+              "text": "And Melchizedek king of Salem brought forth bread and wine: and he [was] the priest of the most high God."
+            }
+          ],
+          "before": "¶ And the king of Sodom went out to meet him after his return from the slaughter of Chedorlaomer, and of the kings that [were] with him, at the valley of Shaveh, which [is] the king’s dale.",
+          "after": "And he blessed him, and said, Blessed [be] Abram of the most high God, possessor of heaven and earth:"
+        }
+      ]
+    },
+    {
+      "id": "bke-joseph-age",
+      "passages": [
+        {
+          "reference": "Genesis 41:46",
+          "book": "Genesis",
+          "chapter": 41,
+          "verse": 46,
+          "endVerse": 46,
+          "verses": [
+            {
+              "verse": 46,
+              "text": "¶ And Joseph [was] thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt."
+            }
+          ],
+          "before": "And Pharaoh called Joseph’s name Zaphnath-paaneah; and he gave him to wife Asenath the daughter of Poti-pherah priest of On. And Joseph went out over [all] the land of Egypt.",
+          "after": "And in the seven plenteous years the earth brought forth by handfuls."
+        }
+      ]
+    },
+    {
+      "id": "bke-moses-hands",
+      "passages": [
+        {
+          "reference": "Exodus 17:12",
+          "book": "Exodus",
+          "chapter": 17,
+          "verse": 12,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 12,
+              "text": "But Moses’ hands [were] heavy; and they took a stone, and put [it] under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun."
+            }
+          ],
+          "before": "And it came to pass, when Moses held up his hand, that Israel prevailed: and when he let down his hand, Amalek prevailed.",
+          "after": "And Joshua discomfited Amalek and his people with the edge of the sword."
+        }
+      ]
+    },
+    {
+      "id": "bke-oshea-name",
+      "passages": [
+        {
+          "reference": "Numbers 13:16",
+          "book": "Numbers",
+          "chapter": 13,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "These [are] the names of the men which Moses sent to spy out the land. And Moses called Oshea the son of Nun Jehoshua."
+            }
+          ],
+          "before": "Of the tribe of Gad, Geuel the son of Machi.",
+          "after": "¶ And Moses sent them to spy out the land of Canaan, and said unto them, Get you up this [way] southward, and go up into the mountain:"
+        }
+      ]
+    },
+    {
+      "id": "bke-jordan-season",
+      "passages": [
+        {
+          "reference": "Joshua 3:15",
+          "book": "Joshua",
+          "chapter": 3,
+          "verse": 15,
+          "endVerse": 15,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "And as they that bare the ark were come unto Jordan, and the feet of the priests that bare the ark were dipped in the brim of the water, (for Jordan overfloweth all his banks all the time of harvest,)"
+            }
+          ],
+          "before": "¶ And it came to pass, when the people removed from their tents, to pass over Jordan, and the priests bearing the ark of the covenant before the people;",
+          "after": "That the waters which came down from above stood [and] rose up upon an heap very far from the city Adam, that [is] beside Zaretan: and those that came down toward the sea of the plain, [even] the salt sea, failed, [and] were cut off: and the people passed over right against Jericho."
+        }
+      ]
+    },
+    {
+      "id": "bke-ruth-husband",
+      "passages": [
+        {
+          "reference": "Ruth 4:13",
+          "book": "Ruth",
+          "chapter": 4,
+          "verse": 13,
+          "endVerse": 13,
+          "verses": [
+            {
+              "verse": 13,
+              "text": "¶ So Boaz took Ruth, and she was his wife: and when he went in unto her, the LORD gave her conception, and she bare a son."
+            }
+          ],
+          "before": "And let thy house be like the house of Pharez, whom Tamar bare unto Judah, of the seed which the LORD shall give thee of this young woman.",
+          "after": "And the women said unto Naomi, Blessed [be] the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel."
+        }
+      ]
+    },
+    {
+      "id": "bke-elijah-water",
+      "passages": [
+        {
+          "reference": "1 Kings 18:33",
+          "book": "1 Kings",
+          "chapter": 18,
+          "verse": 33,
+          "endVerse": 33,
+          "verses": [
+            {
+              "verse": 33,
+              "text": "And he put the wood in order, and cut the bullock in pieces, and laid [him] on the wood, and said, Fill four barrels with water, and pour [it] on the burnt sacrifice, and on the wood."
+            }
+          ],
+          "before": "And with the stones he built an altar in the name of the LORD: and he made a trench about the altar, as great as would contain two measures of seed.",
+          "after": "And he said, Do [it] the second time. And they did [it] the second time. And he said, Do [it] the third time. And they did [it] the third time."
+        }
+      ]
+    },
+    {
+      "id": "bke-nehemiah-office",
+      "passages": [
+        {
+          "reference": "Nehemiah 1:11",
+          "book": "Nehemiah",
+          "chapter": 1,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king’s cupbearer."
+            }
+          ],
+          "before": "Now these [are] thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand."
+        }
+      ]
+    },
+    {
+      "id": "bke-enemy-burden",
+      "passages": [
+        {
+          "reference": "Exodus 23:5",
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "If thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help him, thou shalt surely help with him."
+            }
+          ],
+          "before": "¶ If thou meet thine enemy’s ox or his ass going astray, thou shalt surely bring it back to him again.",
+          "after": "Thou shalt not wrest the judgment of thy poor in his cause."
+        }
+      ]
+    },
+    {
+      "id": "bke-neighbor-love",
+      "passages": [
+        {
+          "reference": "Leviticus 19:18",
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 18,
+          "endVerse": 18,
+          "verses": [
+            {
+              "verse": 18,
+              "text": "¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD."
+            }
+          ],
+          "before": "¶ Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him.",
+          "after": "¶ Ye shall keep my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt not sow thy field with mingled seed: neither shall a garment mingled of linen and woollen come upon thee."
+        }
+      ]
+    },
+    {
+      "id": "bke-impartial-court",
+      "passages": [
+        {
+          "reference": "Leviticus 19:15",
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 15,
+          "endVerse": 15,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour."
+            }
+          ],
+          "before": "¶ Thou shalt not curse the deaf, nor put a stumblingblock before the blind, but shalt fear thy God: I [am] the LORD.",
+          "after": "¶ Thou shalt not go up and down [as] a talebearer among thy people: neither shalt thou stand against the blood of thy neighbour: I [am] the LORD."
+        }
+      ]
+    },
+    {
+      "id": "bke-trumpets-date",
+      "passages": [
+        {
+          "reference": "Leviticus 23:24",
+          "book": "Leviticus",
+          "chapter": 23,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "Speak unto the children of Israel, saying, In the seventh month, in the first [day] of the month, shall ye have a sabbath, a memorial of blowing of trumpets, an holy convocation."
+            }
+          ],
+          "before": "¶ And the LORD spake unto Moses, saying,",
+          "after": "Ye shall do no servile work [therein:] but ye shall offer an offering made by fire unto the LORD."
+        }
+      ]
+    },
+    {
+      "id": "bke-annual-appearances",
+      "passages": [
+        {
+          "reference": "Deuteronomy 16:16",
+          "book": "Deuteronomy",
+          "chapter": 16,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "¶ Three times in a year shall all thy males appear before the LORD thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles: and they shall not appear before the LORD empty:"
+            }
+          ],
+          "before": "Seven days shalt thou keep a solemn feast unto the LORD thy God in the place which the LORD shall choose: because the LORD thy God shall bless thee in all thine increase, and in all the works of thine hands, therefore thou shalt surely rejoice.",
+          "after": "Every man [shall give] as he is able, according to the blessing of the LORD thy God which he hath given thee."
+        }
+      ]
+    },
+    {
+      "id": "bke-king-law-copy",
+      "passages": [
+        {
+          "reference": "Deuteronomy 17:18",
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 18,
+          "endVerse": 18,
+          "verses": [
+            {
+              "verse": 18,
+              "text": "And it shall be, when he sitteth upon the throne of his kingdom, that he shall write him a copy of this law in a book out of [that which is] before the priests the Levites:"
+            }
+          ],
+          "before": "Neither shall he multiply wives to himself, that his heart turn not away: neither shall he greatly multiply to himself silver and gold.",
+          "after": "And it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the LORD his God, to keep all the words of this law and these statutes, to do them:"
+        }
+      ]
+    },
+    {
+      "id": "bke-forgotten-sheaf",
+      "passages": [
+        {
+          "reference": "Deuteronomy 24:19",
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 19,
+          "endVerse": 19,
+          "verses": [
+            {
+              "verse": 19,
+              "text": "¶ When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands."
+            }
+          ],
+          "before": "But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+          "after": "When thou beatest thine olive tree, thou shalt not go over the boughs again: it shall be for the stranger, for the fatherless, and for the widow."
+        }
+      ]
+    },
+    {
+      "id": "bke-later-passover",
+      "passages": [
+        {
+          "reference": "Numbers 9:11",
+          "book": "Numbers",
+          "chapter": 9,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "The fourteenth day of the second month at even they shall keep it, [and] eat it with unleavened bread and bitter [herbs]."
+            }
+          ],
+          "before": "Speak unto the children of Israel, saying, If any man of you or of your posterity shall be unclean by reason of a dead body, or [be] in a journey afar off, yet he shall keep the passover unto the LORD.",
+          "after": "They shall leave none of it unto the morning, nor break any bone of it: according to all the ordinances of the passover they shall keep it."
+        },
+        {
+          "reference": "Numbers 9:10",
+          "book": "Numbers",
+          "chapter": 9,
+          "verse": 10,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "Speak unto the children of Israel, saying, If any man of you or of your posterity shall be unclean by reason of a dead body, or [be] in a journey afar off, yet he shall keep the passover unto the LORD."
+            }
+          ],
+          "before": "¶ And the LORD spake unto Moses, saying,",
+          "after": "The fourteenth day of the second month at even they shall keep it, [and] eat it with unleavened bread and bitter [herbs]."
+        }
+      ]
+    },
+    {
+      "id": "bke-reconcile-first",
+      "passages": [
+        {
+          "reference": "Matthew 5:24",
+          "book": "Matthew",
+          "chapter": 5,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift."
+            }
+          ],
+          "before": "Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;",
+          "after": "Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison."
+        }
+      ]
+    },
+    {
+      "id": "bke-rock-hearer",
+      "passages": [
+        {
+          "reference": "Matthew 7:24",
+          "book": "Matthew",
+          "chapter": 7,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "¶ Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock:"
+            }
+          ],
+          "before": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.",
+          "after": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock."
+        }
+      ]
+    },
+    {
+      "id": "bke-mercy-hosea",
+      "passages": [
+        {
+          "reference": "Matthew 12:7",
+          "book": "Matthew",
+          "chapter": 12,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "But if ye had known what [this] meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless."
+            }
+          ],
+          "before": "But I say unto you, That in this place is [one] greater than the temple.",
+          "after": "For the Son of man is Lord even of the sabbath day."
+        },
+        {
+          "reference": "Hosea 6:6",
+          "book": "Hosea",
+          "chapter": 6,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings."
+            }
+          ],
+          "before": "Therefore have I hewed [them] by the prophets; I have slain them by the words of my mouth: and thy judgments [are as] the light [that] goeth forth.",
+          "after": "But they like men have transgressed the covenant: there have they dealt treacherously against me."
+        }
+      ]
+    },
+    {
+      "id": "bke-sabbath-for-man",
+      "passages": [
+        {
+          "reference": "Mark 2:27",
+          "book": "Mark",
+          "chapter": 2,
+          "verse": 27,
+          "endVerse": 27,
+          "verses": [
+            {
+              "verse": 27,
+              "text": "And he said unto them, The sabbath was made for man, and not man for the sabbath:"
+            }
+          ],
+          "before": "How he went into the house of God in the days of Abiathar the high priest, and did eat the shewbread, which is not lawful to eat but for the priests, and gave also to them which were with him?",
+          "after": "Therefore the Son of man is Lord also of the sabbath."
+        }
+      ]
+    },
+    {
+      "id": "bke-neighbor-mercy",
+      "passages": [
+        {
+          "reference": "Luke 10:37",
+          "book": "Luke",
+          "chapter": 10,
+          "verse": 37,
+          "endVerse": 37,
+          "verses": [
+            {
+              "verse": 37,
+              "text": "And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise."
+            }
+          ],
+          "before": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?",
+          "after": "¶ Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house."
+        }
+      ]
+    },
+    {
+      "id": "bke-chief-serves",
+      "passages": [
+        {
+          "reference": "Luke 22:26",
+          "book": "Luke",
+          "chapter": 22,
+          "verse": 26,
+          "endVerse": 26,
+          "verses": [
+            {
+              "verse": 26,
+              "text": "But ye [shall] not [be] so: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve."
+            }
+          ],
+          "before": "And he said unto them, The kings of the Gentiles exercise lordship over them; and they that exercise authority upon them are called benefactors.",
+          "after": "For whether [is] greater, he that sitteth at meat, or he that serveth? [is] not he that sitteth at meat? but I am among you as he that serveth."
+        }
+      ]
+    },
+    {
+      "id": "bke-footwashing-example",
+      "passages": [
+        {
+          "reference": "John 13:14",
+          "book": "John",
+          "chapter": 13,
+          "verse": 14,
+          "endVerse": 14,
+          "verses": [
+            {
+              "verse": 14,
+              "text": "If I then, [your] Lord and Master, have washed your feet; ye also ought to wash one another’s feet."
+            }
+          ],
+          "before": "Ye call me Master and Lord: and ye say well; for [so] I am.",
+          "after": "For I have given you an example, that ye should do as I have done to you."
+        }
+      ]
+    },
+    {
+      "id": "bke-peter-joel",
+      "passages": [
+        {
+          "reference": "Acts 2:16",
+          "book": "Acts",
+          "chapter": 2,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "But this is that which was spoken by the prophet Joel;"
+            }
+          ],
+          "before": "For these are not drunken, as ye suppose, seeing it is [but] the third hour of the day.",
+          "after": "And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams:"
+        }
+      ]
+    },
+    {
+      "id": "bke-david-tabernacle",
+      "passages": [
+        {
+          "reference": "Acts 15:16",
+          "book": "Acts",
+          "chapter": 15,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "After this I will return, and will build again the tabernacle of David, which is fallen down; and I will build again the ruins thereof, and I will set it up:"
+            }
+          ],
+          "before": "And to this agree the words of the prophets; as it is written,",
+          "after": "That the residue of men might seek after the Lord, and all the Gentiles, upon whom my name is called, saith the Lord, who doeth all these things."
+        },
+        {
+          "reference": "Amos 9:11",
+          "book": "Amos",
+          "chapter": 9,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "¶ In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up his ruins, and I will build it as in the days of old:"
+            }
+          ],
+          "before": "All the sinners of my people shall die by the sword, which say, The evil shall not overtake nor prevent us.",
+          "after": "That they may possess the remnant of Edom, and of all the heathen, which are called by my name, saith the LORD that doeth this."
+        }
+      ]
+    },
+    {
+      "id": "bke-abraham-counted",
+      "passages": [
+        {
+          "reference": "Romans 4:3",
+          "book": "Romans",
+          "chapter": 4,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness."
+            }
+          ],
+          "before": "For if Abraham were justified by works, he hath [whereof] to glory; but not before God.",
+          "after": "Now to him that worketh is the reward not reckoned of grace, but of debt."
+        },
+        {
+          "reference": "Genesis 15:6",
+          "book": "Genesis",
+          "chapter": 15,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "And he believed in the LORD; and he counted it to him for righteousness."
+            }
+          ],
+          "before": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.",
+          "after": "And he said unto him, I [am] the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it."
+        }
+      ]
+    },
+    {
+      "id": "bke-enemy-provision",
+      "passages": [
+        {
+          "reference": "Romans 12:20",
+          "book": "Romans",
+          "chapter": 12,
+          "verse": 20,
+          "endVerse": 20,
+          "verses": [
+            {
+              "verse": 20,
+              "text": "Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head."
+            }
+          ],
+          "before": "Dearly beloved, avenge not yourselves, but [rather] give place unto wrath: for it is written, Vengeance [is] mine; I will repay, saith the Lord.",
+          "after": "Be not overcome of evil, but overcome evil with good."
+        },
+        {
+          "reference": "Proverbs 25:21",
+          "book": "Proverbs",
+          "chapter": 25,
+          "verse": 21,
+          "endVerse": 21,
+          "verses": [
+            {
+              "verse": 21,
+              "text": "If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink:"
+            }
+          ],
+          "before": "[As] he that taketh away a garment in cold weather, [and as] vinegar upon nitre, so [is] he that singeth songs to an heavy heart.",
+          "after": "For thou shalt heap coals of fire upon his head, and the LORD shall reward thee."
+        }
+      ]
+    },
+    {
+      "id": "bke-rock-comparison",
+      "passages": [
+        {
+          "reference": "1 Corinthians 10:4",
+          "book": "1 Corinthians",
+          "chapter": 10,
+          "verse": 4,
+          "endVerse": 4,
+          "verses": [
+            {
+              "verse": 4,
+              "text": "And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ."
+            }
+          ],
+          "before": "And did all eat the same spiritual meat;",
+          "after": "But with many of them God was not well pleased: for they were overthrown in the wilderness."
+        },
+        {
+          "reference": "Exodus 17:6",
+          "book": "Exodus",
+          "chapter": 17,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel."
+            }
+          ],
+          "before": "And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.",
+          "after": "And he called the name of the place Massah, and Meribah, because of the chiding of the children of Israel, and because they tempted the LORD, saying, Is the LORD among us, or not?"
+        }
+      ]
+    },
+    {
+      "id": "bke-law-hearts",
+      "passages": [
+        {
+          "reference": "Hebrews 8:10",
+          "book": "Hebrews",
+          "chapter": 8,
+          "verse": 10,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "For this [is] the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:"
+            }
+          ],
+          "before": "Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt; because they continued not in my covenant, and I regarded them not, saith the Lord.",
+          "after": "And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest."
+        },
+        {
+          "reference": "Jeremiah 31:33",
+          "book": "Jeremiah",
+          "chapter": 31,
+          "verse": 33,
+          "endVerse": 33,
+          "verses": [
+            {
+              "verse": 33,
+              "text": "But this [shall be] the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people."
+            }
+          ],
+          "before": "Not according to the covenant that I made with their fathers in the day [that] I took them by the hand to bring them out of the land of Egypt; which my covenant they brake, although I was an husband unto them, saith the LORD:",
+          "after": "And they shall teach no more every man his neighbour, and every man his brother, saying, Know the LORD: for they shall all know me, from the least of them unto the greatest of them, saith the LORD: for I will forgive their iniquity, and I will remember their sin no more."
+        }
+      ]
+    },
+    {
+      "id": "bke-no-deceit",
+      "passages": [
+        {
+          "reference": "1 Peter 2:22",
+          "book": "1 Peter",
+          "chapter": 2,
+          "verse": 22,
+          "endVerse": 22,
+          "verses": [
+            {
+              "verse": 22,
+              "text": "Who did no sin, neither was guile found in his mouth:"
+            }
+          ],
+          "before": "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps:",
+          "after": "Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed [himself] to him that judgeth righteously:"
+        },
+        {
+          "reference": "Isaiah 53:9",
+          "book": "Isaiah",
+          "chapter": 53,
+          "verse": 9,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither [was any] deceit in his mouth."
+            }
+          ],
+          "before": "He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken.",
+          "after": "¶ Yet it pleased the LORD to bruise him; he hath put [him] to grief: when thou shalt make his soul an offering for sin, he shall see [his] seed, he shall prolong [his] days, and the pleasure of the LORD shall prosper in his hand."
+        }
+      ]
+    },
+    {
+      "id": "bke-weak-received",
+      "passages": [
+        {
+          "reference": "Romans 14:1",
+          "book": "Romans",
+          "chapter": 14,
+          "verse": 1,
+          "endVerse": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Him that is weak in the faith receive ye, [but] not to doubtful disputations."
+            }
+          ],
+          "after": "For one believeth that he may eat all things: another, who is weak, eateth herbs."
+        }
+      ]
+    },
+    {
+      "id": "bke-corban-meaning",
+      "passages": [
+        {
+          "reference": "Mark 7:11",
+          "book": "Mark",
+          "chapter": 7,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "But ye say, If a man shall say to his father or mother, [It is] Corban, that is to say, a gift, by whatsoever thou mightest be profited by me; [he shall be free]."
+            }
+          ],
+          "before": "For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death:",
+          "after": "And ye suffer him no more to do ought for his father or his mother;"
+        }
+      ]
+    },
+    {
+      "id": "bke-law-reveals-coveting",
+      "passages": [
+        {
+          "reference": "Romans 7:7",
+          "book": "Romans",
+          "chapter": 7,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "What shall we say then? [Is] the law sin? God forbid. Nay, I had not known sin, but by the law: for I had not known lust, except the law had said, Thou shalt not covet."
+            }
+          ],
+          "before": "But now we are delivered from the law, that being dead wherein we were held; that we should serve in newness of spirit, and not [in] the oldness of the letter.",
+          "after": "But sin, taking occasion by the commandment, wrought in me all manner of concupiscence. For without the law sin [was] dead."
+        }
+      ]
+    },
+    {
+      "id": "bke-liberty-service",
+      "passages": [
+        {
+          "reference": "Galatians 5:13",
+          "book": "Galatians",
+          "chapter": 5,
+          "verse": 13,
+          "endVerse": 13,
+          "verses": [
+            {
+              "verse": 13,
+              "text": "For, brethren, ye have been called unto liberty; only [use] not liberty for an occasion to the flesh, but by love serve one another."
+            }
+          ],
+          "before": "I would they were even cut off which trouble you.",
+          "after": "For all the law is fulfilled in one word, [even] in this; Thou shalt love thy neighbour as thyself."
+        }
+      ]
+    },
+    {
+      "id": "bke-tradition-christ",
+      "passages": [
+        {
+          "reference": "Colossians 2:8",
+          "book": "Colossians",
+          "chapter": 2,
+          "verse": 8,
+          "endVerse": 8,
+          "verses": [
+            {
+              "verse": 8,
+              "text": "Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ."
+            }
+          ],
+          "before": "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.",
+          "after": "For in him dwelleth all the fulness of the Godhead bodily."
+        }
+      ]
+    },
+    {
+      "id": "bke-paul-wrested",
+      "passages": [
+        {
+          "reference": "2 Peter 3:16",
+          "book": "2 Peter",
+          "chapter": 3,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "As also in all [his] epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as [they do] also the other scriptures, unto their own destruction."
+            }
+          ],
+          "before": "And account [that] the longsuffering of our Lord [is] salvation; even as our beloved brother Paul also according to the wisdom given unto him hath written unto you;",
+          "after": "Ye therefore, beloved, seeing ye know [these things] before, beware lest ye also, being led away with the error of the wicked, fall from your own stedfastness."
+        }
+      ]
+    },
+    {
+      "id": "bke-assembly-seating",
+      "passages": [
+        {
+          "reference": "James 2:3",
+          "book": "James",
+          "chapter": 2,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool:"
+            }
+          ],
+          "before": "For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment;",
+          "after": "Are ye not then partial in yourselves, and are become judges of evil thoughts?"
+        }
+      ]
+    },
+    {
+      "id": "bke-zion-law",
+      "passages": [
+        {
+          "reference": "Isaiah 2:3",
+          "book": "Isaiah",
+          "chapter": 2,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem."
+            }
+          ],
+          "before": "And it shall come to pass in the last days, [that] the mountain of the LORD’s house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it.",
+          "after": "And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, neither shall they learn war any more."
+        }
+      ]
+    },
+    {
+      "id": "bke-kingdom-endures",
+      "passages": [
+        {
+          "reference": "Daniel 2:44",
+          "book": "Daniel",
+          "chapter": 2,
+          "verse": 44,
+          "endVerse": 44,
+          "verses": [
+            {
+              "verse": 44,
+              "text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, [but] it shall break in pieces and consume all these kingdoms, and it shall stand for ever."
+            }
+          ],
+          "before": "And whereas thou sawest iron mixed with miry clay, they shall mingle themselves with the seed of men: but they shall not cleave one to another, even as iron is not mixed with clay.",
+          "after": "Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces the iron, the brass, the clay, the silver, and the gold; the great God hath made known to the king what shall come to pass hereafter: and the dream [is] certain, and the interpretation thereof sure."
+        }
+      ]
+    },
+    {
+      "id": "bke-wicked-return",
+      "passages": [
+        {
+          "reference": "Ezekiel 18:23",
+          "book": "Ezekiel",
+          "chapter": 18,
+          "verse": 23,
+          "endVerse": 23,
+          "verses": [
+            {
+              "verse": 23,
+              "text": "Have I any pleasure at all that the wicked should die? saith the Lord GOD: [and] not that he should return from his ways, and live?"
+            }
+          ],
+          "before": "All his transgressions that he hath committed, they shall not be mentioned unto him: in his righteousness that he hath done he shall live.",
+          "after": "¶ But when the righteous turneth away from his righteousness, and committeth iniquity, [and] doeth according to all the abominations that the wicked [man] doeth, shall he live? All his righteousness that he hath done shall not be mentioned: in his trespass that he hath trespassed, and in his sin that he hath sinned, in them shall he die."
+        }
+      ]
+    },
+    {
+      "id": "bke-nations-tabernacles",
+      "passages": [
+        {
+          "reference": "Zechariah 14:16",
+          "book": "Zechariah",
+          "chapter": 14,
+          "verse": 16,
+          "endVerse": 16,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "¶ And it shall come to pass, [that] every one that is left of all the nations which came against Jerusalem shall even go up from year to year to worship the King, the LORD of hosts, and to keep the feast of tabernacles."
+            }
+          ],
+          "before": "And so shall be the plague of the horse, of the mule, of the camel, and of the ass, and of all the beasts that shall be in these tents, as this plague.",
+          "after": "And it shall be, [that] whoso will not come up of [all] the families of the earth unto Jerusalem to worship the King, the LORD of hosts, even upon them shall be no rain."
+        }
+      ]
+    },
+    {
+      "id": "bke-stranger-welcomed",
+      "passages": [
+        {
+          "reference": "Matthew 25:35",
+          "book": "Matthew",
+          "chapter": 25,
+          "verse": 35,
+          "endVerse": 35,
+          "verses": [
+            {
+              "verse": 35,
+              "text": "For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in:"
+            }
+          ],
+          "before": "Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world:",
+          "after": "Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."
+        }
+      ]
+    },
+    {
+      "id": "bke-tree-leaves",
+      "passages": [
+        {
+          "reference": "Revelation 22:2",
+          "book": "Revelation",
+          "chapter": 22,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "In the midst of the street of it, and on either side of the river, [was there] the tree of life, which bare twelve [manner of] fruits, [and] yielded her fruit every month: and the leaves of the tree [were] for the healing of the nations."
+            }
+          ],
+          "before": "And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.",
+          "after": "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him:"
+        }
+      ]
+    },
+    {
+      "id": "bke-rulers-answerable",
+      "passages": [
+        {
+          "reference": "Wisdom of Solomon 6:3",
+          "book": "Wisdom of Solomon",
+          "chapter": 6,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels."
+            }
+          ],
+          "before": "Give ear, ye that rule the people, and glory in the multitude of nations.",
+          "after": "Because, being ministers of his kingdom, ye have not judged aright, nor kept the law, nor walked after the counsel of God;"
+        }
+      ]
+    },
+    {
+      "id": "bke-leader-covetousness",
+      "passages": [
+        {
+          "reference": "Exodus 18:21",
+          "book": "Exodus",
+          "chapter": 18,
+          "verse": 21,
+          "endVerse": 21,
+          "verses": [
+            {
+              "verse": 21,
+              "text": "Moreover thou shalt provide out of all the people able men, such as fear God, men of truth, hating covetousness; and place [such] over them, [to be] rulers of thousands, [and] rulers of hundreds, rulers of fifties, and rulers of tens:"
+            }
+          ],
+          "before": "And thou shalt teach them ordinances and laws, and shalt shew them the way wherein they must walk, and the work that they must do.",
+          "after": "And let them judge the people at all seasons: and it shall be, [that] every great matter they shall bring unto thee, but every small matter they shall judge: so shall it be easier for thyself, and they shall bear [the burden] with thee."
+        },
+        {
+          "reference": "1 Timothy 3:3",
+          "book": "1 Timothy",
+          "chapter": 3,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous;"
+            }
+          ],
+          "before": "A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach;",
+          "after": "One that ruleth well his own house, having his children in subjection with all gravity;"
+        }
+      ]
+    },
+    {
+      "id": "bke-impartial-leaders",
+      "passages": [
+        {
+          "reference": "Deuteronomy 1:17",
+          "book": "Deuteronomy",
+          "chapter": 1,
+          "verse": 17,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 17,
+              "text": "Ye shall not respect persons in judgment; [but] ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment [is] God’s: and the cause that is too hard for you, bring [it] unto me, and I will hear it."
+            }
+          ],
+          "before": "And I charged your judges at that time, saying, Hear [the causes] between your brethren, and judge righteously between [every] man and his brother, and the stranger [that is] with him.",
+          "after": "And I commanded you at that time all the things which ye should do."
+        },
+        {
+          "reference": "James 2:1",
+          "book": "James",
+          "chapter": 2,
+          "verse": 1,
+          "endVerse": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "My brethren, have not the faith of our Lord Jesus Christ, [the Lord] of glory, with respect of persons."
+            }
+          ],
+          "after": "For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment;"
+        }
+      ]
+    },
+    {
+      "id": "bke-test-teaching",
+      "passages": [
+        {
+          "reference": "Acts 17:11",
+          "book": "Acts",
+          "chapter": 17,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+            }
+          ],
+          "before": "¶ And the brethren immediately sent away Paul and Silas by night unto Berea: who coming [thither] went into the synagogue of the Jews.",
+          "after": "Therefore many of them believed; also of honourable women which were Greeks, and of men, not a few."
+        },
+        {
+          "reference": "1 Thessalonians 5:21",
+          "book": "1 Thessalonians",
+          "chapter": 5,
+          "verse": 21,
+          "endVerse": 21,
+          "verses": [
+            {
+              "verse": 21,
+              "text": "Prove all things; hold fast that which is good."
+            }
+          ],
+          "before": "Despise not prophesyings.",
+          "after": "Abstain from all appearance of evil."
+        }
+      ]
+    },
+    {
+      "id": "bke-gentle-correction",
+      "passages": [
+        {
+          "reference": "Galatians 6:1",
+          "book": "Galatians",
+          "chapter": 6,
+          "verse": 1,
+          "endVerse": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted."
+            }
+          ],
+          "after": "Bear ye one another’s burdens, and so fulfil the law of Christ."
+        },
+        {
+          "reference": "2 Timothy 2:25",
+          "book": "2 Timothy",
+          "chapter": 2,
+          "verse": 25,
+          "endVerse": 25,
+          "verses": [
+            {
+              "verse": 25,
+              "text": "In meekness instructing those that oppose themselves; if God peradventure will give them repentance to the acknowledging of the truth;"
+            }
+          ],
+          "before": "And the servant of the Lord must not strive; but be gentle unto all [men], apt to teach, patient,",
+          "after": "And [that] they may recover themselves out of the snare of the devil, who are taken captive by him at his will."
+        }
+      ]
+    },
+    {
+      "id": "bke-testing-gold",
+      "passages": [
+        {
+          "reference": "Ecclesiasticus 2:5",
+          "book": "Ecclesiasticus",
+          "chapter": 2,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "For gold is tried in the fire, and acceptable men in the furnace of adversity."
+            }
+          ],
+          "before": "Whatsoever is brought upon thee take cheerfully, and be patient when thou art changed to a low estate.",
+          "after": "Believe in him, and he will help thee; order thy way aright, and trust in him."
+        },
+        {
+          "reference": "1 Peter 1:7",
+          "book": "1 Peter",
+          "chapter": 1,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ:"
+            }
+          ],
+          "before": "Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations:",
+          "after": "Whom having not seen, ye love; in whom, though now ye see [him] not, yet believing, ye rejoice with joy unspeakable and full of glory:"
+        }
+      ]
+    },
+    {
+      "id": "bke-asking-wisdom",
+      "passages": [
+        {
+          "reference": "Wisdom of Solomon 7:7",
+          "book": "Wisdom of Solomon",
+          "chapter": 7,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "Wherefore I prayed, and understanding was given me: I called upon God, and the spirit of wisdom came to me."
+            }
+          ],
+          "before": "For all men have one entrance into life, and the like going out.",
+          "after": "I preferred her before sceptres and thrones, and esteemed riches nothing in comparison of her."
+        },
+        {
+          "reference": "James 1:5",
+          "book": "James",
+          "chapter": 1,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him."
+            }
+          ],
+          "before": "But let patience have [her] perfect work, that ye may be perfect and entire, wanting nothing.",
+          "after": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed."
+        }
+      ]
+    },
+    {
+      "id": "kr-101",
+      "passages": [
+        {
+          "reference": "Deuteronomy 4:2",
+          "book": "Deuteronomy",
+          "chapter": 4,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "Ye shall not add unto the word which I command you, neither shall ye diminish [ought] from it, that ye may keep the commandments of the LORD your God which I command you."
+            }
+          ],
+          "before": "Now therefore hearken, O Israel, unto the statutes and unto the judgments, which I teach you, for to do [them], that ye may live, and go in and possess the land which the LORD God of your fathers giveth you.",
+          "after": "Your eyes have seen what the LORD did because of Baal-peor: for all the men that followed Baal-peor, the LORD thy God hath destroyed them from among you."
+        }
+      ]
+    },
+    {
+      "id": "kr-102",
+      "passages": [
+        {
+          "reference": "Deuteronomy 6:6-9",
+          "book": "Deuteronomy",
+          "chapter": 6,
+          "verse": 6,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "And these words, which I command thee this day, shall be in thine heart:"
+            },
+            {
+              "verse": 7,
+              "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up."
+            },
+            {
+              "verse": 8,
+              "text": "And thou shalt bind them for a sign upon thine hand, and they shall be as frontlets between thine eyes."
+            },
+            {
+              "verse": 9,
+              "text": "And thou shalt write them upon the posts of thy house, and on thy gates."
+            }
+          ],
+          "before": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
+          "after": "And it shall be, when the LORD thy God shall have brought thee into the land which he sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give thee great and goodly cities, which thou buildedst not,"
+        }
+      ]
+    },
+    {
+      "id": "kr-103",
+      "passages": [
+        {
+          "reference": "Numbers 15:38-40",
+          "book": "Numbers",
+          "chapter": 15,
+          "verse": 38,
+          "endVerse": 40,
+          "verses": [
+            {
+              "verse": 38,
+              "text": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:"
+            },
+            {
+              "verse": 39,
+              "text": "And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the LORD, and do them; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring:"
+            },
+            {
+              "verse": 40,
+              "text": "That ye may remember, and do all my commandments, and be holy unto your God."
+            }
+          ],
+          "before": "¶ And the LORD spake unto Moses, saying,",
+          "after": "I [am] the LORD your God, which brought you out of the land of Egypt, to be your God: I [am] the LORD your God."
+        }
+      ]
+    },
+    {
+      "id": "kr-104",
+      "passages": [
+        {
+          "reference": "Exodus 31:16-17",
+          "book": "Exodus",
+          "chapter": 31,
+          "verse": 16,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 16,
+              "text": "Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, [for] a perpetual covenant."
+            },
+            {
+              "verse": 17,
+              "text": "It [is] a sign between me and the children of Israel for ever: for [in] six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed."
+            }
+          ],
+          "before": "Six days may work be done; but in the seventh [is] the sabbath of rest, holy to the LORD: whosoever doeth [any] work in the sabbath day, he shall surely be put to death.",
+          "after": "¶ And he gave unto Moses, when he had made an end of communing with him upon mount Sinai, two tables of testimony, tables of stone, written with the finger of God."
+        }
+      ]
+    },
+    {
+      "id": "kr-105",
+      "passages": [
+        {
+          "reference": "Matthew 5:17-19",
+          "book": "Matthew",
+          "chapter": 5,
+          "verse": 17,
+          "endVerse": 19,
+          "verses": [
+            {
+              "verse": 17,
+              "text": "¶ Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil."
+            },
+            {
+              "verse": 18,
+              "text": "For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled."
+            },
+            {
+              "verse": 19,
+              "text": "Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach [them], the same shall be called great in the kingdom of heaven."
+            }
+          ],
+          "before": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+          "after": "For I say unto you, That except your righteousness shall exceed [the righteousness] of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven."
+        }
+      ]
+    },
+    {
+      "id": "kr-106",
+      "passages": [
+        {
+          "reference": "Psalms 119:160",
+          "book": "Psalms",
+          "chapter": 119,
+          "verse": 160,
+          "endVerse": 160,
+          "verses": [
+            {
+              "verse": 160,
+              "text": "Thy word [is] true [from] the beginning: and every one of thy righteous judgments [endureth] for ever."
+            }
+          ],
+          "before": "Consider how I love thy precepts: quicken me, O LORD, according to thy lovingkindness.",
+          "after": "Princes have persecuted me without a cause: but my heart standeth in awe of thy word."
+        }
+      ]
+    },
+    {
+      "id": "kr-107",
+      "passages": [
+        {
+          "reference": "Deuteronomy 12:32",
+          "book": "Deuteronomy",
+          "chapter": 12,
+          "verse": 32,
+          "endVerse": 32,
+          "verses": [
+            {
+              "verse": 32,
+              "text": "What thing soever I command you, observe to do it: thou shalt not add thereto, nor diminish from it."
+            }
+          ],
+          "before": "Thou shalt not do so unto the LORD thy God: for every abomination to the LORD, which he hateth, have they done unto their gods; for even their sons and their daughters they have burnt in the fire to their gods."
+        }
+      ]
+    },
+    {
+      "id": "kr-108",
+      "passages": [
+        {
+          "reference": "Jeremiah 31:31-33",
+          "book": "Jeremiah",
+          "chapter": 31,
+          "verse": 31,
+          "endVerse": 33,
+          "verses": [
+            {
+              "verse": 31,
+              "text": "¶ Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah:"
+            },
+            {
+              "verse": 32,
+              "text": "Not according to the covenant that I made with their fathers in the day [that] I took them by the hand to bring them out of the land of Egypt; which my covenant they brake, although I was an husband unto them, saith the LORD:"
+            },
+            {
+              "verse": 33,
+              "text": "But this [shall be] the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people."
+            }
+          ],
+          "before": "But every one shall die for his own iniquity: every man that eateth the sour grape, his teeth shall be set on edge.",
+          "after": "And they shall teach no more every man his neighbour, and every man his brother, saying, Know the LORD: for they shall all know me, from the least of them unto the greatest of them, saith the LORD: for I will forgive their iniquity, and I will remember their sin no more."
+        },
+        {
+          "reference": "Hebrews 8:8-10",
+          "book": "Hebrews",
+          "chapter": 8,
+          "verse": 8,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 8,
+              "text": "For finding fault with them, he saith, Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel and with the house of Judah:"
+            },
+            {
+              "verse": 9,
+              "text": "Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt; because they continued not in my covenant, and I regarded them not, saith the Lord."
+            },
+            {
+              "verse": 10,
+              "text": "For this [is] the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:"
+            }
+          ],
+          "before": "For if that first [covenant] had been faultless, then should no place have been sought for the second.",
+          "after": "And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest."
+        }
+      ]
+    },
+    {
+      "id": "kr-109",
+      "passages": [
+        {
+          "reference": "Romans 3:31",
+          "book": "Romans",
+          "chapter": 3,
+          "verse": 31,
+          "endVerse": 31,
+          "verses": [
+            {
+              "verse": 31,
+              "text": "Do we then make void the law through faith? God forbid: yea, we establish the law."
+            }
+          ],
+          "before": "Seeing [it is] one God, which shall justify the circumcision by faith, and uncircumcision through faith."
+        }
+      ]
+    },
+    {
+      "id": "kr-110",
+      "passages": [
+        {
+          "reference": "Deuteronomy 4:2",
+          "book": "Deuteronomy",
+          "chapter": 4,
+          "verse": 2,
+          "endVerse": 2,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "Ye shall not add unto the word which I command you, neither shall ye diminish [ought] from it, that ye may keep the commandments of the LORD your God which I command you."
+            }
+          ],
+          "before": "Now therefore hearken, O Israel, unto the statutes and unto the judgments, which I teach you, for to do [them], that ye may live, and go in and possess the land which the LORD God of your fathers giveth you.",
+          "after": "Your eyes have seen what the LORD did because of Baal-peor: for all the men that followed Baal-peor, the LORD thy God hath destroyed them from among you."
+        },
+        {
+          "reference": "Deuteronomy 12:32",
+          "book": "Deuteronomy",
+          "chapter": 12,
+          "verse": 32,
+          "endVerse": 32,
+          "verses": [
+            {
+              "verse": 32,
+              "text": "What thing soever I command you, observe to do it: thou shalt not add thereto, nor diminish from it."
+            }
+          ],
+          "before": "Thou shalt not do so unto the LORD thy God: for every abomination to the LORD, which he hateth, have they done unto their gods; for even their sons and their daughters they have burnt in the fire to their gods."
+        }
+      ]
+    },
+    {
+      "id": "kr-111",
+      "passages": [
+        {
+          "reference": "Genesis 2:2-3",
+          "book": "Genesis",
+          "chapter": 2,
+          "verse": 2,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 2,
+              "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made."
+            },
+            {
+              "verse": 3,
+              "text": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made."
+            }
+          ],
+          "before": "Thus the heavens and the earth were finished, and all the host of them.",
+          "after": "¶ These [are] the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,"
+        }
+      ]
+    },
+    {
+      "id": "kr-112",
+      "passages": [
+        {
+          "reference": "Exodus 20:8-11",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 8,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 8,
+              "text": "Remember the sabbath day, to keep it holy."
+            },
+            {
+              "verse": 9,
+              "text": "Six days shalt thou labour, and do all thy work:"
+            },
+            {
+              "verse": 10,
+              "text": "But the seventh day [is] the sabbath of the LORD thy God: [in it] thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that [is] within thy gates:"
+            },
+            {
+              "verse": 11,
+              "text": "For [in] six days the LORD made heaven and earth, the sea, and all that in them [is], and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it."
+            }
+          ],
+          "before": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
+          "after": "¶ Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee."
+        }
+      ]
+    },
+    {
+      "id": "kr-113",
+      "passages": [
+        {
+          "reference": "Exodus 20:10",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 10,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "But the seventh day [is] the sabbath of the LORD thy God: [in it] thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that [is] within thy gates:"
+            }
+          ],
+          "before": "Six days shalt thou labour, and do all thy work:",
+          "after": "For [in] six days the LORD made heaven and earth, the sea, and all that in them [is], and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it."
+        }
+      ]
+    },
+    {
+      "id": "kr-114",
+      "passages": [
+        {
+          "reference": "Leviticus 23:3",
+          "book": "Leviticus",
+          "chapter": 23,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "Six days shall work be done: but the seventh day [is] the sabbath of rest, an holy convocation; ye shall do no work [therein:] it [is] the sabbath of the LORD in all your dwellings."
+            }
+          ],
+          "before": "Speak unto the children of Israel, and say unto them, [Concerning] the feasts of the LORD, which ye shall proclaim [to be] holy convocations, [even] these [are] my feasts.",
+          "after": "¶ These [are] the feasts of the LORD, [even] holy convocations, which ye shall proclaim in their seasons."
+        }
+      ]
+    },
+    {
+      "id": "kr-115",
+      "passages": [
+        {
+          "reference": "Matthew 12:9-12",
+          "book": "Matthew",
+          "chapter": 12,
+          "verse": 9,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "And when he was departed thence, he went into their synagogue:"
+            },
+            {
+              "verse": 10,
+              "text": "¶ And, behold, there was a man which had [his] hand withered. And they asked him, saying, Is it lawful to heal on the sabbath days? that they might accuse him."
+            },
+            {
+              "verse": 11,
+              "text": "And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift [it] out?"
+            },
+            {
+              "verse": 12,
+              "text": "How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days."
+            }
+          ],
+          "before": "For the Son of man is Lord even of the sabbath day.",
+          "after": "Then saith he to the man, Stretch forth thine hand. And he stretched [it] forth; and it was restored whole, like as the other."
+        },
+        {
+          "reference": "Mark 3:1-5",
+          "book": "Mark",
+          "chapter": 3,
+          "verse": 1,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "And he entered again into the synagogue; and there was a man there which had a withered hand."
+            },
+            {
+              "verse": 2,
+              "text": "And they watched him, whether he would heal him on the sabbath day; that they might accuse him."
+            },
+            {
+              "verse": 3,
+              "text": "And he saith unto the man which had the withered hand, Stand forth."
+            },
+            {
+              "verse": 4,
+              "text": "And he saith unto them, Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill? But they held their peace."
+            },
+            {
+              "verse": 5,
+              "text": "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man, Stretch forth thine hand. And he stretched [it] out: and his hand was restored whole as the other."
+            }
+          ],
+          "after": "And the Pharisees went forth, and straightway took counsel with the Herodians against him, how they might destroy him."
+        }
+      ]
+    },
+    {
+      "id": "kr-116",
+      "passages": [
+        {
+          "reference": "Isaiah 58:13-14",
+          "book": "Isaiah",
+          "chapter": 58,
+          "verse": 13,
+          "endVerse": 14,
+          "verses": [
+            {
+              "verse": 13,
+              "text": "¶ If thou turn away thy foot from the sabbath, [from] doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the LORD, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking [thine own] words:"
+            },
+            {
+              "verse": 14,
+              "text": "Then shalt thou delight thyself in the LORD; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the LORD hath spoken [it]."
+            }
+          ],
+          "before": "And [they that shall be] of thee shall build the old waste places: thou shalt raise up the foundations of many generations; and thou shalt be called, The repairer of the breach, The restorer of paths to dwell in."
+        }
+      ]
+    },
+    {
+      "id": "kr-117",
+      "passages": [
+        {
+          "reference": "Isaiah 66:22-23",
+          "book": "Isaiah",
+          "chapter": 66,
+          "verse": 22,
+          "endVerse": 23,
+          "verses": [
+            {
+              "verse": 22,
+              "text": "For as the new heavens and the new earth, which I will make, shall remain before me, saith the LORD, so shall your seed and your name remain."
+            },
+            {
+              "verse": 23,
+              "text": "And it shall come to pass, [that] from one new moon to another, and from one sabbath to another, shall all flesh come to worship before me, saith the LORD."
+            }
+          ],
+          "before": "And I will also take of them for priests [and] for Levites, saith the LORD.",
+          "after": "And they shall go forth, and look upon the carcases of the men that have transgressed against me: for their worm shall not die, neither shall their fire be quenched; and they shall be an abhorring unto all flesh."
+        }
+      ]
+    },
+    {
+      "id": "kr-118",
+      "passages": [
+        {
+          "reference": "Nehemiah 13:15-22",
+          "book": "Nehemiah",
+          "chapter": 13,
+          "verse": 15,
+          "endVerse": 22,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "¶ In those days saw I in Judah [some] treading wine presses on the sabbath, and bringing in sheaves, and lading asses; as also wine, grapes, and figs, and all [manner of] burdens, which they brought into Jerusalem on the sabbath day: and I testified [against them] in the day wherein they sold victuals."
+            },
+            {
+              "verse": 16,
+              "text": "There dwelt men of Tyre also therein, which brought fish, and all manner of ware, and sold on the sabbath unto the children of Judah, and in Jerusalem."
+            },
+            {
+              "verse": 17,
+              "text": "Then I contended with the nobles of Judah, and said unto them, What evil thing [is] this that ye do, and profane the sabbath day?"
+            },
+            {
+              "verse": 18,
+              "text": "Did not your fathers thus, and did not our God bring all this evil upon us, and upon this city? yet ye bring more wrath upon Israel by profaning the sabbath."
+            },
+            {
+              "verse": 19,
+              "text": "And it came to pass, that when the gates of Jerusalem began to be dark before the sabbath, I commanded that the gates should be shut, and charged that they should not be opened till after the sabbath: and [some] of my servants set I at the gates, [that] there should no burden be brought in on the sabbath day."
+            },
+            {
+              "verse": 20,
+              "text": "So the merchants and sellers of all kind of ware lodged without Jerusalem once or twice."
+            },
+            {
+              "verse": 21,
+              "text": "Then I testified against them, and said unto them, Why lodge ye about the wall? if ye do [so] again, I will lay hands on you. From that time forth came they no [more] on the sabbath."
+            },
+            {
+              "verse": 22,
+              "text": "And I commanded the Levites that they should cleanse themselves, and [that] they should come [and] keep the gates, to sanctify the sabbath day. Remember me, O my God, [concerning] this also, and spare me according to the greatness of thy mercy."
+            }
+          ],
+          "before": "Remember me, O my God, concerning this, and wipe not out my good deeds that I have done for the house of my God, and for the offices thereof.",
+          "after": "¶ In those days also saw I Jews [that] had married wives of Ashdod, of Ammon, [and] of Moab:"
+        }
+      ]
+    },
+    {
+      "id": "kr-119",
+      "passages": [
+        {
+          "reference": "Numbers 15:38",
+          "book": "Numbers",
+          "chapter": 15,
+          "verse": 38,
+          "endVerse": 38,
+          "verses": [
+            {
+              "verse": 38,
+              "text": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:"
+            }
+          ],
+          "before": "¶ And the LORD spake unto Moses, saying,",
+          "after": "And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the LORD, and do them; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring:"
+        }
+      ]
+    },
+    {
+      "id": "kr-120",
+      "passages": [
+        {
+          "reference": "Deuteronomy 22:12",
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 12,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 12,
+              "text": "¶ Thou shalt make thee fringes upon the four quarters of thy vesture, wherewith thou coverest [thyself]."
+            }
+          ],
+          "before": "¶ Thou shalt not wear a garment of divers sorts, [as] of woollen and linen together.",
+          "after": "¶ If any man take a wife, and go in unto her, and hate her,"
+        }
+      ]
+    },
+    {
+      "id": "kr-121",
+      "passages": [
+        {
+          "reference": "Leviticus 19:27",
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 27,
+          "endVerse": 27,
+          "verses": [
+            {
+              "verse": 27,
+              "text": "Ye shall not round the corners of your heads, neither shalt thou mar the corners of thy beard."
+            }
+          ],
+          "before": "¶ Ye shall not eat [any thing] with the blood: neither shall ye use enchantment, nor observe times.",
+          "after": "Ye shall not make any cuttings in your flesh for the dead, nor print any marks upon you: I [am] the LORD."
+        }
+      ]
+    },
+    {
+      "id": "kr-122",
+      "passages": [
+        {
+          "reference": "Deuteronomy 22:5",
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 5,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 5,
+              "text": "¶ The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman’s garment: for all that do so [are] abomination unto the LORD thy God."
+            }
+          ],
+          "before": "¶ Thou shalt not see thy brother’s ass or his ox fall down by the way, and hide thyself from them: thou shalt surely help him to lift [them] up again.",
+          "after": "¶ If a bird’s nest chance to be before thee in the way in any tree, or on the ground, [whether they be] young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young:"
+        }
+      ]
+    },
+    {
+      "id": "kr-123",
+      "passages": [
+        {
+          "reference": "1 Timothy 2:9-10",
+          "book": "1 Timothy",
+          "chapter": 2,
+          "verse": 9,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "In like manner also, that women adorn themselves in modest apparel, with shamefacedness and sobriety; not with broided hair, or gold, or pearls, or costly array;"
+            },
+            {
+              "verse": 10,
+              "text": "But (which becometh women professing godliness) with good works."
+            }
+          ],
+          "before": "I will therefore that men pray every where, lifting up holy hands, without wrath and doubting.",
+          "after": "Let the woman learn in silence with all subjection."
+        }
+      ]
+    },
+    {
+      "id": "kr-124",
+      "passages": [
+        {
+          "reference": "1 Peter 3:3-4",
+          "book": "1 Peter",
+          "chapter": 3,
+          "verse": 3,
+          "endVerse": 4,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "Whose adorning let it not be that outward [adorning] of plaiting the hair, and of wearing of gold, or of putting on of apparel;"
+            },
+            {
+              "verse": 4,
+              "text": "But [let it be] the hidden man of the heart, in that which is not corruptible, [even the ornament] of a meek and quiet spirit, which is in the sight of God of great price."
+            }
+          ],
+          "before": "While they behold your chaste conversation [coupled] with fear.",
+          "after": "For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands:"
+        }
+      ]
+    },
+    {
+      "id": "kr-125",
+      "passages": [
+        {
+          "reference": "Leviticus 19:28",
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 28,
+          "endVerse": 28,
+          "verses": [
+            {
+              "verse": 28,
+              "text": "Ye shall not make any cuttings in your flesh for the dead, nor print any marks upon you: I [am] the LORD."
+            }
+          ],
+          "before": "Ye shall not round the corners of your heads, neither shalt thou mar the corners of thy beard.",
+          "after": "¶ Do not prostitute thy daughter, to cause her to be a whore; lest the land fall to whoredom, and the land become full of wickedness."
+        }
+      ]
+    },
+    {
+      "id": "kr-126",
+      "passages": [
+        {
+          "reference": "Numbers 15:39-40",
+          "book": "Numbers",
+          "chapter": 15,
+          "verse": 39,
+          "endVerse": 40,
+          "verses": [
+            {
+              "verse": 39,
+              "text": "And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the LORD, and do them; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring:"
+            },
+            {
+              "verse": 40,
+              "text": "That ye may remember, and do all my commandments, and be holy unto your God."
+            }
+          ],
+          "before": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:",
+          "after": "I [am] the LORD your God, which brought you out of the land of Egypt, to be your God: I [am] the LORD your God."
+        }
+      ]
+    },
+    {
+      "id": "kr-127",
+      "passages": [
+        {
+          "reference": "Daniel 6:10",
+          "book": "Daniel",
+          "chapter": 6,
+          "verse": 10,
+          "endVerse": 10,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "¶ Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime."
+            }
+          ],
+          "before": "Wherefore king Darius signed the writing and the decree.",
+          "after": "Then these men assembled, and found Daniel praying and making supplication before his God."
+        }
+      ]
+    },
+    {
+      "id": "kr-128",
+      "passages": [
+        {
+          "reference": "1 Kings 8:46-49",
+          "book": "1 Kings",
+          "chapter": 8,
+          "verse": 46,
+          "endVerse": 49,
+          "verses": [
+            {
+              "verse": 46,
+              "text": "If they sin against thee, (for [there is] no man that sinneth not,) and thou be angry with them, and deliver them to the enemy, so that they carry them away captives unto the land of the enemy, far or near;"
+            },
+            {
+              "verse": 47,
+              "text": "[Yet] if they shall bethink themselves in the land whither they were carried captives, and repent, and make supplication unto thee in the land of them that carried them captives, saying, We have sinned, and have done perversely, we have committed wickedness;"
+            },
+            {
+              "verse": 48,
+              "text": "And [so] return unto thee with all their heart, and with all their soul, in the land of their enemies, which led them away captive, and pray unto thee toward their land, which thou gavest unto their fathers, the city which thou hast chosen, and the house which I have built for thy name:"
+            },
+            {
+              "verse": 49,
+              "text": "Then hear thou their prayer and their supplication in heaven thy dwelling place, and maintain their cause,"
+            }
+          ],
+          "before": "Then hear thou in heaven their prayer and their supplication, and maintain their cause.",
+          "after": "And forgive thy people that have sinned against thee, and all their transgressions wherein they have transgressed against thee, and give them compassion before them who carried them captive, that they may have compassion on them:"
+        }
+      ]
+    },
+    {
+      "id": "kr-129",
+      "passages": [
+        {
+          "reference": "Matthew 6:9-13",
+          "book": "Matthew",
+          "chapter": 6,
+          "verse": 9,
+          "endVerse": 13,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name."
+            },
+            {
+              "verse": 10,
+              "text": "Thy kingdom come. Thy will be done in earth, as [it is] in heaven."
+            },
+            {
+              "verse": 11,
+              "text": "Give us this day our daily bread."
+            },
+            {
+              "verse": 12,
+              "text": "And forgive us our debts, as we forgive our debtors."
+            },
+            {
+              "verse": 13,
+              "text": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."
+            }
+          ],
+          "before": "Be not ye therefore like unto them: for your Father knoweth what things ye have need of, before ye ask him.",
+          "after": "For if ye forgive men their trespasses, your heavenly Father will also forgive you:"
+        }
+      ]
+    },
+    {
+      "id": "kr-130",
+      "passages": [
+        {
+          "reference": "Isaiah 56:6-7",
+          "book": "Isaiah",
+          "chapter": 56,
+          "verse": 6,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "Also the sons of the stranger, that join themselves to the LORD, to serve him, and to love the name of the LORD, to be his servants, every one that keepeth the sabbath from polluting it, and taketh hold of my covenant;"
+            },
+            {
+              "verse": 7,
+              "text": "Even them will I bring to my holy mountain, and make them joyful in my house of prayer: their burnt offerings and their sacrifices [shall be] accepted upon mine altar; for mine house shall be called an house of prayer for all people."
+            }
+          ],
+          "before": "Even unto them will I give in mine house and within my walls a place and a name better than of sons and of daughters: I will give them an everlasting name, that shall not be cut off.",
+          "after": "The Lord GOD which gathereth the outcasts of Israel saith, Yet will I gather [others] to him, beside those that are gathered unto him."
+        }
+      ]
+    },
+    {
+      "id": "kr-131",
+      "passages": [
+        {
+          "reference": "1 Kings 8:27-30",
+          "book": "1 Kings",
+          "chapter": 8,
+          "verse": 27,
+          "endVerse": 30,
+          "verses": [
+            {
+              "verse": 27,
+              "text": "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?"
+            },
+            {
+              "verse": 28,
+              "text": "Yet have thou respect unto the prayer of thy servant, and to his supplication, O LORD my God, to hearken unto the cry and to the prayer, which thy servant prayeth before thee to day:"
+            },
+            {
+              "verse": 29,
+              "text": "That thine eyes may be open toward this house night and day, [even] toward the place of which thou hast said, My name shall be there: that thou mayest hearken unto the prayer which thy servant shall make toward this place."
+            },
+            {
+              "verse": 30,
+              "text": "And hearken thou to the supplication of thy servant, and of thy people Israel, when they shall pray toward this place: and hear thou in heaven thy dwelling place: and when thou hearest, forgive."
+            }
+          ],
+          "before": "And now, O God of Israel, let thy word, I pray thee, be verified, which thou spakest unto thy servant David my father.",
+          "after": "¶ If any man trespass against his neighbour, and an oath be laid upon him to cause him to swear, and the oath come before thine altar in this house:"
+        }
+      ]
+    },
+    {
+      "id": "kr-132",
+      "passages": [
+        {
+          "reference": "Genesis 2:24",
+          "book": "Genesis",
+          "chapter": 2,
+          "verse": 24,
+          "endVerse": 24,
+          "verses": [
+            {
+              "verse": 24,
+              "text": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+            }
+          ],
+          "before": "And Adam said, This [is] now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+          "after": "And they were both naked, the man and his wife, and were not ashamed."
+        }
+      ]
+    },
+    {
+      "id": "kr-133",
+      "passages": [
+        {
+          "reference": "Deuteronomy 7:1-4",
+          "book": "Deuteronomy",
+          "chapter": 7,
+          "verse": 1,
+          "endVerse": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "When the LORD thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites, seven nations greater and mightier than thou;"
+            },
+            {
+              "verse": 2,
+              "text": "And when the LORD thy God shall deliver them before thee; thou shalt smite them, [and] utterly destroy them; thou shalt make no covenant with them, nor shew mercy unto them:"
+            },
+            {
+              "verse": 3,
+              "text": "Neither shalt thou make marriages with them; thy daughter thou shalt not give unto his son, nor his daughter shalt thou take unto thy son."
+            },
+            {
+              "verse": 4,
+              "text": "For they will turn away thy son from following me, that they may serve other gods: so will the anger of the LORD be kindled against you, and destroy thee suddenly."
+            }
+          ],
+          "after": "But thus shall ye deal with them; ye shall destroy their altars, and break down their images, and cut down their groves, and burn their graven images with fire."
+        }
+      ]
+    },
+    {
+      "id": "kr-134",
+      "passages": [
+        {
+          "reference": "Leviticus 18:6",
+          "book": "Leviticus",
+          "chapter": 18,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "¶ None of you shall approach to any that is near of kin to him, to uncover [their] nakedness: I [am] the LORD."
+            }
+          ],
+          "before": "Ye shall therefore keep my statutes, and my judgments: which if a man do, he shall live in them: I [am] the LORD.",
+          "after": "The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she [is] thy mother; thou shalt not uncover her nakedness."
+        }
+      ]
+    },
+    {
+      "id": "kr-135",
+      "passages": [
+        {
+          "reference": "Numbers 36:6-9",
+          "book": "Numbers",
+          "chapter": 36,
+          "verse": 6,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "This [is] the thing which the LORD doth command concerning the daughters of Zelophehad, saying, Let them marry to whom they think best; only to the family of the tribe of their father shall they marry."
+            },
+            {
+              "verse": 7,
+              "text": "So shall not the inheritance of the children of Israel remove from tribe to tribe: for every one of the children of Israel shall keep himself to the inheritance of the tribe of his fathers."
+            },
+            {
+              "verse": 8,
+              "text": "And every daughter, that possesseth an inheritance in any tribe of the children of Israel, shall be wife unto one of the family of the tribe of her father, that the children of Israel may enjoy every man the inheritance of his fathers."
+            },
+            {
+              "verse": 9,
+              "text": "Neither shall the inheritance remove from [one] tribe to another tribe; but every one of the tribes of the children of Israel shall keep himself to his own inheritance."
+            }
+          ],
+          "before": "And Moses commanded the children of Israel according to the word of the LORD, saying, The tribe of the sons of Joseph hath said well.",
+          "after": "Even as the LORD commanded Moses, so did the daughters of Zelophehad:"
+        }
+      ]
+    },
+    {
+      "id": "kr-136",
+      "passages": [
+        {
+          "reference": "Deuteronomy 24:1-4",
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 1,
+          "endVerse": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give [it] in her hand, and send her out of his house."
+            },
+            {
+              "verse": 2,
+              "text": "And when she is departed out of his house, she may go and be another man’s [wife]."
+            },
+            {
+              "verse": 3,
+              "text": "And [if] the latter husband hate her, and write her a bill of divorcement, and giveth [it] in her hand, and sendeth her out of his house; or if the latter husband die, which took her [to be] his wife;"
+            },
+            {
+              "verse": 4,
+              "text": "Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that [is] abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee [for] an inheritance."
+            }
+          ],
+          "after": "¶ When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: [but] he shall be free at home one year, and shall cheer up his wife which he hath taken."
+        }
+      ]
+    },
+    {
+      "id": "kr-137",
+      "passages": [
+        {
+          "reference": "Exodus 20:12",
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": 12,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 12,
+              "text": "¶ Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee."
+            }
+          ],
+          "before": "For [in] six days the LORD made heaven and earth, the sea, and all that in them [is], and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+          "after": "Thou shalt not kill."
+        },
+        {
+          "reference": "Mark 7:9-13",
+          "book": "Mark",
+          "chapter": 7,
+          "verse": 9,
+          "endVerse": 13,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "And he said unto them, Full well ye reject the commandment of God, that ye may keep your own tradition."
+            },
+            {
+              "verse": 10,
+              "text": "For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death:"
+            },
+            {
+              "verse": 11,
+              "text": "But ye say, If a man shall say to his father or mother, [It is] Corban, that is to say, a gift, by whatsoever thou mightest be profited by me; [he shall be free]."
+            },
+            {
+              "verse": 12,
+              "text": "And ye suffer him no more to do ought for his father or his mother;"
+            },
+            {
+              "verse": 13,
+              "text": "Making the word of God of none effect through your tradition, which ye have delivered: and many such like things do ye."
+            }
+          ],
+          "before": "For laying aside the commandment of God, ye hold the tradition of men, [as] the washing of pots and cups: and many other such like things ye do.",
+          "after": "¶ And when he had called all the people [unto him], he said unto them, Hearken unto me every one [of you], and understand:"
+        }
+      ]
+    },
+    {
+      "id": "kr-138",
+      "passages": [
+        {
+          "reference": "Leviticus 11:3",
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 3,
+          "endVerse": 3,
+          "verses": [
+            {
+              "verse": 3,
+              "text": "Whatsoever parteth the hoof, and is clovenfooted, [and] cheweth the cud, among the beasts, that shall ye eat."
+            }
+          ],
+          "before": "Speak unto the children of Israel, saying, These [are] the beasts which ye shall eat among all the beasts that [are] on the earth.",
+          "after": "Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: [as] the camel, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you."
+        }
+      ]
+    },
+    {
+      "id": "kr-139",
+      "passages": [
+        {
+          "reference": "Leviticus 11:7-8",
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 7,
+          "endVerse": 8,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he [is] unclean to you."
+            },
+            {
+              "verse": 8,
+              "text": "Of their flesh shall ye not eat, and their carcase shall ye not touch; they [are] unclean to you."
+            }
+          ],
+          "before": "And the hare, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you.",
+          "after": "¶ These shall ye eat of all that [are] in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat."
+        }
+      ]
+    },
+    {
+      "id": "kr-140",
+      "passages": [
+        {
+          "reference": "Leviticus 11:9",
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 9,
+          "endVerse": 9,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "¶ These shall ye eat of all that [are] in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat."
+            }
+          ],
+          "before": "Of their flesh shall ye not eat, and their carcase shall ye not touch; they [are] unclean to you.",
+          "after": "And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which [is] in the waters, they [shall be] an abomination unto you:"
+        }
+      ]
+    },
+    {
+      "id": "kr-141",
+      "passages": [
+        {
+          "reference": "Leviticus 17:10-14",
+          "book": "Leviticus",
+          "chapter": 17,
+          "verse": 10,
+          "endVerse": 14,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "¶ And whatsoever man [there be] of the house of Israel, or of the strangers that sojourn among you, that eateth any manner of blood; I will even set my face against that soul that eateth blood, and will cut him off from among his people."
+            },
+            {
+              "verse": 11,
+              "text": "For the life of the flesh [is] in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it [is] the blood [that] maketh an atonement for the soul."
+            },
+            {
+              "verse": 12,
+              "text": "Therefore I said unto the children of Israel, No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood."
+            },
+            {
+              "verse": 13,
+              "text": "And whatsoever man [there be] of the children of Israel, or of the strangers that sojourn among you, which hunteth and catcheth any beast or fowl that may be eaten; he shall even pour out the blood thereof, and cover it with dust."
+            },
+            {
+              "verse": 14,
+              "text": "For [it is] the life of all flesh; the blood of it [is] for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh [is] the blood thereof: whosoever eateth it shall be cut off."
+            }
+          ],
+          "before": "And bringeth it not unto the door of the tabernacle of the congregation, to offer it unto the LORD; even that man shall be cut off from among his people.",
+          "after": "And every soul that eateth that which died [of itself], or that which was torn [with beasts, whether it be] one of your own country, or a stranger, he shall both wash his clothes, and bathe [himself] in water, and be unclean until the even: then shall he be clean."
+        }
+      ]
+    },
+    {
+      "id": "kr-142",
+      "passages": [
+        {
+          "reference": "Acts 10:9-28",
+          "book": "Acts",
+          "chapter": 10,
+          "verse": 9,
+          "endVerse": 28,
+          "verses": [
+            {
+              "verse": 9,
+              "text": "¶ On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:"
+            },
+            {
+              "verse": 10,
+              "text": "And he became very hungry, and would have eaten: but while they made ready, he fell into a trance,"
+            },
+            {
+              "verse": 11,
+              "text": "And saw heaven opened, and a certain vessel descending unto him, as it had been a great sheet knit at the four corners, and let down to the earth:"
+            },
+            {
+              "verse": 12,
+              "text": "Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air."
+            },
+            {
+              "verse": 13,
+              "text": "And there came a voice to him, Rise, Peter; kill, and eat."
+            },
+            {
+              "verse": 14,
+              "text": "But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean."
+            },
+            {
+              "verse": 15,
+              "text": "And the voice [spake] unto him again the second time, What God hath cleansed, [that] call not thou common."
+            },
+            {
+              "verse": 16,
+              "text": "This was done thrice: and the vessel was received up again into heaven."
+            },
+            {
+              "verse": 17,
+              "text": "Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon’s house, and stood before the gate,"
+            },
+            {
+              "verse": 18,
+              "text": "And called, and asked whether Simon, which was surnamed Peter, were lodged there."
+            },
+            {
+              "verse": 19,
+              "text": "¶ While Peter thought on the vision, the Spirit said unto him, Behold, three men seek thee."
+            },
+            {
+              "verse": 20,
+              "text": "Arise therefore, and get thee down, and go with them, doubting nothing: for I have sent them."
+            },
+            {
+              "verse": 21,
+              "text": "Then Peter went down to the men which were sent unto him from Cornelius; and said, Behold, I am he whom ye seek: what [is] the cause wherefore ye are come?"
+            },
+            {
+              "verse": 22,
+              "text": "And they said, Cornelius the centurion, a just man, and one that feareth God, and of good report among all the nation of the Jews, was warned from God by an holy angel to send for thee into his house, and to hear words of thee."
+            },
+            {
+              "verse": 23,
+              "text": "Then called he them in, and lodged [them]. And on the morrow Peter went away with them, and certain brethren from Joppa accompanied him."
+            },
+            {
+              "verse": 24,
+              "text": "And the morrow after they entered into Cæsarea. And Cornelius waited for them, and had called together his kinsmen and near friends."
+            },
+            {
+              "verse": 25,
+              "text": "And as Peter was coming in, Cornelius met him, and fell down at his feet, and worshipped [him]."
+            },
+            {
+              "verse": 26,
+              "text": "But Peter took him up, saying, Stand up; I myself also am a man."
+            },
+            {
+              "verse": 27,
+              "text": "And as he talked with him, he went in, and found many that were come together."
+            },
+            {
+              "verse": 28,
+              "text": "And he said unto them, Ye know how that it is an unlawful thing for a man that is a Jew to keep company, or come unto one of another nation; but God hath shewed me that I should not call any man common or unclean."
+            }
+          ],
+          "before": "And when he had declared all [these] things unto them, he sent them to Joppa.",
+          "after": "Therefore came I [unto you] without gainsaying, as soon as I was sent for: I ask therefore for what intent ye have sent for me?"
+        }
+      ]
+    },
+    {
+      "id": "kr-143",
+      "passages": [
+        {
+          "reference": "Isaiah 66:15-17",
+          "book": "Isaiah",
+          "chapter": 66,
+          "verse": 15,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "For, behold, the LORD will come with fire, and with his chariots like a whirlwind, to render his anger with fury, and his rebuke with flames of fire."
+            },
+            {
+              "verse": 16,
+              "text": "For by fire and by his sword will the LORD plead with all flesh: and the slain of the LORD shall be many."
+            },
+            {
+              "verse": 17,
+              "text": "They that sanctify themselves, and purify themselves in the gardens behind one [tree] in the midst, eating swine’s flesh, and the abomination, and the mouse, shall be consumed together, saith the LORD."
+            }
+          ],
+          "before": "And when ye see [this], your heart shall rejoice, and your bones shall flourish like an herb: and the hand of the LORD shall be known toward his servants, and [his] indignation toward his enemies.",
+          "after": "For I [know] their works and their thoughts: it shall come, that I will gather all nations and tongues; and they shall come, and see my glory."
+        }
+      ]
+    },
+    {
+      "id": "kr-144",
+      "passages": [
+        {
+          "reference": "Mark 7:1-23",
+          "book": "Mark",
+          "chapter": 7,
+          "verse": 1,
+          "endVerse": 23,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem."
+            },
+            {
+              "verse": 2,
+              "text": "And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault."
+            },
+            {
+              "verse": 3,
+              "text": "For the Pharisees, and all the Jews, except they wash [their] hands oft, eat not, holding the tradition of the elders."
+            },
+            {
+              "verse": 4,
+              "text": "And [when they come] from the market, except they wash, they eat not. And many other things there be, which they have received to hold, [as] the washing of cups, and pots, brasen vessels, and of tables."
+            },
+            {
+              "verse": 5,
+              "text": "Then the Pharisees and scribes asked him, Why walk not thy disciples according to the tradition of the elders, but eat bread with unwashen hands?"
+            },
+            {
+              "verse": 6,
+              "text": "He answered and said unto them, Well hath Esaias prophesied of you hypocrites, as it is written, This people honoureth me with [their] lips, but their heart is far from me."
+            },
+            {
+              "verse": 7,
+              "text": "Howbeit in vain do they worship me, teaching [for] doctrines the commandments of men."
+            },
+            {
+              "verse": 8,
+              "text": "For laying aside the commandment of God, ye hold the tradition of men, [as] the washing of pots and cups: and many other such like things ye do."
+            },
+            {
+              "verse": 9,
+              "text": "And he said unto them, Full well ye reject the commandment of God, that ye may keep your own tradition."
+            },
+            {
+              "verse": 10,
+              "text": "For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death:"
+            },
+            {
+              "verse": 11,
+              "text": "But ye say, If a man shall say to his father or mother, [It is] Corban, that is to say, a gift, by whatsoever thou mightest be profited by me; [he shall be free]."
+            },
+            {
+              "verse": 12,
+              "text": "And ye suffer him no more to do ought for his father or his mother;"
+            },
+            {
+              "verse": 13,
+              "text": "Making the word of God of none effect through your tradition, which ye have delivered: and many such like things do ye."
+            },
+            {
+              "verse": 14,
+              "text": "¶ And when he had called all the people [unto him], he said unto them, Hearken unto me every one [of you], and understand:"
+            },
+            {
+              "verse": 15,
+              "text": "There is nothing from without a man, that entering into him can defile him: but the things which come out of him, those are they that defile the man."
+            },
+            {
+              "verse": 16,
+              "text": "If any man have ears to hear, let him hear."
+            },
+            {
+              "verse": 17,
+              "text": "And when he was entered into the house from the people, his disciples asked him concerning the parable."
+            },
+            {
+              "verse": 18,
+              "text": "And he saith unto them, Are ye so without understanding also? Do ye not perceive, that whatsoever thing from without entereth into the man, [it] cannot defile him;"
+            },
+            {
+              "verse": 19,
+              "text": "Because it entereth not into his heart, but into the belly, and goeth out into the draught, purging all meats?"
+            },
+            {
+              "verse": 20,
+              "text": "And he said, That which cometh out of the man, that defileth the man."
+            },
+            {
+              "verse": 21,
+              "text": "For from within, out of the heart of men, proceed evil thoughts, adulteries, fornications, murders,"
+            },
+            {
+              "verse": 22,
+              "text": "Thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness:"
+            },
+            {
+              "verse": 23,
+              "text": "All these evil things come from within, and defile the man."
+            }
+          ],
+          "after": "¶ And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know [it]: but he could not be hid."
+        },
+        {
+          "reference": "Matthew 15:1-20",
+          "book": "Matthew",
+          "chapter": 15,
+          "verse": 1,
+          "endVerse": 20,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Then came to Jesus scribes and Pharisees, which were of Jerusalem, saying,"
+            },
+            {
+              "verse": 2,
+              "text": "Why do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread."
+            },
+            {
+              "verse": 3,
+              "text": "But he answered and said unto them, Why do ye also transgress the commandment of God by your tradition?"
+            },
+            {
+              "verse": 4,
+              "text": "For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death."
+            },
+            {
+              "verse": 5,
+              "text": "But ye say, Whosoever shall say to [his] father or [his] mother, [It is] a gift, by whatsoever thou mightest be profited by me;"
+            },
+            {
+              "verse": 6,
+              "text": "And honour not his father or his mother, [he shall be free]. Thus have ye made the commandment of God of none effect by your tradition."
+            },
+            {
+              "verse": 7,
+              "text": "[Ye] hypocrites, well did Esaias prophesy of you, saying,"
+            },
+            {
+              "verse": 8,
+              "text": "This people draweth nigh unto me with their mouth, and honoureth me with [their] lips; but their heart is far from me."
+            },
+            {
+              "verse": 9,
+              "text": "But in vain they do worship me, teaching [for] doctrines the commandments of men."
+            },
+            {
+              "verse": 10,
+              "text": "¶ And he called the multitude, and said unto them, Hear, and understand:"
+            },
+            {
+              "verse": 11,
+              "text": "Not that which goeth into the mouth defileth a man; but that which cometh out of the mouth, this defileth a man."
+            },
+            {
+              "verse": 12,
+              "text": "Then came his disciples, and said unto him, Knowest thou that the Pharisees were offended, after they heard this saying?"
+            },
+            {
+              "verse": 13,
+              "text": "But he answered and said, Every plant, which my heavenly Father hath not planted, shall be rooted up."
+            },
+            {
+              "verse": 14,
+              "text": "Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch."
+            },
+            {
+              "verse": 15,
+              "text": "Then answered Peter and said unto him, Declare unto us this parable."
+            },
+            {
+              "verse": 16,
+              "text": "And Jesus said, Are ye also yet without understanding?"
+            },
+            {
+              "verse": 17,
+              "text": "Do not ye yet understand, that whatsoever entereth in at the mouth goeth into the belly, and is cast out into the draught?"
+            },
+            {
+              "verse": 18,
+              "text": "But those things which proceed out of the mouth come forth from the heart; and they defile the man."
+            },
+            {
+              "verse": 19,
+              "text": "For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies:"
+            },
+            {
+              "verse": 20,
+              "text": "These are [the things] which defile a man: but to eat with unwashen hands defileth not a man."
+            }
+          ],
+          "after": "¶ Then Jesus went thence, and departed into the coasts of Tyre and Sidon."
+        }
+      ]
+    },
+    {
+      "id": "kr-145",
+      "passages": [
+        {
+          "reference": "Matthew 22:37",
+          "book": "Matthew",
+          "chapter": 22,
+          "verse": 37,
+          "endVerse": 37,
+          "verses": [
+            {
+              "verse": 37,
+              "text": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind."
+            }
+          ],
+          "before": "Master, which [is] the great commandment in the law?",
+          "after": "This is the first and great commandment."
+        },
+        {
+          "reference": "Deuteronomy 6:4-5",
+          "book": "Deuteronomy",
+          "chapter": 6,
+          "verse": 4,
+          "endVerse": 5,
+          "verses": [
+            {
+              "verse": 4,
+              "text": "Hear, O Israel: The LORD our God [is] one LORD:"
+            },
+            {
+              "verse": 5,
+              "text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might."
+            }
+          ],
+          "before": "¶ Hear therefore, O Israel, and observe to do [it;] that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey.",
+          "after": "And these words, which I command thee this day, shall be in thine heart:"
+        }
+      ]
+    },
+    {
+      "id": "kr-146",
+      "passages": [
+        {
+          "reference": "Matthew 22:39",
+          "book": "Matthew",
+          "chapter": 22,
+          "verse": 39,
+          "endVerse": 39,
+          "verses": [
+            {
+              "verse": 39,
+              "text": "And the second [is] like unto it, Thou shalt love thy neighbour as thyself."
+            }
+          ],
+          "before": "This is the first and great commandment.",
+          "after": "On these two commandments hang all the law and the prophets."
+        },
+        {
+          "reference": "Leviticus 19:18",
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 18,
+          "endVerse": 18,
+          "verses": [
+            {
+              "verse": 18,
+              "text": "¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD."
+            }
+          ],
+          "before": "¶ Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him.",
+          "after": "¶ Ye shall keep my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt not sow thy field with mingled seed: neither shall a garment mingled of linen and woollen come upon thee."
+        }
+      ]
+    },
+    {
+      "id": "kr-147",
+      "passages": [
+        {
+          "reference": "Matthew 12:7",
+          "book": "Matthew",
+          "chapter": 12,
+          "verse": 7,
+          "endVerse": 7,
+          "verses": [
+            {
+              "verse": 7,
+              "text": "But if ye had known what [this] meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless."
+            }
+          ],
+          "before": "But I say unto you, That in this place is [one] greater than the temple.",
+          "after": "For the Son of man is Lord even of the sabbath day."
+        },
+        {
+          "reference": "Hosea 6:6",
+          "book": "Hosea",
+          "chapter": 6,
+          "verse": 6,
+          "endVerse": 6,
+          "verses": [
+            {
+              "verse": 6,
+              "text": "For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings."
+            }
+          ],
+          "before": "Therefore have I hewed [them] by the prophets; I have slain them by the words of my mouth: and thy judgments [are as] the light [that] goeth forth.",
+          "after": "But they like men have transgressed the covenant: there have they dealt treacherously against me."
+        }
+      ]
+    },
+    {
+      "id": "kr-148",
+      "passages": [
+        {
+          "reference": "Luke 24:44",
+          "book": "Luke",
+          "chapter": 24,
+          "verse": 44,
+          "endVerse": 44,
+          "verses": [
+            {
+              "verse": 44,
+              "text": "And he said unto them, These [are] the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and [in] the prophets, and [in] the psalms, concerning me."
+            }
+          ],
+          "before": "And he took [it], and did eat before them.",
+          "after": "Then opened he their understanding, that they might understand the scriptures,"
+        }
+      ]
+    },
+    {
+      "id": "kr-149",
+      "passages": [
+        {
+          "reference": "Acts 17:10-12",
+          "book": "Acts",
+          "chapter": 17,
+          "verse": 10,
+          "endVerse": 12,
+          "verses": [
+            {
+              "verse": 10,
+              "text": "¶ And the brethren immediately sent away Paul and Silas by night unto Berea: who coming [thither] went into the synagogue of the Jews."
+            },
+            {
+              "verse": 11,
+              "text": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+            },
+            {
+              "verse": 12,
+              "text": "Therefore many of them believed; also of honourable women which were Greeks, and of men, not a few."
+            }
+          ],
+          "before": "And when they had taken security of Jason, and of the other, they let them go.",
+          "after": "But when the Jews of Thessalonica had knowledge that the word of God was preached of Paul at Berea, they came thither also, and stirred up the people."
+        }
+      ]
+    },
+    {
+      "id": "kr-150",
+      "passages": [
+        {
+          "reference": "Luke 24:44",
+          "book": "Luke",
+          "chapter": 24,
+          "verse": 44,
+          "endVerse": 44,
+          "verses": [
+            {
+              "verse": 44,
+              "text": "And he said unto them, These [are] the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and [in] the prophets, and [in] the psalms, concerning me."
+            }
+          ],
+          "before": "And he took [it], and did eat before them.",
+          "after": "Then opened he their understanding, that they might understand the scriptures,"
+        },
+        {
+          "reference": "Acts 17:11",
+          "book": "Acts",
+          "chapter": 17,
+          "verse": 11,
+          "endVerse": 11,
+          "verses": [
+            {
+              "verse": 11,
+              "text": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+            }
+          ],
+          "before": "¶ And the brethren immediately sent away Paul and Silas by night unto Berea: who coming [thither] went into the synagogue of the Jews.",
+          "after": "Therefore many of them believed; also of honourable women which were Greeks, and of men, not a few."
+        },
+        {
+          "reference": "2 Timothy 3:15-17",
+          "book": "2 Timothy",
+          "chapter": 3,
+          "verse": 15,
+          "endVerse": 17,
+          "verses": [
+            {
+              "verse": 15,
+              "text": "And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus."
+            },
+            {
+              "verse": 16,
+              "text": "All scripture [is] given by inspiration of God, and [is] profitable for doctrine, for reproof, for correction, for instruction in righteousness:"
+            },
+            {
+              "verse": 17,
+              "text": "That the man of God may be perfect, throughly furnished unto all good works."
+            }
+          ],
+          "before": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned [them];"
+        }
+      ]
+    }
+  ]
+}

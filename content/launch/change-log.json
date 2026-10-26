@@ -1,0 +1,1636 @@
+[
+  {
+    "id": "bke-melchizedek-gifts",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Genesis 14:18",
+        "before": "Melchizedek king of Salem",
+        "after": "And Melchizedek king of Salem brought forth bread and wine: and he [was] the priest of the most high God."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 1
+      },
+      "editorial": 1,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-joseph-age",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Genesis 41:46",
+        "before": "Joseph was thirty years old",
+        "after": "¶ And Joseph [was] thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 1
+      },
+      "editorial": 1,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-moses-hands",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Exodus 17:12",
+        "before": "Aaron and Hur stayed up his hands",
+        "after": "But Moses’ hands [were] heavy; and they took a stone, and put [it] under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-oshea-name",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Numbers 13:16",
+        "before": "Moses called Oshea the son of Nun Jehoshua",
+        "after": "These [are] the names of the men which Moses sent to spy out the land. And Moses called Oshea the son of Nun Jehoshua."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-jordan-season",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Joshua 3:15",
+        "before": "all the time of harvest",
+        "after": "And as they that bare the ark were come unto Jordan, and the feet of the priests that bare the ark were dipped in the brim of the water, (for Jordan overfloweth all his banks all the time of harvest,)"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-ruth-husband",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Ruth 4:13",
+        "before": "Boaz took Ruth",
+        "after": "¶ So Boaz took Ruth, and she was his wife: and when he went in unto her, the LORD gave her conception, and she bare a son."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 1
+      },
+      "editorial": 1,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-elijah-water",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "1 Kings 18:33",
+        "before": "Fill four barrels with water",
+        "after": "And he put the wood in order, and cut the bullock in pieces, and laid [him] on the wood, and said, Fill four barrels with water, and pour [it] on the burnt sacrifice, and on the wood."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-nehemiah-office",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Nehemiah 1:11",
+        "before": "I was the king's cupbearer",
+        "after": "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king’s cupbearer."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 1
+      },
+      "editorial": 1,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-enemy-burden",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Exodus 23:5",
+        "before": "thou shalt surely help with him",
+        "after": "If thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help him, thou shalt surely help with him."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-neighbor-love",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 19:18",
+        "before": "love thy neighbour as thyself",
+        "after": "¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 1
+      },
+      "editorial": 1,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-impartial-court",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 19:15",
+        "before": "in righteousness shalt thou judge thy neighbour",
+        "after": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-trumpets-date",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 23:24",
+        "before": "first day of the month",
+        "after": "Speak unto the children of Israel, saying, In the seventh month, in the first [day] of the month, shall ye have a sabbath, a memorial of blowing of trumpets, an holy convocation."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-annual-appearances",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 16:16",
+        "before": "three times in a year",
+        "after": "¶ Three times in a year shall all thy males appear before the LORD thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles: and they shall not appear before the LORD empty:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-king-law-copy",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 17:18",
+        "before": "a copy of this law",
+        "after": "And it shall be, when he sitteth upon the throne of his kingdom, that he shall write him a copy of this law in a book out of [that which is] before the priests the Levites:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-forgotten-sheaf",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 24:19",
+        "before": "the stranger, for the fatherless, and for the widow",
+        "after": "¶ When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-later-passover",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Numbers 9:11",
+        "before": "fourteenth day of the second month",
+        "after": "The fourteenth day of the second month at even they shall keep it, [and] eat it with unleavened bread and bitter [herbs]."
+      },
+      {
+        "reference": "Numbers 9:10",
+        "before": "a journey afar off",
+        "after": "Speak unto the children of Israel, saying, If any man of you or of your posterity shall be unclean by reason of a dead body, or [be] in a journey afar off, yet he shall keep the passover unto the LORD."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-reconcile-first",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 5:24",
+        "before": "first be reconciled to thy brother",
+        "after": "Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-rock-hearer",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 7:24",
+        "before": "heareth these sayings of mine, and doeth them",
+        "after": "¶ Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-mercy-hosea",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 12:7",
+        "before": "I will have mercy",
+        "after": "But if ye had known what [this] meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless."
+      },
+      {
+        "reference": "Hosea 6:6",
+        "before": "I desired mercy",
+        "after": "For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-sabbath-for-man",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Mark 2:27",
+        "before": "The sabbath was made for man",
+        "after": "And he said unto them, The sabbath was made for man, and not man for the sabbath:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-neighbor-mercy",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Luke 10:37",
+        "before": "He that shewed mercy on him",
+        "after": "And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-chief-serves",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Luke 22:26",
+        "before": "as he that doth serve",
+        "after": "But ye [shall] not [be] so: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-footwashing-example",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "John 13:14",
+        "before": "wash one another's feet",
+        "after": "If I then, [your] Lord and Master, have washed your feet; ye also ought to wash one another’s feet."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-peter-joel",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Acts 2:16",
+        "before": "spoken by the prophet Joel",
+        "after": "But this is that which was spoken by the prophet Joel;"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-david-tabernacle",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Acts 15:16",
+        "before": "tabernacle of David",
+        "after": "After this I will return, and will build again the tabernacle of David, which is fallen down; and I will build again the ruins thereof, and I will set it up:"
+      },
+      {
+        "reference": "Amos 9:11",
+        "before": "tabernacle of David",
+        "after": "¶ In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up his ruins, and I will build it as in the days of old:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-abraham-counted",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Romans 4:3",
+        "before": "Abraham believed God",
+        "after": "For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness."
+      },
+      {
+        "reference": "Genesis 15:6",
+        "before": "counted it to him for righteousness",
+        "after": "And he believed in the LORD; and he counted it to him for righteousness."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-enemy-provision",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Romans 12:20",
+        "before": "if thine enemy hunger, feed him",
+        "after": "Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head."
+      },
+      {
+        "reference": "Proverbs 25:21",
+        "before": "give him bread to eat",
+        "after": "If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-rock-comparison",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "1 Corinthians 10:4",
+        "before": "that Rock was Christ",
+        "after": "And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ."
+      },
+      {
+        "reference": "Exodus 17:6",
+        "before": "upon the rock in Horeb",
+        "after": "Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-law-hearts",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Hebrews 8:10",
+        "before": "write them in their hearts",
+        "after": "For this [is] the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:"
+      },
+      {
+        "reference": "Jeremiah 31:33",
+        "before": "write it in their hearts",
+        "after": "But this [shall be] the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-no-deceit",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "1 Peter 2:22",
+        "before": "neither was guile found",
+        "after": "Who did no sin, neither was guile found in his mouth:"
+      },
+      {
+        "reference": "Isaiah 53:9",
+        "before": "neither was any deceit in his mouth",
+        "after": "And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither [was any] deceit in his mouth."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-weak-received",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Romans 14:1",
+        "before": "not to doubtful disputations",
+        "after": "Him that is weak in the faith receive ye, [but] not to doubtful disputations."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-corban-meaning",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Mark 7:11",
+        "before": "that is to say, a gift",
+        "after": "But ye say, If a man shall say to his father or mother, [It is] Corban, that is to say, a gift, by whatsoever thou mightest be profited by me; [he shall be free]."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-law-reveals-coveting",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Romans 7:7",
+        "before": "Thou shalt not covet",
+        "after": "What shall we say then? [Is] the law sin? God forbid. Nay, I had not known sin, but by the law: for I had not known lust, except the law had said, Thou shalt not covet."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-liberty-service",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Galatians 5:13",
+        "before": "by love serve one another",
+        "after": "For, brethren, ye have been called unto liberty; only [use] not liberty for an occasion to the flesh, but by love serve one another."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-tradition-christ",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Colossians 2:8",
+        "before": "and not after Christ",
+        "after": "Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-paul-wrested",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "2 Peter 3:16",
+        "before": "unlearned and unstable wrest",
+        "after": "As also in all [his] epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as [they do] also the other scriptures, unto their own destruction."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-assembly-seating",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "James 2:3",
+        "before": "Sit thou here in a good place",
+        "after": "And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-zion-law",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Isaiah 2:3",
+        "before": "out of Zion shall go forth the law",
+        "after": "And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-kingdom-endures",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Daniel 2:44",
+        "before": "it shall stand for ever",
+        "after": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, [but] it shall break in pieces and consume all these kingdoms, and it shall stand for ever."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-wicked-return",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Ezekiel 18:23",
+        "before": "return from his ways, and live",
+        "after": "Have I any pleasure at all that the wicked should die? saith the Lord GOD: [and] not that he should return from his ways, and live?"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-nations-tabernacles",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Zechariah 14:16",
+        "before": "keep the feast of tabernacles",
+        "after": "¶ And it shall come to pass, [that] every one that is left of all the nations which came against Jerusalem shall even go up from year to year to worship the King, the LORD of hosts, and to keep the feast of tabernacles."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-stranger-welcomed",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 25:35",
+        "before": "I was a stranger, and ye took me in",
+        "after": "For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-tree-leaves",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Revelation 22:2",
+        "before": "healing of the nations",
+        "after": "In the midst of the street of it, and on either side of the river, [was there] the tree of life, which bare twelve [manner of] fruits, [and] yielded her fruit every month: and the leaves of the tree [were] for the healing of the nations."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-rulers-answerable",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Wisdom of Solomon 6:3",
+        "before": "power is given you of the Lord",
+        "after": "For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-leader-covetousness",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Exodus 18:21",
+        "before": "hating covetousness",
+        "after": "Moreover thou shalt provide out of all the people able men, such as fear God, men of truth, hating covetousness; and place [such] over them, [to be] rulers of thousands, [and] rulers of hundreds, rulers of fifties, and rulers of tens:"
+      },
+      {
+        "reference": "1 Timothy 3:3",
+        "before": "not covetous",
+        "after": "Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous;"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 6
+      },
+      "editorial": 5,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-test-teaching",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Acts 17:11",
+        "before": "searched the scriptures daily",
+        "after": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        "reference": "1 Thessalonians 5:21",
+        "before": "hold fast that which is good",
+        "after": "Prove all things; hold fast that which is good."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 6
+      },
+      "editorial": 5,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-gentle-correction",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Galatians 6:1",
+        "before": "spirit of meekness",
+        "after": "Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted."
+      },
+      {
+        "reference": "2 Timothy 2:25",
+        "before": "In meekness instructing",
+        "after": "In meekness instructing those that oppose themselves; if God peradventure will give them repentance to the acknowledging of the truth;"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 7
+      },
+      "editorial": 5,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-testing-gold",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Ecclesiasticus 2:5",
+        "before": "gold is tried in the fire",
+        "after": "For gold is tried in the fire, and acceptable men in the furnace of adversity."
+      },
+      {
+        "reference": "1 Peter 1:7",
+        "before": "though it be tried with fire",
+        "after": "That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "bke-asking-wisdom",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Wisdom of Solomon 7:7",
+        "before": "I prayed, and understanding was given me",
+        "after": "Wherefore I prayed, and understanding was given me: I called upon God, and the spirit of wisdom came to me."
+      },
+      {
+        "reference": "James 1:5",
+        "before": "let him ask of God",
+        "after": "If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 3,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-103",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Numbers 15:38-40",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue: And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the LORD, and do them; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring: That ye may remember, and do all my commandments, and be holy unto your God."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-104",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Exodus 31:16-17",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, [for] a perpetual covenant. It [is] a sign between me and the children of Israel for ever: for [in] six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-105",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 5:17-19",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "¶ Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil. For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled. Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach [them], the same shall be called great in the kingdom of heaven."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-115",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 12:9-12",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "And when he was departed thence, he went into their synagogue: ¶ And, behold, there was a man which had [his] hand withered. And they asked him, saying, Is it lawful to heal on the sabbath days? that they might accuse him. And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift [it] out? How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days."
+      },
+      {
+        "reference": "Mark 3:1-5",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "And he entered again into the synagogue; and there was a man there which had a withered hand. And they watched him, whether he would heal him on the sabbath day; that they might accuse him. And he saith unto the man which had the withered hand, Stand forth. And he saith unto them, Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill? But they held their peace. And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man, Stretch forth thine hand. And he stretched [it] out: and his hand was restored whole as the other."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 4
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-117",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Isaiah 66:22-23",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "For as the new heavens and the new earth, which I will make, shall remain before me, saith the LORD, so shall your seed and your name remain. And it shall come to pass, [that] from one new moon to another, and from one sabbath to another, shall all flesh come to worship before me, saith the LORD."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 5
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-119",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Numbers 15:38",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:"
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 2
+      },
+      "editorial": 2,
+      "prepared": {
+        "display": 1,
+        "complexity": 1
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-120",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 22:12",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "¶ Thou shalt make thee fringes upon the four quarters of thy vesture, wherewith thou coverest [thyself]."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-121",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 19:27",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Ye shall not round the corners of your heads, neither shalt thou mar the corners of thy beard."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-122",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 22:5",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "¶ The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman’s garment: for all that do so [are] abomination unto the LORD thy God."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-127",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Daniel 6:10",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "¶ Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-129",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Matthew 6:9-13",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done in earth, as [it is] in heaven. Give us this day our daily bread. And forgive us our debts, as we forgive our debtors. And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-130",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Isaiah 56:6-7",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Also the sons of the stranger, that join themselves to the LORD, to serve him, and to love the name of the LORD, to be his servants, every one that keepeth the sabbath from polluting it, and taketh hold of my covenant; Even them will I bring to my holy mountain, and make them joyful in my house of prayer: their burnt offerings and their sacrifices [shall be] accepted upon mine altar; for mine house shall be called an house of prayer for all people."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 5
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-132",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Genesis 2:24",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-133",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 7:1-4",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "When the LORD thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites, seven nations greater and mightier than thou; And when the LORD thy God shall deliver them before thee; thou shalt smite them, [and] utterly destroy them; thou shalt make no covenant with them, nor shew mercy unto them: Neither shalt thou make marriages with them; thy daughter thou shalt not give unto his son, nor his daughter shalt thou take unto thy son. For they will turn away thy son from following me, that they may serve other gods: so will the anger of the LORD be kindled against you, and destroy thee suddenly."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-135",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Numbers 36:6-9",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "This [is] the thing which the LORD doth command concerning the daughters of Zelophehad, saying, Let them marry to whom they think best; only to the family of the tribe of their father shall they marry. So shall not the inheritance of the children of Israel remove from tribe to tribe: for every one of the children of Israel shall keep himself to the inheritance of the tribe of his fathers. And every daughter, that possesseth an inheritance in any tribe of the children of Israel, shall be wife unto one of the family of the tribe of her father, that the children of Israel may enjoy every man the inheritance of his fathers. Neither shall the inheritance remove from [one] tribe to another tribe; but every one of the tribes of the children of Israel shall keep himself to his own inheritance."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 5
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-136",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Deuteronomy 24:1-4",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give [it] in her hand, and send her out of his house. And when she is departed out of his house, she may go and be another man’s [wife]. And [if] the latter husband hate her, and write her a bill of divorcement, and giveth [it] in her hand, and sendeth her out of his house; or if the latter husband die, which took her [to be] his wife; Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that [is] abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee [for] an inheritance."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 5
+      },
+      "editorial": 4,
+      "prepared": {
+        "display": 2,
+        "complexity": 3
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-139",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 11:7-8",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he [is] unclean to you. Of their flesh shall ye not eat, and their carcase shall ye not touch; they [are] unclean to you."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 1,
+        "complexity": 3
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-141",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Leviticus 17:10-14",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "¶ And whatsoever man [there be] of the house of Israel, or of the strangers that sojourn among you, that eateth any manner of blood; I will even set my face against that soul that eateth blood, and will cut him off from among his people. For the life of the flesh [is] in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it [is] the blood [that] maketh an atonement for the soul. Therefore I said unto the children of Israel, No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood. And whatsoever man [there be] of the children of Israel, or of the strangers that sojourn among you, which hunteth and catcheth any beast or fowl that may be eaten; he shall even pour out the blood thereof, and cover it with dust. For [it is] the life of all flesh; the blood of it [is] for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh [is] the blood thereof: whosoever eateth it shall be cut off."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 4
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  },
+  {
+    "id": "kr-143",
+    "scope": "Prepared copy only; original candidate and live bank unchanged",
+    "evidenceChanges": [
+      {
+        "reference": "Isaiah 66:15-17",
+        "before": "[PENDING: editor supplied the citation; KJV passage excerpt and context have not yet been independently checked.]",
+        "after": "For, behold, the LORD will come with fire, and with his chariots like a whirlwind, to render his anger with fury, and his rebuke with flames of fire. For by fire and by his sword will the LORD plead with all flesh: and the slain of the LORD shall be many. They that sanctify themselves, and purify themselves in the gardens behind one [tree] in the midst, eating swine’s flesh, and the abomination, and the mouse, shall be consumed together, saith the LORD."
+      }
+    ],
+    "difficulty": {
+      "before": {
+        "display": 2,
+        "complexity": 5
+      },
+      "editorial": 3,
+      "prepared": {
+        "display": 1,
+        "complexity": 2
+      }
+    },
+    "questionChoicesAnswerExplanationChanged": false
+  }
+]
