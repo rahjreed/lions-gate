@@ -1,6 +1,6 @@
 # Biblical Knowledge Engine
 
-Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) maps explicitly calibrated 1–10 editorial ratings without changing existing records or the runtime 1–3 display / 1–7 complexity fields described here. Current inventory: **42 live reviewed questions, 100 unpublished candidates in two batches, zero published additions**. [Coverage tracker guide](content/CURRICULUM_COVERAGE.md) and [publishing audit](QUESTION_PUBLISHING_AUDIT.md) distinguish planned coverage, human review, local publication and deployment, including current workflow limitations.
+Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) maps explicitly calibrated 1–10 editorial ratings without changing existing records or the runtime 1–3 display / 1–7 complexity fields described here. Current inventory: **42 live reviewed questions, 150 unpublished candidates in three batches, zero published additions**. The latest [50 Torah everyday-life candidates](content/TORAH_EVERYDAY_LIFE_50_REVIEW.md) have recorded AI-assisted passage/context evidence, not approval. [Coverage tracker guide](content/CURRICULUM_COVERAGE.md) and [publishing audit](QUESTION_PUBLISHING_AUDIT.md) distinguish planned coverage, human review, local publication and deployment, including current workflow limitations.
 
 This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. No candidates have been published.
 
@@ -29,7 +29,7 @@ The proposed campaign extends advanced Scripture comparison, contextual interpre
 
 The legacy `difficulty` 1–3 remains the display tier. New records additionally have `knowledge.complexity` 1–7, `knowledge.category`, `knowledge.concept` and `knowledge.mode` (`explicit`, `multi-passage`, `framework`). Use 1–2 for recall, 3 for close context, 4–5 for comparison, and 6–7 for demanding passage-supported discernment and leadership scenarios. Difficulty needs human calibration: number of citations alone does not establish difficulty.
 
-**Current limitation:** The 42 live questions still contain only their original three difficulty tiers. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages presently use the hardest eligible reviewed material with rotation. Neither unpublished 50-question candidate batch has changed live gameplay content.
+**Current limitation:** The 42 live questions still contain only their original three difficulty tiers. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages presently use the hardest eligible reviewed material with rotation. No unpublished candidate batch has changed live gameplay content.
 
 ## Rotation and saves
 

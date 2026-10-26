@@ -2,7 +2,7 @@
 
 Policy: [Biblical curriculum and doctrine](../BIBLICAL_CURRICULUM_AND_DOCTRINE.md). Publication behavior: [audit](../QUESTION_PUBLISHING_AUDIT.md).
 
-`curriculum-coverage.json` is a generated documentation index, outside the game's imports and PWA shell. It currently inventories 42 live reviewed records plus 100 candidates, with zero published additions. It does not create educational questions or perform Scripture verification.
+`curriculum-coverage.json` is a generated documentation index, outside the game's imports and PWA shell. It currently inventories 42 live reviewed records plus 150 candidates, with zero published additions. The latest 50 Torah everyday-life drafts are documented in [their review report](TORAH_EVERYDAY_LIFE_50_REVIEW.md). The inventory does not create educational questions or perform Scripture verification.
 
 The framework contains:
 

@@ -1,0 +1,2827 @@
+[
+  {
+    "id": "torah-judgment-majority-pressure",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "A witness faces pressure to support the larger group in a lawsuit. Which course accords with Exodus 23:1–2?",
+    "options": [
+      "Give truthful testimony rather than bend judgment toward the crowd.",
+      "Support the larger group when its members have higher standing.",
+      "Let the larger group settle what the witness should testify.",
+      "Repeat the group’s report if the witness did not start it."
+    ],
+    "answer": 0,
+    "correctAnswer": "Give truthful testimony rather than bend judgment toward the crowd.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 23,
+      "verse": 1,
+      "endVerse": 2,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness. ¶ Thou shalt not follow a multitude to [do] evil; neither shalt thou speak in a cause to decline after many to wrest [judgment:]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "The commands prohibit raising a false report, joining an unrighteous witness, and following a multitude to distort judgment. Group size does not make testimony true.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "judgment-majority-pressure",
+      "mode": "explicit",
+      "learningObjective": "Distinguish truthful testimony from pressure to support a majority."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish truthful testimony from pressure to support a majority.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-poor-case-equal-justice",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "In a dispute involving a poor Israelite, which judgment policy preserves both Exodus 23:3 and 23:6?",
+    "options": [
+      "Accept the wealthier party’s account to avoid favoring the poor.",
+      "Do not favor his case because he is poor or deny him just judgment.",
+      "Favor his case because poverty outweighs the evidence against him.",
+      "Delay his hearing until he can bring someone with greater standing."
+    ],
+    "answer": 1,
+    "correctAnswer": "Do not favor his case because he is poor or deny him just judgment.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 23,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "¶ Neither shalt thou countenance a poor man in his cause.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-23-3/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "Thou shalt not wrest the judgment of thy poor in his cause.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-6/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+      }
+    ],
+    "explain": "Verse 3 forbids favoring a poor man in his cause, while verse 6 forbids perverting the poor man’s judgment. Leviticus 19:15 likewise rejects favoring either the poor or the mighty. Protection means righteous judgment, not a predetermined result.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-case-equal-justice",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate protection of the poor with the prohibition on favoritism."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Integrate protection of the poor with the prohibition on favoritism.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-single-witness-insufficient",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "Under Deuteronomy 19:15, what is insufficient by itself to establish a charge against a person?",
+    "options": [
+      "The testimony of three witnesses to the alleged offense.",
+      "The testimony of several witnesses to the alleged offense.",
+      "The testimony of one witness to the alleged offense.",
+      "The testimony of two witnesses to the alleged offense."
+    ],
+    "answer": 2,
+    "correctAnswer": "The testimony of one witness to the alleged offense.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse says one witness shall not rise against a man to establish the matter; it specifies two or three witnesses. It describes an evidentiary safeguard, not a guarantee that every accusation with several witnesses is true.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "single-witness-insufficient",
+      "mode": "explicit",
+      "learningObjective": "Recognize the evidentiary threshold for establishing an accusation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize the evidentiary threshold for establishing an accusation.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-false-witness-due-process",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "A malicious witness accuses his brother. Which sequence follows Deuteronomy 19:15–19?",
+    "options": [
+      "Let the accused impose the penalty; then ask the judges to confirm whether the witness lied.",
+      "Count the accusation as established by one witness; investigate further if the accused pays for a hearing.",
+      "Have the witness pay a fixed double restitution; use that payment instead of examining the accusation.",
+      "Appear before the appointed authorities; investigate diligently; apply the intended penalty if false testimony is established."
+    ],
+    "answer": 3,
+    "correctAnswer": "Appear before the appointed authorities; investigate diligently; apply the intended penalty if false testimony is established.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verse": 16,
+      "endVerse": 19,
+      "translation": "KJV",
+      "excerpt": "¶ If a false witness rise up against any man to testify against him [that which is] wrong; Then both the men, between whom the controversy [is], shall stand before the LORD, before the priests and the judges, which shall be in those days; And the judges shall make diligent inquisition: and, behold, [if] the witness [be] a false witness, [and] hath testified falsely against his brother; Then shall ye do unto him, as he had thought to have done unto his brother: so shalt thou put the evil away from among you.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+      }
+    ],
+    "explain": "The parties stand before the priests and judges. The judges make diligent inquiry; if the witness is false, the penalty he intended for his brother is applied to him. This is a judicial procedure, not private retaliation, and verse 15 prevents establishing a case through one witness alone.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "false-witness-due-process",
+      "mode": "multi-passage",
+      "learningObjective": "Keep investigation and judicial authority together with the false-witness sanction."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Keep investigation and judicial authority together with the false-witness sanction.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-difficult-cases-appointed-court",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "A matter is too hard for local judgment in the settled-land setting of Deuteronomy 17:8–11. Where is it referred?",
+    "options": [
+      "To the priests the Levites and the judge at the place Yah chooses.",
+      "To the local elders to settle the difficult matter by a town vote.",
+      "To the king without consulting the priestly authorities at the chosen place.",
+      "To the nearest city of refuge as the destination for each difficult lawsuit."
+    ],
+    "answer": 0,
+    "correctAnswer": "To the priests the Levites and the judge at the place Yah chooses.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 8,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ If there arise a matter too hard for thee in judgment, between blood and blood, between plea and plea, and between stroke and stroke, [being] matters of controversy within thy gates: then shalt thou arise, and get thee up into the place which the LORD thy God shall choose; And thou shalt come unto the priests the Levites, and unto the judge that shall be in those days, and enquire; and they shall shew thee the sentence of judgment: And thou shalt do according to the sentence, which they of that place which the LORD shall choose shall shew thee; and thou shalt observe to do according to all that they inform thee: According to the sentence of the law which they shall teach thee, and according to the judgment which they shall tell thee, thou shalt do: thou shalt not decline from the sentence which they shall shew thee, [to] the right hand, nor [to] the left.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 1,
+        "verse": 17,
+        "translation": "KJV",
+        "excerpt": "Ye shall not respect persons in judgment; [but] ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment [is] God’s: and the cause that is too hard for you, bring [it] unto me, and I will hear it.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-1-17/"
+      }
+    ],
+    "explain": "The specified referral is to the priests the Levites and the judge at the chosen place, followed by obedience to the lawful sentence described there. Deuteronomy 1:17 earlier describes hard causes being brought to Moses; the later passage states the institutions for its own setting.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "difficult-cases-appointed-court",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish local judgment from referral of cases beyond local competence."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish local judgment from referral of cases beyond local competence.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-bribe-blinds-judgment",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "Why does Deuteronomy 16:19 forbid judges to take a gift in connection with judgment?",
+    "options": [
+      "It deprives the firstborn son of his rightful double portion.",
+      "It blinds the wise and perverts the words of the righteous.",
+      "It deprives the poor borrower of his covering during the night.",
+      "It removes the neighbor’s ancient landmark from his inheritance."
+    ],
+    "answer": 1,
+    "correctAnswer": "It blinds the wise and perverts the words of the righteous.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "verse": 18,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "¶ Judges and officers shalt thou make thee in all thy gates, which the LORD thy God giveth thee, throughout thy tribes: and they shall judge the people with just judgment. Thou shalt not wrest judgment; thou shalt not respect persons, neither take a gift: for a gift doth blind the eyes of the wise, and pervert the words of the righteous. That which is altogether just shalt thou follow, that thou mayest live, and inherit the land which the LORD thy God giveth thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 8,
+        "translation": "KJV",
+        "excerpt": "¶ And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-8/"
+      }
+    ],
+    "explain": "The stated danger is corrupted discernment and righteous testimony: a gift blinds the eyes of the wise and perverts the words of the righteous. Exodus 23:8 gives the same reason.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "bribe-blinds-judgment",
+      "mode": "multi-passage",
+      "learningObjective": "Explain the stated reason for refusing gifts that corrupt judgment."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated reason for refusing gifts that corrupt judgment.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-judicial-stripes-human-dignity",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "When the judges find an offender worthy of beating in Deuteronomy 25:1–3, which restriction and reason are given?",
+    "options": [
+      "Set the number by the offended household’s requested compensation.",
+      "Allow the witnesses to increase the number after the judge leaves.",
+      "Do not exceed forty stripes, lest the brother be degraded in their sight.",
+      "Require forty stripes for each offense, whatever its circumstances."
+    ],
+    "answer": 2,
+    "correctAnswer": "Do not exceed forty stripes, lest the brother be degraded in their sight.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "If there be a controversy between men, and they come unto judgment, that [the judges] may judge them; then they shall justify the righteous, and condemn the wicked. And it shall be, if the wicked man [be] worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number. Forty stripes he may give him, [and] not exceed: lest, [if] he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The judge oversees a counted punishment according to the fault; forty is the upper bound, not a mandatory sentence for every offense. The stated reason for the bound concerns the brother becoming vile in their sight. This question describes the passage’s judicial setting, not a direction for private punishment.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "judicial-stripes-human-dignity",
+      "mode": "explicit",
+      "learningObjective": "Identify the limit and stated reason for judicial corporal punishment in its ancient setting."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the limit and stated reason for judicial corporal punishment in its ancient setting.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-idolatry-report-investigation",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Within Deuteronomy 17:2–7’s judicial law about serving other gods, which safeguards precede the death sentence?",
+    "options": [
+      "A report from one respected witness and an oath from the reporting household.",
+      "A vote among the accusers and payment of compensation to the town elders.",
+      "A repeated public rumor and the accused person’s failure to leave the town.",
+      "Diligent inquiry confirming the report and testimony of two or three witnesses."
+    ],
+    "answer": 3,
+    "correctAnswer": "Diligent inquiry confirming the report and testimony of two or three witnesses.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "¶ If there be found among you, within any of thy gates which the LORD thy God giveth thee, man or woman, that hath wrought wickedness in the sight of the LORD thy God, in transgressing his covenant, And hath gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded; And it be told thee, and thou hast heard [of it], and enquired diligently, and, behold, [it be] true, [and] the thing certain, [that] such abomination is wrought in Israel: Then shalt thou bring forth that man or that woman, which have committed that wicked thing, unto thy gates, [even] that man or that woman, and shalt stone them with stones, till they die. At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; [but] at the mouth of one witness he shall not be put to death. The hands of the witnesses shall be first upon him to put him to death, and afterward the hands of all the people. So thou shalt put the evil away from among you.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+      }
+    ],
+    "explain": "The report must be diligently investigated and found true and certain. Verses 6–7 then specify two or three witnesses and their responsibility in the sanction; one witness is insufficient. The question concerns ancient Israel’s stated judicial process, not authorization of private violence.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "idolatry-report-investigation",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize inquiry and corroboration before a severe judicial sanction."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Recognize inquiry and corroboration before a severe judicial sanction.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-hearing-before-condemnation",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Which concern in Deuteronomy 1:16–17 is reflected when Nicodemus challenges the discussion in John 7:50–51?",
+    "options": [
+      "Hear the person and learn the facts before judging the case.",
+      "Choose a ruling by the city in which the person was raised.",
+      "Let a person’s standing settle the case before testimony is heard.",
+      "Refer every accusation directly to the king without a hearing."
+    ],
+    "answer": 0,
+    "correctAnswer": "Hear the person and learn the facts before judging the case.",
+    "scripture": {
+      "book": "John",
+      "chapter": 7,
+      "verse": 50,
+      "endVerse": 51,
+      "translation": "KJV",
+      "excerpt": "Nicodemus saith unto them, (he that came to Jesus by night, being one of them,) Doth our law judge [any] man, before it hear him, and know what he doeth?",
+      "url": "https://www.kingjamesbibleonline.org/John-Chapter-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 1,
+        "verse": 16,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "And I charged your judges at that time, saying, Hear [the causes] between your brethren, and judge righteously between [every] man and his brother, and the stranger [that is] with him. Ye shall not respect persons in judgment; [but] ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment [is] God’s: and the cause that is too hard for you, bring [it] unto me, and I will hear it.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-1/"
+      }
+    ],
+    "explain": "Nicodemus asks whether the law judges a man before hearing him and knowing what he does. Moses’s instructions require hearing causes and judging righteously without respect of persons. John records an appeal to that hearing principle, not a verdict on the entire case.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "hearing-before-condemnation",
+      "mode": "multi-passage",
+      "learningObjective": "Connect Nicodemus’s appeal to lawful hearing with Torah judicial instructions."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Connect Nicodemus’s appeal to lawful hearing with Torah judicial instructions.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-king-under-law-humility",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Which stated aim of the king’s daily law-reading in Deuteronomy 17:18–20 particularly limits his attitude toward his fellow Israelites?",
+    "options": [
+      "Learn to claim a firstborn share from each tribe, so his household receives the greater inheritance.",
+      "Learn to fear Yah and obey, so his heart is not lifted up above his brethren.",
+      "Learn to reserve the written law for the priests, so his household can govern by royal custom.",
+      "Learn to hear each local dispute himself, so his office replaces the judges within the towns."
+    ],
+    "answer": 1,
+    "correctAnswer": "Learn to fear Yah and obey, so his heart is not lifted up above his brethren.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 18,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "And it shall be, when he sitteth upon the throne of his kingdom, that he shall write him a copy of this law in a book out of [that which is] before the priests the Levites: And it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the LORD his God, to keep all the words of this law and these statutes, to do them: That his heart be not lifted up above his brethren, and that he turn not aside from the commandment, [to] the right hand, or [to] the left: to the end that he may prolong [his] days in his kingdom, he, and his children, in the midst of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 17,
+        "verse": 16,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "But he shall not multiply horses to himself, nor cause the people to return to Egypt, to the end that he should multiply horses: forasmuch as the LORD hath said unto you, Ye shall henceforth return no more that way. Neither shall he multiply wives to himself, that his heart turn not away: neither shall he greatly multiply to himself silver and gold.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+      }
+    ],
+    "explain": "The king must keep the law with him and read it throughout his life, learning fear and obedience so his heart is not lifted above his brethren. The adjacent limits on horses, wives, silver and gold also constrain royal self-exaltation.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "king-under-law-humility",
+      "mode": "multi-passage",
+      "learningObjective": "Explain how continual law-reading constrains royal pride and commandment departure."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Explain how continual law-reading constrains royal pride and commandment departure.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-stolen-ox-disposal-distinction",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 2,
+    "q": "One stolen ox has been slaughtered; another is found alive in the thief’s possession. What restitution distinguishes these cases in Exodus 22:1 and 22:4?",
+    "options": [
+      "Four oxen for the slaughtered ox; double for the ox found alive.",
+      "Five oxen for the slaughtered ox; four for the ox found alive.",
+      "Five oxen for the slaughtered ox; double for the ox found alive.",
+      "Double for the slaughtered ox; five oxen for the ox found alive."
+    ],
+    "answer": 2,
+    "correctAnswer": "Five oxen for the slaughtered ox; double for the ox found alive.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 1,
+      "translation": "KJV",
+      "excerpt": "If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-1/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 22,
+        "verse": 4,
+        "translation": "KJV",
+        "excerpt": "If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-22-4/"
+      }
+    ],
+    "explain": "Verse 1 requires five oxen for an ox killed or sold, but four sheep for a sheep killed or sold. Verse 4 requires double when the stolen animal is found alive in the thief’s hand. The condition changes the restitution.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "stolen-ox-disposal-distinction",
+      "mode": "multi-passage",
+      "learningObjective": "Apply different restitution rates to disposal versus live possession of stolen livestock."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Apply different restitution rates to disposal versus live possession of stolen livestock.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-grazing-damage-best-produce",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A man puts his animal into another person’s field to feed. From what must he make restitution under Exodus 22:5?",
+    "options": [
+      "The poorest portion of the damaged field.",
+      "The first gleanings collected by the town’s poor.",
+      "The tithes set aside by the injured household.",
+      "The best of his own field and vineyard."
+    ],
+    "answer": 3,
+    "correctAnswer": "The best of his own field and vineyard.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "¶ If a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man’s field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "The responsible person makes restitution from the best of his own field and vineyard. The cost is not shifted to the injured neighbor, the poor, or dedicated produce from the injured household.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "grazing-damage-best-produce",
+      "mode": "explicit",
+      "learningObjective": "Identify whose produce and its quality are used to repair grazing damage."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify whose produce and its quality are used to repair grazing damage.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-kindled-fire-restitution",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A kindled fire catches thorns and consumes another person’s standing grain. Who must make restitution in Exodus 22:6?",
+    "options": [
+      "The person who kindled the fire.",
+      "The owner of the destroyed crop.",
+      "The owner of the field where the thorns grew.",
+      "The keeper of the adjacent standing grain."
+    ],
+    "answer": 0,
+    "correctAnswer": "The person who kindled the fire.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ If fire break out, and catch in thorns, so that the stacks of corn, or the standing corn, or the field, be consumed [therewith;] he that kindled the fire shall surely make restitution.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse directly assigns restitution to the one who kindled the fire when it spreads and consumes stacked grain, standing grain, or the field. It is a responsibility rule, not a tax on the victim or witness.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "kindled-fire-restitution",
+      "mode": "explicit",
+      "learningObjective": "Assign responsibility for crop loss caused by a spreading fire."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Assign responsibility for crop loss caused by a spreading fire.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-lost-property-unknown-owner",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "An Israelite finds a lost ox but does not know its owner. What does Deuteronomy 22:1–3 require?",
+    "options": [
+      "Use it as a pledge for a loan until the owner offers a reward.",
+      "Keep it safely at home until its owner seeks it, then restore it.",
+      "Sell it at the gate and treat the proceeds as the finder’s wages.",
+      "Give it to a nearby household and end responsibility for its return."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep it safely at home until its owner seeks it, then restore it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not see thy brother’s ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother. And if thy brother [be] not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again. In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother’s, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The animal is brought into the finder’s house and kept until the brother seeks it; it is then restored. Verse 3 extends the responsibility to other lost property. The owner’s present absence does not turn it into a finder’s possession.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "lost-property-unknown-owner",
+      "mode": "explicit",
+      "learningObjective": "Apply the duty to safeguard lost property when the owner cannot yet be located."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Apply the duty to safeguard lost property when the owner cannot yet be located.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-entrusted-beast-oath-and-evidence",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 2,
+    "q": "Which handling of entrusted livestock follows the distinctions in Exodus 22:10–13?",
+    "options": [
+      "Accept a witness’s estimate instead of the oath; charge the owner when a torn animal is shown.",
+      "Treat an unseen death as a sale; require the owner to buy the animal back from the keeper.",
+      "Use the prescribed oath for an unseen casualty; make restitution for theft; produce evidence if it was torn.",
+      "Make double restitution for each unseen casualty; excuse theft if the keeper swears that it occurred."
+    ],
+    "answer": 2,
+    "correctAnswer": "Use the prescribed oath for an unseen casualty; make restitution for theft; produce evidence if it was torn.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 10,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing [it:] [Then] shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour’s goods; and the owner of it shall accept [thereof], and he shall not make [it] good. And if it be stolen from him, he shall make restitution unto the owner thereof. If it be torn in pieces, [then] let him bring it [for] witness, [and] he shall not make good that which was torn.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "An oath that the keeper has not put his hand to the neighbor’s goods addresses the unseen death, injury or loss in verses 10–11. Theft from the keeper requires restitution in verse 12. Evidence that an animal was torn removes that restitution requirement in verse 13.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "entrusted-beast-oath-and-evidence",
+      "mode": "explicit",
+      "learningObjective": "Distinguish an unseen casualty from theft and evidence of a torn entrusted animal."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish an unseen casualty from theft and evidence of a torn entrusted animal.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-restitution-fifth-and-priest",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 3,
+    "q": "Which comparison preserves Leviticus 6:2–7 and Numbers 5:5–8 on admitted wrongdoing and restitution?",
+    "options": [
+      "Restore the principal to the entitled person and give the fifth to the priest; in the no-kinsman case keep the principal and offer the ram.",
+      "Give the principal and fifth to the town judges; in the no-kinsman case divide them among the witnesses instead of bringing a ram.",
+      "Offer the ram in place of returning the principal; in the no-kinsman case send the fifth to the nearest family without a priestly payment.",
+      "Restore the principal plus a fifth to the entitled person; in the stated no-kinsman case restitution goes to Yah for the priest, besides the ram."
+    ],
+    "answer": 3,
+    "correctAnswer": "Restore the principal plus a fifth to the entitled person; in the stated no-kinsman case restitution goes to Yah for the priest, besides the ram.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 6,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour; Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein: Then it shall be, because he hath sinned, and is guilty, that he shall restore that which he took violently away, or the thing which he hath deceitfully gotten, or that which was delivered him to keep, or the lost thing which he found, Or all that about which he hath sworn falsely; he shall even restore it in the principal, and shall add the fifth part more thereto, [and] give it unto him to whom it appertaineth, in the day of his trespass offering. And he shall bring his trespass offering unto the LORD, a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: And the priest shall make an atonement for him before the LORD: and it shall be forgiven him for any thing of all that he hath done in trespassing therein.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-6/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 5,
+        "verse": 5,
+        "endVerse": 8,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD spake unto Moses, saying, Speak unto the children of Israel, When a man or woman shall commit any sin that men commit, to do a trespass against the LORD, and that person be guilty; Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth [part] thereof, and give [it] unto [him] against whom he hath trespassed. But if the man have no kinsman to recompense the trespass unto, let the trespass be recompensed unto the LORD, [even] to the priest; beside the ram of the atonement, whereby an atonement shall be made for him.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-5/"
+      }
+    ],
+    "explain": "Leviticus requires restoring what belongs to the injured person with an added fifth, followed by the trespass offering. Numbers also requires confession and principal-plus-fifth restitution; when no kinsman can receive it, the recompense is to Yah, to the priest, besides the ram. The offering does not cancel restitution, and the special recipient condition is not the ordinary rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "restitution-fifth-and-priest",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate restitution to an injured party with the specified no-kinsman case and separate priestly offering."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Integrate restitution to an injured party with the specified no-kinsman case and separate priestly offering.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-honest-weights-and-measures",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "Which trading practice meets Deuteronomy 25:13–16’s requirement?",
+    "options": [
+      "Use a just weight and measure instead of keeping a great and a small set.",
+      "Use the greater weight when buying and the smaller one when selling.",
+      "Use separate measures according to the customer’s household standing.",
+      "Use the smaller measure for grain and explain the difference afterward."
+    ],
+    "answer": 0,
+    "correctAnswer": "Use a just weight and measure instead of keeping a great and a small set.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 13,
+      "endVerse": 16,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not have in thy bag divers weights, a great and a small. Thou shalt not have in thine house divers measures, a great and a small. [But] thou shalt have a perfect and just weight, a perfect and just measure shalt thou have: that thy days may be lengthened in the land which the LORD thy God giveth thee. For all that do such things, [and] all that do unrighteously, [are] an abomination unto the LORD thy God.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 35,
+        "endVerse": 36,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure. Just balances, just weights, a just ephah, and a just hin, shall ye have: I [am] the LORD your God, which brought you out of the land of Egypt.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+      }
+    ],
+    "explain": "The law rejects keeping unequal weights and measures and requires a perfect and just weight and measure. Leviticus 19:35–36 likewise requires just balances, weights and measures; disclosure or customer status is not the stated standard.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "honest-weights-and-measures",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize consistent, just weights and measures as a commercial obligation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize consistent, just weights and measures as a commercial obligation.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-borrowed-beast-owner-present",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A borrowed animal is hurt. What difference does the owner’s presence make in Exodus 22:14–15?",
+    "options": [
+      "With the owner absent the borrower pays a fifth; with the owner present he offers a ram.",
+      "With the owner absent the borrower makes it good; with the owner present he does not.",
+      "With the owner absent the borrower pays double; with the owner present he pays fourfold.",
+      "With the owner absent the borrower owes nothing; with the owner present he makes it good."
+    ],
+    "answer": 1,
+    "correctAnswer": "With the owner absent the borrower makes it good; with the owner present he does not.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 14,
+      "endVerse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ And if a man borrow [ought] of his neighbour, and it be hurt, or die, the owner thereof [being] not with it, he shall surely make [it] good. [But] if the owner thereof [be] with it, he shall not make [it] good: if it [be] an hired [thing], it came for his hire.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage distinguishes hurt or death when the owner is not with the borrowed thing from the case when the owner is with it. It then mentions hired property separately. Other restitution rates are not substituted into this specific rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "borrowed-beast-owner-present",
+      "mode": "explicit",
+      "learningObjective": "Recognize the owner-presence qualification in the law of borrowed property."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Recognize the owner-presence qualification in the law of borrowed property.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-firstborn-unfavored-mother",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "A father favors one wife, but his firstborn is the other wife’s son. What must he do when assigning inheritance under Deuteronomy 21:15–17?",
+    "options": [
+      "Divide the firstborn portion between the two wives’ eldest sons.",
+      "Let the favored wife choose which son receives the firstborn share.",
+      "Recognize the actual firstborn and give him the double portion.",
+      "Give the double portion to the favored wife’s eldest son instead."
+    ],
+    "answer": 2,
+    "correctAnswer": "Recognize the actual firstborn and give him the double portion.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verse": 15,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "¶ If a man have two wives, one beloved, and another hated, and they have born him children, [both] the beloved and the hated; and [if] the firstborn son be hers that was hated: Then it shall be, when he maketh his sons to inherit [that] which he hath, [that] he may not make the son of the beloved firstborn before the son of the hated, [which is indeed] the firstborn: But he shall acknowledge the son of the hated [for] the firstborn, by giving him a double portion of all that he hath: for he [is] the beginning of his strength; the right of the firstborn [is] his.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-21/"
+    },
+    "supportingScriptures": [],
+    "explain": "The father may not make the beloved wife’s son firstborn ahead of the actual firstborn. He must acknowledge the firstborn son of the unfavored wife and give the double portion. The right is not reassigned through parental preference.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "firstborn-unfavored-mother",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the firstborn inheritance right from a father’s preference between wives."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish the firstborn inheritance right from a father’s preference between wives.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-newlywed-year-at-home",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "What purpose accompanies the newly married man’s one-year exemption in Deuteronomy 24:5?",
+    "options": [
+      "Spend the year settling his brothers’ inheritance.",
+      "Spend the year supervising the town’s judges.",
+      "Remain at the sanctuary to train for military service.",
+      "Remain free at home and cheer his new wife."
+    ],
+    "answer": 3,
+    "correctAnswer": "Remain free at home and cheer his new wife.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "¶ When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: [but] he shall be free at home one year, and shall cheer up his wife which he hath taken.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "The man is not to go to war or be charged with business, but is to be free at home one year and cheer his wife. The passage directly connects the exemption with the new household, rather than the other duties listed.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "newlywed-year-at-home",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated household purpose of the newly married man’s exemption."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated household purpose of the newly married man’s exemption.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-half-sister-kinship-boundary",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "Which description correctly preserves the sister restriction in Leviticus 18:9 and 18:11?",
+    "options": [
+      "It includes a sister who shares the father or the mother.",
+      "It concerns sisters who share both parents but excludes half-sisters.",
+      "It applies to sisters born at home but excludes those born abroad.",
+      "It applies after inheritance is divided but not before that division."
+    ],
+    "answer": 0,
+    "correctAnswer": "It includes a sister who shares the father or the mother.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verse": 6,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ None of you shall approach to any that is near of kin to him, to uncover [their] nakedness: I [am] the LORD. The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she [is] thy mother; thou shalt not uncover her nakedness. The nakedness of thy father’s wife shalt thou not uncover: it [is] thy father’s nakedness. The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, [whether she be] born at home, or born abroad, [even] their nakedness thou shalt not uncover. The nakedness of thy son’s daughter, or of thy daughter’s daughter, [even] their nakedness thou shalt not uncover: for theirs [is] thine own nakedness. The nakedness of thy father’s wife’s daughter, begotten of thy father, she [is] thy sister, thou shalt not uncover her nakedness.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-18/"
+    },
+    "supportingScriptures": [],
+    "explain": "Verse 9 names the daughter of the father or of the mother, whether born at home or abroad. Verse 11 also identifies the father’s wife’s daughter begotten of the father as a sister. The prohibition cannot be narrowed to full siblings or one birthplace.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "half-sister-kinship-boundary",
+      "mode": "explicit",
+      "learningObjective": "Identify the scope of the sister prohibition without restricting it to full siblings."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the scope of the sister prohibition without restricting it to full siblings.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-wife-sister-lifetime-clause",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "Which qualification is expressly attached to taking a wife alongside her sister in Leviticus 18:18?",
+    "options": [
+      "The prohibition applies when the sisters share different fathers.",
+      "The prohibition names doing so beside the other in her lifetime.",
+      "The prohibition is limited to a sister living in another tribe.",
+      "The prohibition ends when the first wife has borne a son."
+    ],
+    "answer": 1,
+    "correctAnswer": "The prohibition names doing so beside the other in her lifetime.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; [for] they [are] her near kinswomen: it [is] wickedness. Neither shalt thou take a wife to her sister, to vex [her], to uncover her nakedness, beside the other in her life [time].",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-18/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse forbids taking a wife to her sister to vex her, beside the other in her lifetime. This tests the stated lifetime clause rather than inventing tribal, childbirth or parentage exceptions, or deciding unstated cases.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "wife-sister-lifetime-clause",
+      "mode": "explicit",
+      "learningObjective": "Keep the lifetime qualification attached to the wife-and-sister prohibition."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Keep the lifetime qualification attached to the wife-and-sister prohibition.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-levirate-bounded-duty",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 3,
+    "q": "Which statement preserves both Leviticus 18:16 and the particular duty in Deuteronomy 25:5–6?",
+    "options": [
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty while both brothers live if one household has no child.",
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty to an unrelated neighbor when a husband dies childless.",
+      "The brother’s-wife prohibition is stated; Deuteronomy specifies a duty where brothers dwell together and one dies childless.",
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty where brothers dwell together and one dies leaving a child."
+    ],
+    "answer": 2,
+    "correctAnswer": "The brother’s-wife prohibition is stated; Deuteronomy specifies a duty where brothers dwell together and one dies childless.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 5,
+      "endVerse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her. And it shall be, [that] the firstborn which she beareth shall succeed in the name of his brother [which is] dead, that his name be not put out of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 18,
+        "verse": 16,
+        "translation": "KJV",
+        "excerpt": "Thou shalt not uncover the nakedness of thy brother’s wife: it [is] thy brother’s nakedness.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-18-16/"
+      }
+    ],
+    "explain": "Leviticus prohibits uncovering the nakedness of a brother’s wife. Deuteronomy describes the particular case of brothers dwelling together, one dying without a child, and the surviving brother performing the duty so the firstborn succeeds in the deceased brother’s name. The text-specific case must not be broadened to a living brother’s wife or any unrelated neighbor.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levirate-bounded-duty",
+      "mode": "multi-passage",
+      "learningObjective": "Preserve the general brother’s-wife prohibition alongside the specified childless-widow duty."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Preserve the general brother’s-wife prohibition alongside the specified childless-widow duty.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-levirate-refusal-elders",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "If a husband’s brother refuses the duty described in Deuteronomy 25:7–10, what procedure does the passage prescribe?",
+    "options": [
+      "The widow appeals to the elders; after his continued refusal they award her a double firstborn portion from his property.",
+      "The widow appeals to the priests; after his continued refusal they require a ram and an added fifth as restitution.",
+      "The widow appeals to the judges; after his continued refusal they order forty stripes for the household’s eldest son.",
+      "The widow appeals to the elders; after his continued refusal she removes his shoe and spits in his face before them."
+    ],
+    "answer": 3,
+    "correctAnswer": "The widow appeals to the elders; after his continued refusal she removes his shoe and spits in his face before them.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 7,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "And if the man like not to take his brother’s wife, then let his brother’s wife go up to the gate unto the elders, and say, My husband’s brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband’s brother. Then the elders of his city shall call him, and speak unto him: and [if] he stand [to it], and say, I like not to take her; Then shall his brother’s wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother’s house. And his name shall be called in Israel, The house of him that hath his shoe loosed.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The widow goes to the elders at the gate; they call and speak to the man. If he persists, the shoe-removal and spitting occur before them, followed by the public description of his house. The other options borrow rules from unrelated legal settings.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levirate-refusal-elders",
+      "mode": "explicit",
+      "learningObjective": "Identify the public refusal procedure rather than importing a different legal penalty."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Identify the public refusal procedure rather than importing a different legal penalty.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-betrothed-servant-household-duties",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "In the maidservant-and-betrothal setting of Exodus 21:7–11, what happens if the man takes another wife and fails to provide the three things named for the woman?",
+    "options": [
+      "She goes out free without money if food, raiment and duty of marriage are not provided.",
+      "She purchases release by paying back twice the value of her original household service.",
+      "She remains until the Jubilee even if food, raiment and duty of marriage are withheld.",
+      "She is sold to a foreign household so its payment can replace the missing provisions."
+    ],
+    "answer": 0,
+    "correctAnswer": "She goes out free without money if food, raiment and duty of marriage are not provided.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 21,
+      "verse": 7,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ And if a man sell his daughter to be a maidservant, she shall not go out as the menservants do. If she please not her master, who hath betrothed her to himself, then shall he let her be redeemed: to sell her unto a strange nation he shall have no power, seeing he hath dealt deceitfully with her. And if he have betrothed her unto his son, he shall deal with her after the manner of daughters. If he take him another [wife;] her food, her raiment, and her duty of marriage, shall he not diminish. And if he do not these three unto her, then shall she go out free without money.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+    },
+    "supportingScriptures": [],
+    "explain": "The text first locates the case in the law of a daughter sold as a maidservant and betrothed in the household. Verse 10 forbids diminishing food, raiment and duty of marriage when another wife is taken; verse 11 provides freedom without money for failure of these obligations. It does not erase the passage’s specific setting or authorize foreign resale.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "betrothed-servant-household-duties",
+      "mode": "explicit",
+      "learningObjective": "Preserve the protected woman’s specified provisions in the betrothal/household law."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Preserve the protected woman’s specified provisions in the betrothal/household law.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-vows-household-and-widow",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "What distinction do Numbers 30:3–5 and 30:9 make between a youthful daughter in her father’s house and a widow?",
+    "options": [
+      "Both vows wait for the town elders to choose whether the father or the widow will bear the obligation.",
+      "Her father can disallow the daughter’s vow on the day he hears it; the widow’s own vow stands against her.",
+      "Her father can disallow the daughter’s vow after any interval; the widow’s vow requires her father’s later consent.",
+      "The daughter’s vow stands despite same-day disallowance; the widow’s vow expires when her household changes."
+    ],
+    "answer": 1,
+    "correctAnswer": "Her father can disallow the daughter’s vow on the day he hears it; the widow’s own vow stands against her.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 30,
+      "verse": 3,
+      "endVerse": 5,
+      "translation": "KJV",
+      "excerpt": "If a woman also vow a vow unto the LORD, and bind herself by a bond, [being] in her father’s house in her youth; And her father hear her vow, and her bond wherewith she hath bound her soul, and her father shall hold his peace at her: then all her vows shall stand, and every bond wherewith she hath bound her soul shall stand. But if her father disallow her in the day that he heareth; not any of her vows, or of her bonds wherewith she hath bound her soul, shall stand: and the LORD shall forgive her, because her father disallowed her.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-30/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 30,
+        "verse": 9,
+        "translation": "KJV",
+        "excerpt": "But every vow of a widow, and of her that is divorced, wherewith they have bound their souls, shall stand against her.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-30-9/"
+      }
+    ],
+    "explain": "The daughter’s case has explicit youth, household and timing conditions: the father disallows on the day he hears. Verse 9 separately says the vow of a widow or divorced woman stands against her. The rules should not be flattened into an unlimited paternal power over every woman’s vow.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "vows-household-and-widow",
+      "mode": "multi-passage",
+      "learningObjective": "Compare a youthful daughter’s vow under timely parental disallowance with a widow’s binding vow."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Compare a youthful daughter’s vow under timely parental disallowance with a widow’s binding vow.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-poor-loan-without-usury",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "For a loan to a poor person among Yah’s people in Exodus 22:25, what treatment is forbidden?",
+    "options": [
+      "Recognizing that the borrower remains one of Yah’s people.",
+      "Providing the loan to meet the borrower’s actual need.",
+      "Acting as an usurer and laying usury upon him.",
+      "Accepting repayment of the amount originally lent."
+    ],
+    "answer": 2,
+    "correctAnswer": "Acting as an usurer and laying usury upon him.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 25,
+      "translation": "KJV",
+      "excerpt": "¶ If thou lend money to [any of] my people [that is] poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command explicitly forbids acting as an usurer toward the poor borrower and laying usury on him. It does not say that lending itself is forbidden or that the borrower ceases to belong to the people.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-loan-without-usury",
+      "mode": "explicit",
+      "learningObjective": "Identify the duty toward a poor borrower among Yah’s people."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the duty toward a poor borrower among Yah’s people.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-interest-brother-stranger-distinction",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "Which distinction is explicitly made in Deuteronomy 23:19–20 concerning lending on usury?",
+    "options": [
+      "Usury is permitted toward a brother and forbidden toward a stranger in the stated law.",
+      "Usury is forbidden for money but permitted for food lent to a brother in the stated law.",
+      "Usury is permitted for money but forbidden for food lent to a brother in the stated law.",
+      "Usury is forbidden toward a brother and permitted toward a stranger in the stated law."
+    ],
+    "answer": 3,
+    "correctAnswer": "Usury is forbidden toward a brother and permitted toward a stranger in the stated law.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 19,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not lend upon usury to thy brother; usury of money, usury of victuals, usury of any thing that is lent upon usury: Unto a stranger thou mayest lend upon usury; but unto thy brother thou shalt not lend upon usury: that the LORD thy God may bless thee in all that thou settest thine hand to in the land whither thou goest to possess it.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "Verse 19 forbids usury of money, food or anything lent on usury to a brother; verse 20 permits it toward a stranger. This tests the named distinction as written, without assigning modern racial identities or using it to cancel the poor-person protections elsewhere.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "interest-brother-stranger-distinction",
+      "mode": "explicit",
+      "learningObjective": "Record the passage’s named borrower distinction without inventing modern identities."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Record the passage’s named borrower distinction without inventing modern identities.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-pledge-livelihood-and-dignity",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 3,
+    "q": "A lender proposes entering a poor brother’s home, taking his millstone, and keeping his sleeping garment overnight. Which response follows Deuteronomy 24:6, 10–13?",
+    "options": [
+      "Do not take the millstone; wait outside for the pledge; return the garment at sunset.",
+      "Take the millstone if the garment is returned; enter the house if the borrower is poor.",
+      "Leave the millstone but enter for the garment; retain it until the whole debt is repaid.",
+      "Take the millstone as security; wait outside for the garment; return it after seven days."
+    ],
+    "answer": 0,
+    "correctAnswer": "Do not take the millstone; wait outside for the pledge; return the garment at sunset.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ No man shall take the nether or the upper millstone to pledge: for he taketh [a man’s] life to pledge.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-6/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 24,
+        "verse": 10,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ When thou dost lend thy brother any thing, thou shalt not go into his house to fetch his pledge. Thou shalt stand abroad, and the man to whom thou dost lend shall bring out the pledge abroad unto thee. And if the man [be] poor, thou shalt not sleep with his pledge: In any case thou shalt deliver him the pledge again when the sun goeth down, that he may sleep in his own raiment, and bless thee: and it shall be righteousness unto thee before the LORD thy God.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+      }
+    ],
+    "explain": "The millstone cannot be pledged because it takes a man’s life to pledge. The lender must remain outside while the borrower brings a pledge out. A poor man’s covering is returned at sunset so he can sleep in it. Meeting one condition does not cancel the others.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "pledge-livelihood-and-dignity",
+      "mode": "multi-passage",
+      "learningObjective": "Apply livelihood, household privacy and overnight garment protections together."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Apply livelihood, household privacy and overnight garment protections together.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-poor-worker-same-day-pay",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "A poor hired worker is a stranger within an Israelite town’s gates. What do Deuteronomy 24:14–15 require of the employer?",
+    "options": [
+      "Pay him after his first year because resident strangers serve a longer waiting period.",
+      "Pay his hire on his day, before sunset, because the protection includes such strangers.",
+      "Pay him at the next new moon because the daily rule concerns Israelite workers.",
+      "Pay him after the harvest is sold because a stranger’s wages are secured by the crop."
+    ],
+    "answer": 1,
+    "correctAnswer": "Pay his hire on his day, before sunset, because the protection includes such strangers.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 14,
+      "endVerse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not oppress an hired servant [that is] poor and needy, [whether he be] of thy brethren, or of thy strangers that [are] in thy land within thy gates: At his day thou shalt give [him] his hire, neither shall the sun go down upon it; for he [is] poor, and setteth his heart upon it: lest he cry against thee unto the LORD, and it be sin unto thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not defraud thy neighbour, neither rob [him:] the wages of him that is hired shall not abide with thee all night until the morning.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-13/"
+      }
+    ],
+    "explain": "The law expressly includes poor and needy hired servants of the brethren or strangers within the gates. Hire is paid on the worker’s day without the sun setting upon it, because he is poor and depends on it. Leviticus 19:13 also forbids holding wages overnight.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-worker-same-day-pay",
+      "mode": "multi-passage",
+      "learningObjective": "Apply the wage deadline to both Israelite and resident stranger workers in the stated poor-worker case."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Apply the wage deadline to both Israelite and resident stranger workers in the stated poor-worker case.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-seventh-year-creditor-release",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "Which statement preserves the creditor instruction in Deuteronomy 15:1–3?",
+    "options": [
+      "At the seven-year release, cancel the debt if a brother first pays an added fifth to the creditor.",
+      "At the seven-year release, transfer the brother’s debt to his nearest kinsman for collection.",
+      "At the seven-year release, do not exact the loan from a brother; the passage distinguishes a foreigner.",
+      "At the seven-year release, exact the loan from a brother; the passage releases a foreigner instead."
+    ],
+    "answer": 2,
+    "correctAnswer": "At the seven-year release, do not exact the loan from a brother; the passage distinguishes a foreigner.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "At the end of [every] seven years thou shalt make a release. And this [is] the manner of the release: Every creditor that lendeth [ought] unto his neighbour shall release [it;] he shall not exact [it] of his neighbour, or of his brother; because it is called the LORD’s release. Of a foreigner thou mayest exact [it again:] but [that] which is thine with thy brother thine hand shall release;",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The release is proclaimed at the end of every seven years. The creditor must not exact what is lent to a neighbor or brother, while verse 3 explicitly distinguishes collection from a foreigner. The question stays with that wording rather than settling later disputes about every form of debt.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "seventh-year-creditor-release",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the year-of-release creditor rule from a universal erasure of every obligation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish the year-of-release creditor rule from a universal erasure of every obligation.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-release-near-open-hand",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 2,
+    "q": "A creditor refuses help to a needy brother because the year of release is near. How does Deuteronomy 15:7–11 assess that reasoning?",
+    "options": [
+      "It permits refusal during the final year so long as the creditor explains the release rule.",
+      "It permits refusal if the brother has not first offered to postpone the year of release.",
+      "It requires the creditor to wait until after the release before responding to the need.",
+      "It warns against that thought and commands an open hand sufficient for the brother’s need."
+    ],
+    "answer": 3,
+    "correctAnswer": "It warns against that thought and commands an open hand sufficient for the brother’s need.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verse": 7,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ If there be among you a poor man of one of thy brethren within any of thy gates in thy land which the LORD thy God giveth thee, thou shalt not harden thine heart, nor shut thine hand from thy poor brother: But thou shalt open thine hand wide unto him, and shalt surely lend him sufficient for his need, [in that] which he wanteth. Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou givest him nought; and he cry unto the LORD against thee, and it be sin unto thee. Thou shalt surely give him, and thine heart shall not be grieved when thou givest unto him: because that for this thing the LORD thy God shall bless thee in all thy works, and in all that thou puttest thine hand unto. For the poor shall never cease out of the land: therefore I command thee, saying, Thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy, in thy land.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 15,
+        "verse": 1,
+        "endVerse": 3,
+        "translation": "KJV",
+        "excerpt": "At the end of [every] seven years thou shalt make a release. And this [is] the manner of the release: Every creditor that lendeth [ought] unto his neighbour shall release [it;] he shall not exact [it] of his neighbour, or of his brother; because it is called the LORD’s release. Of a foreigner thou mayest exact [it again:] but [that] which is thine with thy brother thine hand shall release;",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+      }
+    ],
+    "explain": "The text directly warns against a wicked thought about the approaching seventh year producing an evil eye and no help. It requires generous aid sufficient for need rather than using the release as a pretext to close the hand.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "release-near-open-hand",
+      "mode": "multi-passage",
+      "learningObjective": "Prevent the approaching release from becoming a reason to refuse a needy brother."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Prevent the approaching release from becoming a reason to refuse a needy brother.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-fallen-brother-sustenance-not-profit",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "An Israelite brother has become poor and fallen into difficulty. Which purpose governs the support described in Leviticus 25:35–37?",
+    "options": [
+      "Relieve him so he may live alongside them, without usury or food lent for increase.",
+      "Relieve him by charging extra food to build up his lender’s household provision.",
+      "Relieve him after he sells his household’s land permanently to the supporting family.",
+      "Relieve him after he undertakes to serve as a witness in the lender’s disputes."
+    ],
+    "answer": 0,
+    "correctAnswer": "Relieve him so he may live alongside them, without usury or food lent for increase.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 35,
+      "endVerse": 38,
+      "translation": "KJV",
+      "excerpt": "¶ And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: [yea, though he be] a stranger, or a sojourner; that he may live with thee. Take thou no usury of him, or increase: but fear thy God; that thy brother may live with thee. Thou shalt not give him thy money upon usury, nor lend him thy victuals for increase. I [am] the LORD your God, which brought you forth out of the land of Egypt, to give you the land of Canaan, [and] to be your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The repeated stated purpose is that the poor brother may live with them. Support is paired with fear of God and prohibitions on usury and lending food for increase. The text does not attach the proposed profit, permanent-sale or witness conditions.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "fallen-brother-sustenance-not-profit",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated purpose of support without usury or food increase."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Explain the stated purpose of support without usury or food increase.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-widow-pledge-redemption-memory",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "What remembered experience accompanies the ban on taking a widow’s raiment as pledge in Deuteronomy 24:17–18?",
+    "options": [
+      "Israel’s appointment of a king from the tribe of Benjamin.",
+      "Israel’s bondage in Egypt and Yah’s redemption from there.",
+      "Israel’s demand for a king like the surrounding nations.",
+      "Israel’s division into northern and southern kingdoms."
+    ],
+    "answer": 1,
+    "correctAnswer": "Israel’s bondage in Egypt and Yah’s redemption from there.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not pervert the judgment of the stranger, [nor] of the fatherless; nor take a widow’s raiment to pledge: But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command also forbids perverting the judgment of stranger and fatherless. Its stated reminder is Israel’s former bondage and Yah’s redemption from Egypt, connecting present duties to remembered deliverance rather than the later events offered as alternatives.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "widow-pledge-redemption-memory",
+      "mode": "explicit",
+      "learningObjective": "Connect the protection of vulnerable people with Israel’s remembered redemption."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Connect the protection of vulnerable people with Israel’s remembered redemption.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-harvest-corners-poor-stranger",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 1,
+    "q": "Why must harvest corners and vineyard gleanings be left in Leviticus 19:9–10?",
+    "options": [
+      "They replace the priest’s portion of each trespass offering.",
+      "They are retained to repay the landowner’s private creditors.",
+      "They are left for the poor and the stranger.",
+      "They are reserved for the landowner’s eldest son."
+    ],
+    "answer": 2,
+    "correctAnswer": "They are left for the poor and the stranger.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 9,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "¶ And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleanings of thy harvest. And thou shalt not glean thy vineyard, neither shalt thou gather [every] grape of thy vineyard; thou shalt leave them for the poor and stranger: I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The harvest must not be stripped completely; the text names the poor and stranger as those for whom the produce is left. This is a planned harvest provision, distinct from the separately stated forgotten-sheaf case in Deuteronomy 24:19.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "harvest-corners-poor-stranger",
+      "mode": "explicit",
+      "learningObjective": "Identify the intended beneficiaries of harvest corners and gleanings."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the intended beneficiaries of harvest corners and gleanings.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-neighbor-produce-hand-not-harvest",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Which use of a neighbor’s vineyard and standing grain fits Deuteronomy 23:24–25?",
+    "options": [
+      "Fill a vessel with grapes; pluck grain by hand without using a sickle.",
+      "Eat grapes without filling a vessel; cut the standing grain with a sickle.",
+      "Fill a vessel with grapes; cut grain with a sickle if part is left behind.",
+      "Eat grapes without filling a vessel; pluck grain by hand without using a sickle."
+    ],
+    "answer": 3,
+    "correctAnswer": "Eat grapes without filling a vessel; pluck grain by hand without using a sickle.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 24,
+      "endVerse": 25,
+      "translation": "KJV",
+      "excerpt": "¶ When thou comest into thy neighbour’s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put [any] in thy vessel. When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour’s standing corn.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "The two clauses allow eating grapes to satisfaction but prohibit putting them in a vessel; they allow hand-plucked ears but prohibit moving a sickle into the neighbor’s crop. Personal eating is not a license for carrying off or harvesting the crop.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "neighbor-produce-hand-not-harvest",
+      "mode": "explicit",
+      "learningObjective": "Distinguish limited eating in a neighbor’s crop from taking away or harvesting it."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish limited eating in a neighbor’s crop from taking away or harvesting it.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-land-sabbath-food-and-rest",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Which statement preserves both the restrictions and provision in Leviticus 25:2–7’s seventh-year land Sabbath?",
+    "options": [
+      "Do not sow or prune; the land’s Sabbath produce is food for the named household, strangers and animals.",
+      "Sow but do not prune; reserve the land’s Sabbath produce for the landowner’s family apart from strangers.",
+      "Do not sow but continue pruning; reserve the produce for hired servants apart from household members.",
+      "Sow and prune for the poor; reserve the land’s Sabbath produce for people apart from cattle and beasts."
+    ],
+    "answer": 0,
+    "correctAnswer": "Do not sow or prune; the land’s Sabbath produce is food for the named household, strangers and animals.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD. Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof; But in the seventh year shall be a sabbath of rest unto the land, a sabbath for the LORD: thou shalt neither sow thy field, nor prune thy vineyard. That which groweth of its own accord of thy harvest thou shalt not reap, neither gather the grapes of thy vine undressed: [for] it is a year of rest unto the land. And the sabbath of the land shall be meat for you; for thee, and for thy servant, and for thy maid, and for thy hired servant, and for thy stranger that sojourneth with thee, And for thy cattle, and for the beast that [are] in thy land, shall all the increase thereof be meat.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The chapter forbids sowing and pruning in the seventh year and also describes the land’s Sabbath yield as food for the owner, servants, hired servant, resident stranger, cattle and beasts. This does not erase the separate restrictions on reaping self-grown harvest or gathering undressed vines in verse 5.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "land-sabbath-food-and-rest",
+      "mode": "explicit",
+      "learningObjective": "Keep land-rest restrictions together with the named food beneficiaries."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Keep land-rest restrictions together with the named food beneficiaries.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-jubilee-count-and-return",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 1,
+    "q": "After counting seven sabbaths of years in Leviticus 25:8–13, which year is hallowed for Jubilee liberty and return?",
+    "options": [
+      "The eighth year, with return to possession and family.",
+      "The fiftieth year, with return to possession and family.",
+      "The forty-ninth year, with return to possession and family.",
+      "The seventh year, with return to possession and family."
+    ],
+    "answer": 1,
+    "correctAnswer": "The fiftieth year, with return to possession and family.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 8,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "¶ And thou shalt number seven sabbaths of years unto thee, seven times seven years; and the space of the seven sabbaths of years shall be unto thee forty and nine years. Then shalt thou cause the trumpet of the jubile to sound on the tenth [day] of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land. And ye shall hallow the fiftieth year, and proclaim liberty throughout [all] the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family. A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather [the grapes] in it of thy vine undressed. For it [is] the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field. In the year of this jubile ye shall return every man unto his possession.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "Seven times seven makes forty-nine years, but the next instruction explicitly hallows the fiftieth year, proclaiming liberty and return to possession and family. The count and the named Jubilee year should not be collapsed into one number.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "jubilee-count-and-return",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the seven-times-seven count from the proclaimed Jubilee year."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish the seven-times-seven count from the proclaimed Jubilee year.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-jubilee-price-crop-years",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Two otherwise comparable land sales have different numbers of crop-years remaining until Jubilee. What pricing rule follows Leviticus 25:14–17?",
+    "options": [
+      "Keep the price identical because the purchaser obtains permanent ownership.",
+      "Set the price by the buyer’s standing rather than the number of crop-years.",
+      "Increase the price for more crop-years and reduce it for fewer crop-years.",
+      "Reduce the price for more crop-years and increase it for fewer crop-years."
+    ],
+    "answer": 2,
+    "correctAnswer": "Increase the price for more crop-years and reduce it for fewer crop-years.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 14,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "And if thou sell ought unto thy neighbour, or buyest [ought] of thy neighbour’s hand, ye shall not oppress one another: According to the number of years after the jubile thou shalt buy of thy neighbour, [and] according unto the number of years of the fruits he shall sell unto thee: According to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for [according] to the number [of the years] of the fruits doth he sell unto thee. Ye shall not therefore oppress one another; but thou shalt fear thy God: for I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The transaction is valued according to the number of years of the fruits: more years increase the price, fewer diminish it. The command also forbids oppression. The law’s basis is the productive period, not a permanent transfer or social rank.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "jubilee-price-crop-years",
+      "mode": "explicit",
+      "learningObjective": "Apply remaining crop-years rather than permanent ownership when pricing the stated land sale."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Apply remaining crop-years rather than permanent ownership when pricing the stated land sale.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-land-redemption-and-jubilee",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "A poor Israelite sells part of his possession and cannot later redeem it. What follows under Leviticus 25:23–28?",
+    "options": [
+      "It remains with the buyer permanently because the seller could not redeem it.",
+      "It returns after one year because land follows the ordinary walled-city house rule.",
+      "It becomes the town judges’ possession because neither household has priority.",
+      "It remains with the buyer until Jubilee, when he returns to his possession."
+    ],
+    "answer": 3,
+    "correctAnswer": "It remains with the buyer until Jubilee, when he returns to his possession.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 23,
+      "endVerse": 28,
+      "translation": "KJV",
+      "excerpt": "¶ The land shall not be sold for ever: for the land [is] mine; for ye [are] strangers and sojourners with me. And in all the land of your possession ye shall grant a redemption for the land. ¶ If thy brother be waxen poor, and hath sold away [some] of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold. And if the man have none to redeem it, and himself be able to redeem it; Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession. But if he be not able to restore [it] to him, then that which is sold shall remain in the hand of him that hath bought it until the year of jubile: and in the jubile it shall go out, and he shall return unto his possession.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The land is Yah’s and is not sold for ever. A kinsman or the restored seller may redeem it under the stated provisions; if the seller cannot restore the required amount, the buyer holds it until Jubilee and the seller returns to his possession. The one-year rule is for a different house category.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "land-redemption-and-jubilee",
+      "mode": "explicit",
+      "learningObjective": "Distinguish redemption before Jubilee from the return when redemption is not possible."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish redemption before Jubilee from the return when redemption is not possible.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-house-redemption-levite-exception",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 3,
+    "q": "An ordinary non-Levite walled-city house remains unredeemed after a full year. How does its Jubilee status compare with an unwalled-village house and a house of a Levite city’s possession in Leviticus 25:29–34?",
+    "options": [
+      "The ordinary walled-city house stays with its buyer; the village house and the Levite house go out in Jubilee.",
+      "The ordinary walled-city house and village house stay with their buyers; the Levite house goes out in Jubilee.",
+      "The ordinary walled-city house and Levite house stay with their buyers; the village house goes out in Jubilee.",
+      "The ordinary walled-city house goes out in Jubilee; the village house and the Levite house stay with their buyers."
+    ],
+    "answer": 0,
+    "correctAnswer": "The ordinary walled-city house stays with its buyer; the village house and the Levite house go out in Jubilee.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 29,
+      "endVerse": 31,
+      "translation": "KJV",
+      "excerpt": "And if a man sell a dwelling house in a walled city, then he may redeem it within a whole year after it is sold; [within] a full year may he redeem it. And if it be not redeemed within the space of a full year, then the house that [is] in the walled city shall be established for ever to him that bought it throughout his generations: it shall not go out in the jubile. But the houses of the villages which have no wall round about them shall be counted as the fields of the country: they may be redeemed, and they shall go out in the jubile.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 25,
+        "verse": 32,
+        "endVerse": 34,
+        "translation": "KJV",
+        "excerpt": "Notwithstanding the cities of the Levites, [and] the houses of the cities of their possession, may the Levites redeem at any time. And if a man purchase of the Levites, then the house that was sold, and the city of his possession, shall go out in [the year of] jubile: for the houses of the cities of the Levites [are] their possession among the children of Israel. But the field of the suburbs of their cities may not be sold; for it [is] their perpetual possession.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+      }
+    ],
+    "explain": "Verses 29–30 give an ordinary walled-city dwelling a full-year redemption period and no Jubilee release afterward. Verse 31 treats unwalled village houses like fields, with redemption and Jubilee release. Verses 32–33 expressly preserve Levite redemption rights and Jubilee release for houses in their possession cities. Verse 34 separately protects their suburban fields from sale.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 8,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "house-redemption-levite-exception",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate ordinary walled-city, unwalled-village and Levite-city house rules without erasing exceptions."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 8,
+      "learningObjective": "Integrate ordinary walled-city, unwalled-village and Levite-city house rules without erasing exceptions.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-inheritance-daughter-before-brothers",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "An Israelite man dies without a son but leaves a daughter and brothers. Who receives his inheritance under Numbers 27:8–11?",
+    "options": [
+      "His nearest male kinsman, selected ahead of the daughter.",
+      "His daughter, before the later categories of male relatives.",
+      "His brothers, before the daughter named in the case.",
+      "His father’s brothers, before either daughter or brothers."
+    ],
+    "answer": 1,
+    "correctAnswer": "His daughter, before the later categories of male relatives.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 27,
+      "verse": 5,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "And Moses brought their cause before the LORD. ¶ And the LORD spake unto Moses, saying, The daughters of Zelophehad speak right: thou shalt surely give them a possession of an inheritance among their father’s brethren; and thou shalt cause the inheritance of their father to pass unto them. And thou shalt speak unto the children of Israel, saying, If a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter. And if he have no daughter, then ye shall give his inheritance unto his brethren. And if he have no brethren, then ye shall give his inheritance unto his father’s brethren. And if his father have no brethren, then ye shall give his inheritance unto his kinsman that is next to him of his family, and he shall possess it: and it shall be unto the children of Israel a statute of judgment, as the LORD commanded Moses.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-27/"
+    },
+    "supportingScriptures": [],
+    "explain": "The statute directs inheritance to the daughter if there is no son. Brothers follow if there is no daughter; father’s brothers and then the nearest family kinsman follow only under further stated conditions. The presence of male relatives does not erase the daughter’s specified place.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "inheritance-daughter-before-brothers",
+      "mode": "explicit",
+      "learningObjective": "Apply the specified inheritance sequence when a man has no son."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Apply the specified inheritance sequence when a man has no son.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-rebuke-without-hatred",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which response to a neighbor’s wrongdoing preserves Leviticus 19:17–18?",
+    "options": [
+      "Rebuke the neighbor and keep a grudge until the household loses standing.",
+      "Arrange private revenge first and offer words of correction afterward.",
+      "Rebuke the neighbor without keeping hatred, vengeance or a grudge.",
+      "Keep the wrong unaddressed while allowing hatred to remain in the heart."
+    ],
+    "answer": 2,
+    "correctAnswer": "Rebuke the neighbor without keeping hatred, vengeance or a grudge.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him. ¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage forbids hatred in the heart, commands rebuke rather than suffering sin upon the neighbor, and forbids vengeance and grudges while requiring neighbor-love. Correction and love are not presented as opposites.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "rebuke-without-hatred",
+      "mode": "explicit",
+      "learningObjective": "Distinguish confronting wrongdoing from harboring hatred, vengeance or grudges."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish confronting wrongdoing from harboring hatred, vengeance or grudges.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-roof-battlement-responsibility",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Why does Deuteronomy 22:8 require a battlement around a new house’s roof?",
+    "options": [
+      "To identify which household has the firstborn inheritance right.",
+      "To provide a place for keeping a neighbor’s pledged millstone.",
+      "To mark the house as exempt from the land’s Jubilee rules.",
+      "To avoid bringing blood upon the house if someone falls from it."
+    ],
+    "answer": 3,
+    "correctAnswer": "To avoid bringing blood upon the house if someone falls from it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 8,
+      "translation": "KJV",
+      "excerpt": "¶ When thou buildest a new house, then thou shalt make a battlement for thy roof, that thou bring not blood upon thine house, if any man fall from thence.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-22-8/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse directly connects the roof barrier with preventing bloodguilt if a person falls. It teaches responsibility for the foreseeable danger stated in the command, not one of the unrelated property classifications in the alternatives.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "roof-battlement-responsibility",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated safety responsibility of the builder of a new house."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated safety responsibility of the builder of a new house.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-deaf-blind-fear-god",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which pair of actions does Leviticus 19:14 prohibit while commanding fear of God?",
+    "options": [
+      "Cursing the deaf and putting a stumblingblock before the blind.",
+      "Withholding hired wages and taking a widow’s raiment as pledge.",
+      "Removing a neighbor’s landmark and using unequal weights in trade.",
+      "Bearing a grudge against a brother and taking a gift in judgment."
+    ],
+    "answer": 0,
+    "correctAnswer": "Cursing the deaf and putting a stumblingblock before the blind.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 14,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not curse the deaf, nor put a stumblingblock before the blind, but shalt fear thy God: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-14/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse specifically prohibits cursing the deaf and placing a stumblingblock before the blind, and joins this to fearing God. A person’s disability does not remove the speaker’s or actor’s accountability.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "deaf-blind-fear-god",
+      "mode": "explicit",
+      "learningObjective": "Recognize the paired protections and their stated accountability to Yah."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize the paired protections and their stated accountability to Yah.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-nesting-bird-mother-release",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "On finding a nest with its mother sitting on eggs or young, which action and reason are stated in Deuteronomy 22:6–7?",
+    "options": [
+      "Take mother and young together for the poor, as the required form of harvest gleaning.",
+      "Release the mother and take the young, that it may be well and days may be prolonged.",
+      "Take the mother and release the young, that it may be well and days may be prolonged.",
+      "Keep mother and young together for the priest, as the required form of a trespass offering."
+    ],
+    "answer": 1,
+    "correctAnswer": "Release the mother and take the young, that it may be well and days may be prolonged.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 6,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "¶ If a bird’s nest chance to be before thee in the way in any tree, or on the ground, [whether they be] young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young: [But] thou shalt in any wise let the dam go, and take the young to thee; that it may be well with thee, and [that] thou mayest prolong [thy] days.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command forbids taking the mother with the young, requires letting the mother go, and permits taking the young. The stated reason concerns well-being and prolonged days; the text does not call this a trespass offering or harvest gleaning.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "nesting-bird-mother-release",
+      "mode": "explicit",
+      "learningObjective": "Keep the mother-and-young distinction and stated well-being reason together."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Keep the mother-and-young distinction and stated well-being reason together.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-aged-honor-reverence",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which conduct is paired with fear of God in Leviticus 19:32?",
+    "options": [
+      "Give the oldest household the neighbor’s whole lost flock.",
+      "Excuse the oldest lender from returning a poor man’s pledge.",
+      "Rise before the hoary head and honor the old person.",
+      "Grant the oldest claimant judgment before hearing the case."
+    ],
+    "answer": 2,
+    "correctAnswer": "Rise before the hoary head and honor the old person.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 32,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt rise up before the hoary head, and honour the face of the old man, and fear thy God: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-32/"
+    },
+    "supportingScriptures": [],
+    "explain": "The instruction is to rise before the hoary head and honor the face of the old man. Respect for age is directly required, but the verse does not turn age into an exemption from justice, property restoration or pledge protections.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "aged-honor-reverence",
+      "mode": "explicit",
+      "learningObjective": "Identify the conduct and reverence paired in the instruction concerning the aged."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the conduct and reverence paired in the instruction concerning the aged.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-paul-ox-law-labor-share",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 2,
+    "q": "How does Paul use Deuteronomy 25:4 in the argument of 1 Corinthians 9:8–12?",
+    "options": [
+      "He treats the unmuzzled working ox as evidence that spiritual teachers must own agricultural land.",
+      "He treats the unmuzzled working ox as evidence that each teacher must charge every hearer a fixed fee.",
+      "He connects the unmuzzled working ox with a command that Corinth pay the priests’ land-redemption price.",
+      "He connects the unmuzzled working ox with the worker’s hope of sharing in the fruit of labor."
+    ],
+    "answer": 3,
+    "correctAnswer": "He connects the unmuzzled working ox with the worker’s hope of sharing in the fruit of labor.",
+    "scripture": {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verse": 8,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "Say I these things as a man? or saith not the law the same also? For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadeth out the corn. Doth God take care for oxen? Or saith he [it] altogether for our sakes? For our sakes, no doubt, [this] is written: that he that ploweth should plow in hope; and that he that thresheth in hope should be partaker of his hope. If we have sown unto you spiritual things, [is it] a great thing if we shall reap your carnal things? If others be partakers of [this] power over you, [are] not we rather? Nevertheless we have not used this power; but suffer all things, lest we should hinder the gospel of Christ.",
+      "url": "https://www.kingjamesbibleonline.org/1-Corinthians-Chapter-9/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 25,
+        "verse": 4,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not muzzle the ox when he treadeth out [the corn].",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-25-4/"
+      }
+    ],
+    "explain": "Paul explicitly quotes the ox command, says the plower and thresher work in hope of partaking, and reasons about spiritual sowing and material support. Verse 12 adds that he has not used this right lest he hinder the gospel. The argument should not be turned into a universal fee schedule or landholding requirement.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "paul-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "paul-ox-law-labor-share",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize Paul’s stated use of a Torah animal-labor command in his argument about workers."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Recognize Paul’s stated use of a Torah animal-labor command in his argument about workers.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-james-neighbor-love-no-partiality",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 2,
+    "q": "A congregation invokes neighbor-love to excuse favoring a wealthy claimant. Which comparison of James 2:8–11 and Leviticus 19:15, 18 best addresses that excuse?",
+    "options": [
+      "Neighbor-love is required, while respect of persons remains sin and righteous judgment excludes status favoritism.",
+      "Neighbor-love is required, so respect of persons is excused when the favored claimant contributes to the congregation.",
+      "Neighbor-love is required, so righteous judgment gives the richer claimant priority over contrary evidence.",
+      "Neighbor-love is required, while the rule against respect of persons is limited to cases involving family inheritance."
+    ],
+    "answer": 0,
+    "correctAnswer": "Neighbor-love is required, while respect of persons remains sin and righteous judgment excludes status favoritism.",
+    "scripture": {
+      "book": "James",
+      "chapter": 2,
+      "verse": 8,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well: But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors. For whosoever shall keep the whole law, and yet offend in one [point], he is guilty of all. For he that said, Do not commit adultery, said also, Do not kill. Now if thou commit no adultery, yet if thou kill, thou art become a transgressor of the law.",
+      "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 18,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-18/"
+      }
+    ],
+    "explain": "James cites the royal law of loving one’s neighbor and immediately says respect of persons is sin. Leviticus requires neighbor-love while separately forbidding favor toward the poor or mighty in judgment. The comparison does not allow a claim of love to cancel the explicit anti-partiality rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "james-neighbor-love-no-partiality",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate James’s royal-law citation with Torah’s rejection of partiality."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Integrate James’s royal-law citation with Torah’s rejection of partiality.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  },
+  {
+    "id": "torah-resident-stranger-love-memory",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which treatment of the stranger dwelling in Israel’s land is required in Leviticus 19:33–34?",
+    "options": [
+      "Reserve neighbor-love for his children born in the land, remembering their own time as strangers in Egypt.",
+      "Treat him as one born among them and love him as oneself, remembering their own time as strangers in Egypt.",
+      "Require him to earn neighbor-love through a gift to the town, remembering their own time as strangers in Egypt.",
+      "Treat him as a temporary exception to protection until the next Jubilee, remembering their own time as strangers in Egypt."
+    ],
+    "answer": 1,
+    "correctAnswer": "Treat him as one born among them and love him as oneself, remembering their own time as strangers in Egypt.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 33,
+      "endVerse": 34,
+      "translation": "KJV",
+      "excerpt": "¶ And if a stranger sojourn with thee in your land, ye shall not vex him. [But] the stranger that dwelleth with you shall be unto you as one born among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt: I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The stranger must not be vexed and is to be treated as one born among them and loved as oneself. Israel’s own experience as strangers in Egypt is the stated reminder. The question concerns these resident-stranger duties, without inventing a gift, Jubilee delay or birthplace condition.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "resident-stranger-love-memory",
+      "mode": "explicit",
+      "learningObjective": "Identify the love and memory required concerning a resident stranger."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the love and memory required concerning a resident stranger.",
+      "evidenceStatus": "AI-source-checked-draft",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "status": "candidate"
+    }
+  }
+]

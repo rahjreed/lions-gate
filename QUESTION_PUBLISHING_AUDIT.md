@@ -1,6 +1,6 @@
 # Question publishing audit
 
-Updated for the local-first review system. **42 original live reviewed questions, 100 unpublished candidates, zero published additions.** No real candidate has been approved, rejected, exported as approved, or published during implementation. Pushing candidate JSON does not import it into gameplay.
+Updated for the local-first review system. **42 original live reviewed questions, 150 unpublished candidates, zero published additions.** The latest [50 Torah everyday-life candidates](content/TORAH_EVERYDAY_LIFE_50_REVIEW.md) carry AI-assisted Scripture-source evidence but no approval decisions. Their generation/import did not modify the editorial ledger or publish questions. Pushing candidate JSON does not import it into gameplay. Previously prepared launch artifacts remain separate from the live bank and require a fresh preflight against the changed candidate inventory before release.
 
 ## Architecture
 
@@ -10,6 +10,7 @@ Updated for the local-first review system. **42 original live reviewed questions
 | `dist/published-questions.js` | Empty additions array; explicit publication appends here. |
 | `content/candidates/initial-50.json` | 50 unpublished candidates, preserved. |
 | `content/candidates/kr-101-150.json` | 50 unpublished candidates, preserved with pending evidence markers. |
+| `content/candidates/torah-everyday-life-50.json` | 50 new unpublished candidates, exact checked excerpts and provisional 1–10 difficulty calibration; source audit is not approval. |
 | `scripts/review-server.mjs`, `tools/question-review/` | Separate loopback-only review app, outside production output. |
 | `content/editorial/decisions.json` | Created on the first explicit decision; latest decisions and event history. |
 | `scripts/editorial.mjs` | Exports current ledger-approved questions to a new reviewed JSON file. |

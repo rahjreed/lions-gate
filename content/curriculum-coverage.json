@@ -11,8 +11,8 @@
   "summary": {
     "liveReviewed": 42,
     "publishedAdditions": 0,
-    "candidates": 100,
-    "inventoryRecords": 142,
+    "candidates": 150,
+    "inventoryRecords": 192,
     "torahChapterSlots": 187,
     "manualCatalogEntries": 0,
     "chapterReviews": 0
@@ -23,7 +23,8 @@
     "dist/focus-questions.js": "9f1cd9369da7ba798a6e7bda64794deb6b63c06de390b0cd3e2f4751376d948f",
     "dist/published-questions.js": "feaaeeb38a35846d0621c10ca013f54d43d1bf406569076c5b16e5abf284430f",
     "content/candidates/initial-50.json": "8b2f788a50c5a53df327a7cd6b8f4e62eccab7be6914996dccb7321c0c2238eb",
-    "content/candidates/kr-101-150.json": "df2de51fef2a275aea5883fc202b4183f74636140944a4be5197a2c923d8da84"
+    "content/candidates/kr-101-150.json": "df2de51fef2a275aea5883fc202b4183f74636140944a4be5197a2c923d8da84",
+    "content/candidates/torah-everyday-life-50.json": "164a08ae4f05de05484da26941273b1d06f43f6eed9af55cdaf899ef0f5dc6c8"
   },
   "categories": [
     {
@@ -496,7 +497,9 @@
         "kr-114",
         "kr-115",
         "kr-116",
-        "kr-118"
+        "kr-118",
+        "torah-land-sabbath-food-and-rest",
+        "torah-jubilee-count-and-return"
       ],
       "associationStatus": "keyword hints only; review all actual source passages"
     },
@@ -2020,12 +2023,19 @@
       "chapter": 21,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-betrothed-servant-household-duties"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-betrothed-servant-household-duties"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2040,12 +2050,30 @@
       "chapter": 22,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "09",
+        "10"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-stolen-ox-disposal-distinction",
+        "torah-grazing-damage-best-produce",
+        "torah-kindled-fire-restitution",
+        "torah-entrusted-beast-oath-and-evidence",
+        "torah-borrowed-beast-owner-present",
+        "torah-poor-loan-without-usury"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-stolen-ox-disposal-distinction",
+        "torah-grazing-damage-best-produce",
+        "torah-kindled-fire-restitution",
+        "torah-entrusted-beast-oath-and-evidence",
+        "torah-borrowed-beast-owner-present",
+        "torah-poor-loan-without-usury"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2061,16 +2089,25 @@
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
-        "01"
+        "01",
+        "13",
+        "10",
+        "18"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
-        "bke-enemy-burden"
+        "bke-enemy-burden",
+        "torah-judgment-majority-pressure",
+        "torah-poor-case-equal-justice",
+        "torah-bribe-blinds-judgment"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
-        "bke-enemy-burden"
+        "bke-enemy-burden",
+        "torah-judgment-majority-pressure",
+        "torah-poor-case-equal-justice",
+        "torah-bribe-blinds-judgment"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -2533,12 +2570,19 @@
       "chapter": 6,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-restitution-fifth-and-priest"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-restitution-fifth-and-priest"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2806,11 +2850,17 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
-        "kr-134"
+        "kr-134",
+        "torah-half-sister-kinship-boundary",
+        "torah-wife-sister-lifetime-clause",
+        "torah-levirate-bounded-duty"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
-        "kr-134"
+        "kr-134",
+        "torah-half-sister-kinship-boundary",
+        "torah-wife-sister-lifetime-clause",
+        "torah-levirate-bounded-duty"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -2828,7 +2878,14 @@
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
         "01",
-        "05"
+        "05",
+        "10",
+        "13",
+        "18",
+        "09",
+        "08",
+        "11",
+        "06"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
@@ -2837,7 +2894,16 @@
         "bke-impartial-court",
         "kr-121",
         "kr-125",
-        "kr-146"
+        "kr-146",
+        "torah-poor-case-equal-justice",
+        "torah-honest-weights-and-measures",
+        "torah-poor-worker-same-day-pay",
+        "torah-harvest-corners-poor-stranger",
+        "torah-rebuke-without-hatred",
+        "torah-deaf-blind-fear-god",
+        "torah-aged-honor-reverence",
+        "torah-james-neighbor-love-no-partiality",
+        "torah-resident-stranger-love-memory"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
@@ -2845,7 +2911,16 @@
         "bke-impartial-court",
         "kr-121",
         "kr-125",
-        "kr-146"
+        "kr-146",
+        "torah-poor-case-equal-justice",
+        "torah-honest-weights-and-measures",
+        "torah-poor-worker-same-day-pay",
+        "torah-harvest-corners-poor-stranger",
+        "torah-rebuke-without-hatred",
+        "torah-deaf-blind-fear-god",
+        "torah-aged-honor-reverence",
+        "torah-james-neighbor-love-no-partiality",
+        "torah-resident-stranger-love-memory"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -2974,12 +3049,31 @@
       "chapter": 25,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "10",
+        "02",
+        "11"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-fallen-brother-sustenance-not-profit",
+        "torah-land-sabbath-food-and-rest",
+        "torah-jubilee-count-and-return",
+        "torah-jubilee-price-crop-years",
+        "torah-land-redemption-and-jubilee",
+        "torah-house-redemption-levite-exception"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-fallen-brother-sustenance-not-profit",
+        "torah-land-sabbath-food-and-rest",
+        "torah-jubilee-count-and-return",
+        "torah-jubilee-price-crop-years",
+        "torah-land-redemption-and-jubilee",
+        "torah-house-redemption-levite-exception"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3114,12 +3208,19 @@
       "chapter": 5,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-restitution-fifth-and-priest"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-restitution-fifth-and-priest"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3579,12 +3680,20 @@
       "chapter": 27,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "09",
+        "11"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-inheritance-daughter-before-brothers"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-inheritance-daughter-before-brothers"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3639,12 +3748,20 @@
       "chapter": 30,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "07",
+        "08"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-vows-household-and-widow"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-vows-household-and-widow"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3790,16 +3907,21 @@
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
         "01",
-        "18"
+        "18",
+        "13"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
-        "bke-impartial-leaders"
+        "bke-impartial-leaders",
+        "torah-difficult-cases-appointed-court",
+        "torah-hearing-before-condemnation"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
-        "bke-impartial-leaders"
+        "bke-impartial-leaders",
+        "torah-difficult-cases-appointed-court",
+        "torah-hearing-before-condemnation"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -4109,12 +4231,20 @@
       "chapter": 15,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-seventh-year-creditor-release",
+        "torah-release-near-open-hand"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-seventh-year-creditor-release",
+        "torah-release-near-open-hand"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4131,16 +4261,20 @@
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
         "01",
-        "03"
+        "03",
+        "13",
+        "18"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
-        "bke-annual-appearances"
+        "bke-annual-appearances",
+        "torah-bribe-blinds-judgment"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
-        "bke-annual-appearances"
+        "bke-annual-appearances",
+        "torah-bribe-blinds-judgment"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -4157,16 +4291,25 @@
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
-        "01"
+        "01",
+        "13",
+        "18",
+        "15"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
-        "bke-king-law-copy"
+        "bke-king-law-copy",
+        "torah-difficult-cases-appointed-court",
+        "torah-idolatry-report-investigation",
+        "torah-king-under-law-humility"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
-        "bke-king-law-copy"
+        "bke-king-law-copy",
+        "torah-difficult-cases-appointed-court",
+        "torah-idolatry-report-investigation",
+        "torah-king-under-law-humility"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -4202,12 +4345,24 @@
       "chapter": 19,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "13",
+        "15"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-single-witness-insufficient",
+        "torah-false-witness-due-process",
+        "torah-idolatry-report-investigation"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-single-witness-insufficient",
+        "torah-false-witness-due-process",
+        "torah-idolatry-report-investigation"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4242,12 +4397,20 @@
       "chapter": 21,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "07",
+        "09"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-firstborn-unfavored-mother"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-firstborn-unfavored-mother"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4264,18 +4427,26 @@
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
       "curriculumCategories": [
         "01",
-        "05"
+        "05",
+        "09",
+        "06"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "kr-120",
-        "kr-122"
+        "kr-122",
+        "torah-lost-property-unknown-owner",
+        "torah-roof-battlement-responsibility",
+        "torah-nesting-bird-mother-release"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
         "kr-120",
-        "kr-122"
+        "kr-122",
+        "torah-lost-property-unknown-owner",
+        "torah-roof-battlement-responsibility",
+        "torah-nesting-bird-mother-release"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -4291,12 +4462,22 @@
       "chapter": 23,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "10",
+        "11"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-interest-brother-stranger-distinction",
+        "torah-neighbor-produce-hand-not-harvest"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-interest-brother-stranger-distinction",
+        "torah-neighbor-produce-hand-not-harvest"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4314,18 +4495,29 @@
       "curriculumCategories": [
         "01",
         "11",
-        "07"
+        "07",
+        "05",
+        "10",
+        "08"
       ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "bke-forgotten-sheaf",
-        "kr-136"
+        "kr-136",
+        "torah-newlywed-year-at-home",
+        "torah-pledge-livelihood-and-dignity",
+        "torah-poor-worker-same-day-pay",
+        "torah-widow-pledge-redemption-memory"
       ],
       "liveReviewedQuestionIds": [],
       "candidateQuestionIds": [
         "bke-forgotten-sheaf",
-        "kr-136"
+        "kr-136",
+        "torah-newlywed-year-at-home",
+        "torah-pledge-livelihood-and-dignity",
+        "torah-poor-worker-same-day-pay",
+        "torah-widow-pledge-redemption-memory"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -4341,12 +4533,30 @@
       "chapter": 25,
       "verseRange": null,
       "commandmentOrTeaching": "Identify all commands, ordinances, judgments and relevant teaching in a chapter-by-chapter manual audit.",
-      "curriculumCategories": [],
+      "curriculumCategories": [
+        "01",
+        "13",
+        "09",
+        "07",
+        "06"
+      ],
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
-      "existingRelatedQuestions": [],
+      "existingRelatedQuestions": [
+        "torah-judicial-stripes-human-dignity",
+        "torah-honest-weights-and-measures",
+        "torah-levirate-bounded-duty",
+        "torah-levirate-refusal-elders",
+        "torah-paul-ox-law-labor-share"
+      ],
       "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [],
+      "candidateQuestionIds": [
+        "torah-judicial-stripes-human-dignity",
+        "torah-honest-weights-and-measures",
+        "torah-levirate-bounded-duty",
+        "torah-levirate-refusal-elders",
+        "torah-paul-ox-law-labor-share"
+      ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -6494,7 +6704,9 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
-        "kr-146"
+        "kr-146",
+        "torah-rebuke-without-hatred",
+        "torah-james-neighbor-love-no-partiality"
       ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
@@ -6532,7 +6744,10 @@
         "runtimeComplexity": 3,
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
-      "relatedQuestionIds": [],
+      "relatedQuestionIds": [
+        "torah-poor-case-equal-justice",
+        "torah-james-neighbor-love-no-partiality"
+      ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
       ],
@@ -6645,7 +6860,9 @@
         "runtimeComplexity": 3,
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
-      "relatedQuestionIds": [],
+      "relatedQuestionIds": [
+        "torah-king-under-law-humility"
+      ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
       ],
@@ -7892,7 +8109,10 @@
         "runtimeComplexity": 6,
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
-      "relatedQuestionIds": [],
+      "relatedQuestionIds": [
+        "torah-difficult-cases-appointed-court",
+        "torah-hearing-before-condemnation"
+      ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
       ],
@@ -9418,7 +9638,9 @@
         "runtimeComplexity": 4,
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
-      "relatedQuestionIds": [],
+      "relatedQuestionIds": [
+        "torah-half-sister-kinship-boundary"
+      ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
       ],
@@ -9929,7 +10151,9 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
-        "bke-neighbor-love"
+        "bke-neighbor-love",
+        "torah-rebuke-without-hatred",
+        "torah-james-neighbor-love-no-partiality"
       ],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
@@ -10113,6 +10337,2101 @@
         "kr-148",
         "kr-149"
       ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-judgment-majority-pressure",
+      "id": "torah-judgment-majority-pressure",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 1,
+          "endVerse": 2
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The commands prohibit raising a false report, joining an unrighteous witness, and following a multitude to distort judgment. Group size does not make testimony true.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A witness faces pressure to support the larger group in a lawsuit. Which course accords with Exodus 23:1–2?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-poor-case-equal-justice",
+      "id": "torah-poor-case-equal-justice",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 3
+        },
+        {
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 6
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "10",
+        "13",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Verse 3 forbids favoring a poor man in his cause, while verse 6 forbids perverting the poor man’s judgment. Leviticus 19:15 likewise rejects favoring either the poor or the mighty. Protection means righteous judgment, not a predetermined result.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In a dispute involving a poor Israelite, which judgment policy preserves both Exodus 23:3 and 23:6?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-impartial-court",
+        "torah-james-neighbor-love-no-partiality"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-single-witness-insufficient",
+      "id": "torah-single-witness-insufficient",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 19,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The verse says one witness shall not rise against a man to establish the matter; it specifies two or three witnesses. It describes an evidentiary safeguard, not a guarantee that every accusation with several witnesses is true.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Under Deuteronomy 19:15, what is insufficient by itself to establish a charge against a person?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-false-witness-due-process",
+        "torah-idolatry-report-investigation"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-false-witness-due-process",
+      "id": "torah-false-witness-due-process",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 19,
+          "verse": 16,
+          "endVerse": 19
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 19,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The parties stand before the priests and judges. The judges make diligent inquiry; if the witness is false, the penalty he intended for his brother is applied to him. This is a judicial procedure, not private retaliation, and verse 15 prevents establishing a case through one witness alone.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A malicious witness accuses his brother. Which sequence follows Deuteronomy 19:15–19?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-single-witness-insufficient",
+        "torah-idolatry-report-investigation"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-difficult-cases-appointed-court",
+      "id": "torah-difficult-cases-appointed-court",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 8,
+          "endVerse": 11
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 1,
+          "verse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The specified referral is to the priests the Levites and the judge at the chosen place, followed by obedience to the lawful sentence described there. Deuteronomy 1:17 earlier describes hard causes being brought to Moses; the later passage states the institutions for its own setting.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A matter is too hard for local judgment in the settled-land setting of Deuteronomy 17:8–11. Where is it referred?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-impartial-leaders",
+        "torah-hearing-before-condemnation"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-bribe-blinds-judgment",
+      "id": "torah-bribe-blinds-judgment",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 16,
+          "verse": 18,
+          "endVerse": 20
+        },
+        {
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 8
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The stated danger is corrupted discernment and righteous testimony: a gift blinds the eyes of the wise and perverts the words of the righteous. Exodus 23:8 gives the same reason.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why does Deuteronomy 16:19 forbid judges to take a gift in connection with judgment?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-judicial-stripes-human-dignity",
+      "id": "torah-judicial-stripes-human-dignity",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 25,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The judge oversees a counted punishment according to the fault; forty is the upper bound, not a mandatory sentence for every offense. The stated reason for the bound concerns the brother becoming vile in their sight. This question describes the passage’s judicial setting, not a direction for private punishment.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "When the judges find an offender worthy of beating in Deuteronomy 25:1–3, which restriction and reason are given?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-idolatry-report-investigation",
+      "id": "torah-idolatry-report-investigation",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 2,
+          "endVerse": 7
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 19,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13",
+        "15"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The report must be diligently investigated and found true and certain. Verses 6–7 then specify two or three witnesses and their responsibility in the sanction; one witness is insufficient. The question concerns ancient Israel’s stated judicial process, not authorization of private violence.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Within Deuteronomy 17:2–7’s judicial law about serving other gods, which safeguards precede the death sentence?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-single-witness-insufficient",
+        "torah-false-witness-due-process"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-hearing-before-condemnation",
+      "id": "torah-hearing-before-condemnation",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "John",
+          "chapter": 7,
+          "verse": 50,
+          "endVerse": 51
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 1,
+          "verse": 16,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Nicodemus asks whether the law judges a man before hearing him and knowing what he does. Moses’s instructions require hearing causes and judging righteously without respect of persons. John records an appeal to that hearing principle, not a verdict on the entire case.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which concern in Deuteronomy 1:16–17 is reflected when Nicodemus challenges the discussion in John 7:50–51?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-impartial-leaders",
+        "torah-difficult-cases-appointed-court"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-king-under-law-humility",
+      "id": "torah-king-under-law-humility",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 18,
+          "endVerse": 20
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 16,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The king must keep the law with him and read it throughout his life, learning fear and obedience so his heart is not lifted above his brethren. The adjacent limits on horses, wives, silver and gold also constrain royal self-exaltation.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which stated aim of the king’s daily law-reading in Deuteronomy 17:18–20 particularly limits his attitude toward his fellow Israelites?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-king-law-copy"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-stolen-ox-disposal-distinction",
+      "id": "torah-stolen-ox-disposal-distinction",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 1
+        },
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 4
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Verse 1 requires five oxen for an ox killed or sold, but four sheep for a sheep killed or sold. Verse 4 requires double when the stolen animal is found alive in the thief’s hand. The condition changes the restitution.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "One stolen ox has been slaughtered; another is found alive in the thief’s possession. What restitution distinguishes these cases in Exodus 22:1 and 22:4?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-grazing-damage-best-produce",
+      "id": "torah-grazing-damage-best-produce",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The responsible person makes restitution from the best of his own field and vineyard. The cost is not shifted to the injured neighbor, the poor, or dedicated produce from the injured household.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A man puts his animal into another person’s field to feed. From what must he make restitution under Exodus 22:5?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-kindled-fire-restitution",
+      "id": "torah-kindled-fire-restitution",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse directly assigns restitution to the one who kindled the fire when it spreads and consumes stacked grain, standing grain, or the field. It is a responsibility rule, not a tax on the victim or witness.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A kindled fire catches thorns and consumes another person’s standing grain. Who must make restitution in Exodus 22:6?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-lost-property-unknown-owner",
+      "id": "torah-lost-property-unknown-owner",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The animal is brought into the finder’s house and kept until the brother seeks it; it is then restored. Verse 3 extends the responsibility to other lost property. The owner’s present absence does not turn it into a finder’s possession.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "An Israelite finds a lost ox but does not know its owner. What does Deuteronomy 22:1–3 require?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-entrusted-beast-oath-and-evidence",
+      "id": "torah-entrusted-beast-oath-and-evidence",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 10,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "An oath that the keeper has not put his hand to the neighbor’s goods addresses the unseen death, injury or loss in verses 10–11. Theft from the keeper requires restitution in verse 12. Evidence that an animal was torn removes that restitution requirement in verse 13.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which handling of entrusted livestock follows the distinctions in Exodus 22:10–13?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-restitution-fifth-and-priest",
+      "id": "torah-restitution-fifth-and-priest",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 6,
+          "verse": 2,
+          "endVerse": 7
+        },
+        {
+          "book": "Numbers",
+          "chapter": 5,
+          "verse": 5,
+          "endVerse": 8
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Leviticus requires restoring what belongs to the injured person with an added fifth, followed by the trespass offering. Numbers also requires confession and principal-plus-fifth restitution; when no kinsman can receive it, the recompense is to Yah, to the priest, besides the ram. The offering does not cancel restitution, and the special recipient condition is not the ordinary rule.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which comparison preserves Leviticus 6:2–7 and Numbers 5:5–8 on admitted wrongdoing and restitution?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-honest-weights-and-measures",
+      "id": "torah-honest-weights-and-measures",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 25,
+          "verse": 13,
+          "endVerse": 16
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 35,
+          "endVerse": 36
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The law rejects keeping unequal weights and measures and requires a perfect and just weight and measure. Leviticus 19:35–36 likewise requires just balances, weights and measures; disclosure or customer status is not the stated standard.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which trading practice meets Deuteronomy 25:13–16’s requirement?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-borrowed-beast-owner-present",
+      "id": "torah-borrowed-beast-owner-present",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 14,
+          "endVerse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "01",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The passage distinguishes hurt or death when the owner is not with the borrowed thing from the case when the owner is with it. It then mentions hired property separately. Other restitution rates are not substituted into this specific rule.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A borrowed animal is hurt. What difference does the owner’s presence make in Exodus 22:14–15?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-firstborn-unfavored-mother",
+      "id": "torah-firstborn-unfavored-mother",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 21,
+          "verse": 15,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07",
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The father may not make the beloved wife’s son firstborn ahead of the actual firstborn. He must acknowledge the firstborn son of the unfavored wife and give the double portion. The right is not reassigned through parental preference.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A father favors one wife, but his firstborn is the other wife’s son. What must he do when assigning inheritance under Deuteronomy 21:15–17?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-newlywed-year-at-home",
+      "id": "torah-newlywed-year-at-home",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The man is not to go to war or be charged with business, but is to be free at home one year and cheer his wife. The passage directly connects the exemption with the new household, rather than the other duties listed.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What purpose accompanies the newly married man’s one-year exemption in Deuteronomy 24:5?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-half-sister-kinship-boundary",
+      "id": "torah-half-sister-kinship-boundary",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 18,
+          "verse": 6,
+          "endVerse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Verse 9 names the daughter of the father or of the mother, whether born at home or abroad. Verse 11 also identifies the father’s wife’s daughter begotten of the father as a sister. The prohibition cannot be narrowed to full siblings or one birthplace.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which description correctly preserves the sister restriction in Leviticus 18:9 and 18:11?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-134"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-wife-sister-lifetime-clause",
+      "id": "torah-wife-sister-lifetime-clause",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 18,
+          "verse": 17,
+          "endVerse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse forbids taking a wife to her sister to vex her, beside the other in her lifetime. This tests the stated lifetime clause rather than inventing tribal, childbirth or parentage exceptions, or deciding unstated cases.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which qualification is expressly attached to taking a wife alongside her sister in Leviticus 18:18?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-levirate-bounded-duty",
+      "id": "torah-levirate-bounded-duty",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 25,
+          "verse": 5,
+          "endVerse": 6
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 18,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Leviticus prohibits uncovering the nakedness of a brother’s wife. Deuteronomy describes the particular case of brothers dwelling together, one dying without a child, and the surviving brother performing the duty so the firstborn succeeds in the deceased brother’s name. The text-specific case must not be broadened to a living brother’s wife or any unrelated neighbor.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which statement preserves both Leviticus 18:16 and the particular duty in Deuteronomy 25:5–6?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-levirate-refusal-elders",
+      "id": "torah-levirate-refusal-elders",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 25,
+          "verse": 7,
+          "endVerse": 10
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The widow goes to the elders at the gate; they call and speak to the man. If he persists, the shoe-removal and spitting occur before them, followed by the public description of his house. The other options borrow rules from unrelated legal settings.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "If a husband’s brother refuses the duty described in Deuteronomy 25:7–10, what procedure does the passage prescribe?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-betrothed-servant-household-duties",
+      "id": "torah-betrothed-servant-household-duties",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 21,
+          "verse": 7,
+          "endVerse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The text first locates the case in the law of a daughter sold as a maidservant and betrothed in the household. Verse 10 forbids diminishing food, raiment and duty of marriage when another wife is taken; verse 11 provides freedom without money for failure of these obligations. It does not erase the passage’s specific setting or authorize foreign resale.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In the maidservant-and-betrothal setting of Exodus 21:7–11, what happens if the man takes another wife and fails to provide the three things named for the woman?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-vows-household-and-widow",
+      "id": "torah-vows-household-and-widow",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 30,
+          "verse": 3,
+          "endVerse": 5
+        },
+        {
+          "book": "Numbers",
+          "chapter": 30,
+          "verse": 9
+        }
+      ],
+      "commandmentOrTeaching": "Marriage, family and lineage",
+      "curriculumCategories": [
+        "01",
+        "07",
+        "08"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The daughter’s case has explicit youth, household and timing conditions: the father disallows on the day he hears. Verse 9 separately says the vow of a widow or divorced woman stands against her. The rules should not be flattened into an unlimited paternal power over every woman’s vow.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What distinction do Numbers 30:3–5 and 30:9 make between a youthful daughter in her father’s house and a widow?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-poor-loan-without-usury",
+      "id": "torah-poor-loan-without-usury",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 22,
+          "verse": 25
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command explicitly forbids acting as an usurer toward the poor borrower and laying usury on him. It does not say that lending itself is forbidden or that the borrower ceases to belong to the people.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "For a loan to a poor person among Yah’s people in Exodus 22:25, what treatment is forbidden?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-interest-brother-stranger-distinction",
+      "id": "torah-interest-brother-stranger-distinction",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 23,
+          "verse": 19,
+          "endVerse": 20
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Verse 19 forbids usury of money, food or anything lent on usury to a brother; verse 20 permits it toward a stranger. This tests the named distinction as written, without assigning modern racial identities or using it to cancel the poor-person protections elsewhere.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which distinction is explicitly made in Deuteronomy 23:19–20 concerning lending on usury?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-pledge-livelihood-and-dignity",
+      "id": "torah-pledge-livelihood-and-dignity",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 6
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 10,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "05",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The millstone cannot be pledged because it takes a man’s life to pledge. The lender must remain outside while the borrower brings a pledge out. A poor man’s covering is returned at sunset so he can sleep in it. Meeting one condition does not cancel the others.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A lender proposes entering a poor brother’s home, taking his millstone, and keeping his sleeping garment overnight. Which response follows Deuteronomy 24:6, 10–13?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-poor-worker-same-day-pay",
+      "id": "torah-poor-worker-same-day-pay",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 14,
+          "endVerse": 15
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "08",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The law expressly includes poor and needy hired servants of the brethren or strangers within the gates. Hire is paid on the worker’s day without the sun setting upon it, because he is poor and depends on it. Leviticus 19:13 also forbids holding wages overnight.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A poor hired worker is a stranger within an Israelite town’s gates. What do Deuteronomy 24:14–15 require of the employer?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-seventh-year-creditor-release",
+      "id": "torah-seventh-year-creditor-release",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 15,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The release is proclaimed at the end of every seven years. The creditor must not exact what is lent to a neighbor or brother, while verse 3 explicitly distinguishes collection from a foreigner. The question stays with that wording rather than settling later disputes about every form of debt.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which statement preserves the creditor instruction in Deuteronomy 15:1–3?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-release-near-open-hand"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-release-near-open-hand",
+      "id": "torah-release-near-open-hand",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 15,
+          "verse": 7,
+          "endVerse": 11
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 15,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The text directly warns against a wicked thought about the approaching seventh year producing an evil eye and no help. It requires generous aid sufficient for need rather than using the release as a pretext to close the hand.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A creditor refuses help to a needy brother because the year of release is near. How does Deuteronomy 15:7–11 assess that reasoning?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-seventh-year-creditor-release"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-fallen-brother-sustenance-not-profit",
+      "id": "torah-fallen-brother-sustenance-not-profit",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 35,
+          "endVerse": 38
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The repeated stated purpose is that the poor brother may live with them. Support is paired with fear of God and prohibitions on usury and lending food for increase. The text does not attach the proposed profit, permanent-sale or witness conditions.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "An Israelite brother has become poor and fallen into difficulty. Which purpose governs the support described in Leviticus 25:35–37?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-widow-pledge-redemption-memory",
+      "id": "torah-widow-pledge-redemption-memory",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 17,
+          "endVerse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Economic justice",
+      "curriculumCategories": [
+        "01",
+        "08",
+        "10"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command also forbids perverting the judgment of stranger and fatherless. Its stated reminder is Israel’s former bondage and Yah’s redemption from Egypt, connecting present duties to remembered deliverance rather than the later events offered as alternatives.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What remembered experience accompanies the ban on taking a widow’s raiment as pledge in Deuteronomy 24:17–18?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-harvest-corners-poor-stranger",
+      "id": "torah-harvest-corners-poor-stranger",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 9,
+          "endVerse": 10
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The harvest must not be stripped completely; the text names the poor and stranger as those for whom the produce is left. This is a planned harvest provision, distinct from the separately stated forgotten-sheaf case in Deuteronomy 24:19.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why must harvest corners and vineyard gleanings be left in Leviticus 19:9–10?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-neighbor-produce-hand-not-harvest",
+      "id": "torah-neighbor-produce-hand-not-harvest",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 23,
+          "verse": 24,
+          "endVerse": 25
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The two clauses allow eating grapes to satisfaction but prohibit putting them in a vessel; they allow hand-plucked ears but prohibit moving a sickle into the neighbor’s crop. Personal eating is not a license for carrying off or harvesting the crop.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which use of a neighbor’s vineyard and standing grain fits Deuteronomy 23:24–25?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-land-sabbath-food-and-rest",
+      "id": "torah-land-sabbath-food-and-rest",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 2,
+          "endVerse": 7
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "02",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The chapter forbids sowing and pruning in the seventh year and also describes the land’s Sabbath yield as food for the owner, servants, hired servant, resident stranger, cattle and beasts. This does not erase the separate restrictions on reaping self-grown harvest or gathering undressed vines in verse 5.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which statement preserves both the restrictions and provision in Leviticus 25:2–7’s seventh-year land Sabbath?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-jubilee-count-and-return",
+      "id": "torah-jubilee-count-and-return",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 8,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "02",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Seven times seven makes forty-nine years, but the next instruction explicitly hallows the fiftieth year, proclaiming liberty and return to possession and family. The count and the named Jubilee year should not be collapsed into one number.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "After counting seven sabbaths of years in Leviticus 25:8–13, which year is hallowed for Jubilee liberty and return?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-jubilee-price-crop-years",
+      "id": "torah-jubilee-price-crop-years",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 14,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The transaction is valued according to the number of years of the fruits: more years increase the price, fewer diminish it. The command also forbids oppression. The law’s basis is the productive period, not a permanent transfer or social rank.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Two otherwise comparable land sales have different numbers of crop-years remaining until Jubilee. What pricing rule follows Leviticus 25:14–17?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-land-redemption-and-jubilee",
+      "id": "torah-land-redemption-and-jubilee",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 23,
+          "endVerse": 28
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "10",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The land is Yah’s and is not sold for ever. A kinsman or the restored seller may redeem it under the stated provisions; if the seller cannot restore the required amount, the buyer holds it until Jubilee and the seller returns to his possession. The one-year rule is for a different house category.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A poor Israelite sells part of his possession and cannot later redeem it. What follows under Leviticus 25:23–28?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-house-redemption-levite-exception",
+      "id": "torah-house-redemption-levite-exception",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 29,
+          "endVerse": 31
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 25,
+          "verse": 32,
+          "endVerse": 34
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Verses 29–30 give an ordinary walled-city dwelling a full-year redemption period and no Jubilee release afterward. Verse 31 treats unwalled village houses like fields, with redemption and Jubilee release. Verses 32–33 expressly preserve Levite redemption rights and Jubilee release for houses in their possession cities. Verse 34 separately protects their suburban fields from sale.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "An ordinary non-Levite walled-city house remains unredeemed after a full year. How does its Jubilee status compare with an unwalled-village house and a house of a Levite city’s possession in Leviticus 25:29–34?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-inheritance-daughter-before-brothers",
+      "id": "torah-inheritance-daughter-before-brothers",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 27,
+          "verse": 5,
+          "endVerse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "09",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The statute directs inheritance to the daughter if there is no son. Brothers follow if there is no daughter; father’s brothers and then the nearest family kinsman follow only under further stated conditions. The presence of male relatives does not erase the daughter’s specified place.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "An Israelite man dies without a son but leaves a daughter and brothers. Who receives his inheritance under Numbers 27:8–11?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-rebuke-without-hatred",
+      "id": "torah-rebuke-without-hatred",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 17,
+          "endVerse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The passage forbids hatred in the heart, commands rebuke rather than suffering sin upon the neighbor, and forbids vengeance and grudges while requiring neighbor-love. Correction and love are not presented as opposites.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which response to a neighbor’s wrongdoing preserves Leviticus 19:17–18?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-neighbor-love",
+        "kr-146",
+        "torah-james-neighbor-love-no-partiality"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-roof-battlement-responsibility",
+      "id": "torah-roof-battlement-responsibility",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 8
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse directly connects the roof barrier with preventing bloodguilt if a person falls. It teaches responsibility for the foreseeable danger stated in the command, not one of the unrelated property classifications in the alternatives.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why does Deuteronomy 22:8 require a battlement around a new house’s roof?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-deaf-blind-fear-god",
+      "id": "torah-deaf-blind-fear-god",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 14
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse specifically prohibits cursing the deaf and placing a stumblingblock before the blind, and joins this to fearing God. A person’s disability does not remove the speaker’s or actor’s accountability.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which pair of actions does Leviticus 19:14 prohibit while commanding fear of God?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-nesting-bird-mother-release",
+      "id": "torah-nesting-bird-mother-release",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 6,
+          "endVerse": 7
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command forbids taking the mother with the young, requires letting the mother go, and permits taking the young. The stated reason concerns well-being and prolonged days; the text does not call this a trespass offering or harvest gleaning.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "On finding a nest with its mother sitting on eggs or young, which action and reason are stated in Deuteronomy 22:6–7?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-aged-honor-reverence",
+      "id": "torah-aged-honor-reverence",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 32
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The instruction is to rise before the hoary head and honor the face of the old man. Respect for age is directly required, but the verse does not turn age into an exemption from justice, property restoration or pledge protections.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which conduct is paired with fear of God in Leviticus 19:32?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-paul-ox-law-labor-share",
+      "id": "torah-paul-ox-law-labor-share",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "1 Corinthians",
+          "chapter": 9,
+          "verse": 8,
+          "endVerse": 12
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 25,
+          "verse": 4
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Paul explicitly quotes the ox command, says the plower and thresher work in hope of partaking, and reasons about spiritual sowing and material support. Verse 12 adds that he has not used this right lest he hinder the gospel. The argument should not be turned into a universal fee schedule or landholding requirement.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Paul use Deuteronomy 25:4 in the argument of 1 Corinthians 9:8–12?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-james-neighbor-love-no-partiality",
+      "id": "torah-james-neighbor-love-no-partiality",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "James",
+          "chapter": 2,
+          "verse": 8,
+          "endVerse": 11
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 15
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "James cites the royal law of loving one’s neighbor and immediately says respect of persons is sin. Leviticus requires neighbor-love while separately forbidding favor toward the poor or mighty in judgment. The comparison does not allow a claim of love to cancel the explicit anti-partiality rule.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A congregation invokes neighbor-love to excuse favoring a wealthy claimant. Which comparison of James 2:8–11 and Leviticus 19:15, 18 best addresses that excuse?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-neighbor-love",
+        "bke-impartial-court",
+        "kr-146",
+        "torah-poor-case-equal-justice",
+        "torah-rebuke-without-hatred"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "content/candidates/torah-everyday-life-50.json#torah-resident-stranger-love-memory",
+      "id": "torah-resident-stranger-love-memory",
+      "editorialId": null,
+      "source": "content/candidates/torah-everyday-life-50.json",
+      "publicationState": "candidate-not-live",
+      "reviewStatus": "candidate",
+      "evidenceStatus": "AI-source-checked-draft",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 33,
+          "endVerse": 34
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06",
+        "08"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The stranger must not be vexed and is to be treated as one born among them and loved as oneself. Israel’s own experience as strangers in Egypt is the stated reminder. The question concerns these resident-stranger duties, without inventing a gift, Jubilee delay or birthplace condition.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which treatment of the stranger dwelling in Israel’s land is required in Leviticus 19:33–34?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
       ],
