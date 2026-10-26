@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" preserveAspectRatio="none" shape-rendering="crispEdges">
+<defs><linearGradient id="distance" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#ad997d" stop-opacity=".42"/><stop offset="1" stop-color="#a4b9b5" stop-opacity=".25"/></linearGradient></defs>
+<!-- Road retreats through the opening; its far section emerges beyond the right pillar. -->
+<path fill="url(#distance)" d="M490 324H510L540 284L570 265L603 251L614 246L607 244L593 248L564 260L532 278L505 309Z"/>
+<path fill="#b7baaa" opacity=".3" d="M775 250H807V246H834V240H855V235H872V230H890V226H902V224H909V228H896V232H880V237H864V242H844V247H818V251H791V254H775Z"/>
+</svg>

@@ -1,0 +1,39 @@
+/* Title tableau only: original pixel architecture behind the existing actors. */
+.title-screen .kingdom-title>.landscape{opacity:1;filter:none}
+.title-screen .kingdom-road{position:absolute;inset:0;z-index:1;pointer-events:none;background:url('assets/console/kingdom-path.svg') center/100% 100% no-repeat;image-rendering:pixelated}
+.title-screen .kingdom-castle{position:absolute;right:4%;bottom:43%;width:10%;height:47%;z-index:1;background:url('assets/console/kingdom-castle.svg') center bottom/contain no-repeat;pointer-events:none;image-rendering:pixelated;opacity:.82}
+.title-screen .title-scripture{max-width:680px;margin:0 auto 14px;font:italic 14px/1.55 Georgia,serif;color:#d9d4bf;text-wrap:pretty}
+.title-screen .title-scripture cite{display:block;margin-top:5px;font:9px/1.5 var(--mono);letter-spacing:1px;color:var(--gold)}
+.title-screen .kingdom-title .title-logo{top:24px;left:12px;right:12px;z-index:4}
+.title-screen .kingdom-title .title-logo h1{display:flex;flex-direction:column;align-items:center;gap:9px;line-height:1.05;letter-spacing:1px}
+.title-screen .kingdom-title .title-logo .kingdom-name{font-size:clamp(42px,6.8vw,76px);letter-spacing:4px;color:#fff0c4}
+.title-screen .kingdom-title .title-logo .gate-name{font-size:clamp(25px,4.5vw,48px);letter-spacing:5px;color:#d4e6df}
+.title-screen .kingdom-title .logo-sub{margin-top:14px;font-size:7px;letter-spacing:3px;color:#ead6b4}
+.title-screen .kingdom-title>.judah{z-index:3}
+.title-screen .kingdom-title .floating-sword{z-index:3;height:150px;bottom:18px;filter:drop-shadow(0 0 10px #b8fff9b0)}
+.title-screen .kingdom-title .art-caption{z-index:3}
+@media(max-width:760px),(max-width:1100px) and (max-height:500px){
+ .opening .title-screen .kingdom-title .title-logo{top:14px;left:6px;right:6px}
+ .opening .title-screen .kingdom-title .title-logo h1{gap:7px}
+ .opening .title-screen .kingdom-title .kingdom-name{font-size:clamp(31px,8.4vw,52px);letter-spacing:1px}
+ .opening .title-screen .kingdom-title .gate-name{font-size:clamp(20px,5.7vw,35px);letter-spacing:2px}
+ .opening .title-screen .kingdom-title .logo-sub{margin-top:10px;font-size:6px;letter-spacing:1px}
+ .opening .title-screen .kingdom-title .floating-sword{height:clamp(90px,17dvh,132px);bottom:12px}
+ .opening .title-screen .kingdom-castle{right:6%;width:11%;height:46%}
+ .opening .title-screen .title-scripture{font-size:11px;line-height:1.4;margin:0 0 2px}
+ .opening .title-screen .title-scripture cite{font-size:8px;margin-top:3px}
+}
+@media(max-width:760px) and (max-height:620px){
+ .opening .title-screen .kingdom-title .title-logo{top:10px}
+ .opening .title-screen .kingdom-title .title-logo h1{gap:5px}
+ .opening .title-screen .kingdom-title .logo-sub{margin-top:7px}
+ .opening .title-screen .kingdom-title .floating-sword{height:82px;bottom:9px}
+}
+@media(max-width:1100px) and (max-height:500px){
+ .opening .title-screen .kingdom-title .title-logo{top:10px}
+ .opening .title-screen .kingdom-title .title-logo h1{gap:5px}
+ .opening .title-screen .kingdom-title .kingdom-name{font-size:32px}
+ .opening .title-screen .kingdom-title .gate-name{font-size:22px}
+ .opening .title-screen .kingdom-title .logo-sub{margin-top:7px}
+ .opening .title-screen .kingdom-title .floating-sword{height:82px;bottom:9px}
+}
