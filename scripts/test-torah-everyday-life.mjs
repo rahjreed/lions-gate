@@ -10,7 +10,7 @@ import {publicationBatch} from './question-batch.mjs';
 import {mappedDifficulty,mappingVersion} from './difficulty-map.mjs';
 const root=new URL('../',import.meta.url),read=async p=>readFile(new URL(p,root),'utf8'),sha=v=>createHash('sha256').update(v).digest('hex');
 const file='torah-everyday-life-50.json',batch=JSON.parse(await read('content/candidates/'+file)),audit=JSON.parse(await read('content/torah-everyday-life-50-validation.json'));
-const peers=[...questions];for(const f of (await readdir(new URL('../content/candidates/',import.meta.url))).filter(f=>f.endsWith('.json')&&f!==file))peers.push(...JSON.parse(await read('content/candidates/'+f)));
+const peers=[...questions];for(const f of (await readdir(new URL('../content/candidates/',import.meta.url))).filter(f=>f.endsWith('.json')&&f!==file))for(const q of JSON.parse(await read('content/candidates/'+f)))if(!peers.some(p=>p.id===q.id))peers.push(q);
 assert.equal(batch.length,50);assert.equal(audit.records.length,50);assert.deepEqual(audit.unresolvedPassages,[]);
 assert.deepEqual(Object.values(audit.categoryCounts),[10,8,8,8,8,8]);
 assert.deepEqual(audit.difficultyCounts,{'2':10,'3':16,'4':3,'5':15,'6':2,'7':3,'8':1});
@@ -33,5 +33,8 @@ for(const q of batch){
 }
 assert.deepEqual([0,1,2,3].map(n=>batch.filter(q=>q.answer===n).length),[13,13,12,12]);
 for(const level of [1,75,300,450,700,10000]){const selected=selectQuestions([...questions,...batch],{level,history:{}});assert.equal(selected.length,10);assert.ok(selected.every(q=>questions.some(live=>live.id===q.id)),'Drafts must not enter gameplay at any stage');}
-for(const [path,hash] of Object.entries(audit.preservedFiles))assert.equal(sha(await readFile(new URL(path,root))),hash,'Existing content/runtime changed: '+path);
+// Publication deliberately changes the additions module and its generated cache.
+// Permit only the exact authorized 68-record export, not arbitrary new content.
+if(publishedQuestions.length)assert.deepEqual(publishedQuestions,JSON.parse(await read('content/launch/reviewed-candidates.json')),'Only the exact authorized publication may supersede the two pre-publication snapshots');
+for(const [path,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(path))continue;assert.equal(sha(await readFile(new URL(path,root))),hash,'Existing content/runtime changed: '+path);}
 console.log(`PASS Torah everyday life: 50 candidates; exact 10/8/8/8/8/8 categories; editorial 2–8 mapping; all passage/evidence records intact; 0 schema/quality/duplicate/disclosure warnings against ${peers.length} existing records; no publication; ${Object.keys(audit.preservedFiles).length} prior files preserved. Source accuracy remains an editorial finding, not a consequence of this test.`);

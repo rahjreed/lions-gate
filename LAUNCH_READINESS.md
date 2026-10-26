@@ -1,8 +1,12 @@
 # Lion's Gate — release handoff
 
+**October 26 local-publication update:** explicit owner authorization has now been executed for the prepared 68 AI-attributed additions. The local live bank is **110 questions**. The original manifest, source evidence and audit records below remain the preserved pre-publication account; do not rerun its staging/publication commands. Use `node scripts/test-local-publication.mjs` for post-publication verification. The original `test-launch.mjs` and `stage-launch.mjs` preflight intentionally expect the earlier 42-question bank and are not post-publication checks. No commit, push or deployment is authorized or performed. See [local verification report](LOCAL_PUBLICATION_REPORT.md).
+
 ## Readiness
 
 The existing public game at https://lionsgate.callistadigital.com/ was loaded and played successfully during this audit. The local release update is prepared, not published or deployed. No cloud projects, DNS, deployment settings, or production data were changed.
+
+October 26 inventory reconciliation: **150 candidates = 68 selected + 32 held + 50 source-checked deferred drafts**. `content/launch/release-plan.json` now binds all 150 candidate digests and the original/new evidence artifacts. Only the original 68 are selected for the first publication. Their export, evidence, review attribution and original review timestamps are unchanged. Refreshing the manifest does not approve the new 50 or write to the real approval ledger. See [advanced coverage plan](ADVANCED_QUESTION_COVERAGE_PLAN.md) for the separate difficulty gap and staged authoring targets.
 
 - 42 existing live questions: Scripture-source audited, retained verbatim.
 - 68 additional candidates: source-backed, validated, prepared for explicit release authorization.
@@ -50,10 +54,13 @@ node scripts/stage-launch.mjs --authorize-publication
 node scripts/question-batch.mjs publish content/launch/reviewed-candidates.json
 node scripts/build-site.mjs
 node scripts/test-kr-101-150.mjs
+node scripts/build-curriculum-coverage.mjs
 node scripts/test-curriculum-coverage.mjs
 ```
 
-The first command is a pre-publication preflight expecting 42 live questions. Staging records the AI-attributed source reviews without overwriting conflicting editorial decisions. The existing publishing CLI validates approval, freshness, evidence and schema before writing the additional live module. Approval staging alone does not publish. All 32 held candidates must remain excluded.
+The first command is a pre-publication preflight expecting 42 live and all 150 candidates. Staging is the explicit authorized operation that writes the existing 68 AI-attributed review decisions/receipts to `content/editorial/decisions.json`, without overwriting conflicting decisions; it does not fabricate a human Scripture review. Until the owner authorizes and runs that operation, the real ledger remains empty and publication correctly fails. The existing publishing CLI validates current ledger approval, freshness, evidence and schema before writing the additional live module. Approval staging alone does not publish. All 32 held candidates and 50 deferred drafts remain excluded.
+
+The exact authorization needed is: **“Authorize recording the 68 prepared AI-assisted review decisions and publishing those 68 questions locally.”** This authorizes the staging and publishing commands, not a claim of personal Scripture review. Commit, push and deployment are separate actions and still require explicit authorization. No individual dashboard approvals are necessary for this already-reviewed batch. Refresh the generated coverage inventory after publication before testing it.
 
 Then review/commit the publication and rebuilt cache, push the authorized changes to the existing `main`, and verify the existing Vercel deployment. Check public title/start, answer modal and all citations, saved progress, mobile layout, Gatekeeper entry, manifest/assets, and a fresh service-worker update on the same hostname. Git push/deployment and candidate publication have **not** been performed during preparation. A preparation commit alone does not include the 68 questions in gameplay.
 

@@ -51,11 +51,11 @@ const quality=unpublished.length?qualityReport(unpublished,[...questions,...othe
 for(const level of [1,75,150,225,300,375,450,525,10000]){
  const selected=selectQuestions(all,{level,history:{}});assert.equal(selected.length,10);assert.ok(selected.every(e=>questions.some(q=>q.id===e.id)),'Neither candidate batch enters gameplay');
 }
-assert.equal(questions.length,audit.liveCount+publishedQuestions.length);assert.equal(earlier.length,audit.previousCandidates);
+assert.equal(questions.length,audit.liveCount+publishedQuestions.length);assert.equal(JSON.parse(await read('content/candidates/initial-50.json')).length,audit.previousCandidates,'Original earlier batch stays intact; later batches are checked as additional peers');
 const runtimeFixes=JSON.parse(await read('content/launch/runtime-fixes.json')).fixes;
-assert.deepEqual(runtimeFixes.map(f=>f.file).sort(),['dist/answer-reveal.js','dist/sw.js']);
+assert.deepEqual(runtimeFixes.map(f=>f.file).sort(),['dist/answer-reveal.js','dist/armor.css','dist/armor.js','dist/sw.js']);
 for(const fix of runtimeFixes){assert.equal(fix.before,audit.preservedFiles[fix.file]);assert.ok(fix.reason.trim());}
 for(const [file,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(file))continue;const documentedFix=runtimeFixes.find(f=>f.file===file);assert.equal(createHash('sha256').update(await readFile(new URL('../'+file,import.meta.url))).digest('hex'),documentedFix?.after||hash,`${file} must match its historical snapshot or explicit launch-fix snapshot`)}
 const sourceHash=createHash('sha256').update(source).digest('hex');assert.equal(sourceHash,audit.sourceSha256);assert.ok(batch.every(q=>q.editorial.sourceSha256===sourceHash));
 assert.ok(!String(await read('dist/sw.js')).includes('kr-101-150'),'Candidates are outside offline gameplay assets');
-console.log(`PASS KR-101–150: exactly 50; only 21 documented distractor edits; correct choices/questions/references/explanations/difficulty protected; zero schema errors; ${quality.warnings.length} unresolved warnings; unchecked review; publication rejection; draft exclusion through level 10000; ${Object.keys(audit.preservedFiles).length} prior file snapshots enforced, including two documented launch runtime fixes.`);
+console.log(`PASS KR-101–150: exactly 50; only 21 documented distractor edits; correct choices/questions/references/explanations/difficulty protected; zero schema errors; ${quality.warnings.length} unresolved warnings; unchecked review; publication rejection; draft exclusion through level 10000; ${Object.keys(audit.preservedFiles).length} prior file snapshots enforced, including four explicitly documented runtime files from prior authorized work.`);

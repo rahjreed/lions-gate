@@ -9,10 +9,10 @@
     "Unknown 1–10 difficulty calibrations remain null."
   ],
   "summary": {
-    "liveReviewed": 42,
-    "publishedAdditions": 0,
-    "candidates": 150,
-    "inventoryRecords": 192,
+    "liveReviewed": 110,
+    "publishedAdditions": 68,
+    "candidates": 82,
+    "inventoryRecords": 260,
     "torahChapterSlots": 187,
     "manualCatalogEntries": 0,
     "chapterReviews": 0
@@ -21,7 +21,7 @@
     "dist/questions.js": "8da4f71b10fc64edf23921b21fc3832413a65686bcbe0c78ddab96565c0ac5bd",
     "dist/extra-questions.js": "c7a8249a1be5a45662e6e1e04555ad6c1ce534c1af73eddf2f109ab6ba45fb4c",
     "dist/focus-questions.js": "9f1cd9369da7ba798a6e7bda64794deb6b63c06de390b0cd3e2f4751376d948f",
-    "dist/published-questions.js": "feaaeeb38a35846d0621c10ca013f54d43d1bf406569076c5b16e5abf284430f",
+    "dist/published-questions.js": "b248f7bb627c3089edaf9822546ac42348d4f3340d98bb3dda03b0036a2d7e19",
     "content/candidates/initial-50.json": "8b2f788a50c5a53df327a7cd6b8f4e62eccab7be6914996dccb7321c0c2238eb",
     "content/candidates/kr-101-150.json": "df2de51fef2a275aea5883fc202b4183f74636140944a4be5197a2c923d8da84",
     "content/candidates/torah-everyday-life-50.json": "164a08ae4f05de05484da26941273b1d06f43f6eed9af55cdaf899ef0f5dc6c8"
@@ -179,6 +179,7 @@
         }
       ],
       "existingRelatedQuestions": [
+        "bke-later-passover",
         "bke-later-passover"
       ],
       "associationStatus": "keyword hints only; review all actual source passages"
@@ -335,6 +336,7 @@
         }
       ],
       "existingRelatedQuestions": [
+        "bke-trumpets-date",
         "bke-trumpets-date"
       ],
       "associationStatus": "keyword hints only; review all actual source passages"
@@ -492,6 +494,9 @@
         "sabbath-day",
         "bke-sabbath-for-man",
         "kr-104",
+        "kr-115",
+        "bke-sabbath-for-man",
+        "kr-104",
         "kr-112",
         "kr-113",
         "kr-114",
@@ -579,15 +584,16 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "creation-rest",
+        "kr-132",
         "kr-111",
         "kr-132"
       ],
       "liveReviewedQuestionIds": [
-        "creation-rest"
+        "creation-rest",
+        "kr-132"
       ],
       "candidateQuestionIds": [
-        "kr-111",
-        "kr-132"
+        "kr-111"
       ],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
@@ -829,12 +835,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-melchizedek-gifts",
         "bke-melchizedek-gifts"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-melchizedek-gifts"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -855,12 +862,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-abraham-counted",
         "bke-abraham-counted"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-abraham-counted"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1381,12 +1389,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-joseph-age",
         "bke-joseph-age"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-joseph-age"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1914,13 +1923,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "bke-moses-hands",
-        "bke-rock-comparison"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+        "bke-rock-comparison",
         "bke-moses-hands",
         "bke-rock-comparison"
       ],
+      "liveReviewedQuestionIds": [
+        "bke-moses-hands",
+        "bke-rock-comparison"
+      ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1942,12 +1953,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-leader-covetousness",
         "bke-leader-covetousness"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-leader-covetousness"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2098,13 +2110,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "bke-enemy-burden",
+        "bke-enemy-burden",
         "torah-judgment-majority-pressure",
         "torah-poor-case-equal-justice",
         "torah-bribe-blinds-judgment"
       ],
-      "liveReviewedQuestionIds": [],
+      "liveReviewedQuestionIds": [
+        "bke-enemy-burden"
+      ],
       "candidateQuestionIds": [
-        "bke-enemy-burden",
         "torah-judgment-majority-pressure",
         "torah-poor-case-equal-justice",
         "torah-bribe-blinds-judgment"
@@ -2270,12 +2284,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "kr-104",
         "kr-104"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "kr-104"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2687,17 +2702,18 @@
       "existingRelatedQuestions": [
         "land-animals",
         "water-creatures",
+        "kr-139",
         "kr-138",
         "kr-139",
         "kr-140"
       ],
       "liveReviewedQuestionIds": [
         "land-animals",
-        "water-creatures"
+        "water-creatures",
+        "kr-139"
       ],
       "candidateQuestionIds": [
         "kr-138",
-        "kr-139",
         "kr-140"
       ],
       "uncoveredLearningObjectives": [
@@ -2822,12 +2838,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "kr-141",
         "kr-141"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "kr-141"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2893,6 +2910,9 @@
         "bke-neighbor-love",
         "bke-impartial-court",
         "kr-121",
+        "bke-neighbor-love",
+        "bke-impartial-court",
+        "kr-121",
         "kr-125",
         "kr-146",
         "torah-poor-case-equal-justice",
@@ -2905,11 +2925,12 @@
         "torah-james-neighbor-love-no-partiality",
         "torah-resident-stranger-love-memory"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-neighbor-love",
         "bke-impartial-court",
-        "kr-121",
+        "kr-121"
+      ],
+      "candidateQuestionIds": [
         "kr-125",
         "kr-146",
         "torah-poor-case-equal-justice",
@@ -3006,13 +3027,14 @@
       "existingRelatedQuestions": [
         "unleavened-days",
         "bke-trumpets-date",
+        "bke-trumpets-date",
         "kr-114"
       ],
       "liveReviewedQuestionIds": [
-        "unleavened-days"
+        "unleavened-days",
+        "bke-trumpets-date"
       ],
       "candidateQuestionIds": [
-        "bke-trumpets-date",
         "kr-114"
       ],
       "uncoveredLearningObjectives": [
@@ -3302,12 +3324,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-later-passover",
         "bke-later-passover"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-later-passover"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3388,12 +3411,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "bke-oshea-name",
         "bke-oshea-name"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-oshea-name"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3438,12 +3462,15 @@
       "existingRelatedQuestions": [
         "kr-103",
         "kr-119",
-        "kr-126"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
         "kr-103",
         "kr-119",
+        "kr-126"
+      ],
+      "liveReviewedQuestionIds": [
+        "kr-103",
+        "kr-119"
+      ],
+      "candidateQuestionIds": [
         "kr-126"
       ],
       "uncoveredLearningObjectives": [
@@ -3885,12 +3912,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "kr-135",
         "kr-135"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "kr-135"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4063,12 +4091,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "kr-133",
         "kr-133"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "kr-133"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4269,11 +4298,13 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "bke-annual-appearances",
+        "bke-annual-appearances",
         "torah-bribe-blinds-judgment"
       ],
-      "liveReviewedQuestionIds": [],
+      "liveReviewedQuestionIds": [
+        "bke-annual-appearances"
+      ],
       "candidateQuestionIds": [
-        "bke-annual-appearances",
         "torah-bribe-blinds-judgment"
       ],
       "uncoveredLearningObjectives": [
@@ -4300,13 +4331,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "bke-king-law-copy",
+        "bke-king-law-copy",
         "torah-difficult-cases-appointed-court",
         "torah-idolatry-report-investigation",
         "torah-king-under-law-humility"
       ],
-      "liveReviewedQuestionIds": [],
+      "liveReviewedQuestionIds": [
+        "bke-king-law-copy"
+      ],
       "candidateQuestionIds": [
-        "bke-king-law-copy",
         "torah-difficult-cases-appointed-court",
         "torah-idolatry-report-investigation",
         "torah-king-under-law-humility"
@@ -4436,14 +4469,17 @@
       "existingRelatedQuestions": [
         "kr-120",
         "kr-122",
+        "kr-120",
+        "kr-122",
         "torah-lost-property-unknown-owner",
         "torah-roof-battlement-responsibility",
         "torah-nesting-bird-mother-release"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "kr-120",
-        "kr-122",
+        "kr-122"
+      ],
+      "candidateQuestionIds": [
         "torah-lost-property-unknown-owner",
         "torah-roof-battlement-responsibility",
         "torah-nesting-bird-mother-release"
@@ -4505,15 +4541,18 @@
       "existingRelatedQuestions": [
         "bke-forgotten-sheaf",
         "kr-136",
+        "bke-forgotten-sheaf",
+        "kr-136",
         "torah-newlywed-year-at-home",
         "torah-pledge-livelihood-and-dignity",
         "torah-poor-worker-same-day-pay",
         "torah-widow-pledge-redemption-memory"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "bke-forgotten-sheaf",
-        "kr-136",
+        "kr-136"
+      ],
+      "candidateQuestionIds": [
         "torah-newlywed-year-at-home",
         "torah-pledge-livelihood-and-dignity",
         "torah-poor-worker-same-day-pay",
@@ -6340,11 +6379,2672 @@
       "manualCatalogEntryIds": []
     },
     {
+      "recordKey": "dist/published-questions.js#bke-melchizedek-gifts",
+      "id": "bke-melchizedek-gifts",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 14,
+          "verse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Abram and Salem",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Melchizedek is the king and priest who brings these provisions in the account.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Who brought bread and wine to Abram in Genesis 14:18?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-joseph-age",
+      "id": "bke-joseph-age",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 41,
+          "verse": 46
+        }
+      ],
+      "commandmentOrTeaching": "Joseph in Egypt",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The age given at this audience is thirty; it is distinct from his earlier life with his brothers.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How old was Joseph when he stood before Pharaoh in Genesis 41:46?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-moses-hands",
+      "id": "bke-moses-hands",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 17,
+          "verse": 12
+        }
+      ],
+      "commandmentOrTeaching": "The battle with Amalek",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Aaron and Hur hold up his hands while Moses sits on a stone; Joshua’s role is in the battle.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Who supported Moses’ hands in Exodus 17:12?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-oshea-name",
+      "id": "bke-oshea-name",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 13,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "The twelve spies",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The KJV spells the new name Jehoshua here, a form associated with Joshua. The other choices are different people.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What name did Moses give Oshea the son of Nun in Numbers 13:16?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-jordan-season",
+      "id": "bke-jordan-season",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Joshua",
+          "chapter": 3,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Crossing the Jordan",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The narrative specifically identifies harvest as the time of the overflowing river.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What season is mentioned when the Jordan overflows its banks in Joshua 3:15?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-ruth-husband",
+      "id": "bke-ruth-husband",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Ruth",
+          "chapter": 4,
+          "verse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Ruth and Boaz",
+      "curriculumCategories": [
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Boaz marries Ruth in this verse. The question concerns this marriage, rather than her earlier family history.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Whom does Ruth 4:13 identify as Ruth’s husband at the birth of her son?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-elijah-water",
+      "id": "bke-elijah-water",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "1 Kings",
+          "chapter": 18,
+          "verse": 33
+        }
+      ],
+      "commandmentOrTeaching": "Elijah on Carmel",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The initial instruction is for four barrels. Later repetitions of pouring should not be confused with this number.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How many barrels of water did Elijah first ask to be filled in 1 Kings 18:33?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-nehemiah-office",
+      "id": "bke-nehemiah-office",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Nehemiah",
+          "chapter": 1,
+          "verse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Nehemiah in exile",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Nehemiah identifies himself as the king’s cupbearer, rather than one of the other royal offices.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What royal office does Nehemiah name at the end of Nehemiah 1:11?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-enemy-burden",
+      "id": "bke-enemy-burden",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 23,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "Care for an enemy",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The instruction requires helping even when the owner hates the observer. Hostility does not cancel the stated duty.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What does Exodus 23:5 direct when an enemy’s ass is lying under its burden?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-neighbor-love",
+      "id": "bke-neighbor-love",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Love of neighbour",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse gives one’s own self as the comparison and also prohibits vengeance and grudges.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Leviticus 19:18 say to love your neighbour?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-146",
+        "torah-rebuke-without-hatred",
+        "torah-james-neighbor-love-no-partiality"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-impartial-court",
+      "id": "bke-impartial-court",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Justice in Torah",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The prohibition names partiality toward both the poor and the mighty. Righteous judgment is the stated standard.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which instruction best matches Leviticus 19:15 about judging a neighbour?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-poor-case-equal-justice",
+        "torah-james-neighbor-love-no-partiality"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-trumpets-date",
+      "id": "bke-trumpets-date",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 23,
+          "verse": 24
+        }
+      ],
+      "commandmentOrTeaching": "The seventh month",
+      "curriculumCategories": [
+        "01",
+        "03"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse specifies the first day of the seventh month. Other feast dates must not be substituted.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "On what date does Leviticus 23:24 place the memorial of blowing trumpets?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-annual-appearances",
+      "id": "bke-annual-appearances",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 16,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Pilgrimage feasts",
+      "curriculumCategories": [
+        "01",
+        "03"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The list names Unleavened Bread, Weeks and Tabernacles. It does not equate every seventh-month observance with one of these three appearances.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which set of feasts is listed for the three yearly appearances in Deuteronomy 16:16?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-king-law-copy",
+      "id": "bke-king-law-copy",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 18
+        }
+      ],
+      "commandmentOrTeaching": "The king and the law",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The king is to make a copy from the law kept before the Levitical priests, not author a replacement.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What must the king write for himself in Deuteronomy 17:18?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-king-under-law-humility"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-forgotten-sheaf",
+      "id": "bke-forgotten-sheaf",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 19
+        }
+      ],
+      "commandmentOrTeaching": "Gleaning and provision",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command prevents returning for the forgotten sheaf and names three groups who benefit from it.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "For whom is the forgotten sheaf left in Deuteronomy 24:19?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-later-passover",
+      "id": "bke-later-passover",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 9,
+          "verse": 11
+        },
+        {
+          "book": "Numbers",
+          "chapter": 9,
+          "verse": 10
+        }
+      ],
+      "commandmentOrTeaching": "Passover provision",
+      "curriculumCategories": [
+        "01",
+        "03"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Verse 10 concerns uncleanness from a dead body or a distant journey. Verse 11 gives the later observance date; this is a specified provision, not a freely chosen date.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "For those covered by Numbers 9:10, when does verse 11 direct keeping the Passover?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-reconcile-first",
+      "id": "bke-reconcile-first",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 5,
+          "verse": 24
+        }
+      ],
+      "commandmentOrTeaching": "Reconciliation",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Reconciliation precedes returning to the offering. The instruction concerns the relational wrong raised in the preceding verse.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What does Yeshua tell a person to do first in Matthew 5:24 before returning to offer a gift?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-rock-hearer",
+      "id": "bke-rock-hearer",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 7,
+          "verse": 24
+        }
+      ],
+      "commandmentOrTeaching": "Hearing and doing",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "The comparison includes both hearing and doing. Hearing alone does not satisfy the description.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Whom does Yeshua compare to the wise builder in Matthew 7:24?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-mercy-hosea",
+      "id": "bke-mercy-hosea",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 12,
+          "verse": 7
+        },
+        {
+          "book": "Hosea",
+          "chapter": 6,
+          "verse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Mercy and accusation",
+      "curriculumCategories": [
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Yeshua applies the mercy statement to the condemnation of the guiltless. Comparing the wording does not require assigning a new rule to every sacrifice passage.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which priority appears in both Hosea 6:6 and Yeshua’s reply in Matthew 12:7?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-147"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-sabbath-for-man",
+      "id": "bke-sabbath-for-man",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Mark",
+          "chapter": 2,
+          "verse": 27
+        }
+      ],
+      "commandmentOrTeaching": "The Sabbath saying",
+      "curriculumCategories": [
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "The saying gives the direction of the relationship explicitly. The question does not ask readers to settle every later Sabbath dispute.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Mark 2:27 describe the relationship between man and the Sabbath?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-neighbor-mercy",
+      "id": "bke-neighbor-mercy",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Luke",
+          "chapter": 10,
+          "verse": 37
+        }
+      ],
+      "commandmentOrTeaching": "The Samaritan’s example",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "The reply identifies the one who showed mercy, and Yeshua directs the listener to act likewise.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "At the conclusion of Luke 10:36–37, what identifies the person who acted as neighbour?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-chief-serves",
+      "id": "bke-chief-serves",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Luke",
+          "chapter": 22,
+          "verse": 26
+        }
+      ],
+      "commandmentOrTeaching": "Greatness and service",
+      "curriculumCategories": [
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Yeshua contrasts the disciples’ conduct with rulers who exercise lordship and directs the chief to serve.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How should the one who is chief act in Luke 22:26?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-footwashing-example",
+      "id": "bke-footwashing-example",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "John",
+          "chapter": 13,
+          "verse": 14
+        }
+      ],
+      "commandmentOrTeaching": "The example of the Master",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "He names washing one another’s feet after performing that action himself. The question tests the stated example rather than a denominational practice.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What action does Yeshua tell his disciples to do for one another in John 13:14?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-peter-joel",
+      "id": "bke-peter-joel",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 2,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Peter’s citation",
+      "curriculumCategories": [
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Peter names Joel before the following prophetic citation. The verse itself identifies the source.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which prophet does Peter explicitly name in Acts 2:16?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-david-tabernacle",
+      "id": "bke-david-tabernacle",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 15,
+          "verse": 16
+        },
+        {
+          "book": "Amos",
+          "chapter": 9,
+          "verse": 11
+        }
+      ],
+      "commandmentOrTeaching": "James and Amos",
+      "curriculumCategories": [
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Both passages name David’s fallen tabernacle and its restoration. Acts places the citation in the council discussion; this comparison does not prescribe a detailed prophetic timetable.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What restoration image is shared by Amos 9:11 and the citation in Acts 15:16?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-abraham-counted",
+      "id": "bke-abraham-counted",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 4,
+          "verse": 3
+        },
+        {
+          "book": "Genesis",
+          "chapter": 15,
+          "verse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Paul and Genesis",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Romans explicitly appeals to Scripture about Abraham’s belief and righteousness, matching Genesis. This tests the textual connection rather than every question about faith and works.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which shared statement connects Genesis 15:6 with Romans 4:3?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-enemy-provision",
+      "id": "bke-enemy-provision",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 12,
+          "verse": 20
+        },
+        {
+          "book": "Proverbs",
+          "chapter": 25,
+          "verse": 21
+        }
+      ],
+      "commandmentOrTeaching": "Paul and Proverbs",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Both texts direct provision for the enemy’s immediate needs. The comparison concerns the commanded actions, not competing explanations of the coals image.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What response to a hungry and thirsty enemy is shared by Proverbs 25:21 and Romans 12:20?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-rock-comparison",
+      "id": "bke-rock-comparison",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "1 Corinthians",
+          "chapter": 10,
+          "verse": 4
+        },
+        {
+          "book": "Exodus",
+          "chapter": 17,
+          "verse": 6
+        }
+      ],
+      "commandmentOrTeaching": "The wilderness and Paul",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Exodus describes water from the rock at Horeb. Paul identifies the spiritual Rock as Christ; the question reports his identification rather than supplying unstated details about its mechanism.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "When comparing Exodus 17:6 with 1 Corinthians 10:4, which statement is explicit in Paul’s account?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-law-hearts",
+      "id": "bke-law-hearts",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Hebrews",
+          "chapter": 8,
+          "verse": 10
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 31,
+          "verse": 33
+        }
+      ],
+      "commandmentOrTeaching": "The covenant citation",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Both passages describe an inward location for the law. The question does not infer that all covenant questions are resolved by this shared wording.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What is shared by Jeremiah 31:33 and Hebrews 8:10 concerning God’s law?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-108"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-no-deceit",
+      "id": "bke-no-deceit",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "1 Peter",
+          "chapter": 2,
+          "verse": 22
+        },
+        {
+          "book": "Isaiah",
+          "chapter": 53,
+          "verse": 9
+        }
+      ],
+      "commandmentOrTeaching": "Peter and Isaiah",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Isaiah uses deceit and Peter uses guile. Both descriptions deny falsehood in the subject’s mouth; this is an observable verbal connection.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which description is shared by Isaiah 53:9 and 1 Peter 2:22?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-weak-received",
+      "id": "bke-weak-received",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 14,
+          "verse": 1
+        }
+      ],
+      "commandmentOrTeaching": "Romans and reception",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The instruction is reception without doubtful disputations. It should not be expanded here into an answer to every disputed practice in the chapter.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Romans 14:1 direct readers to receive someone weak in faith?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-corban-meaning",
+      "id": "bke-corban-meaning",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Mark",
+          "chapter": 7,
+          "verse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Tradition and parents",
+      "curriculumCategories": [
+        "08",
+        "15"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The passage glosses Corban as a gift in an argument about withholding help from parents. The question asks the stated meaning, not whether such withholding is approved.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What meaning does Mark 7:11 give for Corban?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-137",
+        "kr-144"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-law-reveals-coveting",
+      "id": "bke-law-reveals-coveting",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 7,
+          "verse": 7
+        }
+      ],
+      "commandmentOrTeaching": "Paul’s question about sin",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Paul rejects identifying the law itself with sin and cites the command against coveting as his example. This does not settle every disputed reading of Romans 7.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In Romans 7:7, which command illustrates how the law made sin known?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-liberty-service",
+      "id": "bke-liberty-service",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Galatians",
+          "chapter": 5,
+          "verse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Liberty and the flesh",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Paul joins his warning against an occasion to the flesh with loving service. Liberty is not presented in this sentence as an excuse for selfish conduct.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What positive action follows Paul’s warning about misusing liberty in Galatians 5:13?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-tradition-christ",
+      "id": "bke-tradition-christ",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Colossians",
+          "chapter": 2,
+          "verse": 8
+        }
+      ],
+      "commandmentOrTeaching": "A warning at Colossae",
+      "curriculumCategories": [
+        "15"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The stated contrast is with Christ. This question does not import a disputed conclusion about feast days from later verses.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What final contrast does Colossians 2:8 make after naming human tradition and worldly rudiments?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-paul-wrested",
+      "id": "bke-paul-wrested",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "2 Peter",
+          "chapter": 3,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Difficult apostolic writings",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The KJV uses wrest for twisting the writings, and the context identifies Paul in verse 15. The warning commends careful reading rather than careless proof-texting.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In 2 Peter 3:15–16, what do the unlearned and unstable do with difficult passages in Paul’s letters?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-assembly-seating",
+      "id": "bke-assembly-seating",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "James",
+          "chapter": 2,
+          "verse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Partiality in an assembly",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The described preference favours the finely dressed visitor over the poor person. The following verse criticizes this discrimination rather than endorsing it.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In James 2:2–3, who is offered the good place to sit?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-zion-law",
+      "id": "bke-zion-law",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Isaiah",
+          "chapter": 2,
+          "verse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Isaiah’s mountain vision",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "Isaiah pairs the law from Zion with the word of the LORD from Jerusalem. The question tests the named place without imposing a date for the vision.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In Isaiah 2:3, from where does the law go forth?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-kingdom-endures",
+      "id": "bke-kingdom-endures",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Daniel",
+          "chapter": 2,
+          "verse": 44
+        }
+      ],
+      "commandmentOrTeaching": "Daniel’s interpretation",
+      "curriculumCategories": [
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The verse denies that this kingdom will be destroyed and says it endures for ever. No identification of contemporary nations is required.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What duration does Daniel 2:44 give the kingdom set up by the God of heaven?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-wicked-return",
+      "id": "bke-wicked-return",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Ezekiel",
+          "chapter": 18,
+          "verse": 23
+        }
+      ],
+      "commandmentOrTeaching": "Judgment and repentance",
+      "curriculumCategories": [
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The question names the contrast between death and turning from wicked ways to live. The surrounding discussion addresses responsibility and repentance.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What alternative to the wicked person’s death is named in Ezekiel 18:23?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-nations-tabernacles",
+      "id": "bke-nations-tabernacles",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Zechariah",
+          "chapter": 14,
+          "verse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Zechariah’s vision",
+      "curriculumCategories": [
+        "03"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The verse explicitly names Tabernacles. Its imagery is tested without presenting a disputed prophetic chronology as settled fact.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which feast does Zechariah 14:16 name for the nations’ yearly journey?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-stranger-welcomed",
+      "id": "bke-stranger-welcomed",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 25,
+          "verse": 35
+        }
+      ],
+      "commandmentOrTeaching": "The King’s judgment scene",
+      "curriculumCategories": [
+        "08",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The verse includes welcoming the stranger among acts of care. It does not identify hospitality with the other responses offered here.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In Matthew 25:35, what response to the stranger does the King commend?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-tree-leaves",
+      "id": "bke-tree-leaves",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Revelation",
+          "chapter": 22,
+          "verse": 2
+        }
+      ],
+      "commandmentOrTeaching": "The tree of life",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The leaves are connected with healing, while the fruit is separately described as recurring monthly. The two descriptions should not be interchanged.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What purpose is assigned to the tree’s leaves in Revelation 22:2?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-rulers-answerable",
+      "id": "bke-rulers-answerable",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Wisdom of Solomon",
+          "chapter": 6,
+          "verse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Wisdom addresses rulers",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The address to kings places both the source of their power and scrutiny of their conduct with the Lord. It is not a claim that rulers escape accountability.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Wisdom of Solomon 6:3, who gives rulers power and examines their works?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-leader-covetousness",
+      "id": "bke-leader-covetousness",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 18,
+          "verse": 21
+        },
+        {
+          "book": "1 Timothy",
+          "chapter": 3,
+          "verse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Leadership qualifications",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Exodus calls for men who hate covetousness; the overseer description in 1 Timothy also excludes it. This comparison does not claim the two offices have identical duties.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A community is comparing candidates using Exodus 18:21 and 1 Timothy 3:3. Which concern is explicit in both passages?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-test-teaching",
+      "id": "bke-test-teaching",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 17,
+          "verse": 11
+        },
+        {
+          "book": "1 Thessalonians",
+          "chapter": 5,
+          "verse": 21
+        }
+      ],
+      "commandmentOrTeaching": "Discernment of teaching",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The Bereans examine Scripture, and the Thessalonian instruction joins testing with retaining good. The combined response requires examination rather than automatic acceptance or rejection.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A persuasive teacher cites one verse to justify an unfamiliar practice. Which response combines Acts 17:11 and 1 Thessalonians 5:21?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-149",
+        "kr-150"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-gentle-correction",
+      "id": "bke-gentle-correction",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Galatians",
+          "chapter": 6,
+          "verse": 1
+        },
+        {
+          "book": "2 Timothy",
+          "chapter": 2,
+          "verse": 25
+        }
+      ],
+      "commandmentOrTeaching": "Restoration and instruction",
+      "curriculumCategories": [
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Galatians joins restoration with meekness and self-watchfulness. Second Timothy also calls for meek instruction; neither passage licenses pride in the corrector.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A teacher must correct someone at fault. Which approach combines Galatians 6:1 with 2 Timothy 2:25?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-testing-gold",
+      "id": "bke-testing-gold",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Ecclesiasticus",
+          "chapter": 2,
+          "verse": 5
+        },
+        {
+          "book": "1 Peter",
+          "chapter": 1,
+          "verse": 7
+        }
+      ],
+      "commandmentOrTeaching": "An image of testing",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Ecclesiasticus compares adversity to a furnace, while Peter discusses tested faith and gold tried by fire. The question identifies the shared image, not an identical explanation of every trial.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which image links Ecclesiasticus 2:5 and 1 Peter 1:7 in their descriptions of adversity or tested faith?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#bke-asking-wisdom",
+      "id": "bke-asking-wisdom",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "legacy documented review; no new verification",
+      "references": [
+        {
+          "book": "Wisdom of Solomon",
+          "chapter": 7,
+          "verse": 7
+        },
+        {
+          "book": "James",
+          "chapter": 1,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "Seeking wisdom",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "The Wisdom speaker prays and receives understanding; James directs the person lacking wisdom to ask God. Both passages describe seeking rather than purchasing wisdom.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What action connects Wisdom of Solomon 7:7 with James 1:5 for someone seeking wisdom?",
+      "difficultyProgression": {
+        "editorialRating1to10": null,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-103",
+      "id": "kr-103",
+      "editorialId": "KR-103",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 15,
+          "verse": 38,
+          "endVerse": 40
+        }
+      ],
+      "commandmentOrTeaching": "THE LAW AND ITS ENDURING AUTHORITY",
+      "curriculumCategories": [
+        "01",
+        "05"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The fringes, including the commanded blue cord, were to remind Israel of Yah's commandments and encourage obedience rather than following their own hearts and eyes.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What purpose does Numbers 15:38–40 give for the fringes Israelites were instructed to wear?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-119",
+        "kr-119",
+        "kr-126"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-104",
+      "id": "kr-104",
+      "editorialId": "KR-104",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 31,
+          "verse": 16,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "THE LAW AND ITS ENDURING AUTHORITY",
+      "curriculumCategories": [
+        "01",
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The Sabbath is expressly described as a perpetual covenant and a sign between Yah and the children of Israel throughout their generations.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Exodus 31:16–17, how is Israel instructed to regard the Sabbath throughout its generations?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-105",
+      "id": "kr-105",
+      "editorialId": "KR-105",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 5,
+          "verse": 17,
+          "endVerse": 19
+        }
+      ],
+      "commandmentOrTeaching": "THE LAW AND ITS ENDURING AUTHORITY",
+      "curriculumCategories": [
+        "01",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Yeshua explicitly denied coming to destroy the Law or the Prophets. He declared that He came to fulfill them and spoke of the continuing significance of God's commandments. The meaning of fulfillment should be studied in its surrounding context.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What did Yeshua declare concerning His relationship to the Law and the Prophets in Matthew 5:17?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-115",
+      "id": "kr-115",
+      "editorialId": "KR-115",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 12,
+          "verse": 9,
+          "endVerse": 12
+        },
+        {
+          "book": "Mark",
+          "chapter": 3,
+          "verse": 1,
+          "endVerse": 5
+        }
+      ],
+      "commandmentOrTeaching": "THE SABBATH AND HOLY CONVOCATIONS",
+      "curriculumCategories": [
+        "01",
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Yeshua challenged interpretations that prevented merciful action. He expressly affirmed that doing good on the Sabbath is lawful.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What principle did Yeshua teach when He asked whether it was lawful to do good on the Sabbath?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-117",
+      "id": "kr-117",
+      "editorialId": "KR-117",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Isaiah",
+          "chapter": 66,
+          "verse": 22,
+          "endVerse": 23
+        }
+      ],
+      "commandmentOrTeaching": "THE SABBATH AND HOLY CONVOCATIONS",
+      "curriculumCategories": [
+        "01",
+        "02",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "Isaiah describes a future scene in which all flesh comes to worship before Yah from one new moon to another and from one Sabbath to another. The text explicitly retains these recurring observances in its prophetic description.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What future worship pattern is described in Isaiah 66:22–23?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-119",
+      "id": "kr-119",
+      "editorialId": "KR-119",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 15,
+          "verse": 38
+        }
+      ],
+      "commandmentOrTeaching": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "curriculumCategories": [
+        "01",
+        "05",
+        "08"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Yah instructed the children of Israel to make fringes upon the borders of their garments throughout their generations, with a blue cord included.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Numbers 15:38, what were the children of Israel commanded to make upon the borders of their garments?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "kr-103",
+        "kr-103"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-120",
+      "id": "kr-120",
+      "editorialId": "KR-120",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 12
+        }
+      ],
+      "commandmentOrTeaching": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "curriculumCategories": [
+        "01",
+        "05"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command describes fringes or tassels associated with the four corners of the garment. Different translations use terminology such as fringes, tassels, or twisted cords.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Deuteronomy 22:12, where were Israelites instructed to make fringes or tassels?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-121",
+      "id": "kr-121",
+      "editorialId": "KR-121",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 27
+        }
+      ],
+      "commandmentOrTeaching": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "curriculumCategories": [
+        "01",
+        "05"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse prohibits rounding the corners of the head and marring the corners of the beard. The text should be taught accurately without inventing additional measurements or modern grooming rules not expressly given.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Leviticus 19:27, what restrictions are given concerning the hair and beard?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-122",
+      "id": "kr-122",
+      "editorialId": "KR-122",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 22,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "APPEARANCE, FRINGES, BEARDS, AND MODESTY",
+      "curriculumCategories": [
+        "01",
+        "05"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The passage prohibits the specified exchange of male and female apparel or items. The question concerns the commandment's stated distinction without inventing a universal list of modern garments.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Deuteronomy 22:5, what distinction concerning clothing does the commandment address?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-127",
+      "id": "kr-127",
+      "editorialId": "KR-127",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Daniel",
+          "chapter": 6,
+          "verse": 10
+        }
+      ],
+      "commandmentOrTeaching": "PRAYER AND WORSHIP",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Daniel prayed with his windows open toward Jerusalem, continuing his established practice despite the royal decree.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Daniel 6:10, toward which city were Daniel's windows open when he prayed?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-129",
+      "id": "kr-129",
+      "editorialId": "KR-129",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 6,
+          "verse": 9,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "PRAYER AND WORSHIP",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "yeshua",
+      "learningObjective": "Yeshua's model prayer begins by honoring the Father, calling for His Kingdom to come, and seeking His will to be done.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "When Yeshua taught His disciples how to pray in Matthew 6:9–13, what priority did He place at the beginning?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-130",
+      "id": "kr-130",
+      "editorialId": "KR-130",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Isaiah",
+          "chapter": 56,
+          "verse": 6,
+          "endVerse": 7
+        }
+      ],
+      "commandmentOrTeaching": "PRAYER AND WORSHIP",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "Isaiah describes foreigners who join themselves to Yah, love His name, keep His Sabbath, and hold fast to His covenant. Yah promises to receive them at His holy mountain, and His house is called a house of prayer for all people.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Isaiah 56:6–7, what does Yah promise concerning foreigners who join themselves to Him, keep His covenant, and serve Him?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-132",
+      "id": "kr-132",
+      "editorialId": "KR-132",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 2,
+          "verse": 24
+        }
+      ],
+      "commandmentOrTeaching": "MARRIAGE AND FAMILY LAW",
+      "curriculumCategories": [
+        "01",
+        "07",
+        "08"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Genesis describes a man leaving his father and mother, cleaving to his wife, and the two becoming one flesh. Yeshua later references this passage when discussing marriage.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Genesis 2:24, what relationship is established when a man leaves his father and mother and joins his wife?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-133",
+      "id": "kr-133",
+      "editorialId": "KR-133",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 7,
+          "verse": 1,
+          "endVerse": 4
+        }
+      ],
+      "commandmentOrTeaching": "MARRIAGE AND FAMILY LAW",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Yah prohibited the specified intermarriages and gave the danger of being turned from Him toward other gods as the stated reason. Study the named nations, covenant setting, and express wording of the commandment.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What reason is expressly given in Deuteronomy 7:3–4 for forbidding Israel to intermarry with the nations identified in that passage?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-135",
+      "id": "kr-135",
+      "editorialId": "KR-135",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 36,
+          "verse": 6,
+          "endVerse": 9
+        }
+      ],
+      "commandmentOrTeaching": "MARRIAGE AND FAMILY LAW",
+      "curriculumCategories": [
+        "01",
+        "07",
+        "09",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The command concerned preserving tribal land inheritance. The daughters could marry whom they considered suitable within the specified tribal family, ensuring their inherited portion remained with the tribe.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Numbers 36:6–9, why were the daughters inheriting land in their tribe instructed to marry within their father's tribal family?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-136",
+      "id": "kr-136",
+      "editorialId": "KR-136",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 24,
+          "verse": 1,
+          "endVerse": 4
+        }
+      ],
+      "commandmentOrTeaching": "MARRIAGE AND FAMILY LAW",
+      "curriculumCategories": [
+        "01",
+        "07"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The passage describes a particular divorce and remarriage situation and prohibits the first husband from marrying the woman again after her intervening marriage has ended. It should not be rewritten as a blanket prohibition against every form of remarriage.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Deuteronomy 24:1–4, what is prohibited after a divorced woman has married another man and that subsequent marriage has ended?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-139",
+      "id": "kr-139",
+      "editorialId": "KR-139",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 11,
+          "verse": 7,
+          "endVerse": 8
+        }
+      ],
+      "commandmentOrTeaching": "DIETARY LAWS AND HOLINESS",
+      "curriculumCategories": [
+        "01",
+        "04",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The swine divides the hoof but does not chew the cud, so it fails to meet both requirements given for permitted land animals.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why is the swine identified as unclean in Leviticus 11:7–8?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-141",
+      "id": "kr-141",
+      "editorialId": "KR-141",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 17,
+          "verse": 10,
+          "endVerse": 14
+        }
+      ],
+      "commandmentOrTeaching": "DIETARY LAWS AND HOLINESS",
+      "curriculumCategories": [
+        "01",
+        "04",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Yah connects blood with the life of the flesh and explains its role in atonement. The prohibition is grounded in the meaning and sanctity assigned to blood.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Leviticus 17:10–14, what is the stated reason for the prohibition against eating blood?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#kr-143",
+      "id": "kr-143",
+      "editorialId": "KR-143",
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Isaiah",
+          "chapter": 66,
+          "verse": 15,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "DIETARY LAWS AND HOLINESS",
+      "curriculumCategories": [
+        "01",
+        "04",
+        "06",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "Isaiah's prophecy describes Yah's judgment and specifically includes those eating swine's flesh, the abomination, and the mouse among the condemned. The passage should be studied in relation to the holiness and dietary instructions elsewhere in Scripture.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "According to Isaiah 66:15–17, which practice is explicitly named among those condemned in the prophetic judgment scene?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "supplied rating; calibration pending",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
       "recordKey": "content/candidates/initial-50.json#bke-melchizedek-gifts",
       "id": "bke-melchizedek-gifts",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6381,7 +9081,7 @@
       "id": "bke-joseph-age",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6418,7 +9118,7 @@
       "id": "bke-moses-hands",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6455,7 +9155,7 @@
       "id": "bke-oshea-name",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6492,7 +9192,7 @@
       "id": "bke-jordan-season",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6529,7 +9229,7 @@
       "id": "bke-ruth-husband",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6566,7 +9266,7 @@
       "id": "bke-elijah-water",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6603,7 +9303,7 @@
       "id": "bke-nehemiah-office",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6640,7 +9340,7 @@
       "id": "bke-enemy-burden",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6677,7 +9377,7 @@
       "id": "bke-neighbor-love",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6718,7 +9418,7 @@
       "id": "bke-impartial-court",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6758,7 +9458,7 @@
       "id": "bke-trumpets-date",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6796,7 +9496,7 @@
       "id": "bke-annual-appearances",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6834,7 +9534,7 @@
       "id": "bke-king-law-copy",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6873,7 +9573,7 @@
       "id": "bke-forgotten-sheaf",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6911,7 +9611,7 @@
       "id": "bke-later-passover",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6954,7 +9654,7 @@
       "id": "bke-reconcile-first",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -6991,7 +9691,7 @@
       "id": "bke-rock-hearer",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7028,7 +9728,7 @@
       "id": "bke-mercy-hosea",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7072,7 +9772,7 @@
       "id": "bke-sabbath-for-man",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7109,7 +9809,7 @@
       "id": "bke-neighbor-mercy",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7146,7 +9846,7 @@
       "id": "bke-chief-serves",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7183,7 +9883,7 @@
       "id": "bke-footwashing-example",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7220,7 +9920,7 @@
       "id": "bke-peter-joel",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7257,7 +9957,7 @@
       "id": "bke-david-tabernacle",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7299,7 +9999,7 @@
       "id": "bke-abraham-counted",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7341,7 +10041,7 @@
       "id": "bke-enemy-provision",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7383,7 +10083,7 @@
       "id": "bke-rock-comparison",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7425,7 +10125,7 @@
       "id": "bke-law-hearts",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7469,7 +10169,7 @@
       "id": "bke-no-deceit",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7511,7 +10211,7 @@
       "id": "bke-weak-received",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7548,7 +10248,7 @@
       "id": "bke-corban-meaning",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7589,7 +10289,7 @@
       "id": "bke-law-reveals-coveting",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7626,7 +10326,7 @@
       "id": "bke-liberty-service",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7663,7 +10363,7 @@
       "id": "bke-tradition-christ",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7700,7 +10400,7 @@
       "id": "bke-paul-wrested",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7737,7 +10437,7 @@
       "id": "bke-assembly-seating",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7774,7 +10474,7 @@
       "id": "bke-zion-law",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7811,7 +10511,7 @@
       "id": "bke-kingdom-endures",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7848,7 +10548,7 @@
       "id": "bke-wicked-return",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7885,7 +10585,7 @@
       "id": "bke-nations-tabernacles",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7922,7 +10622,7 @@
       "id": "bke-stranger-welcomed",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7960,7 +10660,7 @@
       "id": "bke-tree-leaves",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -7997,7 +10697,7 @@
       "id": "bke-rulers-answerable",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8034,7 +10734,7 @@
       "id": "bke-leader-covetousness",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8123,7 +10823,7 @@
       "id": "bke-test-teaching",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8168,7 +10868,7 @@
       "id": "bke-gentle-correction",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8210,7 +10910,7 @@
       "id": "bke-testing-gold",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8252,7 +10952,7 @@
       "id": "bke-asking-wisdom",
       "editorialId": null,
       "source": "content/candidates/initial-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "passage-checked",
       "references": [
@@ -8373,7 +11073,7 @@
       "id": "kr-103",
       "editorialId": "KR-103",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -8403,6 +11103,7 @@
       },
       "relatedQuestionIds": [
         "kr-119",
+        "kr-119",
         "kr-126"
       ],
       "uncoveredLearningObjectives": [
@@ -8415,7 +11116,7 @@
       "id": "kr-104",
       "editorialId": "KR-104",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -8454,7 +11155,7 @@
       "id": "kr-105",
       "editorialId": "KR-105",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -8604,6 +11305,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "bke-law-hearts",
         "bke-law-hearts"
       ],
       "uncoveredLearningObjectives": [
@@ -8863,7 +11565,7 @@
       "id": "kr-115",
       "editorialId": "KR-115",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -8947,7 +11649,7 @@
       "id": "kr-117",
       "editorialId": "KR-117",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9026,7 +11728,7 @@
       "id": "kr-119",
       "editorialId": "KR-119",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9055,6 +11757,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "kr-103",
         "kr-103"
       ],
       "uncoveredLearningObjectives": [
@@ -9067,7 +11770,7 @@
       "id": "kr-120",
       "editorialId": "KR-120",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9105,7 +11808,7 @@
       "id": "kr-121",
       "editorialId": "KR-121",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9143,7 +11846,7 @@
       "id": "kr-122",
       "editorialId": "KR-122",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9326,6 +12029,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "kr-103",
         "kr-103"
       ],
       "uncoveredLearningObjectives": [
@@ -9338,7 +12042,7 @@
       "id": "kr-127",
       "editorialId": "KR-127",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9415,7 +12119,7 @@
       "id": "kr-129",
       "editorialId": "KR-129",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9454,7 +12158,7 @@
       "id": "kr-130",
       "editorialId": "KR-130",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9532,7 +12236,7 @@
       "id": "kr-132",
       "editorialId": "KR-132",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9571,7 +12275,7 @@
       "id": "kr-133",
       "editorialId": "KR-133",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9651,7 +12355,7 @@
       "id": "kr-135",
       "editorialId": "KR-135",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9692,7 +12396,7 @@
       "id": "kr-136",
       "editorialId": "KR-136",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9769,6 +12473,7 @@
       "relatedQuestionIds": [
         "honor-parents",
         "bke-corban-meaning",
+        "bke-corban-meaning",
         "kr-144"
       ],
       "uncoveredLearningObjectives": [
@@ -9822,7 +12527,7 @@
       "id": "kr-139",
       "editorialId": "KR-139",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9903,7 +12608,7 @@
       "id": "kr-141",
       "editorialId": "KR-141",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -9983,7 +12688,7 @@
       "id": "kr-143",
       "editorialId": "KR-143",
       "source": "content/candidates/kr-101-150.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "pending",
       "references": [
@@ -10063,6 +12768,7 @@
         "hands-complaint",
         "hands-conclusion",
         "command-tradition",
+        "bke-corban-meaning",
         "bke-corban-meaning",
         "kr-137"
       ],
@@ -10152,6 +12858,7 @@
       },
       "relatedQuestionIds": [
         "bke-neighbor-love",
+        "bke-neighbor-love",
         "torah-rebuke-without-hatred",
         "torah-james-neighbor-love-no-partiality"
       ],
@@ -10199,6 +12906,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "bke-mercy-hosea",
         "bke-mercy-hosea"
       ],
       "uncoveredLearningObjectives": [
@@ -10281,6 +12989,7 @@
       },
       "relatedQuestionIds": [
         "bke-test-teaching",
+        "bke-test-teaching",
         "kr-150"
       ],
       "uncoveredLearningObjectives": [
@@ -10333,6 +13042,7 @@
       },
       "relatedQuestionIds": [
         "law-prophets-psalms",
+        "bke-test-teaching",
         "bke-test-teaching",
         "kr-148",
         "kr-149"
@@ -10426,6 +13136,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "bke-impartial-court",
         "bke-impartial-court",
         "torah-james-neighbor-love-no-partiality"
       ],
@@ -10790,6 +13501,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "bke-king-law-copy",
         "bke-king-law-copy"
       ],
       "uncoveredLearningObjectives": [
@@ -12137,6 +14849,7 @@
       },
       "relatedQuestionIds": [
         "bke-neighbor-love",
+        "bke-neighbor-love",
         "kr-146",
         "torah-james-neighbor-love-no-partiality"
       ],
@@ -12386,6 +15099,8 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "bke-neighbor-love",
+        "bke-impartial-court",
         "bke-neighbor-love",
         "bke-impartial-court",
         "kr-146",

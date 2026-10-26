@@ -1,17 +1,29 @@
 {
-  "scope": "Explicit launch fixes superseding historical import snapshots; all other snapshot guards remain enforced.",
+  "scope": "Explicit previously authorized runtime fixes superseding historical import snapshots; all other snapshot guards remain enforced.",
   "fixes": [
     {
       "file": "dist/answer-reveal.js",
       "before": "2900e30267046435e0c667963b1d94eb230680e1d19f2e4168d7909ea9e2440a",
       "after": "1e2de12f02a55b53b2e8cd7bc163c8da9e97436a8f1a2eef5ba0293a88389d91",
-      "reason": "Show all supporting Scripture citations in answer reveal; preserve original question and gameplay data."
+      "reason": "Retained supporting-Scripture citation display fix, previously verified."
+    },
+    {
+      "file": "dist/armor.css",
+      "before": "d342b1ab7672bb283a12799e741d2778048b485768357800432db9b36f0cdc71",
+      "after": "bbe32560a5e8bd7c67b6404dc604190a98296e2cbcddccaa8e6364b2b70a7112",
+      "reason": "Owner-requested six-piece responsive Armory catalog and locked/equipped presentation; no combat changes."
+    },
+    {
+      "file": "dist/armor.js",
+      "before": "0b6258545d5282cf8b9ccc9b113829c546f426bc790a8ffec2cec0262457f8ec",
+      "after": "c8fb47096699f91f9a753d785106b56da8c731fc7128a555066b5d0142ae04e9",
+      "reason": "Owner-requested biblical-order preview catalog and revised 75/150/225/300/375/450 schedule; only belt remains earnable."
     },
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "70f1cfea631612e6690326c3f0265fd5d371c47af7b1a25e08c2a67db5c789f4",
-      "reason": "Regenerated offline cache revision for supporting-citation display fix."
+      "after": "f8c8b92e46db39196fb6d84e473171e9b84c9df4b85427935e601cdae1d3635d",
+      "reason": "Rebuilt offline revision covering the owner-requested Armory catalog and its icons, plus the citation fix."
     }
   ]
 }

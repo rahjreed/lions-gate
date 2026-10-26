@@ -9,7 +9,12 @@ import {publicationBatch} from './question-batch.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=async name=>JSON.parse(await readFile(new URL('../content/launch/'+name,import.meta.url),'utf8'));
 const audit=await read('editorial-audit.json'),evidence=await read('scripture-evidence.json'),candidates=await loadCandidates(root),all=[...questions,...candidates.map(c=>c.q)];
-if(audit.records.length!==all.length||audit.records.some(r=>digest(all.find(q=>q.id===r.id))!==r.sourceDigest))throw Error('Source changed since launch audit; review again.');
+// The original review remains a 142-record audit. Inventory additions are not
+// retroactively approved or attributed to that review.
+const deferredAudit=JSON.parse(await readFile(new URL('../content/torah-everyday-life-50-validation.json',import.meta.url),'utf8'));
+const auditedIds=new Set(audit.records.map(r=>r.id)),deferred=candidates.filter(c=>!auditedIds.has(c.q.id));
+if(auditedIds.size!==audit.records.length||audit.records.some(r=>digest(all.find(q=>q.id===r.id))!==r.sourceDigest)||questions.some(q=>!auditedIds.has(q.id)))throw Error('Source changed since launch audit; review again.');
+if(deferred.length!==deferredAudit.records.length||deferred.some(c=>deferredAudit.records.find(r=>r.id===c.q.id)?.candidateDigest!==digest(c.q)))throw Error('Unaccounted or changed deferred candidate inventory; reconcile before release.');
 const decisions={},reviewed=[];
 const preparedAt=audit.completedAt;
 if(typeof preparedAt!=='string'||preparedAt.slice(0,10)!==audit.reviewedOn||!Number.isFinite(Date.parse(preparedAt)))throw Error('Recorded audit completion timestamp required. Recompilation is not a new Scripture review.');
@@ -28,10 +33,10 @@ for(const r of audit.records.filter(r=>r.disposition==='ready-for-release')){
  decisions[q.id]=decision;reviewed.push(approvalFor(q,decision,peers));
 }
 publicationBatch(questions,reviewed);
-const plan={schemaVersion:1,phase:'prepared-only-awaiting-owner-release',reviewer:audit.reviewedBy,source:evidence.source,existingLiveCount:questions.length,preparedCount:reviewed.length,proposedTotal:questions.length+reviewed.length,quarantine:audit.records.filter(r=>r.disposition==='quarantine').map(r=>({id:r.id,reason:r.rationale})),decisions,reviewedDigest:digest(reviewed),candidateSources:Object.fromEntries(candidates.map(c=>[c.q.id,digest(c.q)])),liveDigest:digest(questions)};
+const plan={schemaVersion:1,phase:'prepared-only-awaiting-owner-release',reviewer:audit.reviewedBy,source:evidence.source,existingLiveCount:questions.length,preparedCount:reviewed.length,proposedTotal:questions.length+reviewed.length,quarantine:audit.records.filter(r=>r.disposition==='quarantine').map(r=>({id:r.id,reason:r.rationale})),decisions,reviewedDigest:digest(reviewed),candidateSources:Object.fromEntries(candidates.map(c=>[c.q.id,digest(c.q)])),liveDigest:digest(questions),candidateCount:candidates.length,deferredCandidates:deferred.map(c=>({id:c.q.id,sourceDigest:digest(c.q),reason:'Source-checked draft; not approved or included in this first publication.'})),evidenceSources:{'content/launch/editorial-audit.json':digest(audit),'content/launch/scripture-evidence.json':digest(evidence),'content/torah-everyday-life-50-validation.json':digest(deferredAudit)}};
 await mkdir(new URL('../content/launch/',import.meta.url),{recursive:true});
 await writeFile(new URL('../content/launch/reviewed-candidates.json',import.meta.url),JSON.stringify(reviewed,null,2)+'\n');
 await writeFile(new URL('../content/launch/release-plan.json',import.meta.url),JSON.stringify(plan,null,2)+'\n');
 const changes=reviewed.map(q=>{const before=all.find(p=>p.id===q.id);return {id:q.id,scope:'Prepared copy only; original candidate and live bank unchanged',evidenceChanges:[before.scripture,...before.supportingScriptures||[]].map((s,i)=>({reference:referenceKey(s),before:s.excerpt,after:decisions[q.id].citations[i].excerpt})),difficulty:{before:{display:before.difficulty,complexity:before.knowledge.complexity},editorial:decisions[q.id].curriculumDifficulty,prepared:{display:q.difficulty,complexity:q.knowledge.complexity}},questionChoicesAnswerExplanationChanged:false}});
 await writeFile(new URL('../content/launch/change-log.json',import.meta.url),JSON.stringify(changes,null,2)+'\n');
-console.log(`Prepared only: ${reviewed.length} source-audited additions, ${plan.quarantine.length} quarantined, ${plan.proposedTotal} proposed total. Live module and decision ledger untouched.`);
+console.log(`Prepared only: ${candidates.length} inventory records = ${reviewed.length} prepared + ${plan.quarantine.length} held + ${deferred.length} deferred drafts; ${plan.proposedTotal} proposed live total. Original review timestamps retained; live module and decision ledger untouched.`);

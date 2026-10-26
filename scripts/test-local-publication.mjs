@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {questions} from '../dist/questions.js';
+import {publishedQuestions} from '../dist/published-questions.js';
+import {validateQuestions} from '../dist/question-rules.js';
+import {createRun,beginLevel,submit,advance,nextLevel,selectQuestions,validRun,retryLevel} from '../dist/engine.js';
+import {loadCandidates,loadLedger} from './editorial-store.mjs';
+import {digest,assertCurrentApprovals} from './editorial-core.mjs';
+import {publicationBatch} from './question-batch.mjs';
+const root=new URL('../',import.meta.url),read=async path=>JSON.parse(await readFile(new URL(path,root),'utf8'));
+const plan=await read('content/launch/release-plan.json'),prepared=await read('content/launch/reviewed-candidates.json'),candidates=await loadCandidates(root),ledger=await loadLedger(root),original=questions.filter(q=>!publishedQuestions.some(p=>p.id===q.id));
+assert.equal(questions.length,110);assert.equal(original.length,42);assert.equal(publishedQuestions.length,68);
+assert.equal(new Set(questions.map(q=>q.id)).size,110);assert.equal(validateQuestions(questions),true);
+assert.equal(digest(original),plan.liveDigest,'Original live records remain unchanged');assert.deepEqual(publishedQuestions,prepared,'Published additions exactly match the authorized exports');assert.equal(digest(prepared),plan.reviewedDigest);
+assert.equal(candidates.length,150);assert.ok(candidates.every(c=>digest(c.q)===plan.candidateSources[c.q.id]));
+assert.deepEqual(ledger.decisions,plan.decisions,'Preserve source review attribution, timestamps, checks and rationales');assert.equal(ledger.events.length,68);
+for(const event of ledger.events){const {id,releaseStagedAt,releaseAuthorization,...review}=event;assert.deepEqual(review,plan.decisions[id]);assert.ok(Number.isFinite(Date.parse(releaseStagedAt)));assert.ok(releaseAuthorization);}
+for(const file of Object.keys(plan.evidenceSources))assert.equal(digest(await read(file)),plan.evidenceSources[file],'Original evidence artifacts stay unchanged');
+assertCurrentApprovals(prepared,candidates,ledger,original);assert.equal(publicationBatch(original,prepared).length,68);
+assert.throws(()=>publicationBatch(questions,prepared),/duplicate/i,'A second publication is rejected before writing');
+assert.ok(prepared.every(q=>/AI-assisted/.test(q.review.reviewedBy)&&/NOT owner/.test(q.review.rationale)));
+assert.ok([...plan.quarantine,...plan.deferredCandidates].every(c=>!questions.some(q=>q.id===c.id)));
+const legacy=createRun(original,'LEGACY SAVE',()=>.42);assert.equal(validRun(JSON.parse(JSON.stringify(legacy)),questions),true,'Existing original-bank saves remain valid');
+const seen=new Set(),history={};let asked=0;for(let level=1;level<=1000;level++)for(const item of selectQuestions(questions,{level,history,asked},()=>.42)){seen.add(item.id);history[item.id]={count:(history[item.id]?.count||0)+1,last:++asked,lastCorrect:true};}assert.equal(seen.size,110);
+const run=createRun(questions,'PUBLICATION TEST',()=>.42);for(let level=1;level<=5;level++){for(let n=0;n<10;n++){const q=questions.find(q=>q.id===run.queue[run.index].id);submit(run,questions,q.answer);advance(run,questions);}assert.equal(run.status,'levelup');assert.equal(validRun(JSON.parse(JSON.stringify(run)),questions),true);if(level<5)nextLevel(run,questions);}assert.equal(run.completed,5);
+run.level=700;run.completed=699;beginLevel(run,questions);for(let n=0;n<3;n++){submit(run,questions,-1);advance(run,questions);}assert.equal(run.status,'gameover');assert.equal(retryLevel(run,questions),true);assert.equal(run.level,700);assert.equal(validRun(run,questions),true);
+console.log('PASS local publication: 110 unique live = unchanged 42 + exact authorized 68; all candidate hashes, source audits and AI attribution preserved; 68 real ledger decisions/events; duplicate release rejected; 82 held/deferred excluded; legacy saves, 1000-level rotation, Gatekeepers and Level 700 retry valid. Read-only verification.');

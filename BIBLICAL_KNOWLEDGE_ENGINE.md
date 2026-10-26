@@ -1,8 +1,8 @@
 # Biblical Knowledge Engine
 
-Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) maps explicitly calibrated 1–10 editorial ratings without changing existing records or the runtime 1–3 display / 1–7 complexity fields described here. Current inventory: **42 live reviewed questions, 150 unpublished candidates in three batches, zero published additions**. The latest [50 Torah everyday-life candidates](content/TORAH_EVERYDAY_LIFE_50_REVIEW.md) have recorded AI-assisted passage/context evidence, not approval. [Coverage tracker guide](content/CURRICULUM_COVERAGE.md) and [publishing audit](QUESTION_PUBLISHING_AUDIT.md) distinguish planned coverage, human review, local publication and deployment, including current workflow limitations.
+Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). Current local inventory: **110 live questions (42 original + 68 authorized AI-assisted additions), 82 unpublished candidates (32 held + 50 Torah drafts)**. The 150 candidate source records remain intact, including 68 retained working copies of published IDs. See [local publication verification](LOCAL_PUBLICATION_REPORT.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) preserves the existing display 1–3 / complexity 1–7 schema; publication does not imply independent human Scripture verification.
 
-This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. No candidates have been published.
+This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. Exactly 68 additions have been published locally with explicit owner authorization; no deployment has occurred.
 
 ## Curriculum
 
@@ -29,7 +29,7 @@ The proposed campaign extends advanced Scripture comparison, contextual interpre
 
 The legacy `difficulty` 1–3 remains the display tier. New records additionally have `knowledge.complexity` 1–7, `knowledge.category`, `knowledge.concept` and `knowledge.mode` (`explicit`, `multi-passage`, `framework`). Use 1–2 for recall, 3 for close context, 4–5 for comparison, and 6–7 for demanding passage-supported discernment and leadership scenarios. Difficulty needs human calibration: number of citations alone does not establish difficulty.
 
-**Current limitation:** The 42 live questions still contain only their original three difficulty tiers. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages presently use the hardest eligible reviewed material with rotation. No unpublished candidate batch has changed live gameplay content.
+**Current limitation:** The 110 live questions cover runtime complexity 1–3, with no live complexity 4–7 material. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages use the hardest eligible reviewed material with rotation. The 50 new Torah drafts remain unpublished.
 
 ## Rotation and saves
 
@@ -41,11 +41,11 @@ The legacy `difficulty` 1–3 remains the display tier. New records additionally
 - Preserve the `{id, order}` queue format. Save optional `misses` and `lastCorrect` history fields; older histories without them remain valid.
 - Fall back to available reviewed difficulty if the eligible pool is too small. Never admit a draft to fill a level. Fail clearly if fewer than ten non-conflicting approved items exist.
 
-Repetition cannot be eliminated with 42 questions, especially with focus and Gatekeeper quotas. Retry avoidance and cooldown are preferences, not promises when the pool is constrained.
+Repetition cannot be eliminated with 110 questions, especially with focus and Gatekeeper quotas. Retry avoidance and cooldown are preferences, not promises when the pool is constrained.
 
 ## Records and safeguards
 
-The original 42 records, citations, answers and fixed approval fingerprints remain intact. A sidecar maps their subjects into the seven curriculum categories without rewriting their reviewed content. Explicit publication appends records from `dist/published-questions.js` (currently empty).
+The original 42 records, citations, answers and fixed approval fingerprints remain intact. A sidecar maps their subjects into the seven curriculum categories without rewriting their reviewed content. Explicit publication appends records from `dist/published-questions.js` (now the exact 68 authorized additions).
 
 New records keep all legacy fields and add knowledge metadata and optional `supportingScriptures`. Each supporting citation has the same KJV book/chapter/verse/excerpt/URL fields as the primary citation. The complete content, knowledge metadata, framework and supporting citations are included in the approval fingerprint. Multi-passage records need supporting citations. Framework questions must name `interpretiveFramework` in their player-facing question.
 
@@ -65,12 +65,12 @@ Run commands from this repository. Candidate and reviewed working files belong u
 4. Start the separate local review app: `node scripts/review-server.mjs`, then open http://127.0.0.1:4310/. It displays all candidate batches, filters and provisional curriculum coverage.
 5. Read every cited passage and supply exact checked excerpts, reviewer/rationale, all seven confirmations, four option rationales and warning resolutions. Approve saves a source-bound decision in `content/editorial/decisions.json`; Revise/Reject never qualify. The editor never rewrites question content. See [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md).
 6. Export current approved records: `node scripts/editorial.mjs export content/reviewed/next-reviewed.json`. This creates a new file without publishing. The raw checklist review command is retired.
-7. Inspect the reviewed diff. Only after explicit owner authorization use `node scripts/question-batch.mjs publish content/reviewed/next-reviewed.json`. Publication rechecks current ledger approval, unchanged source, evidence, schema and duplicates, backs up the module, then appends. Later Revise/Reject or changed content invalidates old exports. No real candidate has been approved or published in this implementation.
+7. Inspect the reviewed diff. Only after explicit owner authorization use `node scripts/question-batch.mjs publish content/reviewed/next-reviewed.json`. Publication rechecks current ledger approval, unchanged source, evidence, schema and duplicates, backs up the module, then appends. Later Revise/Reject or changed content invalidates old exports. The authorized first publication contains 68 AI-attributed additions; subsequent batches require their own authorization.
 8. Run `node scripts/build-site.mjs` before deployment. This runs the entire configured automated suite, including content, engine, save/retry, combat, armor, pause and PWA tests. Inspect content changes before any separate Git/deployment action.
 
 Builds never import candidates, approve questions or call an AI model. Thousands of records use the same engine and static/offline publication pipeline.
 
-## Initial batch and review status
+## Initial batch and review status — historical pre-publication snapshot
 
 The following distribution and preliminary source-check notes describe the **first** 50-candidate batch, not all 100 candidates. The later KR batch remains separately documented in `content/KR_101_150_REVIEW.md`; its 1–10 source ratings, pending evidence and targeted choice revisions are preserved.
 
@@ -84,8 +84,10 @@ The following distribution and preliminary source-check notes describe the **fir
 
 ## Verification and expansion toward 500
 
+Current release-specific targets and exact complexity gaps are in [ADVANCED_QUESTION_COVERAGE_PLAN.md](ADVANCED_QUESTION_COVERAGE_PLAN.md): the first 68 additions improve variety without adding complexity 4–7 material. The 50 deferred Torah drafts contain six advanced items, not a complete master-level pool. Recommended advanced-bank floors are 20/20/15/15 at complexities 4/5/6/7 for an initial advanced-content release and 100 at each complexity for the eventual Level 700 campaign; these are planning recommendations, not publication decisions or guarantees against repetition.
+
 The knowledge suite tests all 75-level boundaries, monotonic targets through 10,000 levels and safe-integer extremes, mixed difficulty, category variety, delayed reinforcement, retry freshness, old saves, immutable restored queues, Gatekeeper traps, draft exclusion, publication gating and malformed/duplicate/leaking/framework cases. A synthetic 1,000-record bank verifies capacity; these fixtures are not educational content and cannot enter the live bank. Timing is measured locally and is not a physical-phone benchmark.
 
-To reach **500 reviewed questions**, add **458** approved records. If all initial 50 pass independent review, **408** more are needed. Review batches of 25–50. A useful eventual allocation is 70 people, 80 Torah, 60 Yeshua, 80 connections, 70 context, 70 Kingdom and 70 discernment questions, counting existing records toward those totals. Cover the traditional Apocrypha deliberately alongside OT/NT passages, and maintain enough genuinely relevant focus-tagged items for the 7:3 rotation. Track coverage and source diversity rather than filling quotas with near duplicates.
+To reach **500 live questions** from the current 110, add **390** separately approved records. Review batches of 25–50. A useful eventual allocation is 70 people, 80 Torah, 60 Yeshua, 80 connections, 70 context, 70 Kingdom and 70 discernment questions, counting existing records toward those totals. Cover the traditional Apocrypha deliberately alongside OT/NT passages, and maintain enough genuinely relevant focus-tagged items for the 7:3 rotation. Track coverage and source diversity rather than filling quotas with near duplicates.
 
 Prioritize complexity 4–7, distinct passage comparisons and careful leadership scenarios: this is the current capacity gap. Pilot distractors and difficulty with readers, review miss rates, and adjust unpublished candidates before approval. Expand unique concepts and several variants at different complexities before claiming low repetition across hundreds of levels. Review live content changes explicitly; never invalidate saved queues by silently removing published IDs.

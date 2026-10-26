@@ -2424,7 +2424,315 @@
     "kr-147": "ff830802c0b30f823b2cb9d60b6fe2ed02ad78d556cf9d160036f5099f8d0c05",
     "kr-148": "64e89c5206929675dab0fb2e2031168c2c07c0db05c21e4038d58c774328975b",
     "kr-149": "c1cf5aa5ca5523ae8902657fffd0931837fec70dbade2d2e1ba171e0d4d49ef3",
-    "kr-150": "ae9a453e5810a190758c20c3c5e0d438741a19061251ded64f007cb723ccc325"
+    "kr-150": "ae9a453e5810a190758c20c3c5e0d438741a19061251ded64f007cb723ccc325",
+    "torah-judgment-majority-pressure": "226d298150649565580bc22b92b650cadba197e6aa388f1e19bf85c6fef1e538",
+    "torah-poor-case-equal-justice": "d76219a2036130a5769836d262668c321c2a79ae1a52095dbc15dcc0a8edd3da",
+    "torah-single-witness-insufficient": "48a4fe4a95d4e01d308a13e619c617143ecd439ad28791b51f17046a78167c05",
+    "torah-false-witness-due-process": "d4ec7ee08aad34aa9f9a5bcf6c5bc4afda7bc98950cc3426759c102f58872ed9",
+    "torah-difficult-cases-appointed-court": "21133574eb6b7d88d01b5a12a342c01ba53adfb002de936c8e2d77443f20141c",
+    "torah-bribe-blinds-judgment": "8ac35b8586bb704ab34cf80046ddddd2daa1612eb640bbaa79365d2b05646f5d",
+    "torah-judicial-stripes-human-dignity": "d63503b31c43be93fe775f00321e23fd71f2483625d9b029023cdbf29810844a",
+    "torah-idolatry-report-investigation": "edda29f66dd8be2ad59e46f2bdfcdcb4f46f5e2b888015f1d79520b6c67450b9",
+    "torah-hearing-before-condemnation": "e4b208bc941152186d2ebd27fd80bfd62949eb0a542ebd68e2160fdeabd6c3d2",
+    "torah-king-under-law-humility": "7241c9ecb114d54cc714962a226840fc8be5e3b63ac5caa6c4e0ba388c47ee2d",
+    "torah-stolen-ox-disposal-distinction": "eb4b0893057c5e2758fca001f377b082de6d9e6d67ec1520bfe8878ad380a0a4",
+    "torah-grazing-damage-best-produce": "8c5df74130c0512b76d370526b081bb2bec6f12485970e575c69989226e29dd5",
+    "torah-kindled-fire-restitution": "8a788218e35b1a38f7f53c0990212d607edbbe796ada9cfe3c81844e088b8de5",
+    "torah-lost-property-unknown-owner": "32379446399da7d0a05a22a66fc566c1e6ec5b7a18fa772e410277198aba1ab6",
+    "torah-entrusted-beast-oath-and-evidence": "036f2d063c608a34512e2c00692893067db2d3abc78ea9f562c70ce3062931eb",
+    "torah-restitution-fifth-and-priest": "d83f1de4744f015a13e7968e1acca4e30453a1acb1d5df1be717f09a19b0abbe",
+    "torah-honest-weights-and-measures": "4aa4fd6be1770f2e203483dcc3c6e29c12118b2b16ddb5834f85d4e20f292b09",
+    "torah-borrowed-beast-owner-present": "03455c3d90d86187bc4fbd2111ad798b77c92fdc200e8e504677538e8f360162",
+    "torah-firstborn-unfavored-mother": "1fd4035327c47d88d1408b12106ec326f44f08004ed22836a003cb8cfeb7c35d",
+    "torah-newlywed-year-at-home": "abfee4c287781c46be8dc826747bc1e11abc0f05c539eb24e1836a6863d04522",
+    "torah-half-sister-kinship-boundary": "0b36465c2b04724b294c568d6dd09cc361fd267b2f23029fb20e097440cf1df4",
+    "torah-wife-sister-lifetime-clause": "3d67015439cf918d485ac23c720fd05eb11c4dcb7c883e33d824db176ea4bc66",
+    "torah-levirate-bounded-duty": "8a50651685e7f47b551ee3145287e2120a10873397bb8ae46a6d1a64e3cbe738",
+    "torah-levirate-refusal-elders": "4a807edf10adac1adfe7489e0d9dde2cd124e52a1aaa5744f93d39c5b2f4737a",
+    "torah-betrothed-servant-household-duties": "939a5249115df7eaa94807a411149ce6a0ac7c641e3970aebd5b28a5966c839c",
+    "torah-vows-household-and-widow": "9a384e81548f8a1a76a298a4fc988e76ad9ceb617e893028c31a26ac79fe40b8",
+    "torah-poor-loan-without-usury": "81e22275a8aefe253caf0ea799618d0ef7317ae556534874c4acbcf7aba9ef52",
+    "torah-interest-brother-stranger-distinction": "0d7725fdc6ce61a01cc9aa24579ae28fe173e32a3938e0171e93e63b1952af39",
+    "torah-pledge-livelihood-and-dignity": "2f4e7f57baed3716b68ffe94d9fcb661bbe3db2021efaf4a1880f735c01dbf1f",
+    "torah-poor-worker-same-day-pay": "d2cb234cab3a25c0bb991b5a8aaf7387856a03db58b9d7d9235166eb4643c45d",
+    "torah-seventh-year-creditor-release": "42ab58e3e5831c8761fd4098c1d2c77b065e36bc42deec33d7f6bd5dfdae960c",
+    "torah-release-near-open-hand": "b9cae84861b89a17fa48c29f22da4316a5e173a826be76c405d29515db4d2823",
+    "torah-fallen-brother-sustenance-not-profit": "7357948e190d266dbb3ed5095852012eb79a1ff58623af63c3a8deac194fd90a",
+    "torah-widow-pledge-redemption-memory": "4e159d49b4b693de8edb3367208ecbbe63d5a5a3725eca3c995c145a68fc1481",
+    "torah-harvest-corners-poor-stranger": "cfa66474ea1b3fce126a129056a7c6ac20581b3458dcb64bfb8190272cab65fa",
+    "torah-neighbor-produce-hand-not-harvest": "155fc270f844d1d182de5cc6e591f0bc04995daf46f212c0a686dbc66c3cd0e2",
+    "torah-land-sabbath-food-and-rest": "c6a24059ff865c50673ed43f686adda85d36a19e21abb4fa9ce9481c36d290ea",
+    "torah-jubilee-count-and-return": "c88954cf971717b9f51f9f641e1578bfa4a9e9b838280b8786f3b12164a3ae54",
+    "torah-jubilee-price-crop-years": "665ca37bb10391e9905c9b6676b88a236b504a2a4faaf0f4524e92bee55f11a9",
+    "torah-land-redemption-and-jubilee": "b2ff35840165cbdea3c677477b505d60f3e8b7e7ed1ad034a8cadacd1d4c862b",
+    "torah-house-redemption-levite-exception": "62b419746572971e2e637a23ce07e3d34d604dfe3469d7c3a820a62af7eb1818",
+    "torah-inheritance-daughter-before-brothers": "e60d77e1b6a7ad0cebc019918f182210c92456fa2e943f46b168318cca4669e5",
+    "torah-rebuke-without-hatred": "4e71ea45563a4a2bc71e78186d7f691c169c2a613ef6a67c5e7793bd0b9e1682",
+    "torah-roof-battlement-responsibility": "296d9a663c082fb3068f4072ee5cbc839287433909d5f445d06dedf8c023ecd9",
+    "torah-deaf-blind-fear-god": "5fcea88aaeaf676a5d2d9672ab942666e3b14aca7caaa545940a5743e7314367",
+    "torah-nesting-bird-mother-release": "213e7cd306886386f4562c6f44ef5b8eb8d60208638a3a75708f75cbe1c60530",
+    "torah-aged-honor-reverence": "250d7672baac9f62cdc94fed35196f080479f11c9d08b84c44c0b0745a7a8901",
+    "torah-paul-ox-law-labor-share": "1c8817f732df5f850a7d1be7b0ebdebd73dcf6dbea53debb6ed38acc83dae65d",
+    "torah-james-neighbor-love-no-partiality": "3212464cae43230c8470a04cfdb0d097f9a665b11ed3b2b9bc97fb213e70ba04",
+    "torah-resident-stranger-love-memory": "3dde2af79243c54a09421fcb3debbf2869e676aa5e6bec5792330f15ae96d63f"
   },
-  "liveDigest": "7f2727f38b1df766bf803538fed1da8e186b483eb61767deeb742012bba18f48"
+  "liveDigest": "7f2727f38b1df766bf803538fed1da8e186b483eb61767deeb742012bba18f48",
+  "candidateCount": 150,
+  "deferredCandidates": [
+    {
+      "id": "torah-judgment-majority-pressure",
+      "sourceDigest": "226d298150649565580bc22b92b650cadba197e6aa388f1e19bf85c6fef1e538",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-poor-case-equal-justice",
+      "sourceDigest": "d76219a2036130a5769836d262668c321c2a79ae1a52095dbc15dcc0a8edd3da",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-single-witness-insufficient",
+      "sourceDigest": "48a4fe4a95d4e01d308a13e619c617143ecd439ad28791b51f17046a78167c05",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-false-witness-due-process",
+      "sourceDigest": "d4ec7ee08aad34aa9f9a5bcf6c5bc4afda7bc98950cc3426759c102f58872ed9",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-difficult-cases-appointed-court",
+      "sourceDigest": "21133574eb6b7d88d01b5a12a342c01ba53adfb002de936c8e2d77443f20141c",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-bribe-blinds-judgment",
+      "sourceDigest": "8ac35b8586bb704ab34cf80046ddddd2daa1612eb640bbaa79365d2b05646f5d",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-judicial-stripes-human-dignity",
+      "sourceDigest": "d63503b31c43be93fe775f00321e23fd71f2483625d9b029023cdbf29810844a",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-idolatry-report-investigation",
+      "sourceDigest": "edda29f66dd8be2ad59e46f2bdfcdcb4f46f5e2b888015f1d79520b6c67450b9",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-hearing-before-condemnation",
+      "sourceDigest": "e4b208bc941152186d2ebd27fd80bfd62949eb0a542ebd68e2160fdeabd6c3d2",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-king-under-law-humility",
+      "sourceDigest": "7241c9ecb114d54cc714962a226840fc8be5e3b63ac5caa6c4e0ba388c47ee2d",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-stolen-ox-disposal-distinction",
+      "sourceDigest": "eb4b0893057c5e2758fca001f377b082de6d9e6d67ec1520bfe8878ad380a0a4",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-grazing-damage-best-produce",
+      "sourceDigest": "8c5df74130c0512b76d370526b081bb2bec6f12485970e575c69989226e29dd5",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-kindled-fire-restitution",
+      "sourceDigest": "8a788218e35b1a38f7f53c0990212d607edbbe796ada9cfe3c81844e088b8de5",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-lost-property-unknown-owner",
+      "sourceDigest": "32379446399da7d0a05a22a66fc566c1e6ec5b7a18fa772e410277198aba1ab6",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-entrusted-beast-oath-and-evidence",
+      "sourceDigest": "036f2d063c608a34512e2c00692893067db2d3abc78ea9f562c70ce3062931eb",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-restitution-fifth-and-priest",
+      "sourceDigest": "d83f1de4744f015a13e7968e1acca4e30453a1acb1d5df1be717f09a19b0abbe",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-honest-weights-and-measures",
+      "sourceDigest": "4aa4fd6be1770f2e203483dcc3c6e29c12118b2b16ddb5834f85d4e20f292b09",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-borrowed-beast-owner-present",
+      "sourceDigest": "03455c3d90d86187bc4fbd2111ad798b77c92fdc200e8e504677538e8f360162",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-firstborn-unfavored-mother",
+      "sourceDigest": "1fd4035327c47d88d1408b12106ec326f44f08004ed22836a003cb8cfeb7c35d",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-newlywed-year-at-home",
+      "sourceDigest": "abfee4c287781c46be8dc826747bc1e11abc0f05c539eb24e1836a6863d04522",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-half-sister-kinship-boundary",
+      "sourceDigest": "0b36465c2b04724b294c568d6dd09cc361fd267b2f23029fb20e097440cf1df4",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-wife-sister-lifetime-clause",
+      "sourceDigest": "3d67015439cf918d485ac23c720fd05eb11c4dcb7c883e33d824db176ea4bc66",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-levirate-bounded-duty",
+      "sourceDigest": "8a50651685e7f47b551ee3145287e2120a10873397bb8ae46a6d1a64e3cbe738",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-levirate-refusal-elders",
+      "sourceDigest": "4a807edf10adac1adfe7489e0d9dde2cd124e52a1aaa5744f93d39c5b2f4737a",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-betrothed-servant-household-duties",
+      "sourceDigest": "939a5249115df7eaa94807a411149ce6a0ac7c641e3970aebd5b28a5966c839c",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-vows-household-and-widow",
+      "sourceDigest": "9a384e81548f8a1a76a298a4fc988e76ad9ceb617e893028c31a26ac79fe40b8",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-poor-loan-without-usury",
+      "sourceDigest": "81e22275a8aefe253caf0ea799618d0ef7317ae556534874c4acbcf7aba9ef52",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-interest-brother-stranger-distinction",
+      "sourceDigest": "0d7725fdc6ce61a01cc9aa24579ae28fe173e32a3938e0171e93e63b1952af39",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-pledge-livelihood-and-dignity",
+      "sourceDigest": "2f4e7f57baed3716b68ffe94d9fcb661bbe3db2021efaf4a1880f735c01dbf1f",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-poor-worker-same-day-pay",
+      "sourceDigest": "d2cb234cab3a25c0bb991b5a8aaf7387856a03db58b9d7d9235166eb4643c45d",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-seventh-year-creditor-release",
+      "sourceDigest": "42ab58e3e5831c8761fd4098c1d2c77b065e36bc42deec33d7f6bd5dfdae960c",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-release-near-open-hand",
+      "sourceDigest": "b9cae84861b89a17fa48c29f22da4316a5e173a826be76c405d29515db4d2823",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-fallen-brother-sustenance-not-profit",
+      "sourceDigest": "7357948e190d266dbb3ed5095852012eb79a1ff58623af63c3a8deac194fd90a",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-widow-pledge-redemption-memory",
+      "sourceDigest": "4e159d49b4b693de8edb3367208ecbbe63d5a5a3725eca3c995c145a68fc1481",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-harvest-corners-poor-stranger",
+      "sourceDigest": "cfa66474ea1b3fce126a129056a7c6ac20581b3458dcb64bfb8190272cab65fa",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-neighbor-produce-hand-not-harvest",
+      "sourceDigest": "155fc270f844d1d182de5cc6e591f0bc04995daf46f212c0a686dbc66c3cd0e2",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-land-sabbath-food-and-rest",
+      "sourceDigest": "c6a24059ff865c50673ed43f686adda85d36a19e21abb4fa9ce9481c36d290ea",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-jubilee-count-and-return",
+      "sourceDigest": "c88954cf971717b9f51f9f641e1578bfa4a9e9b838280b8786f3b12164a3ae54",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-jubilee-price-crop-years",
+      "sourceDigest": "665ca37bb10391e9905c9b6676b88a236b504a2a4faaf0f4524e92bee55f11a9",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-land-redemption-and-jubilee",
+      "sourceDigest": "b2ff35840165cbdea3c677477b505d60f3e8b7e7ed1ad034a8cadacd1d4c862b",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-house-redemption-levite-exception",
+      "sourceDigest": "62b419746572971e2e637a23ce07e3d34d604dfe3469d7c3a820a62af7eb1818",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-inheritance-daughter-before-brothers",
+      "sourceDigest": "e60d77e1b6a7ad0cebc019918f182210c92456fa2e943f46b168318cca4669e5",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-rebuke-without-hatred",
+      "sourceDigest": "4e71ea45563a4a2bc71e78186d7f691c169c2a613ef6a67c5e7793bd0b9e1682",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-roof-battlement-responsibility",
+      "sourceDigest": "296d9a663c082fb3068f4072ee5cbc839287433909d5f445d06dedf8c023ecd9",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-deaf-blind-fear-god",
+      "sourceDigest": "5fcea88aaeaf676a5d2d9672ab942666e3b14aca7caaa545940a5743e7314367",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-nesting-bird-mother-release",
+      "sourceDigest": "213e7cd306886386f4562c6f44ef5b8eb8d60208638a3a75708f75cbe1c60530",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-aged-honor-reverence",
+      "sourceDigest": "250d7672baac9f62cdc94fed35196f080479f11c9d08b84c44c0b0745a7a8901",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-paul-ox-law-labor-share",
+      "sourceDigest": "1c8817f732df5f850a7d1be7b0ebdebd73dcf6dbea53debb6ed38acc83dae65d",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-james-neighbor-love-no-partiality",
+      "sourceDigest": "3212464cae43230c8470a04cfdb0d097f9a665b11ed3b2b9bc97fb213e70ba04",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    },
+    {
+      "id": "torah-resident-stranger-love-memory",
+      "sourceDigest": "3dde2af79243c54a09421fcb3debbf2869e676aa5e6bec5792330f15ae96d63f",
+      "reason": "Source-checked draft; not approved or included in this first publication."
+    }
+  ],
+  "evidenceSources": {
+    "content/launch/editorial-audit.json": "a198efaec64cd9439ecb9b4aa8094330afa1c6f5c53c70b9ec04a11c70058d7d",
+    "content/launch/scripture-evidence.json": "a3bf6987985e921a307b7b5860a34d5b14127534c19e0ae0f63ce492d21b4c02",
+    "content/torah-everyday-life-50-validation.json": "bc91abb2a90c4c2668d0147076e6b7d3d11892712c4607c27b652c660b9725ad"
+  }
 }

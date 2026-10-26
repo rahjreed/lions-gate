@@ -2,7 +2,7 @@
 
 Policy: [Biblical curriculum and doctrine](../BIBLICAL_CURRICULUM_AND_DOCTRINE.md). Publication behavior: [audit](../QUESTION_PUBLISHING_AUDIT.md).
 
-`curriculum-coverage.json` is a generated documentation index, outside the game's imports and PWA shell. It currently inventories 42 live reviewed records plus 150 candidates, with zero published additions. The latest 50 Torah everyday-life drafts are documented in [their review report](TORAH_EVERYDAY_LIFE_50_REVIEW.md). The inventory does not create educational questions or perform Scripture verification.
+`curriculum-coverage.json` is a generated documentation index, outside the game's imports and PWA shell. After the authorized local publication it inventories **110 live questions, 82 unpublished candidates and 68 retained source working copies**: 260 source-qualified records representing 192 unique question IDs. The live bank includes the original 42 plus 68 additions. The latest 50 Torah everyday-life drafts remain unpublished and are documented in [their review report](TORAH_EVERYDAY_LIFE_50_REVIEW.md). The inventory does not create educational questions or perform Scripture verification.
 
 The framework contains:
 
