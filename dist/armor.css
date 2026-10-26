@@ -6,10 +6,21 @@
 .armor-reveal .kicker{font-size:9px;line-height:1.7;margin:0 0 10px}
 .armor-award-art{display:grid;place-items:center;min-height:130px;background:radial-gradient(ellipse,#397c733d,transparent 70%);border-block:1px solid #d7bc7a44;margin-bottom:15px}
 .armor-award-art img{width:min(256px,100%);height:auto;image-rendering:pixelated;animation:armor-award-in .4s steps(6,end) both}
-.armor-collection article{display:flex;align-items:center;gap:20px;padding:18px;border:1px solid #698474;background:#172d32;margin:18px 0}
-.armor-collection img{image-rendering:pixelated;max-width:30%;height:auto}
-.armor-collection h3{font:12px/1.7 var(--pixel);color:var(--gold);margin:0 0 8px}
-.armor-collection p,.armor-collection a{font:10px/1.6 var(--mono);margin:0 0 8px}
+.armor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;list-style:none;padding:0;margin:18px 0 28px}
+.armor-grid li{min-width:0}
+.armor-collection .armor-card{display:flex;align-items:center;gap:16px;padding:16px;border:2px solid #4b5669;background:#171e2d;height:100%;box-sizing:border-box;box-shadow:inset 0 0 0 2px #0c1220}
+.armor-collection .armor-equipped{border-color:#d7bc7a;background:#172d32;box-shadow:inset 0 0 0 2px #0c2427,0 0 12px #d7bc7a19}
+.armor-icon{display:grid;place-items:center;flex:0 0 96px;min-height:96px;background:#0c1422;border:1px solid #42526a}
+.armor-collection img{image-rendering:pixelated;width:96px;height:88px;object-fit:contain}
+.armor-locked img{filter:saturate(.4) brightness(.8)}
+.armor-card-copy{min-width:0;overflow-wrap:anywhere}
+.armor-collection h3{font:11px/1.8 var(--pixel);color:var(--gold);margin:0 0 8px}
+.armor-collection p,.armor-collection a{font:13px/1.6 var(--mono);margin:0 0 6px}
+.armor-collection .armor-status{color:#bdc8db;font-weight:bold;font-size:12px}
+.armor-equipped .armor-status{color:#9fe4ba}
+.armor-collection .armor-availability{color:#b0b9ca;font-size:12px}
+.armor-collection a{display:inline-block;text-underline-offset:3px;padding:5px 0}
+@media(max-width:800px){.armor-grid{grid-template-columns:minmax(0,1fr)}}
 @keyframes armor-award-in{from{transform:translateY(8px);filter:brightness(2);opacity:0}to{transform:none;filter:none;opacity:1}}
-@media(max-width:560px){.armor-reveal .reveal-heading{padding:14px}.armor-reveal .reveal-heading h2{font-size:14px}.armor-reveal .reveal-copy{padding:14px}.armor-award-art{min-height:100px}.armor-award-art img{width:220px}.armor-collection article{gap:12px;padding:12px}.armor-collection h3{font-size:10px}}
+@media(max-width:560px){.armor-reveal .reveal-heading{padding:14px}.armor-reveal .reveal-heading h2{font-size:14px}.armor-reveal .reveal-copy{padding:14px}.armor-award-art{min-height:100px}.armor-award-art img{width:220px}.armor-collection .armor-card{gap:12px;padding:12px}.armor-icon{flex-basis:72px;min-height:80px}.armor-collection img{width:72px;height:72px}.armor-collection h3{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.armor-award-art img{animation:none}}

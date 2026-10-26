@@ -1,8 +1,10 @@
-# Armor of God — verified Belt of Truth phase
+# Armor of God — current implementation and progression roadmap
 
 ## Delivered scope
 
-This implements the user's permitted Belt-first fallback. **Only Level 75: Belt of Truth is enabled.** The remaining five items and the Full Armor achievement are not enabled, not silently granted and not represented by unfinished placeholder artwork.
+This implements the user's permitted Belt-first fallback. **Only Level 75: Belt of Truth is earnable.** The Armory now previews all six pieces in Ephesians 6:14–17 order, with names, Scripture references, milestones and distinct locked/equipped states. The other five pieces are marked planned and not yet earnable; their collection icons are not equipped character layers. The Full Armor achievement is not enabled or silently granted.
+
+The authoritative campaign plan is [GAME_PROGRESSION.md](GAME_PROGRESSION.md): **Kingdom entry follows successful completion of Level 700**, not 450. In the completed design Judah retains all six pieces through Levels 451–700. That fully armored stretch and the Kingdom transition remain unimplemented; current saves and playable content are preserved.
 
 The belt is an original gold-edged teal waist belt with stitched detail and a bright buckle. It is additional cosmetic equipment, not a rank replacement. Judah's existing face, skin, locs, anatomy, outfits, base images and animation timing are unchanged.
 
@@ -43,10 +45,12 @@ The achievement reveal cites [Ephesians 6:14 in the KJV](https://www.kingjamesbi
 | --- | --- |
 | 150 | Shoes of Peace |
 | 225 | Breastplate of Righteousness |
-| 300 | Sword of the Spirit |
-| 375 | Shield of Faith |
-| 450 | Helmet of Salvation, then Full Armor of God achievement |
+| 300 | Shield of Faith |
+| 375 | Helmet of Salvation |
+| 450 | Sword of the Spirit, then Full Armor of God achievement once all six pieces exist |
 
 Each remaining item needs original artwork fitted to all existing frames, occlusion review (especially hands, locs and face), cumulative-layer composition tests, its own Scripture-grounded reveal and milestone tests. The same sparse-layer approach can avoid duplicating armored character atlases for every combination. Full Armor must wait until all six completed milestones have reviewed visual equipment.
+
+These are completed-level unlock requirements, not a wilderness ending. The Armory's biblical display order is independent of acquisition order. No equipment is delayed to Level 700 or removed upon reaching a later level.
 
 For an existing PWA cache, allow the update to download, close all game windows and reopen before reviewing the new artwork.

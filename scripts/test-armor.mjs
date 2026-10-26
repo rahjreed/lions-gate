@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {armorItems,reconcileArmor,acknowledgeArmor,armorRevealMarkup} from '../dist/armor.js';
+import {armorItems,armorCatalog,reconcileArmor,acknowledgeArmor,armorRevealMarkup,armorCollectionMarkup} from '../dist/armor.js';
 import {createRun,submit,advance,nextLevel,retryLevel,rankFor} from '../dist/engine.js';
 import {emptyProfile,captureProgress,saveProfile,loadProfile} from '../dist/storage.js';
 import {judah} from '../dist/mascot.js';
@@ -28,6 +28,18 @@ for(const completed of [0,5,15,30,50,75,450])for(const pose of ['idle','success'
  if(pose==='transform')assert.match(html,/class="rank-before" data-armor="belt"/);
 }
 const reveal=armorRevealMarkup(armorItems[0]);for(const fragment of ['Ephesians 6:14','aria-modal="true"','Belt of Truth','data-action="claim-armor"','does not change combat'])assert.ok(reveal.includes(fragment));
+assert.deepEqual(armorCatalog.map(i=>[i.id,i.level]),[['belt',75],['breastplate',225],['shoes',150],['shield',300],['helmet',375],['sword',450]],'Passage order preserves the revised milestone levels');
+assert.deepEqual(armorItems.map(i=>i.id),['belt'],'Display-only roadmap must not activate unfinished equipment');
+const fresh={unlocked:[],pending:[]},owned={unlocked:['belt'],pending:[]};
+for(const armor of [undefined,{},fresh,owned]){
+ const before=JSON.stringify(armor),collection=armorCollectionMarkup(armor);assert.equal(JSON.stringify(armor),before,'Rendering cannot modify saved equipment');
+ assert.equal((collection.match(/data-equipment=/g)||[]).length,6);
+ for(const item of armorCatalog){assert.ok(collection.includes(item.name));assert.ok(collection.includes(item.reference));assert.ok(collection.includes(`Complete Level ${item.level}`));assert.ok(collection.includes(item.icon));}
+ assert.equal((collection.match(/PLANNED · LOCKED/g)||[]).length,5);
+ assert.equal((collection.match(/PERMANENTLY EQUIPPED/g)||[]).length,armor===owned?1:0);
+}
+assert.ok(!armorCollectionMarkup({unlocked:['helmet']}).includes('PERMANENTLY EQUIPPED'),'Unimplemented equipment cannot appear earned from arbitrary save data');
+for(const item of armorCatalog){const icon=await readFile(new URL('../dist/'+item.icon,import.meta.url));if(item.icon.endsWith('.svg')){assert.ok(icon.toString().includes('shape-rendering="crispEdges"'));assert.ok(!/<script|<image|https?:\/\//.test(icon.toString().replace('http://www.w3.org/2000/svg','')),'Icons are self-contained original artwork');}}
 // Every shipped frame has a fitted layer, outside face/hair, with unchanged base art.
 const fit=JSON.parse(await readFile(new URL('../art/judah/belt-fit.json',import.meta.url),'utf8'));let frames=0,bytes=0;
 for(const [file,info] of Object.entries(fit)){

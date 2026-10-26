@@ -19,6 +19,12 @@ This upgrade changes educational content selection and authoring only. Combat ti
 
 These are curriculum stages, not new scenery, rank requirements or world transitions. The existing Master title begins much earlier; earning that title does not skip the curriculum. All earlier categories remain eligible. Higher-complexity questions can revisit earlier subjects.
 
+## Planned wilderness finale and Kingdom entry
+
+[GAME_PROGRESSION.md](GAME_PROGRESSION.md) establishes **successful completion of Level 700** as Judah's Kingdom-entry milestone, superseding the earlier proposed Level 450 destination. Level 450 remains the planned Sword of the Spirit unlock and completion of the six-piece armor schedule. Levels 451–700 are the final wilderness campaign with all six pieces retained in the completed design; five pieces still need equipment implementation today.
+
+The proposed campaign extends advanced Scripture comparison, contextual interpretation and leadership tests across 451–525, 526–600, 601–650 and 651–699, culminating in the Level 700 Gatekeeper. Categories remain mixed. Concrete encounter tuning, additional reviewed questions and any selection changes must be reported before implementation. Current runtime stages, the target ceiling at 525, saves, approved questions and endless progression are unchanged. Neither Kingdom transformation nor post-entry gameplay is implemented by this documentation update.
+
 `knowledgeStage(level)` supplies a continuous target from 1 to 7 across levels 1–525. Selection balances the ten-question set around that target, rather than jumping immediately to the hardest available question. Gatekeepers target one additional complexity point, capped at 7, and retain their three trap-type priorities. Targets saturate after 525; endless progression is preserved without claiming an endless supply of increasingly difficult content.
 
 The legacy `difficulty` 1–3 remains the display tier. New records additionally have `knowledge.complexity` 1–7, `knowledge.category`, `knowledge.concept` and `knowledge.mode` (`explicit`, `multi-passage`, `framework`). Use 1–2 for recall, 3 for close context, 4–5 for comparison, and 6–7 for demanding passage-supported discernment and leadership scenarios. Difficulty needs human calibration: number of citations alone does not establish difficulty.
