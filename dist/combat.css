@@ -8,7 +8,7 @@
 /* A tiny planted-foot breathing cycle moves the same unmodified guard drawing. */
 .game-scene:not([data-combat]) .roman-soldier:not(.is-defeated) .roman-sprite,.game-scene[data-combat=ready] .roman-soldier:not(.is-defeated) .roman-sprite{animation:roman-idle 3.6s ease-in-out infinite;transform-origin:55% 94%}
 @keyframes roman-idle{0%,100%{transform:translate(0,0) scale(1,1) rotate(0)}28%{transform:translate(-.5px,-.4px) scale(1.003,1.008) rotate(-.15deg)}65%{transform:translate(.5px,0) scale(.998,1.003) rotate(.12deg)}}
-.game-scene[data-combat=defeat] .roman-soldier{transform-origin:65% 87.5%;animation:roman-recoil .92s linear both,roman-defeat .76s steps(10,end) both}
+.game-scene[data-combat=defeat]:not([data-finisher=enemy]) .roman-soldier{transform-origin:65% 87.5%;animation:roman-recoil .92s linear both,roman-defeat .76s steps(10,end) both}
 .roman-soldier.is-defeated{transform-origin:65% 87.5%;transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 13)) rotate(82deg);opacity:0}
 .roman-soldier.is-defeated .roman-sprite{background-position:0% 100%}
 @keyframes roman-defeat{0%{transform:translate(0,0) rotate(0);opacity:1}20%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * 7)) rotate(12deg)}65%{transform:translate(calc(var(--fighter-unit) * 10),calc(var(--fighter-unit) * 16)) rotate(72deg);opacity:1}82%{transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 11)) rotate(84deg);opacity:.6}100%{transform:translate(calc(var(--fighter-unit) * 12),calc(var(--fighter-unit) * 13)) rotate(82deg);opacity:0}}
@@ -22,9 +22,9 @@
 .game-scene.adventure-arena>.symbolic-gate{right:8%;height:85%;opacity:.65}
 .game-scene .boss-health{margin-left:auto}
 .game-scene[data-combat]:not([data-combat=ready])[data-outcome=correct] .scene-status>.judah{animation:judah-advance .92s linear both}
-.game-scene[data-combat]:not([data-combat=ready]):not([data-combat=defeat]):not([data-combat=defeated])[data-outcome=correct] .roman-soldier{animation:roman-recoil .92s linear both}
+.game-scene[data-combat]:not([data-combat=ready]):not([data-combat=defeat]):not([data-combat=defeated])[data-outcome=correct]:not([data-finisher=enemy]) .roman-soldier{animation:roman-recoil .92s linear both}
 .game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong] .roman-soldier{animation:roman-advance .92s linear both}
-.game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong] .scene-status>.judah{animation:judah-retreat .92s linear both}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong]:not([data-finisher=judah]) .scene-status>.judah{animation:judah-retreat .92s linear both}
 .game-scene[data-combat=impact][data-outcome=correct] .roman-sprite{filter:brightness(1.8)}
 /* The existing 240ms impact is 26.086957% of the 920ms exchange. */
 @keyframes judah-advance{0%{translate:0 0}6%{translate:calc(var(--fighter-unit) * -2) 0}15.217391%{translate:calc(var(--fighter-unit) * 47) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * 57) 0}36.956522%{translate:calc(var(--fighter-unit) * 60) 0}58.695652%{translate:calc(var(--fighter-unit) * 56) 0}70%{translate:calc(var(--fighter-unit) * 40) calc(var(--fighter-unit) * -2)}85%{translate:calc(var(--fighter-unit) * 20) 0}100%{translate:0 0}}
@@ -50,4 +50,52 @@
 .health-enemy .health-label b{font-size:10px;line-height:1.5}
 @media(max-width:700px){.health-enemy .health-label b{font-size:9px}}
 .health-enemy .health-label{flex-direction:row-reverse}.health-enemy .health-label b{text-align:right}
+/* Finishes share the 240ms hit. Their local 1.6s presentation never scales game time. */
+.game-scene[data-finisher=enemy] .roman-soldier{transform-origin:55% 60%;animation:roman-finish-rise 1.6s linear both;opacity:1}
+.game-scene[data-finisher=enemy][data-variation=sweep] .roman-soldier{animation-name:roman-finish-sweep}
+.game-scene[data-finisher=judah] .scene-status>.judah{transform-origin:50% 60%;animation:judah-final-fall 1.6s linear both}
+.game-scene[data-finisher=judah]:not([data-combat=windup]):not([data-combat=strike]) .judah .judah-sprite{animation:judah-final-recoil .4s steps(1,end) both}
+.game-scene[data-finisher=enemy][data-combat=impact] .hero-slash{filter:brightness(1.5);opacity:1}
+.game-scene[data-finisher=enemy][data-combat=impact]:before,.game-scene[data-finisher=judah][data-combat=impact]:before{content:'';position:absolute;inset:0;z-index:6;pointer-events:none;background:#ffe6ab24;animation:finish-contact .1s steps(2,end) both}
+.game-scene[data-combat=ground]:after,.game-scene[data-combat=hero-ground]:after{content:'';position:absolute;left:75%;bottom:calc(var(--ground) + 2px);width:16px;height:3px;z-index:5;background:#ad9c82;box-shadow:-9px -3px #c5b38c,12px -2px #8e8a7c;pointer-events:none;animation:ground-dust .25s steps(4,end) both}
+.game-scene[data-combat=hero-ground]:after{left:20%}
+@keyframes finish-contact{from{opacity:1}to{opacity:0}}
+@keyframes ground-dust{from{opacity:.8;transform:scaleX(.6)}to{opacity:0;transform:scaleX(1.5) translateY(-3px)}}
+@keyframes roman-finish-rise{
+ 0%,15%{transform:translate(0,0) rotate(0)}
+ 21%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * -2)) rotate(8deg)}
+ 33.75%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -9)) rotate(20deg)}
+ 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -18)) rotate(46deg)}
+ 62%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -21)) rotate(66deg)}
+ 75.625%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * -12)) rotate(112deg)}
+ 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -16)) rotate(108deg)}
+ 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(112deg)}
+}
+@keyframes roman-finish-sweep{
+ 0%,15%{transform:translate(0,0) rotate(0)}
+ 21%{transform:translate(calc(var(--fighter-unit) * 4),0) rotate(9deg)}
+ 33.75%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -3)) rotate(30deg)}
+ 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -9)) rotate(58deg)}
+ 64%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -15)) rotate(72deg)}
+ 75.625%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(114deg)}
+ 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -16)) rotate(110deg)}
+ 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(114deg)}
+}
+@keyframes judah-final-fall{
+ 0%,15%{transform:translate(0,0) rotate(0)}
+ 21%{transform:translate(calc(var(--fighter-unit) * -8),0) rotate(-9deg)}
+ 33.75%{transform:translate(calc(var(--fighter-unit) * -11),calc(var(--fighter-unit) * -5)) rotate(-25deg)}
+ 48%{transform:translate(calc(var(--fighter-unit) * -12),calc(var(--fighter-unit) * -10)) rotate(-49deg)}
+ 63%{transform:translate(calc(var(--fighter-unit) * -12),calc(var(--fighter-unit) * -10)) rotate(-68deg)}
+ 75.625%{transform:translate(calc(var(--fighter-unit) * -7),calc(var(--fighter-unit) * 10)) rotate(-105deg)}
+ 83.125%{transform:translate(calc(var(--fighter-unit) * -8),calc(var(--fighter-unit) * 6)) rotate(-101deg)}
+ 91.875%,100%{transform:translate(calc(var(--fighter-unit) * -8),calc(var(--fighter-unit) * 10)) rotate(-105deg)}
+}
+@keyframes judah-final-recoil{0%{background-position-x:47.169811%}25%{background-position-x:49.056604%}55%{background-position-x:50.943396%}80%{background-position-x:52.830189%}100%{background-position-x:54.716981%}}
+@media(prefers-reduced-motion:reduce){
+ .game-scene[data-finisher] .roman-soldier,.game-scene[data-finisher] .scene-status>.judah{animation:none!important;transform:none;translate:none}
+ .game-scene[data-finisher]:before,.game-scene[data-finisher]:after{display:none}
+ .game-scene[data-finisher=enemy] .roman-soldier.is-defeated{opacity:.45}
+ .game-scene[data-finisher=judah] .judah .judah-sprite{animation:none!important;background-position-x:54.716981%}
+}
 @media(prefers-reduced-motion:reduce){.game-scene .scene-status>.judah,.game-scene .roman-soldier{animation:none!important}}

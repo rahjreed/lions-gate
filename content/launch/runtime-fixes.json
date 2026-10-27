@@ -1,5 +1,5 @@
 {
-  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash. Phase 1 combat feedback is explicitly owner-authorized; historical Scripture and asset snapshots remain enforced.",
+  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash. Phase 1 combat feedback is explicitly owner-authorized; historical Scripture and asset snapshots remain enforced. Phase 2 finishing presentation is owner-authorized; question content, saves and outcomes are unchanged.",
   "fixes": [
     {
       "file": "dist/answer-reveal.js",
@@ -10,8 +10,8 @@
     {
       "file": "dist/app.js",
       "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
-      "after": "625f41fa4eddf8337cc113aba5e2763241087241de372a2be409ef1e8a18afe8",
-      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Five-life HUD/guide/retry labels and exact-impact audio/number hooks; question/scoring logic unchanged."
+      "after": "8396aab07e664752af7762e5254174b19dd2d60756d124c9c9a306c3c80771a2",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Five-life HUD/guide/retry labels and exact-impact audio/number hooks; question/scoring logic unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
     },
     {
       "file": "dist/armor.css",
@@ -28,20 +28,20 @@
     {
       "file": "dist/audio.js",
       "before": "0214151e2c76ea1980c46f554a16f6b642eb807dd92f8caa61a1ca8b32e83f8a",
-      "after": "daf40b8e8c0ff05a9bd1b6c3a3e060f4c96f4f746bcfa60c93ee988fc9701fe1",
-      "reason": " Phase 1 combat feedback: owner-authorized. Original short swing, hit, hurt, block and heavy-impact oscillator patches; buses/mute/unlock unchanged."
+      "after": "28f571787767a27d11c28d7fed161257a2b0717950763b52d57a0a3118ddcf05",
+      "reason": " Phase 1 combat feedback: owner-authorized. Original short swing, hit, hurt, block and heavy-impact oscillator patches; buses/mute/unlock unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
     },
     {
       "file": "dist/combat.css",
       "before": "611860556e418175ddbe18e9018d4b58f8bc59ead541d23d42dba84ebfbce81b",
-      "after": "e64db9c01836caf8fc56ae110bf8494d978bdc7ddf3f3b9ddd6cca4bfa4ab92a",
-      "reason": " Phase 1 combat feedback: owner-authorized. Five health segments for Judah; no sprite or timeline changes."
+      "after": "b64b5b68f6f561af396d4e0151f772fb21666609cafd5f30d1663eab2e6d987b",
+      "reason": " Phase 1 combat feedback: owner-authorized. Five health segments for Judah; no sprite or timeline changes. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
     },
     {
       "file": "dist/combat.js",
       "before": "e2fb8aab1236db8c76a1011e19cc8d5abd34eb8d430c1ccbd21bd248ab43a67a",
-      "after": "d2f62b8380b8ee89f54845b3c15ff0e5068290e551901f833a86f6702af8eede",
-      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes. Phase 1 combat feedback: owner-authorized. Five-life health display and pure before/after damage labels; existing animation timeline unchanged."
+      "after": "93dd10ecc31b31b51f68ebf2b71df0b2a0f35e49229e40c113ff262eceacdded",
+      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes. Phase 1 combat feedback: owner-authorized. Five-life health display and pure before/after damage labels; existing animation timeline unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
     },
     {
       "file": "dist/engine.js",
@@ -94,8 +94,8 @@
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "4208445b8f5b5f851aaef40edf1fd2fc13bfa2c1263bae514c41e8639149c225",
-      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Generated atomic offline-shell revision for Phase 1 combat feedback."
+      "after": "fb0ffd7e07b8c84892c3c232a47e295b060c19202394799df69ac14732000a63",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Generated atomic offline-shell revision for Phase 1 combat feedback. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
     }
   ]
 }

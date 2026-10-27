@@ -3,6 +3,8 @@ export const patches={
  swordSwing:[[1300,.075,'sawtooth',0,.025,170],[760,.095,'triangle',.02,.028,90]],
  swordStrike:[[920,.045,'square',0,.045,180],[110,.13,'triangle',.008,.08,55],[540,.06,'sawtooth',.018,.018,90]],
  heavyImpact:[[80,.17,'triangle',0,.085,40],[120,.06,'square',0,.03,45],[440,.035,'sawtooth',.01,.012,90]],
+ finisher:[[100,.17,'triangle',0,.075,40],[880,.065,'sawtooth',0,.025,110],[196,.11,'square',.025,.025,49]],
+ groundImpact:[[65,.1,'triangle',0,.065,40],[140,.045,'sawtooth',.008,.025,45]],
  damage:[[145,.08,'sawtooth',0,.045,45],[70,.15,'triangle',.008,.075,40],[220,.045,'square',.015,.018,70]],
  perfectVictory:[[392,.12,'square',0,.035],[523,.12,'square',.1,.035],[659,.14,'square',.2,.035],[784,.16,'square',.3,.035],[1047,.45,'triangle',.44,.075],[1319,.42,'triangle',.44,.04],[523,.45,'triangle',.44,.04]],
  gateOpen:[[98,.24,'triangle',0,.045,196],[196,.24,'triangle',.2,.05,392],[784,.24,'square',.4,.022]],

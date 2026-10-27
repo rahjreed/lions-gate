@@ -2,7 +2,7 @@ import {EncounterDialogue,pendingDialogue,dialogueMarkup} from './encounter-dial
 import {armorItems,armorRevealMarkup,armorCollectionMarkup,acknowledgeArmor} from './armor.js';
 import {setGameLayout} from './mobile-game.js';
 import {opponentFor} from './opponents.js';
-import {CombatDirector,romanSoldier,paintCombat,combatDamageFeedback,combatHealth,combatHealthMarkup,updateCombatHealth} from './combat.js';
+import {CombatDirector,finisherVariation,romanSoldier,paintCombat,combatDamageFeedback,combatHealth,combatHealthMarkup,updateCombatHealth} from './combat.js';
 import {AnswerReveal,answerRevealMarkup} from './answer-reveal.js';
 import {JourneyDirector,locationFor,symbolicGate,gateProgress} from './adventure.js';
 import {judah as drawJudah,judahJourney} from './mascot.js';
@@ -37,15 +37,15 @@ function choose(choice){
  stopClock();const before={score:run.score,streak:run.streak,...combatHealth(run)};if(!submit(run,questions,choice))return;
  pendingCombatHUD=before;
  const last=run.answers.at(-1);persist();render(true);music();
- combat.start({correct:last.correct,enemyDefeated:combatHealth(run).enemy===0,reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches,
-  onFrame:frame=>{paintCombat($('.game-scene'),frame,masteryCompleted(run),profile.armor.unlocked,wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted));if(frame.phase==='strike')audio.effect('swordSwing');},
+ combat.start({correct:last.correct,enemyDefeated:combatHealth(run).enemy===0,heroDefeated:!last.correct&&!last.shielded&&run.lives===0,variation:finisherVariation(run.level),reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches,
+  onFrame:frame=>{paintCombat($('.game-scene'),frame,masteryCompleted(run),profile.armor.unlocked,wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted));if(frame.phase==='strike')audio.effect('swordSwing');if(frame.phase==='ground'||frame.phase==='hero-ground'){audio.effect('groundImpact');juice.burst($('.combat-sparks'),8,'gold');}},
   onImpact:()=>{
    pendingCombatHUD=null;
    updateCombatHealth($('.combat-health'),run);
    // Commit the visual reward/penalty at impact; the engine and save already own the result.
    const template=document.createElement('template');template.innerHTML=hud();$('.hud')?.replaceWith(template.content.firstElementChild);
-   if(last.correct){audio.effect('swordStrike');if(levelConfig(run.level).boss||combatHealth(run).enemy===0)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
-   if(!last.correct&&!last.shielded)audio.effect('lifeLost',.2);
+   if(last.correct){audio.effect('swordStrike');if(combatHealth(run).enemy===0)audio.effect('finisher');else if(levelConfig(run.level).boss)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
+   if(!last.correct&&!last.shielded){audio.effect('lifeLost',.2);if(run.lives===0)audio.effect('finisher');}
    juice.answer({...last,score:run.score,streak:run.streak});
    juice.combatNumber($('.game-scene'),combatDamageFeedback(before,combatHealth(run),last));
    juice.burst($('.combat-sparks'),16,last.correct?'gold':'green');

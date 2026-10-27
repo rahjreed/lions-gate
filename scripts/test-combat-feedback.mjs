@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 import {MAX_LIVES,createRun,beginLevel,submit,advance,rankFor,rankLabel,rankProgress,masteryCompleted,wardrobeFor,levelConfig} from '../dist/engine.js';
-import {CombatDirector,combatHealth,combatHealthMarkup,combatDamageFeedback} from '../dist/combat.js';
+import {CombatDirector,finisherVariation,combatHealth,combatHealthMarkup,combatDamageFeedback} from '../dist/combat.js';
 import {GameJuice} from '../dist/juice.js';
 import {patches} from '../dist/audio.js';
 import {questions} from '../dist/questions.js';
@@ -17,14 +17,16 @@ for(const outcome of ['correct','wrong','timeout','shield','boss','finisher']){
  const run=createRun(questions);if(outcome==='boss'){run.level=5;run.completed=4;beginLevel(run,questions)}if(outcome==='finisher')for(let i=0;i<9;i++){const q=questions.find(q=>q.id===run.queue[run.index].id);submit(run,questions,q.answer);advance(run,questions)}
  const q=questions.find(q=>q.id===run.queue[run.index].id),before=structuredClone(run),correct=['correct','boss','finisher'].includes(outcome);if(outcome==='shield')run.shielded=true;
  let now=0;const jobs=[],sounds=[],numbers=[];const director=new CombatDirector({now:()=>now,setTimer:(fn,delay)=>{jobs.push({fn,delay});return jobs.length},clearTimer(){}});
- const c={view:'game',run,paused:false,deadline:0,combat:director,questions,submit,combatHealth,combatDamageFeedback,rankFor,masteryCompleted,wardrobeFor,profile:{armor:{unlocked:[]},bestCompleted:0,mastery:{legacyCompleted:0}},matchMedia:()=>({matches:false}),stopClock(){},persist(){},render(){},music(){},paintCombat(){},updateCombatHealth(){},hud:()=>'',pendingCombatHUD:null,Date:{now:()=>now},$:()=>null,document:{createElement:()=>({content:{firstElementChild:{}}})},audio:{effect:name=>sounds.push([now,name])},juice:{answer(){},burst(){},combatNumber:(scene,f)=>numbers.push([now,f])},levelConfig,answerReveal:{open(){}}};
+ const c={finisherVariation,view:'game',run,paused:false,deadline:0,combat:director,questions,submit,combatHealth,combatDamageFeedback,rankFor,masteryCompleted,wardrobeFor,profile:{armor:{unlocked:[]},bestCompleted:0,mastery:{legacyCompleted:0}},matchMedia:()=>({matches:false}),stopClock(){},persist(){},render(){},music(){},paintCombat(){},updateCombatHealth(){},hud:()=>'',pendingCombatHUD:null,Date:{now:()=>now},$:()=>null,document:{createElement:()=>({content:{firstElementChild:{}}})},audio:{effect:name=>sounds.push([now,name])},juice:{answer(){},burst(){},combatNumber:(scene,f)=>numbers.push([now,f])},levelConfig,answerReveal:{open(){}}};
  vm.createContext(c);vm.runInContext(source.slice(at,end),c);const choice=correct?q.answer:outcome==='timeout'?-1:(q.answer+1)%4;c.choose(choice);
  assert.equal(numbers.length,0);assert.equal(sounds.length,0);assert.equal(run.lives,5-(['wrong','timeout'].includes(outcome)?1:0));
  c.choose(choice);for(const job of jobs){now=job.delay;job.fn()}
  assert.equal(numbers.length,1);assert.equal(numbers[0][0],240);assert.equal(numbers[0][1].text,correct?'-10':outcome==='shield'?'BLOCKED':'-1 LIFE');
  assert.ok(sounds.some(([time,name])=>time===140&&name==='swordSwing'));
  assert.ok(sounds.some(([time,name])=>time===240&&name===(correct?'swordStrike':outcome==='shield'?'shield':'damage')));
- assert.equal(sounds.filter(([,name])=>name==='heavyImpact').length,['boss','finisher'].includes(outcome)?1:0);
+ assert.equal(sounds.filter(([,name])=>name==='heavyImpact').length,outcome==='boss'?1:0);
+ assert.equal(sounds.filter(([,name])=>name==='finisher').length,outcome==='finisher'?1:0);
+ assert.equal(sounds.filter(([,name])=>name==='groundImpact').length,outcome==='finisher'?1:0);
  assert.equal(sounds.filter(([,name])=>name==='lifeLost').length,['wrong','timeout'].includes(outcome)?1:0);
  assert.equal(run.asked,before.asked+1);assert.equal(run.index,before.index);assert.equal(run.powers.shield,before.powers.shield);assert.equal(run.status,'feedback');
  const html=combatHealthMarkup(run);assert.ok(html.includes('aria-valuemax="5"'));assert.ok(html.includes(`${run.lives} / 5 LIVES`));

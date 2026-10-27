@@ -3,7 +3,11 @@ import {judah} from './mascot.js';
 import {opponentFor} from './opponents.js';
 
 export const combatDuration=920;
-export const defeatDuration=760;
+export const defeatDuration=1060;
+export const groundContactAt=1210;
+export const bounceAt=1330;
+export const settleAt=1470;
+export const finisherVariation=level=>level%2===0?'sweep':'rising';
 export const defeatStart=540;
 export const combatFrames=[
  {at:0,phase:'windup',enemy:1},
@@ -51,17 +55,25 @@ export function combatDamageFeedback(before,after,last){
 // for score, lives, shields and answer acceptance. Cancel invalidates stale work.
 export class CombatDirector{
  constructor({setTimer=(fn,ms)=>setTimeout(fn,ms),clearTimer=id=>clearTimeout(id),now=()=>performance.now()}={}){this.setTimer=setTimer;this.clearTimer=clearTimer;this.now=now;this.timers=[];this.active=false;this.paused=false;this.generation=0}
- start({correct,enemyDefeated=false,reducedMotion=false,onFrame,onImpact,onFinish}){
+ start({correct,enemyDefeated=false,heroDefeated=false,variation='rising',reducedMotion=false,onFrame,onImpact,onFinish}){
   if(this.active)return false;
   this.active=true;this.paused=false;this.elapsed=0;this.offset=0;this.started=this.now();this.generation++;
-  const finishingBlow=correct&&enemyDefeated;
-  const duration=finishingBlow?defeatStart+defeatDuration:combatDuration;
-  if(reducedMotion){onFrame({phase:finishingBlow?'defeated':'ready',enemy:finishingBlow?3:0,correct,heroReady:true});onImpact();this.active=false;onFinish();return true}
-  const timeline=finishingBlow?[...combatFrames.map(f=>f.at>=defeatStart?{...f,phase:'defeat',enemy:3,heroReady:f.at===combatDuration}:f),{at:duration,phase:'defeated',enemy:3,heroReady:true}]:combatFrames;
+  const finishingBlow=correct&&enemyDefeated,heroFalls=!correct&&heroDefeated;
+  const finisher=finishingBlow?'enemy':heroFalls?'judah':'',variant=variation==='sweep'?'sweep':'rising';
+  const duration=finisher?defeatStart+defeatDuration:combatDuration;
+  if(reducedMotion){onFrame({at:duration,phase:finishingBlow?'defeated':heroFalls?'hero-defeated':'ready',enemy:finishingBlow?4:0,correct,finisher,variation:variant,heroReady:!heroFalls,reducedMotion:true});onImpact();this.active=false;onFinish();return true}
+  const prefix=heroFalls?'hero-':'';
+  const timeline=finisher?[
+   ...combatFrames.map(f=>f.at>=defeatStart?{...f,phase:prefix+'defeat',enemy:finishingBlow?4:0,heroReady:!heroFalls&&f.at===combatDuration}:f),
+   {at:groundContactAt,phase:prefix+'ground',enemy:finishingBlow?4:0,heroReady:!heroFalls},
+   {at:bounceAt,phase:prefix+'bounce',enemy:finishingBlow?4:0,heroReady:!heroFalls},
+   {at:settleAt,phase:prefix+'settle',enemy:finishingBlow?4:0,heroReady:!heroFalls},
+   {at:duration,phase:prefix+'defeated',enemy:finishingBlow?4:0,heroReady:!heroFalls}
+  ]:combatFrames;
   this.jobs=timeline.map(frame=>({frame,done:false}));
   this.apply=job=>{
    if(job.done)return;job.done=true;const frame=job.frame;this.elapsed=Math.max(this.elapsed,frame.at);
-   onFrame({...frame,correct,enemy:finishingBlow&&frame.at>=defeatStart?3:finishingBlow&&frame.at>=240?4:correct?(frame.at>=240&&frame.at<540?4:frame.at===540?5:0):frame.enemy});
+   onFrame({...frame,correct,finisher,variation:variant,enemy:finishingBlow&&frame.at>=240?4:correct?(frame.at>=240&&frame.at<540?4:frame.at===540?5:0):frame.enemy});
    if(frame.phase==='impact')onImpact();
    if(frame.at===duration){this.active=false;this.timers=[];onFinish()}
   };
@@ -77,6 +89,8 @@ export class CombatDirector{
 export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(!scene)return;
  scene.dataset.combat=frame.phase;scene.dataset.outcome=frame.correct?'correct':'wrong';
+ scene.dataset.finisher=frame.finisher||'';scene.dataset.variation=frame.variation||'rising';scene.dataset.slowMotion=String(!!frame.finisher&&frame.at>=defeatStart&&frame.at<groundContactAt);
+ scene.dataset.reducedMotion=String(!!frame.reducedMotion);
  const soldier=scene.querySelector('.roman-soldier');
  soldier.classList.toggle('is-defeated',frame.phase==='defeated');
  soldier.setAttribute('aria-label',`Roman soldier with sword and shield${frame.phase==='defeated'?', defeated':''}`);
@@ -92,6 +106,9 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(frame.phase==='impact'&&!frame.correct)pose='recoil';
  if(frame.correct&&(frame.phase==='recover'||frame.phase==='defeat'&&frame.at===defeatStart))pose='walk';
  if(frame.phase==='ready'||frame.heroReady)pose='ready';
+ if(frame.finisher==='judah'&&frame.at>=240)pose='recoil';
+ if(frame.finisher==='enemy'&&frame.at>=groundContactAt)pose='victory';
+ hero.setAttribute?.('aria-label',frame.phase==='hero-defeated'?'Judah, defeated':'Judah');
  if(pose!==hero.dataset.pose){
   const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment,wardrobe);
   const next=template.content.firstElementChild;
