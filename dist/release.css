@@ -1,0 +1,5 @@
+/* Reserve a slim bottom strip instead of covering gameplay controls. */
+body{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 20px)}
+#game-version{position:fixed;left:0;right:0;bottom:0;z-index:4;box-sizing:border-box;min-height:20px;margin:0;padding:3px max(10px,env(safe-area-inset-right,0px)) calc(3px + env(safe-area-inset-bottom,0px));background:#101626;color:#afbbc9;text-align:right;font:10px/14px var(--mono,monospace);letter-spacing:.4px;pointer-events:none}
+body:is(.opening,.gameplay,.game-over,.celebrating,.transition-view){padding-bottom:calc(var(--safe-bottom,env(safe-area-inset-bottom,0px)) + 20px)}
+.manual-version{color:var(--muted);font:12px/1.6 var(--mono,monospace);margin:0 0 20px}

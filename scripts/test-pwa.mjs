@@ -23,9 +23,10 @@ function boot(source){const events={};vm.runInNewContext(source,{URL,Request,cac
 async function lifecycle(fn){let work;fn({waitUntil:p=>work=p});await work}
 const events=boot(worker);await lifecycle(events.install);
 assert.equal(store.size,1);const oldCache=[...store.keys()][0],entries=store.get(oldCache);
-for(const file of ['index.html','manifest.webmanifest','app.js','questions.js','engine.js','storage.js','assets/icons/icon-192.png','assets/console/judah-master-adventure.png','assets/console/roman-soldier.png'])assert.ok(entries.has(scope+file));
+for(const file of ['index.html','manifest.webmanifest','app.js','release.js','release.css','questions.js','engine.js','storage.js','assets/icons/icon-192.png','assets/console/judah-master-adventure.png','assets/console/roman-soldier.png'])assert.ok(entries.has(scope+file));
 async function offline(url,mode='cors',method='GET'){let work;events.fetch({request:{url,mode,method},respondWith:p=>work=p});return work?await work:null}
 assert.equal((await offline(scope+'?launch=home','navigate')).status,200);
+assert.equal(await (await offline(scope+'release.js')).text(),await readFile(new URL('release.js',root),'utf8'),'Offline shell retains its matching displayed version');
 assert.equal(await (await offline(scope+'questions.js')).text(),await readFile(new URL('questions.js',root),'utf8'));
 assert.equal(await offline('https://fonts.googleapis.com/test'),null);
 assert.equal(await offline(scope+'api/save','cors','POST'),null);assert.equal(fetches,0);
