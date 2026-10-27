@@ -1,13 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="180" viewBox="0 0 90 180" shape-rendering="crispEdges">
-<!-- Quiet, distant stone kingdom; a tall central keep above clustered battlements. -->
-<path fill="#343d54" d="M0 177L9 165H81L90 177Z"/>
-<path fill="#4c566e" d="M10 165V102H18V88H26V104H32V55H36V35H40V19H44V6H48V19H52V35H56V55H60V104H66V91H74V107H80V165Z"/>
-<path fill="#858695" d="M17 161V107H23V97H26V117H35V59H39V39H43V23H47V39H51V59H55V117H66V100H70V111H74V161Z"/>
-<path fill="#b4ad98" d="M40 159V59H44V39H46V59H49V159ZM14 103H28V107H14ZM63 107H78V111H63ZM32 55H60V59H32Z"/>
-<path fill="#666e82" d="M23 123H68V163H23Z"/>
-<path fill="#a8a28e" d="M23 120H29V125H35V120H41V125H47V120H53V125H59V120H68V130H23Z"/>
-<path fill="#c7c3a5" d="M42 70H45V79H42ZM42 87H45V96H42ZM42 104H45V113H42ZM19 115H22V123H19ZM69 119H72V127H69Z"/>
-<path fill="#3b4860" d="M39 164V148H42V143H48V148H51V164Z"/>
-<path fill="#b9b49b" d="M43 161V148H47V161Z"/>
-<path fill="#626e80" d="M9 164H81V168H9ZM4 168H86V172H4Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" shape-rendering="crispEdges">
+<!-- Distant stone kingdom. The clipping ridge follows world-0's mountain silhouette.
+     Coordinates share the existing 640 x 280 world plane; no foreground castle or road. -->
+<defs>
+ <clipPath id="ridge"><path d="M438 0H502V122L485 97L466 130L449 158L438 173Z"/></clipPath>
+ <pattern id="masonry" width="16" height="14" patternUnits="userSpaceOnUse"><path d="M0 13H16M8 0V6M0 6H16M0 7V13" fill="none" stroke="#536078" stroke-width="1"/></pattern>
+ <g id="window"><path fill="#39485f" d="M0 14V4L4 0L8 4V14Z"/><path fill="#b3b5a2" d="M3 4H5V12H3Z"/></g>
+ <g id="tower">
+  <path fill="#35445e" d="M0 0H28V120H0Z"/>
+  <path fill="#6e7c92" d="M3 0H19V120H3Z"/><path fill="#8992a2" d="M3 0H6V120H3Z"/>
+  <path fill="url(#masonry)" d="M3 0H25V120H3Z"/>
+  <path fill="#424e67" d="M-3 0V-8H3V-3H9V-8H15V-3H21V-8H28V-3H31V3H-3Z"/>
+  <path fill="#a5a590" d="M-3 2H31V5H-3Z"/>
+  <use href="#window" x="9" y="14"/><use href="#window" x="9" y="46"/><use href="#window" x="9" y="78"/>
+  <path fill="#8a929e" d="M0 37H28V40H0ZM0 70H28V73H0ZM0 103H28V106H0Z"/>
+ </g>
+</defs>
+<g clip-path="url(#ridge)">
+ <g transform="translate(440 54) scale(.33)">
+  <!-- Secondary spires sit behind the keep, with darker shaded faces. -->
+  <path fill="#424f6b" d="M30 260V111H36V85H41V63H45V48H49V63H53V85H58V111H63V260ZM100 260V91H106V67H112V49H116V67H122V91H128V260Z"/>
+  <path fill="#7c889c" d="M42 246V111H45V85H48V111H52V246ZM112 246V91H115V67H118V91H121V246Z"/>
+  <!-- Central keep: illuminated west face, recessed windows, cornices, buttresses. -->
+  <path fill="#3c4962" d="M60 290V58H64V35H69V22H73V10H77V0H81V10H85V22H90V35H94V58H98V290Z"/>
+  <path fill="#8390a3" d="M65 290V58H69V35H73V22H77V10H79V22H83V35H88V58H91V290Z"/>
+  <path fill="#b6b39b" d="M73 58V35H76V22H78V35H81V58ZM65 58H94V63H65Z"/>
+  <path fill="#65748b" d="M64 65H94V290H64Z"/><path fill="#8e98a7" d="M64 65H69V290H64Z"/>
+  <path fill="url(#masonry)" d="M69 65H91V290H69Z"/>
+  <path fill="#a1a799" d="M61 100H98V104H61ZM61 150H98V154H61ZM61 200H98V204H61Z"/>
+  <use href="#window" x="75" y="77"/><use href="#window" x="75" y="121"/><use href="#window" x="75" y="171"/><use href="#window" x="75" y="221"/>
+  <!-- Broad outer battlements anchor the architecture below the occluding mountains. -->
+  <path fill="#53637d" d="M12 198H145V326H12Z"/><path fill="#7c899a" d="M18 198H135V326H18Z"/>
+  <path fill="url(#masonry)" d="M18 203H135V326H18Z"/>
+  <use href="#tower" x="6" y="155"/><use href="#tower" x="124" y="145"/>
+  <path fill="#a4aa9c" d="M33 193H41V185H49V193H57V185H65V193H73V185H81V193H89V185H97V193H105V185H113V193H124V200H33Z"/>
+  <path fill="#4d5c76" d="M46 207H52V322H46ZM105 207H111V322H105Z"/>
+  <path fill="#343f57" d="M63 326V280L79 263L95 280V326Z"/><path fill="#8c969b" d="M73 326V284L79 277L85 284V326Z"/>
+  <path fill="#b8b79f" d="M78 284H81V326H78Z"/>
+  <use href="#window" x="34" y="219"/><use href="#window" x="115" y="219"/>
+ </g>
+</g>
 </svg>
