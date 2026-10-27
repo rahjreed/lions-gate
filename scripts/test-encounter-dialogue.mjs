@@ -31,7 +31,7 @@ const restored=loadProfile(store,questions);assert.equal(restored.run.dialogue.s
 c.advanceDialogue();assert.equal(c.view,'game');assert.equal(intervals.size,1);assert.equal(c.deadline-now,c.run.remaining*1000);assert.equal(pendingDialogue(c.run),false);c.finishEncounter();c.advanceDialogue();assert.equal(intervals.size,1,'Duplicate callbacks cannot restart gameplay');assert.equal(gameState(c.run),before);
 for(const level of [1,5,335,410,700]){
  c.run=createRun(questions);c.run.level=level;c.run.completed=level-1;beginLevel(c.run,questions);c.run.status='gameover';c.run.lives=0;
- c.retry();assert.equal(c.view,'encounter');assert.equal(c.run.level,level);assert.equal(c.run.lives,3);assert.equal(intervals.size,0);assert.equal(c.encounter.step,0);const retryState=gameState(c.run);
+ c.retry();assert.equal(c.view,'encounter');assert.equal(c.run.level,level);assert.equal(c.run.lives,5);assert.equal(intervals.size,0);assert.equal(c.encounter.step,0);const retryState=gameState(c.run);
  c.finishEncounter();assert.equal(c.view,'game');assert.equal(gameState(c.run),retryState,'Immediate retry skip cannot advance a question or alter rewards');
 }
 c.run.status='levelup';const previous=c.run.level;c.finishJourney();assert.equal(c.run.level,previous+1);assert.equal(c.view,'encounter');assert.equal(intervals.size,0,'Journey arrival pauses for dialogue before Q1');

@@ -13,6 +13,7 @@ try{
   page.on('response',r=>{if(r.status()>=400&&r.url().startsWith('http://127.0.0.1'))errors.push(`${r.status()} ${r.url()}`)});
   await page.goto(process.env.TEST_URL||'http://127.0.0.1:4173',{waitUntil:'domcontentloaded'});
   await page.locator('[data-action=start]').click();
+  await page.locator('[data-action=dialogue-skip]').click();
   await page.locator('#sound').click();
   await page.clock.install();await page.clock.pauseAt(new Date());
   const readRun=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('lions-gate-arcade-v3')).run);

@@ -7,11 +7,20 @@ export class GameJuice{
  frame(fn){const id=requestAnimationFrame(()=>{this.frameJobs.delete(id);if(!this.paused)fn(this.now())});this.frames.push(id);this.frameJobs.set(id,fn)}
  schedule(job){job.due=performance.now()+job.remaining;job.id=setTimeout(()=>{this.jobs.delete(job);job.fn()},job.remaining);this.timers.push(job.id)}
  later(fn,ms){const job={fn,remaining:ms};this.jobs.add(job);this.schedule(job)}
- clear(){this.animations.forEach(a=>a.cancel());this.frames.forEach(cancelAnimationFrame);this.timers.forEach(clearTimeout);this.animations=[];this.frames=[];this.timers=[];this.jobs.clear();this.frameJobs.clear();this.paused=false;this.pausedTime=0;this.root.querySelectorAll('.pixel-burst,.reward-pop,.life-pop').forEach(e=>e.remove());this.root.classList.remove('impact-correct','impact-wrong','impact-shield','arriving','promoted')}
+ clear(){this.animations.forEach(a=>a.cancel());this.frames.forEach(cancelAnimationFrame);this.timers.forEach(clearTimeout);this.animations=[];this.frames=[];this.timers=[];this.jobs.clear();this.frameJobs.clear();this.paused=false;this.pausedTime=0;this.root.querySelectorAll('.pixel-burst,.reward-pop,.life-pop,.combat-number').forEach(e=>e.remove());this.root.classList.remove('impact-correct','impact-wrong','impact-shield','arriving','promoted')}
  animate(element,keyframes,options){if(!element||this.reducedMotion())return;const a=element.animate(keyframes,options);this.animations.push(a);return a}
  transientClass(name,duration){this.root.classList.add(name);this.later(()=>this.root.classList.remove(name),duration)}
  enter(kind='question'){this.clear();if(this.reducedMotion())return;this.transientClass(kind==='promotion'?'promoted':'arriving',650);if(kind==='promotion')this.burst(this.root.querySelector('.result-screen'),20,'gold')}
  burst(target,count=12,tone='green'){if(!target||this.reducedMotion())return;const layer=document.createElement('span');layer.className=`pixel-burst ${tone}`;layer.setAttribute('aria-hidden','true');for(let i=0;i<count;i++){const p=document.createElement('i');const angle=2*Math.PI*i/count;p.style.setProperty('--dx',`${Math.cos(angle)*(45+i%3*17)}px`);p.style.setProperty('--dy',`${Math.sin(angle)*(30+i%4*10)}px`);p.style.setProperty('--delay',`${i%3*20}ms`);layer.append(p)}target.append(layer);this.later(()=>layer.remove(),850)}
+ combatNumber(scene,feedback){
+  if(!scene||!feedback)return;
+  const actor=scene.querySelector(feedback.who==='enemy'?'.roman-soldier':'.scene-status>.judah');if(!actor)return;
+  const arena=scene.getBoundingClientRect(),target=actor.getBoundingClientRect(),pop=document.createElement('span');
+  pop.className='combat-number '+feedback.kind;pop.textContent=feedback.text;pop.setAttribute('aria-hidden','true');
+  pop.style.left=Math.max(48,Math.min(arena.width-48,target.left-arena.left+target.width/2))+'px';
+  pop.style.top=Math.max(22,Math.min(arena.height-16,target.top-arena.top+target.height*.2))+'px';
+  scene.append(pop);this.later(()=>pop.remove(),620);
+ }
  answer({correct,earned,score,streak,shielded}){
   this.clear();const panel=this.root.querySelector('.question-panel'),hud=this.root.querySelector('.hud'),sword=this.root.querySelector('.small-sword'),scoreEl=this.root.querySelector('#score-value');
   this.transientClass(correct?'impact-correct':shielded?'impact-shield':'impact-wrong',800);

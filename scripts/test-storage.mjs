@@ -20,7 +20,7 @@ for(let level=1;level<=61;level++){
 assert.ok(seen.size>=Math.min(42,questions.length));assert.equal(r.completed,61);assert.equal(rankFor(r.completed).name,'Student');assert.equal(r.bosses,12);assert.equal(r.perfects,61);
 assert.deepEqual(promotions.map(([n])=>n),[35]);
 assert.ok(p.badges.includes('Student'));assert.ok(!p.badges.includes('Master'));assert.equal(p.bestCompleted,61);
-for(let i=0;i<3;i++){submit(r,questions,-1);advance(r,questions)}captureProgress(p,r);captureProgress(p,r);assert.equal(p.records.length,1);assert.equal(r.status,'gameover');assert.equal(localScores(p).length,1);
+for(let i=0;i<5;i++){submit(r,questions,-1);advance(r,questions)}captureProgress(p,r);captureProgress(p,r);assert.equal(p.records.length,1);assert.equal(r.status,'gameover');assert.equal(localScores(p).length,1);
 p.records.push({id:'old',nickname:'OLD',score:10,completed:0,endedAt:'2000-01-01T00:00:00.000Z'});assert.equal(localScores(p,'week',new Date(r.endedAt)).length,1);
 const malformed=structuredClone(r);malformed.answers=[{id:'missing'}];assert.equal(validRun(malformed,questions),false);
 assert.equal(levelConfig(100000).boss,true);assert.equal(levelConfig(100001).difficulty,3);

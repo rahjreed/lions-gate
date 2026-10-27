@@ -18,7 +18,7 @@ for(const [level,name,degree] of [[35,'Student',0],[110,'Scholar',0],[185,'Scrib
  saveProfile(s,p);assert.deepEqual(loadProfile(s,questions).run,run);assert.equal(advance(run,questions),false,'Repeated clear does not replay promotion');
  const badges=[...p.badges],score=run.score;captureProgress(p,run);assert.deepEqual(p.badges,badges);assert.equal(run.score,score);
  const replay=at(level);captureProgress(p,replay);finish(replay);assert.equal(replay.lastPromotion,null,'Replaying a milestone below the saved high-water mark cannot re-promote');
- const failed=at(level);for(let n=0;n<3;n++){submit(failed,questions,-1);advance(failed,questions);}assert.equal(failed.lastPromotion,null);assert.equal(failed.completed,level-1);assert.equal(retryLevel(failed,questions),true);finish(failed);assert.equal(failed.lastPromotion,rankLabel({name,degree}));
+ const failed=at(level);for(let n=0;n<5;n++){submit(failed,questions,-1);advance(failed,questions);}assert.equal(failed.lastPromotion,null);assert.equal(failed.completed,level-1);assert.equal(retryLevel(failed,questions),true);finish(failed);assert.equal(failed.lastPromotion,rankLabel({name,degree}));
 }
 const old=emptyProfile();delete old.mastery;old.bestCompleted=61;old.bestScore=9000;old.badges=['Student','Master','Flawless'];old.run=at(62);old.run.score=9000;old.run.lastPromotion='Master · 2nd Degree';delete old.run.rankHighWater;
 old.records=[{id:'old-record',nickname:'OLD',score:8000,completed:50,level:51,endedAt:'2026-10-25T00:00:00Z'}];

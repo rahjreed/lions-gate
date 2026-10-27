@@ -18,7 +18,7 @@ for(const outcome of ['correct','wrong','timeout','shield']){
  assert.deepEqual(frames.map(f=>f.phase),combatFrames.map(f=>f.phase));
  assert.equal(frames[2].enemy,outcome==='correct'?4:2);
  assert.equal(jobs.at(-1).ms,combatDuration);assert.deepEqual(run,snapshot);
- assert.equal(run.lives,outcome==='wrong'||outcome==='timeout'?2:3);
+ assert.equal(run.lives,outcome==='wrong'||outcome==='timeout'?4:5);
  director.start(callbacks);director.cancel();const before=[impact,finish];jobs.forEach(j=>j.fn());assert.deepEqual([impact,finish],before);
  director.start({...callbacks,reducedMotion:true});assert.deepEqual([impact,finish],before.map(x=>x+1));
  assert.deepEqual(run,snapshot);
@@ -32,7 +32,7 @@ for(const outcome of ['correct','wrong','timeout','shield']){
  const choice=outcome==='correct'?q.answer:outcome==='timeout'?-1:(q.answer+1)%4;
  submit(run,questions,choice);const result=structuredClone(run);
  assert.deepEqual(combatHealth(run,before),before,'Pending display waits for impact');
- const expected={hits:outcome==='correct'?1:0,enemy:outcome==='correct'?90:100,lives:['wrong','timeout'].includes(outcome)?2:3};
+ const expected={hits:outcome==='correct'?1:0,enemy:outcome==='correct'?90:100,lives:['wrong','timeout'].includes(outcome)?4:5};
  assert.deepEqual(combatHealth(run),expected);
  assert.equal(submit(run,questions,choice),false);assert.deepEqual(combatHealth(run),expected,'Duplicate events cannot subtract HP');
  assert.deepEqual(run,result,'Health rendering cannot change engine/save state');
@@ -45,10 +45,10 @@ for(let i=0;i<10;i++){
  const q=questions.find(q=>q.id===imperfect.queue[imperfect.index].id);
  submit(imperfect,questions,i===0?-1:q.answer);advance(imperfect,questions);
 }
-assert.equal(imperfect.status,'levelup');assert.deepEqual(combatHealth(imperfect),{hits:9,enemy:10,lives:2});
-nextLevel(imperfect,questions);assert.deepEqual(combatHealth(imperfect),{hits:0,enemy:100,lives:2});
+assert.equal(imperfect.status,'levelup');assert.deepEqual(combatHealth(imperfect),{hits:9,enemy:10,lives:4});
+nextLevel(imperfect,questions);assert.deepEqual(combatHealth(imperfect),{hits:0,enemy:100,lives:4});
 const lost=createRun(questions);
-for(let i=0;i<3;i++){submit(lost,questions,-1);advance(lost,questions)}
+for(let i=0;i<5;i++){submit(lost,questions,-1);advance(lost,questions)}
 assert.equal(lost.status,'gameover');assert.equal(combatHealth(lost).lives,0);
 
 const perfect=createRun(questions);

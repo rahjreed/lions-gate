@@ -24,7 +24,7 @@ header{padding-top:max(12px,env(safe-area-inset-top));padding-left:max(17px,env(
  body.gameplay .hud>div:first-child{display:none}
  body.gameplay .hud small{font-size:7px;letter-spacing:0;margin-bottom:3px}
  body.gameplay .hud strong{font-size:9px;letter-spacing:0;overflow-wrap:anywhere}
- body.gameplay .hud .hearts{font-size:17px!important}
+ body.gameplay .hud .hearts{font-size:13px!important}
  body.gameplay .rank-strip{flex:none;min-height:32px;padding:0;gap:5px;flex-wrap:nowrap;font-size:8px}
  body.gameplay .rank-strip>span:first-child{font-size:9px;min-width:0}
  body.gameplay .rank-strip>span:nth-child(2),body.gameplay .rank-strip progress{display:none}

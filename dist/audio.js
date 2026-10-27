@@ -1,7 +1,9 @@
 // Original oscillator patches. SFX and music have independent buses and mute states.
 export const patches={
- swordStrike:[[1760,.09,'sawtooth',0,.018,220],[1319,.16,'triangle',.08,.06,659],[988,.1,'square',.11,.018]],
- damage:[[164,.1,'sawtooth',0,.035,65],[98,.2,'square',.08,.028,49]],
+ swordSwing:[[1300,.075,'sawtooth',0,.025,170],[760,.095,'triangle',.02,.028,90]],
+ swordStrike:[[920,.045,'square',0,.045,180],[110,.13,'triangle',.008,.08,55],[540,.06,'sawtooth',.018,.018,90]],
+ heavyImpact:[[80,.17,'triangle',0,.085,40],[120,.06,'square',0,.03,45],[440,.035,'sawtooth',.01,.012,90]],
+ damage:[[145,.08,'sawtooth',0,.045,45],[70,.15,'triangle',.008,.075,40],[220,.045,'square',.015,.018,70]],
  perfectVictory:[[392,.12,'square',0,.035],[523,.12,'square',.1,.035],[659,.14,'square',.2,.035],[784,.16,'square',.3,.035],[1047,.45,'triangle',.44,.075],[1319,.42,'triangle',.44,.04],[523,.45,'triangle',.44,.04]],
  gateOpen:[[98,.24,'triangle',0,.045,196],[196,.24,'triangle',.2,.05,392],[784,.24,'square',.4,.022]],
  correct:[[523,.12,'square',0,.04],[784,.14,'square',.09,.035],[1047,.24,'triangle',.18,.085],[1319,.18,'square',.27,.025]],
@@ -16,7 +18,7 @@ export const patches={
  pause:[[523,.08,'triangle',0,.06],[392,.14,'triangle',.08,.055]],
  resume:[[392,.08,'triangle',0,.055],[523,.14,'triangle',.08,.06]],
  power:[[392,.1,'square',0,.035,784],[784,.2,'triangle',.1,.07]],
- shield:[[330,.1,'triangle',0,.07],[494,.14,'triangle',.08,.07],[659,.2,'triangle',.16,.07]],
+ shield:[[1047,.08,'triangle',0,.065,1568],[784,.12,'triangle',.018,.04,392],[392,.14,'triangle',.025,.035,196]],
  gameover:[[262,.15,'square',0,.035],[220,.15,'square',.17,.035],[196,.16,'square',.34,.035],[130,.45,'triangle',.51,.08]]
 };
 export class ArcadeAudio{

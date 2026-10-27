@@ -53,7 +53,7 @@ for(const level of [1,75,150,225,300,375,450,525,10000]){
 }
 assert.equal(questions.length,audit.liveCount+publishedQuestions.length);assert.equal(JSON.parse(await read('content/candidates/initial-50.json')).length,audit.previousCandidates,'Original earlier batch stays intact; later batches are checked as additional peers');
 const runtimeFixes=JSON.parse(await read('content/launch/runtime-fixes.json')).fixes;
-assert.deepEqual(runtimeFixes.map(f=>f.file).sort(),['dist/answer-reveal.js','dist/app.js','dist/armor.css','dist/armor.js','dist/combat.js','dist/engine.js','dist/mascot.js','dist/storage.js','dist/style.css','dist/sw.js']);
+assert.deepEqual(runtimeFixes.map(f=>f.file).sort(),["dist/answer-reveal.js","dist/app.js","dist/armor.css","dist/armor.js","dist/audio.js","dist/combat.css","dist/combat.js","dist/engine.js","dist/index.html","dist/juice.css","dist/juice.js","dist/mascot.js","dist/mobile-game.css","dist/storage.js","dist/style.css","dist/sw.js"]);
 for(const fix of runtimeFixes){assert.equal(fix.before,audit.preservedFiles[fix.file]);assert.ok(fix.reason.trim());}
 for(const [file,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(file))continue;const documentedFix=runtimeFixes.find(f=>f.file===file);assert.equal(createHash('sha256').update(await readFile(new URL('../'+file,import.meta.url))).digest('hex'),documentedFix?.after||hash,`${file} must match its historical snapshot or explicit launch-fix snapshot`)}
 const sourceHash=createHash('sha256').update(source).digest('hex');assert.equal(sourceHash,audit.sourceSha256);assert.ok(batch.every(q=>q.editorial.sourceSha256===sourceHash));

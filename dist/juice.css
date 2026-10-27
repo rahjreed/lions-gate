@@ -1,4 +1,9 @@
 /* Presentation-only effects; no layout or input delays. */
+.combat-number{position:absolute;z-index:12;pointer-events:none;white-space:nowrap;font:14px/1.3 var(--pixel);color:#fff0a5;text-shadow:2px 2px #111523,-1px -1px #111523,1px -1px #111523,-1px 1px #111523;translate:-50% 0;animation:combat-number-rise .62s steps(12,end) both}
+.combat-number.hurt{color:#ffb1ad;font-size:11px}.combat-number.blocked{color:#a9f2ea;font-size:10px}
+@keyframes combat-number-rise{0%{opacity:1;transform:scale(1.16);color:#fff}18%{opacity:1;transform:translateY(-4px) scale(1)}75%{opacity:1;transform:translateY(-21px)}100%{opacity:0;transform:translateY(-29px)}}
+@media(max-width:760px){.combat-number{font-size:12px}.combat-number.hurt{font-size:9px}.combat-number.blocked{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.combat-number{animation:none;transform:none}}
 .hud,.hearts,.answer,.question-panel,.result-screen{position:relative}
 .hud-combo{display:inline-block;transform-origin:center}
 .reward-pop{position:absolute;top:12px;left:34%;z-index:6;color:#d6ffb6;font:12px var(--pixel);text-shadow:2px 2px #193b31,0 0 12px #a8ff9470;pointer-events:none;animation:points-rise .9s ease-out both;white-space:nowrap}

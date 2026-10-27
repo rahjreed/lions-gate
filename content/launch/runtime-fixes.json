@@ -1,5 +1,5 @@
 {
-  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash.",
+  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash. Phase 1 combat feedback is explicitly owner-authorized; historical Scripture and asset snapshots remain enforced.",
   "fixes": [
     {
       "file": "dist/answer-reveal.js",
@@ -10,8 +10,8 @@
     {
       "file": "dist/app.js",
       "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
-      "after": "5a136cdad72bbde01a27100bd1aaddbbb97036c214069896d01b436bec03e93d",
-      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged."
+      "after": "625f41fa4eddf8337cc113aba5e2763241087241de372a2be409ef1e8a18afe8",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Five-life HUD/guide/retry labels and exact-impact audio/number hooks; question/scoring logic unchanged."
     },
     {
       "file": "dist/armor.css",
@@ -26,22 +26,58 @@
       "reason": "Owner explicitly confirmed Sword 300, Shield 375, Helmet 450; planned-only catalog, belt earnability unchanged."
     },
     {
+      "file": "dist/audio.js",
+      "before": "0214151e2c76ea1980c46f554a16f6b642eb807dd92f8caa61a1ca8b32e83f8a",
+      "after": "daf40b8e8c0ff05a9bd1b6c3a3e060f4c96f4f746bcfa60c93ee988fc9701fe1",
+      "reason": " Phase 1 combat feedback: owner-authorized. Original short swing, hit, hurt, block and heavy-impact oscillator patches; buses/mute/unlock unchanged."
+    },
+    {
+      "file": "dist/combat.css",
+      "before": "611860556e418175ddbe18e9018d4b58f8bc59ead541d23d42dba84ebfbce81b",
+      "after": "e64db9c01836caf8fc56ae110bf8494d978bdc7ddf3f3b9ddd6cca4bfa4ab92a",
+      "reason": " Phase 1 combat feedback: owner-authorized. Five health segments for Judah; no sprite or timeline changes."
+    },
+    {
       "file": "dist/combat.js",
       "before": "e2fb8aab1236db8c76a1011e19cc8d5abd34eb8d430c1ccbd21bd248ab43a67a",
-      "after": "038cc83c74f5d65ca7be779ad8b6e08cb135c4cae6b62b6487b713504a546cca",
-      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes."
+      "after": "d2f62b8380b8ee89f54845b3c15ff0e5068290e551901f833a86f6702af8eede",
+      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes. Phase 1 combat feedback: owner-authorized. Five-life health display and pure before/after damage labels; existing animation timeline unchanged."
     },
     {
       "file": "dist/engine.js",
       "before": "7381e3a5c664e96e4f9dd497b051c61bb1104c2ea59ef03de62c5335c23b57a4",
-      "after": "2f1566cc5a538ee5cea7484886d2b704458f634f7ef49341f821488d5c7e5be4",
-      "reason": "Owner-authorized 35/110/185/260 ranks and 75-level Master degrees, completed-level high-water promotion deduplication and rank badges; scoring/lives/questions unchanged."
+      "after": "4c7d758d4b7f964a7ece3df5232f98f4546b74db146dc0152770137fa4aa42b2",
+      "reason": "Owner-authorized 35/110/185/260 ranks and 75-level Master degrees, completed-level high-water promotion deduplication and rank badges; scoring/lives/questions unchanged. Phase 1 combat feedback: owner-authorized. Shared five-life start/retry cap and save bound; remaining lives carry between levels as before."
+    },
+    {
+      "file": "dist/index.html",
+      "before": "be74f16be9dec754fac0ef4f38daf893cfdcb0f14a9feb78b5354eeada154458",
+      "after": "b6dc2fe7ceb61747b247d2f1841a0f260ef1f2289474ea33858eebe6ad82e549",
+      "reason": " Phase 1 combat feedback: owner-authorized. Correct five-life description; viewport/PWA configuration unchanged."
+    },
+    {
+      "file": "dist/juice.css",
+      "before": "46b36bd6f87ce4398b316573eda5719378068bb6b9e943980a94ebf22f2d6b04",
+      "after": "1fd2dd8e43017779e7931e95104af310b32fcb2a9e75e4ab076f7ac29eff1a16",
+      "reason": " Phase 1 combat feedback: owner-authorized. Small readable floating combat labels, with a reduced-motion fallback."
+    },
+    {
+      "file": "dist/juice.js",
+      "before": "82ce55be4fa4ad9c166e4561876544e007dcc60aaff50ac3273ca4a6fb00e6ce",
+      "after": "0eba65c7dcd3be2f33c318c8a5c1f08598d975da9ac5341cddb9e4e8c1b9baaa",
+      "reason": " Phase 1 combat feedback: owner-authorized. Scene-anchored, pause-aware transient labels; no gameplay-state mutation."
     },
     {
       "file": "dist/mascot.js",
       "before": "8e3d529f1ec8b4a01684d4b9e0deb0e5ba5968e0e7506d17a770d2ff660ac63e",
       "after": "0f6f2c36fdd96692589cf5859d698976b15ffef528d1a4b2a16a1a8995b826cb",
       "reason": "Reuse existing sprite sheets at new thresholds, preserve legacy wardrobe in all poses; no art or frame changes."
+    },
+    {
+      "file": "dist/mobile-game.css",
+      "before": "056a8382cf523cc9bb8f69a10d5ee3d62897556938272761256919da67e2abab",
+      "after": "5a1f7f8a3fed2c214a97d27c53f3f5c588c0123e630d6fcc9abe258834ea71a5",
+      "reason": " Phase 1 combat feedback: owner-authorized. Compact five-heart display in the existing mobile HUD."
     },
     {
       "file": "dist/storage.js",
@@ -58,8 +94,8 @@
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "30c7924166f028e0237fcb4b16e6a2235ec530bafc4556b0438dec273c3e96da",
-      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged."
+      "after": "4208445b8f5b5f851aaef40edf1fd2fc13bfa2c1263bae514c41e8639149c225",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Generated atomic offline-shell revision for Phase 1 combat feedback."
     }
   ]
 }

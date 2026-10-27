@@ -10,7 +10,7 @@ const p=emptyProfile(),r=createRun(questions),storage={data:null,getItem(){retur
 const answer=(correct=true)=>{const q=questions.find(q=>q.id===r.queue[r.index].id);submit(r,questions,correct?q.answer:-1);advance(r,questions);captureProgress(p,r)};
 while(r.level<75){for(let i=0;i<10;i++)answer();nextLevel(r,questions)}
 captureProgress(p,r);assert.deepEqual(p.armor.unlocked,[],'Entering Level 75 does not unlock armor');
-for(let i=0;i<3;i++)answer(false);assert.equal(r.status,'gameover');assert.deepEqual(p.armor.unlocked,[],'Defeat at the milestone does not unlock it');
+for(let i=0;i<5;i++)answer(false);assert.equal(r.status,'gameover');assert.deepEqual(p.armor.unlocked,[],'Defeat at the milestone does not unlock it');
 retryLevel(r,questions);captureProgress(p,r);for(let i=0;i<9;i++)answer();
 const q=questions.find(q=>q.id===r.queue[9].id);submit(r,questions,q.answer);captureProgress(p,r);assert.deepEqual(p.armor.unlocked,[],'Final answer feedback is not a successful clear');
 advance(r,questions);const snapshot=structuredClone(r);captureProgress(p,r);
@@ -18,7 +18,7 @@ assert.deepEqual(p.armor,{unlocked:['belt'],pending:['belt']});assert.deepEqual(
 const rank=rankFor(r.completed),score=r.score;captureProgress(p,r);captureProgress(p,r);assert.equal(r.score,score);assert.deepEqual(p.armor.pending,['belt']);
 saveProfile(storage,p);const restored=loadProfile(storage,questions);assert.deepEqual(restored.armor,p.armor);assert.equal(acknowledgeArmor(restored,'belt'),true);assert.equal(acknowledgeArmor(restored,'belt'),false);
 saveProfile(storage,restored);assert.deepEqual(loadProfile(storage,questions).armor,{unlocked:['belt'],pending:[]});
-nextLevel(r,questions);for(let i=0;i<3;i++)answer(false);retryLevel(r,questions);captureProgress(restored,r);assert.deepEqual(restored.armor.unlocked,['belt']);assert.deepEqual(rankFor(r.completed),rank);
+nextLevel(r,questions);for(let i=0;i<5;i++)answer(false);retryLevel(r,questions);captureProgress(restored,r);assert.deepEqual(restored.armor.unlocked,['belt']);assert.deepEqual(rankFor(r.completed),rank);
 captureProgress(restored,createRun(questions));assert.deepEqual(restored.armor.unlocked,['belt'],'A deliberate new run keeps permanent equipment');
 const legacy=emptyProfile();delete legacy.armor;legacy.bestCompleted=450;reconcileArmor(legacy);assert.deepEqual(legacy.armor.unlocked,['belt'],'Only the reviewed Belt milestone is enabled in this phase');
 legacy.armor={unlocked:['belt','helmet','belt'],pending:['helmet']};reconcileArmor(legacy);assert.deepEqual(legacy.armor,{unlocked:['belt'],pending:[]});

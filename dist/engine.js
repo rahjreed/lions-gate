@@ -1,5 +1,6 @@
 import {selectKnowledgeQuestions} from './question-selection.js';
 export const VERSION=3;
+export const MAX_LIVES=5;
 export const rankMilestones=Object.freeze([0,35,110,185,260]);
 export const rankNames=Object.freeze(['Novice','Student','Scholar','Scribe','Master']);
 export function rankFor(completed=0){
@@ -25,7 +26,7 @@ export function shuffled(items,random=Math.random){const a=[...items];for(let i=
 // Keep the public API and saved queue shape stable.
 export const selectQuestions=selectKnowledgeQuestions;
 export function createRun(bank,nickname='PLAYER 1',random=Math.random){
- const run={version:VERSION,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:3,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};
+ const run={version:VERSION,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:MAX_LIVES,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};
  run.rankHighWater=0;return beginLevel(run,bank,random);
 }
 function resetLevel(run,bank,random,avoid=[]){const c=levelConfig(run.level);run.queue=selectQuestions(bank,run,random,avoid);run.index=0;run.answers=[];run.status='playing';run.remaining=c.seconds;run.eliminated=[];run.shielded=false;run.lastPromotion=null;return run}
@@ -40,7 +41,7 @@ export const canRetryLevel=run=>!!run&&run.status==='gameover'&&run.lives===0&&r
 export function retryLevel(run,bank,random=Math.random){
  if(!canRetryLevel(run))return false;
  const rewards=levelRewards(run),avoid=run.queue.map(q=>q.id);
- run.lives=3;run.streak=0;run.powers={...rewards.startPowers};rewards.attempt=0;delete run.endedAt;
+ run.lives=MAX_LIVES;run.streak=0;run.powers={...rewards.startPowers};rewards.attempt=0;delete run.endedAt;
  resetLevel(run,bank,random,avoid);return true;
 }
 export function submit(run,bank,choice){
@@ -77,7 +78,7 @@ export function validRun(run,bank){
  if(!run.history||typeof run.history!=='object'||!Object.values(run.history).every(h=>Number.isInteger(h.count)&&h.count>=0&&Number.isInteger(h.last)&&h.last>=0&&(h.misses===undefined||Number.isInteger(h.misses)&&h.misses>=0&&h.misses<=h.count)&&(h.lastCorrect===undefined||typeof h.lastCorrect==='boolean')))return false;
  if(!Array.isArray(run.answers)||!run.answers.every(a=>bank.some(q=>q.id===a.id)&&[-1,0,1,2,3].includes(a.choice)&&typeof a.correct==='boolean'&&Number.isInteger(a.earned)&&a.earned>=0))return false;
  if(run.levelRewards){const r=run.levelRewards;if(r.level!==run.level||!Number.isSafeInteger(r.highWater)||!Number.isSafeInteger(r.attempt)||r.attempt<0||r.highWater<r.attempt||r.highWater>run.score||r.highWater>5000*(levelConfig(run.level).boss?2:1)||!r.startPowers||!['fifty','time','shield'].every(k=>Number.isInteger(r.startPowers[k])&&r.startPowers[k]>=0&&r.startPowers[k]<=3))return false}
- const ids=new Set(bank.map(q=>q.id));return !!run&&run.version===VERSION&&Number.isSafeInteger(run.level)&&run.level>=1&&Number.isSafeInteger(run.completed)&&run.completed>=0&&run.completed<=run.level&&Number.isSafeInteger(run.score)&&run.score>=0&&Number.isInteger(run.lives)&&run.lives>=0&&run.lives<=3&&Number.isInteger(run.index)&&run.index>=0&&run.index<10&&Array.isArray(run.queue)&&run.queue.length===10&&new Set(run.queue.map(q=>q.id)).size===10&&run.queue.every(q=>ids.has(q.id)&&q.order?.length===4&&new Set(q.order).size===4&&q.order.every(i=>[0,1,2,3].includes(i)))&&['playing','feedback','levelup','gameover'].includes(run.status)&&Number.isFinite(run.remaining)&&run.remaining>=0&&run.remaining<=100&&Array.isArray(run.answers)&&run.answers.length<=10&&!!run.history&&!!run.powers&&['fifty','time','shield'].every(k=>Number.isInteger(run.powers[k])&&run.powers[k]>=0&&run.powers[k]<=3)&&Array.isArray(run.eliminated)&&typeof run.nickname==='string';
+ const ids=new Set(bank.map(q=>q.id));return !!run&&run.version===VERSION&&Number.isSafeInteger(run.level)&&run.level>=1&&Number.isSafeInteger(run.completed)&&run.completed>=0&&run.completed<=run.level&&Number.isSafeInteger(run.score)&&run.score>=0&&Number.isInteger(run.lives)&&run.lives>=0&&run.lives<=MAX_LIVES&&Number.isInteger(run.index)&&run.index>=0&&run.index<10&&Array.isArray(run.queue)&&run.queue.length===10&&new Set(run.queue.map(q=>q.id)).size===10&&run.queue.every(q=>ids.has(q.id)&&q.order?.length===4&&new Set(q.order).size===4&&q.order.every(i=>[0,1,2,3].includes(i)))&&['playing','feedback','levelup','gameover'].includes(run.status)&&Number.isFinite(run.remaining)&&run.remaining>=0&&run.remaining<=100&&Array.isArray(run.answers)&&run.answers.length<=10&&!!run.history&&!!run.powers&&['fifty','time','shield'].every(k=>Number.isInteger(run.powers[k])&&run.powers[k]>=0&&run.powers[k]<=3)&&Array.isArray(run.eliminated)&&typeof run.nickname==='string';
 }
 export function achievements(run){const completed=masteryCompleted(run);return [run.correct>=1&&'First Strike',run.bestStreak>=5&&'On Fire',run.perfects>=1&&'Flawless',run.bosses>=1&&'Gatekeeper',completed>=35&&'Student',completed>=110&&'Scholar',completed>=185&&'Scribe',completed>=260&&'Master'].filter(Boolean)}
 export function leaderboardSort(a,b){return b.score-a.score||b.completed-a.completed||a.endedAt.localeCompare(b.endedAt)||a.id.localeCompare(b.id)}

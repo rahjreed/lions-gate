@@ -1,3 +1,4 @@
+import {MAX_LIVES} from './engine.js';
 import {judah} from './mascot.js';
 import {opponentFor} from './opponents.js';
 
@@ -23,18 +24,27 @@ export function combatHealth(run,pending=null){
 export function combatHealthMarkup(run,pending=null){
  const h=combatHealth(run,pending);
  const meter=(who,label,value,max,text)=>`<div class="health-block health-${who}"><div class="health-label"><b>${label}</b><span class="health-value">${text}</span></div><div class="health-track" data-health="${who}" role="progressbar" aria-label="${label} health" aria-valuemin="0" aria-valuemax="${max}" aria-valuenow="${value}" aria-valuetext="${text}"><i class="health-lag" style="width:${value/max*100}%"></i><i class="health-fill" style="width:${value/max*100}%"></i></div></div>`;
- return `<div class="combat-health" aria-label="Combat health">${meter('judah','JUDAH',h.lives,3,`${h.lives} / 3 LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>LEVEL ENDS AFTER 10 QUESTIONS · CORRECT ANSWERS DEAL 10%</small></div>`;
+ return `<div class="combat-health" aria-label="Combat health">${meter('judah','JUDAH',h.lives,MAX_LIVES,`${h.lives} / ${MAX_LIVES} LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>LEVEL ENDS AFTER 10 QUESTIONS · CORRECT ANSWERS DEAL 10%</small></div>`;
 }
 export function updateCombatHealth(root,run){
  if(!root)return;
  const h=combatHealth(run);
- for(const [who,value,text] of [['judah',h.lives,`${h.lives} / 3 LIVES`],['enemy',h.enemy,h.enemy?`${h.enemy}%`:'0% · KO']]){
+ for(const [who,value,text] of [['judah',h.lives,`${h.lives} / ${MAX_LIVES} LIVES`],['enemy',h.enemy,h.enemy?`${h.enemy}%`:'0% · KO']]){
   const meter=root.querySelector(`[data-health="${who}"]`),block=meter.closest('.health-block');
   if(value<Number(meter.getAttribute('aria-valuenow')))block.dataset.damaged='true';
   meter.setAttribute('aria-valuenow',value);meter.setAttribute('aria-valuetext',text);
   block.querySelector('.health-value').textContent=text;
   for(const fill of meter.children)fill.style.width=`${value/Number(meter.getAttribute('aria-valuemax'))*100}%`;
  }
+}
+
+// Read authoritative before/after HP; never change it or invent blocked damage.
+export function combatDamageFeedback(before,after,last){
+ const enemyLoss=Math.max(0,before.enemy-after.enemy),lifeLoss=Math.max(0,before.lives-after.lives);
+ if(enemyLoss)return {who:'enemy',kind:'hit',amount:enemyLoss,text:'-'+enemyLoss};
+ if(lifeLoss)return {who:'judah',kind:'hurt',amount:lifeLoss,text:'-'+lifeLoss+' LIFE'};
+ if(last.shielded)return {who:'judah',kind:'blocked',amount:0,text:'BLOCKED'};
+ return null;
 }
 
 // Owns only presentation callbacks. The quiz engine remains the sole authority
