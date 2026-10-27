@@ -1,3 +1,5 @@
+import {flawlessState,breakFlawless,completeFlawlessLevel,validFlawless} from './flawless.js';
+import {newBattleDialogue,queueBattleDialogue,validBattleDialogue} from './battle-dialogue.js';
 import {selectKnowledgeQuestions} from './question-selection.js';
 export const VERSION=3;
 export const MAX_LIVES=5;
@@ -27,10 +29,10 @@ export function shuffled(items,random=Math.random){const a=[...items];for(let i=
 export const selectQuestions=selectKnowledgeQuestions;
 export function createRun(bank,nickname='PLAYER 1',random=Math.random){
  const run={version:VERSION,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:MAX_LIVES,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};
- run.rankHighWater=0;return beginLevel(run,bank,random);
+ run.rankHighWater=0;flawlessState(run);return beginLevel(run,bank,random);
 }
-function resetLevel(run,bank,random,avoid=[]){const c=levelConfig(run.level);run.queue=selectQuestions(bank,run,random,avoid);run.index=0;run.answers=[];run.status='playing';run.remaining=c.seconds;run.eliminated=[];run.shielded=false;run.lastPromotion=null;return run}
-export function beginLevel(run,bank,random=Math.random){run.levelRewards={level:run.level,highWater:0,attempt:0,startPowers:{...run.powers}};return resetLevel(run,bank,random)}
+function resetLevel(run,bank,random,avoid=[]){const c=levelConfig(run.level);run.queue=selectQuestions(bank,run,random,avoid);run.index=0;run.answers=[];run.status='playing';run.remaining=c.seconds;run.eliminated=[];run.shielded=false;run.lastPromotion=null;run.battleDialogue=newBattleDialogue(run.level);return run}
+export function beginLevel(run,bank,random=Math.random){if(run.levelRewards?.level===run.level&&run.status!=='levelup')breakFlawless(run);run.levelRewards={level:run.level,highWater:0,attempt:0,startPowers:{...run.powers}};return resetLevel(run,bank,random)}
 function levelRewards(run){
  // Version-3 saves from before retries have no ledger. Preserve their awarded
  // points and current inventory; earlier power usage cannot be reconstructed.
@@ -40,23 +42,23 @@ function levelRewards(run){
 export const canRetryLevel=run=>!!run&&run.status==='gameover'&&run.lives===0&&run.completed<run.level;
 export function retryLevel(run,bank,random=Math.random){
  if(!canRetryLevel(run))return false;
- const rewards=levelRewards(run),avoid=run.queue.map(q=>q.id);
+ const rewards=levelRewards(run),avoid=run.queue.map(q=>q.id);breakFlawless(run);
  run.lives=MAX_LIVES;run.streak=0;run.powers={...rewards.startPowers};rewards.attempt=0;delete run.endedAt;
  resetLevel(run,bank,random,avoid);return true;
 }
 export function submit(run,bank,choice){
  if(run.status!=='playing')return false;
  const q=bank.find(q=>q.id===run.queue[run.index].id);if(!q||![-1,0,1,2,3].includes(choice))return false;
- const correct=choice===q.answer,c=levelConfig(run.level),rewards=levelRewards(run);let earned=0;
+ const beforeLives=run.lives,correct=choice===q.answer,c=levelConfig(run.level),rewards=levelRewards(run);let earned=0;
  if(correct){run.streak++;run.correct++;run.bestStreak=Math.max(run.bestStreak,run.streak);rewards.attempt+=100*Math.min(5,1+Math.floor(run.streak/3))*(c.boss?2:1);earned=Math.max(0,rewards.attempt-rewards.highWater);rewards.highWater=Math.max(rewards.highWater,rewards.attempt);run.score+=earned}
- else{run.streak=0;if(!run.shielded)run.lives--}
+ else{run.streak=0;breakFlawless(run);if(!run.shielded)run.lives--}
  run.asked++;const prev=run.history[q.id]||{count:0};run.history[q.id]={count:prev.count+1,last:run.asked,misses:(prev.misses||0)+(correct?0:1),lastCorrect:correct};
- run.answers.push({id:q.id,choice,correct,earned,shielded:run.shielded&&!correct});run.status='feedback';return true;
+ run.answers.push({id:q.id,choice,correct,earned,shielded:run.shielded&&!correct});run.status='feedback';queueBattleDialogue(run,beforeLives);return true;
 }
 export function advance(run,bank,random=Math.random){
  if(run.status!=='feedback')return false;
- if(run.lives<=0){run.status='gameover';run.endedAt=new Date().toISOString();return true}
- if(run.index===9){const previous=rankLabel(rankFor(masteryCompleted(run)));run.completed=run.level;run.rankHighWater=masteryCompleted(run);
+ if(run.lives<=0){breakFlawless(run);run.status='gameover';run.endedAt=new Date().toISOString();return true}
+ if(run.index===9){completeFlawlessLevel(run);const previous=rankLabel(rankFor(masteryCompleted(run)));run.completed=run.level;run.rankHighWater=masteryCompleted(run);
   if(run.answers.every(a=>a.correct)){run.score+=levelConfig(run.level).bonus;run.perfects++}
   if(levelConfig(run.level).boss)run.bosses++;
   run.lastPromotion=previous!==rankLabel(rankFor(masteryCompleted(run)))?rankLabel(rankFor(masteryCompleted(run))):null;
@@ -73,6 +75,7 @@ export function usePower(run,bank,power){
  levelRewards(run);run.powers[power]--;return true;
 }
 export function validRun(run,bank){
+ if(!validFlawless(run?.flawless)||!validBattleDialogue(run?.battleDialogue))return false;
  if(run?.rankHighWater!==undefined&&(!Number.isSafeInteger(run.rankHighWater)||run.rankHighWater<0))return false;
  if(!run||!Number.isInteger(run.streak)||run.streak<0||!Number.isInteger(run.bestStreak)||run.bestStreak<0||!Number.isInteger(run.asked)||run.asked<0||!Number.isInteger(run.correct)||run.correct<0||!Number.isInteger(run.perfects)||run.perfects<0||!Number.isInteger(run.bosses)||run.bosses<0)return false;
  if(!run.history||typeof run.history!=='object'||!Object.values(run.history).every(h=>Number.isInteger(h.count)&&h.count>=0&&Number.isInteger(h.last)&&h.last>=0&&(h.misses===undefined||Number.isInteger(h.misses)&&h.misses>=0&&h.misses<=h.count)&&(h.lastCorrect===undefined||typeof h.lastCorrect==='boolean')))return false;

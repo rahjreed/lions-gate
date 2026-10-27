@@ -1,5 +1,6 @@
 // Original oscillator patches. SFX and music have independent buses and mute states.
 export const patches={
+ powerRestored:[[523,.06,'square',0,.025],[659,.06,'square',.06,.025],[784,.1,'triangle',.12,.05],[1047,.14,'triangle',.2,.04]],
  swordSwing:[[1300,.075,'sawtooth',0,.025,170],[760,.095,'triangle',.02,.028,90]],
  swordStrike:[[920,.045,'square',0,.045,180],[110,.13,'triangle',.008,.08,55],[540,.06,'sawtooth',.018,.018,90]],
  heavyImpact:[[80,.17,'triangle',0,.085,40],[120,.06,'square',0,.03,45],[440,.035,'sawtooth',.01,.012,90]],

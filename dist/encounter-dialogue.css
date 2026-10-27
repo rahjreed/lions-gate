@@ -36,3 +36,16 @@
  .speech-bubble{font-size:12px;padding:7px 9px}
  .dialogue-controls{margin-top:9px}
 }
+/* Phase 3: compact achievement status; no changes to the quiz/combat geometry. */
+.rank-strip .flawless-streak{color:#edd5a1;margin-left:auto;font:8px/1.4 var(--mono);white-space:nowrap;letter-spacing:0}
+.flawless-reward{position:relative;margin:5px auto 9px;padding:7px 12px;border:1px solid #ad925e;background:#373325;color:#ffe6a1;font:9px/1.5 var(--pixel);max-width:100%}
+.flawless-reward small{display:block;margin-top:4px;font:10px/1.3 var(--mono);color:#dfd1b2}
+.flawless-reward.restored{animation:restoration-shine .65s steps(4,end) both}
+@keyframes restoration-shine{0%,45%{box-shadow:inset 0 0 0 2px #ffeb9b,0 0 14px #ecd37a77;filter:brightness(1.3)}100%{box-shadow:inset 0 0 0 1px #f4dc8e33;filter:brightness(1)}}
+@media(max-width:760px),(max-width:1100px) and (max-height:500px){
+ .rank-strip .flawless-streak{display:inline!important;font-size:7px}
+ .flawless-reward{padding:4px 7px;margin:0 auto 3px;font-size:8px}
+ .flawless-reward small{font-size:9px;margin-top:2px}
+}
+@media(prefers-reduced-motion:reduce){.flawless-reward.restored{animation:none}}
+@media(max-width:760px) and (max-height:620px){body.celebrating .result-screen:has(.flawless-reward){row-gap:3px}.flawless-reward{margin-bottom:0}}
