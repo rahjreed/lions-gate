@@ -27,6 +27,7 @@ for(const outcome of ['correct','wrong','timeout','shield','boss','finisher']){
  assert.equal(sounds.filter(([,name])=>name==='heavyImpact').length,outcome==='boss'?1:0);
  assert.equal(sounds.filter(([,name])=>name==='finisher').length,outcome==='finisher'?1:0);
  assert.equal(sounds.filter(([,name])=>name==='groundImpact').length,outcome==='finisher'?1:0);
+ assert.equal(sounds.filter(([,name])=>name==='enemyDefeat').length,outcome==='finisher'?1:0);
  assert.equal(sounds.filter(([,name])=>name==='lifeLost').length,['wrong','timeout'].includes(outcome)?1:0);
  assert.equal(run.asked,before.asked+1);assert.equal(run.index,before.index);assert.equal(run.powers.shield,before.powers.shield);assert.equal(run.status,'feedback');
  const html=combatHealthMarkup(run);assert.ok(html.includes('aria-valuemax="5"'));assert.ok(html.includes(`${run.lives} / 5 LIVES`));

@@ -1,5 +1,7 @@
 // Original oscillator patches. SFX and music have independent buses and mute states.
 export const patches={
+ // A short original falling, harmonic digital grunt; no sampled speech/assets.
+ enemyDefeat:[[180,.22,'sawtooth',0,.028,75],[540,.19,'triangle',.008,.024,225],[900,.14,'triangle',.014,.014,375],[110,.12,'square',.17,.016,45]],
  powerRestored:[[523,.06,'square',0,.025],[659,.06,'square',.06,.025],[784,.1,'triangle',.12,.05],[1047,.14,'triangle',.2,.04]],
  swordSwing:[[1300,.075,'sawtooth',0,.025,170],[760,.095,'triangle',.02,.028,90]],
  swordStrike:[[920,.045,'square',0,.045,180],[110,.13,'triangle',.008,.08,55],[540,.06,'sawtooth',.018,.018,90]],

@@ -39,13 +39,14 @@ for(const outcome of ['correct','wrong','timeout','shield']){
  assert.match(combatHealthMarkup(run),/aria-label="JUDAH health"/);
  assert.ok(combatHealthMarkup(run).includes(`aria-label="${opponentFor(run.level).name} health"`));
 }
-// An imperfect clear retains enemy health; next level resets only the enemy.
+// An imperfect ten-question battle must continue until the tenth successful hit.
 const imperfect=createRun(questions);
 for(let i=0;i<10;i++){
  const q=questions.find(q=>q.id===imperfect.queue[imperfect.index].id);
  submit(imperfect,questions,i===0?-1:q.answer);advance(imperfect,questions);
 }
-assert.equal(imperfect.status,'levelup');assert.deepEqual(combatHealth(imperfect),{hits:9,enemy:10,lives:4});
+assert.equal(imperfect.status,'playing');assert.deepEqual(combatHealth(imperfect),{hits:9,enemy:10,lives:4});
+const extra=questions.find(q=>q.id===imperfect.queue[imperfect.index].id);submit(imperfect,questions,extra.answer);advance(imperfect,questions);assert.equal(imperfect.status,'levelup');assert.equal(imperfect.answers.length,11);assert.equal(combatHealth(imperfect).enemy,0);
 nextLevel(imperfect,questions);assert.deepEqual(combatHealth(imperfect),{hits:0,enemy:100,lives:4});
 const lost=createRun(questions);
 for(let i=0;i<5;i++){submit(lost,questions,-1);advance(lost,questions)}
@@ -67,7 +68,7 @@ jobs.at(-1).fn();assert.equal(finished,1);assert.equal(director.active,false);as
 director.start(callbacks);director.cancel();const counts=[impacts,finished];jobs.forEach(j=>j.fn());assert.deepEqual([impacts,finished],counts,'Canceled fall cannot open a stale reveal');
 director.start({...callbacks,reducedMotion:true});assert.equal(phases.at(-1).phase,'defeated');assert.deepEqual([impacts,finished],counts.map(n=>n+1));
 assert.equal(perfect.status,'feedback','Presentation does not advance a level');
-console.log('PASS health/defeat: derived HP, impact snapshot, correct/wrong/timeout/shield, duplicates, imperfect clear, carry-over lives, reset enemy, zero lives, gated fall completion, cancel and reduced motion.');
+console.log('PASS health/defeat: derived HP, impact snapshot, correct/wrong/timeout/shield, duplicates, extended battle, carry-over lives, reset enemy, zero lives, gated fall completion, cancel and reduced motion.');
 // Pausing at any combat boundary retains pending time and exactly-once effects.
 for(const correct of [true,false])for(const enemyDefeated of [true,false])for(const pauseAt of [0,139,140,239,240,339,539,540,700,919]){
  let now=0,id=0,impact=0,finish=0;const jobs=new Map(),frames=[];

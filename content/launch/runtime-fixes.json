@@ -1,5 +1,5 @@
 {
-  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash. Phase 1 combat feedback is explicitly owner-authorized; historical Scripture and asset snapshots remain enforced. Phase 2 finishing presentation is owner-authorized; question content, saves and outcomes are unchanged.",
+  "scope": "Explicit owner-authorized citation, Armory and mastery revisions. Historical source question and asset snapshots remain enforced; each permitted runtime file has an exact reviewed hash. Phase 1 combat feedback is explicitly owner-authorized; historical Scripture and asset snapshots remain enforced. Phase 2 finishing presentation is owner-authorized; question content, saves and outcomes are unchanged. Owner-authorized replacement of survival-of-ten-questions with true enemy defeat and related finishing presentation; historical content/asset hashes remain enforced.",
   "fixes": [
     {
       "file": "dist/answer-reveal.js",
@@ -10,8 +10,8 @@
     {
       "file": "dist/app.js",
       "before": "de22941882a7bd4e498998efdcd219d385ee384a00eae3dba12ec6e623f444fb",
-      "after": "cc5a7ee71de505096f86fecb54f943a9ea53f9287d709af06f38dbad5c0f9ff3",
-      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Five-life HUD/guide/retry labels and exact-impact audio/number hooks; question/scoring logic unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized original title composition restoration, colon-free Kingdom Race The Lion’s Gate title and distant mountain-occluded castle; gameplay/saves unchanged. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged."
+      "after": "00ee59109c1e7ec7d71792c8282155dc336b3ab73e347bd52c898722e009700c",
+      "reason": "Owner-authorized current rank/HUD/guide/Armory/Hall displays, legacy honors and permanent wardrobe access; no question or outcome changes. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Five-life HUD/guide/retry labels and exact-impact audio/number hooks; question/scoring logic unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized original title composition restoration, colon-free Kingdom Race The Lion’s Gate title and distant mountain-occluded castle; gameplay/saves unchanged. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/armor.css",
@@ -28,32 +28,32 @@
     {
       "file": "dist/audio.js",
       "before": "0214151e2c76ea1980c46f554a16f6b642eb807dd92f8caa61a1ca8b32e83f8a",
-      "after": "5972d88fef3aea3e1c178453307208511c0bbbaa6f7af2362a66cab60419285a",
-      "reason": " Phase 1 combat feedback: owner-authorized. Original short swing, hit, hurt, block and heavy-impact oscillator patches; buses/mute/unlock unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged."
+      "after": "414ad281f95a84931de56e811a3bee6c2e9ab44499ab78cb7e9032cea22ba6c1",
+      "reason": " Phase 1 combat feedback: owner-authorized. Original short swing, hit, hurt, block and heavy-impact oscillator patches; buses/mute/unlock unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/combat.css",
       "before": "611860556e418175ddbe18e9018d4b58f8bc59ead541d23d42dba84ebfbce81b",
-      "after": "b64b5b68f6f561af396d4e0151f772fb21666609cafd5f30d1663eab2e6d987b",
-      "reason": " Phase 1 combat feedback: owner-authorized. Five health segments for Judah; no sprite or timeline changes. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
+      "after": "7389acf09fadc8510a057362f30c9df1bf1c4087c73cf3ce64926411e008fe42",
+      "reason": " Phase 1 combat feedback: owner-authorized. Five health segments for Judah; no sprite or timeline changes. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/combat.js",
       "before": "e2fb8aab1236db8c76a1011e19cc8d5abd34eb8d430c1ccbd21bd248ab43a67a",
-      "after": "93dd10ecc31b31b51f68ebf2b71df0b2a0f35e49229e40c113ff262eceacdded",
-      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes. Phase 1 combat feedback: owner-authorized. Five-life health display and pure before/after damage labels; existing animation timeline unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved."
+      "after": "e24dcf26472ad13763fd25d3926c2d2e7347bad60ada8cd4368ff022659f5f3e",
+      "reason": "Pass retained wardrobe choice through existing pose renderer; no timing, phase, movement, impact or soldier changes. Phase 1 combat feedback: owner-authorized. Five-life health display and pure before/after damage labels; existing animation timeline unchanged. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/engine.js",
       "before": "7381e3a5c664e96e4f9dd497b051c61bb1104c2ea59ef03de62c5335c23b57a4",
-      "after": "b87bccbccd5a336063e9d3d9e10534d94456fe06992af6b49a6b2988c232f1f5",
-      "reason": "Owner-authorized 35/110/185/260 ranks and 75-level Master degrees, completed-level high-water promotion deduplication and rank badges; scoring/lives/questions unchanged. Phase 1 combat feedback: owner-authorized. Shared five-life start/retry cap and save bound; remaining lives carry between levels as before. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged."
+      "after": "a8ad02ec7fa5261095caaaa6d5ba2d1883a6943976a38e193538ff8e71552c27",
+      "reason": "Owner-authorized 35/110/185/260 ranks and 75-level Master degrees, completed-level high-water promotion deduplication and rank badges; scoring/lives/questions unchanged. Phase 1 combat feedback: owner-authorized. Shared five-life start/retry cap and save bound; remaining lives carry between levels as before. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/index.html",
       "before": "be74f16be9dec754fac0ef4f38daf893cfdcb0f14a9feb78b5354eeada154458",
-      "after": "b6dc2fe7ceb61747b247d2f1841a0f260ef1f2289474ea33858eebe6ad82e549",
-      "reason": " Phase 1 combat feedback: owner-authorized. Correct five-life description; viewport/PWA configuration unchanged."
+      "after": "82172157e6e2444f2febd2611deda0fee68a70061af580b312a88f0c6797196c",
+      "reason": " Phase 1 combat feedback: owner-authorized. Correct five-life description; viewport/PWA configuration unchanged. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     },
     {
       "file": "dist/juice.css",
@@ -82,8 +82,8 @@
     {
       "file": "dist/storage.js",
       "before": "578ffd19efbca2b40947f4354b338e1d9c1a23ada2bcd81cd1601412073817e4",
-      "after": "0508075c47637a8041e19035c6019da18b839e1c96f00e746d3a783942909da4",
-      "reason": "Same version-3 key; idempotent legacy honor/wardrobe migration and promotion high-water checkpoint; retain scores, completed levels and badges. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged."
+      "after": "f68db2d07c04abdf0bccd6b440f75c460b1a285a82df115c74078ac06177e756",
+      "reason": "Same version-3 key; idempotent legacy honor/wardrobe migration and promotion high-water checkpoint; retain scores, completed levels and badges. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged. Owner-authorized true defeat-based combat and optional presentation-checkpoint recovery; authoritative saved progress and Scripture records unchanged."
     },
     {
       "file": "dist/style.css",
@@ -94,8 +94,8 @@
     {
       "file": "dist/sw.js",
       "before": "2283beec43e6c2c87353b06f4d229108c253314d16c4f81a6ad87152b622cf09",
-      "after": "75bd7736da3473245e644c2c485a8522f4cb7d03f0ba1beb1c9787e574cf98f6",
-      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Generated atomic offline-shell revision for Phase 1 combat feedback. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized original title composition restoration, colon-free Kingdom Race The Lion’s Gate title and distant mountain-occluded castle; gameplay/saves unchanged. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged."
+      "after": "ad185099c943cc95ef263eb9d7e49fc1e926d3071e2191e67b85418b7bc4bef8",
+      "reason": "Generated offline shell revision for the explicitly authorized mastery update. Owner-authorized title-screen branding and castle presentation update; gameplay and question content unchanged. Owner-authorized optional pre-battle dialogue, saved presentation checkpoint/setting and offline assets; no Scripture, gameplay outcome or progression changes. Owner-authorized title-screen readability polish, compact tagline, composition and removal of title-only legacy explanation; saves/progression unchanged. Phase 1 combat feedback: owner-authorized. Generated atomic offline-shell revision for Phase 1 combat feedback. Phase 2: owner-authorized 1600ms enemy/Judah finishing presentation, two enemy variations, original finishing/ground audio, reduced-motion and pause support; existing power functions and single-impact damage preserved. Owner-authorized original title composition restoration, colon-free Kingdom Race The Lion’s Gate title and distant mountain-occluded castle; gameplay/saves unchanged. Owner-authorized Phase 3: two-flawless-level stock restoration ledger, once-per-encounter battle dialogue checkpoints and backwards-compatible optional saves; Scripture content and existing scoring/progression unchanged. Owner-authorized true defeat-based combat: ten successful hits, extended approved question flow, safe saved presentation recovery, stable downed poses and original defeat audio; Scripture records/evidence unchanged."
     }
   ]
 }

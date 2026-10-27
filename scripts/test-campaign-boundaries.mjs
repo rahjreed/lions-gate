@@ -20,6 +20,7 @@ for(const level of [449,450,451,525,526,699,700,701]){
   assert.equal(run.completed,level-1,'Feedback alone is not successful completion');
   assert.equal(run.status,'feedback');assert.equal(advance(run,questions),true);
  }
+ if(level===700){assert.equal(run.status,'playing','Nine hits at Q10 cannot clear Level 700');assert.equal(run.completed,699);const q=questions.find(q=>q.id===run.queue[run.index].id);submit(run,questions,q.answer);advance(run,questions);assert.equal(run.answers.length,11);}
  assert.equal(run.completed,level);assert.equal(run.status,'levelup');
  if(level===700){assert.equal(run.lives,4);assert.equal(run.perfects,0,'Successful Level 700 completion does not require a perfect level');}
  captureProgress(profile,run);saveProfile(saved,profile);assert.deepEqual(loadProfile(saved,questions).run,run);

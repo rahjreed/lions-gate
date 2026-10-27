@@ -64,22 +64,22 @@
 @keyframes roman-finish-rise{
  0%,15%{transform:translate(0,0) rotate(0)}
  21%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * -2)) rotate(8deg)}
- 33.75%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -9)) rotate(20deg)}
- 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -18)) rotate(46deg)}
- 62%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -21)) rotate(66deg)}
- 75.625%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * -12)) rotate(112deg)}
- 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -16)) rotate(108deg)}
- 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(112deg)}
+ 33.75%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -9)) rotate(26deg)}
+ 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -18)) rotate(54deg)}
+ 62%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -20)) rotate(68deg)}
+ 75.625%{transform:translate(calc(var(--fighter-unit) * 4),calc(var(--fighter-unit) * -11)) rotate(114deg);scale:1.015 .97}
+ 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -14)) rotate(109deg);scale:1 1}
+ 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(112deg);scale:1 1}
 }
 @keyframes roman-finish-sweep{
  0%,15%{transform:translate(0,0) rotate(0)}
  21%{transform:translate(calc(var(--fighter-unit) * 4),0) rotate(9deg)}
- 33.75%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -3)) rotate(30deg)}
- 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -9)) rotate(58deg)}
+ 33.75%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -3)) rotate(35deg)}
+ 48%{transform:translate(calc(var(--fighter-unit) * 3),calc(var(--fighter-unit) * -9)) rotate(61deg)}
  64%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -15)) rotate(72deg)}
- 75.625%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(114deg)}
- 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -16)) rotate(110deg)}
- 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(114deg)}
+ 75.625%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -11)) rotate(116deg);scale:1.015 .97}
+ 83.125%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -14)) rotate(111deg);scale:1 1}
+ 91.875%,100%{transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(114deg);scale:1 1}
 }
 @keyframes judah-final-fall{
  0%,15%{transform:translate(0,0) rotate(0)}
@@ -99,3 +99,35 @@
  .game-scene[data-finisher=judah] .judah .judah-sprite{animation:none!important;background-position-x:54.716981%}
 }
 @media(prefers-reduced-motion:reduce){.game-scene .scene-status>.judah,.game-scene .roman-soldier{animation:none!important}}
+
+/* Final strike: planted anticipation, deeper lunge, contact hold and measured recovery.
+   The impact still occurs at 240ms; only the presentation clock is extended. */
+.game-scene[data-finisher=enemy] .scene-status>.judah{animation:judah-finishing-lunge 1.6s linear both}
+@keyframes judah-finishing-lunge{
+ 0%{translate:0 0}5%{translate:calc(var(--fighter-unit) * -4) 0}
+ 8.75%{translate:calc(var(--fighter-unit) * 45) calc(var(--fighter-unit) * -3)}
+ 15%{translate:calc(var(--fighter-unit) * 62) 0}
+ 21.25%{translate:calc(var(--fighter-unit) * 64) 0}
+ 33.75%{translate:calc(var(--fighter-unit) * 59) 0}
+ 45%{translate:calc(var(--fighter-unit) * 35) calc(var(--fighter-unit) * -2)}
+ 57.5%,100%{translate:0 0}
+}
+.game-scene[data-finisher=enemy][data-combat=impact] .roman-sprite{filter:brightness(2.2) contrast(1.15)}
+.game-scene[data-finisher=enemy] .hero-slash{scale:1.18;transform-origin:center}
+/* A terminal pose is stable after redraw/reload, not a disappearing guard sprite. */
+.game-scene[data-combat=defeated] .roman-soldier,.roman-soldier.is-defeated{
+ animation:none!important;translate:none;opacity:1;transform-origin:55% 60%;
+ transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(112deg)
+}
+.roman-soldier.is-defeated .roman-sprite{background-position:50% 100%;animation:none!important}
+.game-scene[data-combat=hero-defeated] .scene-status>.judah{
+ animation:none!important;translate:none;transform-origin:50% 60%;
+ transform:translate(calc(var(--fighter-unit) * -8),calc(var(--fighter-unit) * 10)) rotate(-105deg)
+}
+@media(prefers-reduced-motion:reduce){
+ .game-scene[data-finisher=enemy] .scene-status>.judah{animation:none!important;translate:none}
+ .game-scene[data-finisher=enemy] .roman-soldier.is-defeated{
+  opacity:1;transform:translate(calc(var(--fighter-unit) * 1),calc(var(--fighter-unit) * -12)) rotate(112deg)
+ }
+ .game-scene[data-combat=hero-defeated] .scene-status>.judah{transform:translate(calc(var(--fighter-unit) * -8),calc(var(--fighter-unit) * 10)) rotate(-105deg)}
+}

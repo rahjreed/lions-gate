@@ -28,7 +28,7 @@ export function combatHealth(run,pending=null){
 export function combatHealthMarkup(run,pending=null){
  const h=combatHealth(run,pending);
  const meter=(who,label,value,max,text)=>`<div class="health-block health-${who}"><div class="health-label"><b>${label}</b><span class="health-value">${text}</span></div><div class="health-track" data-health="${who}" role="progressbar" aria-label="${label} health" aria-valuemin="0" aria-valuemax="${max}" aria-valuenow="${value}" aria-valuetext="${text}"><i class="health-lag" style="width:${value/max*100}%"></i><i class="health-fill" style="width:${value/max*100}%"></i></div></div>`;
- return `<div class="combat-health" aria-label="Combat health">${meter('judah','JUDAH',h.lives,MAX_LIVES,`${h.lives} / ${MAX_LIVES} LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>LEVEL ENDS AFTER 10 QUESTIONS · CORRECT ANSWERS DEAL 10%</small></div>`;
+ return `<div class="combat-health" aria-label="Combat health">${meter('judah','JUDAH',h.lives,MAX_LIVES,`${h.lives} / ${MAX_LIVES} LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>10 SUCCESSFUL HITS TO WIN · CORRECT ANSWERS DEAL 10%</small></div>`;
 }
 export function updateCombatHealth(root,run){
  if(!root)return;
@@ -101,7 +101,7 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  const hero=scene.querySelector('.scene-status>.judah');
  // Keep the figure itself alive: replacing it would restart its travel animation.
  let pose=hero.dataset.pose;
- if(frame.phase==='windup'&&frame.correct)pose='run';
+ if(frame.phase==='windup'&&frame.correct)pose=frame.finisher==='enemy'?'stance':'run';
  if(frame.phase==='strike'&&frame.correct)pose='slash';
  if(frame.phase==='impact'&&!frame.correct)pose='recoil';
  if(frame.correct&&(frame.phase==='recover'||frame.phase==='defeat'&&frame.at===defeatStart))pose='walk';

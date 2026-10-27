@@ -26,7 +26,7 @@ export function queueBattleDialogue(run,beforeLives){
  const d=run.battleDialogue?.level===run.level?run.battleDialogue:(run.battleDialogue=newBattleDialogue(run.level));
  const kinds=[];if(beforeLives>1&&run.lives===1)kinds.push('one-life');
  if(run.answers.at(-1)?.correct&&run.answers.filter(a=>a.correct).length===9)kinds.push('enemy-low');
- for(const kind of kinds)if(!d.seen.includes(kind)){d.seen.push(kind);if(run.index<9&&run.lives>0)d.queue.push(kind)}
+ for(const kind of kinds)if(!d.seen.includes(kind)){d.seen.push(kind);if(run.answers.filter(a=>a.correct).length<10&&run.lives>0)d.queue.push(kind)}
  d.queue.sort((a,b)=>(a==='one-life'?0:1)-(b==='one-life'?0:1));
 }
 export const pendingBattleDialogue=run=>run?.status==='playing'&&run.battleDialogue?.level===run.level&&!!(run.battleDialogue.active||run.battleDialogue.queue.length);

@@ -21,7 +21,7 @@ In the completed design, Judah wears all six pieces continuously through Levels 
 
 ## Final wilderness campaign — proposed gameplay, not implemented
 
-Keep ten four-choice Scripture questions per level and the existing fifth-level Gatekeeper cadence as the baseline. Revisit all earlier categories with greater contextual depth. Difficulty should rise gradually within and between these bands rather than suddenly resetting at a boundary.
+Require ten successful hits per battle, using four-choice Scripture questions until the enemy is defeated or Judah loses all lives and the existing fifth-level Gatekeeper cadence as the baseline. Revisit all earlier categories with greater contextual depth. Difficulty should rise gradually within and between these bands rather than suddenly resetting at a boundary.
 
 | Levels | Campaign purpose | Proposed Scripture and leadership challenge | Proposed combat presentation/challenge |
 | --- | --- | --- | --- |
@@ -39,13 +39,13 @@ The current runtime target reaches complexity 7 at Level 525 and then saturates.
 
 After successfully completing Level 700, Judah reaches the Lion's Gate associated with the tribe of Judah and enters the Kingdom, beginning the next major phase of the game. The gate-of-Judah motif draws on Ezekiel 48:31, which names a gate of Judah among the tribal gates. The Lion's Gate name, level numbers and campaign staging are game narrative design.
 
-The future transition must wait for final combat recovery, answer reveal and the successful-clear flow. Defeat, timeout resulting in game over, retry, entering the level, or merely answering its final question before the existing clear action must not trigger entry. Completion need not mean ten correct answers: retain the game's existing surviving-ten-questions rule unless a separate gameplay change is approved.
+The future transition must wait for final combat recovery, answer reveal and the successful-clear flow. Defeat, timeout resulting in game over, retry, entering the level, or merely answering its final question before the existing clear action must not trigger entry. The owner-authorized defeat-based rule now requires ten correct answers, each removing 10% enemy health. Wrong answers extend the encounter and cost a life unless shielded; five lives remain the maximum.
 
 Kingdom transformation, new character appearance, post-entry encounters, rewards, world systems and Level 701 behavior are **deferred**. No new entry reward, duplicate grant, save migration, level cap or one-time cinematic is implemented now. A future implementation must handle existing saves already beyond Level 700 without losing progress or replaying grants; its migration/acknowledgment design requires review first.
 
 ## Existing runtime audit
 
-- `dist/engine.js`: `advance()` records successful completion and returns `levelup`; `nextLevel()` increments without a 450/700 ending. Ten-question levels, fifth-level Gatekeepers, existing lives, scoring and Master degrees continue normally beyond both boundaries.
+- `dist/engine.js`: `advance()` records successful completion and returns `levelup`; `nextLevel()` increments without a 450/700 ending. Ten-successful-hit battles, fifth-level Gatekeepers, existing lives, scoring and Master degrees continue normally beyond both boundaries.
 - `dist/knowledge.js`: seven 75-level curriculum bands end at 525; `endless` means curriculum saturation after 525, not Kingdom entry or a narrative ending. There is no Level 450 entry trigger.
 - `dist/adventure.js`: a repeating journey selects an existing Lion's Gate approach for fifth-level encounters (and through the regular location cycle). The generic symbolic gate can open after ordinary level clears. Neither is a Kingdom-entry event. A future narrative transition must distinguish these reusable assets from the unique Level 700 milestone.
 - `dist/app.js`: ordinary results, promotion and next-level/journey controls; no special Kingdom screen or transformation.
