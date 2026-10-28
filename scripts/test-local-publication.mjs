@@ -12,7 +12,14 @@ const plan=await read('content/launch/release-plan.json'),prepared=await read('c
 assert.equal(questions.length,110);assert.equal(original.length,42);assert.equal(publishedQuestions.length,68);
 assert.equal(new Set(questions.map(q=>q.id)).size,110);assert.equal(validateQuestions(questions),true);
 assert.equal(digest(original),plan.liveDigest,'Original live records remain unchanged');assert.deepEqual(publishedQuestions,prepared,'Published additions exactly match the authorized exports');assert.equal(digest(prepared),plan.reviewedDigest);
-assert.equal(candidates.length,150);assert.ok(candidates.every(c=>digest(c.q)===plan.candidateSources[c.q.id]));
+// The historical release binds its original 150 source records. Later draft
+// imports neither extend that authorization nor invalidate its preserved hashes.
+const releaseSources=candidates.filter(c=>Object.hasOwn(plan.candidateSources,c.q.id));
+assert.equal(releaseSources.length,150);assert.ok(releaseSources.every(c=>digest(c.q)===plan.candidateSources[c.q.id]));
+for(const {q} of candidates.filter(c=>!Object.hasOwn(plan.candidateSources,c.q.id))){
+ assert.equal(q.review.status,'candidate','Later draft batches are not part of the authorized publication');
+ assert.ok(!questions.some(live=>live.id===q.id));assert.ok(!ledger.decisions[q.id]);
+}
 assert.deepEqual(ledger.decisions,plan.decisions,'Preserve source review attribution, timestamps, checks and rationales');assert.equal(ledger.events.length,68);
 for(const event of ledger.events){const {id,releaseStagedAt,releaseAuthorization,...review}=event;assert.deepEqual(review,plan.decisions[id]);assert.ok(Number.isFinite(Date.parse(releaseStagedAt)));assert.ok(releaseAuthorization);}
 for(const file of Object.keys(plan.evidenceSources))assert.equal(digest(await read(file)),plan.evidenceSources[file],'Original evidence artifacts stay unchanged');
