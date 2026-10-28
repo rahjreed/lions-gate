@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
+import './test-pause-taunts.mjs';
 const source=await readFile(new URL('../dist/app.js',import.meta.url),'utf8');
 const definitions=['stopClock','startClock','pause','resume'].map(name=>source.slice(source.indexOf(`function ${name}(`),source.indexOf('\nfunction ',source.indexOf(`function ${name}(`)+1))).join('\n');
 let now=10000,next=0;const intervals=new Map(),calls=[];
