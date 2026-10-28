@@ -1,3 +1,4 @@
+import {expectedCourseRevision} from './course-revision.mjs';
 import assert from 'node:assert/strict';
 import {readFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
@@ -55,7 +56,7 @@ assert.equal(questions.length,audit.liveCount+publishedQuestions.length);assert.
 const runtimeFixes=JSON.parse(await read('content/launch/runtime-fixes.json')).fixes;
 assert.deepEqual(runtimeFixes.map(f=>f.file).sort(),["dist/answer-reveal.js","dist/app.js","dist/armor.css","dist/armor.js","dist/audio.js","dist/combat.css","dist/combat.js","dist/engine.js","dist/index.html","dist/juice.css","dist/juice.js","dist/mascot.js","dist/mobile-game.css","dist/storage.js","dist/style.css","dist/sw.js"]);
 for(const fix of runtimeFixes){assert.equal(fix.before,audit.preservedFiles[fix.file]);assert.ok(fix.reason.trim());}
-for(const [file,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(file))continue;const documentedFix=runtimeFixes.find(f=>f.file===file);assert.equal(createHash('sha256').update(await readFile(new URL('../'+file,import.meta.url))).digest('hex'),documentedFix?.after||hash,`${file} must match its historical snapshot or explicit launch-fix snapshot`)}
+for(const [file,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(file))continue;const documentedFix=runtimeFixes.find(f=>f.file===file);assert.equal(createHash('sha256').update(await readFile(new URL('../'+file,import.meta.url))).digest('hex'),expectedCourseRevision(file,documentedFix?.after||hash),`${file} must match its historical snapshot or explicit launch-fix snapshot`)}
 const sourceHash=createHash('sha256').update(source).digest('hex');assert.equal(sourceHash,audit.sourceSha256);assert.ok(batch.every(q=>q.editorial.sourceSha256===sourceHash));
 assert.ok(!String(await read('dist/sw.js')).includes('kr-101-150'),'Candidates are outside offline gameplay assets');
 console.log(`PASS KR-101–150: exactly 50; only 21 documented distractor edits; correct choices/questions/references/explanations/difficulty protected; zero schema errors; ${quality.warnings.length} unresolved warnings; unchecked review; publication rejection; draft exclusion through level 10000; ${Object.keys(audit.preservedFiles).length} prior file snapshots enforced with explicit citation/Armory/mastery revisions.`);

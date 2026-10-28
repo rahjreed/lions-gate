@@ -9,10 +9,10 @@
     "Unknown 1–10 difficulty calibrations remain null."
   ],
   "summary": {
-    "liveReviewed": 110,
-    "publishedAdditions": 68,
-    "candidates": 132,
-    "inventoryRecords": 310,
+    "liveReviewed": 160,
+    "publishedAdditions": 118,
+    "candidates": 82,
+    "inventoryRecords": 360,
     "torahChapterSlots": 187,
     "manualCatalogEntries": 0,
     "chapterReviews": 0
@@ -21,7 +21,7 @@
     "dist/questions.js": "8da4f71b10fc64edf23921b21fc3832413a65686bcbe0c78ddab96565c0ac5bd",
     "dist/extra-questions.js": "c7a8249a1be5a45662e6e1e04555ad6c1ce534c1af73eddf2f109ab6ba45fb4c",
     "dist/focus-questions.js": "9f1cd9369da7ba798a6e7bda64794deb6b63c06de390b0cd3e2f4751376d948f",
-    "dist/published-questions.js": "b248f7bb627c3089edaf9822546ac42348d4f3340d98bb3dda03b0036a2d7e19",
+    "dist/published-questions.js": "47cfb7b67599aacaba03814485524e8f74845a8964e5a9dd91bd104492da06b9",
     "content/candidates/biblical-course-50.json": "4f7b363985a61412d9a905eb796ee775033b8d8e65c10374433b7ff51dedd15e",
     "content/candidates/initial-50.json": "8b2f788a50c5a53df327a7cd6b8f4e62eccab7be6914996dccb7321c0c2238eb",
     "content/candidates/kr-101-150.json": "df2de51fef2a275aea5883fc202b4183f74636140944a4be5197a2c923d8da84",
@@ -182,6 +182,7 @@
       "existingRelatedQuestions": [
         "bke-later-passover",
         "course-passover-children-memorial-meaning",
+        "course-passover-children-memorial-meaning",
         "bke-later-passover"
       ],
       "associationStatus": "keyword hints only; review all actual source passages"
@@ -300,6 +301,7 @@
         }
       ],
       "existingRelatedQuestions": [
+        "course-weeks-booths-memory-distinction",
         "course-weeks-booths-memory-distinction"
       ],
       "associationStatus": "keyword hints only; review all actual source passages"
@@ -563,12 +565,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-image-and-shared-dominion",
         "course-image-and-shared-dominion"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-image-and-shared-dominion"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -596,15 +599,16 @@
         "creation-rest",
         "kr-132",
         "course-creation-sanctified-rest-reason",
+        "course-creation-sanctified-rest-reason",
         "kr-111",
         "kr-132"
       ],
       "liveReviewedQuestionIds": [
         "creation-rest",
-        "kr-132"
+        "kr-132",
+        "course-creation-sanctified-rest-reason"
       ],
       "candidateQuestionIds": [
-        "course-creation-sanctified-rest-reason",
         "kr-111"
       ],
       "uncoveredLearningObjectives": [
@@ -629,13 +633,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-eden-expulsion-tree-access",
-        "course-adam-christ-obedience-contrast"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+        "course-adam-christ-obedience-contrast",
         "course-eden-expulsion-tree-access",
         "course-adam-christ-obedience-contrast"
       ],
+      "liveReviewedQuestionIds": [
+        "course-eden-expulsion-tree-access",
+        "course-adam-christ-obedience-contrast"
+      ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -658,12 +664,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-cain-accepted-doing-well",
         "course-cain-accepted-doing-well"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-cain-accepted-doing-well"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -704,12 +711,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-flood-corruption-violence-cause",
         "course-flood-corruption-violence-cause"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-flood-corruption-violence-cause"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -750,12 +758,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-noah-promise-and-blood-duty",
         "course-noah-promise-and-blood-duty"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-noah-promise-and-blood-duty"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -778,13 +787,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-noah-promise-and-blood-duty",
-        "course-human-life-image-ground"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+        "course-human-life-image-ground",
         "course-noah-promise-and-blood-duty",
         "course-human-life-image-ground"
       ],
+      "liveReviewedQuestionIds": [
+        "course-noah-promise-and-blood-duty",
+        "course-human-life-image-ground"
+      ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -807,12 +818,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-nations-origin-seeking-accountability",
         "course-nations-origin-seeking-accountability"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-nations-origin-seeking-accountability"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -837,13 +849,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-babel-plan-and-scattering",
-        "course-nations-origin-seeking-accountability"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+        "course-nations-origin-seeking-accountability",
         "course-babel-plan-and-scattering",
         "course-nations-origin-seeking-accountability"
       ],
+      "liveReviewedQuestionIds": [
+        "course-babel-plan-and-scattering",
+        "course-nations-origin-seeking-accountability"
+      ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -864,12 +878,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-patriarch-promise-continuity",
         "course-patriarch-promise-continuity"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-patriarch-promise-continuity"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -942,14 +957,14 @@
       "existingRelatedQuestions": [
         "bke-abraham-counted",
         "course-amorite-iniquity-return-timing",
+        "course-amorite-iniquity-return-timing",
         "bke-abraham-counted"
       ],
       "liveReviewedQuestionIds": [
-        "bke-abraham-counted"
-      ],
-      "candidateQuestionIds": [
+        "bke-abraham-counted",
         "course-amorite-iniquity-return-timing"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -990,12 +1005,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-abraham-sign-household-scope",
         "course-abraham-sign-household-scope"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-abraham-sign-household-scope"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1017,12 +1033,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-abraham-household-justice-purpose",
         "course-abraham-household-justice-purpose"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-abraham-household-justice-purpose"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1104,12 +1121,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-peter-prophet-blessing-turning",
         "course-peter-prophet-blessing-turning"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-peter-prophet-blessing-turning"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1132,12 +1150,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-patriarch-inheritance-promise-possession",
         "course-patriarch-inheritance-promise-possession"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-patriarch-inheritance-promise-possession"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1198,12 +1217,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-patriarch-promise-continuity",
         "course-patriarch-promise-continuity"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-patriarch-promise-continuity"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1244,12 +1264,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-patriarch-promise-continuity",
         "course-patriarch-promise-continuity"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-patriarch-promise-continuity"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1430,12 +1451,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-judah-sale-and-benjamin-substitution",
         "course-judah-sale-and-benjamin-substitution"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-judah-sale-and-benjamin-substitution"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1519,14 +1541,14 @@
       "existingRelatedQuestions": [
         "bke-joseph-age",
         "course-joseph-surplus-famine-policy",
+        "course-joseph-surplus-famine-policy",
         "bke-joseph-age"
       ],
       "liveReviewedQuestionIds": [
-        "bke-joseph-age"
-      ],
-      "candidateQuestionIds": [
+        "bke-joseph-age",
         "course-joseph-surplus-famine-policy"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1587,12 +1609,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-judah-sale-and-benjamin-substitution",
         "course-judah-sale-and-benjamin-substitution"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-judah-sale-and-benjamin-substitution"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1673,12 +1696,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-ephraim-manasseh-inheritance-adoption",
         "course-ephraim-manasseh-inheritance-adoption"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-ephraim-manasseh-inheritance-adoption"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1721,13 +1745,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-egypt-oppression-not-promise-ended",
-        "course-joseph-providence-not-excusing-evil"
-      ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+        "course-joseph-providence-not-excusing-evil",
         "course-egypt-oppression-not-promise-ended",
         "course-joseph-providence-not-excusing-evil"
       ],
+      "liveReviewedQuestionIds": [
+        "course-egypt-oppression-not-promise-ended",
+        "course-joseph-providence-not-excusing-evil"
+      ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1748,12 +1774,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-egypt-oppression-not-promise-ended",
         "course-egypt-oppression-not-promise-ended"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-egypt-oppression-not-promise-ended"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1860,12 +1887,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-exodus-redemption-people-inheritance",
         "course-exodus-redemption-people-inheritance"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-exodus-redemption-people-inheritance"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -1988,12 +2016,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-passover-children-memorial-meaning",
         "course-passover-children-memorial-meaning"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-passover-children-memorial-meaning"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2075,12 +2104,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-manna-sabbath-preparation-pattern",
         "course-manna-sabbath-preparation-pattern"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-manna-sabbath-preparation-pattern"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2159,12 +2189,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-sinai-treasure-condition",
         "course-sinai-treasure-condition"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-sinai-treasure-condition"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2229,11 +2260,13 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-homicide-refuge-ransom-judicial-synthesis",
+        "course-homicide-refuge-ransom-judicial-synthesis",
         "torah-betrothed-servant-household-duties"
       ],
-      "liveReviewedQuestionIds": [],
+      "liveReviewedQuestionIds": [
+        "course-homicide-refuge-ransom-judicial-synthesis"
+      ],
       "candidateQuestionIds": [
-        "course-homicide-refuge-ransom-judicial-synthesis",
         "torah-betrothed-servant-household-duties"
       ],
       "uncoveredLearningObjectives": [
@@ -2331,12 +2364,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-sinai-words-assent-blood-comparison",
         "course-sinai-words-assent-blood-comparison"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-sinai-words-assent-blood-comparison"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2766,12 +2800,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-poor-offerer-means-and-flour",
         "course-poor-offerer-means-and-flour"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-poor-offerer-means-and-flour"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -2880,12 +2915,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-priest-teaching-distinction-continuity",
         "course-priest-teaching-distinction-continuity"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-priest-teaching-distinction-continuity"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3120,6 +3156,7 @@
         "bke-impartial-court",
         "kr-121",
         "course-nathan-royal-accountability-justice",
+        "course-nathan-royal-accountability-justice",
         "bke-neighbor-love",
         "bke-impartial-court",
         "kr-121",
@@ -3138,10 +3175,10 @@
       "liveReviewedQuestionIds": [
         "bke-neighbor-love",
         "bke-impartial-court",
-        "kr-121"
+        "kr-121",
+        "course-nathan-royal-accountability-justice"
       ],
       "candidateQuestionIds": [
-        "course-nathan-royal-accountability-justice",
         "kr-125",
         "kr-146",
         "torah-poor-case-equal-justice",
@@ -3175,12 +3212,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-holiness-dietary-separation-purpose",
         "course-holiness-dietary-separation-purpose"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-holiness-dietary-separation-purpose"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -3246,15 +3284,16 @@
         "unleavened-days",
         "bke-trumpets-date",
         "course-weeks-booths-memory-distinction",
+        "course-weeks-booths-memory-distinction",
         "bke-trumpets-date",
         "kr-114"
       ],
       "liveReviewedQuestionIds": [
         "unleavened-days",
-        "bke-trumpets-date"
+        "bke-trumpets-date",
+        "course-weeks-booths-memory-distinction"
       ],
       "candidateQuestionIds": [
-        "course-weeks-booths-memory-distinction",
         "kr-114"
       ],
       "uncoveredLearningObjectives": [
@@ -3337,12 +3376,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-exile-land-sabbaths-covenant-warning",
         "course-exile-land-sabbaths-covenant-warning"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-exile-land-sabbaths-covenant-warning"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4117,12 +4157,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-homicide-refuge-ransom-judicial-synthesis",
         "course-homicide-refuge-ransom-judicial-synthesis"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-homicide-refuge-ransom-judicial-synthesis"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4273,12 +4314,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-sinai-words-assent-blood-comparison",
         "course-sinai-words-assent-blood-comparison"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-sinai-words-assent-blood-comparison"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4358,12 +4400,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-wilderness-bread-quotation-purpose",
         "course-wilderness-bread-quotation-purpose"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-wilderness-bread-quotation-purpose"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4545,14 +4588,15 @@
       "existingRelatedQuestions": [
         "bke-annual-appearances",
         "course-weeks-booths-memory-distinction",
+        "course-weeks-booths-memory-distinction",
         "bke-annual-appearances",
         "torah-bribe-blinds-judgment"
       ],
       "liveReviewedQuestionIds": [
-        "bke-annual-appearances"
+        "bke-annual-appearances",
+        "course-weeks-booths-memory-distinction"
       ],
       "candidateQuestionIds": [
-        "course-weeks-booths-memory-distinction",
         "torah-bribe-blinds-judgment"
       ],
       "uncoveredLearningObjectives": [
@@ -4581,16 +4625,17 @@
       "existingRelatedQuestions": [
         "bke-king-law-copy",
         "course-solomon-royal-prohibitions-history",
+        "course-solomon-royal-prohibitions-history",
         "bke-king-law-copy",
         "torah-difficult-cases-appointed-court",
         "torah-idolatry-report-investigation",
         "torah-king-under-law-humility"
       ],
       "liveReviewedQuestionIds": [
-        "bke-king-law-copy"
+        "bke-king-law-copy",
+        "course-solomon-royal-prohibitions-history"
       ],
       "candidateQuestionIds": [
-        "course-solomon-royal-prohibitions-history",
         "torah-difficult-cases-appointed-court",
         "torah-idolatry-report-investigation",
         "torah-king-under-law-humility"
@@ -4616,12 +4661,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-peter-prophet-blessing-turning",
         "course-peter-prophet-blessing-turning"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-peter-prophet-blessing-turning"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -4645,13 +4691,15 @@
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
         "course-homicide-refuge-ransom-judicial-synthesis",
+        "course-homicide-refuge-ransom-judicial-synthesis",
         "torah-single-witness-insufficient",
         "torah-false-witness-due-process",
         "torah-idolatry-report-investigation"
       ],
-      "liveReviewedQuestionIds": [],
+      "liveReviewedQuestionIds": [
+        "course-homicide-refuge-ransom-judicial-synthesis"
+      ],
       "candidateQuestionIds": [
-        "course-homicide-refuge-ransom-judicial-synthesis",
         "torah-single-witness-insufficient",
         "torah-false-witness-due-process",
         "torah-idolatry-report-investigation"
@@ -4956,12 +5004,13 @@
       "learningObjectives": [],
       "difficultyProgression": "Plan accessible recall through contextual and conditional reasoning on editorial scale 1–10; calibrate manually.",
       "existingRelatedQuestions": [
+        "course-daniel-confession-return-covenant",
         "course-daniel-confession-return-covenant"
       ],
-      "liveReviewedQuestionIds": [],
-      "candidateQuestionIds": [
+      "liveReviewedQuestionIds": [
         "course-daniel-confession-return-covenant"
       ],
+      "candidateQuestionIds": [],
       "uncoveredLearningObjectives": [
         "Identify precise verse ranges and every distinct command/teaching before claiming coverage.",
         "Inventory recipients, purposes, conditions, exceptions and related passages.",
@@ -5537,6 +5586,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-creation-sanctified-rest-reason",
         "course-creation-sanctified-rest-reason",
         "kr-111"
       ],
@@ -7052,6 +7102,7 @@
       },
       "relatedQuestionIds": [
         "course-nathan-royal-accountability-justice",
+        "course-nathan-royal-accountability-justice",
         "torah-poor-case-equal-justice",
         "torah-james-neighbor-love-no-partiality"
       ],
@@ -7765,6 +7816,7 @@
       },
       "relatedQuestionIds": [
         "course-new-covenant-law-forgiveness-agency",
+        "course-new-covenant-law-forgiveness-agency",
         "kr-108"
       ],
       "uncoveredLearningObjectives": [
@@ -8109,6 +8161,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-kingdom-nations-holiness-peace-synthesis",
         "course-kingdom-nations-holiness-peace-synthesis"
       ],
       "uncoveredLearningObjectives": [
@@ -8222,6 +8275,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-tabernacles-nations-accountable-response",
         "course-tabernacles-nations-accountable-response"
       ],
       "uncoveredLearningObjectives": [
@@ -9313,11 +9367,2217 @@
       "manualCatalogEntryIds": []
     },
     {
+      "recordKey": "dist/published-questions.js#course-creation-sanctified-rest-reason",
+      "id": "course-creation-sanctified-rest-reason",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 2,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Sabbath and rest",
+      "curriculumCategories": [
+        "01",
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "Genesis 2:1–3 connects the day’s blessing and sanctification with God resting from his completed creative work. The reason is stated directly, rather than inferred from a later custom.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What reason does Genesis give for God blessing and sanctifying the seventh day?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "creation-rest",
+        "kr-111"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-eden-expulsion-tree-access",
+      "id": "course-eden-expulsion-tree-access",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 3,
+          "verse": 22,
+          "endVerse": 24
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The expressed concern is that the man might eat of the tree of life and live for ever. Expulsion and the guarded way restrict that access; the passage gives no harvest or animal reservation condition.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why is the way to the tree of life guarded after the man is sent out of Eden?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-cain-accepted-doing-well",
+      "id": "course-cain-accepted-doing-well",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 4,
+          "verse": 3,
+          "endVerse": 7
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06",
+        "12"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "God asks about Cain’s anger, speaks of acceptance if he does well, and warns about sin. The reply does not prescribe a new occupation or an appeal to Adam. This question avoids settling the disputed referent of the final pronouns.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "When Cain is angry about his offering, what does God’s reply in Genesis 4:6–7 direct attention toward?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-image-and-shared-dominion",
+      "id": "course-image-and-shared-dominion",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 1,
+          "verse": 26,
+          "endVerse": 28
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The text describes male and female as created in God’s image and then blesses them with fruitfulness and dominion over the named living creatures. It does not divide image-bearing by sex or restrict dominion to the sea.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Genesis 1:26–28 connect humanity’s creation with its assigned role?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-adam-christ-obedience-contrast",
+      "id": "course-adam-christ-obedience-contrast",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 5,
+          "verse": 15,
+          "endVerse": 19
+        },
+        {
+          "book": "Genesis",
+          "chapter": 3,
+          "verse": 17,
+          "endVerse": 19
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Genesis describes the consequences of Adam eating what was forbidden, including return to dust. Paul contrasts the offence and condemnation with Christ’s righteous obedience and justification of life. This tests Paul’s stated contrast, not a theory about how guilt is transmitted.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Comparing Genesis 3:17–19 with Romans 5:15–19, which account preserves Paul’s contrast between Adam and Christ?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-flood-corruption-violence-cause",
+      "id": "course-flood-corruption-violence-cause",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 6,
+          "verse": 5,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The surrounding verses describe great wickedness and corruption. Verse 13 specifically connects the end of all flesh with the earth being filled with violence, not the later Babel project or a crop failure.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which condition does God expressly give Noah as a reason for the approaching destruction in Genesis 6:13?",
+      "difficultyProgression": {
+        "editorialRating1to10": 2,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 1,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-noah-promise-and-blood-duty",
+      "id": "course-noah-promise-and-blood-duty",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 9,
+          "verse": 8,
+          "endVerse": 17
+        },
+        {
+          "book": "Genesis",
+          "chapter": 8,
+          "verse": 20,
+          "endVerse": 22
+        },
+        {
+          "book": "Genesis",
+          "chapter": 9,
+          "verse": 3,
+          "endVerse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Genesis 8 promises the continuing seasons while the earth remains; Genesis 9 promises no flood destroying all flesh and gives the bow as its token. The same post-flood setting contains restrictions on eating flesh with its blood and accountability for human bloodshed. Promise and obligation must not be conflated.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How should Noah’s post-flood assurances and instructions be distinguished across Genesis 8:20–22 and 9:3–17?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "course-human-life-image-ground",
+        "course-human-life-image-ground"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-human-life-image-ground",
+      "id": "course-human-life-image-ground",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 9,
+          "verse": 4,
+          "endVerse": 6
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Verse 6 grounds its instruction in humanity being made in God’s image. The surrounding blood restrictions do not make human worth depend on occupation or participation in the ark. This is textual study, not authorization for private punishment.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What reason does Genesis 9:6 give for the accountability attached to shedding human blood?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "course-noah-promise-and-blood-duty",
+        "course-noah-promise-and-blood-duty"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-babel-plan-and-scattering",
+      "id": "course-babel-plan-and-scattering",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 11,
+          "verse": 1,
+          "endVerse": 9
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "general"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The builders propose a city and tower to make a name and avoid being scattered. God confounds their language, scatters them, and the city’s construction stops. The narrative supplies both intention and contrasting outcome.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does the outcome at Babel reverse the builders’ stated aim?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "course-nations-origin-seeking-accountability",
+        "course-nations-origin-seeking-accountability"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-nations-origin-seeking-accountability",
+      "id": "course-nations-origin-seeking-accountability",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 17,
+          "verse": 24,
+          "endVerse": 31
+        },
+        {
+          "book": "Genesis",
+          "chapter": 10,
+          "verse": 32
+        },
+        {
+          "book": "Genesis",
+          "chapter": 11,
+          "verse": 8,
+          "endVerse": 9
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Genesis traces the nations through Noah’s families and narrates scattering. Paul speaks of one Creator, the nations’ appointed times and bounds, their seeking God, and a coming righteous judgment requiring repentance. Neither passage supplies modern racial identifications.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which synthesis respects Genesis 10–11 and Paul’s address in Acts 17 without identifying any modern people with an ancient genealogy?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "course-babel-plan-and-scattering",
+        "course-babel-plan-and-scattering"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-patriarch-promise-continuity",
+      "id": "course-patriarch-promise-continuity",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 12,
+          "verse": 1,
+          "endVerse": 3
+        },
+        {
+          "book": "Genesis",
+          "chapter": 26,
+          "verse": 3,
+          "endVerse": 5
+        },
+        {
+          "book": "Genesis",
+          "chapter": 28,
+          "verse": 13,
+          "endVerse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Abraham is promised nationhood and blessing for the earth’s families. Isaac is promised the oath to Abraham, land and blessing for nations; Jacob is promised land, descendants and blessing for families. This traces the texts’ continuity without assigning modern identities.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which thread continues as the promises to Abraham are spoken to Isaac and Jacob?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-amorite-iniquity-return-timing",
+      "id": "course-amorite-iniquity-return-timing",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 15,
+          "verse": 13,
+          "endVerse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "The passage predicts affliction, judgment on the nation served, and return in the fourth generation. It expressly relates the delayed return to the Amorites’ iniquity not yet being full; it does not authorize a present-day identification or timetable.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What reason accompanies the descendants’ delayed return in Genesis 15:16?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-abraham-sign-household-scope",
+      "id": "course-abraham-sign-household-scope",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 17,
+          "verse": 9,
+          "endVerse": 14
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The instruction includes every male child, specifies the eighth day, and expressly names both the house-born and the purchased person not of Abraham’s seed. It cannot be reduced to fathers, firstborns or biological descendants alone.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which description preserves the scope of the circumcision instruction to Abraham’s household in Genesis 17?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-abraham-household-justice-purpose",
+      "id": "course-abraham-household-justice-purpose",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 18,
+          "verse": 17,
+          "endVerse": 19
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The verse connects Abraham’s household instruction with keeping the LORD’s way, justice and judgment, so that the promised word may be brought upon him. Promise does not erase the responsibility described in the passage.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What household responsibility accompanies Abraham’s promised national future in Genesis 18:19?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-patriarch-inheritance-promise-possession",
+      "id": "course-patriarch-inheritance-promise-possession",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Hebrews",
+          "chapter": 11,
+          "verse": 8,
+          "endVerse": 16
+        },
+        {
+          "book": "Genesis",
+          "chapter": 23,
+          "verse": 4
+        },
+        {
+          "book": "Acts",
+          "chapter": 7,
+          "verse": 5
+        }
+      ],
+      "commandmentOrTeaching": "Israel restoration and promised land",
+      "curriculumCategories": [
+        "01",
+        "09",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Abraham calls himself a stranger and sojourner; Acts distinguishes lack of received inheritance from a promise still given. Hebrews describes his obedient departure, sojourning with fellow heirs and expectation of God’s city. The texts distinguish promise, present condition and expectation, without supplying an exhaustive scheme of fulfillment.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "An interpreter says Abraham’s sojourning proves the inheritance promise failed. Which reading best accounts for Genesis 23:4, Acts 7:5 and Hebrews 11:8–16 together?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-judah-sale-and-benjamin-substitution",
+      "id": "course-judah-sale-and-benjamin-substitution",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 37,
+          "verse": 26,
+          "endVerse": 28
+        },
+        {
+          "book": "Genesis",
+          "chapter": 44,
+          "verse": 30,
+          "endVerse": 34
+        }
+      ],
+      "commandmentOrTeaching": "General scriptural foundations",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Judah first proposes selling Joseph rather than killing him. In his later appeal, he explains his father’s attachment to Benjamin and offers to remain a bondman in the lad’s place, lest he see the evil that would come on his father. The contrast is between two narrated proposals, not a claim to know every stage of Judah’s inner motives.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What contrast appears between Judah’s proposal about Joseph in Genesis 37 and his appeal for Benjamin in Genesis 44?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-joseph-surplus-famine-policy",
+      "id": "course-joseph-surplus-famine-policy",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 41,
+          "verse": 33,
+          "endVerse": 36
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Joseph advises appointing officers, taking a fifth during the seven plentiful years and storing food in cities. Verse 36 states the purpose: provision against famine so that the land does not perish.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why does Joseph recommend gathering food during the plentiful years?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-ephraim-manasseh-inheritance-adoption",
+      "id": "course-ephraim-manasseh-inheritance-adoption",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 48,
+          "verse": 5,
+          "endVerse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Property, restitution and inheritance",
+      "curriculumCategories": [
+        "09"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Jacob claims Ephraim and Manasseh as his own, like Reuben and Simeon. He distinguishes later offspring, who are called after their brothers in inheritance. This concerns the text’s family and inheritance arrangement, not modern ancestry claims.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What inheritance distinction does Jacob make concerning Joseph’s sons in Genesis 48:5–6?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-egypt-oppression-not-promise-ended",
+      "id": "course-egypt-oppression-not-promise-ended",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 1,
+          "verse": 8,
+          "endVerse": 14
+        },
+        {
+          "book": "Genesis",
+          "chapter": 50,
+          "verse": 24,
+          "endVerse": 25
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Joseph expects visitation and departure to the land sworn to Abraham, Isaac and Jacob. Exodus then describes a new king, forced labor and continuing growth. Hardship is the historical setting awaiting deliverance, not a statement that the promise has been revoked.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How should Joseph’s deathbed expectation be read alongside the oppression under Egypt’s new king?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-joseph-providence-not-excusing-evil",
+      "id": "course-joseph-providence-not-excusing-evil",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Genesis",
+          "chapter": 50,
+          "verse": 19,
+          "endVerse": 21
+        },
+        {
+          "book": "Acts",
+          "chapter": 7,
+          "verse": 9,
+          "endVerse": 10
+        },
+        {
+          "book": "Psalms",
+          "chapter": 105,
+          "verse": 17,
+          "endVerse": 24
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Genesis distinguishes evil human intent from God’s good purpose and records Joseph’s practical care. Acts still names envy; Psalm 105 presents Joseph’s sending, suffering and later authority. Providential benefit does not make betrayal a righteous leadership method.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A leader says Joseph’s rise proves betrayal is righteous when it produces prosperity. Which reading preserves Genesis 50, Acts 7 and Psalm 105 together?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-exodus-redemption-people-inheritance",
+      "id": "course-exodus-redemption-people-inheritance",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 6,
+          "verse": 6,
+          "endVerse": 8
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The promised acts include release, redemption, Israel becoming God’s people, knowing him as their God, and receiving the land sworn to Abraham, Isaac and Jacob. Freedom is placed within relationship and inheritance.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which purpose accompanies the promised release from Egyptian bondage in Exodus 6:6–8?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-passover-children-memorial-meaning",
+      "id": "course-passover-children-memorial-meaning",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 12,
+          "verse": 24,
+          "endVerse": 27
+        }
+      ],
+      "commandmentOrTeaching": "Appointed feasts and convocations",
+      "curriculumCategories": [
+        "01",
+        "03",
+        "08"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The service is explained as the sacrifice of the LORD’s Passover, remembering deliverance of Israelite houses during judgment on Egypt. Booths and the later land-entry events are different memorial settings.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "When children ask the meaning of the Passover service, what explanation are Israelite households instructed to give?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-manna-sabbath-preparation-pattern",
+      "id": "course-manna-sabbath-preparation-pattern",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 16,
+          "verse": 22,
+          "endVerse": 30
+        }
+      ],
+      "commandmentOrTeaching": "Sabbath and rest",
+      "curriculumCategories": [
+        "01",
+        "02"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The sixth-day double portion can be prepared and kept; the seventh day is the holy Sabbath and no manna is found in the field. Some people’s failed search is a refusal to heed the instruction, not an authorized exception.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does the manna instruction in Exodus 16 provide for seventh-day rest?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-sinai-treasure-condition",
+      "id": "course-sinai-treasure-condition",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 19,
+          "verse": 4,
+          "endVerse": 6
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "After recalling deliverance, God says, “if ye will obey my voice indeed, and keep my covenant,” then Israel will be a peculiar treasure, a kingdom of priests and a holy nation. The speech gives obligations alongside privilege.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What condition is attached to Israel being a peculiar treasure in the Sinai address?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-sinai-words-assent-blood-comparison",
+      "id": "course-sinai-words-assent-blood-comparison",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Exodus",
+          "chapter": 24,
+          "verse": 3,
+          "endVerse": 8
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 5,
+          "verse": 2,
+          "endVerse": 5
+        },
+        {
+          "book": "Hebrews",
+          "chapter": 9,
+          "verse": 18,
+          "endVerse": 22
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Exodus describes reported and read words, the people’s repeated assent and covenant blood. Deuteronomy recalls Moses standing between God and the people; Hebrews recalls the blood dedication. The accounts’ different details should not be forced into an assertion that each lists every detail.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which account keeps distinct the roles of words, mediator, people and blood in Exodus 24, Deuteronomy 5 and Hebrews 9?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-holiness-dietary-separation-purpose",
+      "id": "course-holiness-dietary-separation-purpose",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 20,
+          "verse": 24,
+          "endVerse": 26
+        }
+      ],
+      "commandmentOrTeaching": "Dietary laws and clean/unclean",
+      "curriculumCategories": [
+        "01",
+        "04"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The passage joins promised land, separation from other peoples, distinctions among creatures and holiness: “that ye should be mine.” Its stated explanation is covenant belonging and holiness, not merely a modern health theory.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How are clean-and-unclean distinctions related to Israel’s calling in Leviticus 20:24–26?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-weeks-booths-memory-distinction",
+      "id": "course-weeks-booths-memory-distinction",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 16,
+          "verse": 9,
+          "endVerse": 12
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 23,
+          "verse": 39,
+          "endVerse": 43
+        }
+      ],
+      "commandmentOrTeaching": "Appointed feasts and convocations",
+      "curriculumCategories": [
+        "01",
+        "03"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Deuteronomy’s Weeks instructions include rejoicing with household and vulnerable participants and remembering bondage in Egypt. Leviticus explains booths so generations know God made Israel dwell in booths when he brought them out. These are explicit reminders, not claims that each feast has only one meaning.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which comparison preserves the different historical reminders attached to Weeks and dwelling in booths?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-poor-offerer-means-and-flour",
+      "id": "course-poor-offerer-means-and-flour",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 5,
+          "verse": 7,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Priesthood, sanctuary and offerings",
+      "curriculumCategories": [
+        "01",
+        "12"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "torah",
+      "learningObjective": "The law provides birds when a lamb is unaffordable, then a tenth of an ephah of fine flour if birds are unaffordable. It forbids oil and frankincense on this sin offering and retains the priest’s role. This bounded provision does not redefine every sacrifice.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "For the sins addressed in Leviticus 5:7–13, how does the required offering change when the person cannot afford the birds?",
+      "difficultyProgression": {
+        "editorialRating1to10": 5,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-priest-teaching-distinction-continuity",
+      "id": "course-priest-teaching-distinction-continuity",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Leviticus",
+          "chapter": 10,
+          "verse": 8,
+          "endVerse": 11
+        },
+        {
+          "book": "Ezekiel",
+          "chapter": 44,
+          "verse": 23
+        }
+      ],
+      "commandmentOrTeaching": "Priesthood, sanctuary and offerings",
+      "curriculumCategories": [
+        "01",
+        "12"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Leviticus connects sobriety in sanctuary service with making distinctions and teaching Israel the statutes given through Moses. Ezekiel again describes priests teaching holy/profane and clean/unclean distinctions. The shared teaching responsibility does not require treating every detail of the two settings as identical.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which responsibility is shared by Aaron’s instruction in Leviticus 10 and the priestly description in Ezekiel 44:23?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-homicide-refuge-ransom-judicial-synthesis",
+      "id": "course-homicide-refuge-ransom-judicial-synthesis",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Numbers",
+          "chapter": 35,
+          "verse": 22,
+          "endVerse": 25
+        },
+        {
+          "book": "Numbers",
+          "chapter": 35,
+          "verse": 30,
+          "endVerse": 34
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 19,
+          "verse": 4,
+          "endVerse": 6
+        },
+        {
+          "book": "Exodus",
+          "chapter": 21,
+          "verse": 12,
+          "endVerse": 14
+        }
+      ],
+      "commandmentOrTeaching": "Judges, witnesses and procedure",
+      "curriculumCategories": [
+        "01",
+        "13"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Deuteronomy distinguishes the unintentional axe-head case without prior hatred. Numbers requires congregational judgment and refuge residence, bars a single witness from causing a death sentence, and rejects ransom for a murderer or early release from refuge. Exodus denies altar sanctuary to a guileful killer. These ancient judicial instructions are not authority for private punishment today.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "In Torah’s judicial setting, an axe-head kills a neighbor without prior hatred; a second man plots a killing and seeks the altar. A lone witness and a payment offer are then proposed. Which ruling preserves all four cited safeguards?",
+      "difficultyProgression": {
+        "editorialRating1to10": 10,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 7,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-joshua-warning-judges-forsaking",
+      "id": "course-joshua-warning-judges-forsaking",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Joshua",
+          "chapter": 23,
+          "verse": 6,
+          "endVerse": 13
+        },
+        {
+          "book": "Judges",
+          "chapter": 2,
+          "verse": 10,
+          "endVerse": 13
+        }
+      ],
+      "commandmentOrTeaching": "Idolatry and prohibited practices",
+      "curriculumCategories": [
+        "01",
+        "13",
+        "15"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Joshua urges keeping Moses’ law and refusing service to the remaining nations’ gods. Judges describes a generation that did not know the LORD’s works and served Baal and Ashtaroth. The connection is explicit apostasy, not a modern ethnic classification.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which development in Judges 2 exemplifies the danger addressed in Joshua’s farewell warning?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-samuel-kingship-cost-extraction",
+      "id": "course-samuel-kingship-cost-extraction",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "1 Samuel",
+          "chapter": 8,
+          "verse": 11,
+          "endVerse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "Samuel repeatedly says the king will take: sons, daughters, fields, produce and servants. The warning culminates in the people becoming his servants and crying out. It describes royal extraction rather than an exemption from Torah’s standards for kings.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What practical danger dominates Samuel’s description of the king Israel requests?",
+      "difficultyProgression": {
+        "editorialRating1to10": 3,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 1,
+        "runtimeComplexity": 2,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-rehoboam-yoke-counsel-consequence",
+      "id": "course-rehoboam-yoke-counsel-consequence",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "1 Kings",
+          "chapter": 12,
+          "verse": 6,
+          "endVerse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "16",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The elders advise service and good words; Rehoboam follows the younger counselors and threatens greater burdens. The people then reject their portion in David’s house. Verse 15 also presents the event as fulfilling the LORD’s word, without erasing the narrated decision.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What choice by Rehoboam immediately precedes the northern tribes’ rejection of his rule in 1 Kings 12?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-solomon-royal-prohibitions-history",
+      "id": "course-solomon-royal-prohibitions-history",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Deuteronomy",
+          "chapter": 17,
+          "verse": 16,
+          "endVerse": 17
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 10,
+          "verse": 26,
+          "endVerse": 29
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 11,
+          "verse": 1,
+          "endVerse": 10
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Deuteronomy limits horses, an Egyptian return for horses, multiplied wives that turn the heart, and excessive silver and gold. Kings describes horse imports and abundance, then expressly connects the wives with Solomon’s heart turning after other gods. Success does not itself suspend the cited royal responsibilities.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A counselor argues that royal prosperity excuses Solomon’s acquisitions. Which assessment best preserves Deuteronomy 17 and 1 Kings 10–11?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "torah-king-under-law-humility"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-nathan-royal-accountability-justice",
+      "id": "course-nathan-royal-accountability-justice",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "2 Samuel",
+          "chapter": 12,
+          "verse": 1,
+          "endVerse": 9
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 19,
+          "verse": 15
+        },
+        {
+          "book": "Proverbs",
+          "chapter": 31,
+          "verse": 8,
+          "endVerse": 9
+        }
+      ],
+      "commandmentOrTeaching": "Leadership and community government",
+      "curriculumCategories": [
+        "01",
+        "16"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Leviticus forbids honoring the mighty in judgment; Proverbs charges a ruler to judge righteously and plead for the poor. Nathan addresses David directly and names his wrongdoing against Uriah. The combined texts do not establish a blanket immunity for officeholders.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A ruler claims his office makes correction improper. Which response brings Nathan’s confrontation, Leviticus 19:15 and Proverbs 31:8–9 together?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-impartial-court",
+        "bke-impartial-court",
+        "torah-poor-case-equal-justice",
+        "torah-james-neighbor-love-no-partiality"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-samaria-exile-prophets-rejected",
+      "id": "course-samaria-exile-prophets-rejected",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "2 Kings",
+          "chapter": 17,
+          "verse": 7,
+          "endVerse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Idolatry and prohibited practices",
+      "curriculumCategories": [
+        "15"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "people",
+      "learningObjective": "The chapter names idolatry, rejection of statutes and covenant, and refusal of prophetic warnings to keep the commandments. It explains judgment morally as well as historically; verse 18 distinguishes Judah remaining at this point.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does 2 Kings 17 explain Israel’s removal beyond the military event itself?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-temple-slogan-not-moral-immunity",
+      "id": "course-temple-slogan-not-moral-immunity",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Jeremiah",
+          "chapter": 7,
+          "verse": 3,
+          "endVerse": 11
+        }
+      ],
+      "commandmentOrTeaching": "Prayer, worship and holiness",
+      "curriculumCategories": [
+        "01",
+        "06"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Jeremiah calls for amended ways, just judgment and protection of the stranger, fatherless and widow. He condemns using the named house as cover for theft, murder, adultery and idolatry. Sacred association is not moral immunity.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Why does Jeremiah challenge confidence in the repeated cry, “The temple of the LORD”?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-exile-land-sabbaths-covenant-warning",
+      "id": "course-exile-land-sabbaths-covenant-warning",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "2 Chronicles",
+          "chapter": 36,
+          "verse": 14,
+          "endVerse": 21
+        },
+        {
+          "book": "Leviticus",
+          "chapter": 26,
+          "verse": 33,
+          "endVerse": 35
+        }
+      ],
+      "commandmentOrTeaching": "Agriculture and land cycles",
+      "curriculumCategories": [
+        "01",
+        "11"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Leviticus warns of scattering and a desolate land enjoying its sabbaths because it had not rested. Chronicles describes rejected messengers, Babylonian captivity and desolation in which the land keeps sabbath. It also invokes Jeremiah’s seventy years; this item does not compute a further prophetic chronology.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Chronicles’ account of the desolate land connect with Leviticus 26’s warning?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-daniel-confession-return-covenant",
+      "id": "course-daniel-confession-return-covenant",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Daniel",
+          "chapter": 9,
+          "verse": 4,
+          "endVerse": 14
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 30,
+          "verse": 1,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Daniel names collective rebellion, refusal of prophets and the curse written in Moses’ law, including failure to turn. Deuteronomy describes recalling the blessing and curse, returning and obeying with heart and soul, and God’s compassion and gathering. This comparison does not turn Daniel’s prayer into a completed fulfillment of every restoration promise.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which comparison best connects Daniel’s exile confession with Deuteronomy 30’s return passage?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-baruch-confession-commandments-prophets",
+      "id": "course-baruch-confession-commandments-prophets",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Baruch",
+          "chapter": 1,
+          "verse": 15,
+          "endVerse": 22
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Baruch assigns righteousness to God and shame to the people and their leaders, acknowledges disobedience since Egypt, and connects calamity with the curse appointed through Moses. The confession retains personal and corporate responsibility rather than blaming an innocent people’s lack of power.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What explanation does Baruch’s confession give for the calamities cleaving to Judah and Jerusalem?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-wilderness-bread-quotation-purpose",
+      "id": "course-wilderness-bread-quotation-purpose",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Matthew",
+          "chapter": 4,
+          "verse": 1,
+          "endVerse": 4
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 8,
+          "verse": 2,
+          "endVerse": 3
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Yeshua cites the teaching that life is not by bread alone. Deuteronomy places it in the forty-year humbling and proving of Israel, hunger and God’s manna provision, aimed at learning dependence on his word and testing obedience. It does not forbid food or command a miracle on demand.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does the Torah context illuminate Yeshua’s reply to the bread temptation in Matthew 4?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-nazareth-reading-stopping-point",
+      "id": "course-nazareth-reading-stopping-point",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Luke",
+          "chapter": 4,
+          "verse": 18,
+          "endVerse": 21
+        },
+        {
+          "book": "Isaiah",
+          "chapter": 61,
+          "verse": 1,
+          "endVerse": 2
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Luke’s recorded reading announces liberation and the acceptable year, then the book is closed and Yeshua speaks of fulfillment. Isaiah’s verse continues with the day of vengeance and comfort. The difference in recorded extent does not itself supply a dated scheme for every clause.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "Which distinction preserves the wording and stopping point of the Nazareth reading when compared with Isaiah 61:1–2?",
+      "difficultyProgression": {
+        "editorialRating1to10": 6,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 4,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-peter-prophet-blessing-turning",
+      "id": "course-peter-prophet-blessing-turning",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 3,
+          "verse": 22,
+          "endVerse": 26
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 18,
+          "verse": 15,
+          "endVerse": 19
+        },
+        {
+          "book": "Genesis",
+          "chapter": 22,
+          "verse": 18
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Peter recalls the prophet whom the people must hear, identifies his hearers with the patriarchal covenant, and describes the Son’s blessing in terms of turning each from iniquities. Deuteronomy’s required hearing and Genesis’ promised blessing retain their distinct roles in the speech.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How does Peter combine Moses’ prophet promise with Abraham’s blessing promise in Acts 3:22–26?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-olive-image-warning-not-boasting",
+      "id": "course-olive-image-warning-not-boasting",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Romans",
+          "chapter": 11,
+          "verse": 17,
+          "endVerse": 24
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 11,
+          "verse": 16,
+          "endVerse": 17
+        }
+      ],
+      "commandmentOrTeaching": "Israel restoration and promised land",
+      "curriculumCategories": [
+        "01",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "context",
+      "learningObjective": "Jeremiah applies the olive-tree image to the LORD’s planted people and names Israel and Judah’s Baal worship. Paul warns against boasting, stresses the root’s support and says both cutting off and grafting in again are possible under the stated conditions. Shared imagery does not settle every disputed identity interpretation.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A reader uses Paul’s olive-tree image to justify boasting over broken branches. Which comparison with Jeremiah 11 best respects both contexts?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-new-covenant-law-forgiveness-agency",
+      "id": "course-new-covenant-law-forgiveness-agency",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Hebrews",
+          "chapter": 10,
+          "verse": 15,
+          "endVerse": 18
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 31,
+          "verse": 31,
+          "endVerse": 34
+        },
+        {
+          "book": "Ezekiel",
+          "chapter": 36,
+          "verse": 25,
+          "endVerse": 27
+        }
+      ],
+      "commandmentOrTeaching": "Covenants and commandments",
+      "curriculumCategories": [
+        "01"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Jeremiah explicitly names the houses of Israel and Judah and describes inward law and forgiveness. Hebrews cites inward laws and sins remembered no more, concluding there is no more offering for sin where remission is. Ezekiel describes God cleansing, giving a new heart and putting his Spirit within the people to cause them to walk in his statutes. This comparison neither renames the covenant recipients nor claims the passages have identical wording or settle every disputed participation question.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A teacher separates forgiveness from renewed obedience and assigns the New Covenant to an unnamed replacement people. Which comparison best preserves Hebrews 10, Jeremiah 31 and Ezekiel 36 without claiming the accounts have identical wording?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-law-hearts",
+        "bke-law-hearts",
+        "kr-108"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-two-sticks-one-people-obedience",
+      "id": "course-two-sticks-one-people-obedience",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Ezekiel",
+          "chapter": 37,
+          "verse": 15,
+          "endVerse": 24
+        }
+      ],
+      "commandmentOrTeaching": "Israel restoration and promised land",
+      "curriculumCategories": [
+        "01",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "The sticks name Judah and Joseph/Ephraim. God explains gathering into their land, one nation, one king and shepherd, cleansing from idols and keeping his statutes. The sign’s explicit explanation should come before a proposed modern identification.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What does the joining of the two sticks signify in Ezekiel’s own explanation?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-creation-order-covenant-assurance",
+      "id": "course-creation-order-covenant-assurance",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Jeremiah",
+          "chapter": 31,
+          "verse": 35,
+          "endVerse": 37
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 33,
+          "verse": 20,
+          "endVerse": 26
+        }
+      ],
+      "commandmentOrTeaching": "Israel restoration and promised land",
+      "curriculumCategories": [
+        "01",
+        "17"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "connections",
+      "learningObjective": "Jeremiah 31 appeals to the ordinances of sun, moon and stars in assuring Israel’s continued standing. Jeremiah 33 answers the casting-off claim through the day-and-night covenant, David and the Levites, and mercy toward Jacob’s seed. These assurances do not remove the judgment and repentance themes elsewhere in Jeremiah.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "How do Jeremiah 31:35–37 and 33:20–26 answer the claim that God has simply cast away Israel and David’s covenant?",
+      "difficultyProgression": {
+        "editorialRating1to10": 7,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 5,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-tabernacles-nations-accountable-response",
+      "id": "course-tabernacles-nations-accountable-response",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Zechariah",
+          "chapter": 14,
+          "verse": 16,
+          "endVerse": 19
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "06",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "kingdom",
+      "learningObjective": "Survivors of the nations are described coming yearly to worship the King and keep Tabernacles. The text then names withheld rain and Egypt’s punishment/plague for refusal. It depicts ongoing accountability, not exemption based on being a nation. It gives no authority for private coercion today.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "What does Zechariah 14:16–19 indicate about nations that refuse the stated yearly worship?",
+      "difficultyProgression": {
+        "editorialRating1to10": 4,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 2,
+        "runtimeComplexity": 3,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-nations-tabernacles",
+        "bke-nations-tabernacles"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-iron-rod-authority-granted-not-seized",
+      "id": "course-iron-rod-authority-granted-not-seized",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Psalms",
+          "chapter": 2,
+          "verse": 7,
+          "endVerse": 12
+        },
+        {
+          "book": "Revelation",
+          "chapter": 2,
+          "verse": 26,
+          "endVerse": 27
+        },
+        {
+          "book": "Revelation",
+          "chapter": 19,
+          "verse": 11,
+          "endVerse": 16
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Psalm 2 speaks of the LORD’s decree and the Son’s inheritance; Revelation 2 promises authority to the one overcoming and keeping Christ’s works to the end, as he received from his Father. Revelation 19 describes the named righteous rider’s judgment and rule. None of those descriptions creates an unrestricted present-day commission for self-appointed violence.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A teacher turns the “rod of iron” into permission for any self-appointed group to punish nations now. Which distinction is supported by Psalm 2 and Revelation 2 and 19?",
+      "difficultyProgression": {
+        "editorialRating1to10": 8,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 6,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
+      "recordKey": "dist/published-questions.js#course-kingdom-nations-holiness-peace-synthesis",
+      "id": "course-kingdom-nations-holiness-peace-synthesis",
+      "editorialId": null,
+      "source": "dist/published-questions.js",
+      "publicationState": "live-reviewed",
+      "reviewStatus": "verified",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "references": [
+        {
+          "book": "Isaiah",
+          "chapter": 2,
+          "verse": 2,
+          "endVerse": 4
+        },
+        {
+          "book": "Micah",
+          "chapter": 4,
+          "verse": 1,
+          "endVerse": 4
+        },
+        {
+          "book": "Revelation",
+          "chapter": 21,
+          "verse": 24,
+          "endVerse": 27
+        },
+        {
+          "book": "Revelation",
+          "chapter": 22,
+          "verse": 14,
+          "endVerse": 15
+        }
+      ],
+      "commandmentOrTeaching": "Prophetic judgment and Kingdom government",
+      "curriculumCategories": [
+        "01",
+        "16",
+        "18"
+      ],
+      "classificationStatus": "provisional keyword index; manual taxonomy review required",
+      "knowledgeCategory": "discernment",
+      "learningObjective": "Isaiah and Micah join teaching from Zion, judgment among nations and the ending of war. Revelation retains nations and kings bringing honor, excludes defilement and identifies those in the Lamb’s book of life; its KJV text also blesses those doing his commandments with tree-of-life and gate access. These observations can be taught together without declaring that every scene is simultaneous or deriving a complete salvation formula.",
+      "objectiveStatus": "copied existing explanation; not newly verified",
+      "existingQuestion": "A Kingdom curriculum must compare Isaiah 2, Micah 4 and Revelation 21–22 without imposing an unstated event sequence. Which framework preserves their distinct claims?",
+      "difficultyProgression": {
+        "editorialRating1to10": 10,
+        "ratingStatus": "1–10 calibration not performed",
+        "runtimeDisplay": 3,
+        "runtimeComplexity": 7,
+        "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
+      },
+      "relatedQuestionIds": [
+        "bke-zion-law",
+        "bke-zion-law"
+      ],
+      "uncoveredLearningObjectives": [
+        "Full conditions, exceptions and linked objectives beyond this item have not been exhaustively inventoried."
+      ],
+      "manualCatalogEntryIds": []
+    },
+    {
       "recordKey": "content/candidates/biblical-course-50.json#course-creation-sanctified-rest-reason",
       "id": "course-creation-sanctified-rest-reason",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9359,7 +11619,7 @@
       "id": "course-eden-expulsion-tree-access",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9397,7 +11657,7 @@
       "id": "course-cain-accepted-doing-well",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9437,7 +11697,7 @@
       "id": "course-image-and-shared-dominion",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9475,7 +11735,7 @@
       "id": "course-adam-christ-obedience-contrast",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9519,7 +11779,7 @@
       "id": "course-flood-corruption-violence-cause",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9557,7 +11817,7 @@
       "id": "course-noah-promise-and-blood-duty",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9597,6 +11857,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-human-life-image-ground",
         "course-human-life-image-ground"
       ],
       "uncoveredLearningObjectives": [
@@ -9609,7 +11870,7 @@
       "id": "course-human-life-image-ground",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9638,6 +11899,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-noah-promise-and-blood-duty",
         "course-noah-promise-and-blood-duty"
       ],
       "uncoveredLearningObjectives": [
@@ -9650,7 +11912,7 @@
       "id": "course-babel-plan-and-scattering",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9678,6 +11940,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-nations-origin-seeking-accountability",
         "course-nations-origin-seeking-accountability"
       ],
       "uncoveredLearningObjectives": [
@@ -9690,7 +11953,7 @@
       "id": "course-nations-origin-seeking-accountability",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9731,6 +11994,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-babel-plan-and-scattering",
         "course-babel-plan-and-scattering"
       ],
       "uncoveredLearningObjectives": [
@@ -9743,7 +12007,7 @@
       "id": "course-patriarch-promise-continuity",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9793,7 +12057,7 @@
       "id": "course-amorite-iniquity-return-timing",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9833,7 +12097,7 @@
       "id": "course-abraham-sign-household-scope",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9871,7 +12135,7 @@
       "id": "course-abraham-household-justice-purpose",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9910,7 +12174,7 @@
       "id": "course-patriarch-inheritance-promise-possession",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -9960,7 +12224,7 @@
       "id": "course-judah-sale-and-benjamin-substitution",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10004,7 +12268,7 @@
       "id": "course-joseph-surplus-famine-policy",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10042,7 +12306,7 @@
       "id": "course-ephraim-manasseh-inheritance-adoption",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10080,7 +12344,7 @@
       "id": "course-egypt-oppression-not-promise-ended",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10124,7 +12388,7 @@
       "id": "course-joseph-providence-not-excusing-evil",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10175,7 +12439,7 @@
       "id": "course-exodus-redemption-people-inheritance",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10213,7 +12477,7 @@
       "id": "course-passover-children-memorial-meaning",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10253,7 +12517,7 @@
       "id": "course-manna-sabbath-preparation-pattern",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10292,7 +12556,7 @@
       "id": "course-sinai-treasure-condition",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10330,7 +12594,7 @@
       "id": "course-sinai-words-assent-blood-comparison",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10380,7 +12644,7 @@
       "id": "course-holiness-dietary-separation-purpose",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10419,7 +12683,7 @@
       "id": "course-weeks-booths-memory-distinction",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10464,7 +12728,7 @@
       "id": "course-poor-offerer-means-and-flour",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10503,7 +12767,7 @@
       "id": "course-priest-teaching-distinction-continuity",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10547,7 +12811,7 @@
       "id": "course-homicide-refuge-ransom-judicial-synthesis",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10604,7 +12868,7 @@
       "id": "course-joshua-warning-judges-forsaking",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10650,7 +12914,7 @@
       "id": "course-samuel-kingship-cost-extraction",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10688,7 +12952,7 @@
       "id": "course-rehoboam-yoke-counsel-consequence",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10727,7 +12991,7 @@
       "id": "course-solomon-royal-prohibitions-history",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10780,7 +13044,7 @@
       "id": "course-nathan-royal-accountability-justice",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10835,7 +13099,7 @@
       "id": "course-samaria-exile-prophets-rejected",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10873,7 +13137,7 @@
       "id": "course-temple-slogan-not-moral-immunity",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10912,7 +13176,7 @@
       "id": "course-exile-land-sabbaths-covenant-warning",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -10957,7 +13221,7 @@
       "id": "course-daniel-confession-return-covenant",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11001,7 +13265,7 @@
       "id": "course-baruch-confession-commandments-prophets",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11039,7 +13303,7 @@
       "id": "course-wilderness-bread-quotation-purpose",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11083,7 +13347,7 @@
       "id": "course-nazareth-reading-stopping-point",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11129,7 +13393,7 @@
       "id": "course-peter-prophet-blessing-turning",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11179,7 +13443,7 @@
       "id": "course-olive-image-warning-not-boasting",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11224,7 +13488,7 @@
       "id": "course-new-covenant-law-forgiveness-agency",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11278,7 +13542,7 @@
       "id": "course-two-sticks-one-people-obedience",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11317,7 +13581,7 @@
       "id": "course-creation-order-covenant-assurance",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11362,7 +13626,7 @@
       "id": "course-tabernacles-nations-accountable-response",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11406,7 +13670,7 @@
       "id": "course-iron-rod-authority-granted-not-seized",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11458,7 +13722,7 @@
       "id": "course-kingdom-nations-holiness-peace-synthesis",
       "editorialId": null,
       "source": "content/candidates/biblical-course-50.json",
-      "publicationState": "candidate-not-live",
+      "publicationState": "working-copy-of-live-id-not-authoritative",
       "reviewStatus": "candidate",
       "evidenceStatus": "AI-source-checked-draft",
       "references": [
@@ -11920,6 +14184,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-nathan-royal-accountability-justice",
         "course-nathan-royal-accountability-justice",
         "torah-poor-case-equal-justice",
         "torah-james-neighbor-love-no-partiality"
@@ -12634,6 +14899,7 @@
       },
       "relatedQuestionIds": [
         "course-new-covenant-law-forgiveness-agency",
+        "course-new-covenant-law-forgiveness-agency",
         "kr-108"
       ],
       "uncoveredLearningObjectives": [
@@ -12978,6 +15244,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-kingdom-nations-holiness-peace-synthesis",
         "course-kingdom-nations-holiness-peace-synthesis"
       ],
       "uncoveredLearningObjectives": [
@@ -13091,6 +15358,7 @@
         "nextObjective": "Develop a separately reviewed context/conditions/cross-reference objective where absent; do not relabel recall as mastery."
       },
       "relatedQuestionIds": [
+        "course-tabernacles-nations-accountable-response",
         "course-tabernacles-nations-accountable-response"
       ],
       "uncoveredLearningObjectives": [
@@ -13788,6 +16056,7 @@
       "relatedQuestionIds": [
         "bke-law-hearts",
         "course-new-covenant-law-forgiveness-agency",
+        "course-new-covenant-law-forgiveness-agency",
         "bke-law-hearts"
       ],
       "uncoveredLearningObjectives": [
@@ -13914,6 +16183,7 @@
       },
       "relatedQuestionIds": [
         "creation-rest",
+        "course-creation-sanctified-rest-reason",
         "course-creation-sanctified-rest-reason"
       ],
       "uncoveredLearningObjectives": [
@@ -15621,6 +17891,7 @@
       "relatedQuestionIds": [
         "bke-impartial-court",
         "course-nathan-royal-accountability-justice",
+        "course-nathan-royal-accountability-justice",
         "bke-impartial-court",
         "torah-james-neighbor-love-no-partiality"
       ],
@@ -15986,6 +18257,7 @@
       },
       "relatedQuestionIds": [
         "bke-king-law-copy",
+        "course-solomon-royal-prohibitions-history",
         "course-solomon-royal-prohibitions-history",
         "bke-king-law-copy"
       ],
@@ -17586,6 +19858,7 @@
       "relatedQuestionIds": [
         "bke-neighbor-love",
         "bke-impartial-court",
+        "course-nathan-royal-accountability-justice",
         "course-nathan-royal-accountability-justice",
         "bke-neighbor-love",
         "bke-impartial-court",

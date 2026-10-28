@@ -69,7 +69,7 @@ for(const completed of [0,35,110,185,260,335,10000])for(const pose of ['idle','r
 for(let env=0;env<5;env++)await checkText(landscape(env),virtual);
 await checkText(sword+symbolicGate({broken:5}),virtual);
 for(const [slug] of journeyLocations)for(const plane of ['sky','far','near'])await checkReference(`assets/console/journey-${slug}-${plane}.png`,virtual);
-for(const name of ['validate-content','test-engine','test-storage','test-mastery','test-encounter-dialogue','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal','test-combat','test-combat-feedback','test-finishers','test-combat-victory-audit','test-phase3','test-opponents','test-pwa','test-retry','test-celebration','test-armor','test-pause','test-knowledge','test-viewport','test-editorial','test-release-version','test-dialogue-expansion']){
+for(const name of ['validate-content','test-engine','test-storage','test-mastery','test-encounter-dialogue','test-audio','test-juice','test-judah-focus','test-adventure','test-answer-reveal','test-combat','test-combat-feedback','test-finishers','test-combat-victory-audit','test-phase3','test-opponents','test-pwa','test-retry','test-celebration','test-armor','test-pause','test-knowledge','test-viewport','test-editorial','test-release-version','test-dialogue-expansion','test-scripture-lessons']){
  const result=spawnSync(process.execPath,[`scripts/${name}.mjs`],{cwd:root,stdio:'inherit'});
  assert.equal(result.status,0,`${name} failed.`);
 }

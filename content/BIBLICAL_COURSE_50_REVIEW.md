@@ -1,5 +1,7 @@
 # Lion's Gate — Course survey: 50 draft questions
 
+**Publication update — October 28, 2026:** All 50 have now passed the owner-authorized AI-assisted review and validated local publication workflow. Their original candidate records and the historical findings below remain intact. See [current publication and lesson report](course-publication/REPORT.md). The bank now has 160 live questions; no unrelated candidates were published.
+
 Authored and source-compared October 27, 2026; final local verification October 28. **AI-assisted source review, not independent human Scripture verification or approval.**
 
 The [syllabus](../BIBLICAL_COURSE_SYLLABUS.md) retains all 18 subject topics and adds ten historical course units. The [candidate batch](candidates/biblical-course-50.json) remains outside production imports and offline caching. [Exact evidence](biblical-course-50-evidence.json) and [validation/integrity records](biblical-course-50-validation.json) are separate from the [unchecked approval template](biblical-course-50-review-template.json).

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "authorization": "Owner explicitly authorized AI-assisted editorial review and local publication of the 50 course questions in the October 28, 2026 task. This is NOT independent human Scripture certification and NOT owner-performed passage verification.",
+  "files": [
+    {
+      "path": "dist/answer-reveal.js",
+      "before": "1e2de12f02a55b53b2e8cd7bc163c8da9e97436a8f1a2eef5ba0293a88389d91",
+      "after": "b1681d62b441ac0592984c221cd342f69bfcb2b243a67d6cca3d69f58b600fc6",
+      "reason": "Render Scripture lessons in the existing manual answer overlay; preserve feedback, modal lifecycle and Continue hooks."
+    },
+    {
+      "path": "dist/answer-reveal.css",
+      "before": "4e8122b5c73cb3f1a66e8f3c1a4893cf16a18d921ef358abbd98a736d528967c",
+      "after": "01d8ac46311395d69763309b08fd3a167e25312abd41f6790b0d59578e223b49",
+      "reason": "Scope readable responsive lesson typography, context, objective and expandable passage styling to the existing overlay."
+    },
+    {
+      "path": "dist/question-selection.js",
+      "before": "4cf241d5546e6d6c8eebb07c0bcb65eb003f62ecf722426f85c7a80356a64d6c",
+      "after": "eff3b4b8e97b3ad7090e8b952f57797800f3d3c95c3fa91e3fcb3f9732652f76",
+      "reason": "Apply the existing hard answer-disclosure rule to prior questions when extending a battle."
+    },
+    {
+      "path": "dist/engine.js",
+      "before": "3467d16028db90bbf2e0805e349fd41991238eab80ef9af8407a3e9a07c612ff",
+      "after": "903edbf74638a79213b6af9138cbb31860f39d064177512c794514cba344826e",
+      "reason": "Pass the existing encounter IDs into extension selection only; combat outcomes, rewards and saved queues retain their rules."
+    },
+    {
+      "path": "dist/published-questions.js",
+      "before": "b248f7bb627c3089edaf9822546ac42348d4f3340d98bb3dda03b0036a2d7e19",
+      "after": "47cfb7b67599aacaba03814485524e8f74845a8964e5a9dd91bd104492da06b9",
+      "reason": "Append exactly the 50 owner-authorized, ledger-approved course records after the original 68 additions."
+    },
+    {
+      "path": "dist/sw.js",
+      "before": "428cc4f0a85c4f1dfa7fe9cf82eb1afe36f331b1b5008ef2af3176acc0bfbe7d",
+      "after": "805f58e8ea8c8b2ade1149d0c5bfcea2beb85325ebd6ae65d9fa53d47f72d6e5",
+      "reason": "Production build refreshes the full offline shell for the two lesson modules and changed application files."
+    },
+    {
+      "path": "dist/release.js",
+      "before": "7c8a98040f56b6d706cd34bbe3e31f65d0cd67c7149cd3db1643f168a85b168b",
+      "after": "914fea66be1d7ae2adff6787a54d251b65135fc56bc30aabf1de5823051a0284",
+      "reason": "Production build exposes the next existing 1.N release label."
+    },
+    {
+      "path": "game-release.json",
+      "before": "bab68b780d9ba82570ec49a33cdc5c40c130bc04e68ce6f1ca7cfab34666fc69",
+      "after": "00ae1561ca997cb00576786bb56ef0eb70e84670bc8f8cb8d47fdba613f8531b",
+      "reason": "Production build advances the existing content-based release counter once."
+    }
+  ],
+  "added": {
+    "dist/lessons.js": "a1db14d24cc8c99de0c28e6ed9513e0b38becbbb8f4380ea3a0a382075fce966",
+    "dist/course-lessons.js": "01e6b0bc42e26e23c6087703ca5742cb15cea15640f87bf9ff8c41cb86393074"
+  }
+}

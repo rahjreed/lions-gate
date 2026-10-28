@@ -69,7 +69,7 @@ export function advance(run,bank,random=Math.random){
  }
  // Extend only when needed, through the same approved, difficulty-aware selector.
  // Avoid every question in this encounter where the eligible pool permits it.
- if(run.index+1>=run.queue.length){const seen=new Set(run.queue.map(q=>q.id)),batch=selectQuestions(bank,run,random,[...seen]);run.queue.push(batch.find(q=>!seen.has(q.id))||batch.find(q=>q.id!==run.queue.at(-1).id)||batch[0])}
+ if(run.index+1>=run.queue.length){const seen=new Set(run.queue.map(q=>q.id)),batch=selectQuestions(bank,run,random,[...seen],[...seen]);run.queue.push(batch.find(q=>!seen.has(q.id))||batch.find(q=>q.id!==run.queue.at(-1).id)||batch[0])}
  run.index++;run.status='playing';run.remaining=levelConfig(run.level).seconds;run.eliminated=[];run.shielded=false;return true;
 }
 export function nextLevel(run,bank,random=Math.random){if(run.status!=='levelup')return false;run.level++;beginLevel(run,bank,random);return true}

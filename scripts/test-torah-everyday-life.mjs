@@ -1,3 +1,4 @@
+import {expectedCourseRevision} from './course-revision.mjs';
 import assert from 'node:assert/strict';
 import {readFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
@@ -34,8 +35,8 @@ for(const q of batch){
 assert.deepEqual([0,1,2,3].map(n=>batch.filter(q=>q.answer===n).length),[13,13,12,12]);
 for(const level of [1,75,300,450,700,10000]){const selected=selectQuestions([...questions,...batch],{level,history:{}});assert.equal(selected.length,10);assert.ok(selected.every(q=>questions.some(live=>live.id===q.id)),'Drafts must not enter gameplay at any stage');}
 // Publication deliberately changes the additions module and its generated cache.
-// Permit only the exact authorized 68-record export, not arbitrary new content.
-if(publishedQuestions.length)assert.deepEqual(publishedQuestions,JSON.parse(await read('content/launch/reviewed-candidates.json')),'Only the exact authorized publication may supersede the two pre-publication snapshots');
+// Permit only the exact authorized 68-record and course-50 exports.
+if(publishedQuestions.length)assert.deepEqual(publishedQuestions,[...JSON.parse(await read('content/launch/reviewed-candidates.json')),...JSON.parse(await read('content/reviewed/course-50-approved.json'))],'Only the two exact owner-authorized exports may supersede the pre-publication snapshots');
 const runtimeRevisions=JSON.parse(await read('content/launch/runtime-fixes.json')).fixes;
-for(const [path,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(path))continue;assert.equal(sha(await readFile(new URL(path,root))),runtimeRevisions.find(f=>f.file===path)?.after||hash,'Existing content/runtime changed outside its documented revision: '+path);}
+for(const [path,hash] of Object.entries(audit.preservedFiles)){if(publishedQuestions.length&&['dist/published-questions.js','dist/sw.js'].includes(path))continue;assert.equal(sha(await readFile(new URL(path,root))),expectedCourseRevision(path,runtimeRevisions.find(f=>f.file===path)?.after||hash),'Existing content/runtime changed outside its documented revision: '+path);}
 console.log(`PASS Torah everyday life: 50 candidates; exact 10/8/8/8/8/8 categories; editorial 2–8 mapping; all passage/evidence records intact; 0 schema/quality/duplicate/disclosure warnings against ${peers.length} existing records; no draft publication; ${Object.keys(audit.preservedFiles).length} source snapshots enforced with explicit authorized runtime revisions. Source accuracy remains an editorial finding, not a consequence of this test.`);

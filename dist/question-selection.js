@@ -1,8 +1,8 @@
 import {focusTags} from './focus-questions.js';
 import {contentFingerprint,validateQuestions} from './question-rules.js';
-import {knowledgeFor,knowledgeStage,normalizedText} from './knowledge.js';
+import {knowledgeFor,knowledgeStage,normalizedText,answerConflict} from './knowledge.js';
 
-export function selectKnowledgeQuestions(bank,run,random=Math.random,avoid=[]){
+export function selectKnowledgeQuestions(bank,run,random=Math.random,avoid=[],encounterIds=[]){
  const stage=knowledgeStage(run.level),boss=run.level%5===0;
  const target=boss?stage.bossTarget:stage.target,ids=new Set(),stems=new Set();
  // Validate publication state even when a caller passes a mixed import batch.
@@ -14,8 +14,13 @@ export function selectKnowledgeQuestions(bank,run,random=Math.random,avoid=[]){
    ids.add(q.id);stems.add(stem);return true;
   }catch{return false}
  });
- const eligible=approved.filter(q=>knowledgeFor(q).complexity<=Math.ceil(target));
- const pool=eligible.length>=10?eligible:approved;
+ // Extensions must respect disclosure conflicts with the whole encounter,
+ // not only with the other items in this newly selected batch. Repeating the
+ // same item remains a last-resort option for a constrained approved pool.
+ const encounter=new Set(encounterIds),prior=approved.filter(q=>encounter.has(q.id));
+ const available=prior.length?approved.filter(q=>!prior.some(p=>p.id!==q.id&&answerConflict(p,q))):approved;
+ const eligible=available.filter(q=>knowledgeFor(q).complexity<=Math.ceil(target));
+ const pool=eligible.length>=10?eligible:available;
  if(pool.length<10)throw Error('At least ten passage-approved questions are required.');
  const used=run.history||{},asked=run.asked??Object.values(used).reduce((max,h)=>Math.max(max,h.last),0),avoided=new Set(avoid);
  const items=pool.map(q=>{

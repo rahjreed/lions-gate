@@ -1,10 +1,10 @@
 # Biblical Knowledge Engine
 
-Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). Current local inventory: **110 live questions (42 original + 68 authorized AI-assisted additions), 132 unpublished candidates (32 held + 50 Torah drafts + 50 course drafts)**. The 200 candidate source records include 68 retained working copies of published IDs. See [local publication verification](LOCAL_PUBLICATION_REPORT.md) and the [course draft review](content/BIBLICAL_COURSE_50_REVIEW.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) preserves the existing display 1–3 / complexity 1–7 schema; publication does not imply independent human Scripture verification.
+Permanent curriculum/editorial policy: [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md). Current local inventory: **160 live questions (42 original + 68 previous authorized additions + 50 authorized course additions), 82 unpublished candidates (32 held + 50 Torah drafts)**. The 200 candidate source records include 118 retained working copies of published IDs. See [local publication verification](LOCAL_PUBLICATION_REPORT.md) and the [course draft review](content/BIBLICAL_COURSE_50_REVIEW.md). The opt-in adapter in [LOCAL_QUESTION_REVIEW.md](LOCAL_QUESTION_REVIEW.md) preserves the existing display 1–3 / complexity 1–7 schema; publication does not imply independent human Scripture verification.
 
-The [ten-unit course syllabus](BIBLICAL_COURSE_SYLLABUS.md) adds historical organization alongside all 18 subject topics. Its 50 drafts have unit/objective metadata and source evidence, with 25 provisionally mapped to complexity 4–7. None is approved or live. Historical progression, semantic-family rotation and optional lesson labels are proposals only; current selection and saved queues are unchanged. Earlier inventory counts below are explicitly historical or describe earlier batches.
+The [ten-unit course syllabus](BIBLICAL_COURSE_SYLLABUS.md) adds historical organization alongside all 18 subject topics. Its 50 course records have now been published locally with explicit owner authorization and AI-assisted review, including 25 provisionally mapped to complexity 4–7. Historical progression and semantic-family rotation remain proposals. Scripture lessons are now implemented across all 160 live questions; saved queues are unchanged. The existing disclosure check also covers extensions of a battle. See SCRIPTURE_LESSONS_AND_JOURNAL.md. Earlier inventory counts below are explicitly historical or describe earlier batches.
 
-This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. Exactly 68 additions have been published locally with explicit owner authorization; no deployment has occurred.
+This upgrade changes educational content selection and authoring only. Combat times, points, lives, retry reward limits, ranks, armor, animations, local-save version 3 and PWA behavior retain their existing rules. Saved queues are restored unchanged. Exactly 118 additions have been published locally with explicit owner authorization; no deployment has occurred.
 
 ## Curriculum
 
@@ -31,7 +31,7 @@ The proposed campaign extends advanced Scripture comparison, contextual interpre
 
 The legacy `difficulty` 1–3 remains the display tier. New records additionally have `knowledge.complexity` 1–7, `knowledge.category`, `knowledge.concept` and `knowledge.mode` (`explicit`, `multi-passage`, `framework`). Use 1–2 for recall, 3 for close context, 4–5 for comparison, and 6–7 for demanding passage-supported discernment and leadership scenarios. Difficulty needs human calibration: number of citations alone does not establish difficulty.
 
-**Current limitation:** The 110 live questions cover runtime complexity 1–3, with no live complexity 4–7 material. The engine cannot produce genuinely new advanced reasoning by relabeling them. Higher stages use the hardest eligible reviewed material with rotation. The 50 new Torah drafts remain unpublished.
+**Current coverage:** The 160 live questions cover complexity 1–7 with counts 31/62/42/10/8/5/2. Advanced breadth remains limited, especially complexity 6–7; existing fallback and rotation rules remain necessary. The 50 Torah everyday-life drafts remain unpublished.
 
 ## Rotation and saves
 
@@ -43,11 +43,11 @@ The legacy `difficulty` 1–3 remains the display tier. New records additionally
 - Preserve the `{id, order}` queue format. Save optional `misses` and `lastCorrect` history fields; older histories without them remain valid.
 - Fall back to available reviewed difficulty if the eligible pool is too small. Never admit a draft to fill a level. Fail clearly if fewer than ten non-conflicting approved items exist.
 
-Repetition cannot be eliminated with 110 questions, especially with focus and Gatekeeper quotas. Retry avoidance and cooldown are preferences, not promises when the pool is constrained.
+Repetition cannot be eliminated with 160 questions, especially with focus and Gatekeeper quotas. Retry avoidance and cooldown are preferences, not promises when the pool is constrained.
 
 ## Records and safeguards
 
-The original 42 records, citations, answers and fixed approval fingerprints remain intact. A sidecar maps their subjects into the seven curriculum categories without rewriting their reviewed content. Explicit publication appends records from `dist/published-questions.js` (now the exact 68 authorized additions).
+The original 42 records, citations, answers and fixed approval fingerprints remain intact. A sidecar maps their subjects into the seven curriculum categories without rewriting their reviewed content. Explicit publication appends records from `dist/published-questions.js` (now the exact 68 earlier additions plus 50 authorized course additions).
 
 New records keep all legacy fields and add knowledge metadata and optional `supportingScriptures`. Each supporting citation has the same KJV book/chapter/verse/excerpt/URL fields as the primary citation. The complete content, knowledge metadata, framework and supporting citations are included in the approval fingerprint. Multi-passage records need supporting citations. Framework questions must name `interpretiveFramework` in their player-facing question.
 
@@ -90,6 +90,6 @@ Current release-specific targets and exact complexity gaps are in [ADVANCED_QUES
 
 The knowledge suite tests all 75-level boundaries, monotonic targets through 10,000 levels and safe-integer extremes, mixed difficulty, category variety, delayed reinforcement, retry freshness, old saves, immutable restored queues, Gatekeeper traps, draft exclusion, publication gating and malformed/duplicate/leaking/framework cases. A synthetic 1,000-record bank verifies capacity; these fixtures are not educational content and cannot enter the live bank. Timing is measured locally and is not a physical-phone benchmark.
 
-To reach **500 live questions** from the current 110, add **390** separately approved records. Review batches of 25–50. A useful eventual allocation is 70 people, 80 Torah, 60 Yeshua, 80 connections, 70 context, 70 Kingdom and 70 discernment questions, counting existing records toward those totals. Cover the traditional Apocrypha deliberately alongside OT/NT passages, and maintain enough genuinely relevant focus-tagged items for the 7:3 rotation. Track coverage and source diversity rather than filling quotas with near duplicates.
+To reach **500 live questions** from the current 160, add **340** separately approved records. Review batches of 25–50. A useful eventual allocation is 70 people, 80 Torah, 60 Yeshua, 80 connections, 70 context, 70 Kingdom and 70 discernment questions, counting existing records toward those totals. Cover the traditional Apocrypha deliberately alongside OT/NT passages, and maintain enough genuinely relevant focus-tagged items for the 7:3 rotation. Track coverage and source diversity rather than filling quotas with near duplicates.
 
 Prioritize complexity 4–7, distinct passage comparisons and careful leadership scenarios: this is the current capacity gap. Pilot distractors and difficulty with readers, review miss rates, and adjust unpublished candidates before approval. Expand unique concepts and several variants at different complexities before claiming low repetition across hundreds of levels. Review live content changes explicitly; never invalidate saved queues by silently removing published IDs.

@@ -1,6 +1,6 @@
 # Lion's Gate — Biblical Course Syllabus
 
-Established October 27, 2026. Educational design and draft content only. This historical course **adds a second organizational axis** to the 18 subjects in [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md); it does not replace them or change the current selector, ranks, armor, saves or gameplay. Successful completion of Level 700 remains the planned Kingdom-entry milestone, not an implemented transformation.
+Established October 27, 2026; publication/lesson update October 28. The original educational design is preserved. All 50 survey records are now live under explicitly authorized AI-assisted review; Scripture lesson labels are implemented, while the future historical selector and journal remain proposals. This historical course **adds a second organizational axis** to the 18 subjects in [BIBLICAL_CURRICULUM_AND_DOCTRINE.md](BIBLICAL_CURRICULUM_AND_DOCTRINE.md); it does not replace them or change the current selector, ranks, armor, saves or gameplay. Successful completion of Level 700 remains the planned Kingdom-entry milestone, not an implemented transformation.
 
 The goal is understanding the whole biblical narrative and every identifiable Torah commandment. Fifty survey questions cannot accomplish that goal. All 187 Torah chapter slots still require a comprehensive commandment/objective catalog, including recipients, stated purposes, conditions, exceptions and applications. No chapter or numerical total of commandments is certified by this syllabus.
 
@@ -126,11 +126,11 @@ Use concept families plus specific objectives: failure on one objective can sche
 
 Track exposure separately from mastery: seeing one question does not complete a unit or certify a commandment. Record an objective as mastered only after spaced successful application at the appropriate complexity; the mastery rule itself is future design. The five questions per unit are an initial survey, not a course-completion assessment.
 
-An optional future answer-reveal label could read **Lesson: Israel's Covenant at Sinai**, drawn from `editorial.courseUnitId` plus a reviewed lesson name. Do not expose editorial status or research sources as player instructions. No reveal UI or runtime metadata export is changed in this task.
+An optional future answer-reveal label could read **Lesson: Israel's Covenant at Sinai**, drawn from `editorial.courseUnitId` plus a reviewed lesson name. Do not expose editorial status or research sources as player instructions. The October 28 follow-up implements lesson titles/objectives and labels from explicit metadata. Historical selection changes remain unimplemented.
 
 ## Expansion and approval workflow
 
-The new batch is `content/candidates/biblical-course-50.json`; all 50 remain candidates. Evidence and four-option rationales are in `content/biblical-course-50-evidence.json`; AI source comparison is explicitly separate from independent human review and approval. Review through the existing localhost app, then separately authorize export/publication through the existing validated workflow. No approval ledger or historical release manifest is rewritten to admit these drafts.
+The source batch is `content/candidates/biblical-course-50.json`; its 50 working copies retain candidate status, while current ledger-approved copies have now been published locally. Evidence and four-option rationales are in `content/biblical-course-50-evidence.json`; AI source comparison is explicitly separate from independent human review and approval. Review through the existing localhost app, then separately authorize export/publication through the existing validated workflow. No approval ledger or historical release manifest is rewritten to admit these drafts.
 
 Preserve all 18 subject queues and build a parallel unit/objective catalog. Next prioritize Unit 06 priesthood, offerings, purity and intricate judgments, then Units 08–10 restoration, prophetic context and government. Keep secondary strands for appearance, marriage, land, vulnerable people and prayer; none may disappear because historical survey questions are easier to write. Deliberately expand traditional Apocrypha connections where they clarify the same objectives without forcing quotations or harmonizations.
 

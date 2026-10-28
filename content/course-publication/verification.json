@@ -1,0 +1,71 @@
+{
+  "checkedOn": "2026-10-28",
+  "authorization": "Owner explicitly authorized AI-assisted editorial review and local publication of the 50 course questions in the October 28, 2026 task. This is NOT independent human Scripture certification and NOT owner-performed passage verification.",
+  "published": 50,
+  "excluded": [],
+  "live": 160,
+  "originalLivePreserved": 110,
+  "completeLessonProfiles": 160,
+  "explanationFallbacks": 0,
+  "originalExplanationsReused": 160,
+  "lessonWordRange": [
+    46,
+    102
+  ],
+  "withRelatedScriptures": 39,
+  "remainingUnpublished": 82,
+  "complexities": {
+    "1": 31,
+    "2": 62,
+    "3": 42,
+    "4": 10,
+    "5": 8,
+    "6": 5,
+    "7": 2
+  },
+  "quality": {
+    "count": 50,
+    "errors": [],
+    "warnings": [
+      "course-creation-sanctified-rest-reason / sabbath-day: possible answer disclosure; do not co-select",
+      "course-creation-sanctified-rest-reason / creation-rest: possible answer disclosure; do not co-select"
+    ],
+    "publicationReady": true
+  },
+  "suiteCount": 27,
+  "version": "1.3",
+  "localBrowserChecks": {
+    "mobile320": [
+      320,
+      568
+    ],
+    "mobile390": [
+      390,
+      844
+    ],
+    "desktop": [
+      1280,
+      800
+    ],
+    "longLessonCharacters": 7543,
+    "correctAndIncorrect": true,
+    "relatedLinksAndExpandedPassages": true,
+    "keyboardFocusWrap": true,
+    "explicitContinue": true,
+    "pauseResume": true,
+    "timerStayedAt26DuringExtendedReading": true,
+    "savedFeedbackRestoredWithoutExtraDamage": true,
+    "noHorizontalOverflow": true,
+    "continueVisible": true,
+    "finalPreviewConsoleWarningsOrErrors": []
+  },
+  "limitations": [
+    "AI-assisted review is not independent human Scripture certification.",
+    "No physical iPhone/Android or public deployment check performed.",
+    "Existing installed PWA windows may retain their currently loaded bundle until the existing update/reopen flow applies the new shell. Browser inspection of the final bundle used a fresh local preview origin.",
+    "Advanced breadth is limited: only 5 complexity-6 and 2 complexity-7 questions; progression to Level 700 will repeat material.",
+    "Only the 50 course questions have explicitly assigned ten-unit labels; the other 110 have individual lessons without invented historical-unit mappings."
+  ],
+  "journalImplemented": false,
+  "commitPushDeployPerformed": false
+}
