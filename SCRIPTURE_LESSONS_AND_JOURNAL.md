@@ -21,14 +21,13 @@ The course question retains two acknowledged disclosure warnings with `sabbath-d
 
 ## Player experience
 
-The existing retro answer overlay now presents:
+Normal gameplay again uses the compact retro answer overlay that preceded the lesson interface. Only the presentation was restored; publication, question content and lesson data remain intact. It presents:
 
 - Correct/incorrect result, points or protected/lost life feedback, and the correct answer.
-- A Scripture lesson title, with a historical course unit when explicitly mapped.
-- The original reviewed explanation plus concise passage-grounded context.
-- Primary Scripture and existing evidenced supporting references under Related Study.
-- A specific learning objective and expandable KJV evidence already attached to the question.
-- The existing prominent Continue action, fixed outside the internal scrolling lesson area.
+- The original short reviewed explanation and linked primary Scripture, with existing supporting citation links where present.
+- The existing prominent Continue action, fixed outside the internal scrolling explanation area, without lesson expansion or additional study clicks.
+
+Lesson titles, course headings, objectives, added historical context and expandable related-passage study are absent from normal gameplay. Their metadata is retained for a future optional Journal or Study Mode; neither feature is implemented.
 
 All **160 questions have complete presentation profiles**: 50 course profiles and 110 original-bank profiles. **Zero live questions use the missing-profile fallback.** All 160 reuse the original reviewed explanation as their first teaching paragraph; this reuse is not counted as a missing-metadata fallback. Explanations plus context are typically about 40–100 words; the tested upper allowance is 110 words for foundational profiles. Advanced material can take more reading. **39 questions have existing supporting citations**; other questions do not acquire speculative cross-references merely to fill a field.
 
@@ -36,11 +35,11 @@ Profiles are in `dist/course-lessons.js`, compiled explicitly from the two curat
 
 The lesson resolver checks each question fingerprint. A changed or unknown question safely uses its current explanation, topic/title and generated or supplied objective; it never reuses stale expanded context. No lesson rendering writes progress, answers or rewards. The fallback is tested for absent optional metadata and long explanations.
 
-Combat still finishes before the modal opens. Correct/incorrect effects, 10-hit victory, five lives, shields, scores, streaks, ranks, armor and retries retain their rules. There is no reading deadline or automatic Continue. Pause closes the native answer dialog and Resume restores it. The question timer remains stopped in feedback. Keyboard focus includes Scripture links, the expandable passage summary, the scroll region and Continue. The internal scroll region holds long content without moving the footer off-screen.
+Combat still finishes before the modal opens. Correct/incorrect effects, 10-hit victory, five lives, shields, scores, streaks, ranks, armor and retries retain their rules. There is no reading deadline or automatic Continue. Pause closes the native answer dialog and Resume restores it. The question timer remains stopped in feedback. Keyboard focus includes Scripture links, the scroll region and Continue. The internal scroll region holds long content without moving the footer off-screen.
 
 ## Curriculum and educational depth
 
-The ten-unit syllabus and 18-subject curriculum remain complementary. Only the 50 questions carrying explicit historical-unit metadata display a unit label; other lessons have descriptive titles and objectives without a guessed unit assignment. Related passages remain the question's existing primary/supporting evidence.
+The ten-unit syllabus and 18-subject curriculum remain complementary. Only the 50 questions carrying explicit historical-unit metadata have a unit label in the retained lesson data; other profiles have descriptive titles and objectives without a guessed unit assignment. These labels are no longer displayed during answer reveals. Related passages remain the question's existing primary/supporting evidence.
 
 The live complexity distribution is **31/62/42/10/8/5/2** across complexities **1–7**. Thus the published course adds 25 genuinely intended advanced comparison/application items without relabeling an existing easy question. Existing continuous stage targets, focus quotas and Gatekeeper rules are unchanged. Difficulty is still provisional educational calibration, not a human-certified measure. A 160-question bank cannot promise a unique question at every step to Level 700. Priesthood, purity, interacting judgments, prophecy and leadership still need substantial separately reviewed expansion.
 

@@ -13,6 +13,10 @@ for(const choice of ['correct','wrong','timeout','shield']){
  assert.ok(html.includes(scriptureReference(q)));assert.ok(html.includes(q.scripture.url));
  assert.match(html,/id="next"[^>]+data-action="next"[^>]*>CONTINUE/);
  assert.match(html,choice==='correct'?/Correct!/:/Incorrect/);
+ assert.ok(html.includes(q.correctAnswer.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));
+ assert.doesNotMatch(html,/scripture-lesson|lesson-objective|lesson-context|lesson-related|lesson-passages|<details|<summary/);
+ assert.equal((html.match(/data-action="next"/g)||[]).length,1,'One Continue, without study acknowledgement');
+ assert.match(html,/target="_blank" rel="noopener noreferrer"/);
  if(choice==='shield')assert.ok(html.includes('LIFE PROTECTED')&&!html.includes('ONE LIFE LOST'));
  assert.deepEqual(run,snapshot);assert.deepEqual(q,source);
 }

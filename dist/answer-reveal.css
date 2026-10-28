@@ -13,15 +13,6 @@ html{scrollbar-gutter:stable}html.answer-reveal-open{overflow:hidden}
 #reveal-answer{margin:0 0 12px}#reveal-answer small{display:block;margin-bottom:7px;color:#a4b9cc;font:9px/1.6 var(--mono);letter-spacing:1.5px}#reveal-answer strong{font-size:21px;color:#f6ecd4;line-height:1.5}
 .reveal-copy .scripture-confirmation{font:11px/1.9 var(--mono);color:#a9e2d9;margin:0 0 18px;border-bottom:1px solid #78aaa15c;padding-bottom:5px}
 .reveal-explanation{margin:0 0 15px;white-space:pre-line}.reveal-copy .trap-check{font-size:13px;margin:0;line-height:1.85}
-.scripture-lesson{min-width:0}.lesson-kicker{margin:0 0 8px;color:#e6c46e;font:9px/1.7 var(--mono);letter-spacing:1px}
-.scripture-lesson h3{margin:0 0 10px;color:#f6ecd4;font:14px/1.7 var(--pixel);overflow-wrap:anywhere;text-shadow:1px 2px #080f1e}
-.lesson-unit{margin:0 0 18px;color:#aebfd0;font:11px/1.7 var(--mono)}
-.lesson-primary,.lesson-related{margin:0 0 16px}.lesson-primary small,.lesson-related small{display:block;font:9px/1.8 var(--mono);color:#a4b9cc;letter-spacing:1px}
-.lesson-context{font-size:13px;color:#c9d6df;border-left:2px solid #8d9cb0;padding-left:12px;margin:0 0 16px}.lesson-context strong,.lesson-objective strong{display:block;color:#e6c46e;font:9px/1.8 var(--mono);letter-spacing:.7px}
-.lesson-objective{margin:16px 0;padding:12px;background:#101c2e;border:1px solid #60708280;font-size:13px}
-.lesson-passages{margin-top:14px;border-top:1px solid #60708280}.lesson-passages summary{cursor:pointer;min-height:44px;display:list-item;padding:12px 2px;color:#a9e2d9;font:10px/1.8 var(--mono)}
-.lesson-passages summary:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}.lesson-passages blockquote{margin:8px 0 16px;padding:0 0 0 12px;border-left:2px solid #607082;color:#c9d6df;font-size:13px}.lesson-passages cite{font:11px/1.8 var(--mono);font-style:normal;color:#e6c46e}.lesson-passages blockquote p{margin:8px 0}
-@media(max-width:560px){.scripture-lesson h3{font-size:12px;line-height:1.8}.lesson-kicker{font-size:8px}.lesson-unit{font-size:10px}.lesson-context,.lesson-objective{font-size:13px}.lesson-related a{display:inline-block;max-width:100%;overflow-wrap:anywhere}}
 .answer-reveal .reveal-footer{width:100%;max-width:none;margin:0;padding:17px 26px 22px;border-top:1px solid #6d7d925e;display:flex;flex-direction:column;align-items:center;gap:12px;background:#162136}
 .reveal-footer>span{font:8px/1.7 var(--mono);letter-spacing:1px;color:#b0c2d3}.reveal-footer .button{width:100%;min-height:52px;font-size:11px;margin:0}
 @keyframes reveal-window-in{from{opacity:0;transform:translateY(9px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes reveal-backdrop-in{from{opacity:0}to{opacity:1}}

@@ -35,7 +35,12 @@ for(const q of questions){
  if(lesson.fallback)fallback++;else{complete++;assert.equal(courseLessons[q.id].questionFingerprint,contentFingerprint(q));assert.ok(lesson.context);if(q.id.startsWith('course-'))assert.ok(lesson.courseUnitId&&lesson.courseUnitTitle);const words=(lesson.explanation+' '+lesson.context).split(/\s+/).length;assert.ok(words>=40,'Lesson needs meaningful explanation: '+q.id);if((q.knowledge?.complexity||q.difficulty)<=3)assert.ok(words<=110,'Keep foundation lessons concise: '+q.id);}
  if(lesson.related.length)withRelated++;
  const correct=answerRevealMarkup({q,last:{correct:true,earned:100},streak:1}),wrong=answerRevealMarkup({q,last:{correct:false,choice:(q.answer+1)%4},streak:0});
- const section=html=>html.match(/<section class="scripture-lesson"[\s\S]*?<\/section>/)[0];assert.equal(section(correct),section(wrong));assert.match(correct,/SCRIPTURE LESSON/);assert.match(correct,/LESSON OBJECTIVE/);assert.match(correct,/data-action="next"/);assert.ok(correct.includes(q.scripture.url));assert.equal(digest(q),before);
+ const section=html=>html.match(/<div class="reveal-copy"[\s\S]*?<\/div>/)[0];assert.equal(section(correct),section(wrong));
+ for(const html of [correct,wrong]){
+  assert.doesNotMatch(html,/SCRIPTURE LESSON|LESSON OBJECTIVE|RELATED STUDY|IN CONTEXT|lesson-title|lesson-unit|lesson-passages|<details|<summary/);
+  assert.match(html,/data-action="next"/);assert.ok(html.includes(q.scripture.url));assert.ok(html.includes(q.explain.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));
+ }
+ assert.equal(digest(q),before);
 }
 assert.equal(complete,160);assert.equal(fallback,0);
 const minimal={...structuredClone(questions[0]),id:'minimal-optional-profile'};delete minimal.knowledge;delete minimal.editorial;delete minimal.supportingScriptures;assert.equal(lessonFor(minimal).fallback,true);assert.ok(answerRevealMarkup({q:minimal,last:{correct:true,earned:0},streak:0}).includes(minimal.explain));
@@ -58,4 +63,4 @@ for(const level of [1,5,700]){
 }
 const seen=new Set(),history={};let asked=0;for(let level=1;level<=1000;level++)for(const item of selectQuestions(questions,{level,history,asked},()=>.42)){seen.add(item.id);history[item.id]={count:(history[item.id]?.count||0)+1,last:++asked,lastCorrect:true}}
 assert.ok(batch.every(q=>seen.has(q.id)),'All 50 published additions are available to runtime progression');
-console.log(`PASS Scripture lessons: 160 live; unchanged original 110; 50 current AI-attributed approvals; 160 expanded lessons / 0 live fallbacks; ${withRelated} with evidenced related passages; identical correct/wrong teaching; source-bound context, stale fallback, escaping, immutable legacy saves, initial/extended disclosure guards, 14-answer battles and all 50 additions selected through Level 1000.`);
+console.log(`PASS preserved lesson data / compact reveals: 160 live; unchanged original 110; 50 current AI-attributed approvals; 160 retained expanded lessons / 0 live fallbacks; ${withRelated} with evidenced related passages; identical short correct/wrong explanations without lesson panels or extra clicks; source-bound context, stale fallback, escaping, immutable legacy saves, initial/extended disclosure guards, 14-answer battles and all 50 additions selected through Level 1000.`);
