@@ -7,12 +7,12 @@ import {createRun,beginLevel,retryLevel,nextLevel,levelConfig} from '../dist/eng
 import {emptyProfile,saveProfile,loadProfile,captureProgress} from '../dist/storage.js';
 for(const pool of Object.values(dialoguePools)){
  assert.equal(new Set(pool.map(e=>e[0])).size,pool.length);
- for(const pair of pool)for(const line of pair)assert.ok(line.length<=65,'Keep mobile lines brief');
+ for(const pair of pool)for(const line of pair)assert.ok(line.length<=90,'Keep mobile lines brief');
 }
 const regular=Array.from({length:10000},(_,i)=>i+1).filter(n=>n%5),boss=Array.from({length:2000},(_,i)=>(i+1)*5);
 for(const levels of [regular,boss]){
  for(let i=0;i<levels.length;i++){const d=dialogueFor(levels[i]);assert.deepEqual(dialogueFor(levels[i]),d);if(i)assert.notEqual(d.id,dialogueFor(levels[i-1]).id);}
- const size=levels===regular?24:12;assert.equal(new Set(levels.slice(0,size).map(n=>dialogueFor(n).id)).size,size);
+ const size=levels===regular?30:5;assert.equal(new Set(levels.slice(0,size).map(n=>dialogueFor(n).id)).size,size);
 }
 for(const level of [1,5,335,410,700,1000000,Number.MAX_SAFE_INTEGER])assert.equal(dialogueFor(level).boss,level%5===0);
 const source=await readFile(new URL('../dist/app.js',import.meta.url),'utf8');
@@ -41,4 +41,4 @@ for(const level of [1,5]){const session=new EncounterDialogue(level),first=dialo
 assert.match(source,/if\(pendingDialogue\(run\)\)return beginEncounter\(true\)/);
 assert.match(source,/if\(view!=='game'\|\|!run/,'No hidden answer input during introductions');
 assert.match(source,/dialogue-setting/);assert.match(source,/dialogue-disable/);
-console.log('PASS encounter dialogue: 24 regular/12 boss exchanges; deterministic full-cycle variety; manual phases; fresh/retry/journey entry; immediate skip; immutable gameplay; frozen clock; pause/background/restore; idempotent completion; persisted opt-out; escaped accessible markup.');
+console.log('PASS encounter dialogue: 30 regular/5 boss exchanges; deterministic full-cycle variety; manual phases; fresh/retry/journey entry; immediate skip; immutable gameplay; frozen clock; pause/background/restore; idempotent completion; persisted opt-out; escaped accessible markup.');

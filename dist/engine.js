@@ -1,5 +1,5 @@
 import {flawlessState,breakFlawless,completeFlawlessLevel,validFlawless} from './flawless.js';
-import {newBattleDialogue,queueBattleDialogue,validBattleDialogue} from './battle-dialogue.js';
+import {newBattleDialogue,queueBattleDialogue,validBattleDialogue,clearBattleDialogue} from './battle-dialogue.js';
 import {selectKnowledgeQuestions} from './question-selection.js';
 export const VERSION=3;
 export const MAX_LIVES=5;
@@ -61,7 +61,7 @@ export function submit(run,bank,choice){
 export function advance(run,bank,random=Math.random){
  if(run.status!=='feedback')return false;
  if(run.lives<=0){breakFlawless(run);run.status='gameover';run.endedAt=new Date().toISOString();return true}
- if(successfulHits(run)>=HITS_TO_WIN){completeFlawlessLevel(run);const previous=rankLabel(rankFor(masteryCompleted(run)));run.completed=run.level;run.rankHighWater=masteryCompleted(run);
+ if(successfulHits(run)>=HITS_TO_WIN){clearBattleDialogue(run);completeFlawlessLevel(run);const previous=rankLabel(rankFor(masteryCompleted(run)));run.completed=run.level;run.rankHighWater=masteryCompleted(run);
   if(run.answers.every(a=>a.correct)){run.score+=levelConfig(run.level).bonus;run.perfects++}
   if(levelConfig(run.level).boss)run.bosses++;
   run.lastPromotion=previous!==rankLabel(rankFor(masteryCompleted(run)))?rankLabel(rankFor(masteryCompleted(run))):null;

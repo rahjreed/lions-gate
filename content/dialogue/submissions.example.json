@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "id": "COMM-001",
+      "contributor": "Example nickname — private, optional",
+      "category": "pre-battle",
+      "opponent": "Thou canst not pass while I stand!",
+      "judah": "Then sitting down is an option.",
+      "scripture": null,
+      "containsScriptureQuotation": false,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -49,3 +49,15 @@
 }
 @media(prefers-reduced-motion:reduce){.flawless-reward.restored{animation:none}}
 @media(max-width:760px) and (max-height:620px){body.celebrating .result-screen:has(.flawless-reward){row-gap:3px}.flawless-reward{margin-bottom:0}}
+
+/* Preserve the owner's longer original replies without shrinking their type.
+   During short portrait dialogue only, prioritize the paired speakers/controls. */
+@media(max-width:760px) and (max-height:680px) and (orientation:portrait){
+ body.gameplay:has(.encounter-panel) .hud,body.gameplay:has(.encounter-panel) .rank-strip{display:none}
+ body.gameplay:has(.encounter-panel) .game-scene{height:clamp(64px,13dvh,82px)}
+ body.gameplay .encounter-panel{padding:6px 8px}
+ .encounter-panel h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);margin:0}
+ .dialogue-lines{gap:6px}
+ .speech-bubble{padding:6px 8px;max-width:100%;overflow-wrap:anywhere}
+ .dialogue-controls{margin-top:8px;gap:4px}
+}

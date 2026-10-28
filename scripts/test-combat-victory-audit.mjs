@@ -63,7 +63,7 @@ function appHarness(run,reduced=false){
  const cclock=clock(),d=new CombatDirector(cclock.options),profile=emptyProfile(),saved={data:null,getItem(){return this.data},setItem(k,v){this.data=v}},log={frames:[],reveals:[],health:[],numbers:[],advances:0};profile.settings.skipDialogue=true;
  const control={setAttribute(){},focus(){}},app={innerHTML:'',querySelectorAll:()=>[],insertAdjacentHTML(){}};
  const c={run,profile,questions:bank,view:'game',paused:false,deadline:0,combat:d,pendingCombatHUD:null,storageOK:true,armorItems:[],armorReveal:{close(){}},app,
-  submit,advance:(...args)=>{const ok=advance(...args);if(ok)log.advances++;return ok},combatHealth,combatDamageFeedback,combatHealthMarkup,romanSoldier,finisherVariation,masteryCompleted,wardrobeFor,levelConfig,gateProgress,pendingBattleDialogue,pendingDialogue,
+  submit,advance:(...args)=>{const ok=advance(...args);if(ok)log.advances++;return ok},combatHealth,combatDamageFeedback,combatHealthMarkup,romanSoldier,finisherVariation,masteryCompleted,wardrobeFor,levelConfig,gateProgress,pendingBattleDialogue,pendingDialogue,clearBattleDialogue,
   director:{cancel(){}},releasePause(){},updateAudioControls(){},setGameLayout(){},stopClock(){},startClock(){},music(){},persist(){captureProgress(profile,c.run);saveProfile(saved,profile)},
   environments:[{unlock:0}],landscape:()=>'',symbolicGate:()=>'',sword:'',judah:(_,pose)=>`<figure class="judah" data-pose="${pose}"></figure>`,hud:()=>'',esc:String,
   questionScreen:()=>c.battleScene()+'<dialog id="answer-reveal"></dialog>',resultScreen:()=>`RESULT ${c.run.status}`,titleScreen:()=> 'TITLE',mountPause(){},
@@ -72,7 +72,7 @@ function appHarness(run,reduced=false){
   audio:{effect(){},unlock(){}},juice:{clear(){},enter(){},answer(){},burst(){},combatNumber:(_,delta)=>log.numbers.push({at:cclock.now,delta})},
   paintCombat:(_,frame)=>log.frames.push(frame),updateCombatHealth:()=>log.health.push({at:cclock.now,...combatHealth(c.run)}),
   answerReveal:{close(){},open(){log.reveals.push(cclock.now)}},beginBattleDialogue(){throw Error('Unexpected dialogue at encounter end')},beginEncounter(){},beginJourney(){}}
- vm.createContext(c);vm.runInContext(['battleScene','restoreCombatPresentation','render','choose','playCombat','proceed','setView','act'].map(definition).join('\n'),c);return {c,clock:cclock,log,saved,d,app};
+ vm.createContext(c);vm.runInContext(['battleScene','previousCombatHUD','restoreCombatPresentation','render','choose','playCombat','proceed','setView','act'].map(definition).join('\n'),c);return {c,clock:cclock,log,saved,d,app};
 }
 for(const level of [1,5])for(const kind of ['ko','survivor','judah'])for(const reduced of [false,true]){
  const h=appHarness(lastQuestion(kind,level),reduced),{c,clock,log,d}=h,before=combatHealth(c.run),choice=kind==='judah'?-1:correctChoice(c.run),duration=kind==='survivor'?920:1600;

@@ -1,0 +1,444 @@
+// Owner-approved fictional dialogue; exact paired wording from the supplied 55-exchange batch.
+// No contributor identities, Scripture quotations or quiz records are published here.
+export const dialogueBank=Object.freeze([
+  {
+    "id": "P01",
+    "category": "pre-battle",
+    "opponent": "Behold! The full might of Rome standeth behind me!",
+    "judah": "If you represent the Might of Rome, Rome is weaker than I thought, Come get this work!",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P02",
+    "category": "pre-battle",
+    "opponent": "For twenty winters have I trained to defeat warriors such as thee!",
+    "judah": "You waited 20 years to cash in this whoopin' you about to get? You shoulda been a doctor.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P03",
+    "category": "pre-battle",
+    "opponent": "Mine helmet was forged to withstand the mightiest blows!",
+    "judah": "It's about to be forged with this blade of steel, come get this work!",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P04",
+    "category": "pre-battle",
+    "opponent": "Caesar hath chosen me as his greatest champion!",
+    "judah": "Well, Caesar done chose wrong.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P05",
+    "category": "pre-battle",
+    "opponent": "Ten thousand soldiers shall avenge my defeat!",
+    "judah": "Defeat? You already giving up?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P06",
+    "category": "pre-battle",
+    "opponent": "None hath ever survived my mighty blade!",
+    "judah": "There's a first time for everything.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P07",
+    "category": "pre-battle",
+    "opponent": "Thou shalt never make it to the Kingdom!",
+    "judah": "I wouldn't bet your life on that!",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P08",
+    "category": "pre-battle",
+    "opponent": "I bear the royal seal of Caesar himself!",
+    "judah": "Tell Caesar he stamped the wrong man.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P09",
+    "category": "pre-battle",
+    "opponent": "My name is feared throughout every province!",
+    "judah": "Then why'd you have to introduce yourself?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P10",
+    "category": "pre-battle",
+    "opponent": "No soul hath crossed this bridge and lived!",
+    "judah": "Sounds like you been counting wrong.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P11",
+    "category": "pre-battle",
+    "opponent": "The earth trembleth beneath my feet!",
+    "judah": "Nah, that's your knees.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P12",
+    "category": "pre-battle",
+    "opponent": "I was born to conquer warriors such as thee!",
+    "judah": "That's a rough day to find out you weren't.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P13",
+    "category": "pre-battle",
+    "opponent": "The gates shall never open for thee!",
+    "judah": "Then why you standing in front of 'em?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P14",
+    "category": "pre-battle",
+    "opponent": "I shall crush thee beneath my boot!",
+    "judah": "Keep that foot planted. Makes you easier to hit.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P15",
+    "category": "pre-battle",
+    "opponent": "Mine shield hath never been broken!",
+    "judah": "So you're due.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P16",
+    "category": "pre-battle",
+    "opponent": "Lay down thy weapon and beg for mercy!",
+    "judah": "You first.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P17",
+    "category": "pre-battle",
+    "opponent": "I have guarded this passage for thirty winters!",
+    "judah": "Thirty years? Man, take a day off.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P18",
+    "category": "pre-battle",
+    "opponent": "I shall strike before thine eyes can blink!",
+    "judah": "You might wanna start before my eyes roll.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P19",
+    "category": "pre-battle",
+    "opponent": "Thou art beneath my notice!",
+    "judah": "Then why you talking to me?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P20",
+    "category": "pre-battle",
+    "opponent": "My sword is as swift as lightning!",
+    "judah": "And your mouth slow as molasses. Pick a speed.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P21",
+    "category": "pre-battle",
+    "opponent": "I am the final trial before the Kingdom!",
+    "judah": "Then this oughta be quick.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P22",
+    "category": "pre-battle",
+    "opponent": "I fear no man who draweth breath!",
+    "judah": "Good. Don't start now.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P23",
+    "category": "pre-battle",
+    "opponent": "Thy confidence shall bury thee!",
+    "judah": "You got a shovel? Better start digging.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P24",
+    "category": "pre-battle",
+    "opponent": "Rome hath never bowed to any man!",
+    "judah": "I ain't here to negotiate with Rome. Just you.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P25",
+    "category": "pre-battle",
+    "opponent": "Thy blade shall shatter upon mine armor!",
+    "judah": "We can test that. Hold still.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P26",
+    "category": "pre-battle",
+    "opponent": "I stand as a wall between thee and thy destiny!",
+    "judah": "Then get ready to be a doorway.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P27",
+    "category": "pre-battle",
+    "opponent": "My skill was forged in fire and blood!",
+    "judah": "You talk like it came with a warranty.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P28",
+    "category": "pre-battle",
+    "opponent": "I shall make thy name a warning!",
+    "judah": "Make sure you spell it right.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P29",
+    "category": "pre-battle",
+    "opponent": "Behold! I command a thousand spears!",
+    "judah": "Then why you sweating over one sword?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "P30",
+    "category": "pre-battle",
+    "opponent": "Thy end is written in the dust!",
+    "judah": "Funny. All I see is your footprints going backward.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H01",
+    "category": "enemy-low",
+    "opponent": "Though I stagger, Rome shall not fall!",
+    "judah": "Rome might not. You definitely about to.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H02",
+    "category": "enemy-low",
+    "opponent": "My strength hath scarcely waned!",
+    "judah": "Then why you leaning on that spear?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H03",
+    "category": "enemy-low",
+    "opponent": "I shall yet strike thee down!",
+    "judah": "Then quit promising and start swinging.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H04",
+    "category": "enemy-low",
+    "opponent": "One more blow cannot undo me!",
+    "judah": "Good thing that's all I got left.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H05",
+    "category": "enemy-low",
+    "opponent": "These wounds are nothing!",
+    "judah": "Then stop checking 'em.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H06",
+    "category": "enemy-low",
+    "opponent": "Behold, I remain standing!",
+    "judah": "For now.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "H07",
+    "category": "enemy-low",
+    "opponent": "Though my knees tremble, my courage faileth not!",
+    "judah": "Well, tell your courage to come help your knees!",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L01",
+    "category": "one-life",
+    "opponent": "Thou hast but one life remaining!",
+    "judah": "And you still ain't finished? That's embarrassing.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L02",
+    "category": "one-life",
+    "opponent": "Four blows have I dealt thee, and yet thou resistest!",
+    "judah": "Four blows and I'm still talking.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L03",
+    "category": "one-life",
+    "opponent": "Thy next mistake shall be thy last!",
+    "judah": "Then you better not make yours.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L04",
+    "category": "one-life",
+    "opponent": "No shield can save thee now!",
+    "judah": "Never asked it to.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L05",
+    "category": "one-life",
+    "opponent": "Thou tremblest at thy final hour!",
+    "judah": "That's the ground. Check your footing.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L06",
+    "category": "one-life",
+    "opponent": "Even thy strength hath abandoned thee!",
+    "judah": "Funny. My sword's still here.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "L07",
+    "category": "one-life",
+    "opponent": "Thou shalt beg for mercy!",
+    "judah": "You practicing your own speech?",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K01",
+    "category": "knockout",
+    "opponent": "I cannot fall! I am Rome's finest!",
+    "judah": "Then they need a new finest.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K02",
+    "category": "knockout",
+    "opponent": "This cannot be mine end!",
+    "judah": "Shoulda read the signs.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K03",
+    "category": "knockout",
+    "opponent": "My sword hath failed me!",
+    "judah": "Nah. You failed your sword.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K04",
+    "category": "knockout",
+    "opponent": "Caesar shall hear of this!",
+    "judah": "Tell him to send somebody ready.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K05",
+    "category": "knockout",
+    "opponent": "I was promised victory!",
+    "judah": "Somebody done told you wrong.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "K06",
+    "category": "knockout",
+    "opponent": "I yield! Spare me this shame!",
+    "judah": "Then quit making a scene.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "G01",
+    "category": "gatekeeper",
+    "opponent": "By whose strength dost thou stand before this gate?",
+    "judah": "The Most High brought me this far.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "G02",
+    "category": "gatekeeper",
+    "opponent": "What light guideth thee when darkness surroundeth thee?",
+    "judah": "The word of the Most High. Open the gate.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "G03",
+    "category": "gatekeeper",
+    "opponent": "What remaineth when sword and shield fail thee?",
+    "judah": "Faith. And the word I was taught.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "G04",
+    "category": "gatekeeper",
+    "opponent": "Thou seekest a Kingdom which thine eyes have not seen.",
+    "judah": "I walk by faith. Now move.",
+    "reviewStatus": "approved",
+    "scripture": null
+  },
+  {
+    "id": "G05",
+    "category": "gatekeeper",
+    "opponent": "Art thou prepared to endure beyond this gate?",
+    "judah": "As long as the Most High gives me breath.",
+    "reviewStatus": "approved",
+    "scripture": null
+  }
+].map(Object.freeze));
