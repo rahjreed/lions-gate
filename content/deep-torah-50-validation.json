@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "batch": "deep-torah-50",
+  "candidateSha256": "e57cbf1ae41d0ab2f3973c7b79b0141cac81b65174022c1f7ae01ace1f11f7c1",
+  "evidenceSha256": "798b45a6bd21c1763aea1bc8682194be9b52930ca15a3ecc7307b8ecfdc2f0fa",
+  "baseline": {
+    "live": 160,
+    "candidateSourceRecords": 200,
+    "unpublished": 82,
+    "coverageSummary": {
+      "liveReviewed": 160,
+      "publishedAdditions": 118,
+      "candidates": 82,
+      "inventoryRecords": 360,
+      "torahChapterSlots": 187,
+      "manualCatalogEntries": 0,
+      "chapterReviews": 0
+    }
+  },
+  "preservedFiles": {
+    "content/editorial/decisions.json": "b43117112622812b54bbc953bb886aa3729e566eb5afe26d023358a2d8c55f50",
+    "dist/questions.js": "8da4f71b10fc64edf23921b21fc3832413a65686bcbe0c78ddab96565c0ac5bd",
+    "dist/published-questions.js": "47cfb7b67599aacaba03814485524e8f74845a8964e5a9dd91bd104492da06b9",
+    "dist/engine.js": "903edbf74638a79213b6af9138cbb31860f39d064177512c794514cba344826e",
+    "dist/app.js": "f8645bf1edaadb308884cd6f61366728552b9f5da008a871f8d2519651156c0b",
+    "content/candidates/initial-50.json": "8b2f788a50c5a53df327a7cd6b8f4e62eccab7be6914996dccb7321c0c2238eb",
+    "content/candidates/kr-101-150.json": "df2de51fef2a275aea5883fc202b4183f74636140944a4be5197a2c923d8da84",
+    "content/candidates/torah-everyday-life-50.json": "164a08ae4f05de05484da26941273b1d06f43f6eed9af55cdaf899ef0f5dc6c8",
+    "content/candidates/biblical-course-50.json": "4f7b363985a61412d9a905eb796ee775033b8d8e65c10374433b7ff51dedd15e"
+  },
+  "runtimeComplexityCounts": {
+    "3": 5,
+    "4": 14,
+    "5": 13,
+    "6": 11,
+    "7": 7
+  },
+  "editorialDifficultyCounts": {
+    "5": 5,
+    "6": 14,
+    "7": 13,
+    "9": 11,
+    "10": 7
+  },
+  "sectionCounts": {
+    "Aaronic Priesthood and Levites": 8,
+    "Cleanliness, Impurity, and Purification": 8,
+    "Complex Torah Applications": 11,
+    "Judicial Laws and Righteous Judgment": 8,
+    "Sacrifices, Offerings, and Atonement": 8,
+    "Tabernacle and Sanctuary": 7
+  },
+  "newlyRepresentedTorahChapters": [
+    "Deuteronomy 13",
+    "Deuteronomy 26",
+    "Exodus 25",
+    "Exodus 26",
+    "Exodus 28",
+    "Exodus 29",
+    "Exodus 30",
+    "Exodus 36",
+    "Exodus 40",
+    "Leviticus 1",
+    "Leviticus 12",
+    "Leviticus 13",
+    "Leviticus 14",
+    "Leviticus 15",
+    "Leviticus 16",
+    "Leviticus 2",
+    "Leviticus 21",
+    "Leviticus 22",
+    "Leviticus 24",
+    "Leviticus 27",
+    "Leviticus 4",
+    "Leviticus 7",
+    "Leviticus 8",
+    "Numbers 18",
+    "Numbers 19",
+    "Numbers 20",
+    "Numbers 28",
+    "Numbers 3",
+    "Numbers 4",
+    "Numbers 6",
+    "Numbers 7",
+    "Numbers 8"
+  ],
+  "unresolvedSourceRanges": [],
+  "quality": {
+    "count": 50,
+    "errors": [],
+    "warnings": [],
+    "publicationReady": false
+  },
+  "limitations": [
+    "AI-assisted review only; no human approval recorded.",
+    "Difficulty is provisional pending reader calibration.",
+    "Related subjects are intentional reinforcement; no exhaustive chapter audit is claimed."
+  ],
+  "editorialCorrections": [
+    {
+      "scope": "New drafts only before review",
+      "change": "Clarified staged skin-restoration wording to say sanctuary offerings, not sanctuary service; removed two accidental absolute-word warnings caused by “whenever”; added sourceDifficulty for the existing portal display. No earlier candidate or live content changed."
+    },
+    {
+      "id": "deep-torah-blemish-versus-contact-uncleanness",
+      "field": "proposed correct option wording",
+      "before": "The first may eat holy food but not approach the altar; the second must meet the cleansing rule before eating.",
+      "after": "The blemished man may eat but not approach the altar; the contact-unclean priest must first be cleansed.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-levitical-inheritance-support-and-cities",
+      "field": "proposed correct option wording",
+      "before": "Distinguish tribal inheritance from allotted cities and support, and require the Levites’ offering from their tithes.",
+      "after": "Retain the cities and support without a tribal allotment, and require the Levites’ offering from their tithes.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-peace-offering-thanksgiving-vow-deadlines",
+      "field": "proposed correct option wording",
+      "before": "Finish the thanksgiving flesh that day; the vow flesh may be eaten the next day, with third-day remains burned.",
+      "after": "Finish thanksgiving flesh that day; allow vow flesh the next day, burning third-day remains.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-atonement-goats-and-conscience-comparison",
+      "field": "proposed correct option wording",
+      "before": "One goat is killed for the people and the live goat bears confessed iniquities away; Hebrews contrasts repeated animal rites with Christ’s own blood and conscience-cleansing.",
+      "after": "One goat dies and one bears iniquities away; Hebrews contrasts repeated rites with Christ’s blood and conscience-cleansing.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-ignorance-presumption-and-jurisdiction",
+      "field": "proposed correct option wording",
+      "before": "Distinguish the specified ignorance offerings, presumptuous rejection, appointed judicial authority and Hebrews’ warning about willful rejection after knowledge.",
+      "after": "Distinguish ignorance rites, presumptuous rejection, appointed judgment and Hebrews’ later warning without merging their settings.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-discharge-versus-seminal-cleansing",
+      "field": "proposed correct option wording",
+      "before": "Distinguish the issue cases with their recovery count and birds from the seminal-emission case with washing and uncleanness until evening.",
+      "after": "Keep the recovery count and birds for issue cases, but washing until evening for seminal-emission cases.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-human-corpse-versus-animal-carcass",
+      "field": "proposed correct option wording",
+      "before": "The human-corpse case has seven-day impurity and prescribed purification; the animal-carcass contact is unclean until evening.",
+      "after": "Human-corpse contact requires seven-day purification; the permitted animal’s carcass contact lasts until evening.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-skin-inspection-conditions-not-color-alone",
+      "field": "proposed correct option wording",
+      "before": "Assess depth, hair, spreading and raw flesh under the specified cases rather than treating whiteness alone as decisive.",
+      "after": "Judge by the specified signs and conditions, including raw flesh, rather than whiteness alone.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-healed-skin-return-is-staged",
+      "field": "proposed correct option wording",
+      "before": "The priest examines outside camp; the prescribed cleansing permits camp entry with seven days outside the tent, followed by further cleansing and eighth-day offerings.",
+      "after": "After outside-camp examination and cleansing, allow camp entry but seven days outside the tent before later rites.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-night-uncleanness-camp-holiness-scope",
+      "field": "proposed correct option wording",
+      "before": "Keep the stated exclusion, washing and sunset return; impurity provisions do not by themselves identify a deliberate immoral act.",
+      "after": "Retain exclusion, washing and sunset return without treating impurity alone as proof of deliberate wrongdoing.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-heifer-roles-priest-food-and-conscience",
+      "field": "proposed correct option wording",
+      "before": "The helper’s ash-gathering rule differs from the priest’s corpse purification; holy-food access awaits cleanness, and Hebrews distinguishes flesh purification from Christ’s conscience-cleansing.",
+      "after": "Separate the helper’s sunset rule from corpse purification; require priestly cleanness and retain Hebrews’ flesh/conscience contrast.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-veil-spaces-and-service-frequency",
+      "field": "proposed correct option wording",
+      "before": "Keep the ark within the veil and the table and lampstand outside; distinguish regular first-space ministry from the high priest’s annual second-space ministry.",
+      "after": "Place the ark within and table/lampstand outside; distinguish regular outer from annual high-priestly inner service.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-incense-altar-and-private-formula",
+      "field": "proposed correct option wording",
+      "before": "Both proposals cross stated boundaries: the altar rejects strange incense and the sacred composition is not for personal fragrance.",
+      "after": "Reject both: strange incense on the altar and copying the sacred composition for personal fragrance.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-kohath-covering-and-shoulder-transport",
+      "field": "proposed correct option wording",
+      "before": "Aaron’s family first covers the holy things; Kohath then bears its assigned burden without touching the holy things, using the prescribed shoulder service.",
+      "after": "Aaron’s family covers first; Kohath bears the assigned burden on shoulders without touching the holy things.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-annual-entry-cloud-blood-exclusive-access",
+      "field": "proposed correct option wording",
+      "before": "Separate regular incense service from annual atonement; retain the prescribed entry preparations, incense cloud, blood and exclusion of other people during that ministry.",
+      "after": "Keep daily service distinct; annual inner entry requires the stated preparation, cloud, blood and exclusion of others.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-sanctuary-skill-abundance-and-authorization",
+      "field": "proposed correct option wording",
+      "before": "Skill serves the commanded work; Moses restrains excess gifts, sacred compositions retain their restrictions, and unauthorized fire is not validated by creative ability.",
+      "after": "Keep craftsmanship subject to commands, restrain excess gifts, preserve sacred-use limits and reject unauthorized fire.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-dangerous-ox-ransom-not-murder-ransom",
+      "field": "proposed correct option wording",
+      "before": "The known-dangerous-ox case allows the stated imposed ransom; Numbers forbids accepting ransom for a murderer guilty of death.",
+      "after": "Exodus permits the stated imposed ransom for the warned ox owner; Numbers bars ransom for the murderer.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-proportional-justice-proof-and-equal-law",
+      "field": "proposed correct option wording",
+      "before": "Apply the same law to stranger and native, investigate the disputed testimony, and protect the innocent before determining the fitting penalty.",
+      "after": "Apply equal law, investigate testimony and protect the innocent before imposing the appropriate penalty.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-unknown-slayer-communal-rite-not-substitute",
+      "field": "proposed correct option wording",
+      "before": "Use the prescribed nearest-city process for unknown bloodshed, but neither invent a culprit nor make that rite a substitute for judgment of a proved murderer.",
+      "after": "Use the unknown-slayer process without inventing a culprit or substituting its rite for a proved murderer’s judgment.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-successful-sign-idolatry-and-judicial-proof",
+      "field": "proposed correct option wording",
+      "before": "The sign cannot authorize serving another god; the rival’s accusation still requires truthful evidence and diligent judgment under the prescribed procedures.",
+      "after": "Reject the invitation to other gods despite the sign, but still require truthful evidence and diligent judgment.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-passover-exception-not-elective-delay",
+      "field": "proposed correct option wording",
+      "before": "The later provision addresses the stated corpse-unclean or distant-journey cases; the clean nontraveler remains accountable, and the sojourner keeps the ordinance’s conditions.",
+      "after": "Keep the later provision conditional, hold the clean nontraveler accountable, and retain the sojourner’s ordinance requirements.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-voluntary-vow-binding-after-utterance",
+      "field": "proposed correct option wording",
+      "before": "Refraining from a vow is not itself sin; once made, his promise must be performed without the condemned delay.",
+      "after": "Not vowing is not itself sin; a vow actually made requires performance without the condemned delay.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-servant-release-provision-and-category-limits",
+      "field": "proposed correct option wording",
+      "before": "Preserve the Hebrew release and furnishing duties, distinguish voluntary continued service, and retain Leviticus’ separate brother and foreign-bondservant categories.",
+      "after": "Retain Hebrew release with provision, voluntary continuation, and Leviticus’ distinction between brothers and foreign bondservants.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-firstfruits-confession-and-local-tithe-recipients",
+      "field": "proposed correct option wording",
+      "before": "Distinguish the firstfruits presentation and confession from third-year distribution to Levite, stranger, fatherless and widow within the gates.",
+      "after": "Distinguish firstfruits presentation from third-year sharing within the gates with the four named groups.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-sabbath-defense-priest-service-and-bread",
+      "field": "proposed correct option wording",
+      "before": "He names David’s restricted bread and blameless priestly Sabbath service, appealing to concrete cases rather than denying the Torah instructions.",
+      "after": "He invokes restricted bread and blameless Sabbath service, rather than claiming the Torah has no such instructions.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-altar-support-right-and-voluntary-waiver",
+      "field": "proposed correct option wording",
+      "before": "Torah assigns altar portions, Paul invokes sacred service as a support analogy, and his voluntary nonuse does not erase the right he states.",
+      "after": "Preserve assigned altar portions, Paul’s support analogy and his voluntary nonuse of the right he states.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-aaron-explanation-not-blood-exception",
+      "field": "proposed correct option wording",
+      "before": "Moses explicitly says that goat’s blood was not brought within; Aaron gives a different explanation that Moses accepts, while the sanctuary-blood rule and Hebrews’ specific comparison remain distinct.",
+      "after": "That goat lacked inner blood; Moses accepts Aaron’s different explanation, without changing the sanctuary-blood rule or expanding Hebrews’ comparison.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-leadership-authority-does-not-merge-offices",
+      "field": "proposed correct option wording",
+      "before": "Joshua’s charge retains Eleazar’s role, kings remain under the law, prophetic claims face the stated tests, and Uzziah’s incense intrusion is confronted rather than validated by royal strength.",
+      "after": "Keep Eleazar’s role, royal submission to law and prophetic tests distinct; Uzziah’s royal strength does not authorize incense ministry.",
+      "reason": "Remove a batch-wide longest-answer cue while retaining the same answer meaning and passage conditions."
+    },
+    {
+      "id": "deep-torah-priestly-succession-garments-and-access",
+      "before": {
+        "q": "A succession council transfers Aaron’s garments to his son, then claims the garments alone complete consecration and allow unrestricted inner-sanctuary entry. Which assessment follows the full evidence chain?",
+        "options": [
+          "The transfer models succession; the successor keeps annual linen ministry, but the seven-day garment instruction belongs only to Aaron.",
+          "The successor must be consecrated and retain annual atonement, but inherited garments replace the special linen outfit for that ministry.",
+          "The transfer and consecration are valid; annual atonement limits the incense altar, while the successor’s inner-veil entry is unrestricted.",
+          "The transfer is modeled in Eleazar’s succession, but consecration requirements and the bounded atonement ministry still govern the successor."
+        ]
+      },
+      "after": {
+        "q": "A succession council transfers Aaron’s garments to his son, then claims the garments alone complete consecration and allow unrestricted inner-sanctuary entry. Which assessment follows the full evidence chain?",
+        "options": [
+          "The transfer models succession; the successor keeps annual linen ministry, but the seven-day garment instruction belongs only to Aaron.",
+          "The successor must be consecrated and retain annual atonement, but inherited garments replace the special linen outfit for that ministry.",
+          "The transfer and consecration are valid; annual atonement limits the incense altar, while the successor’s inner-veil entry is unrestricted.",
+          "The transfer is modeled in Eleazar’s succession, but consecration requirements and the bounded atonement ministry still govern the successor."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-ignorance-presumption-and-jurisdiction",
+      "before": {
+        "q": "A council proposes one standard animal payment for every covenant violation and lets individuals enforce it themselves. Which assessment best coordinates the four passages without equating their settings?",
+        "options": [
+          "Preserve court authority and distinguish presumption, but use the same congregational sin-offering bull in Leviticus 4 and Numbers 15.",
+          "Keep the two congregational rites distinct and retain appointed judgment, but restrict Numbers’ individual ignorance remedy to native Israelites.",
+          "Keep the ignorance rites and appointed court distinct, but read Hebrews’ willful-rejection warning as another ordinary ignorance offering procedure.",
+          "Distinguish ignorance rites, presumptuous rejection, appointed judgment and Hebrews’ later warning without merging their settings."
+        ]
+      },
+      "after": {
+        "q": "A legal summary merges the congregational ignorance rites, their recipients and later warnings into one procedure. Which comparison preserves the prescriptions, intent distinctions and authority limits across all four passages?",
+        "options": [
+          "Preserve court authority and distinguish presumption, but use the same congregational sin-offering bull in Leviticus 4 and Numbers 15.",
+          "Keep the two congregational rites distinct and retain appointed judgment, but restrict Numbers’ individual ignorance remedy to native Israelites.",
+          "Keep the ignorance rites and appointed court distinct, but read Hebrews’ willful-rejection warning as another ordinary ignorance offering procedure.",
+          "Distinguish ignorance rites, presumptuous rejection, appointed judgment and Hebrews’ later warning without merging their settings."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-heifer-roles-priest-food-and-conscience",
+      "before": {
+        "q": "A priest has touched a human corpse; a clean helper gathers the heifer’s ashes. A teacher says both may finish by sunset washing alone and that these rites fully explain Hebrews’ conscience claim. Which evaluation preserves the separate conditions?",
+        "options": [
+          "Keep the priest’s third- and seventh-day rites, food restriction and Hebrews’ contrast, but assign seven-day corpse impurity to the ash gatherer too.",
+          "Keep the helper’s sunset rule and priestly food restriction; let the priest omit day three if he completes sprinkling and washing on day seven.",
+          "Keep both purification schedules and priestly food restrictions, but identify the ashes’ flesh purification as the same conscience-cleansing Hebrews attributes to Christ.",
+          "Separate the helper’s sunset rule from corpse purification; require priestly cleanness and retain Hebrews’ flesh/conscience contrast."
+        ]
+      },
+      "after": {
+        "q": "A priest has touched a human corpse while a clean helper gathers heifer ashes. Which evaluation preserves their different purification schedules, priestly food access and Hebrews’ flesh/conscience comparison?",
+        "options": [
+          "Keep the priest’s third- and seventh-day rites, food restriction and Hebrews’ contrast, but assign seven-day corpse impurity to the ash gatherer too.",
+          "Keep the helper’s sunset rule and priestly food restriction; let the priest omit day three if he completes sprinkling and washing on day seven.",
+          "Keep both purification schedules and priestly food restrictions, but identify the ashes’ flesh purification as the same conscience-cleansing Hebrews attributes to Christ.",
+          "Separate the helper’s sunset rule from corpse purification; require priestly cleanness and retain Hebrews’ flesh/conscience contrast."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-sanctuary-skill-abundance-and-authorization",
+      "before": {
+        "q": "A gifted sanctuary craftsman claims that surplus donations authorize unlimited collection, personal sacred perfume and a new fire rite. Which leadership judgment accounts for the full evidence chain?",
+        "options": [
+          "Keep sacred-use and fire restrictions, but continue collecting after sufficient supplies because willing gifts cannot be restrained by Moses.",
+          "Restrain surplus gifts and forbid private perfume, but treat Aaronic family membership as sufficient authorization for an additional fire rite.",
+          "Keep craftsmanship subject to commands, restrain excess gifts, preserve sacred-use limits and reject unauthorized fire.",
+          "Restrain surplus gifts and retain commanded rites, but allow the skilled maker to reproduce the sacred perfume privately if no anointing oil is used."
+        ]
+      },
+      "after": {
+        "q": "A gifted sanctuary craftsman claims that surplus donations authorize unlimited collection, personal sacred perfume and a new fire rite. Which leadership judgment accounts for the full evidence chain?",
+        "options": [
+          "Keep sacred-use and fire restrictions, but continue collecting after sufficient supplies because willing gifts cannot be restrained by Moses.",
+          "Restrain surplus gifts and forbid private perfume, but treat Aaronic family membership as sufficient authorization for an additional fire rite.",
+          "Keep craftsmanship subject to commands, restrain excess gifts, preserve sacred-use limits and reject unauthorized fire.",
+          "Restrain surplus gifts and retain commanded rites, but allow the skilled maker to reproduce the sacred perfume privately if no anointing oil is used."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-successful-sign-idolatry-and-judicial-proof",
+      "before": {
+        "q": "A successful sign is used to promote another god. A rival then fabricates testimony and demands immediate punishment. Which judicial assessment respects all four instructions?",
+        "options": [
+          "Reject the worship invitation and investigate, but count one human witness plus the fulfilled sign as the two required witnesses.",
+          "Reject the worship invitation and require truthful witnesses, but let the judges begin the sentence instead of the witnesses.",
+          "Reject the invitation to other gods despite the sign, but still require truthful evidence and diligent judgment.",
+          "Reject the worship invitation and investigate testimony, but apply the false-witness response only after the intended penalty has already occurred."
+        ]
+      },
+      "after": {
+        "q": "A fulfilled sign promotes another god, and a rival’s testimony is disputed. Which assessment preserves both the worship test and the witness, inquiry and false-testimony safeguards across all four passages?",
+        "options": [
+          "Reject the worship invitation and investigate, but count one human witness plus the fulfilled sign as the two required witnesses.",
+          "Reject the worship invitation and require truthful witnesses, but let the judges begin the sentence instead of the witnesses.",
+          "Reject the invitation to other gods despite the sign, but still require truthful evidence and diligent judgment.",
+          "Reject the worship invitation and investigate testimony, but apply the false-witness response only after the intended penalty has already occurred."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-aaron-explanation-not-blood-exception",
+      "before": {
+        "q": "A commentator says Aaron’s burned goat in Leviticus 10 simply followed the sanctuary-blood exception, and uses Hebrews to make every sin offering inedible. Which assessment preserves the evidence and its limits?",
+        "options": [
+          "That goat lacked inner blood; Moses accepts Aaron’s different explanation, without changing the sanctuary-blood rule or expanding Hebrews’ comparison.",
+          "The goat’s blood stayed outside, and Moses accepts Aaron’s explanation; that acceptance establishes a general permission to burn any sin offering during bereavement.",
+          "The goat’s blood stayed outside, but the congregation’s sin offering is burned in every case; Hebrews confirms that recipient-based exception.",
+          "Moses is content because Aaron invokes the annual atonement disposal rule; Hebrews extends that annual rule to offerings whose blood remains outside."
+        ]
+      },
+      "after": {
+        "q": "A commentator says Aaron’s burned goat in Leviticus 10 simply followed the sanctuary-blood exception, and uses Hebrews to make every sin offering inedible. Which assessment preserves the evidence and its limits?",
+        "options": [
+          "That goat lacked inner blood; Moses accepts Aaron’s different explanation, without changing the sanctuary-blood rule or expanding Hebrews’ comparison.",
+          "The goat’s blood stayed outside, and Moses accepts Aaron’s explanation; that acceptance establishes a general permission to burn any sin offering during bereavement.",
+          "The goat’s blood stayed outside, but the congregation’s sin offering is burned in every case; Hebrews confirms that recipient-based exception.",
+          "Moses is content because Aaron invokes the annual atonement disposal rule; Hebrews extends that annual rule to offerings whose blood remains outside."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    },
+    {
+      "id": "deep-torah-leadership-authority-does-not-merge-offices",
+      "before": {
+        "q": "A strong ruler claims that public leadership, a personal revelation and success authorize him to overrule priests and burn sanctuary incense. Which assessment follows all four passages without collapsing their offices?",
+        "options": [
+          "Retain priestly incense duties and test prophetic claims, but treat Joshua’s Spirit-endowed charge as removing his need for Eleazar’s inquiry.",
+          "Keep Eleazar’s role, royal submission to law and prophetic tests distinct; Uzziah’s royal strength does not authorize incense ministry.",
+          "Retain Eleazar’s role and priestly incense duties, but treat writing the king’s law copy as completing the duty without continued reading.",
+          "Retain royal law-reading and distinguish priestly incense, but accept speech in another god’s name if the predicted event occurs."
+        ]
+      },
+      "after": {
+        "q": "A strong ruler claims that public leadership, a personal revelation and success authorize him to overrule priests and burn sanctuary incense. Which assessment follows all four passages without collapsing their offices?",
+        "options": [
+          "Retain priestly incense duties and test prophetic claims, but treat Joshua’s Spirit-endowed charge as removing his need for Eleazar’s inquiry.",
+          "Keep Eleazar’s role, royal submission to law and prophetic tests distinct; Uzziah’s royal strength does not authorize incense ministry.",
+          "Retain Eleazar’s role and priestly incense duties, but treat writing the king’s law copy as completing the duty without continued reading.",
+          "Retain royal law-reading and distinguish priestly incense, but accept speech in another god’s name if the predicted event occurs."
+        ]
+      },
+      "reason": "Replace broad giveaway errors with nearby statutory conditions, assignments and exceptions. Proposed answer, references, explanation and rating unchanged."
+    }
+  ],
+  "correctOptionLongestCount": 24
+}

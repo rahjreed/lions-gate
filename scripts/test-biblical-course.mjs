@@ -15,7 +15,13 @@ const root=new URL('../',import.meta.url),bytes=p=>readFile(new URL(p,root)),rea
 const batch=await read('content/candidates/biblical-course-50.json'),audit=await read('content/biblical-course-50-validation.json'),evidence=await read('content/biblical-course-50-evidence.json'),template=await read('content/biblical-course-50-review-template.json');
 const candidates=await loadCandidates(root),ledger=await loadLedger(root),peers=new Map(questions.filter(q=>!batch.some(b=>b.id===q.id)).map(q=>[q.id,q]));
 for(const {q} of candidates)if(!batch.some(b=>b.id===q.id)&&!peers.has(q.id))peers.set(q.id,q);
-assert.equal(batch.length,50);assert.equal(peers.size,192);assert.equal(candidates.length,200);assert.equal(new Set([...peers.keys(),...batch.map(q=>q.id)]).size,242);
+// Preserve the historical 200-source inventory without treating later imports
+// as additions to that publication authorization. All peers still enter quality checks.
+const originalBatches=new Set(['initial-50.json','kr-101-150.json','torah-everyday-life-50.json','biblical-course-50.json']);
+const later=candidates.filter(c=>!originalBatches.has(c.batch));
+assert.equal(batch.length,50);assert.equal(candidates.filter(c=>originalBatches.has(c.batch)).length,200);
+assert.equal(peers.size,192+later.length);assert.equal(new Set([...peers.keys(),...batch.map(q=>q.id)]).size,242+later.length);
+for(const {q}of later){assert.equal(q.review.status,'candidate');assert.ok(!questions.some(p=>p.id===q.id));assert.ok(!ledger.decisions[q.id]);}
 assert.equal(questions.length,160);assert.equal(Object.keys(ledger.decisions).length,118);assert.equal(ledger.events.length,118);
 assert.equal(sha(await bytes('content/candidates/biblical-course-50.json')),audit.candidateSha256);
 assert.equal(sha(await bytes('content/biblical-course-50-evidence.json')),audit.evidenceSha256);

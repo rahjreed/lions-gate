@@ -21,7 +21,10 @@ const original=baseline.originalLive.map(r=>{const q=questions.find(q=>q.id===r.
 assert.equal(original.length,110);assert.deepEqual(publishedQuestions.slice(-50),batch);assert.equal(new Set(questions.map(q=>q.id)).size,160);
 assert.equal(ledger.events.length,118);assert.deepEqual(ledger.events.slice(0,68),baseline.originalLedger.events);
 for(const [id,d]of Object.entries(baseline.originalLedger.decisions))assert.deepEqual(ledger.decisions[id],d);
-for(const {q}of candidates)assert.equal(digest(q),baseline.candidateHashes[q.id],'Candidate source unchanged: '+q.id);
+// Enforce every original snapshot; later source-checked drafts must remain
+// outside both the old authorization and its published lesson profiles.
+for(const [id,hash]of Object.entries(baseline.candidateHashes))assert.equal(digest(candidates.find(c=>c.q.id===id)?.q),hash,'Original candidate source unchanged: '+id);
+for(const {q}of candidates.filter(c=>!Object.hasOwn(baseline.candidateHashes,c.q.id))){assert.equal(q.review.status,'candidate');assert.ok(!ledger.decisions[q.id]);assert.ok(!questions.some(p=>p.id===q.id));assert.ok(!courseLessons[q.id]);}
 assert.equal(sha(await read('content/biblical-course-50-evidence.json')),baseline.sourceEvidenceHash);
 assertCurrentApprovals(batch,candidates,ledger,original);assert.equal(publicationBatch(original,batch).length,50);assert.throws(()=>publicationBatch(questions,batch),/duplicate/i);assert.throws(()=>publicationBatch(original,source),/review/i);
 for(const q of batch){assert.match(q.review.reviewedBy,/AI-assisted/);assert.match(q.review.rationale,/NOT independent human/);assert.equal(q.knowledge.complexity,source.find(s=>s.id===q.id).knowledge.complexity);assert.deepEqual(q.scripture,source.find(s=>s.id===q.id).scripture);assert.deepEqual(q.options,source.find(s=>s.id===q.id).options);}

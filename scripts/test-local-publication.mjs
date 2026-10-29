@@ -19,7 +19,8 @@ const releaseSources=candidates.filter(c=>Object.hasOwn(plan.candidateSources,c.
 assert.equal(releaseSources.length,150);assert.ok(releaseSources.every(c=>digest(c.q)===plan.candidateSources[c.q.id]));
 for(const {q} of candidates.filter(c=>!Object.hasOwn(plan.candidateSources,c.q.id))){
  assert.equal(q.review.status,'candidate','Later draft batches are not part of the authorized publication');
- assert.ok(course.some(p=>p.id===q.id));assert.ok(ledger.decisions[q.id]);
+ if(course.some(p=>p.id===q.id))assert.ok(ledger.decisions[q.id]);
+ else {assert.ok(!ledger.decisions[q.id],'Later imports receive no inherited approval');assert.ok(!questions.some(p=>p.id===q.id),'Later imports receive no inherited publication');}
 }
 assert.deepEqual(Object.fromEntries(Object.keys(plan.decisions).map(id=>[id,ledger.decisions[id]])),plan.decisions,'Preserve original attribution, timestamps, checks and rationales');assert.equal(ledger.events.length,118);
 for(const event of ledger.events.slice(0,68)){const {id,releaseStagedAt,releaseAuthorization,...review}=event;assert.deepEqual(review,plan.decisions[id]);assert.ok(Number.isFinite(Date.parse(releaseStagedAt)));assert.ok(releaseAuthorization);}
