@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {bankedQuestions,bankedBaseline,authorizedPublished} from './banked-release-state.mjs';
 import {readFile} from 'node:fs/promises';
 import {questions} from '../dist/questions.js';
 import {publishedQuestions} from '../dist/published-questions.js';
@@ -10,27 +11,27 @@ import {publicationBatch} from './question-batch.mjs';
 const root=new URL('../',import.meta.url),read=async path=>JSON.parse(await readFile(new URL(path,root),'utf8'));
 const plan=await read('content/launch/release-plan.json'),prepared=await read('content/launch/reviewed-candidates.json'),candidates=await loadCandidates(root),ledger=await loadLedger(root),original=questions.filter(q=>!publishedQuestions.some(p=>p.id===q.id));
 const course=await read('content/reviewed/course-50-approved.json');
-assert.equal(questions.length,160);assert.equal(original.length,42);assert.equal(publishedQuestions.length,118);
-assert.equal(new Set(questions.map(q=>q.id)).size,160);assert.equal(validateQuestions(questions),true);
-assert.equal(digest(original),plan.liveDigest,'Original live records remain unchanged');assert.deepEqual(publishedQuestions,[...prepared,...course],'Only the two explicitly authorized exports are live');assert.equal(digest(prepared),plan.reviewedDigest);
+assert.equal(questions.length,260);assert.equal(original.length,42);assert.equal(publishedQuestions.length,218);
+assert.equal(new Set(questions.map(q=>q.id)).size,260);assert.equal(validateQuestions(questions),true);
+assert.equal(digest(original),plan.liveDigest,'Original live records remain unchanged');assert.deepEqual(publishedQuestions,authorizedPublished,'Only the three explicitly authorized exports are live');assert.equal(digest(prepared),plan.reviewedDigest);
 // The historical release binds its original 150 source records. Later draft
 // imports neither extend that authorization nor invalidate its preserved hashes.
 const releaseSources=candidates.filter(c=>Object.hasOwn(plan.candidateSources,c.q.id));
 assert.equal(releaseSources.length,150);assert.ok(releaseSources.every(c=>digest(c.q)===plan.candidateSources[c.q.id]));
 for(const {q} of candidates.filter(c=>!Object.hasOwn(plan.candidateSources,c.q.id))){
  assert.equal(q.review.status,'candidate','Later draft batches are not part of the authorized publication');
- if(course.some(p=>p.id===q.id))assert.ok(ledger.decisions[q.id]);
+ if([...course,...bankedQuestions].some(p=>p.id===q.id))assert.ok(ledger.decisions[q.id]);
  else {assert.ok(!ledger.decisions[q.id],'Later imports receive no inherited approval');assert.ok(!questions.some(p=>p.id===q.id),'Later imports receive no inherited publication');}
 }
-assert.deepEqual(Object.fromEntries(Object.keys(plan.decisions).map(id=>[id,ledger.decisions[id]])),plan.decisions,'Preserve original attribution, timestamps, checks and rationales');assert.equal(ledger.events.length,118);
+assert.deepEqual(Object.fromEntries(Object.keys(plan.decisions).map(id=>[id,ledger.decisions[id]])),plan.decisions,'Preserve original attribution, timestamps, checks and rationales');assert.equal(ledger.events.length,218);assert.deepEqual(ledger.events.slice(0,118),bankedBaseline.originalLedger.events);
 for(const event of ledger.events.slice(0,68)){const {id,releaseStagedAt,releaseAuthorization,...review}=event;assert.deepEqual(review,plan.decisions[id]);assert.ok(Number.isFinite(Date.parse(releaseStagedAt)));assert.ok(releaseAuthorization);}
 for(const file of Object.keys(plan.evidenceSources))assert.equal(digest(await read(file)),plan.evidenceSources[file],'Original evidence artifacts stay unchanged');
 assertCurrentApprovals(prepared,candidates,ledger,original);assert.equal(publicationBatch(original,prepared).length,68);
 assert.throws(()=>publicationBatch(questions,prepared),/duplicate/i,'A second publication is rejected before writing');
 assert.ok(prepared.every(q=>/AI-assisted/.test(q.review.reviewedBy)&&/NOT owner/.test(q.review.rationale)));
-assert.ok([...plan.quarantine,...plan.deferredCandidates].every(c=>!questions.some(q=>q.id===c.id)));
+assert.ok(plan.quarantine.every(c=>!questions.some(q=>q.id===c.id)));assert.ok(plan.deferredCandidates.every(c=>bankedQuestions.some(q=>q.id===c.id)),'The old deferral was released only by this separate authorization');
 const legacy=createRun(original,'LEGACY SAVE',()=>.42);assert.equal(validRun(JSON.parse(JSON.stringify(legacy)),questions),true,'Existing original-bank saves remain valid');
-const seen=new Set(),history={};let asked=0;for(let level=1;level<=1000;level++)for(const item of selectQuestions(questions,{level,history,asked},()=>.42)){seen.add(item.id);history[item.id]={count:(history[item.id]?.count||0)+1,last:++asked,lastCorrect:true};}assert.equal(seen.size,160);
+const seen=new Set(),history={};let asked=0;for(let level=1;level<=1000;level++)for(const item of selectQuestions(questions,{level,history,asked},()=>.42)){seen.add(item.id);history[item.id]={count:(history[item.id]?.count||0)+1,last:++asked,lastCorrect:true};}assert.equal(seen.size,260);
 const run=createRun(questions,'PUBLICATION TEST',()=>.42);for(let level=1;level<=5;level++){for(let n=0;n<10;n++){const q=questions.find(q=>q.id===run.queue[run.index].id);submit(run,questions,q.answer);advance(run,questions);}assert.equal(run.status,'levelup');assert.equal(validRun(JSON.parse(JSON.stringify(run)),questions),true);if(level<5)nextLevel(run,questions);}assert.equal(run.completed,5);
 run.level=700;run.completed=699;beginLevel(run,questions);for(let n=0;n<5;n++){submit(run,questions,-1);advance(run,questions);}assert.equal(run.status,'gameover');assert.equal(retryLevel(run,questions),true);assert.equal(run.level,700);assert.equal(validRun(run,questions),true);
-console.log('PASS local publication: 160 unique live = unchanged 42 + exact authorized 68 + exact authorized course 50; all candidate hashes, source audits and AI attribution preserved; 118 real ledger decisions/events; duplicate release rejected; 82 held/deferred excluded; legacy saves, 1000-level rotation, Gatekeepers and Level 700 retry valid. Read-only verification.');
+console.log('PASS local publication: 260 unique live = unchanged 42 + exact authorized 68 + course 50 + banked 100; original candidate hashes, source audits and AI attribution preserved; 218 real ledger decisions/events; duplicate release rejected; 32 held excluded; legacy saves, 1000-level rotation, Gatekeepers and Level 700 retry valid. Read-only verification.');

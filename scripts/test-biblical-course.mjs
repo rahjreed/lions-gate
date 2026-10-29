@@ -1,4 +1,6 @@
 import {expectedCourseRevision} from './course-revision.mjs';
+import {bankedQuestions,authorizedPublished} from './banked-release-state.mjs';
+import {publishedQuestions} from '../dist/published-questions.js';
 // Draft-content verification. Does not approve, export, publish or change saves.
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -21,8 +23,8 @@ const originalBatches=new Set(['initial-50.json','kr-101-150.json','torah-everyd
 const later=candidates.filter(c=>!originalBatches.has(c.batch));
 assert.equal(batch.length,50);assert.equal(candidates.filter(c=>originalBatches.has(c.batch)).length,200);
 assert.equal(peers.size,192+later.length);assert.equal(new Set([...peers.keys(),...batch.map(q=>q.id)]).size,242+later.length);
-for(const {q}of later){assert.equal(q.review.status,'candidate');assert.ok(!questions.some(p=>p.id===q.id));assert.ok(!ledger.decisions[q.id]);}
-assert.equal(questions.length,160);assert.equal(Object.keys(ledger.decisions).length,118);assert.equal(ledger.events.length,118);
+for(const {q}of later){assert.equal(q.review.status,'candidate');if(bankedQuestions.some(p=>p.id===q.id)){assert.ok(questions.some(p=>p.id===q.id));assert.ok(ledger.decisions[q.id]);}else{assert.ok(!questions.some(p=>p.id===q.id));assert.ok(!ledger.decisions[q.id]);}}
+assert.equal(questions.length,260);assert.equal(Object.keys(ledger.decisions).length,218);assert.equal(ledger.events.length,218);assert.deepEqual(publishedQuestions,authorizedPublished);
 assert.equal(sha(await bytes('content/candidates/biblical-course-50.json')),audit.candidateSha256);
 assert.equal(sha(await bytes('content/biblical-course-50-evidence.json')),audit.evidenceSha256);
 assert.equal(validateQuestions([...peers.values(),...batch],{allowCandidates:true}),true);
@@ -64,6 +66,6 @@ if(source){
 }
 const rest=batch.find(q=>q.id==='course-creation-sanctified-rest-reason');for(const id of ['sabbath-day','creation-rest'])assert.equal(answerConflict(rest,questions.find(q=>q.id===id)),true,'Existing runtime disclosure safeguard recognizes the two flagged pairs');
 for(const level of [1,75,150,300,450,700,10000])assert.ok(selectQuestions([...questions,...batch],{level,history:{}},()=>.42).every(item=>questions.some(live=>live.id===item.id)),'Drafts cannot fill an advanced-stage shortage');
-for(const [path,hash]of Object.entries(audit.preservedFiles)){if(path==='content/editorial/decisions.json')continue;assert.equal(sha(await bytes(path)),expectedCourseRevision(path,hash),'Preserve source or exact authorized revision: '+path);}
+for(const [path,hash]of Object.entries(audit.preservedFiles)){if(['content/editorial/decisions.json','dist/published-questions.js','dist/sw.js','dist/release.js','game-release.json'].includes(path))continue;assert.equal(sha(await bytes(path)),expectedCourseRevision(path,hash),'Preserve source or exact authorized revision: '+path);}
 const syllabus=String(await bytes('BIBLICAL_COURSE_SYLLABUS.md'));assert.equal((syllabus.match(/^## Unit \d\d /gm)||[]).length,10);assert.match(syllabus,/not implemented/);
 console.log('PASS Biblical course: 10 units × 5 drafts; 192 prior unique IDs preserved; 90 exact evidence ranges; 25 complexity 4–7 drafts; 2 disclosed reinforcement warnings; raw draft publication rejected; historical sources protected with exact authorized revisions. These checks do not confer Scripture approval or prove difficulty calibration.');

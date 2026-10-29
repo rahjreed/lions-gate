@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {bankedQuestions,bankedBaseline,authorizedPublished} from './banked-release-state.mjs';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {questions} from '../dist/questions.js';
@@ -16,15 +17,15 @@ import {publicationBatch} from './question-batch.mjs';
 import {qualityReport} from './question-quality.mjs';
 const read=async p=>readFile(new URL('../'+p,import.meta.url)),json=async p=>JSON.parse(await read(p)),sha=x=>createHash('sha256').update(x).digest('hex');
 const baseline=await json('content/course-publication/baseline.json'),batch=await json('content/reviewed/course-50-approved.json'),source=await json('content/candidates/biblical-course-50.json'),proof=await json('content/biblical-course-50-evidence.json'),review=await json('content/course-publication/lesson-review.json'),candidates=await loadCandidates(new URL('../',import.meta.url)),ledger=await loadLedger(new URL('../',import.meta.url));
-assert.equal(questions.length,160);assert.equal(publishedQuestions.length,118);assert.equal(batch.length,50);validateQuestions(questions);
+assert.equal(questions.length,260);assert.equal(publishedQuestions.length,218);assert.deepEqual(publishedQuestions,authorizedPublished);assert.equal(batch.length,50);validateQuestions(questions);
 const original=baseline.originalLive.map(r=>{const q=questions.find(q=>q.id===r.id);assert.equal(digest(q),r.digest,'Original live record changed: '+r.id);return q});
-assert.equal(original.length,110);assert.deepEqual(publishedQuestions.slice(-50),batch);assert.equal(new Set(questions.map(q=>q.id)).size,160);
-assert.equal(ledger.events.length,118);assert.deepEqual(ledger.events.slice(0,68),baseline.originalLedger.events);
+assert.equal(original.length,110);assert.deepEqual(publishedQuestions.slice(68,118),batch);assert.equal(new Set(questions.map(q=>q.id)).size,260);
+assert.equal(ledger.events.length,218);assert.deepEqual(ledger.events.slice(0,118),bankedBaseline.originalLedger.events);assert.deepEqual(ledger.events.slice(0,68),baseline.originalLedger.events);
 for(const [id,d]of Object.entries(baseline.originalLedger.decisions))assert.deepEqual(ledger.decisions[id],d);
 // Enforce every original snapshot; later source-checked drafts must remain
 // outside both the old authorization and its published lesson profiles.
 for(const [id,hash]of Object.entries(baseline.candidateHashes))assert.equal(digest(candidates.find(c=>c.q.id===id)?.q),hash,'Original candidate source unchanged: '+id);
-for(const {q}of candidates.filter(c=>!Object.hasOwn(baseline.candidateHashes,c.q.id))){assert.equal(q.review.status,'candidate');assert.ok(!ledger.decisions[q.id]);assert.ok(!questions.some(p=>p.id===q.id));assert.ok(!courseLessons[q.id]);}
+for(const {q}of candidates.filter(c=>!Object.hasOwn(baseline.candidateHashes,c.q.id))){assert.equal(q.review.status,'candidate');if(bankedQuestions.some(p=>p.id===q.id)){assert.ok(ledger.decisions[q.id]);assert.ok(questions.some(p=>p.id===q.id));}else{assert.ok(!ledger.decisions[q.id]);assert.ok(!questions.some(p=>p.id===q.id));}assert.ok(!courseLessons[q.id]);}
 assert.equal(sha(await read('content/biblical-course-50-evidence.json')),baseline.sourceEvidenceHash);
 assertCurrentApprovals(batch,candidates,ledger,original);assert.equal(publicationBatch(original,batch).length,50);assert.throws(()=>publicationBatch(questions,batch),/duplicate/i);assert.throws(()=>publicationBatch(original,source),/review/i);
 for(const q of batch){assert.match(q.review.reviewedBy,/AI-assisted/);assert.match(q.review.rationale,/NOT independent human/);assert.equal(q.knowledge.complexity,source.find(s=>s.id===q.id).knowledge.complexity);assert.deepEqual(q.scripture,source.find(s=>s.id===q.id).scripture);assert.deepEqual(q.options,source.find(s=>s.id===q.id).options);}
@@ -45,7 +46,7 @@ for(const q of questions){
  }
  assert.equal(digest(q),before);
 }
-assert.equal(complete,160);assert.equal(fallback,0);
+assert.equal(complete,160);assert.equal(fallback,100);assert.ok(bankedQuestions.every(q=>lessonFor(q).fallback),'New questions use the existing compact fallback; no expanded lesson UI is introduced');
 const minimal={...structuredClone(questions[0]),id:'minimal-optional-profile'};delete minimal.knowledge;delete minimal.editorial;delete minimal.supportingScriptures;assert.equal(lessonFor(minimal).fallback,true);assert.ok(answerRevealMarkup({q:minimal,last:{correct:true,earned:0},streak:0}).includes(minimal.explain));
 const changed=structuredClone(batch[0]);changed.explain='A changed explanation must not reuse stale expanded context.';assert.equal(lessonFor(changed).fallback,true);
 const hostile={...minimal,topic:'<img src=x onerror=alert(1)>',explain:'<script>unsafe()</script>'};const safe=answerRevealMarkup({q:hostile,last:{correct:true,earned:0},streak:0});assert.ok(!safe.includes('<script>')&&!safe.includes('<img'));
@@ -66,4 +67,4 @@ for(const level of [1,5,700]){
 }
 const seen=new Set(),history={};let asked=0;for(let level=1;level<=1000;level++)for(const item of selectQuestions(questions,{level,history,asked},()=>.42)){seen.add(item.id);history[item.id]={count:(history[item.id]?.count||0)+1,last:++asked,lastCorrect:true}}
 assert.ok(batch.every(q=>seen.has(q.id)),'All 50 published additions are available to runtime progression');
-console.log(`PASS preserved lesson data / compact reveals: 160 live; unchanged original 110; 50 current AI-attributed approvals; 160 retained expanded lessons / 0 live fallbacks; ${withRelated} with evidenced related passages; identical short correct/wrong explanations without lesson panels or extra clicks; source-bound context, stale fallback, escaping, immutable legacy saves, initial/extended disclosure guards, 14-answer battles and all 50 additions selected through Level 1000.`);
+console.log(`PASS preserved lesson data / compact reveals: 260 live; unchanged original 110; exact 218 authorized additions; 160 retained expanded lessons / 100 compact fallbacks; ${withRelated} with evidenced related passages; identical short correct/wrong explanations without lesson panels or extra clicks; source-bound context, stale fallback, escaping, immutable legacy saves, initial/extended disclosure guards, 14-answer battles and all course additions selected through Level 1000.`);

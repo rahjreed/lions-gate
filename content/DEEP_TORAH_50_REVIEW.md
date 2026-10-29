@@ -1,5 +1,7 @@
 # Lion’s Gate — Deep Torah 50: draft review and release handoff
 
+**Subsequent owner-authorized local publication:** all 50 deep-Torah records and all 50 eligible everyday-Torah records are now live with separate AI-attributed ledger approvals. Current live total: 260; 32 earlier held candidates remain unpublished. Sources, evidence and this preparation history are retained. See [current release report](banked-publication/REPORT.md). The preparation counts and pending-approval descriptions below document the earlier state, not the current publication status.
+
 Prepared October 28, 2026. **AI-assisted source comparison; not independent human verification, not approval, not publication.**
 
 ## Outcome

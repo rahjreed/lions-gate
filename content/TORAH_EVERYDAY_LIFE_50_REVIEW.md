@@ -1,5 +1,7 @@
 # Torah everyday life — 50 draft candidates
 
+**Subsequent owner-authorized local publication:** these 50 records are now live through the existing validated workflow with AI-attributed review. Their original source audit, source hashes and candidate records remain unchanged. Together with the deep-Torah release, the bank now contains 260 live questions and 32 held candidates. See [current publication report](banked-publication/REPORT.md); the draft-only statements below preserve the historical generation audit.
+
 Generated and source-audited October 26, 2026. **AI-assisted Scripture-source verification, not human approval.** All 50 remain unpublished candidates; no editorial ledger decisions were made.
 
 ## Summary

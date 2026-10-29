@@ -9250,5 +9250,8960 @@ export const publishedQuestions=[
       "approvalReceipt": "68d48916eba24c601284fa22a7f853e878c4c6cc4d6ffeaf9b70ea2922bd9d74",
       "sourceDigest": "698649627e1e46e51f63f27d022683a7bec284f8bf4cbd8498cf17a9823c67b9"
     }
+  },
+  {
+    "id": "deep-torah-aaronic-appointment-levitical-assistance",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "How do Aaron’s appointment and the assignment of Levi distinguish priestly office from supporting service?",
+    "options": [
+      "Aaron and his sons hold the priestly office; the Levites are given to assist them.",
+      "The firstborn of each tribe hold priestly office; Aaron supervises their assistants.",
+      "Every Levite holds priestly office; Aaron assigns its duties by household seniority.",
+      "Aaron alone holds priestly office; his sons join the other Levites as assistants."
+    ],
+    "answer": 0,
+    "correctAnswer": "Aaron and his sons hold the priestly office; the Levites are given to assist them.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 28,
+      "verse": 1,
+      "translation": "KJV",
+      "excerpt": "And take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest’s office, [even] Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron’s sons.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-28-1/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 3,
+        "verse": 5,
+        "endVerse": 10,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD spake unto Moses, saying, Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him. And they shall keep his charge, and the charge of the whole congregation before the tabernacle of the congregation, to do the service of the tabernacle. And they shall keep all the instruments of the tabernacle of the congregation, and the charge of the children of Israel, to do the service of the tabernacle. And thou shalt give the Levites unto Aaron and to his sons: they [are] wholly given unto him out of the children of Israel. And thou shalt appoint Aaron and his sons, and they shall wait on their priest’s office: and the stranger that cometh nigh shall be put to death.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-3/"
+      }
+    ],
+    "explain": "Exodus appoints Aaron and his sons. Numbers gives the Levites to them for tabernacle service while separately reserving their priestly office.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "aaronic-appointment-levitical-assistance",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish an appointed priestly family from the tribe assigned to assist it."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish an appointed priestly family from the tribe assigned to assist it.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 5
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCompare two explicit assignments without resolving an unstated institutional theory.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Exodus appoints Aaron and his sons. Numbers gives the Levites to them for tabernacle service while separately reserving their priestly office.",
+        "Firstborn substitution in Numbers 3 does not appoint tribal firstborn as priests.",
+        "Supporting membership in Levi does not confer Aaron’s priestly office.",
+        "The appointment expressly includes Aaron’s sons, not Aaron alone."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "127f0c33",
+      "approvalReceipt": "26a31814c33897b78f456623519a8a3dc4faa71ace9ccf9ae40b92eb44c835b2",
+      "sourceDigest": "4ddd93650b00e7f369a0a82020498ba44de95c2aec997cad0714d8fc9258c5b1"
+    }
+  },
+  {
+    "id": "deep-torah-consecration-sequence-and-residence",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "A consecration plan washes and clothes Aaron’s family but dismisses them after the first day. Which correction follows both the command and its enactment?",
+    "options": [
+      "Delay anointing until the family has completed seven days of ordinary sanctuary service.",
+      "Retain washing, garments and anointing, and keep the prescribed seven-day consecration charge.",
+      "Retain washing and garments, but replace the remaining days with a single public blessing.",
+      "Complete seven days of offerings, but let the family leave the entrance between daily rites."
+    ],
+    "answer": 1,
+    "correctAnswer": "Retain washing, garments and anointing, and keep the prescribed seven-day consecration charge.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 29,
+      "verse": 4,
+      "endVerse": 9,
+      "translation": "KJV",
+      "excerpt": "And Aaron and his sons thou shalt bring unto the door of the tabernacle of the congregation, and shalt wash them with water. And thou shalt take the garments, and put upon Aaron the coat, and the robe of the ephod, and the ephod, and the breastplate, and gird him with the curious girdle of the ephod: And thou shalt put the mitre upon his head, and put the holy crown upon the mitre. Then shalt thou take the anointing oil, and pour [it] upon his head, and anoint him. And thou shalt bring his sons, and put coats upon them. And thou shalt gird them with girdles, Aaron and his sons, and put the bonnets on them: and the priest’s office shall be theirs for a perpetual statute: and thou shalt consecrate Aaron and his sons.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-29/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 29,
+        "verse": 35,
+        "endVerse": 37,
+        "translation": "KJV",
+        "excerpt": "And thus shalt thou do unto Aaron, and to his sons, according to all [things] which I have commanded thee: seven days shalt thou consecrate them. And thou shalt offer every day a bullock [for] a sin offering for atonement: and thou shalt cleanse the altar, when thou hast made an atonement for it, and thou shalt anoint it, to sanctify it. Seven days thou shalt make an atonement for the altar, and sanctify it; and it shall be an altar most holy: whatsoever toucheth the altar shall be holy.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-29/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 8,
+        "verse": 30,
+        "endVerse": 36,
+        "translation": "KJV",
+        "excerpt": "And Moses took of the anointing oil, and of the blood which [was] upon the altar, and sprinkled [it] upon Aaron, [and] upon his garments, and upon his sons, and upon his sons’ garments with him; and sanctified Aaron, [and] his garments, and his sons, and his sons’ garments with him. ¶ And Moses said unto Aaron and to his sons, Boil the flesh [at] the door of the tabernacle of the congregation: and there eat it with the bread that [is] in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it. And that which remaineth of the flesh and of the bread shall ye burn with fire. And ye shall not go out of the door of the tabernacle of the congregation [in] seven days, until the days of your consecration be at an end: for seven days shall he consecrate you. As he hath done this day, [so] the LORD hath commanded to do, to make an atonement for you. Therefore shall ye abide [at] the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded. So Aaron and his sons did all things which the LORD commanded by the hand of Moses.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-8/"
+      }
+    ],
+    "explain": "Exodus prescribes washing, clothing, anointing and seven days of consecration. Leviticus records the day-and-night charge at the entrance throughout those days.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "consecration-sequence-and-residence",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate consecration actions with the continuing residence obligation."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Integrate consecration actions with the continuing residence obligation.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCombine preparation, duration and the enacted restriction instead of recalling a number alone.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Anointing belongs to consecration, not a reward after ordinary service.",
+        "Proposed correct: Exodus prescribes washing, clothing, anointing and seven days of consecration. Leviticus records the day-and-night charge at the entrance throughout those days.",
+        "A blessing is not the prescribed replacement for the remaining consecration.",
+        "Leviticus 8:33–35 expressly requires remaining at the entrance day and night."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "9852a8aa",
+      "approvalReceipt": "435df3c8016bfb0eccfdf38dd984fa072aac9c0a2a2dadafbb7ff30ea376c634",
+      "sourceDigest": "e0635cd4a9d756e9443165f4460b2a8ffa2f1975d74da97fc89142472aac10ad"
+    }
+  },
+  {
+    "id": "deep-torah-bereavement-priest-high-priest-distinction",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "An ordinary Aaronic priest and the anointed high priest each lose a parent. Which comparison preserves their different corpse-defilement rules?",
+    "options": [
+      "The high priest has the close-kin exception; the ordinary priest must avoid a parent’s body.",
+      "Both must avoid a parent’s body, because the opening restriction cancels the kin exceptions.",
+      "The ordinary priest has the named close-kin exception; the high priest may not defile himself for a parent.",
+      "Both may use the close-kin exception, provided they avoid the sanctuary for seven days."
+    ],
+    "answer": 2,
+    "correctAnswer": "The ordinary priest has the named close-kin exception; the high priest may not defile himself for a parent.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 21,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people: But for his kin, that is near unto him, [that is], for his mother, and for his father, and for his son, and for his daughter, and for his brother, And for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 21,
+        "verse": 10,
+        "endVerse": 12,
+        "translation": "KJV",
+        "excerpt": "And [he that is] the high priest among his brethren, upon whose head the anointing oil was poured, and that is consecrated to put on the garments, shall not uncover his head, nor rend his clothes; Neither shall he go in to any dead body, nor defile himself for his father, or for his mother; Neither shall he go out of the sanctuary, nor profane the sanctuary of his God; for the crown of the anointing oil of his God [is] upon him: I [am] the LORD.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-21/"
+      }
+    ],
+    "explain": "Leviticus 21 names parents among the ordinary priest’s exceptions. The high-priest section expressly excludes defilement even for father or mother.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "bereavement-priest-high-priest-distinction",
+      "mode": "multi-passage",
+      "learningObjective": "Apply recipient-specific mourning restrictions without erasing explicit exceptions."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Apply recipient-specific mourning restrictions without erasing explicit exceptions.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve the interaction of a general restriction, a kin exception and a stricter office-specific rule.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The proposed reversal gives the stricter office the broader permission.",
+        "Verses 2–3 explicitly qualify the opening restriction.",
+        "Proposed correct: Leviticus 21 names parents among the ordinary priest’s exceptions. The high-priest section expressly excludes defilement even for father or mother.",
+        "This imports the ordinary priest’s exception into the high-priest rule."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "d1d658ce",
+      "approvalReceipt": "1df1edb4984140929d6e3ec321cd850c681833ef12d072c9503e57e1ec70d1d3",
+      "sourceDigest": "7f8b5da498e10cc06c54b1f42be91b19430f798771ac42d02214f18ec9b49d47"
+    }
+  },
+  {
+    "id": "deep-torah-blemish-versus-contact-uncleanness",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A clean descendant of Aaron has a listed bodily blemish; another priest has just acquired the contact uncleanness described in Leviticus 22:5–6. Which ruling fits both cases?",
+    "options": [
+      "Both may eat holy food at once, since priestly descent determines their food entitlement.",
+      "Both must stop eating holy food until their physical conditions disappear entirely.",
+      "The first may approach the altar but not eat; the second may eat after avoiding altar service.",
+      "The blemished man may eat but not approach the altar; the contact-unclean priest must first be cleansed."
+    ],
+    "answer": 3,
+    "correctAnswer": "The blemished man may eat but not approach the altar; the contact-unclean priest must first be cleansed.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 21,
+      "verse": 21,
+      "endVerse": 23,
+      "translation": "KJV",
+      "excerpt": "No man that hath a blemish of the seed of Aaron the priest shall come nigh to offer the offerings of the LORD made by fire: he hath a blemish; he shall not come nigh to offer the bread of his God. He shall eat the bread of his God, [both] of the most holy, and of the holy. Only he shall not go in unto the vail, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I the LORD do sanctify them.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 22,
+        "verse": 4,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "What man soever of the seed of Aaron [is] a leper, or hath a running issue; he shall not eat of the holy things, until he be clean. And whoso toucheth any thing [that is] unclean [by] the dead, or a man whose seed goeth from him; Or whosoever toucheth any creeping thing, whereby he may be made unclean, or a man of whom he may take uncleanness, whatsoever uncleanness he hath; The soul which hath touched any such shall be unclean until even, and shall not eat of the holy things, unless he wash his flesh with water. And when the sun is down, he shall be clean, and shall afterward eat of the holy things; because it [is] his food.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+      }
+    ],
+    "explain": "Leviticus 21 preserves food entitlement despite the altar restriction. Leviticus 22 separately withholds holy food during uncleanness and specifies washing and sunset.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "blemish-versus-contact-uncleanness",
+      "mode": "multi-passage",
+      "learningObjective": "Separate permanent service qualifications from temporary food-access restrictions."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Separate permanent service qualifications from temporary food-access restrictions.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply two distinct legal conditions to different people rather than treating all restrictions alike.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Descent does not override the temporary uncleanness restriction.",
+        "The blemish rule expressly allows eating; disappearance of the blemish is not required.",
+        "This reverses the first man’s permission and omits the second man’s cleansing.",
+        "Proposed correct: Leviticus 21 preserves food entitlement despite the altar restriction. Leviticus 22 separately withholds holy food during uncleanness and specifies washing and sunset."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "a974c2a2",
+      "approvalReceipt": "6679838dcfce766e9e34ce49fd8d7f01c1d449af009bd652d3f7abae5326afe0",
+      "sourceDigest": "0e6b0c9c26076b352d467b1081104d41e2eeca8ced4a06af16ce1dbe220c53cf"
+    }
+  },
+  {
+    "id": "deep-torah-levite-age-texts-and-retired-assistance",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A roster merges Numbers 4 and 8 into one age rule and removes all participation after fifty. Which revision stays closest to their wording?",
+    "options": [
+      "Keep the thirty-to-fifty burden census distinct from the twenty-five entry instruction and the later assisting role.",
+      "Use twenty-five for the burden census and omit the later assisting role as outside tabernacle work.",
+      "Use thirty for both entry instructions and retain the same burden assignment beyond fifty.",
+      "Keep both starting ages but treat fifty as the end of every kind of service with the brethren."
+    ],
+    "answer": 0,
+    "correctAnswer": "Keep the thirty-to-fifty burden census distinct from the twenty-five entry instruction and the later assisting role.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 4,
+      "verse": 46,
+      "endVerse": 49,
+      "translation": "KJV",
+      "excerpt": "All those that were numbered of the Levites, whom Moses and Aaron and the chief of Israel numbered, after their families, and after the house of their fathers, From thirty years old and upward even unto fifty years old, every one that came to do the service of the ministry, and the service of the burden in the tabernacle of the congregation, Even those that were numbered of them, were eight thousand and five hundred and fourscore. According to the commandment of the LORD they were numbered by the hand of Moses, every one according to his service, and according to his burden: thus were they numbered of him, as the LORD commanded Moses.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 8,
+        "verse": 23,
+        "endVerse": 26,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD spake unto Moses, saying, This [is it] that [belongeth] unto the Levites: from twenty and five years old and upward they shall go in to wait upon the service of the tabernacle of the congregation: And from the age of fifty years they shall cease waiting upon the service [thereof], and shall serve no more: But shall minister with their brethren in the tabernacle of the congregation, to keep the charge, and shall do no service. Thus shalt thou do unto the Levites touching their charge.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-8/"
+      }
+    ],
+    "explain": "Numbers 4 numbers burden service from thirty to fifty. Numbers 8 gives twenty-five for entry, ends the stated service at fifty, yet permits ministering with brethren to keep the charge. It does not explain the different starting ages.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levite-age-texts-and-retired-assistance",
+      "mode": "multi-passage",
+      "learningObjective": "Preserve differing textual scopes and the post-fifty exception without inventing a training period."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Preserve differing textual scopes and the post-fifty exception without inventing a training period.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate two age provisions and a limited continuation, acknowledging the text’s explanatory limit.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Numbers 4 numbers burden service from thirty to fifty. Numbers 8 gives twenty-five for entry, ends the stated service at fifty, yet permits ministering with brethren to keep the charge. It does not explain the different starting ages.",
+        "Numbers 4 explicitly begins its census at thirty, and Numbers 8 retains assistance.",
+        "This erases the twenty-five statement and the cessation of the stated service.",
+        "Numbers 8:26 expressly retains a limited role with the brethren."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "01e95a45",
+      "approvalReceipt": "560e1df5f7c265660e0c6dc3d906a15bb6e8751647d607d64918ba48cf1c13e2",
+      "sourceDigest": "38233e817198ba8fb361ce21b3c4533a4db938c6b2c4080820bc414d1f0b7820"
+    }
+  },
+  {
+    "id": "deep-torah-priest-household-food-eligibility",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A priest’s hired worker, a purchased household member, and his childless widowed daughter returned home request portions of an offering assigned to clean household members. Which policy fits all three passages?",
+    "options": [
+      "Admit the purchased member and returned daughter to every portion, because household eligibility removes food restrictions.",
+      "Distinguish their household eligibility, require cleanness, and do not extend this permission to every most-holy portion.",
+      "Admit all three as residents, require cleanness, and reserve the most-holy portions for the priest alone.",
+      "Admit the purchased member but exclude the returned daughter, applying the married-daughter restriction unchanged."
+    ],
+    "answer": 1,
+    "correctAnswer": "Distinguish their household eligibility, require cleanness, and do not extend this permission to every most-holy portion.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 22,
+      "verse": 10,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "There shall no stranger eat [of] the holy thing: a sojourner of the priest, or an hired servant, shall not eat [of] the holy thing. But if the priest buy [any] soul with his money, he shall eat of it, and he that is born in his house: they shall eat of his meat. If the priest’s daughter also be [married] unto a stranger, she may not eat of an offering of the holy things. But if the priest’s daughter be a widow, or divorced, and have no child, and is returned unto her father’s house, as in her youth, she shall eat of her father’s meat: but there shall no stranger eat thereof.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 22,
+        "verse": 4,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "What man soever of the seed of Aaron [is] a leper, or hath a running issue; he shall not eat of the holy things, until he be clean. And whoso toucheth any thing [that is] unclean [by] the dead, or a man whose seed goeth from him; Or whosoever toucheth any creeping thing, whereby he may be made unclean, or a man of whom he may take uncleanness, whatsoever uncleanness he hath; The soul which hath touched any such shall be unclean until even, and shall not eat of the holy things, unless he wash his flesh with water. And when the sun is down, he shall be clean, and shall afterward eat of the holy things; because it [is] his food.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 18,
+        "verse": 9,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "This shall be thine of the most holy things, [reserved] from the fire: every oblation of theirs, every meat offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall render unto me, [shall be] most holy for thee and for thy sons. In the most holy [place] shalt thou eat it; every male shall eat it: it shall be holy unto thee. And this [is] thine; the heave offering of their gift, with all the wave offerings of the children of Israel: I have given them unto thee, and to thy sons and to thy daughters with thee, by a statute for ever: every one that is clean in thy house shall eat of it. All the best of the oil, and all the best of the wine, and of the wheat, the firstfruits of them which they shall offer unto the LORD, them have I given thee. [And] whatsoever is first ripe in the land, which they shall bring unto the LORD, shall be thine; every one that is clean in thine house shall eat [of] it.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-18/"
+      }
+    ],
+    "explain": "The hired worker is excluded; the purchased member and qualifying returned daughter may eat the specified household food. Cleanness still matters, and Numbers distinguishes most-holy portions from gifts shared with clean sons and daughters.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "priest-household-food-eligibility",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate household status, temporary cleanness and the class of priestly food."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Coordinate household status, temporary cleanness and the class of priestly food.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve three interacting eligibility filters across distinct food laws; household residence alone is insufficient.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Household entitlement neither removes uncleanness restrictions nor expands every portion’s recipients.",
+        "Proposed correct: The hired worker is excluded; the purchased member and qualifying returned daughter may eat the specified household food. Cleanness still matters, and Numbers distinguishes most-holy portions from gifts shared with clean sons and daughters.",
+        "Residence does not admit the hired worker, and Numbers 18:10 does not limit male eating to the priest alone.",
+        "Leviticus 22:13 explicitly restores the childless returned widow’s food access."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "49d6a9b8",
+      "approvalReceipt": "b03fe29c08d22501a51e4fbf9c246c11f03d08f690169930f451cdda529243a8",
+      "sourceDigest": "633972af3fc06cbb598e3751adde6e65511b716a4e705d5dcea9d3878cd057f3"
+    }
+  },
+  {
+    "id": "deep-torah-levitical-inheritance-support-and-cities",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A land council says that no tribal inheritance for Levi means no dwelling cities, while a tithe steward says Levites may retain the whole tithe. Which correction respects all four instructions?",
+    "options": [
+      "Retain tithes as support but treat dwelling cities and the tithe-of-tithes requirement as alternatives.",
+      "Provide cities and full tithe retention, because the inheritance restriction removes further contribution duties.",
+      "Retain the cities and support without a tribal allotment, and require the Levites’ offering from their tithes.",
+      "Provide dwelling cities but replace tithe support with an ordinary tribal land allotment."
+    ],
+    "answer": 2,
+    "correctAnswer": "Retain the cities and support without a tribal allotment, and require the Levites’ offering from their tithes.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 18,
+      "verse": 20,
+      "endVerse": 24,
+      "translation": "KJV",
+      "excerpt": "¶ And the LORD spake unto Aaron, Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I [am] thy part and thine inheritance among the children of Israel. And, behold, I have given the children of Levi all the tenth in Israel for an inheritance, for their service which they serve, [even] the service of the tabernacle of the congregation. Neither must the children of Israel henceforth come nigh the tabernacle of the congregation, lest they bear sin, and die. But the Levites shall do the service of the tabernacle of the congregation, and they shall bear their iniquity: [it shall be] a statute for ever throughout your generations, that among the children of Israel they have no inheritance. But the tithes of the children of Israel, which they offer [as] an heave offering unto the LORD, I have given to the Levites to inherit: therefore I have said unto them, Among the children of Israel they shall have no inheritance.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-18/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 18,
+        "verse": 26,
+        "endVerse": 32,
+        "translation": "KJV",
+        "excerpt": "Thus speak unto the Levites, and say unto them, When ye take of the children of Israel the tithes which I have given you from them for your inheritance, then ye shall offer up an heave offering of it for the LORD, [even] a tenth [part] of the tithe. And [this] your heave offering shall be reckoned unto you, as though [it were] the corn of the threshingfloor, and as the fulness of the winepress. Thus ye also shall offer an heave offering unto the LORD of all your tithes, which ye receive of the children of Israel; and ye shall give thereof the LORD’s heave offering to Aaron the priest. Out of all your gifts ye shall offer every heave offering of the LORD, of all the best thereof, [even] the hallowed part thereof out of it. Therefore thou shalt say unto them, When ye have heaved the best thereof from it, then it shall be counted unto the Levites as the increase of the threshingfloor, and as the increase of the winepress. And ye shall eat it in every place, ye and your households: for it [is] your reward for your service in the tabernacle of the congregation. And ye shall bear no sin by reason of it, when ye have heaved from it the best of it: neither shall ye pollute the holy things of the children of Israel, lest ye die.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-18/"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 35,
+        "verse": 1,
+        "endVerse": 8,
+        "translation": "KJV",
+        "excerpt": "And the LORD spake unto Moses in the plains of Moab by Jordan [near] Jericho, saying, Command the children of Israel, that they give unto the Levites of the inheritance of their possession cities to dwell in; and ye shall give [also] unto the Levites suburbs for the cities round about them. And the cities shall they have to dwell in; and the suburbs of them shall be for their cattle, and for their goods, and for all their beasts. And the suburbs of the cities, which ye shall give unto the Levites, [shall reach] from the wall of the city and outward a thousand cubits round about. And ye shall measure from without the city on the east side two thousand cubits, and on the south side two thousand cubits, and on the west side two thousand cubits, and on the north side two thousand cubits; and the city [shall be] in the midst: this shall be to them the suburbs of the cities. And among the cities which ye shall give unto the Levites [there shall be] six cities for refuge, which ye shall appoint for the manslayer, that he may flee thither: and to them ye shall add forty and two cities. [So] all the cities which ye shall give to the Levites [shall be] forty and eight cities: them [shall ye give] with their suburbs. And the cities which ye shall give [shall be] of the possession of the children of Israel: from [them that have] many ye shall give many; but from [them that have] few ye shall give few: every one shall give of his cities unto the Levites according to his inheritance which he inheriteth.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-35/"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "verse": 1,
+        "endVerse": 5,
+        "translation": "KJV",
+        "excerpt": "The priests the Levites, [and] all the tribe of Levi, shall have no part nor inheritance with Israel: they shall eat the offerings of the LORD made by fire, and his inheritance. Therefore shall they have no inheritance among their brethren: the LORD [is] their inheritance, as he hath said unto them. ¶ And this shall be the priest’s due from the people, from them that offer a sacrifice, whether [it be] ox or sheep; and they shall give unto the priest the shoulder, and the two cheeks, and the maw. The firstfruit [also] of thy corn, of thy wine, and of thine oil, and the first of the fleece of thy sheep, shalt thou give him. For the LORD thy God hath chosen him out of all thy tribes, to stand to minister in the name of the LORD, him and his sons for ever.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-18/"
+      }
+    ],
+    "explain": "The texts deny the ordinary tribal inheritance while providing cities and appointed support. Levites receiving tithes must offer a tenth, giving the prescribed offering to Aaron.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levitical-inheritance-support-and-cities",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish land inheritance, residential provision, service support and obligations on that support."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Distinguish land inheritance, residential provision, service support and obligations on that support.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate four provisions involving land, recipients, support and onward contribution without substituting one for another.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Cities and the required contribution are not presented as alternative arrangements.",
+        "The tithe-of-tithes duty is expressly imposed despite the inheritance restriction.",
+        "Proposed correct: The texts deny the ordinary tribal inheritance while providing cities and appointed support. Levites receiving tithes must offer a tenth, giving the prescribed offering to Aaron.",
+        "An ordinary tribal allotment contradicts the stated inheritance restriction."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "c297c5fc",
+      "approvalReceipt": "31eb79f27f42331ce404cbcaa0f1552bddc745cedde39185965a941c3fbb650d",
+      "sourceDigest": "4d22c82d85eafc98e3b2ff857a31ca800e68414ecae3d554999f223e4533ec85"
+    }
+  },
+  {
+    "id": "deep-torah-priestly-succession-garments-and-access",
+    "category": "Aaronic Priesthood and Levites",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A succession council transfers Aaron’s garments to his son, then claims the garments alone complete consecration and allow unrestricted inner-sanctuary entry. Which assessment follows the full evidence chain?",
+    "options": [
+      "The transfer models succession; the successor keeps annual linen ministry, but the seven-day garment instruction belongs only to Aaron.",
+      "The successor must be consecrated and retain annual atonement, but inherited garments replace the special linen outfit for that ministry.",
+      "The transfer and consecration are valid; annual atonement limits the incense altar, while the successor’s inner-veil entry is unrestricted.",
+      "The transfer is modeled in Eleazar’s succession, but consecration requirements and the bounded atonement ministry still govern the successor."
+    ],
+    "answer": 3,
+    "correctAnswer": "The transfer is modeled in Eleazar’s succession, but consecration requirements and the bounded atonement ministry still govern the successor.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 20,
+      "verse": 24,
+      "endVerse": 28,
+      "translation": "KJV",
+      "excerpt": "Aaron shall be gathered unto his people: for he shall not enter into the land which I have given unto the children of Israel, because ye rebelled against my word at the water of Meribah. Take Aaron and Eleazar his son, and bring them up unto mount Hor: And strip Aaron of his garments, and put them upon Eleazar his son: and Aaron shall be gathered [unto his people], and shall die there. And Moses did as the LORD commanded: and they went up into mount Hor in the sight of all the congregation. And Moses stripped Aaron of his garments, and put them upon Eleazar his son; and Aaron died there in the top of the mount: and Moses and Eleazar came down from the mount.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-20/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 29,
+        "verse": 29,
+        "endVerse": 30,
+        "translation": "KJV",
+        "excerpt": "¶ And the holy garments of Aaron shall be his sons’ after him, to be anointed therein, and to be consecrated in them. [And] that son that is priest in his stead shall put them on seven days, when he cometh into the tabernacle of the congregation to minister in the holy [place].",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-29/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 16,
+        "verse": 2,
+        "endVerse": 4,
+        "translation": "KJV",
+        "excerpt": "And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy [place] within the vail before the mercy seat, which [is] upon the ark; that he die not: for I will appear in the cloud upon the mercy seat. Thus shall Aaron come into the holy [place:] with a young bullock for a sin offering, and a ram for a burnt offering. He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with a linen girdle, and with the linen mitre shall he be attired: these [are] holy garments; therefore shall he wash his flesh in water, and [so] put them on.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 16,
+        "verse": 32,
+        "endVerse": 34,
+        "translation": "KJV",
+        "excerpt": "And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest’s office in his father’s stead, shall make the atonement, and shall put on the linen clothes, [even] the holy garments: And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation. And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+      }
+    ],
+    "explain": "Numbers records the transfer to Eleazar. Exodus connects inherited garments with anointing, consecration and seven days; Leviticus restricts entry and assigns the successor the linen-clothed annual atonement ministry. Inherited office is not unlimited access.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "priestly-succession-garments-and-access",
+      "mode": "multi-passage",
+      "learningObjective": "Evaluate succession, consecration, access and task-specific garments as separate legal conditions."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Evaluate succession, consecration, access and task-specific garments as separate legal conditions.",
+      "section": "Aaronic Priesthood and Levites",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nTrace a narrative succession through three books and four legal units, testing both the authority claim and its limits.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Exodus 29:30 explicitly assigns seven days to the son serving in Aaron’s stead.",
+        "Leviticus 16:32 expressly requires the successor’s linen garments.",
+        "Leviticus 16:2 restricts inner entry; Exodus’ altar rule does not confine the restriction to that altar.",
+        "Proposed correct: Numbers records the transfer to Eleazar. Exodus connects inherited garments with anointing, consecration and seven days; Leviticus restricts entry and assigns the successor the linen-clothed annual atonement ministry. Inherited office is not unlimited access."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "fc2c14c7",
+      "approvalReceipt": "04b62534f2ad0aaa80512dc084d28ac0ffddc5f8957ab0cdc1bfabba22bb7a35",
+      "sourceDigest": "f5cd0876440512bc51550bdc3e51f5b29cfd1888310ded3ca856113ffaf6c797"
+    }
+  },
+  {
+    "id": "deep-torah-herd-burnt-offering-divided-actions",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "For a herd burnt offering in Leviticus 1, which division of actions follows the instruction?",
+    "options": [
+      "The offerer lays his hand on and kills the bullock; Aaron’s sons handle its blood at the altar.",
+      "Aaron’s sons lay hands on the bullock; the offerer sprinkles its blood around the altar.",
+      "The offerer kills and eats the bullock; Aaron’s sons burn its reserved fat on the altar.",
+      "Aaron’s sons kill the bullock inside the veil; the offerer washes its blood from the altar."
+    ],
+    "answer": 0,
+    "correctAnswer": "The offerer lays his hand on and kills the bullock; Aaron’s sons handle its blood at the altar.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 1,
+      "verse": 3,
+      "endVerse": 9,
+      "translation": "KJV",
+      "excerpt": "If his offering [be] a burnt sacrifice of the herd, let him offer a male without blemish: he shall offer it of his own voluntary will at the door of the tabernacle of the congregation before the LORD. And he shall put his hand upon the head of the burnt offering; and it shall be accepted for him to make atonement for him. And he shall kill the bullock before the LORD: and the priests, Aaron’s sons, shall bring the blood, and sprinkle the blood round about upon the altar that [is by] the door of the tabernacle of the congregation. And he shall flay the burnt offering, and cut it into his pieces. And the sons of Aaron the priest shall put fire upon the altar, and lay the wood in order upon the fire: And the priests, Aaron’s sons, shall lay the parts, the head, and the fat, in order upon the wood that [is] on the fire which [is] upon the altar: But his inwards and his legs shall he wash in water: and the priest shall burn all on the altar, [to be] a burnt sacrifice, an offering made by fire, of a sweet savour unto the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-1/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage assigns laying on of the hand and killing to the offerer, then names Aaron’s sons for bringing and sprinkling the blood. This herd procedure should not be flattened into the bird procedure later in the chapter.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "herd-burnt-offering-divided-actions",
+      "mode": "explicit",
+      "learningObjective": "Follow actor changes within one offering procedure."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Follow actor changes within one offering procedure.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 5
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nTrack who performs successive actions and distinguish the specified offering type.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: The passage assigns laying on of the hand and killing to the offerer, then names Aaron’s sons for bringing and sprinkling the blood. This herd procedure should not be flattened into the bird procedure later in the chapter.",
+        "This reverses the assigned actions.",
+        "A burnt offering is burned, not treated as an offerer’s shared meal.",
+        "The killing occurs before Yah at the entrance setting, not inside the veil."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "f597bafc",
+      "approvalReceipt": "198586e795c09b29905dc255f962b948a66bbc8519bc63c5f3288b42f8a612ca",
+      "sourceDigest": "ed4c1021f74f7ec43b05d38f5591f99230049adb6479046f47e06ecb764347e3"
+    }
+  },
+  {
+    "id": "deep-torah-ruler-commoner-sin-goat-distinction",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "A ruler and a common Israelite each bring the prescribed goat after an unintentional sin becomes known. Which comparison preserves both their different animals and their shared blood destination?",
+    "options": [
+      "Both bring a female; their blood is taken before the veil as in the anointed priest’s case.",
+      "The ruler brings a male and the commoner a female; both use the burnt-offering altar’s horns.",
+      "Both bring a male; the ruler’s blood goes inside the sanctuary and the commoner’s stays outside.",
+      "The ruler brings a female and the commoner a male; both use the incense altar’s horns."
+    ],
+    "answer": 1,
+    "correctAnswer": "The ruler brings a male and the commoner a female; both use the burnt-offering altar’s horns.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 4,
+      "verse": 22,
+      "endVerse": 26,
+      "translation": "KJV",
+      "excerpt": "¶ When a ruler hath sinned, and done [somewhat] through ignorance [against] any of the commandments of the LORD his God [concerning things] which should not be done, and is guilty; Or if his sin, wherein he hath sinned, come to his knowledge; he shall bring his offering, a kid of the goats, a male without blemish: And he shall lay his hand upon the head of the goat, and kill it in the place where they kill the burnt offering before the LORD: it [is] a sin offering. And the priest shall take of the blood of the sin offering with his finger, and put [it] upon the horns of the altar of burnt offering, and shall pour out his blood at the bottom of the altar of burnt offering. And he shall burn all his fat upon the altar, as the fat of the sacrifice of peace offerings: and the priest shall make an atonement for him as concerning his sin, and it shall be forgiven him.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 4,
+        "verse": 27,
+        "endVerse": 31,
+        "translation": "KJV",
+        "excerpt": "¶ And if any one of the common people sin through ignorance, while he doeth [somewhat against] any of the commandments of the LORD [concerning things] which ought not to be done, and be guilty; Or if his sin, which he hath sinned, come to his knowledge: then he shall bring his offering, a kid of the goats, a female without blemish, for his sin which he hath sinned. And he shall lay his hand upon the head of the sin offering, and slay the sin offering in the place of the burnt offering. And the priest shall take of the blood thereof with his finger, and put [it] upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar. And he shall take away all the fat thereof, as the fat is taken away from off the sacrifice of peace offerings; and the priest shall burn [it] upon the altar for a sweet savour unto the LORD; and the priest shall make an atonement for him, and it shall be forgiven him.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-4/"
+      }
+    ],
+    "explain": "Leviticus specifies a male goat for the ruler and a female goat in this commoner case. Both passages put blood on the horns of the burnt-offering altar.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "ruler-commoner-sin-goat-distinction",
+      "mode": "multi-passage",
+      "learningObjective": "Compare actor-specific sin offerings without importing the anointed priest’s procedure."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Compare actor-specific sin offerings without importing the anointed priest’s procedure.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate two recipient rules and their common altar destination.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Neither the animals nor the before-the-veil destination fit these two cases.",
+        "Proposed correct: Leviticus specifies a male goat for the ruler and a female goat in this commoner case. Both passages put blood on the horns of the burnt-offering altar.",
+        "It erases the female-goat distinction and invents an inner-sanctuary destination for the ruler.",
+        "It reverses the sexes and substitutes the incense altar."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "9239fbc7",
+      "approvalReceipt": "90298954862b21787d7b868ea9d6e2337abdb47eaeaa98519ce303c454a8fb95",
+      "sourceDigest": "1044214047cc06a215dee27f2c90fd4b5617b4ad23e17058567f790eabe07a76"
+    }
+  },
+  {
+    "id": "deep-torah-peace-offering-thanksgiving-vow-deadlines",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "Two peace offerings are prepared, one for thanksgiving and one for a vow. Which plan handles their leftovers correctly?",
+    "options": [
+      "Allow both through the second day; thanksgiving uses the same deadline as the vow offering.",
+      "Allow the vow flesh through the third day; thanksgiving must finish on the first day.",
+      "Finish thanksgiving flesh that day; allow vow flesh the next day, burning third-day remains.",
+      "Finish both on the first day; burn any second-day remainder because the offerings share one name."
+    ],
+    "answer": 2,
+    "correctAnswer": "Finish thanksgiving flesh that day; allow vow flesh the next day, burning third-day remains.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 7,
+      "verse": 11,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "And this [is] the law of the sacrifice of peace offerings, which he shall offer unto the LORD. If he offer it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unleavened cakes mingled with oil, and unleavened wafers anointed with oil, and cakes mingled with oil, of fine flour, fried. Besides the cakes, he shall offer [for] his offering leavened bread with the sacrifice of thanksgiving of his peace offerings. And of it he shall offer one out of the whole oblation [for] an heave offering unto the LORD, [and] it shall be the priest’s that sprinkleth the blood of the peace offerings. And the flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten the same day that it is offered; he shall not leave any of it until the morning. But if the sacrifice of his offering [be] a vow, or a voluntary offering, it shall be eaten the same day that he offereth his sacrifice: and on the morrow also the remainder of it shall be eaten: But the remainder of the flesh of the sacrifice on the third day shall be burnt with fire. And if [any] of the flesh of the sacrifice of his peace offerings be eaten at all on the third day, it shall not be accepted, neither shall it be imputed unto him that offereth it: it shall be an abomination, and the soul that eateth of it shall bear his iniquity.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 22,
+        "verse": 29,
+        "endVerse": 30,
+        "translation": "KJV",
+        "excerpt": "And when ye will offer a sacrifice of thanksgiving unto the LORD, offer [it] at your own will. On the same day it shall be eaten up; ye shall leave none of it until the morrow: I [am] the LORD.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+      }
+    ],
+    "explain": "Thanksgiving has a same-day limit. A vow or voluntary peace offering may also be eaten on the morrow, but its third-day remainder is burned rather than eaten.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "peace-offering-thanksgiving-vow-deadlines",
+      "mode": "multi-passage",
+      "learningObjective": "Apply different deadlines within the peace-offering family."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Apply different deadlines within the peace-offering family.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate two offering purposes with a repeated thanksgiving restriction and a disposal rule.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The common offering family does not cancel thanksgiving’s stricter deadline.",
+        "The third day is a burning deadline, not an eating extension.",
+        "Proposed correct: Thanksgiving has a same-day limit. A vow or voluntary peace offering may also be eaten on the morrow, but its third-day remainder is burned rather than eaten.",
+        "This removes the express next-day permission for the vow offering."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "7a7004d8",
+      "approvalReceipt": "a25ac22cfd16bb9b982d464abb05e0b52f6218d1584e7fd0b9034cb991638843",
+      "sourceDigest": "8e48541e4d8f7eb2f4a323c9b29ceb064e12919dc25abb896bba12e90480e284"
+    }
+  },
+  {
+    "id": "deep-torah-leavened-firstfruits-not-altar-burning",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A planner objects that the leavened wave loaves at Weeks contradict the grain-offering rule. Which distinction preserves both instructions?",
+    "options": [
+      "Weeks permits leaven to be burned as a sweet savour, while other grain offerings use salt instead.",
+      "The wave loaves must be made unleavened because the general grain-offering rule cancels their stated recipe.",
+      "The loaves are ordinary household bread, so presenting them has no connection to the firstfruits offering.",
+      "Leavened firstfruits can be presented as commanded without being burned on the altar as a sweet savour."
+    ],
+    "answer": 3,
+    "correctAnswer": "Leavened firstfruits can be presented as commanded without being burned on the altar as a sweet savour.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 2,
+      "verse": 11,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "No meat offering, which ye shall bring unto the LORD, shall be made with leaven: for ye shall burn no leaven, nor any honey, in any offering of the LORD made by fire. ¶ As for the oblation of the firstfruits, ye shall offer them unto the LORD: but they shall not be burnt on the altar for a sweet savour. And every oblation of thy meat offering shalt thou season with salt; neither shalt thou suffer the salt of the covenant of thy God to be lacking from thy meat offering: with all thine offerings thou shalt offer salt.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-2/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 23,
+        "verse": 17,
+        "endVerse": 20,
+        "translation": "KJV",
+        "excerpt": "Ye shall bring out of your habitations two wave loaves of two tenth deals: they shall be of fine flour; they shall be baken with leaven; [they are] the firstfruits unto the LORD. And ye shall offer with the bread seven lambs without blemish of the first year, and one young bullock, and two rams: they shall be [for] a burnt offering unto the LORD, with their meat offering, and their drink offerings, [even] an offering made by fire, of sweet savour unto the LORD. Then ye shall sacrifice one kid of the goats for a sin offering, and two lambs of the first year for a sacrifice of peace offerings. And the priest shall wave them with the bread of the firstfruits [for] a wave offering before the LORD, with the two lambs: they shall be holy to the LORD for the priest.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-23/"
+      }
+    ],
+    "explain": "Leviticus 2 distinguishes presentation of firstfruits from altar burning with leaven or honey. Leviticus 23 expressly commands leavened firstfruits loaves for waving; salt is not a substitute permission to burn leaven.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "leavened-firstfruits-not-altar-burning",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish presenting an oblation from burning it on the altar."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Distinguish presenting an oblation from burning it on the altar.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply a general prohibition and its stated presentation distinction to a specific feast instruction.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The text does not authorize burning leaven at Weeks or make salt an alternative to the restriction.",
+        "This erases the specific command for leavened loaves.",
+        "Leviticus explicitly names the loaves firstfruits unto Yah.",
+        "Proposed correct: Leviticus 2 distinguishes presentation of firstfruits from altar burning with leaven or honey. Leviticus 23 expressly commands leavened firstfruits loaves for waving; salt is not a substitute permission to burn leaven."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "ae3ed579",
+      "approvalReceipt": "9f4ec2f0c60daa119cfeda186c126101b8eeb88a6509a7850c75579cce94cde0",
+      "sourceDigest": "5b8be1e378ec2c121647f2364d2a79132115d3f9249e20037b52c00d7b8ceb8b"
+    }
+  },
+  {
+    "id": "deep-torah-holy-property-repayment-not-offering-substitute",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "An Israelite unwittingly harms a holy thing and proposes that bringing the ram settles the whole matter. How do the holy-property rules assess that proposal?",
+    "options": [
+      "The ram does not replace making amends and adding a fifth in the holy-thing trespass case.",
+      "The ram replaces making amends, while the added fifth applies only to deliberate misuse.",
+      "Making amends replaces the ram, because ignorance removes the offering obligation.",
+      "Repayment is twice the loss, because every unwitting use of holy property follows the theft rate."
+    ],
+    "answer": 0,
+    "correctAnswer": "The ram does not replace making amends and adding a fifth in the holy-thing trespass case.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 5,
+      "verse": 15,
+      "endVerse": 19,
+      "translation": "KJV",
+      "excerpt": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then he shall bring for his trespass unto the LORD a ram without blemish out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering: And he shall make amends for the harm that he hath done in the holy thing, and shall add the fifth part thereto, and give it unto the priest: and the priest shall make an atonement for him with the ram of the trespass offering, and it shall be forgiven him. ¶ And if a soul sin, and commit any of these things which are forbidden to be done by the commandments of the LORD; though he wist [it] not, yet is he guilty, and shall bear his iniquity. And he shall bring a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: and the priest shall make an atonement for him concerning his ignorance wherein he erred and wist [it] not, and it shall be forgiven him. It [is] a trespass offering: he hath certainly trespassed against the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 22,
+        "verse": 14,
+        "endVerse": 16,
+        "translation": "KJV",
+        "excerpt": "¶ And if a man eat [of] the holy thing unwittingly, then he shall put the fifth [part] thereof unto it, and shall give [it] unto the priest with the holy thing. And they shall not profane the holy things of the children of Israel, which they offer unto the LORD; Or suffer them to bear the iniquity of trespass, when they eat their holy things: for I the LORD do sanctify them.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+      }
+    ],
+    "explain": "Leviticus 5:15–16 requires both the ram and amends plus a fifth. Leviticus 22 separately confirms an added fifth for unwitting eating of holy food. Ignorance does not make these obligations interchangeable.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "holy-property-repayment-not-offering-substitute",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish sacrificial atonement from monetary repair in holy-property wrongdoing."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Distinguish sacrificial atonement from monetary repair in holy-property wrongdoing.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply the cumulative duties and compare a related misuse rule without transferring an unrelated theft rate.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Leviticus 5:15–16 requires both the ram and amends plus a fifth. Leviticus 22 separately confirms an added fifth for unwitting eating of holy food. Ignorance does not make these obligations interchangeable.",
+        "The fifth is expressly required in an ignorance case.",
+        "The passage still requires the ram.",
+        "These holy-property provisions name a fifth, not a doubled theft payment."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "49b42009",
+      "approvalReceipt": "5492ca87fafca597046119b8fc3273307e69e6857c8683f7d1c6eb4eb81e3f1f",
+      "sourceDigest": "4302d7b3086a0ad350883aba14a00d851ea28a718d82b1e8793d25e7d0519383"
+    }
+  },
+  {
+    "id": "deep-torah-sin-blood-destination-and-outside-camp",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A teacher treats all sin-offering bodies as priestly meals and cites Hebrews’ outside-the-camp comparison as an exception invented later. Which reading preserves the Torah distinctions and Hebrews’ argument?",
+    "options": [
+      "Hebrews introduces outside burning, because Leviticus limits disposal of whole bodies to the altar court.",
+      "Blood brought into the sanctuary marks a non-eaten offering burned outside; Hebrews draws on that established pattern.",
+      "Every sin offering is eaten, with outside burning limited to the fat removed before the priestly meal.",
+      "The ruler’s goat establishes that blood from every sin offering is taken inside before the veil."
+    ],
+    "answer": 1,
+    "correctAnswer": "Blood brought into the sanctuary marks a non-eaten offering burned outside; Hebrews draws on that established pattern.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 4,
+      "verse": 3,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "If the priest that is anointed do sin according to the sin of the people; then let him bring for his sin, which he hath sinned, a young bullock without blemish unto the LORD for a sin offering. And he shall bring the bullock unto the door of the tabernacle of the congregation before the LORD; and shall lay his hand upon the bullock’s head, and kill the bullock before the LORD. And the priest that is anointed shall take of the bullock’s blood, and bring it to the tabernacle of the congregation: And the priest shall dip his finger in the blood, and sprinkle of the blood seven times before the LORD, before the vail of the sanctuary. And the priest shall put [some] of the blood upon the horns of the altar of sweet incense before the LORD, which [is] in the tabernacle of the congregation; and shall pour all the blood of the bullock at the bottom of the altar of the burnt offering, which [is at] the door of the tabernacle of the congregation. And he shall take off from it all the fat of the bullock for the sin offering; the fat that covereth the inwards, and all the fat that [is] upon the inwards, And the two kidneys, and the fat that [is] upon them, which [is] by the flanks, and the caul above the liver, with the kidneys, it shall he take away, As it was taken off from the bullock of the sacrifice of peace offerings: and the priest shall burn them upon the altar of the burnt offering. And the skin of the bullock, and all his flesh, with his head, and with his legs, and his inwards, and his dung, Even the whole bullock shall he carry forth without the camp unto a clean place, where the ashes are poured out, and burn him on the wood with fire: where the ashes are poured out shall he be burnt.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 4,
+        "verse": 22,
+        "endVerse": 26,
+        "translation": "KJV",
+        "excerpt": "¶ When a ruler hath sinned, and done [somewhat] through ignorance [against] any of the commandments of the LORD his God [concerning things] which should not be done, and is guilty; Or if his sin, wherein he hath sinned, come to his knowledge; he shall bring his offering, a kid of the goats, a male without blemish: And he shall lay his hand upon the head of the goat, and kill it in the place where they kill the burnt offering before the LORD: it [is] a sin offering. And the priest shall take of the blood of the sin offering with his finger, and put [it] upon the horns of the altar of burnt offering, and shall pour out his blood at the bottom of the altar of burnt offering. And he shall burn all his fat upon the altar, as the fat of the sacrifice of peace offerings: and the priest shall make an atonement for him as concerning his sin, and it shall be forgiven him.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-4/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 6,
+        "verse": 25,
+        "endVerse": 30,
+        "translation": "KJV",
+        "excerpt": "Speak unto Aaron and to his sons, saying, This [is] the law of the sin offering: In the place where the burnt offering is killed shall the sin offering be killed before the LORD: it [is] most holy. The priest that offereth it for sin shall eat it: in the holy place shall it be eaten, in the court of the tabernacle of the congregation. Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in the holy place. But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water. All the males among the priests shall eat thereof: it [is] most holy. And no sin offering, whereof [any] of the blood is brought into the tabernacle of the congregation to reconcile [withal] in the holy [place], shall be eaten: it shall be burnt in the fire.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-6/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 13,
+        "verse": 11,
+        "endVerse": 12,
+        "translation": "KJV",
+        "excerpt": "For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp. Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-13/"
+      }
+    ],
+    "explain": "The anointed priest’s bull has inner-sanctuary blood and an outside-camp body, unlike the ruler’s outer-altar procedure. Leviticus 6 excludes sanctuary-blood offerings from eating; Hebrews invokes that pattern when speaking of Yeshua outside the gate.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "sin-blood-destination-and-outside-camp",
+      "mode": "multi-passage",
+      "learningObjective": "Trace blood location, disposal and an apostolic comparison without merging offering types."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Trace blood location, disposal and an apostolic comparison without merging offering types.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate two concrete cases, the governing food exception and its later textual use.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Leviticus already gives the outside-camp disposal pattern.",
+        "Proposed correct: The anointed priest’s bull has inner-sanctuary blood and an outside-camp body, unlike the ruler’s outer-altar procedure. Leviticus 6 excludes sanctuary-blood offerings from eating; Hebrews invokes that pattern when speaking of Yeshua outside the gate.",
+        "The outside-camp instructions include the body, not merely fat.",
+        "The ruler’s blood is assigned to the burnt-offering altar."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "9129a739",
+      "approvalReceipt": "86f2bb158d31212b62529ea3383bae15a1068063e81eaef3186a04760502f1a7",
+      "sourceDigest": "fa94d6220dd87086bee5b41a6404b20bbc19d595b4426c0e4143b487e0fd004d"
+    }
+  },
+  {
+    "id": "deep-torah-atonement-goats-and-conscience-comparison",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "Which account preserves the different roles of the two atonement goats and the contrast Hebrews makes about Christ’s ministry?",
+    "options": [
+      "The live goat supplies the blood taken within the veil; Hebrews treats that blood as the source of eternal redemption.",
+      "The killed goat is solely for Aaron’s household; Hebrews says the live goat’s removal ends the annual remembrance of sins.",
+      "One goat dies and one bears iniquities away; Hebrews contrasts repeated rites with Christ’s blood and conscience-cleansing.",
+      "Both goats are killed for the people; Hebrews locates the difference in the number of animals rather than the effect on conscience."
+    ],
+    "answer": 2,
+    "correctAnswer": "One goat dies and one bears iniquities away; Hebrews contrasts repeated rites with Christ’s blood and conscience-cleansing.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 16,
+      "verse": 6,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "And Aaron shall offer his bullock of the sin offering, which [is] for himself, and make an atonement for himself, and for his house. And he shall take the two goats, and present them before the LORD [at] the door of the tabernacle of the congregation. And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat. And Aaron shall bring the goat upon which the LORD’s lot fell, and offer him [for] a sin offering. But the goat, on which the lot fell to be the scapegoat, shall be presented alive before the LORD, to make an atonement with him, [and] to let him go for a scapegoat into the wilderness.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 16,
+        "verse": 15,
+        "endVerse": 22,
+        "translation": "KJV",
+        "excerpt": "¶ Then shall he kill the goat of the sin offering, that [is] for the people, and bring his blood within the vail, and do with that blood as he did with the blood of the bullock, and sprinkle it upon the mercy seat, and before the mercy seat: And he shall make an atonement for the holy [place], because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness. And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy [place], until he come out, and have made an atonement for himself, and for his household, and for all the congregation of Israel. And he shall go out unto the altar that [is] before the LORD, and make an atonement for it; and shall take of the blood of the bullock, and of the blood of the goat, and put [it] upon the horns of the altar round about. And he shall sprinkle of the blood upon it with his finger seven times, and cleanse it, and hallow it from the uncleanness of the children of Israel. ¶ And when he hath made an end of reconciling the holy [place], and the tabernacle of the congregation, and the altar, he shall bring the live goat: And Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat, and shall send [him] away by the hand of a fit man into the wilderness: And the goat shall bear upon him all their iniquities unto a land not inhabited: and he shall let go the goat in the wilderness.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 9,
+        "verse": 6,
+        "endVerse": 14,
+        "translation": "KJV",
+        "excerpt": "Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service [of God]. But into the second [went] the high priest alone once every year, not without blood, which he offered for himself, and [for] the errors of the people: The Holy Ghost this signifying, that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing: Which [was] a figure for the time then present, in which were offered both gifts and sacrifices, that could not make him that did the service perfect, as pertaining to the conscience; [Which stood] only in meats and drinks, and divers washings, and carnal ordinances, imposed [on them] until the time of reformation. But Christ being come an high priest of good things to come, by a greater and more perfect tabernacle, not made with hands, that is to say, not of this building; Neither by the blood of goats and calves, but by his own blood he entered in once into the holy place, having obtained eternal redemption [for us]. For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh: How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-9/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 10,
+        "verse": 1,
+        "endVerse": 4,
+        "translation": "KJV",
+        "excerpt": "For the law having a shadow of good things to come, [and] not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect. For then would they not have ceased to be offered? because that the worshippers once purged should have had no more conscience of sins. But in those [sacrifices there is] a remembrance again [made] of sins every year. For [it is] not possible that the blood of bulls and of goats should take away sins.",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-10/"
+      }
+    ],
+    "explain": "Aaron’s bull is for himself and his house; the people’s goat supplies blood, while the live goat carries confessed iniquities away. Hebrews contrasts repeated rites with Christ’s own blood and its stated effect on conscience, not merely animal numbers.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "atonement-goats-and-conscience-comparison",
+      "mode": "multi-passage",
+      "learningObjective": "Compare distinct atonement roles with Hebrews’ stated argument rather than an invented equivalence."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Compare distinct atonement roles with Hebrews’ stated argument rather than an invented equivalence.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate participants, two goat outcomes, repetition and the conscience claim across four units.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The slain goat supplies the blood; Hebrews attributes eternal redemption to Christ’s own blood.",
+        "Aaron’s bull serves his household, and Hebrews retains annual remembrance in the repeated rites.",
+        "Proposed correct: Aaron’s bull is for himself and his house; the people’s goat supplies blood, while the live goat carries confessed iniquities away. Hebrews contrasts repeated rites with Christ’s own blood and its stated effect on conscience, not merely animal numbers.",
+        "Leviticus expressly keeps the scapegoat alive; Hebrews discusses more than quantity."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "399a0125",
+      "approvalReceipt": "9cb5f2a129fc44a9b1cef16f383ef54345fc306a02f0fe289b0acc2305a54dcc",
+      "sourceDigest": "ef80ab2eca28db845184d81668490b3ec9ae503748b50fef27c9d49c314030db"
+    }
+  },
+  {
+    "id": "deep-torah-ignorance-presumption-and-jurisdiction",
+    "category": "Sacrifices, Offerings, and Atonement",
+    "topic": "Covenants and commandments",
+    "difficulty": 3,
+    "q": "A legal summary merges the congregational ignorance rites, their recipients and later warnings into one procedure. Which comparison preserves the prescriptions, intent distinctions and authority limits across all four passages?",
+    "options": [
+      "Preserve court authority and distinguish presumption, but use the same congregational sin-offering bull in Leviticus 4 and Numbers 15.",
+      "Keep the two congregational rites distinct and retain appointed judgment, but restrict Numbers’ individual ignorance remedy to native Israelites.",
+      "Keep the ignorance rites and appointed court distinct, but read Hebrews’ willful-rejection warning as another ordinary ignorance offering procedure.",
+      "Distinguish ignorance rites, presumptuous rejection, appointed judgment and Hebrews’ later warning without merging their settings."
+    ],
+    "answer": 3,
+    "correctAnswer": "Distinguish ignorance rites, presumptuous rejection, appointed judgment and Hebrews’ later warning without merging their settings.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 4,
+      "verse": 13,
+      "endVerse": 21,
+      "translation": "KJV",
+      "excerpt": "¶ And if the whole congregation of Israel sin through ignorance, and the thing be hid from the eyes of the assembly, and they have done [somewhat against] any of the commandments of the LORD [concerning things] which should not be done, and are guilty; When the sin, which they have sinned against it, is known, then the congregation shall offer a young bullock for the sin, and bring him before the tabernacle of the congregation. And the elders of the congregation shall lay their hands upon the head of the bullock before the LORD: and the bullock shall be killed before the LORD. And the priest that is anointed shall bring of the bullock’s blood to the tabernacle of the congregation: And the priest shall dip his finger [in some] of the blood, and sprinkle [it] seven times before the LORD, [even] before the vail. And he shall put [some] of the blood upon the horns of the altar which [is] before the LORD, that [is] in the tabernacle of the congregation, and shall pour out all the blood at the bottom of the altar of the burnt offering, which [is at] the door of the tabernacle of the congregation. And he shall take all his fat from him, and burn [it] upon the altar. And he shall do with the bullock as he did with the bullock for a sin offering, so shall he do with this: and the priest shall make an atonement for them, and it shall be forgiven them. And he shall carry forth the bullock without the camp, and burn him as he burned the first bullock: it [is] a sin offering for the congregation.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 15,
+        "verse": 22,
+        "endVerse": 31,
+        "translation": "KJV",
+        "excerpt": "¶ And if ye have erred, and not observed all these commandments, which the LORD hath spoken unto Moses, [Even] all that the LORD hath commanded you by the hand of Moses, from the day that the LORD commanded [Moses], and henceforward among your generations; Then it shall be, if [ought] be committed by ignorance without the knowledge of the congregation, that all the congregation shall offer one young bullock for a burnt offering, for a sweet savour unto the LORD, with his meat offering, and his drink offering, according to the manner, and one kid of the goats for a sin offering. And the priest shall make an atonement for all the congregation of the children of Israel, and it shall be forgiven them; for it [is] ignorance: and they shall bring their offering, a sacrifice made by fire unto the LORD, and their sin offering before the LORD, for their ignorance: And it shall be forgiven all the congregation of the children of Israel, and the stranger that sojourneth among them; seeing all the people [were] in ignorance. ¶ And if any soul sin through ignorance, then he shall bring a she goat of the first year for a sin offering. And the priest shall make an atonement for the soul that sinneth ignorantly, when he sinneth by ignorance before the LORD, to make an atonement for him; and it shall be forgiven him. Ye shall have one law for him that sinneth through ignorance, [both for] him that is born among the children of Israel, and for the stranger that sojourneth among them. ¶ But the soul that doeth [ought] presumptuously, [whether he be] born in the land, or a stranger, the same reproacheth the LORD; and that soul shall be cut off from among his people. Because he hath despised the word of the LORD, and hath broken his commandment, that soul shall utterly be cut off; his iniquity [shall be] upon him.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-15/"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 17,
+        "verse": 8,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ If there arise a matter too hard for thee in judgment, between blood and blood, between plea and plea, and between stroke and stroke, [being] matters of controversy within thy gates: then shalt thou arise, and get thee up into the place which the LORD thy God shall choose; And thou shalt come unto the priests the Levites, and unto the judge that shall be in those days, and enquire; and they shall shew thee the sentence of judgment: And thou shalt do according to the sentence, which they of that place which the LORD shall choose shall shew thee; and thou shalt observe to do according to all that they inform thee: According to the sentence of the law which they shall teach thee, and according to the judgment which they shall tell thee, thou shalt do: thou shalt not decline from the sentence which they shall shew thee, [to] the right hand, nor [to] the left. And the man that will do presumptuously, and will not hearken unto the priest that standeth to minister there before the LORD thy God, or unto the judge, even that man shall die: and thou shalt put away the evil from Israel. And all the people shall hear, and fear, and do no more presumptuously.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 10,
+        "verse": 26,
+        "endVerse": 29,
+        "translation": "KJV",
+        "excerpt": "For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins, But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries. He that despised Moses’ law died without mercy under two or three witnesses: Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-10/"
+      }
+    ],
+    "explain": "Leviticus and Numbers give distinct ignorance procedures; Numbers contrasts presumption. Deuteronomy locates hard cases and defiant refusal within appointed judgment. Hebrews warns its hearers about willful rejection; it does not commission private punishment or make every sin one priced ritual.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "ignorance-presumption-and-jurisdiction",
+      "mode": "multi-passage",
+      "learningObjective": "Reject a universal ritual tariff by coordinating intent, different prescriptions, jurisdiction and a later warning."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "01",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Reject a universal ritual tariff by coordinating intent, different prescriptions, jurisdiction and a later warning.",
+      "section": "Sacrifices, Offerings, and Atonement",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nSustain multi-book reasoning about differing offerings, mental state, authority and the limits of applying a warning.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Numbers 15:24 prescribes a burnt-offering bull and a sin-offering goat, unlike the Leviticus congregational sin-offering bull.",
+        "Numbers 15:29 expressly includes the sojourning stranger under that law.",
+        "Hebrews 10:26–29 warns about willful rejection after knowledge rather than prescribing an additional ignorance offering.",
+        "Proposed correct: Leviticus and Numbers give distinct ignorance procedures; Numbers contrasts presumption. Deuteronomy locates hard cases and defiant refusal within appointed judgment. Hebrews warns its hearers about willful rejection; it does not commission private punishment or make every sin one priced ritual."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "8c63ae6a",
+      "approvalReceipt": "1ce059933add4639ea163850e1bc3b9b2feeaf6877ce325f58849116a8817e00",
+      "sourceDigest": "53d5b4c043cf525ec0efee8942a5b6e19e64c6f2d78305d729bd63c419aad296"
+    }
+  },
+  {
+    "id": "deep-torah-childbirth-periods-and-means-provision",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 2,
+    "q": "Which comparison follows Leviticus 12’s childbirth instructions without inventing a moral accusation?",
+    "options": [
+      "The stated purification periods differ for a son and daughter, but the offering provision includes an affordable alternative.",
+      "The periods are identical, while only a daughter’s birth requires the affordable offering alternative.",
+      "A son’s eighth-day circumcision ends the mother’s purification period and removes her offering requirement.",
+      "A daughter’s birth requires two lambs, while a son’s birth permits replacing the lamb with birds."
+    ],
+    "answer": 0,
+    "correctAnswer": "The stated purification periods differ for a son and daughter, but the offering provision includes an affordable alternative.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 12,
+      "verse": 1,
+      "endVerse": 8,
+      "translation": "KJV",
+      "excerpt": "And the LORD spake unto Moses, saying, Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean. And in the eighth day the flesh of his foreskin shall be circumcised. And she shall then continue in the blood of her purifying three and thirty days; she shall touch no hallowed thing, nor come into the sanctuary, until the days of her purifying be fulfilled. But if she bear a maid child, then she shall be unclean two weeks, as in her separation: and she shall continue in the blood of her purifying threescore and six days. And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb of the first year for a burnt offering, and a young pigeon, or a turtledove, for a sin offering, unto the door of the tabernacle of the congregation, unto the priest: Who shall offer it before the LORD, and make an atonement for her; and she shall be cleansed from the issue of her blood. This [is] the law for her that hath born a male or a female. And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons; the one for the burnt offering, and the other for a sin offering: and the priest shall make an atonement for her, and she shall be clean.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-12/"
+    },
+    "supportingScriptures": [],
+    "explain": "The chapter gives seven plus thirty-three days for a son and fourteen plus sixty-six for a daughter, then an offering and a means-based bird alternative. It does not identify a personal immoral act that caused the birth.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "childbirth-periods-and-means-provision",
+      "mode": "explicit",
+      "learningObjective": "Distinguish prescribed purification periods, circumcision and economic accommodation."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish prescribed purification periods, circumcision and economic accommodation.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 5
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nRead the conditions and sequence of a single chapter without equating purification with a stated moral charge.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: The chapter gives seven plus thirty-three days for a son and fourteen plus sixty-six for a daughter, then an offering and a means-based bird alternative. It does not identify a personal immoral act that caused the birth.",
+        "The periods differ, and the affordability provision is not restricted to daughters.",
+        "The mother’s further days and offering remain after the eighth day.",
+        "The text does not assign two lambs for a daughter or limit the birds to sons."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "000c6fe4",
+      "approvalReceipt": "c43c4d9f0bb0d623442c8e179da352ba74a6776dd271704209455c9caa84aa94",
+      "sourceDigest": "674b81616b950d37a2fe7947e6c11b276953f0d2bb7dcd35b2baa186388cd9c8"
+    }
+  },
+  {
+    "id": "deep-torah-discharge-versus-seminal-cleansing",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 2,
+    "q": "A reader assigns a seven-day count and eighth-day birds to every emission. Which correction respects the different cases in Leviticus 15?",
+    "options": [
+      "Apply washing until evening to all cases, because the chapter gives the same remedy for every discharge.",
+      "Keep the recovery count and birds for issue cases, but washing until evening for seminal-emission cases.",
+      "Use the seven-day count for seminal emission, but omit it after a prolonged issue has stopped.",
+      "Require eighth-day birds for seminal emission, while washing alone completes every prolonged-issue case."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep the recovery count and birds for issue cases, but washing until evening for seminal-emission cases.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 15,
+      "verse": 13,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "And when he that hath an issue is cleansed of his issue; then he shall number to himself seven days for his cleansing, and wash his clothes, and bathe his flesh in running water, and shall be clean. And on the eighth day he shall take to him two turtledoves, or two young pigeons, and come before the LORD unto the door of the tabernacle of the congregation, and give them unto the priest: And the priest shall offer them, the one [for] a sin offering, and the other [for] a burnt offering; and the priest shall make an atonement for him before the LORD for his issue. And if any man’s seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even. And every garment, and every skin, whereon is the seed of copulation, shall be washed with water, and be unclean until the even. The woman also with whom man shall lie [with] seed of copulation, they shall [both] bathe [themselves] in water, and be unclean until the even.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-15/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 15,
+        "verse": 25,
+        "endVerse": 30,
+        "translation": "KJV",
+        "excerpt": "And if a woman have an issue of her blood many days out of the time of her separation, or if it run beyond the time of her separation; all the days of the issue of her uncleanness shall be as the days of her separation: she [shall be] unclean. Every bed whereon she lieth all the days of her issue shall be unto her as the bed of her separation: and whatsoever she sitteth upon shall be unclean, as the uncleanness of her separation. And whosoever toucheth those things shall be unclean, and shall wash his clothes, and bathe [himself] in water, and be unclean until the even. But if she be cleansed of her issue, then she shall number to herself seven days, and after that she shall be clean. And on the eighth day she shall take unto her two turtles, or two young pigeons, and bring them unto the priest, to the door of the tabernacle of the congregation. And the priest shall offer the one [for] a sin offering, and the other [for] a burnt offering; and the priest shall make an atonement for her before the LORD for the issue of her uncleanness.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-15/"
+      }
+    ],
+    "explain": "The male issue and prolonged female issue have stated recovery counts and offerings. Verses 16–18 instead prescribe washing and uncleanness until evening for the seminal-emission cases.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "discharge-versus-seminal-cleansing",
+      "mode": "multi-passage",
+      "learningObjective": "Avoid transferring one purification procedure to every bodily discharge."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Avoid transferring one purification procedure to every bodily discharge.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate parallel recovery procedures with an intervening case that has a different endpoint.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The chapter differentiates remedies instead of prescribing one for all cases.",
+        "Proposed correct: The male issue and prolonged female issue have stated recovery counts and offerings. Verses 16–18 instead prescribe washing and uncleanness until evening for the seminal-emission cases.",
+        "This transfers the count to the wrong case and removes an express requirement.",
+        "The birds belong to the specified issue recoveries, not the seminal-emission instruction."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "2c9565a3",
+      "approvalReceipt": "c832b49114b9891676246a40c16e97d9b41950b7b058741e450727f6fc323faa",
+      "sourceDigest": "ec6ad2fe5f1c878369dd7ada444dfc9a22caf74f88d911b2c9f7e9723c828155"
+    }
+  },
+  {
+    "id": "deep-torah-human-corpse-versus-animal-carcass",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 2,
+    "q": "A person touches a dead human body; another touches the carcass of an animal from a permitted food kind. Which comparison fits the cited impurity laws?",
+    "options": [
+      "Both require seven days, because every dead body receives the human-corpse procedure.",
+      "The human-corpse case is unclean until evening; the permitted animal’s carcass creates no impurity.",
+      "Human-corpse contact requires seven-day purification; the permitted animal’s carcass contact lasts until evening.",
+      "Both cases end at sunset after ordinary washing, since the animal was a permitted food kind."
+    ],
+    "answer": 2,
+    "correctAnswer": "Human-corpse contact requires seven-day purification; the permitted animal’s carcass contact lasts until evening.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verse": 39,
+      "endVerse": 40,
+      "translation": "KJV",
+      "excerpt": "And if any beast, of which ye may eat, die; he that toucheth the carcase thereof shall be unclean until the even. And he that eateth of the carcase of it shall wash his clothes, and be unclean until the even: he also that beareth the carcase of it shall wash his clothes, and be unclean until the even.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-11/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 19,
+        "verse": 11,
+        "endVerse": 14,
+        "translation": "KJV",
+        "excerpt": "¶ He that toucheth the dead body of any man shall be unclean seven days. He shall purify himself with it on the third day, and on the seventh day he shall be clean: but if he purify not himself the third day, then the seventh day he shall not be clean. Whosoever toucheth the dead body of any man that is dead, and purifieth not himself, defileth the tabernacle of the LORD; and that soul shall be cut off from Israel: because the water of separation was not sprinkled upon him, he shall be unclean; his uncleanness [is] yet upon him. This [is] the law, when a man dieth in a tent: all that come into the tent, and all that [is] in the tent, shall be unclean seven days.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-19/"
+      }
+    ],
+    "explain": "Numbers 19 assigns seven days and purification to human-corpse contact. Leviticus 11 still makes contact with a dead permitted animal unclean until evening; being a food-permitted kind does not remove carcass impurity.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "human-corpse-versus-animal-carcass",
+      "mode": "multi-passage",
+      "learningObjective": "Separate food classification from different forms of corpse-contact impurity."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Separate food classification from different forms of corpse-contact impurity.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate species category, manner of death/contact and distinct purification durations.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The seven-day rule cannot be extended to the animal case against its express endpoint.",
+        "This reverses the human rule and ignores Leviticus’ explicit carcass impurity.",
+        "Proposed correct: Numbers 19 assigns seven days and purification to human-corpse contact. Leviticus 11 still makes contact with a dead permitted animal unclean until evening; being a food-permitted kind does not remove carcass impurity.",
+        "Permitted food classification does not erase the distinct human-corpse rule."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "05ac7f85",
+      "approvalReceipt": "0cbff4f15477fc2ca31ba1b7953d8f9374ab903e05117717e419b3ef87eb2750",
+      "sourceDigest": "4ae086d81372ae4b822d717973a677b2d7d72205114eb211d841a87d65f03a86"
+    }
+  },
+  {
+    "id": "deep-torah-skin-inspection-conditions-not-color-alone",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 3,
+    "q": "A priest is told to pronounce every white skin appearance unclean immediately. Which response follows the diagnostic distinctions in Leviticus 13?",
+    "options": [
+      "Pronounce uncleanness from the white appearance, then use isolation only to determine the final offering.",
+      "Pronounce cleanness from whole-body coverage, even if raw flesh is appearing.",
+      "Use seven-day isolation for every case, including one already identified by the stated raw-flesh signs.",
+      "Judge by the specified signs and conditions, including raw flesh, rather than whiteness alone."
+    ],
+    "answer": 3,
+    "correctAnswer": "Judge by the specified signs and conditions, including raw flesh, rather than whiteness alone.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 13,
+      "verse": 1,
+      "endVerse": 8,
+      "translation": "KJV",
+      "excerpt": "And the LORD spake unto Moses and Aaron, saying, When a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh [like] the plague of leprosy; then he shall be brought unto Aaron the priest, or unto one of his sons the priests: And the priest shall look on the plague in the skin of the flesh: and [when] the hair in the plague is turned white, and the plague in sight [be] deeper than the skin of his flesh, it [is] a plague of leprosy: and the priest shall look on him, and pronounce him unclean. If the bright spot [be] white in the skin of his flesh, and in sight [be] not deeper than the skin, and the hair thereof be not turned white; then the priest shall shut up [him that hath] the plague seven days: And the priest shall look on him the seventh day: and, behold, [if] the plague in his sight be at a stay, [and] the plague spread not in the skin; then the priest shall shut him up seven days more: And the priest shall look on him again the seventh day: and, behold, [if] the plague [be] somewhat dark, [and] the plague spread not in the skin, the priest shall pronounce him clean: it [is but] a scab: and he shall wash his clothes, and be clean. But if the scab spread much abroad in the skin, after that he hath been seen of the priest for his cleansing, he shall be seen of the priest again: And [if] the priest see that, behold, the scab spreadeth in the skin, then the priest shall pronounce him unclean: it [is] a leprosy.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-13/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 13,
+        "verse": 9,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "¶ When the plague of leprosy is in a man, then he shall be brought unto the priest; And the priest shall see [him:] and, behold, [if] the rising [be] white in the skin, and it have turned the hair white, and [there be] quick raw flesh in the rising; It [is] an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean, and shall not shut him up: for he [is] unclean. And if a leprosy break out abroad in the skin, and the leprosy cover all the skin of [him that hath] the plague from his head even to his foot, wheresoever the priest looketh; Then the priest shall consider: and, behold, [if] the leprosy have covered all his flesh, he shall pronounce [him] clean [that hath] the plague: it is all turned white: he [is] clean. But when raw flesh appeareth in him, he shall be unclean. And the priest shall see the raw flesh, and pronounce him to be unclean: [for] the raw flesh [is] unclean: it [is] a leprosy. Or if the raw flesh turn again, and be changed unto white, he shall come unto the priest; And the priest shall see him: and, behold, [if] the plague be turned into white; then the priest shall pronounce [him] clean [that hath] the plague: he [is] clean.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-13/"
+      }
+    ],
+    "explain": "The chapter distinguishes immediate findings, observation periods and the all-white case; raw flesh changes the judgment. These are priestly textual criteria, not a diagnosis of every modern skin condition.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "skin-inspection-conditions-not-color-alone",
+      "mode": "multi-passage",
+      "learningObjective": "Apply several diagnostic conditions and their exceptions without equating a color with a verdict."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Apply several diagnostic conditions and their exceptions without equating a color with a verdict.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve interacting signs and observation rules across contrasting legal cases.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Isolation is diagnostic, not merely a delay before offerings after automatic condemnation.",
+        "Raw flesh expressly makes the person unclean despite the all-white distinction.",
+        "The stated old-leprosy case is pronounced unclean without that isolation.",
+        "Proposed correct: The chapter distinguishes immediate findings, observation periods and the all-white case; raw flesh changes the judgment. These are priestly textual criteria, not a diagnosis of every modern skin condition."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "25c834bd",
+      "approvalReceipt": "3449b495c9bab91664944b9a51e81241ef6c5da284135073b0a921a5ad8c0c58",
+      "sourceDigest": "a94083c08690b89b0c158515a372c0ffe9e1871fd2f9e9d9bf7446d4ebfb3c54"
+    }
+  },
+  {
+    "id": "deep-torah-house-plague-evacuation-and-escalation",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 3,
+    "q": "In the land-house plague procedure, which plan preserves both the protection of contents and the escalation after a recurring plague?",
+    "options": [
+      "Empty the house before inspection; after the prescribed repair, a returning spreading plague can require demolition.",
+      "Inspect first and then empty the house; a return after repair is handled by washing its contents.",
+      "Empty the house first; after repair a returning plague receives a fresh unrestricted seven-day cycle.",
+      "Demolish the house on the owner’s first report; clearing contents is reserved for houses later pronounced clean."
+    ],
+    "answer": 0,
+    "correctAnswer": "Empty the house before inspection; after the prescribed repair, a returning spreading plague can require demolition.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verse": 33,
+      "endVerse": 48,
+      "translation": "KJV",
+      "excerpt": "¶ And the LORD spake unto Moses and unto Aaron, saying, When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession; And he that owneth the house shall come and tell the priest, saying, It seemeth to me [there is] as it were a plague in the house: Then the priest shall command that they empty the house, before the priest go [into it] to see the plague, that all that [is] in the house be not made unclean: and afterward the priest shall go in to see the house: And he shall look on the plague, and, behold, [if] the plague [be] in the walls of the house with hollow strakes, greenish or reddish, which in sight [are] lower than the wall; Then the priest shall go out of the house to the door of the house, and shut up the house seven days: And the priest shall come again the seventh day, and shall look: and, behold, [if] the plague be spread in the walls of the house; Then the priest shall command that they take away the stones in which the plague [is], and they shall cast them into an unclean place without the city: And he shall cause the house to be scraped within round about, and they shall pour out the dust that they scrape off without the city into an unclean place: And they shall take other stones, and put [them] in the place of those stones; and he shall take other morter, and shall plaister the house. And if the plague come again, and break out in the house, after that he hath taken away the stones, and after he hath scraped the house, and after it is plaistered; Then the priest shall come and look, and, behold, [if] the plague be spread in the house, it [is] a fretting leprosy in the house: it [is] unclean. And he shall break down the house, the stones of it, and the timber thereof, and all the morter of the house; and he shall carry [them] forth out of the city into an unclean place. Moreover he that goeth into the house all the while that it is shut up shall be unclean until the even. And he that lieth in the house shall wash his clothes; and he that eateth in the house shall wash his clothes. And if the priest shall come in, and look [upon it], and, behold, the plague hath not spread in the house, after the house was plaistered: then the priest shall pronounce the house clean, because the plague is healed.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-14/"
+    },
+    "supportingScriptures": [],
+    "explain": "The priest orders removal before inspection so the contents are not made unclean. Inspection, closure and repairs precede the described recurring-plague finding and demolition; not every report triggers destruction.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "house-plague-evacuation-and-escalation",
+      "mode": "explicit",
+      "learningObjective": "Follow the conditional house-inspection procedure and its stated protective purpose."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Follow the conditional house-inspection procedure and its stated protective purpose.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply timing, preventive evacuation, repair and the recurrence condition in one bounded legal scenario.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: The priest orders removal before inspection so the contents are not made unclean. Inspection, closure and repairs precede the described recurring-plague finding and demolition; not every report triggers destruction.",
+        "The order of inspection and emptying is reversed, and recurrence is not resolved by washing contents.",
+        "A returning spreading plague after the stated repairs has a demolition provision.",
+        "The first report is followed by assessment rather than immediate demolition."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "9961a547",
+      "approvalReceipt": "bdf238840d47af9dec34b75b43a974de634077a148ec9a5beb5ab354400683aa",
+      "sourceDigest": "3ca3f52727a8b20017142f37a89c8d639b7c4fd9e2711fef183090128e96ebb0"
+    }
+  },
+  {
+    "id": "deep-torah-healed-skin-return-is-staged",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 3,
+    "q": "A healed person proposes returning directly to his tent and bringing sanctuary offerings after the priest sees him. Which account preserves the successive restoration boundaries?",
+    "options": [
+      "The first cleansing restores the tent at once, while the seven-day wait applies only to handling the priest’s food.",
+      "After outside-camp examination and cleansing, allow camp entry but seven days outside the tent before later rites.",
+      "The priest examines inside the tent; the first bird rite immediately restores both household and sanctuary access.",
+      "The person remains entirely outside camp through the eighth day, because no return is permitted before the offerings."
+    ],
+    "answer": 1,
+    "correctAnswer": "After outside-camp examination and cleansing, allow camp entry but seven days outside the tent before later rites.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 13,
+      "verse": 45,
+      "endVerse": 46,
+      "translation": "KJV",
+      "excerpt": "And the leper in whom the plague [is], his clothes shall be rent, and his head bare, and he shall put a covering upon his upper lip, and shall cry, Unclean, unclean. All the days wherein the plague [shall be] in him he shall be defiled; he [is] unclean: he shall dwell alone; without the camp [shall] his habitation [be].",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-13/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 14,
+        "verse": 2,
+        "endVerse": 9,
+        "translation": "KJV",
+        "excerpt": "This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest: And the priest shall go forth out of the camp; and the priest shall look, and, behold, [if] the plague of leprosy be healed in the leper; Then shall the priest command to take for him that is to be cleansed two birds alive [and] clean, and cedar wood, and scarlet, and hyssop: And the priest shall command that one of the birds be killed in an earthen vessel over running water: As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird [that was] killed over the running water: And he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let the living bird loose into the open field. And he that is to be cleansed shall wash his clothes, and shave off all his hair, and wash himself in water, that he may be clean: and after that he shall come into the camp, and shall tarry abroad out of his tent seven days. But it shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows, even all his hair he shall shave off: and he shall wash his clothes, also he shall wash his flesh in water, and he shall be clean.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-14/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 14,
+        "verse": 10,
+        "endVerse": 20,
+        "translation": "KJV",
+        "excerpt": "And on the eighth day he shall take two he lambs without blemish, and one ewe lamb of the first year without blemish, and three tenth deals of fine flour [for] a meat offering, mingled with oil, and one log of oil. And the priest that maketh [him] clean shall present the man that is to be made clean, and those things, before the LORD, [at] the door of the tabernacle of the congregation: And the priest shall take one he lamb, and offer him for a trespass offering, and the log of oil, and wave them [for] a wave offering before the LORD: And he shall slay the lamb in the place where he shall kill the sin offering and the burnt offering, in the holy place: for as the sin offering [is] the priest’s, [so is] the trespass offering: it [is] most holy: And the priest shall take [some] of the blood of the trespass offering, and the priest shall put [it] upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot: And the priest shall take [some] of the log of oil, and pour [it] into the palm of his own left hand: And the priest shall dip his right finger in the oil that [is] in his left hand, and shall sprinkle of the oil with his finger seven times before the LORD: And of the rest of the oil that [is] in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass offering: And the remnant of the oil that [is] in the priest’s hand he shall pour upon the head of him that is to be cleansed: and the priest shall make an atonement for him before the LORD. And the priest shall offer the sin offering, and make an atonement for him that is to be cleansed from his uncleanness; and afterward he shall kill the burnt offering: And the priest shall offer the burnt offering and the meat offering upon the altar: and the priest shall make an atonement for him, and he shall be clean.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-14/"
+      }
+    ],
+    "explain": "Leviticus distinguishes exclusion, outside-camp examination, the bird rite and washing, camp return without entering the tent for seven days, and subsequent cleansing and offerings. A healing observation alone is not the whole procedure.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "healed-skin-return-is-staged",
+      "mode": "multi-passage",
+      "learningObjective": "Track restoration through different spatial and ritual thresholds."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Track restoration through different spatial and ritual thresholds.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate exclusion, location of examination, staged re-entry and later offerings without collapsing their endpoints.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The seven-day restriction expressly concerns the person’s tent.",
+        "Proposed correct: Leviticus distinguishes exclusion, outside-camp examination, the bird rite and washing, camp return without entering the tent for seven days, and subsequent cleansing and offerings. A healing observation alone is not the whole procedure.",
+        "The examination is outside camp, and the first rite does not remove every later boundary.",
+        "Leviticus 14:8 expressly allows camp return before the eighth-day offerings."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "1c35d2b3",
+      "approvalReceipt": "9377e9899e4b95d6f308808fa4461f5e8395ae57449b17923e550e6de5ee8a4c",
+      "sourceDigest": "830fa868d5176f303e82a570755cd73cd14fac2a8a405175ff68cf8bc1a4c4b6"
+    }
+  },
+  {
+    "id": "deep-torah-night-uncleanness-camp-holiness-scope",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 3,
+    "q": "A camp officer calls every involuntary night uncleanness a proved deliberate offense and permits return before sunset after washing. Which correction respects the texts without erasing camp holiness?",
+    "options": [
+      "Allow immediate return after washing, because involuntary impurity has no bearing on camp holiness.",
+      "Require the seven-day human-corpse process for the night occurrence, because every camp exclusion uses that duration.",
+      "Retain exclusion, washing and sunset return without treating impurity alone as proof of deliberate wrongdoing.",
+      "Keep exclusion but require a criminal conviction before allowing washing and sunset return."
+    ],
+    "answer": 2,
+    "correctAnswer": "Retain exclusion, washing and sunset return without treating impurity alone as proof of deliberate wrongdoing.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 9,
+      "endVerse": 14,
+      "translation": "KJV",
+      "excerpt": "¶ When the host goeth forth against thine enemies, then keep thee from every wicked thing. ¶ If there be among you any man, that is not clean by reason of uncleanness that chanceth him by night, then shall he go abroad out of the camp, he shall not come within the camp: But it shall be, when evening cometh on, he shall wash [himself] with water: and when the sun is down, he shall come into the camp [again]. ¶ Thou shalt have a place also without the camp, whither thou shalt go forth abroad: And thou shalt have a paddle upon thy weapon; and it shall be, when thou wilt ease thyself abroad, thou shalt dig therewith, and shalt turn back and cover that which cometh from thee: For the LORD thy God walketh in the midst of thy camp, to deliver thee, and to give up thine enemies before thee; therefore shall thy camp be holy: that he see no unclean thing in thee, and turn away from thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 15,
+        "verse": 16,
+        "endVerse": 18,
+        "translation": "KJV",
+        "excerpt": "And if any man’s seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even. And every garment, and every skin, whereon is the seed of copulation, shall be washed with water, and be unclean until the even. The woman also with whom man shall lie [with] seed of copulation, they shall [both] bathe [themselves] in water, and be unclean until the even.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-15/"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 5,
+        "verse": 1,
+        "endVerse": 4,
+        "translation": "KJV",
+        "excerpt": "And the LORD spake unto Moses, saying, Command the children of Israel, that they put out of the camp every leper, and every one that hath an issue, and whosoever is defiled by the dead: Both male and female shall ye put out, without the camp shall ye put them; that they defile not their camps, in the midst whereof I dwell. And the children of Israel did so, and put them out without the camp: as the LORD spake unto Moses, so did the children of Israel.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-5/"
+      }
+    ],
+    "explain": "Deuteronomy gives the night-occurrence procedure and sunset return; Leviticus describes seminal impurity without adding a stated deliberate crime. Numbers explains camp exclusion in relation to the divine presence. Distinguishing impurity does not cancel its actual restrictions.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "night-uncleanness-camp-holiness-scope",
+      "mode": "multi-passage",
+      "learningObjective": "Separate purity status from an unsupported moral accusation while preserving recipient-specific restoration rules."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Separate purity status from an unsupported moral accusation while preserving recipient-specific restoration rules.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate three camp/body contexts, timing and the limit of an inference about culpability.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The instruction retains exclusion until sunset rather than immediate return after washing.",
+        "The corpse procedure cannot replace this expressly stated evening endpoint.",
+        "Proposed correct: Deuteronomy gives the night-occurrence procedure and sunset return; Leviticus describes seminal impurity without adding a stated deliberate crime. Numbers explains camp exclusion in relation to the divine presence. Distinguishing impurity does not cancel its actual restrictions.",
+        "No conviction is specified as a prerequisite for this restoration procedure."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "7f107ded",
+      "approvalReceipt": "d0085e92d094675f9bf4fec09977baf1c9833233dfe3ba4fbce86f03d20f2f03",
+      "sourceDigest": "f9c037c0026fc048c88db7cdc80dab193aa4bcf455e04257b5667fe9778731b3"
+    }
+  },
+  {
+    "id": "deep-torah-heifer-roles-priest-food-and-conscience",
+    "category": "Cleanliness, Impurity, and Purification",
+    "topic": "Sexual conduct and purity",
+    "difficulty": 3,
+    "q": "A priest has touched a human corpse while a clean helper gathers heifer ashes. Which evaluation preserves their different purification schedules, priestly food access and Hebrews’ flesh/conscience comparison?",
+    "options": [
+      "Keep the priest’s third- and seventh-day rites, food restriction and Hebrews’ contrast, but assign seven-day corpse impurity to the ash gatherer too.",
+      "Keep the helper’s sunset rule and priestly food restriction; let the priest omit day three if he completes sprinkling and washing on day seven.",
+      "Keep both purification schedules and priestly food restrictions, but identify the ashes’ flesh purification as the same conscience-cleansing Hebrews attributes to Christ.",
+      "Separate the helper’s sunset rule from corpse purification; require priestly cleanness and retain Hebrews’ flesh/conscience contrast."
+    ],
+    "answer": 3,
+    "correctAnswer": "Separate the helper’s sunset rule from corpse purification; require priestly cleanness and retain Hebrews’ flesh/conscience contrast.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 19,
+      "verse": 7,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "Then the priest shall wash his clothes, and he shall bathe his flesh in water, and afterward he shall come into the camp, and the priest shall be unclean until the even. And he that burneth her shall wash his clothes in water, and bathe his flesh in water, and shall be unclean until the even. And a man [that is] clean shall gather up the ashes of the heifer, and lay [them] up without the camp in a clean place, and it shall be kept for the congregation of the children of Israel for a water of separation: it [is] a purification for sin. And he that gathereth the ashes of the heifer shall wash his clothes, and be unclean until the even: and it shall be unto the children of Israel, and unto the stranger that sojourneth among them, for a statute for ever. ¶ He that toucheth the dead body of any man shall be unclean seven days. He shall purify himself with it on the third day, and on the seventh day he shall be clean: but if he purify not himself the third day, then the seventh day he shall not be clean. Whosoever toucheth the dead body of any man that is dead, and purifieth not himself, defileth the tabernacle of the LORD; and that soul shall be cut off from Israel: because the water of separation was not sprinkled upon him, he shall be unclean; his uncleanness [is] yet upon him.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-19/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 19,
+        "verse": 17,
+        "endVerse": 21,
+        "translation": "KJV",
+        "excerpt": "And for an unclean [person] they shall take of the ashes of the burnt heifer of purification for sin, and running water shall be put thereto in a vessel: And a clean person shall take hyssop, and dip [it] in the water, and sprinkle [it] upon the tent, and upon all the vessels, and upon the persons that were there, and upon him that touched a bone, or one slain, or one dead, or a grave: And the clean [person] shall sprinkle upon the unclean on the third day, and on the seventh day: and on the seventh day he shall purify himself, and wash his clothes, and bathe himself in water, and shall be clean at even. But the man that shall be unclean, and shall not purify himself, that soul shall be cut off from among the congregation, because he hath defiled the sanctuary of the LORD: the water of separation hath not been sprinkled upon him; he [is] unclean. And it shall be a perpetual statute unto them, that he that sprinkleth the water of separation shall wash his clothes; and he that toucheth the water of separation shall be unclean until even.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-19/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 22,
+        "verse": 4,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "What man soever of the seed of Aaron [is] a leper, or hath a running issue; he shall not eat of the holy things, until he be clean. And whoso toucheth any thing [that is] unclean [by] the dead, or a man whose seed goeth from him; Or whosoever toucheth any creeping thing, whereby he may be made unclean, or a man of whom he may take uncleanness, whatsoever uncleanness he hath; The soul which hath touched any such shall be unclean until even, and shall not eat of the holy things, unless he wash his flesh with water. And when the sun is down, he shall be clean, and shall afterward eat of the holy things; because it [is] his food.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-22/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 9,
+        "verse": 13,
+        "endVerse": 14,
+        "translation": "KJV",
+        "excerpt": "For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh: How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-9/"
+      }
+    ],
+    "explain": "Ash gathering brings its own washing/evening rule. Corpse contact requires the third- and seventh-day purification, including the stated final washing; a priest may not eat holy food while unclean. Hebrews contrasts purification of flesh with the greater conscience claim concerning Christ.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "clean-unclean"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "heifer-roles-priest-food-and-conscience",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate different roles, a multi-day purification, holy-food access and a bounded apostolic comparison."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "14",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Coordinate different roles, a multi-day purification, holy-food access and a bounded apostolic comparison.",
+      "section": "Cleanliness, Impurity, and Purification",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nSustain a three-book chain with four legal/argument units; reject both transferred deadlines and an overextended theological equivalence.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Numbers 19:10 gives the ash gatherer an until-evening rule, not automatic seven-day corpse impurity.",
+        "Numbers 19:12 explicitly denies seventh-day cleanness when the third-day purification is omitted.",
+        "Hebrews 9:13–14 makes a how-much-more distinction rather than identifying the two effects as identical.",
+        "Proposed correct: Ash gathering brings its own washing/evening rule. Corpse contact requires the third- and seventh-day purification, including the stated final washing; a priest may not eat holy food while unclean. Hebrews contrasts purification of flesh with the greater conscience claim concerning Christ."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "a424af9c",
+      "approvalReceipt": "bbf7b18c17e49c1601ba0087c2edb9ce3381b964f8f518852bb296938fcf59e1",
+      "sourceDigest": "a1bb52f529ee7612e2bc247d8a25690aa86acc44e709d629b4548ccdadb61ad7"
+    }
+  },
+  {
+    "id": "deep-torah-ark-testimony-meeting-place",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "How does the ark instruction relate the testimony, mercy seat and communication with Moses?",
+    "options": [
+      "The testimony goes in the ark; the mercy seat is above it, where Yah promises to commune with Moses.",
+      "The testimony is laid above the cherubim; the ark below is reserved for the incense fire.",
+      "The mercy seat goes inside the ark; the testimony rests on top as the place of communication.",
+      "The testimony goes on the bread table; the ark marks the outer court where Moses receives commands."
+    ],
+    "answer": 0,
+    "correctAnswer": "The testimony goes in the ark; the mercy seat is above it, where Yah promises to commune with Moses.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 25,
+      "verse": 16,
+      "endVerse": 22,
+      "translation": "KJV",
+      "excerpt": "And thou shalt put into the ark the testimony which I shall give thee. And thou shalt make a mercy seat [of] pure gold: two cubits and a half [shall be] the length thereof, and a cubit and a half the breadth thereof. And thou shalt make two cherubims [of] gold, [of] beaten work shalt thou make them, in the two ends of the mercy seat. And make one cherub on the one end, and the other cherub on the other end: [even] of the mercy seat shall ye make the cherubims on the two ends thereof. And the cherubims shall stretch forth [their] wings on high, covering the mercy seat with their wings, and their faces [shall look] one to another; toward the mercy seat shall the faces of the cherubims be. And thou shalt put the mercy seat above upon the ark; and in the ark thou shalt put the testimony that I shall give thee. And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which [are] upon the ark of the testimony, of all [things] which I will give thee in commandment unto the children of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The testimony is placed within the ark, the mercy seat above it, and the promised communication comes from above the mercy seat between the cherubim.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "ark-testimony-meeting-place",
+      "mode": "explicit",
+      "learningObjective": "Connect sanctuary placement with the stated covenant-communication function."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Connect sanctuary placement with the stated covenant-communication function.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 5
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nRead the relation of three elements in one passage rather than isolate an object name.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: The testimony is placed within the ark, the mercy seat above it, and the promised communication comes from above the mercy seat between the cherubim.",
+        "This relocates the testimony and invents an incense-fire use for the ark.",
+        "This reverses the specified arrangement.",
+        "The testimony is assigned to the ark, not the table or outer court."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "63b400bf",
+      "approvalReceipt": "a975410c97817c55d1fc770e599f135d2b6e8d80e5446f06a8062b7f46598d0e",
+      "sourceDigest": "5814acc1b62af69829d89a5f9b228039a33e5d04ad9cd22ebe1f65bdfb00d5be"
+    }
+  },
+  {
+    "id": "deep-torah-veil-spaces-and-service-frequency",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "Which sanctuary plan preserves the veil’s division and Hebrews’ distinction between the services?",
+    "options": [
+      "Keep all furniture within the veil; Hebrews’ distinction concerns priestly families rather than separate spaces.",
+      "Place the ark within and table/lampstand outside; distinguish regular outer from annual high-priestly inner service.",
+      "Keep the ark and table within the veil; regular priestly ministry occurs in that same inner space.",
+      "Keep the ark outside the veil; the inner space contains the lampstand and receives the daily service."
+    ],
+    "answer": 1,
+    "correctAnswer": "Place the ark within and table/lampstand outside; distinguish regular outer from annual high-priestly inner service.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 26,
+      "verse": 31,
+      "endVerse": 35,
+      "translation": "KJV",
+      "excerpt": "¶ And thou shalt make a vail [of] blue, and purple, and scarlet, and fine twined linen of cunning work: with cherubims shall it be made: And thou shalt hang it upon four pillars of shittim [wood] overlaid with gold: their hooks [shall be of] gold, upon the four sockets of silver. ¶ And thou shalt hang up the vail under the taches, that thou mayest bring in thither within the vail the ark of the testimony: and the vail shall divide unto you between the holy [place] and the most holy. And thou shalt put the mercy seat upon the ark of the testimony in the most holy [place]. And thou shalt set the table without the vail, and the candlestick over against the table on the side of the tabernacle toward the south: and thou shalt put the table on the north side.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-26/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Hebrews",
+        "chapter": 9,
+        "verse": 2,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "For there was a tabernacle made; the first, wherein [was] the candlestick, and the table, and the shewbread; which is called the sanctuary. And after the second veil, the tabernacle which is called the Holiest of all; Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein [was] the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant; And over it the cherubims of glory shadowing the mercyseat; of which we can not now speak particularly. Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service [of God]. But into the second [went] the high priest alone once every year, not without blood, which he offered for himself, and [for] the errors of the people:",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-9/"
+      }
+    ],
+    "explain": "Exodus separates the ark and mercy seat from the outer table and lampstand. Hebrews distinguishes recurring first-space service from the high priest’s annual entry with blood into the second.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "veil-spaces-and-service-frequency",
+      "mode": "multi-passage",
+      "learningObjective": "Connect architectural separation with different ministerial access."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Connect architectural separation with different ministerial access.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate a layout instruction and a later description of different actors and service frequency.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Both texts explicitly distinguish spaces.",
+        "Proposed correct: Exodus separates the ark and mercy seat from the outer table and lampstand. Hebrews distinguishes recurring first-space service from the high priest’s annual entry with blood into the second.",
+        "The table is outside the veil, and access to the second space is not ordinary priestly ministry.",
+        "The ark belongs within the veil; the lampstand is outside it."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "a999c641",
+      "approvalReceipt": "7e672a40bf7a78be65404563db475daecae062d4012c0f21a55dbba250f67d2b",
+      "sourceDigest": "9e1247ff37f10ae911e575ed124c43419f5581458a08a111600b54e1fe767a08"
+    }
+  },
+  {
+    "id": "deep-torah-laver-duty-is-repeated",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 2,
+    "q": "A consecrated priest plans to omit laver washing because he was washed when appointed. Which correction follows both the laver command and its recorded use?",
+    "options": [
+      "Wash hands for tent entry but feet only during consecration; altar work has a separate exemption.",
+      "Move the laver inside the veil so that washing occurs after the priest has completed altar service.",
+      "Wash hands and feet for the specified tent entry and altar ministry; consecration does not replace that recurring duty.",
+      "Wash the whole body once each year; the daily entry washing belongs only to people not yet consecrated."
+    ],
+    "answer": 2,
+    "correctAnswer": "Wash hands and feet for the specified tent entry and altar ministry; consecration does not replace that recurring duty.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 30,
+      "verse": 17,
+      "endVerse": 21,
+      "translation": "KJV",
+      "excerpt": "¶ And the LORD spake unto Moses, saying, Thou shalt also make a laver [of] brass, and his foot [also of] brass, to wash [withal:] and thou shalt put it between the tabernacle of the congregation and the altar, and thou shalt put water therein. For Aaron and his sons shall wash their hands and their feet thereat: When they go into the tabernacle of the congregation, they shall wash with water, that they die not; or when they come near to the altar to minister, to burn offering made by fire unto the LORD: So they shall wash their hands and their feet, that they die not: and it shall be a statute for ever to them, [even] to him and to his seed throughout their generations.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-30/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 40,
+        "verse": 30,
+        "endVerse": 32,
+        "translation": "KJV",
+        "excerpt": "¶ And he set the laver between the tent of the congregation and the altar, and put water there, to wash [withal]. And Moses and Aaron and his sons washed their hands and their feet thereat: When they went into the tent of the congregation, and when they came near unto the altar, they washed; as the LORD commanded Moses.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-40/"
+      }
+    ],
+    "explain": "The laver stands between tent and altar. Aaron and his sons wash hands and feet for the specified entry and ministry, and Exodus 40 records that practice rather than treating appointment as a substitute.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "laver-duty-is-repeated",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish initial consecration from repeated service preparation."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Distinguish initial consecration from repeated service preparation.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate command, location and enacted practice to evaluate a proposed exemption.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Both hands and feet are specified; altar ministry is expressly included.",
+        "The location and timing contradict the command.",
+        "Proposed correct: The laver stands between tent and altar. Aaron and his sons wash hands and feet for the specified entry and ministry, and Exodus 40 records that practice rather than treating appointment as a substitute.",
+        "The rule specifies hands and feet at these service occasions, not only annual whole-body washing."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "692111fd",
+      "approvalReceipt": "f5ad400440bef7ed5d13c6d57d0d458f9c04494ca380fe5e3beb9ebaf93f930d",
+      "sourceDigest": "363ccad1e24d0b180cd31f1fd2e72ff70ca66b146506cc531332cc6bbcf118a1"
+    }
+  },
+  {
+    "id": "deep-torah-incense-altar-and-private-formula",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A maker offers a different incense on the golden altar, then copies the sacred mixture for personal fragrance. Which assessment fits both restrictions?",
+    "options": [
+      "Only the private fragrance is restricted; the altar accepts another recipe when offered at morning lamp care.",
+      "Only the altar recipe is restricted; making the sacred composition for private use is allowed away from the tent.",
+      "Both are permitted if no burnt, grain or drink offering is placed on the golden altar.",
+      "Reject both: strange incense on the altar and copying the sacred composition for personal fragrance."
+    ],
+    "answer": 3,
+    "correctAnswer": "Reject both: strange incense on the altar and copying the sacred composition for personal fragrance.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 30,
+      "verse": 7,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "And Aaron shall burn thereon sweet incense every morning: when he dresseth the lamps, he shall burn incense upon it. And when Aaron lighteth the lamps at even, he shall burn incense upon it, a perpetual incense before the LORD throughout your generations. Ye shall offer no strange incense thereon, nor burnt sacrifice, nor meat offering; neither shall ye pour drink offering thereon. And Aaron shall make an atonement upon the horns of it once in a year with the blood of the sin offering of atonements: once in the year shall he make atonement upon it throughout your generations: it [is] most holy unto the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-30/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 30,
+        "verse": 34,
+        "endVerse": 38,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD said unto Moses, Take unto thee sweet spices, stacte, and onycha, and galbanum; [these] sweet spices with pure frankincense: of each shall there be a like [weight:] And thou shalt make it a perfume, a confection after the art of the apothecary, tempered together, pure [and] holy: And thou shalt beat [some] of it very small, and put of it before the testimony in the tabernacle of the congregation, where I will meet with thee: it shall be unto you most holy. And [as for] the perfume which thou shalt make, ye shall not make to yourselves according to the composition thereof: it shall be unto thee holy for the LORD. Whosoever shall make like unto that, to smell thereto, shall even be cut off from his people.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-30/"
+      }
+    ],
+    "explain": "The altar instruction forbids strange incense and other listed offerings. The composition instruction separately forbids making that perfume for oneself to smell; correct timing does not cancel either boundary.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "incense-altar-and-private-formula",
+      "mode": "multi-passage",
+      "learningObjective": "Apply distinct restrictions on sanctuary use and private duplication."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Apply distinct restrictions on sanctuary use and private duplication.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate two prohibitions whose settings differ rather than infer permission from compliance with a third rule.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Morning timing does not authorize strange incense.",
+        "Private location does not remove the duplication prohibition.",
+        "Avoiding other offering types does not satisfy the incense and composition rules.",
+        "Proposed correct: The altar instruction forbids strange incense and other listed offerings. The composition instruction separately forbids making that perfume for oneself to smell; correct timing does not cancel either boundary."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "36c1a2f4",
+      "approvalReceipt": "00c3efbd376d34c107b286c1e1cc3d82780d4f8a9f161a75061698df69beb6db",
+      "sourceDigest": "3ccc690adb214ae9474b5b7373834359f53f8e4713d13b22f4f6437259e59bcd"
+    }
+  },
+  {
+    "id": "deep-torah-kohath-covering-and-shoulder-transport",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A transport officer gives Kohath wagons and tells its bearers to wrap the uncovered ark themselves. Which revision preserves both the covering order and transport allocation?",
+    "options": [
+      "Aaron’s family covers first; Kohath bears the assigned burden on shoulders without touching the holy things.",
+      "Kohath covers and carries the holy things, while Aaron’s family takes the wagons assigned to Gershon.",
+      "Aaron’s family covers the holy things; Kohath may then use wagons because the covering removes the shoulder requirement.",
+      "Kohath carries the ark uncovered on shoulders, because avoiding wagons removes the covering requirement."
+    ],
+    "answer": 0,
+    "correctAnswer": "Aaron’s family covers first; Kohath bears the assigned burden on shoulders without touching the holy things.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 4,
+      "verse": 5,
+      "endVerse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ And when the camp setteth forward, Aaron shall come, and his sons, and they shall take down the covering vail, and cover the ark of testimony with it: And shall put thereon the covering of badgers’ skins, and shall spread over [it] a cloth wholly of blue, and shall put in the staves thereof. And upon the table of shewbread they shall spread a cloth of blue, and put thereon the dishes, and the spoons, and the bowls, and covers to cover withal: and the continual bread shall be thereon: And they shall spread upon them a cloth of scarlet, and cover the same with a covering of badgers’ skins, and shall put in the staves thereof. And they shall take a cloth of blue, and cover the candlestick of the light, and his lamps, and his tongs, and his snuffdishes, and all the oil vessels thereof, wherewith they minister unto it: And they shall put it and all the vessels thereof within a covering of badgers’ skins, and shall put [it] upon a bar. And upon the golden altar they shall spread a cloth of blue, and cover it with a covering of badgers’ skins, and shall put to the staves thereof: And they shall take all the instruments of ministry, wherewith they minister in the sanctuary, and put [them] in a cloth of blue, and cover them with a covering of badgers’ skins, and shall put [them] on a bar: And they shall take away the ashes from the altar, and spread a purple cloth thereon: And they shall put upon it all the vessels thereof, wherewith they minister about it, [even] the censers, the fleshhooks, and the shovels, and the basons, all the vessels of the altar; and they shall spread upon it a covering of badgers’ skins, and put to the staves of it. And when Aaron and his sons have made an end of covering the sanctuary, and all the vessels of the sanctuary, as the camp is to set forward; after that, the sons of Kohath shall come to bear [it:] but they shall not touch [any] holy thing, lest they die. These [things are] the burden of the sons of Kohath in the tabernacle of the congregation.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-4/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 7,
+        "verse": 6,
+        "endVerse": 9,
+        "translation": "KJV",
+        "excerpt": "And Moses took the wagons and the oxen, and gave them unto the Levites. Two wagons and four oxen he gave unto the sons of Gershon, according to their service: And four wagons and eight oxen he gave unto the sons of Merari, according unto their service, under the hand of Ithamar the son of Aaron the priest. But unto the sons of Kohath he gave none: because the service of the sanctuary belonging unto them [was that] they should bear upon their shoulders.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-7/"
+      }
+    ],
+    "explain": "Numbers 4 assigns covering to Aaron and his sons before Kohath comes to bear, with a no-touch restriction. Numbers 7 withholds wagons from Kohath because its sanctuary burden is borne on shoulders.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "kohath-covering-and-shoulder-transport",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate preparation, handling boundaries and assigned transport method."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Coordinate preparation, handling boundaries and assigned transport method.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve three interacting transport conditions instead of assuming one compliant action excuses the others.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Numbers 4 assigns covering to Aaron and his sons before Kohath comes to bear, with a no-touch restriction. Numbers 7 withholds wagons from Kohath because its sanctuary burden is borne on shoulders.",
+        "Kohath does not replace Aaron’s family in the covering assignment.",
+        "Covering does not cancel the express shoulder-service reason for withholding wagons.",
+        "Shoulder transport does not authorize omitting the coverings."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "9b11e838",
+      "approvalReceipt": "9f1d62d8f51801fdd260263dea6b3834208735d69497d37db4c7bcf99944aeff",
+      "sourceDigest": "0f500255ef8679bb5b8eae8fdb15a96546665cf02c94a92e4cdcb23e08994bde"
+    }
+  },
+  {
+    "id": "deep-torah-annual-entry-cloud-blood-exclusive-access",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A schedule treats daily incense service as permission for daily inner-veil access and puts assistants beside the high priest during atonement. Which correction follows the complete set of restrictions?",
+    "options": [
+      "Use the annual incense-altar atonement in place of the bull and goat blood prescribed for inner ministry.",
+      "Keep daily service distinct; annual inner entry requires the stated preparation, cloud, blood and exclusion of others.",
+      "Keep daily inner-veil access but exclude assistants only while the goat is being released outside camp.",
+      "Retain the annual schedule but let clean assistants remain inside because the blood removes access restrictions."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep daily service distinct; annual inner entry requires the stated preparation, cloud, blood and exclusion of others.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 16,
+      "verse": 2,
+      "endVerse": 4,
+      "translation": "KJV",
+      "excerpt": "And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy [place] within the vail before the mercy seat, which [is] upon the ark; that he die not: for I will appear in the cloud upon the mercy seat. Thus shall Aaron come into the holy [place:] with a young bullock for a sin offering, and a ram for a burnt offering. He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with a linen girdle, and with the linen mitre shall he be attired: these [are] holy garments; therefore shall he wash his flesh in water, and [so] put them on.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 16,
+        "verse": 11,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "And Aaron shall bring the bullock of the sin offering, which [is] for himself, and shall make an atonement for himself, and for his house, and shall kill the bullock of the sin offering which [is] for himself: And he shall take a censer full of burning coals of fire from off the altar before the LORD, and his hands full of sweet incense beaten small, and bring [it] within the vail: And he shall put the incense upon the fire before the LORD, that the cloud of the incense may cover the mercy seat that [is] upon the testimony, that he die not: And he shall take of the blood of the bullock, and sprinkle [it] with his finger upon the mercy seat eastward; and before the mercy seat shall he sprinkle of the blood with his finger seven times. ¶ Then shall he kill the goat of the sin offering, that [is] for the people, and bring his blood within the vail, and do with that blood as he did with the blood of the bullock, and sprinkle it upon the mercy seat, and before the mercy seat: And he shall make an atonement for the holy [place], because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness. And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy [place], until he come out, and have made an atonement for himself, and for his household, and for all the congregation of Israel.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-16/"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 30,
+        "verse": 10,
+        "translation": "KJV",
+        "excerpt": "And Aaron shall make an atonement upon the horns of it once in a year with the blood of the sin offering of atonements: once in the year shall he make atonement upon it throughout your generations: it [is] most holy unto the LORD.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-30-10/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 9,
+        "verse": 6,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service [of God]. But into the second [went] the high priest alone once every year, not without blood, which he offered for himself, and [for] the errors of the people:",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-9/"
+      }
+    ],
+    "explain": "Daily service is not unrestricted inner access. Leviticus requires the stated preparation, protective incense cloud and blood, with no other person in the tent during the ministry. Exodus’ annual altar atonement and Hebrews’ distinction do not erase those conditions.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "annual-entry-cloud-blood-exclusive-access",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate service frequency, entry safeguards, blood rites and exclusive access."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Coordinate service frequency, entry safeguards, blood rites and exclusive access.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate four sanctuary units while keeping daily service distinct from annual inner ministry.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Atonement on the incense altar does not replace the stated inner blood rites.",
+        "Proposed correct: Daily service is not unrestricted inner access. Leviticus requires the stated preparation, protective incense cloud and blood, with no other person in the tent during the ministry. Exodus’ annual altar atonement and Hebrews’ distinction do not erase those conditions.",
+        "The entry restriction is not limited to the live goat’s release.",
+        "Cleanness does not override the express exclusion of other people."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "51b578ae",
+      "approvalReceipt": "b5fba7415f50e2b17115a703a7a5c49758483446642cf2441799be5c433b3ed9",
+      "sourceDigest": "55fc22b9f0b04027468d4c94ed4d2d9f066dd9a8548444ec9c5967851a59a12a"
+    }
+  },
+  {
+    "id": "deep-torah-sanctuary-skill-abundance-and-authorization",
+    "category": "Tabernacle and Sanctuary",
+    "topic": "Leadership and government",
+    "difficulty": 3,
+    "q": "A gifted sanctuary craftsman claims that surplus donations authorize unlimited collection, personal sacred perfume and a new fire rite. Which leadership judgment accounts for the full evidence chain?",
+    "options": [
+      "Keep sacred-use and fire restrictions, but continue collecting after sufficient supplies because willing gifts cannot be restrained by Moses.",
+      "Restrain surplus gifts and forbid private perfume, but treat Aaronic family membership as sufficient authorization for an additional fire rite.",
+      "Keep craftsmanship subject to commands, restrain excess gifts, preserve sacred-use limits and reject unauthorized fire.",
+      "Restrain surplus gifts and retain commanded rites, but allow the skilled maker to reproduce the sacred perfume privately if no anointing oil is used."
+    ],
+    "answer": 2,
+    "correctAnswer": "Keep craftsmanship subject to commands, restrain excess gifts, preserve sacred-use limits and reject unauthorized fire.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 31,
+      "verse": 1,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "And the LORD spake unto Moses, saying, See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah: And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship, To devise cunning works, to work in gold, and in silver, and in brass, And in cutting of stones, to set [them], and in carving of timber, to work in all manner of workmanship. And I, behold, I have given with him Aholiab, the son of Ahisamach, of the tribe of Dan: and in the hearts of all that are wise hearted I have put wisdom, that they may make all that I have commanded thee; The tabernacle of the congregation, and the ark of the testimony, and the mercy seat that [is] thereupon, and all the furniture of the tabernacle, And the table and his furniture, and the pure candlestick with all his furniture, and the altar of incense, And the altar of burnt offering with all his furniture, and the laver and his foot, And the cloths of service, and the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest’s office, And the anointing oil, and sweet incense for the holy [place:] according to all that I have commanded thee shall they do.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-31/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 36,
+        "verse": 3,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "And they received of Moses all the offering, which the children of Israel had brought for the work of the service of the sanctuary, to make it [withal]. And they brought yet unto him free offerings every morning. And all the wise men, that wrought all the work of the sanctuary, came every man from his work which they made; ¶ And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make. And Moses gave commandment, and they caused it to be proclaimed throughout the camp, saying, Let neither man nor woman make any more work for the offering of the sanctuary. So the people were restrained from bringing. For the stuff they had was sufficient for all the work to make it, and too much.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-36/"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 30,
+        "verse": 30,
+        "endVerse": 38,
+        "translation": "KJV",
+        "excerpt": "And thou shalt anoint Aaron and his sons, and consecrate them, that [they] may minister unto me in the priest’s office. And thou shalt speak unto the children of Israel, saying, This shall be an holy anointing oil unto me throughout your generations. Upon man’s flesh shall it not be poured, neither shall ye make [any other] like it, after the composition of it: it [is] holy, [and] it shall be holy unto you. Whosoever compoundeth [any] like it, or whosoever putteth [any] of it upon a stranger, shall even be cut off from his people. ¶ And the LORD said unto Moses, Take unto thee sweet spices, stacte, and onycha, and galbanum; [these] sweet spices with pure frankincense: of each shall there be a like [weight:] And thou shalt make it a perfume, a confection after the art of the apothecary, tempered together, pure [and] holy: And thou shalt beat [some] of it very small, and put of it before the testimony in the tabernacle of the congregation, where I will meet with thee: it shall be unto you most holy. And [as for] the perfume which thou shalt make, ye shall not make to yourselves according to the composition thereof: it shall be unto thee holy for the LORD. Whosoever shall make like unto that, to smell thereto, shall even be cut off from his people.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-30/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 10,
+        "verse": 1,
+        "endVerse": 3,
+        "translation": "KJV",
+        "excerpt": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not. And there went out fire from the LORD, and devoured them, and they died before the LORD. Then Moses said unto Aaron, This [is it] that the LORD spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-10/"
+      }
+    ],
+    "explain": "The craftsmen’s skill is directed to commanded work; Moses stops excess contributions. Sacred oil/incense restrictions remain, and Nadab and Abihu’s unauthorized fire shows that status does not make an uncommanded rite acceptable. The judgment concerns these textual offices, not a new enforcement power for players.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "sanctuary-skill-abundance-and-authorization",
+      "mode": "multi-passage",
+      "learningObjective": "Evaluate gifts, resources, restricted holy materials and authorized worship without treating excellence as unlimited jurisdiction."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "16",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Evaluate gifts, resources, restricted holy materials and authorized worship without treating excellence as unlimited jurisdiction.",
+      "section": "Tabernacle and Sanctuary",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nTrace four interacting leadership constraints across commission, resource administration, sacred-use law and priestly narrative judgment.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Exodus 36:6 records Moses restraining further offerings after the sufficiency report.",
+        "Leviticus 10 judges Aaron’s own sons for fire that Yah had not commanded.",
+        "Proposed correct: The craftsmen’s skill is directed to commanded work; Moses stops excess contributions. Sacred oil/incense restrictions remain, and Nadab and Abihu’s unauthorized fire shows that status does not make an uncommanded rite acceptable. The judgment concerns these textual offices, not a new enforcement power for players.",
+        "Exodus 30:37–38 independently prohibits the sacred perfume’s private reproduction for smelling, not only misuse of anointing oil."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "063b03d3",
+      "approvalReceipt": "a7276436b096f65f28f725166d4d8380bf01d9f40c4e8240b7633810595f4c80",
+      "sourceDigest": "4a5381bbeab376308d679fb7a8166d4446150db2c89e1d882dff1ea38226bfd0"
+    }
+  },
+  {
+    "id": "deep-torah-injured-man-recovery-and-costs",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 2,
+    "q": "After a fight, the injured man rises and walks abroad with his staff. Which liability remains for the man who struck him under Exodus 21:18–19?",
+    "options": [
+      "He owes a fixed thirty shekels, with no separate provision for recovery costs.",
+      "He owes double the injured man’s property value because the case is treated as theft.",
+      "He owes no further payment once the injured man can walk outside with a staff.",
+      "He must pay for lost time and cause the injured man to be thoroughly healed."
+    ],
+    "answer": 3,
+    "correctAnswer": "He must pay for lost time and cause the injured man to be thoroughly healed.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 21,
+      "verse": 18,
+      "endVerse": 19,
+      "translation": "KJV",
+      "excerpt": "¶ And if men strive together, and one smite another with a stone, or with [his] fist, and he die not, but keepeth [his] bed: If he rise again, and walk abroad upon his staff, then shall he that smote [him] be quit: only he shall pay [for] the loss of his time, and shall cause [him] to be thoroughly healed.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+    },
+    "supportingScriptures": [],
+    "explain": "The attacker is quit in the described recovery case, but the text expressly retains lost-time payment and thorough healing. Recovery does not erase those remaining duties.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "injured-man-recovery-and-costs",
+      "mode": "explicit",
+      "learningObjective": "Apply the residual liability after the stated recovery threshold."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Apply the residual liability after the stated recovery threshold.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 5
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nRead a condition and its express remaining obligation in one legal case.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Thirty shekels belongs to a different ox-and-servant case, not this injury rule.",
+        "The text assigns recovery costs, not a theft multiplier.",
+        "The word “only” introduces the duties that remain despite recovery.",
+        "Proposed correct: The attacker is quit in the described recovery case, but the text expressly retains lost-time payment and thorough healing. Recovery does not erase those remaining duties."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "458d1e95",
+      "approvalReceipt": "93f6698249f4900c263dadd6039babffb1daf7e67d933b85161a3ccd3040b3a9",
+      "sourceDigest": "7f1517aff7debb641187d427bfdf3efbc65297c7b91aa1b7096c277166e5708f"
+    }
+  },
+  {
+    "id": "deep-torah-dangerous-ox-ransom-not-murder-ransom",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 2,
+    "q": "A judge imports the dangerous-ox owner’s possible ransom into a proved murderer’s sentence. Which distinction preserves both laws?",
+    "options": [
+      "Exodus permits the stated imposed ransom for the warned ox owner; Numbers bars ransom for the murderer.",
+      "The ox owner and murderer may both pay, because both cases involve the loss of a human life.",
+      "Neither may pay, because Numbers removes the ransom provision from the ox-owner case.",
+      "The murderer may pay, but the warned ox owner may not because prior notice makes his case stricter."
+    ],
+    "answer": 0,
+    "correctAnswer": "Exodus permits the stated imposed ransom for the warned ox owner; Numbers bars ransom for the murderer.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 21,
+      "verse": 28,
+      "endVerse": 31,
+      "translation": "KJV",
+      "excerpt": "¶ If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox [shall be] quit. But if the ox were wont to push with his horn in time past, and it hath been testified to his owner, and he hath not kept him in, but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death. If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him. Whether he have gored a son, or have gored a daughter, according to this judgment shall it be done unto him.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 35,
+        "verse": 30,
+        "endVerse": 31,
+        "translation": "KJV",
+        "excerpt": "Whoso killeth any person, the murderer shall be put to death by the mouth of witnesses: but one witness shall not testify against any person [to cause him] to die. Moreover ye shall take no satisfaction for the life of a murderer, which [is] guilty of death: but he shall be surely put to death.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-35/"
+      }
+    ],
+    "explain": "Exodus distinguishes an unwarned owner from the negligent warned owner and allows an imposed ransom in the latter case. Numbers specifically prohibits satisfaction for a murderer guilty of death. These are not one interchangeable category.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "dangerous-ox-ransom-not-murder-ransom",
+      "mode": "multi-passage",
+      "learningObjective": "Keep a conditional negligence ransom separate from a prohibition applying to a murderer."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Keep a conditional negligence ransom separate from a prohibition applying to a murderer.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate notice, liability and a category-specific ransom exception across two laws.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Exodus distinguishes an unwarned owner from the negligent warned owner and allows an imposed ransom in the latter case. Numbers specifically prohibits satisfaction for a murderer guilty of death. These are not one interchangeable category.",
+        "A shared outcome does not erase their distinct legal categories.",
+        "Numbers’ murderer prohibition does not state a repeal of the ox-owner provision.",
+        "This reverses the permissions and restrictions in the two passages."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "f1b8af48",
+      "approvalReceipt": "415921f938fb0996d55b9de59def0939c746c0c82d2f1ec94382430e0d39c5b8",
+      "sourceDigest": "41ff7f361294954bd5aadcced1d8322677cf1dca78cf98ab839621c561370dc7"
+    }
+  },
+  {
+    "id": "deep-torah-pit-and-ox-prior-notice-liability",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Property and inheritance",
+    "difficulty": 2,
+    "q": "One ox dies in an uncovered pit; another is killed by an ox whose owner knew its goring habit and failed to restrain it. Which handling follows the respective laws?",
+    "options": [
+      "Both owe the five-ox theft rate because an owner’s preventable loss is treated as slaughtered stolen livestock.",
+      "The pit owner makes good the loss and keeps the dead beast; the warned ox owner pays ox for ox and keeps the dead beast.",
+      "Both owners divide the live ox’s sale proceeds and share the dead beast, regardless of prior notice.",
+      "The pit owner keeps the dead beast without payment; the warned ox owner divides the live and dead animals."
+    ],
+    "answer": 1,
+    "correctAnswer": "The pit owner makes good the loss and keeps the dead beast; the warned ox owner pays ox for ox and keeps the dead beast.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 21,
+      "verse": 33,
+      "endVerse": 34,
+      "translation": "KJV",
+      "excerpt": "¶ And if a man shall open a pit, or if a man shall dig a pit, and not cover it, and an ox or an ass fall therein; The owner of the pit shall make [it] good, [and] give money unto the owner of them; and the dead [beast] shall be his.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 21,
+        "verse": 35,
+        "endVerse": 36,
+        "translation": "KJV",
+        "excerpt": "¶ And if one man’s ox hurt another’s, that he die; then they shall sell the live ox, and divide the money of it; and the dead [ox] also they shall divide. Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+      }
+    ],
+    "explain": "The pit law requires compensation with the dead beast assigned to the pit owner. Known goring with failure to restrain requires ox for ox; the sharing rule belongs to the different ox-on-ox case without that stated history.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "pit-and-ox-prior-notice-liability",
+      "mode": "multi-passage",
+      "learningObjective": "Apply separate property-loss remedies and the effect of known danger."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Apply separate property-loss remedies and the effect of known danger.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate two negligence cases and reject the transfer of an adjacent but differently conditioned remedy.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Neither case is stated as livestock theft.",
+        "Proposed correct: The pit law requires compensation with the dead beast assigned to the pit owner. Known goring with failure to restrain requires ox for ox; the sharing rule belongs to the different ox-on-ox case without that stated history.",
+        "The sharing rule does not govern the pit case or erase the known-danger condition.",
+        "The pit owner must pay, and prior notice changes the ox-on-ox remedy."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "2b16bbc8",
+      "approvalReceipt": "eb092f6e94305e72b766bb73b3c62bc76b55061aa7dce08bd8b3258d3074749b",
+      "sourceDigest": "0270f1749fa1682b2d51f867f7cf4a1c29f6c686d0a79b5907e97e32869ee144"
+    }
+  },
+  {
+    "id": "deep-torah-refuge-border-and-high-priest-death",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 3,
+    "q": "A slayer whom the congregation has restored to refuge wants to buy early freedom to return home before the high priest dies. Which ruling preserves both residence and ransom restrictions?",
+    "options": [
+      "He may leave after the congregation’s favorable judgment, because refuge residence ends with that hearing.",
+      "He must remain permanently, because the prohibition on payment removes the later return provision.",
+      "He must remain within refuge until the high priest’s death; payment cannot purchase the early return.",
+      "He may pay the amount imposed on a negligent ox owner and then return to his possession."
+    ],
+    "answer": 2,
+    "correctAnswer": "He must remain within refuge until the high priest’s death; payment cannot purchase the early return.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 35,
+      "verse": 22,
+      "endVerse": 28,
+      "translation": "KJV",
+      "excerpt": "But if he thrust him suddenly without enmity, or have cast upon him any thing without laying of wait, Or with any stone, wherewith a man may die, seeing [him] not, and cast [it] upon him, that he die, and [was] not his enemy, neither sought his harm: Then the congregation shall judge between the slayer and the revenger of blood according to these judgments: And the congregation shall deliver the slayer out of the hand of the revenger of blood, and the congregation shall restore him to the city of his refuge, whither he was fled: and he shall abide in it unto the death of the high priest, which was anointed with the holy oil. But if the slayer shall at any time come without the border of the city of his refuge, whither he was fled; And the revenger of blood find him without the borders of the city of his refuge, and the revenger of blood kill the slayer; he shall not be guilty of blood: Because he should have remained in the city of his refuge until the death of the high priest: but after the death of the high priest the slayer shall return into the land of his possession.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-35/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 35,
+        "verse": 31,
+        "endVerse": 32,
+        "translation": "KJV",
+        "excerpt": "Moreover ye shall take no satisfaction for the life of a murderer, which [is] guilty of death: but he shall be surely put to death. And ye shall take no satisfaction for him that is fled to the city of his refuge, that he should come again to dwell in the land, until the death of the priest.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-35/"
+      }
+    ],
+    "explain": "The favorable judgment returns the slayer to refuge rather than immediately home. Numbers requires residence until the high priest’s death and prohibits payment for earlier return; afterward it expressly permits return to his possession. This is the passage’s judicial setting, not private enforcement authority.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "refuge-border-and-high-priest-death",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish acquittal of murder from the continuing refuge condition and its endpoint."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Distinguish acquittal of murder from the continuing refuge condition and its endpoint.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply residence, territorial exposure, a barred substitute and the lawful end condition together.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The hearing explicitly restores him to the refuge city.",
+        "The high priest’s death still marks an express return permission.",
+        "Proposed correct: The favorable judgment returns the slayer to refuge rather than immediately home. Numbers requires residence until the high priest’s death and prohibits payment for earlier return; afterward it expressly permits return to his possession. This is the passage’s judicial setting, not private enforcement authority.",
+        "An ox-owner ransom is not a permitted substitute for this residence rule."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "36f523b5",
+      "approvalReceipt": "ba1d3fd924d98d8118b16d96da355f0f5b099aa6fdd14794132824c35a5930c1",
+      "sourceDigest": "dbf8771aad936a8e25f7faad8d353d6f564e74a4b56f983cd7cf9c8311dd4fdd"
+    }
+  },
+  {
+    "id": "deep-torah-individual-capital-accountability-in-kings",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 3,
+    "q": "Amaziah punishes the servants who murdered his father but leaves their children alive. Which comparison explains this distinction?",
+    "options": [
+      "The account exempts all royal servants from punishment and therefore also protects their children.",
+      "The account postpones the children’s punishment until their inherited sentence reaches adulthood.",
+      "The account replaces the Torah rule with a new royal pardon that treats the children as guilty.",
+      "The account applies the Torah rule that each person is put to death for his own sin rather than a relative’s offense."
+    ],
+    "answer": 3,
+    "correctAnswer": "The account applies the Torah rule that each person is put to death for his own sin rather than a relative’s offense.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 16,
+      "translation": "KJV",
+      "excerpt": "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "2 Kings",
+        "chapter": 14,
+        "verse": 5,
+        "endVerse": 6,
+        "translation": "KJV",
+        "excerpt": "¶ And it came to pass, as soon as the kingdom was confirmed in his hand, that he slew his servants which had slain the king his father. But the children of the murderers he slew not: according unto that which is written in the book of the law of Moses, wherein the LORD commanded, saying, The fathers shall not be put to death for the children, nor the children be put to death for the fathers; but every man shall be put to death for his own sin.",
+        "url": "https://www.kingjamesbibleonline.org/2-Kings-Chapter-14/"
+      }
+    ],
+    "explain": "Kings expressly cites the Mosaic law when explaining why the murderers’ children were not killed. The stated distinction is individual capital accountability, not delayed hereditary guilt or royal exemption.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "individual-capital-accountability-in-kings",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize a narrative application of an explicitly cited judicial limit."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Recognize a narrative application of an explicitly cited judicial limit.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply the rule to two groups in a historical judgment and distinguish guilt from mere kinship.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The servants themselves are punished in the account.",
+        "Neither passage assigns an inherited sentence postponed to adulthood.",
+        "The account appeals to Torah, not a replacement rule or an assertion of the children’s guilt.",
+        "Proposed correct: Kings expressly cites the Mosaic law when explaining why the murderers’ children were not killed. The stated distinction is individual capital accountability, not delayed hereditary guilt or royal exemption."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "2cc092d5",
+      "approvalReceipt": "4368b388d5ca290d1d0067bd39c7c12d0d3de5d586659bf7039693551402e73f",
+      "sourceDigest": "48c3b4f3a35d01b411618ca7ce447181e35bbb6139f356e270f91d6d383d96c1"
+    }
+  },
+  {
+    "id": "deep-torah-proportional-justice-proof-and-equal-law",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 3,
+    "q": "A court invokes “eye for eye” to accept an untested charge against a stranger and impose the claimed injury penalty. Which correction accounts for both substantive and procedural limits?",
+    "options": [
+      "Apply equal law, investigate testimony and protect the innocent before imposing the appropriate penalty.",
+      "Apply the same penalty to stranger and native immediately, because proportionality makes investigation unnecessary.",
+      "Investigate only if the accused is native-born, because the equal-law clause concerns animal losses rather than people.",
+      "Reduce the penalty for every false witness, because compassion cancels the stated response to intended harm."
+    ],
+    "answer": 0,
+    "correctAnswer": "Apply equal law, investigate testimony and protect the innocent before imposing the appropriate penalty.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 24,
+      "verse": 17,
+      "endVerse": 22,
+      "translation": "KJV",
+      "excerpt": "¶ And he that killeth any man shall surely be put to death. And he that killeth a beast shall make it good; beast for beast. And if a man cause a blemish in his neighbour; as he hath done, so shall it be done to him; Breach for breach, eye for eye, tooth for tooth: as he hath caused a blemish in a man, so shall it be done to him [again]. And he that killeth a beast, he shall restore it: and he that killeth a man, he shall be put to death. Ye shall have one manner of law, as well for the stranger, as for one of your own country: for I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-24/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 16,
+        "endVerse": 21,
+        "translation": "KJV",
+        "excerpt": "¶ If a false witness rise up against any man to testify against him [that which is] wrong; Then both the men, between whom the controversy [is], shall stand before the LORD, before the priests and the judges, which shall be in those days; And the judges shall make diligent inquisition: and, behold, [if] the witness [be] a false witness, [and] hath testified falsely against his brother; Then shall ye do unto him, as he had thought to have done unto his brother: so shalt thou put the evil away from among you. And those which remain shall hear, and fear, and shall henceforth commit no more any such evil among you. And thine eye shall not pity; [but] life [shall go] for life, eye for eye, tooth for tooth, hand for hand, foot for foot.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 7,
+        "translation": "KJV",
+        "excerpt": "Keep thee far from a false matter; and the innocent and righteous slay thou not: for I will not justify the wicked.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-7/"
+      }
+    ],
+    "explain": "Leviticus places injury rules with the same-law requirement. Deuteronomy requires diligent inquiry and a fitting response to false testimony; Exodus forbids slaying the innocent. Proportionality is not a substitute for proof or permission for private retaliation.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "proportional-justice-proof-and-equal-law",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate equal law, proof, false testimony and proportionate judgment."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Coordinate equal law, proof, false testimony and proportionate judgment.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve procedural prerequisites and substantive limits across three legal contexts.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Leviticus places injury rules with the same-law requirement. Deuteronomy requires diligent inquiry and a fitting response to false testimony; Exodus forbids slaying the innocent. Proportionality is not a substitute for proof or permission for private retaliation.",
+        "A proportional penalty does not establish that the charge is true.",
+        "The passage’s equal-law statement is not confined to animal losses.",
+        "The false-witness rule specifies the response rather than an automatic reduction."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "7b172a65",
+      "approvalReceipt": "152ad7f2e1161b7c4d3e6e335bdbf3b2db81f0f6350559e35c55dad4ce87cd5f",
+      "sourceDigest": "dd85959141a2212239d146b345e19418c9f35c79d965c9215159b937dcf6ec59"
+    }
+  },
+  {
+    "id": "deep-torah-unknown-slayer-communal-rite-not-substitute",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 3,
+    "q": "Officials discover a slain person with no known killer and propose executing a nearby resident or using the heifer rite to pardon a later-proved murderer. Which response preserves the separate procedures?",
+    "options": [
+      "Take a payment from the nearest city instead of the rite, then treat that payment as the murderer’s ransom.",
+      "Use the unknown-slayer process without inventing a culprit or substituting its rite for a proved murderer’s judgment.",
+      "Execute a nearby resident first, then use the heifer rite to remove uncertainty about which city was responsible.",
+      "Use the heifer rite to discharge every later murder charge, because its prayer removes all inquiry into the death."
+    ],
+    "answer": 1,
+    "correctAnswer": "Use the unknown-slayer process without inventing a culprit or substituting its rite for a proved murderer’s judgment.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verse": 1,
+      "endVerse": 9,
+      "translation": "KJV",
+      "excerpt": "If [one] be found slain in the land which the LORD thy God giveth thee to possess it, lying in the field, [and] it be not known who hath slain him: Then thy elders and thy judges shall come forth, and they shall measure unto the cities which [are] round about him that is slain: And it shall be, [that] the city [which is] next unto the slain man, even the elders of that city shall take an heifer, which hath not been wrought with, [and] which hath not drawn in the yoke; And the elders of that city shall bring down the heifer unto a rough valley, which is neither eared nor sown, and shall strike off the heifer’s neck there in the valley: And the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to minister unto him, and to bless in the name of the LORD; and by their word shall every controversy and every stroke be [tried:] And all the elders of that city, [that are] next unto the slain [man], shall wash their hands over the heifer that is beheaded in the valley: And they shall answer and say, Our hands have not shed this blood, neither have our eyes seen [it]. Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel’s charge. And the blood shall be forgiven them. So shalt thou put away the [guilt of] innocent blood from among you, when thou shalt do [that which is] right in the sight of the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-21/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 35,
+        "verse": 30,
+        "endVerse": 31,
+        "translation": "KJV",
+        "excerpt": "Whoso killeth any person, the murderer shall be put to death by the mouth of witnesses: but one witness shall not testify against any person [to cause him] to die. Moreover ye shall take no satisfaction for the life of a murderer, which [is] guilty of death: but he shall be surely put to death.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-35/"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 7,
+        "translation": "KJV",
+        "excerpt": "Keep thee far from a false matter; and the innocent and righteous slay thou not: for I will not justify the wicked.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-7/"
+      }
+    ],
+    "explain": "Deuteronomy addresses an unknown slayer with measurement, elders, priests, a heifer and a plea concerning innocent blood. It does not identify a substitute culprit or override the witness-based murderer rule and no-ransom provision in Numbers.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "unknown-slayer-communal-rite-not-substitute",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish an unknown-homicide communal procedure from determining individual guilt."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Distinguish an unknown-homicide communal procedure from determining individual guilt.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate communal responsibility, proof, innocent-life protection and the limits of a ritual remedy.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Neither substitution of payment is authorized by these passages.",
+        "Proposed correct: Deuteronomy addresses an unknown slayer with measurement, elders, priests, a heifer and a plea concerning innocent blood. It does not identify a substitute culprit or override the witness-based murderer rule and no-ransom provision in Numbers.",
+        "Proximity alone is not evidence establishing a resident as the killer.",
+        "The rite is conditioned on an unknown slayer and does not erase later proven guilt."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "05b8c19d",
+      "approvalReceipt": "591f2b3cc1176b3224e42615bf8150a53fdb7b978b71db3f031aad67e585ab90",
+      "sourceDigest": "c1f57e2b6e06b8dcb03118bdfadebf439bdb266d24544f2e9ef2c0ec8d13d4b9"
+    }
+  },
+  {
+    "id": "deep-torah-successful-sign-idolatry-and-judicial-proof",
+    "category": "Judicial Laws and Righteous Judgment",
+    "topic": "Judicial procedure",
+    "difficulty": 3,
+    "q": "A fulfilled sign promotes another god, and a rival’s testimony is disputed. Which assessment preserves both the worship test and the witness, inquiry and false-testimony safeguards across all four passages?",
+    "options": [
+      "Reject the worship invitation and investigate, but count one human witness plus the fulfilled sign as the two required witnesses.",
+      "Reject the worship invitation and require truthful witnesses, but let the judges begin the sentence instead of the witnesses.",
+      "Reject the invitation to other gods despite the sign, but still require truthful evidence and diligent judgment.",
+      "Reject the worship invitation and investigate testimony, but apply the false-witness response only after the intended penalty has already occurred."
+    ],
+    "answer": 2,
+    "correctAnswer": "Reject the invitation to other gods despite the sign, but still require truthful evidence and diligent judgment.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 13,
+      "verse": 1,
+      "endVerse": 5,
+      "translation": "KJV",
+      "excerpt": "If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder, And the sign or the wonder come to pass, whereof he spake unto thee, saying, Let us go after other gods, which thou hast not known, and let us serve them; Thou shalt not hearken unto the words of that prophet, or that dreamer of dreams: for the LORD your God proveth you, to know whether ye love the LORD your God with all your heart and with all your soul. Ye shall walk after the LORD your God, and fear him, and keep his commandments, and obey his voice, and ye shall serve him, and cleave unto him. And that prophet, or that dreamer of dreams, shall be put to death; because he hath spoken to turn [you] away from the LORD your God, which brought you out of the land of Egypt, and redeemed you out of the house of bondage, to thrust thee out of the way which the LORD thy God commanded thee to walk in. So shalt thou put the evil away from the midst of thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-13/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 17,
+        "verse": 2,
+        "endVerse": 7,
+        "translation": "KJV",
+        "excerpt": "¶ If there be found among you, within any of thy gates which the LORD thy God giveth thee, man or woman, that hath wrought wickedness in the sight of the LORD thy God, in transgressing his covenant, And hath gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded; And it be told thee, and thou hast heard [of it], and enquired diligently, and, behold, [it be] true, [and] the thing certain, [that] such abomination is wrought in Israel: Then shalt thou bring forth that man or that woman, which have committed that wicked thing, unto thy gates, [even] that man or that woman, and shalt stone them with stones, till they die. At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; [but] at the mouth of one witness he shall not be put to death. The hands of the witnesses shall be first upon him to put him to death, and afterward the hands of all the people. So thou shalt put the evil away from among you.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 16,
+        "endVerse": 19,
+        "translation": "KJV",
+        "excerpt": "¶ If a false witness rise up against any man to testify against him [that which is] wrong; Then both the men, between whom the controversy [is], shall stand before the LORD, before the priests and the judges, which shall be in those days; And the judges shall make diligent inquisition: and, behold, [if] the witness [be] a false witness, [and] hath testified falsely against his brother; Then shall ye do unto him, as he had thought to have done unto his brother: so shalt thou put the evil away from among you.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 12,
+        "verse": 29,
+        "endVerse": 32,
+        "translation": "KJV",
+        "excerpt": "¶ When the LORD thy God shall cut off the nations from before thee, whither thou goest to possess them, and thou succeedest them, and dwellest in their land; Take heed to thyself that thou be not snared by following them, after that they be destroyed from before thee; and that thou enquire not after their gods, saying, How did these nations serve their gods? even so will I do likewise. Thou shalt not do so unto the LORD thy God: for every abomination to the LORD, which he hateth, have they done unto their gods; for even their sons and their daughters they have burnt in the fire to their gods. What thing soever I command you, observe to do it: thou shalt not add thereto, nor diminish from it.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-12/"
+      }
+    ],
+    "explain": "Deuteronomy 13 rejects even a fulfilled sign that leads to other gods. Chapters 12, 17 and 19 preserve commanded worship, diligent inquiry, witnesses and judgment of false testimony. A forbidden teaching does not authorize false evidence or private punishment.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "successful-sign-idolatry-and-judicial-proof",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate truth tests, worship boundaries, evidentiary safeguards and accountability of an accuser."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Coordinate truth tests, worship boundaries, evidentiary safeguards and accountability of an accuser.",
+      "section": "Judicial Laws and Righteous Judgment",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve a multi-condition case across four legal units without letting a correct doctrinal concern cancel judicial truthfulness.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Deuteronomy 17:6 requires two or three witnesses; a fulfilled sign is not supplied as a second witness.",
+        "Deuteronomy 17:7 assigns the first hands in the sentence to the witnesses, not the judges. This is the cited historical judicial procedure, not a modern enforcement instruction.",
+        "Proposed correct: Deuteronomy 13 rejects even a fulfilled sign that leads to other gods. Chapters 12, 17 and 19 preserve commanded worship, diligent inquiry, witnesses and judgment of false testimony. A forbidden teaching does not authorize false evidence or private punishment.",
+        "Deuteronomy 19:19 specifies what the witness thought to do; the passage does not impose the proposed completed-penalty prerequisite."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "0d349067",
+      "approvalReceipt": "c96258e00f0fd1a4a882e7efa960ffc6f492ce64fc267dda8d2778b94dea4979",
+      "sourceDigest": "0e92b5fb3f9267c64f2cfb5df8453cd7249e1daa26e9e72922cea84048515f0b"
+    }
+  },
+  {
+    "id": "deep-torah-nazirite-sudden-death-restarts-days",
+    "category": "Complex Torah Applications",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 2,
+    "q": "A Nazirite’s consecrated period is interrupted when someone dies suddenly beside him. Which plan follows the specified restoration rather than merely extending the old count?",
+    "options": [
+      "Wash at sunset and add one day to the original count, because the contact was unexpected.",
+      "Keep the old count after the birds, because only deliberate corpse contact invalidates earlier days.",
+      "Finish the old count first, then bring the ordinary completion offerings without the interruption procedure.",
+      "Complete the stated cleansing and offerings, reconsecrate the separation, and do not count the former days."
+    ],
+    "answer": 3,
+    "correctAnswer": "Complete the stated cleansing and offerings, reconsecrate the separation, and do not count the former days.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 6,
+      "verse": 6,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "All the days that he separateth [himself] unto the LORD he shall come at no dead body. He shall not make himself unclean for his father, or for his mother, for his brother, or for his sister, when they die: because the consecration of his God [is] upon his head. All the days of his separation he [is] holy unto the LORD. And if any man die very suddenly by him, and he hath defiled the head of his consecration; then he shall shave his head in the day of his cleansing, on the seventh day shall he shave it. And on the eighth day he shall bring two turtles, or two young pigeons, to the priest, to the door of the tabernacle of the congregation: And the priest shall offer the one for a sin offering, and the other for a burnt offering, and make an atonement for him, for that he sinned by the dead, and shall hallow his head that same day. And he shall consecrate unto the LORD the days of his separation, and shall bring a lamb of the first year for a trespass offering: but the days that were before shall be lost, because his separation was defiled.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "Numbers 6 explicitly addresses sudden death nearby, gives cleansing and offerings, and says the earlier days are lost because the separation was defiled. Unexpected contact does not preserve the old count.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "nazirite-sudden-death-restarts-days",
+      "mode": "explicit",
+      "learningObjective": "Apply an express interruption rule to a voluntary consecration period."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Apply an express interruption rule to a voluntary consecration period.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate accident, restoration, renewed obligation and loss of counted days in a multi-step provision.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The prescribed interruption procedure is longer and restarts the count.",
+        "The text itself makes unexpected nearby death the case that loses former days.",
+        "Ordinary completion does not substitute for the stated interruption remedy.",
+        "Proposed correct: Numbers 6 explicitly addresses sudden death nearby, gives cleansing and offerings, and says the earlier days are lost because the separation was defiled. Unexpected contact does not preserve the old count."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "58e37b5a",
+      "approvalReceipt": "6b84a0f5ab8780410640aa2fa281fda13034d2c1bd101a38c0293642dd6d9613",
+      "sourceDigest": "173a86969eb6d0734cc923fd44af1d79c9ad5a65dcf553fbb7da069f3853608b"
+    }
+  },
+  {
+    "id": "deep-torah-passover-exception-not-elective-delay",
+    "category": "Complex Torah Applications",
+    "topic": "Appointed times",
+    "difficulty": 2,
+    "q": "A clean Israelite at home treats the later Passover as an elective delay; a sojourner asks whether participation removes the original ordinance’s conditions. Which answer preserves both passages?",
+    "options": [
+      "Keep the later provision conditional, hold the clean nontraveler accountable, and retain the sojourner’s ordinance requirements.",
+      "Anyone may elect the later date, but a sojourner must invent a separate rite because he is outside the ordinance.",
+      "The later provision is for distant travelers only, while sojourners may participate without the conditions in Exodus.",
+      "The later provision removes the original obligation for Israelites, while the original conditions remain only for sojourners."
+    ],
+    "answer": 0,
+    "correctAnswer": "Keep the later provision conditional, hold the clean nontraveler accountable, and retain the sojourner’s ordinance requirements.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 9,
+      "verse": 6,
+      "endVerse": 14,
+      "translation": "KJV",
+      "excerpt": "¶ And there were certain men, who were defiled by the dead body of a man, that they could not keep the passover on that day: and they came before Moses and before Aaron on that day: And those men said unto him, We [are] defiled by the dead body of a man: wherefore are we kept back, that we may not offer an offering of the LORD in his appointed season among the children of Israel? And Moses said unto them, Stand still, and I will hear what the LORD will command concerning you. ¶ And the LORD spake unto Moses, saying, Speak unto the children of Israel, saying, If any man of you or of your posterity shall be unclean by reason of a dead body, or [be] in a journey afar off, yet he shall keep the passover unto the LORD. The fourteenth day of the second month at even they shall keep it, [and] eat it with unleavened bread and bitter [herbs]. They shall leave none of it unto the morning, nor break any bone of it: according to all the ordinances of the passover they shall keep it. But the man that [is] clean, and is not in a journey, and forbeareth to keep the passover, even the same soul shall be cut off from among his people: because he brought not the offering of the LORD in his appointed season, that man shall bear his sin. And if a stranger shall sojourn among you, and will keep the passover unto the LORD; according to the ordinance of the passover, and according to the manner thereof, so shall he do: ye shall have one ordinance, both for the stranger, and for him that was born in the land.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-9/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "verse": 48,
+        "endVerse": 49,
+        "translation": "KJV",
+        "excerpt": "And when a stranger shall sojourn with thee, and will keep the passover to the LORD, let all his males be circumcised, and then let him come near and keep it; and he shall be as one that is born in the land: for no uncircumcised person shall eat thereof. One law shall be to him that is homeborn, and unto the stranger that sojourneth among you.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-12/"
+      }
+    ],
+    "explain": "Numbers names corpse uncleanness and a distant journey, then warns about a clean nontraveler’s neglect. It gives one ordinance for sojourner and native; Exodus specifies circumcision for the sojourner’s males when keeping Passover. This asks the texts’ conditions, not a modern substitute rite.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "passover-exception-not-elective-delay",
+      "mode": "multi-passage",
+      "learningObjective": "Apply a conditional exception without turning it into elective delay or erasing participation requirements."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "03",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Apply a conditional exception without turning it into elective delay or erasing participation requirements.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate exception eligibility, the contrasting neglect case and an earlier participation condition.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Numbers names corpse uncleanness and a distant journey, then warns about a clean nontraveler’s neglect. It gives one ordinance for sojourner and native; Exodus specifies circumcision for the sojourner’s males when keeping Passover. This asks the texts’ conditions, not a modern substitute rite.",
+        "The delay is not presented as a universal choice, and the sojourner follows the ordinance.",
+        "Corpse uncleanness is explicitly included, and Exodus retains its participation condition.",
+        "The original obligation is not removed by the later provision."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "c4e8afec",
+      "approvalReceipt": "e06a25b6764b58c75e98eb1d406a23af447c77aec51c51a9b9c25a0d0be9e53c",
+      "sourceDigest": "73a47edd3552f7232350285fc7029e81d3973d84323460eb77cf3e891a3a981c"
+    }
+  },
+  {
+    "id": "deep-torah-voluntary-vow-binding-after-utterance",
+    "category": "Complex Torah Applications",
+    "topic": "Covenants and commandments",
+    "difficulty": 2,
+    "q": "A man claims that because he could have chosen not to vow, he may now delay or abandon the vow he actually made. Which distinction follows the passages?",
+    "options": [
+      "He may replace performance with an announcement that the original vow was voluntary.",
+      "Not vowing is not itself sin; a vow actually made requires performance without the condemned delay.",
+      "A voluntary vow remains optional after utterance, provided it was not required before he spoke.",
+      "He must make another vow to validate the first, because a single promise does not bind him."
+    ],
+    "answer": 1,
+    "correctAnswer": "Not vowing is not itself sin; a vow actually made requires performance without the condemned delay.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 21,
+      "endVerse": 23,
+      "translation": "KJV",
+      "excerpt": "¶ When thou shalt vow a vow unto the LORD thy God, thou shalt not slack to pay it: for the LORD thy God will surely require it of thee; and it would be sin in thee. But if thou shalt forbear to vow, it shall be no sin in thee. That which is gone out of thy lips thou shalt keep and perform; [even] a freewill offering, according as thou hast vowed unto the LORD thy God, which thou hast promised with thy mouth.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 30,
+        "verse": 1,
+        "endVerse": 2,
+        "translation": "KJV",
+        "excerpt": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This [is] the thing which the LORD hath commanded. If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-30/"
+      }
+    ],
+    "explain": "Deuteronomy distinguishes not vowing from delaying a vow already made. Numbers requires the man to keep what proceeded from his mouth. These instructions do not treat the initial freedom not to vow as continuing freedom to break it.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "voluntary-vow-binding-after-utterance",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish voluntary entry into an obligation from its binding performance."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "01",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Distinguish voluntary entry into an obligation from its binding performance.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate the no-vow exception with the triggered performance requirement.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "An announcement is not the commanded performance.",
+        "Proposed correct: Deuteronomy distinguishes not vowing from delaying a vow already made. Numbers requires the man to keep what proceeded from his mouth. These instructions do not treat the initial freedom not to vow as continuing freedom to break it.",
+        "This transfers the pre-vow freedom to a promise the text now requires him to keep.",
+        "No second validating vow is prescribed."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "0c086021",
+      "approvalReceipt": "849bfa48b7161b18b3596c8ae1b97e09478dee17927d1dd8d53aaa665048ef96",
+      "sourceDigest": "b575093b87cf57aa3b18231e3b17d0d014a937fa73d854d6dc885d20e8b8ee4b"
+    }
+  },
+  {
+    "id": "deep-torah-escaped-servant-not-lost-property",
+    "category": "Complex Torah Applications",
+    "topic": "Vulnerable people and household duties",
+    "difficulty": 2,
+    "q": "An official applies the lost-property return rule to a servant who has escaped from his master to the community. Which response preserves the explicit distinction?",
+    "options": [
+      "Return him only if his master identifies him, using the unknown-owner property procedure.",
+      "Keep him as the finder’s possession, because the property rule allows keeping anything not returned.",
+      "Do not return that escaped servant to his master; allow the stated choice of dwelling and do not oppress him.",
+      "Return him as lost property, then let him choose his dwelling after his master approves."
+    ],
+    "answer": 2,
+    "correctAnswer": "Do not return that escaped servant to his master; allow the stated choice of dwelling and do not oppress him.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 15,
+      "endVerse": 16,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not deliver unto his master the servant which is escaped from his master unto thee: He shall dwell with thee, [even] among you, in that place which he shall choose in one of thy gates, where it liketh him best: thou shalt not oppress him.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 22,
+        "verse": 1,
+        "endVerse": 3,
+        "translation": "KJV",
+        "excerpt": "Thou shalt not see thy brother’s ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother. And if thy brother [be] not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again. In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother’s, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-22/"
+      }
+    ],
+    "explain": "Deuteronomy 23 expressly forbids delivering the described escaped servant to his master and protects dwelling and freedom from oppression. The adjacent-book lost-property duty does not erase that person-specific instruction; the passage does not require inventing his origin.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "escaped-servant-not-lost-property",
+      "mode": "multi-passage",
+      "learningObjective": "Avoid extending an animal/property recovery rule over a specific human-protection command."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "08",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Avoid extending an animal/property recovery rule over a specific human-protection command.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 6
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nResolve a proposed cross-law analogy by preserving its explicit exception in subject matter.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Owner identification does not replace the servant-specific instruction.",
+        "Neither the servant rule nor the lost-property rule assigns ownership to the finder.",
+        "Proposed correct: Deuteronomy 23 expressly forbids delivering the described escaped servant to his master and protects dwelling and freedom from oppression. The adjacent-book lost-property duty does not erase that person-specific instruction; the passage does not require inventing his origin.",
+        "The explicit non-return command is not conditioned on later approval."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "5d842fb4",
+      "approvalReceipt": "d11bbdab1a97cb4f7b71294a9af96b1febd9a0227532ee235fb04ef35d709179",
+      "sourceDigest": "39651a8bb6d6e1a9bbb6ce64c00a8aea201d3bc7b01b5937208a016c33ef2e1c"
+    }
+  },
+  {
+    "id": "deep-torah-servant-release-provision-and-category-limits",
+    "category": "Complex Torah Applications",
+    "topic": "Vulnerable people and household duties",
+    "difficulty": 3,
+    "q": "An owner treats every servant as inheritable property and sends a Hebrew servant away empty after six years. Which correction respects the passages without flattening their distinct categories?",
+    "options": [
+      "Treat the six-year release as optional at the owner’s choice by using the foreign-bondservant inheritance provision.",
+      "Release the Hebrew servant after six years but omit furnishing, because release alone fulfills Deuteronomy’s requirement.",
+      "Apply every foreign-bondservant provision to the impoverished brother, provided the owner avoids harsh treatment.",
+      "Retain Hebrew release with provision, voluntary continuation, and Leviticus’ distinction between brothers and foreign bondservants."
+    ],
+    "answer": 3,
+    "correctAnswer": "Retain Hebrew release with provision, voluntary continuation, and Leviticus’ distinction between brothers and foreign bondservants.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verse": 12,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "¶ [And] if thy brother, an Hebrew man, or an Hebrew woman, be sold unto thee, and serve thee six years; then in the seventh year thou shalt let him go free from thee. And when thou sendest him out free from thee, thou shalt not let him go away empty: Thou shalt furnish him liberally out of thy flock, and out of thy floor, and out of thy winepress: [of that] wherewith the LORD thy God hath blessed thee thou shalt give unto him. And thou shalt remember that thou wast a bondman in the land of Egypt, and the LORD thy God redeemed thee: therefore I command thee this thing to day. And it shall be, if he say unto thee, I will not go away from thee; because he loveth thee and thine house, because he is well with thee; Then thou shalt take an aul, and thrust [it] through his ear unto the door, and he shall be thy servant for ever. And also unto thy maidservant thou shalt do likewise. It shall not seem hard unto thee, when thou sendest him away free from thee; for he hath been worth a double hired servant [to thee], in serving thee six years: and the LORD thy God shall bless thee in all that thou doest.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 21,
+        "verse": 2,
+        "endVerse": 6,
+        "translation": "KJV",
+        "excerpt": "If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing. If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him. If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master’s, and he shall go out by himself. And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free: Then his master shall bring him unto the judges; he shall also bring him to the door, or unto the door post; and his master shall bore his ear through with an aul; and he shall serve him for ever.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 25,
+        "verse": 39,
+        "endVerse": 46,
+        "translation": "KJV",
+        "excerpt": "¶ And if thy brother [that dwelleth] by thee be waxen poor, and be sold unto thee; thou shalt not compel him to serve as a bondservant: [But] as an hired servant, [and] as a sojourner, he shall be with thee, [and] shall serve thee unto the year of jubile: And [then] shall he depart from thee, [both] he and his children with him, and shall return unto his own family, and unto the possession of his fathers shall he return. For they [are] my servants, which I brought forth out of the land of Egypt: they shall not be sold as bondmen. Thou shalt not rule over him with rigour; but shalt fear thy God. Both thy bondmen, and thy bondmaids, which thou shalt have, [shall be] of the heathen that are round about you; of them shall ye buy bondmen and bondmaids. Moreover of the children of the strangers that do sojourn among you, of them shall ye buy, and of their families that [are] with you, which they begat in your land: and they shall be your possession. And ye shall take them as an inheritance for your children after you, to inherit [them for] a possession; they shall be your bondmen for ever: but over your brethren the children of Israel, ye shall not rule one over another with rigour.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+      }
+    ],
+    "explain": "Deuteronomy commands Hebrew release with generous provision and describes voluntary continued service; Exodus also specifies that continued-service choice. Leviticus distinguishes the impoverished brother from inheritable foreign bondservants. The question does not force every term limit into one unstated chronology or modern application.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "servant-release-provision-and-category-limits",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish service categories, release obligations and voluntary continuation without concealing the difficult slavery provisions."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "08",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Distinguish service categories, release obligations and voluntary continuation without concealing the difficult slavery provisions.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply several explicit conditions across three servant-law contexts while respecting limits of harmonization.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The foreign category is not an owner’s option for cancelling Hebrew release.",
+        "Deuteronomy expressly says not to send the released servant away empty.",
+        "Leviticus distinguishes the brother’s status, not merely the manner of treatment.",
+        "Proposed correct: Deuteronomy commands Hebrew release with generous provision and describes voluntary continued service; Exodus also specifies that continued-service choice. Leviticus distinguishes the impoverished brother from inheritable foreign bondservants. The question does not force every term limit into one unstated chronology or modern application."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "8ab4d095",
+      "approvalReceipt": "f34dc65a25e3291096fe5b97319a6b36ab843b23bd1032a54f257ab45099d2ef",
+      "sourceDigest": "fb339e0efa632b8677c70ea2b340b952f0a01c42cf027d97bcb58100c323b6ea"
+    }
+  },
+  {
+    "id": "deep-torah-firstfruits-confession-and-local-tithe-recipients",
+    "category": "Complex Torah Applications",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A steward combines the firstfruits presentation and third-year tithe declaration into one priest-only delivery. Which comparison preserves the named recipients and actions?",
+    "options": [
+      "Distinguish firstfruits presentation from third-year sharing within the gates with the four named groups.",
+      "Deliver both to the priest alone, because all hallowed produce has identical recipients and location.",
+      "Keep the firstfruits at home and take the third-year share only to the altar, reversing the stated settings.",
+      "Give both solely to the Levite, because the priest’s firstfruits entitlement ends when the third year arrives."
+    ],
+    "answer": 0,
+    "correctAnswer": "Distinguish firstfruits presentation from third-year sharing within the gates with the four named groups.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 26,
+      "verse": 1,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "And it shall be, when thou [art] come in unto the land which the LORD thy God giveth thee [for] an inheritance, and possessest it, and dwellest therein; That thou shalt take of the first of all the fruit of the earth, which thou shalt bring of thy land that the LORD thy God giveth thee, and shalt put [it] in a basket, and shalt go unto the place which the LORD thy God shall choose to place his name there. And thou shalt go unto the priest that shall be in those days, and say unto him, I profess this day unto the LORD thy God, that I am come unto the country which the LORD sware unto our fathers for to give us. And the priest shall take the basket out of thine hand, and set it down before the altar of the LORD thy God. And thou shalt speak and say before the LORD thy God, A Syrian ready to perish [was] my father, and he went down into Egypt, and sojourned there with a few, and became there a nation, great, mighty, and populous: And the Egyptians evil entreated us, and afflicted us, and laid upon us hard bondage: And when we cried unto the LORD God of our fathers, the LORD heard our voice, and looked on our affliction, and our labour, and our oppression: And the LORD brought us forth out of Egypt with a mighty hand, and with an outstretched arm, and with great terribleness, and with signs, and with wonders: And he hath brought us into this place, and hath given us this land, [even] a land that floweth with milk and honey. And now, behold, I have brought the firstfruits of the land, which thou, O LORD, hast given me. And thou shalt set it before the LORD thy God, and worship before the LORD thy God: And thou shalt rejoice in every good [thing] which the LORD thy God hath given unto thee, and unto thine house, thou, and the Levite, and the stranger that [is] among you.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-26/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 26,
+        "verse": 12,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ When thou hast made an end of tithing all the tithes of thine increase the third year, [which is] the year of tithing, and hast given [it] unto the Levite, the stranger, the fatherless, and the widow, that they may eat within thy gates, and be filled; Then thou shalt say before the LORD thy God, I have brought away the hallowed things out of [mine] house, and also have given them unto the Levite, and unto the stranger, to the fatherless, and to the widow, according to all thy commandments which thou hast commanded me: I have not transgressed thy commandments, neither have I forgotten [them:]",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-26/"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 18,
+        "verse": 12,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "All the best of the oil, and all the best of the wine, and of the wheat, the firstfruits of them which they shall offer unto the LORD, them have I given thee. [And] whatsoever is first ripe in the land, which they shall bring unto the LORD, shall be thine; every one that is clean in thine house shall eat [of] it.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-18/"
+      }
+    ],
+    "explain": "Deuteronomy describes the firstfruits basket at the chosen place with a confession, then a distinct third-year distribution within the gates. Numbers identifies priestly firstfruits entitlement; it does not erase the other distribution’s named beneficiaries.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "firstfruits-confession-and-local-tithe-recipients",
+      "mode": "multi-passage",
+      "learningObjective": "Separate two sacred-produce procedures by recipients, setting and confession."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Separate two sacred-produce procedures by recipients, setting and confession.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nApply related agricultural obligations without assuming one holy designation makes their distribution rules identical.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Deuteronomy describes the firstfruits basket at the chosen place with a confession, then a distinct third-year distribution within the gates. Numbers identifies priestly firstfruits entitlement; it does not erase the other distribution’s named beneficiaries.",
+        "The third-year passage expressly names additional recipients within the gates.",
+        "This reverses the described locations.",
+        "No third-year cancellation of priestly firstfruits entitlement is stated."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "d6a7be0c",
+      "approvalReceipt": "8e33d78a92f7220bbd4a440eff78d0e8e3faa5a13629ea33276ad4ed40407c65",
+      "sourceDigest": "76a3759bfb79b76245ab59a44a6cc45a1920c581af4cff66eacd939754de8546"
+    }
+  },
+  {
+    "id": "deep-torah-dedicated-purchased-field-jubilee-return",
+    "category": "Complex Torah Applications",
+    "topic": "Property and inheritance",
+    "difficulty": 3,
+    "q": "A man dedicates a field he bought, not his inherited possession, and claims the inherited-field rule makes it the priest’s permanent possession at Jubilee. Which distinction corrects him?",
+    "options": [
+      "Give the field to the buyer’s tribe at Jubilee, because purchase transfers the original family’s permanent possession.",
+      "Keep the purchased-field rule distinct: its valuation runs to Jubilee, when it returns to the person whose possession it was.",
+      "Apply the inherited-field outcome to every dedicated field, because dedication cancels the purchased-field distinction.",
+      "Let the buyer keep the purchased field at Jubilee after paying the fifth required for redeeming his inherited field."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep the purchased-field rule distinct: its valuation runs to Jubilee, when it returns to the person whose possession it was.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 16,
+      "endVerse": 24,
+      "translation": "KJV",
+      "excerpt": "And if a man shall sanctify unto the LORD [some part] of a field of his possession, then thy estimation shall be according to the seed thereof: an homer of barley seed [shall be valued] at fifty shekels of silver. If he sanctify his field from the year of jubile, according to thy estimation it shall stand. But if he sanctify his field after the jubile, then the priest shall reckon unto him the money according to the years that remain, even unto the year of the jubile, and it shall be abated from thy estimation. And if he that sanctified the field will in any wise redeem it, then he shall add the fifth [part] of the money of thy estimation unto it, and it shall be assured to him. And if he will not redeem the field, or if he have sold the field to another man, it shall not be redeemed any more. But the field, when it goeth out in the jubile, shall be holy unto the LORD, as a field devoted; the possession thereof shall be the priest’s. And if [a man] sanctify unto the LORD a field which he hath bought, which [is] not of the fields of his possession; Then the priest shall reckon unto him the worth of thy estimation, [even] unto the year of the jubile: and he shall give thine estimation in that day, [as] a holy thing unto the LORD. In the year of the jubile the field shall return unto him of whom it was bought, [even] to him to whom the possession of the land [did belong].",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-27/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 25,
+        "verse": 23,
+        "endVerse": 28,
+        "translation": "KJV",
+        "excerpt": "¶ The land shall not be sold for ever: for the land [is] mine; for ye [are] strangers and sojourners with me. And in all the land of your possession ye shall grant a redemption for the land. ¶ If thy brother be waxen poor, and hath sold away [some] of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold. And if the man have none to redeem it, and himself be able to redeem it; Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession. But if he be not able to restore [it] to him, then that which is sold shall remain in the hand of him that hath bought it until the year of jubile: and in the jubile it shall go out, and he shall return unto his possession.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+      }
+    ],
+    "explain": "Leviticus 27 expressly distinguishes a purchased field from a field of one’s possession and directs its Jubilee return to the original possessor. The inherited-field provisions and ordinary land-redemption context cannot erase that specific distinction.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "dedicated-purchased-field-jubilee-return",
+      "mode": "multi-passage",
+      "learningObjective": "Apply dedication and Jubilee rules with attention to the source of a field’s title."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Apply dedication and Jubilee rules with attention to the source of a field’s title.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 7
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nDistinguish two dedication categories and a related land-return principle in a bounded ownership case.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The text returns the field to its possessor, not a newly substituted tribe.",
+        "Proposed correct: Leviticus 27 expressly distinguishes a purchased field from a field of one’s possession and directs its Jubilee return to the original possessor. The inherited-field provisions and ordinary land-redemption context cannot erase that specific distinction.",
+        "The purchased-field verses expressly supply a different outcome.",
+        "The inherited-field redemption surcharge does not authorize retaining this purchased field at Jubilee."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "0e592049",
+      "approvalReceipt": "b0ec6ad8dda0a56e28f2cb51b38cfde23e06b608f44aa6ed2f8df922acc08b7e",
+      "sourceDigest": "79b72fb366bc4e9b3a89de39eac1b631677175a7e41a65e097be6fa6ed446cb2"
+    }
+  },
+  {
+    "id": "deep-torah-sabbath-defense-priest-service-and-bread",
+    "category": "Complex Torah Applications",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A reader says Yeshua’s Sabbath reply rests on the claim that sanctuary work and priestly bread have no Torah restrictions. Which comparison best respects his actual appeal?",
+    "options": [
+      "He accepts that all priestly Sabbath service is blameworthy, then asks that the disciples receive the same punishment.",
+      "He removes the bread’s priestly recipients from the Torah and describes the Sabbath offerings as a later custom.",
+      "He invokes restricted bread and blameless Sabbath service, rather than claiming the Torah has no such instructions.",
+      "He says the bread was unrestricted household food and that the Sabbath offerings were an unlawful priestly invention."
+    ],
+    "answer": 2,
+    "correctAnswer": "He invokes restricted bread and blameless Sabbath service, rather than claiming the Torah has no such instructions.",
+    "scripture": {
+      "book": "Matthew",
+      "chapter": 12,
+      "verse": 1,
+      "endVerse": 8,
+      "translation": "KJV",
+      "excerpt": "At that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn, and to eat. But when the Pharisees saw [it], they said unto him, Behold, thy disciples do that which is not lawful to do upon the sabbath day. But he said unto them, Have ye not read what David did, when he was an hungred, and they that were with him; How he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat, neither for them which were with him, but only for the priests? Or have ye not read in the law, how that on the sabbath days the priests in the temple profane the sabbath, and are blameless? But I say unto you, That in this place is [one] greater than the temple. But if ye had known what [this] meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless. For the Son of man is Lord even of the sabbath day.",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 24,
+        "verse": 5,
+        "endVerse": 9,
+        "translation": "KJV",
+        "excerpt": "¶ And thou shalt take fine flour, and bake twelve cakes thereof: two tenth deals shall be in one cake. And thou shalt set them in two rows, six on a row, upon the pure table before the LORD. And thou shalt put pure frankincense upon [each] row, that it may be on the bread for a memorial, [even] an offering made by fire unto the LORD. Every sabbath he shall set it in order before the LORD continually, [being taken] from the children of Israel by an everlasting covenant. And it shall be Aaron’s and his sons’; and they shall eat it in the holy place: for it [is] most holy unto him of the offerings of the LORD made by fire by a perpetual statute.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-24/"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 28,
+        "verse": 9,
+        "endVerse": 10,
+        "translation": "KJV",
+        "excerpt": "¶ And on the sabbath day two lambs of the first year without spot, and two tenth deals of flour [for] a meat offering, mingled with oil, and the drink offering thereof: [This is] the burnt offering of every sabbath, beside the continual burnt offering, and his drink offering.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-28/"
+      }
+    ],
+    "explain": "Matthew expressly calls the bread restricted and the priests’ Sabbath service blameless. Leviticus assigns the bread to Aaron’s family, and Numbers commands Sabbath offerings. This tests the examples Yeshua invokes, without making an unstated ruling about every Sabbath case.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "sabbath-defense-priest-service-and-bread",
+      "mode": "multi-passage",
+      "learningObjective": "Read Yeshua’s examples alongside their Torah provisions without inventing his premise."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Read Yeshua’s examples alongside their Torah provisions without inventing his premise.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nCoordinate an argumentative Gospel use, a food restriction and commanded Sabbath service while limiting the conclusion to the cited evidence.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Matthew calls the priests blameless, not worthy of matching punishment.",
+        "The Torah itself supplies the recipients and Sabbath offerings.",
+        "Proposed correct: Matthew expressly calls the bread restricted and the priests’ Sabbath service blameless. Leviticus assigns the bread to Aaron’s family, and Numbers commands Sabbath offerings. This tests the examples Yeshua invokes, without making an unstated ruling about every Sabbath case.",
+        "Both the restricted bread and commanded offerings contradict this description."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "f9201739",
+      "approvalReceipt": "8238299ef7b22b6d4b9830fe7b71a15584842024cff7b791871d64b8cc179154",
+      "sourceDigest": "7e10212ba92bb23983650ebe9a5851a1dc2a5aef184d2fab14b595ad4057482f"
+    }
+  },
+  {
+    "id": "deep-torah-altar-support-right-and-voluntary-waiver",
+    "category": "Complex Torah Applications",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A teacher uses Paul’s refusal to charge his hearers to claim that appointed material support was never a real right. Which reading preserves both Torah provision and Paul’s argument?",
+    "options": [
+      "Paul’s nonuse proves the Torah portions were voluntary gifts with no assigned recipients.",
+      "The Torah portions require Paul to charge every hearer, so his stated nonuse must mean he took payment privately.",
+      "Paul rejects any connection between altar service and support, making the Torah passages irrelevant to his comparison.",
+      "Preserve assigned altar portions, Paul’s support analogy and his voluntary nonuse of the right he states."
+    ],
+    "answer": 3,
+    "correctAnswer": "Preserve assigned altar portions, Paul’s support analogy and his voluntary nonuse of the right he states.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 7,
+      "verse": 31,
+      "endVerse": 34,
+      "translation": "KJV",
+      "excerpt": "And the priest shall burn the fat upon the altar: but the breast shall be Aaron’s and his sons’. And the right shoulder shall ye give unto the priest [for] an heave offering of the sacrifices of your peace offerings. He among the sons of Aaron, that offereth the blood of the peace offerings, and the fat, shall have the right shoulder for [his] part. For the wave breast and the heave shoulder have I taken of the children of Israel from off the sacrifices of their peace offerings, and have given them unto Aaron the priest and unto his sons by a statute for ever from among the children of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 18,
+        "verse": 8,
+        "endVerse": 11,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD spake unto Aaron, Behold, I also have given thee the charge of mine heave offerings of all the hallowed things of the children of Israel; unto thee have I given them by reason of the anointing, and to thy sons, by an ordinance for ever. This shall be thine of the most holy things, [reserved] from the fire: every oblation of theirs, every meat offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall render unto me, [shall be] most holy for thee and for thy sons. In the most holy [place] shalt thou eat it; every male shall eat it: it shall be holy unto thee. And this [is] thine; the heave offering of their gift, with all the wave offerings of the children of Israel: I have given them unto thee, and to thy sons and to thy daughters with thee, by a statute for ever: every one that is clean in thy house shall eat of it.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-18/"
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 9,
+        "verse": 13,
+        "endVerse": 18,
+        "translation": "KJV",
+        "excerpt": "Do ye not know that they which minister about holy things live [of the things] of the temple? and they which wait at the altar are partakers with the altar? Even so hath the Lord ordained that they which preach the gospel should live of the gospel. But I have used none of these things: neither have I written these things, that it should be so done unto me: for [it were] better for me to die, than that any man should make my glorying void. For though I preach the gospel, I have nothing to glory of: for necessity is laid upon me; yea, woe is unto me, if I preach not the gospel! For if I do this thing willingly, I have a reward: but if against my will, a dispensation [of the gospel] is committed unto me. What is my reward then? [Verily] that, when I preach the gospel, I may make the gospel of Christ without charge, that I abuse not my power in the gospel.",
+        "url": "https://www.kingjamesbibleonline.org/1-Corinthians-Chapter-9/"
+      }
+    ],
+    "explain": "The Torah specifies priestly portions. Paul refers to those ministering about holy things and states gospel support, then explains his own nonuse. A voluntary waiver is not a denial that the stated provision exists.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 9,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "altar-support-right-and-voluntary-waiver",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish an established support provision from an individual’s voluntary nonuse of an analogous right."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 9,
+      "learningObjective": "Distinguish an established support provision from an individual’s voluntary nonuse of an analogous right.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 9
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nIntegrate assigned portions, an apostolic analogy and a contrasting personal choice without inventing payment history.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The portions have assigned recipients, and Paul states a right before describing nonuse.",
+        "Paul expressly describes his nonuse; private payment is not supplied by the text.",
+        "Paul himself makes the sacred-service comparison.",
+        "Proposed correct: The Torah specifies priestly portions. Paul refers to those ministering about holy things and states gospel support, then explains his own nonuse. A voluntary waiver is not a denial that the stated provision exists."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "6934d26f",
+      "approvalReceipt": "36fbd2395487f9207c3f62f404a19802b3949ff32eec04a2d2e9cca896b36888",
+      "sourceDigest": "988662bbc32e083405de8661c3d6c993031db13b12b0fccba8477463af2bc09f"
+    }
+  },
+  {
+    "id": "deep-torah-aaron-explanation-not-blood-exception",
+    "category": "Complex Torah Applications",
+    "topic": "Priesthood and sanctuary",
+    "difficulty": 3,
+    "q": "A commentator says Aaron’s burned goat in Leviticus 10 simply followed the sanctuary-blood exception, and uses Hebrews to make every sin offering inedible. Which assessment preserves the evidence and its limits?",
+    "options": [
+      "That goat lacked inner blood; Moses accepts Aaron’s different explanation, without changing the sanctuary-blood rule or expanding Hebrews’ comparison.",
+      "The goat’s blood stayed outside, and Moses accepts Aaron’s explanation; that acceptance establishes a general permission to burn any sin offering during bereavement.",
+      "The goat’s blood stayed outside, but the congregation’s sin offering is burned in every case; Hebrews confirms that recipient-based exception.",
+      "Moses is content because Aaron invokes the annual atonement disposal rule; Hebrews extends that annual rule to offerings whose blood remains outside."
+    ],
+    "answer": 0,
+    "correctAnswer": "That goat lacked inner blood; Moses accepts Aaron’s different explanation, without changing the sanctuary-blood rule or expanding Hebrews’ comparison.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 10,
+      "verse": 16,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "¶ And Moses diligently sought the goat of the sin offering, and, behold, it was burnt: and he was angry with Eleazar and Ithamar, the sons of Aaron [which were] left [alive], saying, Wherefore have ye not eaten the sin offering in the holy place, seeing it [is] most holy, and [God] hath given it you to bear the iniquity of the congregation, to make atonement for them before the LORD? Behold, the blood of it was not brought in within the holy [place:] ye should indeed have eaten it in the holy [place], as I commanded. And Aaron said unto Moses, Behold, this day have they offered their sin offering and their burnt offering before the LORD; and such things have befallen me: and [if] I had eaten the sin offering to day, should it have been accepted in the sight of the LORD? And when Moses heard [that], he was content.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-10/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 6,
+        "verse": 25,
+        "endVerse": 30,
+        "translation": "KJV",
+        "excerpt": "Speak unto Aaron and to his sons, saying, This [is] the law of the sin offering: In the place where the burnt offering is killed shall the sin offering be killed before the LORD: it [is] most holy. The priest that offereth it for sin shall eat it: in the holy place shall it be eaten, in the court of the tabernacle of the congregation. Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in the holy place. But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water. All the males among the priests shall eat thereof: it [is] most holy. And no sin offering, whereof [any] of the blood is brought into the tabernacle of the congregation to reconcile [withal] in the holy [place], shall be eaten: it shall be burnt in the fire.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-6/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 16,
+        "verse": 27,
+        "translation": "KJV",
+        "excerpt": "And the bullock [for] the sin offering, and the goat [for] the sin offering, whose blood was brought in to make atonement in the holy [place], shall [one] carry forth without the camp; and they shall burn in the fire their skins, and their flesh, and their dung.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-16-27/"
+      },
+      {
+        "book": "Hebrews",
+        "chapter": 13,
+        "verse": 11,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp. Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate. Let us go forth therefore unto him without the camp, bearing his reproach.",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-13/"
+      }
+    ],
+    "explain": "Leviticus 10 expressly denies inner blood for that goat and records Aaron’s appeal to that day’s calamities, after which Moses is content. Leviticus 6 and 16 govern sanctuary-blood offerings; Hebrews invokes that specific outside-burning pattern. The narrative does not state a universal new exemption for every bereavement.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "aaron-explanation-not-blood-exception",
+      "mode": "multi-passage",
+      "learningObjective": "Evaluate a proposed harmonization against an express negative, a narrative explanation and a limited later analogy."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "12",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Evaluate a proposed harmonization against an express negative, a narrative explanation and a limited later analogy.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nSustain a four-unit evidence chain distinguishing ordinary rule, explicit countercondition, accepted narrative explanation and the scope of Hebrews’ comparison.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Proposed correct: Leviticus 10 expressly denies inner blood for that goat and records Aaron’s appeal to that day’s calamities, after which Moses is content. Leviticus 6 and 16 govern sanctuary-blood offerings; Hebrews invokes that specific outside-burning pattern. The narrative does not state a universal new exemption for every bereavement.",
+        "The narrative records this accepted explanation but does not state the proposed universal bereavement permission.",
+        "Leviticus 6 and Hebrews identify sanctuary-blood conditions, not the proposed blanket recipient-based rule; Moses explicitly expected this goat to be eaten.",
+        "Aaron appeals to that day’s circumstances rather than citing the annual rite, and Hebrews retains the sanctuary-blood description."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "c2aadb16",
+      "approvalReceipt": "88ac335c1f7f53a85cec07b1aa00ea7e81839e80b6f2bd160f4daeb0a27d2f93",
+      "sourceDigest": "39f60b9b35cad601c84ca89543c9b226d4dc7c785daf2c79a70d7e599f187247"
+    }
+  },
+  {
+    "id": "deep-torah-leadership-authority-does-not-merge-offices",
+    "category": "Complex Torah Applications",
+    "topic": "Leadership and government",
+    "difficulty": 3,
+    "q": "A strong ruler claims that public leadership, a personal revelation and success authorize him to overrule priests and burn sanctuary incense. Which assessment follows all four passages without collapsing their offices?",
+    "options": [
+      "Retain priestly incense duties and test prophetic claims, but treat Joshua’s Spirit-endowed charge as removing his need for Eleazar’s inquiry.",
+      "Keep Eleazar’s role, royal submission to law and prophetic tests distinct; Uzziah’s royal strength does not authorize incense ministry.",
+      "Retain Eleazar’s role and priestly incense duties, but treat writing the king’s law copy as completing the duty without continued reading.",
+      "Retain royal law-reading and distinguish priestly incense, but accept speech in another god’s name if the predicted event occurs."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep Eleazar’s role, royal submission to law and prophetic tests distinct; Uzziah’s royal strength does not authorize incense ministry.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 27,
+      "verse": 18,
+      "endVerse": 23,
+      "translation": "KJV",
+      "excerpt": "¶ And the LORD said unto Moses, Take thee Joshua the son of Nun, a man in whom [is] the spirit, and lay thine hand upon him; And set him before Eleazar the priest, and before all the congregation; and give him a charge in their sight. And thou shalt put [some] of thine honour upon him, that all the congregation of the children of Israel may be obedient. And he shall stand before Eleazar the priest, who shall ask [counsel] for him after the judgment of Urim before the LORD: at his word shall they go out, and at his word they shall come in, [both] he, and all the children of Israel with him, even all the congregation. And Moses did as the LORD commanded him: and he took Joshua, and set him before Eleazar the priest, and before all the congregation: And he laid his hands upon him, and gave him a charge, as the LORD commanded by the hand of Moses.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-27/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 17,
+        "verse": 18,
+        "endVerse": 20,
+        "translation": "KJV",
+        "excerpt": "And it shall be, when he sitteth upon the throne of his kingdom, that he shall write him a copy of this law in a book out of [that which is] before the priests the Levites: And it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the LORD his God, to keep all the words of this law and these statutes, to do them: That his heart be not lifted up above his brethren, and that he turn not aside from the commandment, [to] the right hand, or [to] the left: to the end that he may prolong [his] days in his kingdom, he, and his children, in the midst of Israel.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 18,
+        "verse": 18,
+        "endVerse": 22,
+        "translation": "KJV",
+        "excerpt": "I will raise them up a Prophet from among their brethren, like unto thee, and will put my words in his mouth; and he shall speak unto them all that I shall command him. And it shall come to pass, [that] whosoever will not hearken unto my words which he shall speak in my name, I will require [it] of him. But the prophet, which shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die. And if thou say in thine heart, How shall we know the word which the LORD hath not spoken? When a prophet speaketh in the name of the LORD, if the thing follow not, nor come to pass, that [is] the thing which the LORD hath not spoken, [but] the prophet hath spoken it presumptuously: thou shalt not be afraid of him.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-18/"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 26,
+        "verse": 16,
+        "endVerse": 21,
+        "translation": "KJV",
+        "excerpt": "¶ But when he was strong, his heart was lifted up to [his] destruction: for he transgressed against the LORD his God, and went into the temple of the LORD to burn incense upon the altar of incense. And Azariah the priest went in after him, and with him fourscore priests of the LORD, [that were] valiant men: And they withstood Uzziah the king, and said unto him, [It appertaineth] not unto thee, Uzziah, to burn incense unto the LORD, but to the priests the sons of Aaron, that are consecrated to burn incense: go out of the sanctuary; for thou hast trespassed; neither [shall it be] for thine honour from the LORD God. Then Uzziah was wroth, and [had] a censer in his hand to burn incense: and while he was wroth with the priests, the leprosy even rose up in his forehead before the priests in the house of the LORD, from beside the incense altar. And Azariah the chief priest, and all the priests, looked upon him, and, behold, he [was] leprous in his forehead, and they thrust him out from thence; yea, himself hasted also to go out, because the LORD had smitten him. And Uzziah the king was a leper unto the day of his death, and dwelt in a several house, [being] a leper; for he was cut off from the house of the LORD: and Jotham his son [was] over the king’s house, judging the people of the land.",
+        "url": "https://www.kingjamesbibleonline.org/2-Chronicles-Chapter-26/"
+      }
+    ],
+    "explain": "Numbers distinguishes Joshua’s leadership and Eleazar’s inquiry. Deuteronomy subjects kings and prophetic claims to Yah’s word. Chronicles shows priests opposing Uzziah’s incense intrusion and records judgment. These offices and tests cannot be merged into unlimited authority from success or a private claim.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 7,
+      "editorialDifficulty": 10,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "leadership-authority-does-not-merge-offices",
+      "mode": "multi-passage",
+      "learningObjective": "Coordinate leadership delegation, royal accountability, prophetic testing and a narrative sanctuary boundary."
+    },
+    "editorial": {
+      "batch": "deep-torah-50",
+      "courseUnitId": "06",
+      "courseUnitTitle": "The Torah, Commandments, Holiness, and Covenant Responsibilities",
+      "curriculumTopicId": "16",
+      "curriculumDifficulty": 10,
+      "learningObjective": "Coordinate leadership delegation, royal accountability, prophetic testing and a narrative sanctuary boundary.",
+      "section": "Complex Torah Applications",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "evidenceFile": "content/deep-torah-50-evidence.json",
+      "manualReviewRequired": true,
+      "sourceDifficulty": 10
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex AI-assisted Scripture comparison; 2026-10-28. Existing evidence and source hashes unchanged.\nTrace four books and offices, evaluate a composite authority claim, and state why no one condition cancels the others.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Numbers 27:21 retains Eleazar’s inquiry in the very passage commissioning Joshua.",
+        "Proposed correct: Numbers distinguishes Joshua’s leadership and Eleazar’s inquiry. Deuteronomy subjects kings and prophetic claims to Yah’s word. Chronicles shows priests opposing Uzziah’s incense intrusion and records judgment. These offices and tests cannot be merged into unlimited authority from success or a private claim.",
+        "Deuteronomy 17:19 requires reading all the days of his life, not merely making the copy.",
+        "Deuteronomy 18:20 separately condemns speech in another god’s name; a successful prediction is not given as an exemption."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "79f592d9",
+      "approvalReceipt": "ffedfc4efd99ce40b1c7cb1d7ec1905488a87feaec2a933b91bd4a72694996e2",
+      "sourceDigest": "d702d54952c3c0cb70a9d10f93e32277b7fa0bcce811b5906a0ef89c7146f4da"
+    }
+  },
+  {
+    "id": "torah-judgment-majority-pressure",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "A witness faces pressure to support the larger group in a lawsuit. Which course accords with Exodus 23:1–2?",
+    "options": [
+      "Give truthful testimony rather than bend judgment toward the crowd.",
+      "Support the larger group when its members have higher standing.",
+      "Let the larger group settle what the witness should testify.",
+      "Repeat the group’s report if the witness did not start it."
+    ],
+    "answer": 0,
+    "correctAnswer": "Give truthful testimony rather than bend judgment toward the crowd.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 23,
+      "verse": 1,
+      "endVerse": 2,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness. ¶ Thou shalt not follow a multitude to [do] evil; neither shalt thou speak in a cause to decline after many to wrest [judgment:]",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "The commands prohibit raising a false report, joining an unrighteous witness, and following a multitude to distort judgment. Group size does not make testimony true.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "judgment-majority-pressure",
+      "mode": "explicit",
+      "learningObjective": "Distinguish truthful testimony from pressure to support a majority."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish truthful testimony from pressure to support a majority.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The commands prohibit raising a false report, joining an unrighteous witness, and following a multitude to distort judgment. Group size does not make testimony true.",
+        "The passage forbids following a multitude to wrest judgment, not merely following low-status people.",
+        "The group cannot replace the witness’s obligation not to give false testimony.",
+        "Verse 1 forbids raising a false report; not originating it does not authorize repeating it."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "f5d00c31",
+      "approvalReceipt": "b60f252f7bdbf3351b483fdfeef8ca8f2b8b517ee72dbec432cb6aafa8db112c",
+      "sourceDigest": "226d298150649565580bc22b92b650cadba197e6aa388f1e19bf85c6fef1e538"
+    }
+  },
+  {
+    "id": "torah-poor-case-equal-justice",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "In a dispute involving a poor Israelite, which judgment policy preserves both Exodus 23:3 and 23:6?",
+    "options": [
+      "Accept the wealthier party’s account to avoid favoring the poor.",
+      "Do not favor his case because he is poor or deny him just judgment.",
+      "Favor his case because poverty outweighs the evidence against him.",
+      "Delay his hearing until he can bring someone with greater standing."
+    ],
+    "answer": 1,
+    "correctAnswer": "Do not favor his case because he is poor or deny him just judgment.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 23,
+      "verse": 3,
+      "translation": "KJV",
+      "excerpt": "¶ Neither shalt thou countenance a poor man in his cause.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-23-3/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 6,
+        "translation": "KJV",
+        "excerpt": "Thou shalt not wrest the judgment of thy poor in his cause.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-6/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+      }
+    ],
+    "explain": "Verse 3 forbids favoring a poor man in his cause, while verse 6 forbids perverting the poor man’s judgment. Leviticus 19:15 likewise rejects favoring either the poor or the mighty. Protection means righteous judgment, not a predetermined result.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-case-equal-justice",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate protection of the poor with the prohibition on favoritism."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Integrate protection of the poor with the prohibition on favoritism.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Rejecting pro-poor favoritism does not justify pro-rich favoritism; Leviticus 19:15 excludes both.",
+        "Verse 3 forbids favoring a poor man in his cause, while verse 6 forbids perverting the poor man’s judgment. Leviticus 19:15 likewise rejects favoring either the poor or the mighty. Protection means righteous judgment, not a predetermined result.",
+        "Verse 3 rules out favoring the poor merely on the basis of poverty.",
+        "No status sponsor is made a condition of the poor person receiving justice."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "dcad441f",
+      "approvalReceipt": "de374a903c82c97a9bbb58257be89205365eaaa6bfee6d79c4b441f4ff1c6e17",
+      "sourceDigest": "d76219a2036130a5769836d262668c321c2a79ae1a52095dbc15dcc0a8edd3da"
+    }
+  },
+  {
+    "id": "torah-single-witness-insufficient",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "Under Deuteronomy 19:15, what is insufficient by itself to establish a charge against a person?",
+    "options": [
+      "The testimony of three witnesses to the alleged offense.",
+      "The testimony of several witnesses to the alleged offense.",
+      "The testimony of one witness to the alleged offense.",
+      "The testimony of two witnesses to the alleged offense."
+    ],
+    "answer": 2,
+    "correctAnswer": "The testimony of one witness to the alleged offense.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse says one witness shall not rise against a man to establish the matter; it specifies two or three witnesses. It describes an evidentiary safeguard, not a guarantee that every accusation with several witnesses is true.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "single-witness-insufficient",
+      "mode": "explicit",
+      "learningObjective": "Recognize the evidentiary threshold for establishing an accusation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize the evidentiary threshold for establishing an accusation.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Three witnesses meet the numerical threshold stated in this verse.",
+        "The verse’s specified insufficiency is one witness, not a group exceeding one; truthfulness still matters.",
+        "The verse says one witness shall not rise against a man to establish the matter; it specifies two or three witnesses. It describes an evidentiary safeguard, not a guarantee that every accusation with several witnesses is true.",
+        "Two witnesses meet the numerical threshold stated in this verse."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "42714095",
+      "approvalReceipt": "994369df63e1d499c9edb8adfd18f115535054a9cf7dfee651a12350f2d14a27",
+      "sourceDigest": "48a4fe4a95d4e01d308a13e619c617143ecd439ad28791b51f17046a78167c05"
+    }
+  },
+  {
+    "id": "torah-false-witness-due-process",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "A malicious witness accuses his brother. Which sequence follows Deuteronomy 19:15–19?",
+    "options": [
+      "Let the accused impose the penalty; then ask the judges to confirm whether the witness lied.",
+      "Count the accusation as established by one witness; investigate further if the accused pays for a hearing.",
+      "Have the witness pay a fixed double restitution; use that payment instead of examining the accusation.",
+      "Appear before the appointed authorities; investigate diligently; apply the intended penalty if false testimony is established."
+    ],
+    "answer": 3,
+    "correctAnswer": "Appear before the appointed authorities; investigate diligently; apply the intended penalty if false testimony is established.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verse": 16,
+      "endVerse": 19,
+      "translation": "KJV",
+      "excerpt": "¶ If a false witness rise up against any man to testify against him [that which is] wrong; Then both the men, between whom the controversy [is], shall stand before the LORD, before the priests and the judges, which shall be in those days; And the judges shall make diligent inquisition: and, behold, [if] the witness [be] a false witness, [and] hath testified falsely against his brother; Then shall ye do unto him, as he had thought to have done unto his brother: so shalt thou put the evil away from among you.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+      }
+    ],
+    "explain": "The parties stand before the priests and judges. The judges make diligent inquiry; if the witness is false, the penalty he intended for his brother is applied to him. This is a judicial procedure, not private retaliation, and verse 15 prevents establishing a case through one witness alone.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "false-witness-due-process",
+      "mode": "multi-passage",
+      "learningObjective": "Keep investigation and judicial authority together with the false-witness sanction."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Keep investigation and judicial authority together with the false-witness sanction.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The passage assigns inquiry to judges before the sanction, not to an accused person acting privately.",
+        "Verse 15 rejects establishment by a lone witness, and no paid-hearing condition is given.",
+        "Double restitution belongs to particular property laws; here the sanction corresponds to the intended harm after inquiry.",
+        "The parties stand before the priests and judges. The judges make diligent inquiry; if the witness is false, the penalty he intended for his brother is applied to him. This is a judicial procedure, not private retaliation, and verse 15 prevents establishing a case through one witness alone."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "4d7848ed",
+      "approvalReceipt": "180080f862b707aae80c2bc863401961cf5790e49bb1f0ca8eb34f4507123ece",
+      "sourceDigest": "d4ec7ee08aad34aa9f9a5bcf6c5bc4afda7bc98950cc3426759c102f58872ed9"
+    }
+  },
+  {
+    "id": "torah-difficult-cases-appointed-court",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "A matter is too hard for local judgment in the settled-land setting of Deuteronomy 17:8–11. Where is it referred?",
+    "options": [
+      "To the priests the Levites and the judge at the place Yah chooses.",
+      "To the local elders to settle the difficult matter by a town vote.",
+      "To the king without consulting the priestly authorities at the chosen place.",
+      "To the nearest city of refuge as the destination for each difficult lawsuit."
+    ],
+    "answer": 0,
+    "correctAnswer": "To the priests the Levites and the judge at the place Yah chooses.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 8,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ If there arise a matter too hard for thee in judgment, between blood and blood, between plea and plea, and between stroke and stroke, [being] matters of controversy within thy gates: then shalt thou arise, and get thee up into the place which the LORD thy God shall choose; And thou shalt come unto the priests the Levites, and unto the judge that shall be in those days, and enquire; and they shall shew thee the sentence of judgment: And thou shalt do according to the sentence, which they of that place which the LORD shall choose shall shew thee; and thou shalt observe to do according to all that they inform thee: According to the sentence of the law which they shall teach thee, and according to the judgment which they shall tell thee, thou shalt do: thou shalt not decline from the sentence which they shall shew thee, [to] the right hand, nor [to] the left.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 1,
+        "verse": 17,
+        "translation": "KJV",
+        "excerpt": "Ye shall not respect persons in judgment; [but] ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment [is] God’s: and the cause that is too hard for you, bring [it] unto me, and I will hear it.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-1-17/"
+      }
+    ],
+    "explain": "The specified referral is to the priests the Levites and the judge at the chosen place, followed by obedience to the lawful sentence described there. Deuteronomy 1:17 earlier describes hard causes being brought to Moses; the later passage states the institutions for its own setting.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "difficult-cases-appointed-court",
+      "mode": "multi-passage",
+      "learningObjective": "Distinguish local judgment from referral of cases beyond local competence."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish local judgment from referral of cases beyond local competence.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The specified referral is to the priests the Levites and the judge at the chosen place, followed by obedience to the lawful sentence described there. Deuteronomy 1:17 earlier describes hard causes being brought to Moses; the later passage states the institutions for its own setting.",
+        "The hard case must be referred to the chosen place’s authorities, not resolved through a local vote.",
+        "The named destination includes priests and the judge, not a bypass directly to the king.",
+        "The chosen-place tribunal is specified; a city of refuge is not assigned every difficult lawsuit."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "cb4ebc9f",
+      "approvalReceipt": "ddc928efff643eea0e4c55d122e8883a6bcfe149ab9667b4781f72b42862bb56",
+      "sourceDigest": "21133574eb6b7d88d01b5a12a342c01ba53adfb002de936c8e2d77443f20141c"
+    }
+  },
+  {
+    "id": "torah-bribe-blinds-judgment",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "Why does Deuteronomy 16:19 forbid judges to take a gift in connection with judgment?",
+    "options": [
+      "It deprives the firstborn son of his rightful double portion.",
+      "It blinds the wise and perverts the words of the righteous.",
+      "It deprives the poor borrower of his covering during the night.",
+      "It removes the neighbor’s ancient landmark from his inheritance."
+    ],
+    "answer": 1,
+    "correctAnswer": "It blinds the wise and perverts the words of the righteous.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "verse": 18,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "¶ Judges and officers shalt thou make thee in all thy gates, which the LORD thy God giveth thee, throughout thy tribes: and they shall judge the people with just judgment. Thou shalt not wrest judgment; thou shalt not respect persons, neither take a gift: for a gift doth blind the eyes of the wise, and pervert the words of the righteous. That which is altogether just shalt thou follow, that thou mayest live, and inherit the land which the LORD thy God giveth thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-16/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 23,
+        "verse": 8,
+        "translation": "KJV",
+        "excerpt": "¶ And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-23-8/"
+      }
+    ],
+    "explain": "The stated danger is corrupted discernment and righteous testimony: a gift blinds the eyes of the wise and perverts the words of the righteous. Exodus 23:8 gives the same reason.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "bribe-blinds-judgment",
+      "mode": "multi-passage",
+      "learningObjective": "Explain the stated reason for refusing gifts that corrupt judgment."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated reason for refusing gifts that corrupt judgment.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The firstborn portion is protected elsewhere, but is not the reason this verse gives for refusing gifts.",
+        "The stated danger is corrupted discernment and righteous testimony: a gift blinds the eyes of the wise and perverts the words of the righteous. Exodus 23:8 gives the same reason.",
+        "Protection of a poor borrower’s covering belongs to pledge law, not this verse’s stated reason about gifts.",
+        "Removing landmarks is a different prohibition; the stated effect of the gift is corrupted judgment."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "36444bbd",
+      "approvalReceipt": "f640013deb9e34fe70e70fcae4765db0e28195f5a7fdacbb48064215d279dab2",
+      "sourceDigest": "8ac35b8586bb704ab34cf80046ddddd2daa1612eb640bbaa79365d2b05646f5d"
+    }
+  },
+  {
+    "id": "torah-judicial-stripes-human-dignity",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 1,
+    "q": "When the judges find an offender worthy of beating in Deuteronomy 25:1–3, which restriction and reason are given?",
+    "options": [
+      "Set the number by the offended household’s requested compensation.",
+      "Allow the witnesses to increase the number after the judge leaves.",
+      "Do not exceed forty stripes, lest the brother be degraded in their sight.",
+      "Require forty stripes for each offense, whatever its circumstances."
+    ],
+    "answer": 2,
+    "correctAnswer": "Do not exceed forty stripes, lest the brother be degraded in their sight.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "If there be a controversy between men, and they come unto judgment, that [the judges] may judge them; then they shall justify the righteous, and condemn the wicked. And it shall be, if the wicked man [be] worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number. Forty stripes he may give him, [and] not exceed: lest, [if] he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The judge oversees a counted punishment according to the fault; forty is the upper bound, not a mandatory sentence for every offense. The stated reason for the bound concerns the brother becoming vile in their sight. This question describes the passage’s judicial setting, not a direction for private punishment.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "judicial-stripes-human-dignity",
+      "mode": "explicit",
+      "learningObjective": "Identify the limit and stated reason for judicial corporal punishment in its ancient setting."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the limit and stated reason for judicial corporal punishment in its ancient setting.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The text assigns judicially counted punishment rather than a household compensation tariff.",
+        "The judge’s supervision and maximum do not authorize witnesses to add stripes.",
+        "The judge oversees a counted punishment according to the fault; forty is the upper bound, not a mandatory sentence for every offense. The stated reason for the bound concerns the brother becoming vile in their sight. This question describes the passage’s judicial setting, not a direction for private punishment.",
+        "The count is according to the fault; forty is the maximum, not a universal required count."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "826091ff",
+      "approvalReceipt": "d1f3035adbf33d30a620b89f82d7e49cb1b36d023cdc0b42436b86d5bdfe6850",
+      "sourceDigest": "d63503b31c43be93fe775f00321e23fd71f2483625d9b029023cdbf29810844a"
+    }
+  },
+  {
+    "id": "torah-idolatry-report-investigation",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Within Deuteronomy 17:2–7’s judicial law about serving other gods, which safeguards precede the death sentence?",
+    "options": [
+      "A report from one respected witness and an oath from the reporting household.",
+      "A vote among the accusers and payment of compensation to the town elders.",
+      "A repeated public rumor and the accused person’s failure to leave the town.",
+      "Diligent inquiry confirming the report and testimony of two or three witnesses."
+    ],
+    "answer": 3,
+    "correctAnswer": "Diligent inquiry confirming the report and testimony of two or three witnesses.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "¶ If there be found among you, within any of thy gates which the LORD thy God giveth thee, man or woman, that hath wrought wickedness in the sight of the LORD thy God, in transgressing his covenant, And hath gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded; And it be told thee, and thou hast heard [of it], and enquired diligently, and, behold, [it be] true, [and] the thing certain, [that] such abomination is wrought in Israel: Then shalt thou bring forth that man or that woman, which have committed that wicked thing, unto thy gates, [even] that man or that woman, and shalt stone them with stones, till they die. At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; [but] at the mouth of one witness he shall not be put to death. The hands of the witnesses shall be first upon him to put him to death, and afterward the hands of all the people. So thou shalt put the evil away from among you.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-19-15/"
+      }
+    ],
+    "explain": "The report must be diligently investigated and found true and certain. Verses 6–7 then specify two or three witnesses and their responsibility in the sanction; one witness is insufficient. The question concerns ancient Israel’s stated judicial process, not authorization of private violence.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "idolatry-report-investigation",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize inquiry and corroboration before a severe judicial sanction."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Recognize inquiry and corroboration before a severe judicial sanction.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Even a respected lone witness does not meet the stated two-or-three-witness requirement.",
+        "Neither a vote among accusers nor an elders’ payment replaces inquiry and witnesses.",
+        "A repeated rumor and failure to leave are not the stated standards of proof.",
+        "The report must be diligently investigated and found true and certain. Verses 6–7 then specify two or three witnesses and their responsibility in the sanction; one witness is insufficient. The question concerns ancient Israel’s stated judicial process, not authorization of private violence."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "7f0cdfe6",
+      "approvalReceipt": "0d42e27dc69a0955f7a144617c6e0c2f51073b88754040a2f6c26c88f379ddf9",
+      "sourceDigest": "edda29f66dd8be2ad59e46f2bdfcdcb4f46f5e2b888015f1d79520b6c67450b9"
+    }
+  },
+  {
+    "id": "torah-hearing-before-condemnation",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Which concern in Deuteronomy 1:16–17 is reflected when Nicodemus challenges the discussion in John 7:50–51?",
+    "options": [
+      "Hear the person and learn the facts before judging the case.",
+      "Choose a ruling by the city in which the person was raised.",
+      "Let a person’s standing settle the case before testimony is heard.",
+      "Refer every accusation directly to the king without a hearing."
+    ],
+    "answer": 0,
+    "correctAnswer": "Hear the person and learn the facts before judging the case.",
+    "scripture": {
+      "book": "John",
+      "chapter": 7,
+      "verse": 50,
+      "endVerse": 51,
+      "translation": "KJV",
+      "excerpt": "Nicodemus saith unto them, (he that came to Jesus by night, being one of them,) Doth our law judge [any] man, before it hear him, and know what he doeth?",
+      "url": "https://www.kingjamesbibleonline.org/John-Chapter-7/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 1,
+        "verse": 16,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "And I charged your judges at that time, saying, Hear [the causes] between your brethren, and judge righteously between [every] man and his brother, and the stranger [that is] with him. Ye shall not respect persons in judgment; [but] ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment [is] God’s: and the cause that is too hard for you, bring [it] unto me, and I will hear it.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-1/"
+      }
+    ],
+    "explain": "Nicodemus asks whether the law judges a man before hearing him and knowing what he does. Moses’s instructions require hearing causes and judging righteously without respect of persons. John records an appeal to that hearing principle, not a verdict on the entire case.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "hearing-before-condemnation",
+      "mode": "multi-passage",
+      "learningObjective": "Connect Nicodemus’s appeal to lawful hearing with Torah judicial instructions."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Connect Nicodemus’s appeal to lawful hearing with Torah judicial instructions.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Nicodemus asks whether the law judges a man before hearing him and knowing what he does. Moses’s instructions require hearing causes and judging righteously without respect of persons. John records an appeal to that hearing principle, not a verdict on the entire case.",
+        "Nicodemus’s question concerns hearing and conduct, not a hometown test.",
+        "Deuteronomy rejects respect of persons rather than allowing status to decide the case.",
+        "Neither passage instructs that every accusation bypass a hearing and go to the king."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "fb6c5ed8",
+      "approvalReceipt": "ae6c312b15484e245f3261df8daf94052efb93a5fc74ad0c23f92e73b6b9f1d9",
+      "sourceDigest": "e4b208bc941152186d2ebd27fd80bfd62949eb0a542ebd68e2160fdeabd6c3d2"
+    }
+  },
+  {
+    "id": "torah-king-under-law-humility",
+    "category": "Civil laws, judges, and righteous judgment",
+    "topic": "Judges, witnesses and procedure",
+    "difficulty": 2,
+    "q": "Which stated aim of the king’s daily law-reading in Deuteronomy 17:18–20 particularly limits his attitude toward his fellow Israelites?",
+    "options": [
+      "Learn to claim a firstborn share from each tribe, so his household receives the greater inheritance.",
+      "Learn to fear Yah and obey, so his heart is not lifted up above his brethren.",
+      "Learn to reserve the written law for the priests, so his household can govern by royal custom.",
+      "Learn to hear each local dispute himself, so his office replaces the judges within the towns."
+    ],
+    "answer": 1,
+    "correctAnswer": "Learn to fear Yah and obey, so his heart is not lifted up above his brethren.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verse": 18,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "And it shall be, when he sitteth upon the throne of his kingdom, that he shall write him a copy of this law in a book out of [that which is] before the priests the Levites: And it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the LORD his God, to keep all the words of this law and these statutes, to do them: That his heart be not lifted up above his brethren, and that he turn not aside from the commandment, [to] the right hand, or [to] the left: to the end that he may prolong [his] days in his kingdom, he, and his children, in the midst of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 17,
+        "verse": 16,
+        "endVerse": 17,
+        "translation": "KJV",
+        "excerpt": "But he shall not multiply horses to himself, nor cause the people to return to Egypt, to the end that he should multiply horses: forasmuch as the LORD hath said unto you, Ye shall henceforth return no more that way. Neither shall he multiply wives to himself, that his heart turn not away: neither shall he greatly multiply to himself silver and gold.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/"
+      }
+    ],
+    "explain": "The king must keep the law with him and read it throughout his life, learning fear and obedience so his heart is not lifted above his brethren. The adjacent limits on horses, wives, silver and gold also constrain royal self-exaltation.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "king-under-law-humility",
+      "mode": "multi-passage",
+      "learningObjective": "Explain how continual law-reading constrains royal pride and commandment departure."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "13",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Explain how continual law-reading constrains royal pride and commandment departure.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "A firstborn share of each tribe’s inheritance is not the purpose stated for his daily reading.",
+        "The king must keep the law with him and read it throughout his life, learning fear and obedience so his heart is not lifted above his brethren. The adjacent limits on horses, wives, silver and gold also constrain royal self-exaltation.",
+        "The king personally retains and reads the law, rather than leaving it solely with priests in favor of royal custom.",
+        "The stated purpose concerns his fear, obedience and humility; it does not abolish the local judges."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "4cd7eb18",
+      "approvalReceipt": "5237027f3c91b859b2a92659406a4686cd9b687ae18c56ec0f62d1c5fd750d4a",
+      "sourceDigest": "7241c9ecb114d54cc714962a226840fc8be5e3b63ac5caa6c4e0ba388c47ee2d"
+    }
+  },
+  {
+    "id": "torah-stolen-ox-disposal-distinction",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 2,
+    "q": "One stolen ox has been slaughtered; another is found alive in the thief’s possession. What restitution distinguishes these cases in Exodus 22:1 and 22:4?",
+    "options": [
+      "Four oxen for the slaughtered ox; double for the ox found alive.",
+      "Five oxen for the slaughtered ox; four for the ox found alive.",
+      "Five oxen for the slaughtered ox; double for the ox found alive.",
+      "Double for the slaughtered ox; five oxen for the ox found alive."
+    ],
+    "answer": 2,
+    "correctAnswer": "Five oxen for the slaughtered ox; double for the ox found alive.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 1,
+      "translation": "KJV",
+      "excerpt": "If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-1/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Exodus",
+        "chapter": 22,
+        "verse": 4,
+        "translation": "KJV",
+        "excerpt": "If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-22-4/"
+      }
+    ],
+    "explain": "Verse 1 requires five oxen for an ox killed or sold, but four sheep for a sheep killed or sold. Verse 4 requires double when the stolen animal is found alive in the thief’s hand. The condition changes the restitution.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "stolen-ox-disposal-distinction",
+      "mode": "multi-passage",
+      "learningObjective": "Apply different restitution rates to disposal versus live possession of stolen livestock."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Apply different restitution rates to disposal versus live possession of stolen livestock.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Four is the sheep rate in verse 1, not the ox rate.",
+        "An animal found alive is restored double, not fourfold.",
+        "Verse 1 requires five oxen for an ox killed or sold, but four sheep for a sheep killed or sold. Verse 4 requires double when the stolen animal is found alive in the thief’s hand. The condition changes the restitution.",
+        "This reverses the two stated rates."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "9b2d6ba7",
+      "approvalReceipt": "fb8c147d46fb1e0b09c7290188ac3b4f773ff9357c6ff028aeed0c298fdc7c5c",
+      "sourceDigest": "eb4b0893057c5e2758fca001f377b082de6d9e6d67ec1520bfe8878ad380a0a4"
+    }
+  },
+  {
+    "id": "torah-grazing-damage-best-produce",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A man puts his animal into another person’s field to feed. From what must he make restitution under Exodus 22:5?",
+    "options": [
+      "The poorest portion of the damaged field.",
+      "The first gleanings collected by the town’s poor.",
+      "The tithes set aside by the injured household.",
+      "The best of his own field and vineyard."
+    ],
+    "answer": 3,
+    "correctAnswer": "The best of his own field and vineyard.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "¶ If a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man’s field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "The responsible person makes restitution from the best of his own field and vineyard. The cost is not shifted to the injured neighbor, the poor, or dedicated produce from the injured household.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "grazing-damage-best-produce",
+      "mode": "explicit",
+      "learningObjective": "Identify whose produce and its quality are used to repair grazing damage."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify whose produce and its quality are used to repair grazing damage.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The damaged owner’s poorest produce is not the required source of payment.",
+        "The passage does not transfer responsibility to the poor or their gleanings.",
+        "It requires the responsible person’s best produce, not the injured household’s tithes.",
+        "The responsible person makes restitution from the best of his own field and vineyard. The cost is not shifted to the injured neighbor, the poor, or dedicated produce from the injured household."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "73c6d31e",
+      "approvalReceipt": "cd82aa798aa29aa58bcd5abfea4be49d63d246e8110f2b67ddd1442a5402a4a0",
+      "sourceDigest": "8c5df74130c0512b76d370526b081bb2bec6f12485970e575c69989226e29dd5"
+    }
+  },
+  {
+    "id": "torah-kindled-fire-restitution",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A kindled fire catches thorns and consumes another person’s standing grain. Who must make restitution in Exodus 22:6?",
+    "options": [
+      "The person who kindled the fire.",
+      "The owner of the destroyed crop.",
+      "The owner of the field where the thorns grew.",
+      "The keeper of the adjacent standing grain."
+    ],
+    "answer": 0,
+    "correctAnswer": "The person who kindled the fire.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ If fire break out, and catch in thorns, so that the stacks of corn, or the standing corn, or the field, be consumed [therewith;] he that kindled the fire shall surely make restitution.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-6/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse directly assigns restitution to the one who kindled the fire when it spreads and consumes stacked grain, standing grain, or the field. It is a responsibility rule, not a tax on the victim or witness.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "kindled-fire-restitution",
+      "mode": "explicit",
+      "learningObjective": "Assign responsibility for crop loss caused by a spreading fire."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Assign responsibility for crop loss caused by a spreading fire.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The verse directly assigns restitution to the one who kindled the fire when it spreads and consumes stacked grain, standing grain, or the field. It is a responsibility rule, not a tax on the victim or witness.",
+        "The injured crop owner is not assigned the restitution obligation.",
+        "Ownership of the field with thorns is not the liability criterion stated; kindling the fire is.",
+        "Keeping adjacent grain does not by itself identify the person who kindled the fire."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "8d71f351",
+      "approvalReceipt": "3f54a11e498c26ff6d96693481ac0674466287a51d37a63885f400252304ca2c",
+      "sourceDigest": "8a788218e35b1a38f7f53c0990212d607edbbe796ada9cfe3c81844e088b8de5"
+    }
+  },
+  {
+    "id": "torah-lost-property-unknown-owner",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "An Israelite finds a lost ox but does not know its owner. What does Deuteronomy 22:1–3 require?",
+    "options": [
+      "Use it as a pledge for a loan until the owner offers a reward.",
+      "Keep it safely at home until its owner seeks it, then restore it.",
+      "Sell it at the gate and treat the proceeds as the finder’s wages.",
+      "Give it to a nearby household and end responsibility for its return."
+    ],
+    "answer": 1,
+    "correctAnswer": "Keep it safely at home until its owner seeks it, then restore it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not see thy brother’s ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother. And if thy brother [be] not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again. In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother’s, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The animal is brought into the finder’s house and kept until the brother seeks it; it is then restored. Verse 3 extends the responsibility to other lost property. The owner’s present absence does not turn it into a finder’s possession.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "lost-property-unknown-owner",
+      "mode": "explicit",
+      "learningObjective": "Apply the duty to safeguard lost property when the owner cannot yet be located."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Apply the duty to safeguard lost property when the owner cannot yet be located.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The command gives no right to pledge it or demand a reward before restoring it.",
+        "The animal is brought into the finder’s house and kept until the brother seeks it; it is then restored. Verse 3 extends the responsibility to other lost property. The owner’s present absence does not turn it into a finder’s possession.",
+        "Sale for the finder’s wages replaces the commanded safeguarding and restoration.",
+        "Transferring it to an arbitrary household is not the stated resolution of responsibility."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "61438880",
+      "approvalReceipt": "e1cfc146703ccad3d245925005146ea14a682e6d2f093f1e78c4624795e91ecf",
+      "sourceDigest": "32379446399da7d0a05a22a66fc566c1e6ec5b7a18fa772e410277198aba1ab6"
+    }
+  },
+  {
+    "id": "torah-entrusted-beast-oath-and-evidence",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 2,
+    "q": "Which handling of entrusted livestock follows the distinctions in Exodus 22:10–13?",
+    "options": [
+      "Accept a witness’s estimate instead of the oath; charge the owner when a torn animal is shown.",
+      "Treat an unseen death as a sale; require the owner to buy the animal back from the keeper.",
+      "Use the prescribed oath for an unseen casualty; make restitution for theft; produce evidence if it was torn.",
+      "Make double restitution for each unseen casualty; excuse theft if the keeper swears that it occurred."
+    ],
+    "answer": 2,
+    "correctAnswer": "Use the prescribed oath for an unseen casualty; make restitution for theft; produce evidence if it was torn.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 10,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing [it:] [Then] shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour’s goods; and the owner of it shall accept [thereof], and he shall not make [it] good. And if it be stolen from him, he shall make restitution unto the owner thereof. If it be torn in pieces, [then] let him bring it [for] witness, [and] he shall not make good that which was torn.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "An oath that the keeper has not put his hand to the neighbor’s goods addresses the unseen death, injury or loss in verses 10–11. Theft from the keeper requires restitution in verse 12. Evidence that an animal was torn removes that restitution requirement in verse 13.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "entrusted-beast-oath-and-evidence",
+      "mode": "explicit",
+      "learningObjective": "Distinguish an unseen casualty from theft and evidence of a torn entrusted animal."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish an unseen casualty from theft and evidence of a torn entrusted animal.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "It prescribes an oath in the unseen case and says the keeper does not make good an animal proved torn.",
+        "Neither a sale nor a buyback is the specified treatment of an unseen death.",
+        "An oath that the keeper has not put his hand to the neighbor’s goods addresses the unseen death, injury or loss in verses 10–11. Theft from the keeper requires restitution in verse 12. Evidence that an animal was torn removes that restitution requirement in verse 13.",
+        "The passage does not impose double restitution for every casualty or excuse theft through that proposed oath."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "3c963d35",
+      "approvalReceipt": "97e7cdb305822972b05b4e3c9b3a17f03ee1a1d67f25c588098f4351cbb4ea94",
+      "sourceDigest": "036f2d063c608a34512e2c00692893067db2d3abc78ea9f562c70ce3062931eb"
+    }
+  },
+  {
+    "id": "torah-restitution-fifth-and-priest",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 3,
+    "q": "Which comparison preserves Leviticus 6:2–7 and Numbers 5:5–8 on admitted wrongdoing and restitution?",
+    "options": [
+      "Restore the principal to the entitled person and give the fifth to the priest; in the no-kinsman case keep the principal and offer the ram.",
+      "Give the principal and fifth to the town judges; in the no-kinsman case divide them among the witnesses instead of bringing a ram.",
+      "Offer the ram in place of returning the principal; in the no-kinsman case send the fifth to the nearest family without a priestly payment.",
+      "Restore the principal plus a fifth to the entitled person; in the stated no-kinsman case restitution goes to Yah for the priest, besides the ram."
+    ],
+    "answer": 3,
+    "correctAnswer": "Restore the principal plus a fifth to the entitled person; in the stated no-kinsman case restitution goes to Yah for the priest, besides the ram.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 6,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour; Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein: Then it shall be, because he hath sinned, and is guilty, that he shall restore that which he took violently away, or the thing which he hath deceitfully gotten, or that which was delivered him to keep, or the lost thing which he found, Or all that about which he hath sworn falsely; he shall even restore it in the principal, and shall add the fifth part more thereto, [and] give it unto him to whom it appertaineth, in the day of his trespass offering. And he shall bring his trespass offering unto the LORD, a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: And the priest shall make an atonement for him before the LORD: and it shall be forgiven him for any thing of all that he hath done in trespassing therein.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-6/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 5,
+        "verse": 5,
+        "endVerse": 8,
+        "translation": "KJV",
+        "excerpt": "¶ And the LORD spake unto Moses, saying, Speak unto the children of Israel, When a man or woman shall commit any sin that men commit, to do a trespass against the LORD, and that person be guilty; Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth [part] thereof, and give [it] unto [him] against whom he hath trespassed. But if the man have no kinsman to recompense the trespass unto, let the trespass be recompensed unto the LORD, [even] to the priest; beside the ram of the atonement, whereby an atonement shall be made for him.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-5/"
+      }
+    ],
+    "explain": "Leviticus requires restoring what belongs to the injured person with an added fifth, followed by the trespass offering. Numbers also requires confession and principal-plus-fifth restitution; when no kinsman can receive it, the recompense is to Yah, to the priest, besides the ram. The offering does not cancel restitution, and the special recipient condition is not the ordinary rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "restitution-fifth-and-priest",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate restitution to an injured party with the specified no-kinsman case and separate priestly offering."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Integrate restitution to an injured party with the specified no-kinsman case and separate priestly offering.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The fifth normally accompanies the principal to the entitled recipient; the no-kinsman rule does not permit keeping the principal.",
+        "The cited laws do not designate town judges or witnesses as substitute recipients.",
+        "The ram is additional to restitution, and Numbers names the priest in the stated no-kinsman case.",
+        "Leviticus requires restoring what belongs to the injured person with an added fifth, followed by the trespass offering. Numbers also requires confession and principal-plus-fifth restitution; when no kinsman can receive it, the recompense is to Yah, to the priest, besides the ram. The offering does not cancel restitution, and the special recipient condition is not the ordinary rule."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "10e350ae",
+      "approvalReceipt": "97c7cdce0a47c5f0d38fcd461a647a3846916a2ba3e146254f5f0c9ac457c51a",
+      "sourceDigest": "d83f1de4744f015a13e7968e1acca4e30453a1acb1d5df1be717f09a19b0abbe"
+    }
+  },
+  {
+    "id": "torah-honest-weights-and-measures",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "Which trading practice meets Deuteronomy 25:13–16’s requirement?",
+    "options": [
+      "Use a just weight and measure instead of keeping a great and a small set.",
+      "Use the greater weight when buying and the smaller one when selling.",
+      "Use separate measures according to the customer’s household standing.",
+      "Use the smaller measure for grain and explain the difference afterward."
+    ],
+    "answer": 0,
+    "correctAnswer": "Use a just weight and measure instead of keeping a great and a small set.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 13,
+      "endVerse": 16,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not have in thy bag divers weights, a great and a small. Thou shalt not have in thine house divers measures, a great and a small. [But] thou shalt have a perfect and just weight, a perfect and just measure shalt thou have: that thy days may be lengthened in the land which the LORD thy God giveth thee. For all that do such things, [and] all that do unrighteously, [are] an abomination unto the LORD thy God.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 35,
+        "endVerse": 36,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure. Just balances, just weights, a just ephah, and a just hin, shall ye have: I [am] the LORD your God, which brought you out of the land of Egypt.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+      }
+    ],
+    "explain": "The law rejects keeping unequal weights and measures and requires a perfect and just weight and measure. Leviticus 19:35–36 likewise requires just balances, weights and measures; disclosure or customer status is not the stated standard.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "honest-weights-and-measures",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize consistent, just weights and measures as a commercial obligation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize consistent, just weights and measures as a commercial obligation.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The law rejects keeping unequal weights and measures and requires a perfect and just weight and measure. Leviticus 19:35–36 likewise requires just balances, weights and measures; disclosure or customer status is not the stated standard.",
+        "A buy/sell advantage from differing weights is what the prohibition excludes.",
+        "Household standing is not a basis for substituting unequal measures.",
+        "Explaining a smaller measure afterward does not satisfy the requirement for a just measure."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "b55e7cca",
+      "approvalReceipt": "f34fed0a80ee01c54c656cfb129821832f490e0fd4f42855ca3cc66bcd724d24",
+      "sourceDigest": "4aa4fd6be1770f2e203483dcc3c6e29c12118b2b16ddb5834f85d4e20f292b09"
+    }
+  },
+  {
+    "id": "torah-borrowed-beast-owner-present",
+    "category": "Property, restitution, theft, and honesty",
+    "topic": "Property, restitution and inheritance",
+    "difficulty": 1,
+    "q": "A borrowed animal is hurt. What difference does the owner’s presence make in Exodus 22:14–15?",
+    "options": [
+      "With the owner absent the borrower pays a fifth; with the owner present he offers a ram.",
+      "With the owner absent the borrower makes it good; with the owner present he does not.",
+      "With the owner absent the borrower pays double; with the owner present he pays fourfold.",
+      "With the owner absent the borrower owes nothing; with the owner present he makes it good."
+    ],
+    "answer": 1,
+    "correctAnswer": "With the owner absent the borrower makes it good; with the owner present he does not.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 14,
+      "endVerse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ And if a man borrow [ought] of his neighbour, and it be hurt, or die, the owner thereof [being] not with it, he shall surely make [it] good. [But] if the owner thereof [be] with it, he shall not make [it] good: if it [be] an hired [thing], it came for his hire.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage distinguishes hurt or death when the owner is not with the borrowed thing from the case when the owner is with it. It then mentions hired property separately. Other restitution rates are not substituted into this specific rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "borrowed-beast-owner-present",
+      "mode": "explicit",
+      "learningObjective": "Recognize the owner-presence qualification in the law of borrowed property."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "09",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Recognize the owner-presence qualification in the law of borrowed property.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The fifth and ram belong to a different trespass-restoration setting, not these borrowing clauses.",
+        "The passage distinguishes hurt or death when the owner is not with the borrowed thing from the case when the owner is with it. It then mentions hired property separately. Other restitution rates are not substituted into this specific rule.",
+        "Double and fourfold are not the owner-presence distinction stated for borrowing.",
+        "This reverses the absent/present qualification."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "f9c46a2e",
+      "approvalReceipt": "907e7f80576866fca744f883463b79e44223ddd01b2a5114b2acc5f1c96a57dd",
+      "sourceDigest": "03455c3d90d86187bc4fbd2111ad798b77c92fdc200e8e504677538e8f360162"
+    }
+  },
+  {
+    "id": "torah-firstborn-unfavored-mother",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "A father favors one wife, but his firstborn is the other wife’s son. What must he do when assigning inheritance under Deuteronomy 21:15–17?",
+    "options": [
+      "Divide the firstborn portion between the two wives’ eldest sons.",
+      "Let the favored wife choose which son receives the firstborn share.",
+      "Recognize the actual firstborn and give him the double portion.",
+      "Give the double portion to the favored wife’s eldest son instead."
+    ],
+    "answer": 2,
+    "correctAnswer": "Recognize the actual firstborn and give him the double portion.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verse": 15,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "¶ If a man have two wives, one beloved, and another hated, and they have born him children, [both] the beloved and the hated; and [if] the firstborn son be hers that was hated: Then it shall be, when he maketh his sons to inherit [that] which he hath, [that] he may not make the son of the beloved firstborn before the son of the hated, [which is indeed] the firstborn: But he shall acknowledge the son of the hated [for] the firstborn, by giving him a double portion of all that he hath: for he [is] the beginning of his strength; the right of the firstborn [is] his.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-21/"
+    },
+    "supportingScriptures": [],
+    "explain": "The father may not make the beloved wife’s son firstborn ahead of the actual firstborn. He must acknowledge the firstborn son of the unfavored wife and give the double portion. The right is not reassigned through parental preference.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "firstborn-unfavored-mother",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the firstborn inheritance right from a father’s preference between wives."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish the firstborn inheritance right from a father’s preference between wives.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "It commands acknowledgment and a double portion to the actual firstborn, not division of that right between eldest sons.",
+        "The text assigns no such choice to the favored wife.",
+        "The father may not make the beloved wife’s son firstborn ahead of the actual firstborn. He must acknowledge the firstborn son of the unfavored wife and give the double portion. The right is not reassigned through parental preference.",
+        "The law explicitly forbids this preference-based substitution."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "a3b65121",
+      "approvalReceipt": "fe7a1d8f3104ee2c3522e56f73a3873c91f4f1cb94f79d4971b12f022ee9f20d",
+      "sourceDigest": "1fd4035327c47d88d1408b12106ec326f44f08004ed22836a003cb8cfeb7c35d"
+    }
+  },
+  {
+    "id": "torah-newlywed-year-at-home",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "What purpose accompanies the newly married man’s one-year exemption in Deuteronomy 24:5?",
+    "options": [
+      "Spend the year settling his brothers’ inheritance.",
+      "Spend the year supervising the town’s judges.",
+      "Remain at the sanctuary to train for military service.",
+      "Remain free at home and cheer his new wife."
+    ],
+    "answer": 3,
+    "correctAnswer": "Remain free at home and cheer his new wife.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 5,
+      "translation": "KJV",
+      "excerpt": "¶ When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: [but] he shall be free at home one year, and shall cheer up his wife which he hath taken.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-5/"
+    },
+    "supportingScriptures": [],
+    "explain": "The man is not to go to war or be charged with business, but is to be free at home one year and cheer his wife. The passage directly connects the exemption with the new household, rather than the other duties listed.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "newlywed-year-at-home",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated household purpose of the newly married man’s exemption."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated household purpose of the newly married man’s exemption.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The passage does not assign the year to settling a brother’s inheritance.",
+        "Judicial supervision is not the stated purpose of this exemption.",
+        "Sanctuary-based military training contradicts the stated free-at-home purpose.",
+        "The man is not to go to war or be charged with business, but is to be free at home one year and cheer his wife. The passage directly connects the exemption with the new household, rather than the other duties listed."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "20356b52",
+      "approvalReceipt": "77e3bbdf25c80e8680d492f3b95b4a60a787a55b957862430ff8cca45022cbf4",
+      "sourceDigest": "abfee4c287781c46be8dc826747bc1e11abc0f05c539eb24e1836a6863d04522"
+    }
+  },
+  {
+    "id": "torah-half-sister-kinship-boundary",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "Which description correctly preserves the sister restriction in Leviticus 18:9 and 18:11?",
+    "options": [
+      "It includes a sister who shares the father or the mother.",
+      "It concerns sisters who share both parents but excludes half-sisters.",
+      "It applies to sisters born at home but excludes those born abroad.",
+      "It applies after inheritance is divided but not before that division."
+    ],
+    "answer": 0,
+    "correctAnswer": "It includes a sister who shares the father or the mother.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verse": 6,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ None of you shall approach to any that is near of kin to him, to uncover [their] nakedness: I [am] the LORD. The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she [is] thy mother; thou shalt not uncover her nakedness. The nakedness of thy father’s wife shalt thou not uncover: it [is] thy father’s nakedness. The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, [whether she be] born at home, or born abroad, [even] their nakedness thou shalt not uncover. The nakedness of thy son’s daughter, or of thy daughter’s daughter, [even] their nakedness thou shalt not uncover: for theirs [is] thine own nakedness. The nakedness of thy father’s wife’s daughter, begotten of thy father, she [is] thy sister, thou shalt not uncover her nakedness.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-18/"
+    },
+    "supportingScriptures": [],
+    "explain": "Verse 9 names the daughter of the father or of the mother, whether born at home or abroad. Verse 11 also identifies the father’s wife’s daughter begotten of the father as a sister. The prohibition cannot be narrowed to full siblings or one birthplace.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "half-sister-kinship-boundary",
+      "mode": "explicit",
+      "learningObjective": "Identify the scope of the sister prohibition without restricting it to full siblings."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the scope of the sister prohibition without restricting it to full siblings.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Verse 9 names the daughter of the father or of the mother, whether born at home or abroad. Verse 11 also identifies the father’s wife’s daughter begotten of the father as a sister. The prohibition cannot be narrowed to full siblings or one birthplace.",
+        "The text includes a daughter of either parent, not just both.",
+        "Verse 9 expressly includes birth at home or abroad.",
+        "No inheritance-division exception is stated."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "78b4d884",
+      "approvalReceipt": "f7b11153754a1b28473f13744e8b3344ffad7094d78bc9647ee930a8f7f1dce8",
+      "sourceDigest": "0b36465c2b04724b294c568d6dd09cc361fd267b2f23029fb20e097440cf1df4"
+    }
+  },
+  {
+    "id": "torah-wife-sister-lifetime-clause",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 1,
+    "q": "Which qualification is expressly attached to taking a wife alongside her sister in Leviticus 18:18?",
+    "options": [
+      "The prohibition applies when the sisters share different fathers.",
+      "The prohibition names doing so beside the other in her lifetime.",
+      "The prohibition is limited to a sister living in another tribe.",
+      "The prohibition ends when the first wife has borne a son."
+    ],
+    "answer": 1,
+    "correctAnswer": "The prohibition names doing so beside the other in her lifetime.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; [for] they [are] her near kinswomen: it [is] wickedness. Neither shalt thou take a wife to her sister, to vex [her], to uncover her nakedness, beside the other in her life [time].",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-18/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse forbids taking a wife to her sister to vex her, beside the other in her lifetime. This tests the stated lifetime clause rather than inventing tribal, childbirth or parentage exceptions, or deciding unstated cases.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "wife-sister-lifetime-clause",
+      "mode": "explicit",
+      "learningObjective": "Keep the lifetime qualification attached to the wife-and-sister prohibition."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Keep the lifetime qualification attached to the wife-and-sister prohibition.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The text does not limit the wife-and-sister rule to the proposed parentage situation.",
+        "The verse forbids taking a wife to her sister to vex her, beside the other in her lifetime. This tests the stated lifetime clause rather than inventing tribal, childbirth or parentage exceptions, or deciding unstated cases.",
+        "The passage does not restrict this prohibition to sisters in different tribes.",
+        "A son’s birth is not named as ending the prohibition."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "52c06351",
+      "approvalReceipt": "1d42aec251bf6099f1d908bae3965d9dccef1f137ff923276315899e3ac410f9",
+      "sourceDigest": "3d67015439cf918d485ac23c720fd05eb11c4dcb7c883e33d824db176ea4bc66"
+    }
+  },
+  {
+    "id": "torah-levirate-bounded-duty",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 3,
+    "q": "Which statement preserves both Leviticus 18:16 and the particular duty in Deuteronomy 25:5–6?",
+    "options": [
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty while both brothers live if one household has no child.",
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty to an unrelated neighbor when a husband dies childless.",
+      "The brother’s-wife prohibition is stated; Deuteronomy specifies a duty where brothers dwell together and one dies childless.",
+      "The brother’s-wife prohibition is stated; Deuteronomy assigns the duty where brothers dwell together and one dies leaving a child."
+    ],
+    "answer": 2,
+    "correctAnswer": "The brother’s-wife prohibition is stated; Deuteronomy specifies a duty where brothers dwell together and one dies childless.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 5,
+      "endVerse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her. And it shall be, [that] the firstborn which she beareth shall succeed in the name of his brother [which is] dead, that his name be not put out of Israel.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 18,
+        "verse": 16,
+        "translation": "KJV",
+        "excerpt": "Thou shalt not uncover the nakedness of thy brother’s wife: it [is] thy brother’s nakedness.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-18-16/"
+      }
+    ],
+    "explain": "Leviticus prohibits uncovering the nakedness of a brother’s wife. Deuteronomy describes the particular case of brothers dwelling together, one dying without a child, and the surviving brother performing the duty so the firstborn succeeds in the deceased brother’s name. The text-specific case must not be broadened to a living brother’s wife or any unrelated neighbor.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levirate-bounded-duty",
+      "mode": "multi-passage",
+      "learningObjective": "Preserve the general brother’s-wife prohibition alongside the specified childless-widow duty."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Preserve the general brother’s-wife prohibition alongside the specified childless-widow duty.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Death of the brother is a stated condition; this is not a provision for two living brothers.",
+        "The duty is assigned to the husband’s brother in the stated situation, not any neighbor.",
+        "Leviticus prohibits uncovering the nakedness of a brother’s wife. Deuteronomy describes the particular case of brothers dwelling together, one dying without a child, and the surviving brother performing the duty so the firstborn succeeds in the deceased brother’s name. The text-specific case must not be broadened to a living brother’s wife or any unrelated neighbor.",
+        "The Deuteronomy case says the deceased has no child."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "3b097c9f",
+      "approvalReceipt": "1b8b5a77d1fb45a7fec686902f4ee3975f40d4e98061a0ef7607d89eee126b9c",
+      "sourceDigest": "8a50651685e7f47b551ee3145287e2120a10873397bb8ae46a6d1a64e3cbe738"
+    }
+  },
+  {
+    "id": "torah-levirate-refusal-elders",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "If a husband’s brother refuses the duty described in Deuteronomy 25:7–10, what procedure does the passage prescribe?",
+    "options": [
+      "The widow appeals to the elders; after his continued refusal they award her a double firstborn portion from his property.",
+      "The widow appeals to the priests; after his continued refusal they require a ram and an added fifth as restitution.",
+      "The widow appeals to the judges; after his continued refusal they order forty stripes for the household’s eldest son.",
+      "The widow appeals to the elders; after his continued refusal she removes his shoe and spits in his face before them."
+    ],
+    "answer": 3,
+    "correctAnswer": "The widow appeals to the elders; after his continued refusal she removes his shoe and spits in his face before them.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verse": 7,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "And if the man like not to take his brother’s wife, then let his brother’s wife go up to the gate unto the elders, and say, My husband’s brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband’s brother. Then the elders of his city shall call him, and speak unto him: and [if] he stand [to it], and say, I like not to take her; Then shall his brother’s wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother’s house. And his name shall be called in Israel, The house of him that hath his shoe loosed.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The widow goes to the elders at the gate; they call and speak to the man. If he persists, the shoe-removal and spitting occur before them, followed by the public description of his house. The other options borrow rules from unrelated legal settings.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "levirate-refusal-elders",
+      "mode": "explicit",
+      "learningObjective": "Identify the public refusal procedure rather than importing a different legal penalty."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Identify the public refusal procedure rather than importing a different legal penalty.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "A double firstborn portion is an inheritance rule, not this refusal procedure.",
+        "The ram and added fifth belong to trespass restitution, not the specified levirate refusal procedure.",
+        "Neither forty stripes nor punishment of a household’s eldest son is this passage’s response.",
+        "The widow goes to the elders at the gate; they call and speak to the man. If he persists, the shoe-removal and spitting occur before them, followed by the public description of his house. The other options borrow rules from unrelated legal settings."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "3669b417",
+      "approvalReceipt": "0610ac5d4111c9563302ad7b60a0345d9ae12c7f92895a3e2f33ac42ef902e8c",
+      "sourceDigest": "4a807edf10adac1adfe7489e0d9dde2cd124e52a1aaa5744f93d39c5b2f4737a"
+    }
+  },
+  {
+    "id": "torah-betrothed-servant-household-duties",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "In the maidservant-and-betrothal setting of Exodus 21:7–11, what happens if the man takes another wife and fails to provide the three things named for the woman?",
+    "options": [
+      "She goes out free without money if food, raiment and duty of marriage are not provided.",
+      "She purchases release by paying back twice the value of her original household service.",
+      "She remains until the Jubilee even if food, raiment and duty of marriage are withheld.",
+      "She is sold to a foreign household so its payment can replace the missing provisions."
+    ],
+    "answer": 0,
+    "correctAnswer": "She goes out free without money if food, raiment and duty of marriage are not provided.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 21,
+      "verse": 7,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ And if a man sell his daughter to be a maidservant, she shall not go out as the menservants do. If she please not her master, who hath betrothed her to himself, then shall he let her be redeemed: to sell her unto a strange nation he shall have no power, seeing he hath dealt deceitfully with her. And if he have betrothed her unto his son, he shall deal with her after the manner of daughters. If he take him another [wife;] her food, her raiment, and her duty of marriage, shall he not diminish. And if he do not these three unto her, then shall she go out free without money.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-21/"
+    },
+    "supportingScriptures": [],
+    "explain": "The text first locates the case in the law of a daughter sold as a maidservant and betrothed in the household. Verse 10 forbids diminishing food, raiment and duty of marriage when another wife is taken; verse 11 provides freedom without money for failure of these obligations. It does not erase the passage’s specific setting or authorize foreign resale.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "betrothed-servant-household-duties",
+      "mode": "explicit",
+      "learningObjective": "Preserve the protected woman’s specified provisions in the betrothal/household law."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Preserve the protected woman’s specified provisions in the betrothal/household law.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The text first locates the case in the law of a daughter sold as a maidservant and betrothed in the household. Verse 10 forbids diminishing food, raiment and duty of marriage when another wife is taken; verse 11 provides freedom without money for failure of these obligations. It does not erase the passage’s specific setting or authorize foreign resale.",
+        "Verse 11 expressly states release without money rather than double repayment.",
+        "This clause provides freedom for the stated failure, not a compulsory wait until Jubilee.",
+        "Verse 8 forbids sale to a strange nation in the betrayal setting, and verse 11 provides a different remedy."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "3f70fb8c",
+      "approvalReceipt": "dd59d362e29c5d3f2819587480b3fa61ef77a8e6ad5ec941bad3f870039bab46",
+      "sourceDigest": "939a5249115df7eaa94807a411149ce6a0ac7c641e3970aebd5b28a5966c839c"
+    }
+  },
+  {
+    "id": "torah-vows-household-and-widow",
+    "category": "Marriage, family, and prohibited relationships",
+    "topic": "Marriage, family and lineage",
+    "difficulty": 2,
+    "q": "What distinction do Numbers 30:3–5 and 30:9 make between a youthful daughter in her father’s house and a widow?",
+    "options": [
+      "Both vows wait for the town elders to choose whether the father or the widow will bear the obligation.",
+      "Her father can disallow the daughter’s vow on the day he hears it; the widow’s own vow stands against her.",
+      "Her father can disallow the daughter’s vow after any interval; the widow’s vow requires her father’s later consent.",
+      "The daughter’s vow stands despite same-day disallowance; the widow’s vow expires when her household changes."
+    ],
+    "answer": 1,
+    "correctAnswer": "Her father can disallow the daughter’s vow on the day he hears it; the widow’s own vow stands against her.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 30,
+      "verse": 3,
+      "endVerse": 5,
+      "translation": "KJV",
+      "excerpt": "If a woman also vow a vow unto the LORD, and bind herself by a bond, [being] in her father’s house in her youth; And her father hear her vow, and her bond wherewith she hath bound her soul, and her father shall hold his peace at her: then all her vows shall stand, and every bond wherewith she hath bound her soul shall stand. But if her father disallow her in the day that he heareth; not any of her vows, or of her bonds wherewith she hath bound her soul, shall stand: and the LORD shall forgive her, because her father disallowed her.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-30/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Numbers",
+        "chapter": 30,
+        "verse": 9,
+        "translation": "KJV",
+        "excerpt": "But every vow of a widow, and of her that is divorced, wherewith they have bound their souls, shall stand against her.",
+        "url": "https://www.kingjamesbibleonline.org/Numbers-30-9/"
+      }
+    ],
+    "explain": "The daughter’s case has explicit youth, household and timing conditions: the father disallows on the day he hears. Verse 9 separately says the vow of a widow or divorced woman stands against her. The rules should not be flattened into an unlimited paternal power over every woman’s vow.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "vows-household-and-widow",
+      "mode": "multi-passage",
+      "learningObjective": "Compare a youthful daughter’s vow under timely parental disallowance with a widow’s binding vow."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "07",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Compare a youthful daughter’s vow under timely parental disallowance with a widow’s binding vow.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "These clauses do not require elders to assign the obligation.",
+        "The daughter’s case has explicit youth, household and timing conditions: the father disallows on the day he hears. Verse 9 separately says the vow of a widow or divorced woman stands against her. The rules should not be flattened into an unlimited paternal power over every woman’s vow.",
+        "The stated paternal timing is the day he hears, and verse 9 does not require a widow’s paternal consent.",
+        "Same-day disallowance is effective in the specified daughter’s case; verse 9 does not give the proposed automatic expiry."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "070a49ff",
+      "approvalReceipt": "92ba385b994b3397e7cd6d6885712e0214fa0d2c070472a066fe527077e04ee2",
+      "sourceDigest": "9a384e81548f8a1a76a298a4fc988e76ad9ceb617e893028c31a26ac79fe40b8"
+    }
+  },
+  {
+    "id": "torah-poor-loan-without-usury",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "For a loan to a poor person among Yah’s people in Exodus 22:25, what treatment is forbidden?",
+    "options": [
+      "Recognizing that the borrower remains one of Yah’s people.",
+      "Providing the loan to meet the borrower’s actual need.",
+      "Acting as an usurer and laying usury upon him.",
+      "Accepting repayment of the amount originally lent."
+    ],
+    "answer": 2,
+    "correctAnswer": "Acting as an usurer and laying usury upon him.",
+    "scripture": {
+      "book": "Exodus",
+      "chapter": 22,
+      "verse": 25,
+      "translation": "KJV",
+      "excerpt": "¶ If thou lend money to [any of] my people [that is] poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury.",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-22-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command explicitly forbids acting as an usurer toward the poor borrower and laying usury on him. It does not say that lending itself is forbidden or that the borrower ceases to belong to the people.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-loan-without-usury",
+      "mode": "explicit",
+      "learningObjective": "Identify the duty toward a poor borrower among Yah’s people."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the duty toward a poor borrower among Yah’s people.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Membership among Yah’s people is part of the described case, not the forbidden treatment.",
+        "Meeting need is not the prohibited act; the prohibition concerns usury.",
+        "The command explicitly forbids acting as an usurer toward the poor borrower and laying usury on him. It does not say that lending itself is forbidden or that the borrower ceases to belong to the people.",
+        "The verse prohibits usury, not repayment of the principal as such."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "e2145409",
+      "approvalReceipt": "33a597ada51add0d1aaea5c79697a7b24b1ec50852104b887a4003cdaed72519",
+      "sourceDigest": "81e22275a8aefe253caf0ea799618d0ef7317ae556534874c4acbcf7aba9ef52"
+    }
+  },
+  {
+    "id": "torah-interest-brother-stranger-distinction",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "Which distinction is explicitly made in Deuteronomy 23:19–20 concerning lending on usury?",
+    "options": [
+      "Usury is permitted toward a brother and forbidden toward a stranger in the stated law.",
+      "Usury is forbidden for money but permitted for food lent to a brother in the stated law.",
+      "Usury is permitted for money but forbidden for food lent to a brother in the stated law.",
+      "Usury is forbidden toward a brother and permitted toward a stranger in the stated law."
+    ],
+    "answer": 3,
+    "correctAnswer": "Usury is forbidden toward a brother and permitted toward a stranger in the stated law.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 19,
+      "endVerse": 20,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not lend upon usury to thy brother; usury of money, usury of victuals, usury of any thing that is lent upon usury: Unto a stranger thou mayest lend upon usury; but unto thy brother thou shalt not lend upon usury: that the LORD thy God may bless thee in all that thou settest thine hand to in the land whither thou goest to possess it.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "Verse 19 forbids usury of money, food or anything lent on usury to a brother; verse 20 permits it toward a stranger. This tests the named distinction as written, without assigning modern racial identities or using it to cancel the poor-person protections elsewhere.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "interest-brother-stranger-distinction",
+      "mode": "explicit",
+      "learningObjective": "Record the passage’s named borrower distinction without inventing modern identities."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Record the passage’s named borrower distinction without inventing modern identities.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "This reverses the stated brother/stranger distinction.",
+        "The prohibition toward a brother explicitly includes food as well as money.",
+        "The prohibition toward a brother explicitly includes money as well as food.",
+        "Verse 19 forbids usury of money, food or anything lent on usury to a brother; verse 20 permits it toward a stranger. This tests the named distinction as written, without assigning modern racial identities or using it to cancel the poor-person protections elsewhere."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "bd9f2b3e",
+      "approvalReceipt": "0f4a8c5bbfa3b28c055dd407e168d157a6afe393783fb7547811c91a5743f9ba",
+      "sourceDigest": "0d7725fdc6ce61a01cc9aa24579ae28fe173e32a3938e0171e93e63b1952af39"
+    }
+  },
+  {
+    "id": "torah-pledge-livelihood-and-dignity",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 3,
+    "q": "A lender proposes entering a poor brother’s home, taking his millstone, and keeping his sleeping garment overnight. Which response follows Deuteronomy 24:6, 10–13?",
+    "options": [
+      "Do not take the millstone; wait outside for the pledge; return the garment at sunset.",
+      "Take the millstone if the garment is returned; enter the house if the borrower is poor.",
+      "Leave the millstone but enter for the garment; retain it until the whole debt is repaid.",
+      "Take the millstone as security; wait outside for the garment; return it after seven days."
+    ],
+    "answer": 0,
+    "correctAnswer": "Do not take the millstone; wait outside for the pledge; return the garment at sunset.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 6,
+      "translation": "KJV",
+      "excerpt": "¶ No man shall take the nether or the upper millstone to pledge: for he taketh [a man’s] life to pledge.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-24-6/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 24,
+        "verse": 10,
+        "endVerse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ When thou dost lend thy brother any thing, thou shalt not go into his house to fetch his pledge. Thou shalt stand abroad, and the man to whom thou dost lend shall bring out the pledge abroad unto thee. And if the man [be] poor, thou shalt not sleep with his pledge: In any case thou shalt deliver him the pledge again when the sun goeth down, that he may sleep in his own raiment, and bless thee: and it shall be righteousness unto thee before the LORD thy God.",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+      }
+    ],
+    "explain": "The millstone cannot be pledged because it takes a man’s life to pledge. The lender must remain outside while the borrower brings a pledge out. A poor man’s covering is returned at sunset so he can sleep in it. Meeting one condition does not cancel the others.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 5,
+      "editorialDifficulty": 7,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "pledge-livelihood-and-dignity",
+      "mode": "multi-passage",
+      "learningObjective": "Apply livelihood, household privacy and overnight garment protections together."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 7,
+      "learningObjective": "Apply livelihood, household privacy and overnight garment protections together.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The millstone cannot be pledged because it takes a man’s life to pledge. The lender must remain outside while the borrower brings a pledge out. A poor man’s covering is returned at sunset so he can sleep in it. Meeting one condition does not cancel the others.",
+        "Returning a garment does not authorize taking a millstone or entering the borrower’s home.",
+        "Leaving the millstone is correct but entering and retaining the poor man’s covering overnight are not.",
+        "The millstone remains prohibited and the garment deadline is sunset, not seven days."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "6a63c2d3",
+      "approvalReceipt": "0122059394fe4ee3eef81efc35ea3310135be4bc1a1ac468059d818d6ffdfef1",
+      "sourceDigest": "2f4e7f57baed3716b68ffe94d9fcb661bbe3db2021efaf4a1880f735c01dbf1f"
+    }
+  },
+  {
+    "id": "torah-poor-worker-same-day-pay",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "A poor hired worker is a stranger within an Israelite town’s gates. What do Deuteronomy 24:14–15 require of the employer?",
+    "options": [
+      "Pay him after his first year because resident strangers serve a longer waiting period.",
+      "Pay his hire on his day, before sunset, because the protection includes such strangers.",
+      "Pay him at the next new moon because the daily rule concerns Israelite workers.",
+      "Pay him after the harvest is sold because a stranger’s wages are secured by the crop."
+    ],
+    "answer": 1,
+    "correctAnswer": "Pay his hire on his day, before sunset, because the protection includes such strangers.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 14,
+      "endVerse": 15,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not oppress an hired servant [that is] poor and needy, [whether he be] of thy brethren, or of thy strangers that [are] in thy land within thy gates: At his day thou shalt give [him] his hire, neither shall the sun go down upon it; for he [is] poor, and setteth his heart upon it: lest he cry against thee unto the LORD, and it be sin unto thee.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 13,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not defraud thy neighbour, neither rob [him:] the wages of him that is hired shall not abide with thee all night until the morning.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-13/"
+      }
+    ],
+    "explain": "The law expressly includes poor and needy hired servants of the brethren or strangers within the gates. Hire is paid on the worker’s day without the sun setting upon it, because he is poor and depends on it. Leviticus 19:13 also forbids holding wages overnight.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "poor-worker-same-day-pay",
+      "mode": "multi-passage",
+      "learningObjective": "Apply the wage deadline to both Israelite and resident stranger workers in the stated poor-worker case."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Apply the wage deadline to both Israelite and resident stranger workers in the stated poor-worker case.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "No first-year waiting period is assigned to these workers.",
+        "The law expressly includes poor and needy hired servants of the brethren or strangers within the gates. Hire is paid on the worker’s day without the sun setting upon it, because he is poor and depends on it. Leviticus 19:13 also forbids holding wages overnight.",
+        "The passage includes the stranger and gives a daily deadline, not the next new moon.",
+        "A crop-sale condition is not an exception to this wage deadline."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "a0ae7db5",
+      "approvalReceipt": "e8bd7e4023f80c9a64a802d93bc66ecf81c9e540568110b78e1d61fcb50ee19d",
+      "sourceDigest": "d2cb234cab3a25c0bb991b5a8aaf7387856a03db58b9d7d9235166eb4643c45d"
+    }
+  },
+  {
+    "id": "torah-seventh-year-creditor-release",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "Which statement preserves the creditor instruction in Deuteronomy 15:1–3?",
+    "options": [
+      "At the seven-year release, cancel the debt if a brother first pays an added fifth to the creditor.",
+      "At the seven-year release, transfer the brother’s debt to his nearest kinsman for collection.",
+      "At the seven-year release, do not exact the loan from a brother; the passage distinguishes a foreigner.",
+      "At the seven-year release, exact the loan from a brother; the passage releases a foreigner instead."
+    ],
+    "answer": 2,
+    "correctAnswer": "At the seven-year release, do not exact the loan from a brother; the passage distinguishes a foreigner.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verse": 1,
+      "endVerse": 3,
+      "translation": "KJV",
+      "excerpt": "At the end of [every] seven years thou shalt make a release. And this [is] the manner of the release: Every creditor that lendeth [ought] unto his neighbour shall release [it;] he shall not exact [it] of his neighbour, or of his brother; because it is called the LORD’s release. Of a foreigner thou mayest exact [it again:] but [that] which is thine with thy brother thine hand shall release;",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+    },
+    "supportingScriptures": [],
+    "explain": "The release is proclaimed at the end of every seven years. The creditor must not exact what is lent to a neighbor or brother, while verse 3 explicitly distinguishes collection from a foreigner. The question stays with that wording rather than settling later disputes about every form of debt.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "seventh-year-creditor-release",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the year-of-release creditor rule from a universal erasure of every obligation."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish the year-of-release creditor rule from a universal erasure of every obligation.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "An added-fifth prerequisite is not stated in this release law.",
+        "The text directs release of the brother’s obligation rather than transfer to a collecting kinsman.",
+        "The release is proclaimed at the end of every seven years. The creditor must not exact what is lent to a neighbor or brother, while verse 3 explicitly distinguishes collection from a foreigner. The question stays with that wording rather than settling later disputes about every form of debt.",
+        "This reverses the stated brother/foreigner distinction."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "69d4e3e6",
+      "approvalReceipt": "e12f5915c965f514b3bc07bf4467470fbcb0dc1180b4df88d04e7bf2daedb0b0",
+      "sourceDigest": "42ab58e3e5831c8761fd4098c1d2c77b065e36bc42deec33d7f6bd5dfdae960c"
+    }
+  },
+  {
+    "id": "torah-release-near-open-hand",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 2,
+    "q": "A creditor refuses help to a needy brother because the year of release is near. How does Deuteronomy 15:7–11 assess that reasoning?",
+    "options": [
+      "It permits refusal during the final year so long as the creditor explains the release rule.",
+      "It permits refusal if the brother has not first offered to postpone the year of release.",
+      "It requires the creditor to wait until after the release before responding to the need.",
+      "It warns against that thought and commands an open hand sufficient for the brother’s need."
+    ],
+    "answer": 3,
+    "correctAnswer": "It warns against that thought and commands an open hand sufficient for the brother’s need.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verse": 7,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "¶ If there be among you a poor man of one of thy brethren within any of thy gates in thy land which the LORD thy God giveth thee, thou shalt not harden thine heart, nor shut thine hand from thy poor brother: But thou shalt open thine hand wide unto him, and shalt surely lend him sufficient for his need, [in that] which he wanteth. Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou givest him nought; and he cry unto the LORD against thee, and it be sin unto thee. Thou shalt surely give him, and thine heart shall not be grieved when thou givest unto him: because that for this thing the LORD thy God shall bless thee in all thy works, and in all that thou puttest thine hand unto. For the poor shall never cease out of the land: therefore I command thee, saying, Thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy, in thy land.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 15,
+        "verse": 1,
+        "endVerse": 3,
+        "translation": "KJV",
+        "excerpt": "At the end of [every] seven years thou shalt make a release. And this [is] the manner of the release: Every creditor that lendeth [ought] unto his neighbour shall release [it;] he shall not exact [it] of his neighbour, or of his brother; because it is called the LORD’s release. Of a foreigner thou mayest exact [it again:] but [that] which is thine with thy brother thine hand shall release;",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-15/"
+      }
+    ],
+    "explain": "The text directly warns against a wicked thought about the approaching seventh year producing an evil eye and no help. It requires generous aid sufficient for need rather than using the release as a pretext to close the hand.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "release-near-open-hand",
+      "mode": "multi-passage",
+      "learningObjective": "Prevent the approaching release from becoming a reason to refuse a needy brother."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Prevent the approaching release from becoming a reason to refuse a needy brother.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Explaining the release does not authorize the refusal the passage condemns.",
+        "The law does not make the poor brother’s postponement of release a condition of help.",
+        "Waiting for the release to pass substitutes a delay for the commanded response to present need.",
+        "The text directly warns against a wicked thought about the approaching seventh year producing an evil eye and no help. It requires generous aid sufficient for need rather than using the release as a pretext to close the hand."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "0cce161a",
+      "approvalReceipt": "315cf6070405051a257ca226e584d35d33b7c5ccda7ba4a85318b61b0a392a61",
+      "sourceDigest": "b9cae84861b89a17fa48c29f22da4316a5e173a826be76c405d29515db4d2823"
+    }
+  },
+  {
+    "id": "torah-fallen-brother-sustenance-not-profit",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "An Israelite brother has become poor and fallen into difficulty. Which purpose governs the support described in Leviticus 25:35–37?",
+    "options": [
+      "Relieve him so he may live alongside them, without usury or food lent for increase.",
+      "Relieve him by charging extra food to build up his lender’s household provision.",
+      "Relieve him after he sells his household’s land permanently to the supporting family.",
+      "Relieve him after he undertakes to serve as a witness in the lender’s disputes."
+    ],
+    "answer": 0,
+    "correctAnswer": "Relieve him so he may live alongside them, without usury or food lent for increase.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 35,
+      "endVerse": 38,
+      "translation": "KJV",
+      "excerpt": "¶ And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: [yea, though he be] a stranger, or a sojourner; that he may live with thee. Take thou no usury of him, or increase: but fear thy God; that thy brother may live with thee. Thou shalt not give him thy money upon usury, nor lend him thy victuals for increase. I [am] the LORD your God, which brought you forth out of the land of Egypt, to give you the land of Canaan, [and] to be your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The repeated stated purpose is that the poor brother may live with them. Support is paired with fear of God and prohibitions on usury and lending food for increase. The text does not attach the proposed profit, permanent-sale or witness conditions.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "fallen-brother-sustenance-not-profit",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated purpose of support without usury or food increase."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Explain the stated purpose of support without usury or food increase.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The repeated stated purpose is that the poor brother may live with them. Support is paired with fear of God and prohibitions on usury and lending food for increase. The text does not attach the proposed profit, permanent-sale or witness conditions.",
+        "Food lent for increase is expressly prohibited here.",
+        "A permanent land sale is not a condition of relief; the chapter also limits permanent alienation.",
+        "A promise to act as the lender’s witness is not the requirement stated for relief."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "e240554b",
+      "approvalReceipt": "b656d518fb024706cb45dac1c46a153f1ef0d7993d914a32b7ac750a1c78c973",
+      "sourceDigest": "7357948e190d266dbb3ed5095852012eb79a1ff58623af63c3a8deac194fd90a"
+    }
+  },
+  {
+    "id": "torah-widow-pledge-redemption-memory",
+    "category": "Lending, debt, wages, and treatment of the poor",
+    "topic": "Economic justice",
+    "difficulty": 1,
+    "q": "What remembered experience accompanies the ban on taking a widow’s raiment as pledge in Deuteronomy 24:17–18?",
+    "options": [
+      "Israel’s appointment of a king from the tribe of Benjamin.",
+      "Israel’s bondage in Egypt and Yah’s redemption from there.",
+      "Israel’s demand for a king like the surrounding nations.",
+      "Israel’s division into northern and southern kingdoms."
+    ],
+    "answer": 1,
+    "correctAnswer": "Israel’s bondage in Egypt and Yah’s redemption from there.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not pervert the judgment of the stranger, [nor] of the fatherless; nor take a widow’s raiment to pledge: But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-24/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command also forbids perverting the judgment of stranger and fatherless. Its stated reminder is Israel’s former bondage and Yah’s redemption from Egypt, connecting present duties to remembered deliverance rather than the later events offered as alternatives.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "widow-pledge-redemption-memory",
+      "mode": "explicit",
+      "learningObjective": "Connect the protection of vulnerable people with Israel’s remembered redemption."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "10",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Connect the protection of vulnerable people with Israel’s remembered redemption.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Benjaminite kingship is not the experience named in verses 17–18.",
+        "The command also forbids perverting the judgment of stranger and fatherless. Its stated reminder is Israel’s former bondage and Yah’s redemption from Egypt, connecting present duties to remembered deliverance rather than the later events offered as alternatives.",
+        "The request for kingship is not the remembered experience given in this law.",
+        "The divided kingdoms are not the stated reason and belong to a later setting."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "bf3c2dfc",
+      "approvalReceipt": "acdf73feaae4cb2fc6372506edc43097b2285dfe6bb876b7f4f4ebce94478c44",
+      "sourceDigest": "4e159d49b4b693de8edb3367208ecbbe63d5a5a3725eca3c995c145a68fc1481"
+    }
+  },
+  {
+    "id": "torah-harvest-corners-poor-stranger",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 1,
+    "q": "Why must harvest corners and vineyard gleanings be left in Leviticus 19:9–10?",
+    "options": [
+      "They replace the priest’s portion of each trespass offering.",
+      "They are retained to repay the landowner’s private creditors.",
+      "They are left for the poor and the stranger.",
+      "They are reserved for the landowner’s eldest son."
+    ],
+    "answer": 2,
+    "correctAnswer": "They are left for the poor and the stranger.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 9,
+      "endVerse": 10,
+      "translation": "KJV",
+      "excerpt": "¶ And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleanings of thy harvest. And thou shalt not glean thy vineyard, neither shalt thou gather [every] grape of thy vineyard; thou shalt leave them for the poor and stranger: I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The harvest must not be stripped completely; the text names the poor and stranger as those for whom the produce is left. This is a planned harvest provision, distinct from the separately stated forgotten-sheaf case in Deuteronomy 24:19.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "harvest-corners-poor-stranger",
+      "mode": "explicit",
+      "learningObjective": "Identify the intended beneficiaries of harvest corners and gleanings."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the intended beneficiaries of harvest corners and gleanings.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Harvest gleanings are not a substitute for the specified trespass-offering procedure.",
+        "Private creditors are not the designated beneficiaries of this provision.",
+        "The harvest must not be stripped completely; the text names the poor and stranger as those for whom the produce is left. This is a planned harvest provision, distinct from the separately stated forgotten-sheaf case in Deuteronomy 24:19.",
+        "The instruction names poor and stranger, not an eldest-son reservation."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "b0336b0d",
+      "approvalReceipt": "5846fe92757a829eb44d1de810156cfe197c9b34b379b46bb949594f50a5272f",
+      "sourceDigest": "cfa66474ea1b3fce126a129056a7c6ac20581b3458dcb64bfb8190272cab65fa"
+    }
+  },
+  {
+    "id": "torah-neighbor-produce-hand-not-harvest",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Which use of a neighbor’s vineyard and standing grain fits Deuteronomy 23:24–25?",
+    "options": [
+      "Fill a vessel with grapes; pluck grain by hand without using a sickle.",
+      "Eat grapes without filling a vessel; cut the standing grain with a sickle.",
+      "Fill a vessel with grapes; cut grain with a sickle if part is left behind.",
+      "Eat grapes without filling a vessel; pluck grain by hand without using a sickle."
+    ],
+    "answer": 3,
+    "correctAnswer": "Eat grapes without filling a vessel; pluck grain by hand without using a sickle.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verse": 24,
+      "endVerse": 25,
+      "translation": "KJV",
+      "excerpt": "¶ When thou comest into thy neighbour’s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put [any] in thy vessel. When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour’s standing corn.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-23/"
+    },
+    "supportingScriptures": [],
+    "explain": "The two clauses allow eating grapes to satisfaction but prohibit putting them in a vessel; they allow hand-plucked ears but prohibit moving a sickle into the neighbor’s crop. Personal eating is not a license for carrying off or harvesting the crop.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "neighbor-produce-hand-not-harvest",
+      "mode": "explicit",
+      "learningObjective": "Distinguish limited eating in a neighbor’s crop from taking away or harvesting it."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish limited eating in a neighbor’s crop from taking away or harvesting it.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The vessel of grapes is expressly prohibited even though hand-plucking grain is allowed.",
+        "The sickle is expressly prohibited even though eating grapes is allowed.",
+        "Neither filling a vessel nor taking a sickle is made permissible by leaving some produce.",
+        "The two clauses allow eating grapes to satisfaction but prohibit putting them in a vessel; they allow hand-plucked ears but prohibit moving a sickle into the neighbor’s crop. Personal eating is not a license for carrying off or harvesting the crop."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "746dd207",
+      "approvalReceipt": "078e794d279b50809090d729b5039f0e6226a6d0c3d0b277724ec4e2d2ecae0d",
+      "sourceDigest": "155fc270f844d1d182de5cc6e591f0bc04995daf46f212c0a686dbc66c3cd0e2"
+    }
+  },
+  {
+    "id": "torah-land-sabbath-food-and-rest",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Which statement preserves both the restrictions and provision in Leviticus 25:2–7’s seventh-year land Sabbath?",
+    "options": [
+      "Do not sow or prune; the land’s Sabbath produce is food for the named household, strangers and animals.",
+      "Sow but do not prune; reserve the land’s Sabbath produce for the landowner’s family apart from strangers.",
+      "Do not sow but continue pruning; reserve the produce for hired servants apart from household members.",
+      "Sow and prune for the poor; reserve the land’s Sabbath produce for people apart from cattle and beasts."
+    ],
+    "answer": 0,
+    "correctAnswer": "Do not sow or prune; the land’s Sabbath produce is food for the named household, strangers and animals.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 2,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD. Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof; But in the seventh year shall be a sabbath of rest unto the land, a sabbath for the LORD: thou shalt neither sow thy field, nor prune thy vineyard. That which groweth of its own accord of thy harvest thou shalt not reap, neither gather the grapes of thy vine undressed: [for] it is a year of rest unto the land. And the sabbath of the land shall be meat for you; for thee, and for thy servant, and for thy maid, and for thy hired servant, and for thy stranger that sojourneth with thee, And for thy cattle, and for the beast that [are] in thy land, shall all the increase thereof be meat.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The chapter forbids sowing and pruning in the seventh year and also describes the land’s Sabbath yield as food for the owner, servants, hired servant, resident stranger, cattle and beasts. This does not erase the separate restrictions on reaping self-grown harvest or gathering undressed vines in verse 5.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "land-sabbath-food-and-rest",
+      "mode": "explicit",
+      "learningObjective": "Keep land-rest restrictions together with the named food beneficiaries."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Keep land-rest restrictions together with the named food beneficiaries.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The chapter forbids sowing and pruning in the seventh year and also describes the land’s Sabbath yield as food for the owner, servants, hired servant, resident stranger, cattle and beasts. This does not erase the separate restrictions on reaping self-grown harvest or gathering undressed vines in verse 5.",
+        "Sowing is prohibited and the food provision names the resident stranger.",
+        "Pruning is prohibited and the beneficiaries include more than hired servants.",
+        "The food provision names cattle and beasts, while sowing and pruning remain prohibited."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "a8010920",
+      "approvalReceipt": "8ffca212301eca59bac45c12fc00c54be3d5897cef70fd4a0a40caeeb2bafa1a",
+      "sourceDigest": "c6a24059ff865c50673ed43f686adda85d36a19e21abb4fa9ce9481c36d290ea"
+    }
+  },
+  {
+    "id": "torah-jubilee-count-and-return",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 1,
+    "q": "After counting seven sabbaths of years in Leviticus 25:8–13, which year is hallowed for Jubilee liberty and return?",
+    "options": [
+      "The eighth year, with return to possession and family.",
+      "The fiftieth year, with return to possession and family.",
+      "The forty-ninth year, with return to possession and family.",
+      "The seventh year, with return to possession and family."
+    ],
+    "answer": 1,
+    "correctAnswer": "The fiftieth year, with return to possession and family.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 8,
+      "endVerse": 13,
+      "translation": "KJV",
+      "excerpt": "¶ And thou shalt number seven sabbaths of years unto thee, seven times seven years; and the space of the seven sabbaths of years shall be unto thee forty and nine years. Then shalt thou cause the trumpet of the jubile to sound on the tenth [day] of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land. And ye shall hallow the fiftieth year, and proclaim liberty throughout [all] the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family. A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather [the grapes] in it of thy vine undressed. For it [is] the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field. In the year of this jubile ye shall return every man unto his possession.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "Seven times seven makes forty-nine years, but the next instruction explicitly hallows the fiftieth year, proclaiming liberty and return to possession and family. The count and the named Jubilee year should not be collapsed into one number.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "jubilee-count-and-return",
+      "mode": "explicit",
+      "learningObjective": "Distinguish the seven-times-seven count from the proclaimed Jubilee year."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish the seven-times-seven count from the proclaimed Jubilee year.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The eighth year is not the named Jubilee year.",
+        "Seven times seven makes forty-nine years, but the next instruction explicitly hallows the fiftieth year, proclaiming liberty and return to possession and family. The count and the named Jubilee year should not be collapsed into one number.",
+        "Forty-nine is the counted period in verse 8, while verse 10 hallows the fiftieth year.",
+        "The seventh-year land Sabbath is related but is not the year named here for Jubilee."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "133eccd6",
+      "approvalReceipt": "54979bb645620a934d97d26924c94d6f72a9e6636eb2a37e6c69d17482b2e865",
+      "sourceDigest": "c88954cf971717b9f51f9f641e1578bfa4a9e9b838280b8786f3b12164a3ae54"
+    }
+  },
+  {
+    "id": "torah-jubilee-price-crop-years",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "Two otherwise comparable land sales have different numbers of crop-years remaining until Jubilee. What pricing rule follows Leviticus 25:14–17?",
+    "options": [
+      "Keep the price identical because the purchaser obtains permanent ownership.",
+      "Set the price by the buyer’s standing rather than the number of crop-years.",
+      "Increase the price for more crop-years and reduce it for fewer crop-years.",
+      "Reduce the price for more crop-years and increase it for fewer crop-years."
+    ],
+    "answer": 2,
+    "correctAnswer": "Increase the price for more crop-years and reduce it for fewer crop-years.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 14,
+      "endVerse": 17,
+      "translation": "KJV",
+      "excerpt": "And if thou sell ought unto thy neighbour, or buyest [ought] of thy neighbour’s hand, ye shall not oppress one another: According to the number of years after the jubile thou shalt buy of thy neighbour, [and] according unto the number of years of the fruits he shall sell unto thee: According to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for [according] to the number [of the years] of the fruits doth he sell unto thee. Ye shall not therefore oppress one another; but thou shalt fear thy God: for I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The transaction is valued according to the number of years of the fruits: more years increase the price, fewer diminish it. The command also forbids oppression. The law’s basis is the productive period, not a permanent transfer or social rank.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "jubilee-price-crop-years",
+      "mode": "explicit",
+      "learningObjective": "Apply remaining crop-years rather than permanent ownership when pricing the stated land sale."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Apply remaining crop-years rather than permanent ownership when pricing the stated land sale.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The chapter does not describe this transaction as permanent alienation of the land.",
+        "The stated basis is years of fruits, not the purchaser’s standing.",
+        "The transaction is valued according to the number of years of the fruits: more years increase the price, fewer diminish it. The command also forbids oppression. The law’s basis is the productive period, not a permanent transfer or social rank.",
+        "This reverses the stated relationship between crop-years and price."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "931a5cc9",
+      "approvalReceipt": "1afe1aa238eb8dea7fbe1eaee341e199f6a784ed9ed7b694e1aac02a8a3fa4ba",
+      "sourceDigest": "665ca37bb10391e9905c9b6676b88a236b504a2a4faaf0f4524e92bee55f11a9"
+    }
+  },
+  {
+    "id": "torah-land-redemption-and-jubilee",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "A poor Israelite sells part of his possession and cannot later redeem it. What follows under Leviticus 25:23–28?",
+    "options": [
+      "It remains with the buyer permanently because the seller could not redeem it.",
+      "It returns after one year because land follows the ordinary walled-city house rule.",
+      "It becomes the town judges’ possession because neither household has priority.",
+      "It remains with the buyer until Jubilee, when he returns to his possession."
+    ],
+    "answer": 3,
+    "correctAnswer": "It remains with the buyer until Jubilee, when he returns to his possession.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 23,
+      "endVerse": 28,
+      "translation": "KJV",
+      "excerpt": "¶ The land shall not be sold for ever: for the land [is] mine; for ye [are] strangers and sojourners with me. And in all the land of your possession ye shall grant a redemption for the land. ¶ If thy brother be waxen poor, and hath sold away [some] of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold. And if the man have none to redeem it, and himself be able to redeem it; Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession. But if he be not able to restore [it] to him, then that which is sold shall remain in the hand of him that hath bought it until the year of jubile: and in the jubile it shall go out, and he shall return unto his possession.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [],
+    "explain": "The land is Yah’s and is not sold for ever. A kinsman or the restored seller may redeem it under the stated provisions; if the seller cannot restore the required amount, the buyer holds it until Jubilee and the seller returns to his possession. The one-year rule is for a different house category.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "land-redemption-and-jubilee",
+      "mode": "explicit",
+      "learningObjective": "Distinguish redemption before Jubilee from the return when redemption is not possible."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Distinguish redemption before Jubilee from the return when redemption is not possible.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Permanent alienation contradicts verses 23 and 28.",
+        "The full-year rule of verses 29–30 does not replace the field-possession rule in verses 23–28.",
+        "The passage does not transfer the land to town judges.",
+        "The land is Yah’s and is not sold for ever. A kinsman or the restored seller may redeem it under the stated provisions; if the seller cannot restore the required amount, the buyer holds it until Jubilee and the seller returns to his possession. The one-year rule is for a different house category."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "980f07ec",
+      "approvalReceipt": "fa9f29d9668d8aa597e7407c0a50f9b72b55f91e2b855508955545af785e1900",
+      "sourceDigest": "b2ff35840165cbdea3c677477b505d60f3e8b7e7ed1ad034a8cadacd1d4c862b"
+    }
+  },
+  {
+    "id": "torah-house-redemption-levite-exception",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 3,
+    "q": "An ordinary non-Levite walled-city house remains unredeemed after a full year. How does its Jubilee status compare with an unwalled-village house and a house of a Levite city’s possession in Leviticus 25:29–34?",
+    "options": [
+      "The ordinary walled-city house stays with its buyer; the village house and the Levite house go out in Jubilee.",
+      "The ordinary walled-city house and village house stay with their buyers; the Levite house goes out in Jubilee.",
+      "The ordinary walled-city house and Levite house stay with their buyers; the village house goes out in Jubilee.",
+      "The ordinary walled-city house goes out in Jubilee; the village house and the Levite house stay with their buyers."
+    ],
+    "answer": 0,
+    "correctAnswer": "The ordinary walled-city house stays with its buyer; the village house and the Levite house go out in Jubilee.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verse": 29,
+      "endVerse": 31,
+      "translation": "KJV",
+      "excerpt": "And if a man sell a dwelling house in a walled city, then he may redeem it within a whole year after it is sold; [within] a full year may he redeem it. And if it be not redeemed within the space of a full year, then the house that [is] in the walled city shall be established for ever to him that bought it throughout his generations: it shall not go out in the jubile. But the houses of the villages which have no wall round about them shall be counted as the fields of the country: they may be redeemed, and they shall go out in the jubile.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 25,
+        "verse": 32,
+        "endVerse": 34,
+        "translation": "KJV",
+        "excerpt": "Notwithstanding the cities of the Levites, [and] the houses of the cities of their possession, may the Levites redeem at any time. And if a man purchase of the Levites, then the house that was sold, and the city of his possession, shall go out in [the year of] jubile: for the houses of the cities of the Levites [are] their possession among the children of Israel. But the field of the suburbs of their cities may not be sold; for it [is] their perpetual possession.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-25/"
+      }
+    ],
+    "explain": "Verses 29–30 give an ordinary walled-city dwelling a full-year redemption period and no Jubilee release afterward. Verse 31 treats unwalled village houses like fields, with redemption and Jubilee release. Verses 32–33 expressly preserve Levite redemption rights and Jubilee release for houses in their possession cities. Verse 34 separately protects their suburban fields from sale.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "discernment",
+      "complexity": 6,
+      "editorialDifficulty": 8,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "house-redemption-levite-exception",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate ordinary walled-city, unwalled-village and Levite-city house rules without erasing exceptions."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 8,
+      "learningObjective": "Integrate ordinary walled-city, unwalled-village and Levite-city house rules without erasing exceptions.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Verses 29–30 give an ordinary walled-city dwelling a full-year redemption period and no Jubilee release afterward. Verse 31 treats unwalled village houses like fields, with redemption and Jubilee release. Verses 32–33 expressly preserve Levite redemption rights and Jubilee release for houses in their possession cities. Verse 34 separately protects their suburban fields from sale.",
+        "Unwalled-village houses are counted as fields and do go out in Jubilee.",
+        "The Levite-city provision is an explicit exception to applying the ordinary walled-city result to those houses.",
+        "This reverses the ordinary house rule and both Jubilee-release categories."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "3f6eb1cc",
+      "approvalReceipt": "16ddf80207692ec0d0722cd2bc31d5465f190e6310968a40de02884266534637",
+      "sourceDigest": "62b419746572971e2e637a23ce07e3d34d604dfe3469d7c3a820a62af7eb1818"
+    }
+  },
+  {
+    "id": "torah-inheritance-daughter-before-brothers",
+    "category": "Agricultural laws, inheritance, and Jubilee",
+    "topic": "Agriculture and land cycles",
+    "difficulty": 2,
+    "q": "An Israelite man dies without a son but leaves a daughter and brothers. Who receives his inheritance under Numbers 27:8–11?",
+    "options": [
+      "His nearest male kinsman, selected ahead of the daughter.",
+      "His daughter, before the later categories of male relatives.",
+      "His brothers, before the daughter named in the case.",
+      "His father’s brothers, before either daughter or brothers."
+    ],
+    "answer": 1,
+    "correctAnswer": "His daughter, before the later categories of male relatives.",
+    "scripture": {
+      "book": "Numbers",
+      "chapter": 27,
+      "verse": 5,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "And Moses brought their cause before the LORD. ¶ And the LORD spake unto Moses, saying, The daughters of Zelophehad speak right: thou shalt surely give them a possession of an inheritance among their father’s brethren; and thou shalt cause the inheritance of their father to pass unto them. And thou shalt speak unto the children of Israel, saying, If a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter. And if he have no daughter, then ye shall give his inheritance unto his brethren. And if he have no brethren, then ye shall give his inheritance unto his father’s brethren. And if his father have no brethren, then ye shall give his inheritance unto his kinsman that is next to him of his family, and he shall possess it: and it shall be unto the children of Israel a statute of judgment, as the LORD commanded Moses.",
+      "url": "https://www.kingjamesbibleonline.org/Numbers-Chapter-27/"
+    },
+    "supportingScriptures": [],
+    "explain": "The statute directs inheritance to the daughter if there is no son. Brothers follow if there is no daughter; father’s brothers and then the nearest family kinsman follow only under further stated conditions. The presence of male relatives does not erase the daughter’s specified place.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 3,
+      "editorialDifficulty": 4,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "inheritance-daughter-before-brothers",
+      "mode": "explicit",
+      "learningObjective": "Apply the specified inheritance sequence when a man has no son."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "11",
+      "curriculumDifficulty": 4,
+      "learningObjective": "Apply the specified inheritance sequence when a man has no son.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The nearest-family-kin provision is later in the sequence, not a means to bypass an existing daughter.",
+        "The statute directs inheritance to the daughter if there is no son. Brothers follow if there is no daughter; father’s brothers and then the nearest family kinsman follow only under further stated conditions. The presence of male relatives does not erase the daughter’s specified place.",
+        "Brothers are the next category only if there is no daughter.",
+        "Father’s brothers follow the absence of both daughter and brothers."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "53246011",
+      "approvalReceipt": "704f4c6ba41db52c8f2b361bf9bcf626b493fe1bac53b40cf28c6044c7e677e0",
+      "sourceDigest": "e60d77e1b6a7ad0cebc019918f182210c92456fa2e943f46b168318cca4669e5"
+    }
+  },
+  {
+    "id": "torah-rebuke-without-hatred",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which response to a neighbor’s wrongdoing preserves Leviticus 19:17–18?",
+    "options": [
+      "Rebuke the neighbor and keep a grudge until the household loses standing.",
+      "Arrange private revenge first and offer words of correction afterward.",
+      "Rebuke the neighbor without keeping hatred, vengeance or a grudge.",
+      "Keep the wrong unaddressed while allowing hatred to remain in the heart."
+    ],
+    "answer": 2,
+    "correctAnswer": "Rebuke the neighbor without keeping hatred, vengeance or a grudge.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 17,
+      "endVerse": 18,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him. ¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The passage forbids hatred in the heart, commands rebuke rather than suffering sin upon the neighbor, and forbids vengeance and grudges while requiring neighbor-love. Correction and love are not presented as opposites.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "rebuke-without-hatred",
+      "mode": "explicit",
+      "learningObjective": "Distinguish confronting wrongdoing from harboring hatred, vengeance or grudges."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Distinguish confronting wrongdoing from harboring hatred, vengeance or grudges.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Rebuke does not cancel the adjacent prohibition on bearing a grudge.",
+        "Private revenge contradicts the prohibition on vengeance.",
+        "The passage forbids hatred in the heart, commands rebuke rather than suffering sin upon the neighbor, and forbids vengeance and grudges while requiring neighbor-love. Correction and love are not presented as opposites.",
+        "Silence joined to hatred reverses the explicit instruction to rebuke and not hate."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "9a9e3fe9",
+      "approvalReceipt": "50de7c06c2b2aeaca1b133842f58231756211ae684a319875403f6d9d1d53541",
+      "sourceDigest": "4e71ea45563a4a2bc71e78186d7f691c169c2a613ef6a67c5e7793bd0b9e1682"
+    }
+  },
+  {
+    "id": "torah-roof-battlement-responsibility",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Why does Deuteronomy 22:8 require a battlement around a new house’s roof?",
+    "options": [
+      "To identify which household has the firstborn inheritance right.",
+      "To provide a place for keeping a neighbor’s pledged millstone.",
+      "To mark the house as exempt from the land’s Jubilee rules.",
+      "To avoid bringing blood upon the house if someone falls from it."
+    ],
+    "answer": 3,
+    "correctAnswer": "To avoid bringing blood upon the house if someone falls from it.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 8,
+      "translation": "KJV",
+      "excerpt": "¶ When thou buildest a new house, then thou shalt make a battlement for thy roof, that thou bring not blood upon thine house, if any man fall from thence.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-22-8/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse directly connects the roof barrier with preventing bloodguilt if a person falls. It teaches responsibility for the foreseeable danger stated in the command, not one of the unrelated property classifications in the alternatives.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "roof-battlement-responsibility",
+      "mode": "explicit",
+      "learningObjective": "Explain the stated safety responsibility of the builder of a new house."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Explain the stated safety responsibility of the builder of a new house.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Firstborn inheritance is not the purpose assigned to the roof barrier.",
+        "The roof command gives no permission to take a millstone as pledge.",
+        "A battlement is not given as a criterion of Jubilee exemption.",
+        "The verse directly connects the roof barrier with preventing bloodguilt if a person falls. It teaches responsibility for the foreseeable danger stated in the command, not one of the unrelated property classifications in the alternatives."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "2e4846ed",
+      "approvalReceipt": "161ccfaf741b5f22d8b626283bb6a4200f5a91b6f497e027735f90d12a252eb0",
+      "sourceDigest": "296d9a663c082fb3068f4072ee5cbc839287433909d5f445d06dedf8c023ecd9"
+    }
+  },
+  {
+    "id": "torah-deaf-blind-fear-god",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which pair of actions does Leviticus 19:14 prohibit while commanding fear of God?",
+    "options": [
+      "Cursing the deaf and putting a stumblingblock before the blind.",
+      "Withholding hired wages and taking a widow’s raiment as pledge.",
+      "Removing a neighbor’s landmark and using unequal weights in trade.",
+      "Bearing a grudge against a brother and taking a gift in judgment."
+    ],
+    "answer": 0,
+    "correctAnswer": "Cursing the deaf and putting a stumblingblock before the blind.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 14,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt not curse the deaf, nor put a stumblingblock before the blind, but shalt fear thy God: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-14/"
+    },
+    "supportingScriptures": [],
+    "explain": "The verse specifically prohibits cursing the deaf and placing a stumblingblock before the blind, and joins this to fearing God. A person’s disability does not remove the speaker’s or actor’s accountability.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "deaf-blind-fear-god",
+      "mode": "explicit",
+      "learningObjective": "Recognize the paired protections and their stated accountability to Yah."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Recognize the paired protections and their stated accountability to Yah.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The verse specifically prohibits cursing the deaf and placing a stumblingblock before the blind, and joins this to fearing God. A person’s disability does not remove the speaker’s or actor’s accountability.",
+        "These are other Torah prohibitions, not the paired wrongs named in Leviticus 19:14.",
+        "These prohibitions address other wrongs, not this verse’s protections for deaf and blind people.",
+        "These are other forbidden acts; the cited verse names the deaf and blind protections."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "e3f96a73",
+      "approvalReceipt": "742705b5577efe3947030ee717d39f978edd9c8d80f2226fb21dae3b40759591",
+      "sourceDigest": "5fcea88aaeaf676a5d2d9672ab942666e3b14aca7caaa545940a5743e7314367"
+    }
+  },
+  {
+    "id": "torah-nesting-bird-mother-release",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "On finding a nest with its mother sitting on eggs or young, which action and reason are stated in Deuteronomy 22:6–7?",
+    "options": [
+      "Take mother and young together for the poor, as the required form of harvest gleaning.",
+      "Release the mother and take the young, that it may be well and days may be prolonged.",
+      "Take the mother and release the young, that it may be well and days may be prolonged.",
+      "Keep mother and young together for the priest, as the required form of a trespass offering."
+    ],
+    "answer": 1,
+    "correctAnswer": "Release the mother and take the young, that it may be well and days may be prolonged.",
+    "scripture": {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verse": 6,
+      "endVerse": 7,
+      "translation": "KJV",
+      "excerpt": "¶ If a bird’s nest chance to be before thee in the way in any tree, or on the ground, [whether they be] young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young: [But] thou shalt in any wise let the dam go, and take the young to thee; that it may be well with thee, and [that] thou mayest prolong [thy] days.",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-22/"
+    },
+    "supportingScriptures": [],
+    "explain": "The command forbids taking the mother with the young, requires letting the mother go, and permits taking the young. The stated reason concerns well-being and prolonged days; the text does not call this a trespass offering or harvest gleaning.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "nesting-bird-mother-release",
+      "mode": "explicit",
+      "learningObjective": "Keep the mother-and-young distinction and stated well-being reason together."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Keep the mother-and-young distinction and stated well-being reason together.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The rule does not permit taking mother and young together under a gleaning label.",
+        "The command forbids taking the mother with the young, requires letting the mother go, and permits taking the young. The stated reason concerns well-being and prolonged days; the text does not call this a trespass offering or harvest gleaning.",
+        "This reverses the mother/young distinction.",
+        "The nest rule does not designate the birds as a required trespass offering to a priest."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "210ac54a",
+      "approvalReceipt": "ab6bf9959697f7043e4aa426a7d1d1b56534550f56b67a9bf59f1147507179ab",
+      "sourceDigest": "213e7cd306886386f4562c6f44ef5b8eb8d60208638a3a75708f75cbe1c60530"
+    }
+  },
+  {
+    "id": "torah-aged-honor-reverence",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which conduct is paired with fear of God in Leviticus 19:32?",
+    "options": [
+      "Give the oldest household the neighbor’s whole lost flock.",
+      "Excuse the oldest lender from returning a poor man’s pledge.",
+      "Rise before the hoary head and honor the old person.",
+      "Grant the oldest claimant judgment before hearing the case."
+    ],
+    "answer": 2,
+    "correctAnswer": "Rise before the hoary head and honor the old person.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 32,
+      "translation": "KJV",
+      "excerpt": "¶ Thou shalt rise up before the hoary head, and honour the face of the old man, and fear thy God: I [am] the LORD.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-19-32/"
+    },
+    "supportingScriptures": [],
+    "explain": "The instruction is to rise before the hoary head and honor the face of the old man. Respect for age is directly required, but the verse does not turn age into an exemption from justice, property restoration or pledge protections.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 1,
+      "editorialDifficulty": 2,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "aged-honor-reverence",
+      "mode": "explicit",
+      "learningObjective": "Identify the conduct and reverence paired in the instruction concerning the aged."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 2,
+      "learningObjective": "Identify the conduct and reverence paired in the instruction concerning the aged.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "The verse does not authorize taking a neighbor’s lost property.",
+        "It does not create an age-based exception to another person’s pledge protection.",
+        "The instruction is to rise before the hoary head and honor the face of the old man. Respect for age is directly required, but the verse does not turn age into an exemption from justice, property restoration or pledge protections.",
+        "Honoring age does not state a right to win a case before it is heard."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "b7fcf6b8",
+      "approvalReceipt": "769fa1299e63ce1964260e52bd7bc505bb264195b767bb8840bbf187f3d26512",
+      "sourceDigest": "250d7672baac9f62cdc94fed35196f080479f11c9d08b84c44c0b0745a7a8901"
+    }
+  },
+  {
+    "id": "torah-paul-ox-law-labor-share",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 2,
+    "q": "How does Paul use Deuteronomy 25:4 in the argument of 1 Corinthians 9:8–12?",
+    "options": [
+      "He treats the unmuzzled working ox as evidence that spiritual teachers must own agricultural land.",
+      "He treats the unmuzzled working ox as evidence that each teacher must charge every hearer a fixed fee.",
+      "He connects the unmuzzled working ox with a command that Corinth pay the priests’ land-redemption price.",
+      "He connects the unmuzzled working ox with the worker’s hope of sharing in the fruit of labor."
+    ],
+    "answer": 3,
+    "correctAnswer": "He connects the unmuzzled working ox with the worker’s hope of sharing in the fruit of labor.",
+    "scripture": {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verse": 8,
+      "endVerse": 12,
+      "translation": "KJV",
+      "excerpt": "Say I these things as a man? or saith not the law the same also? For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadeth out the corn. Doth God take care for oxen? Or saith he [it] altogether for our sakes? For our sakes, no doubt, [this] is written: that he that ploweth should plow in hope; and that he that thresheth in hope should be partaker of his hope. If we have sown unto you spiritual things, [is it] a great thing if we shall reap your carnal things? If others be partakers of [this] power over you, [are] not we rather? Nevertheless we have not used this power; but suffer all things, lest we should hinder the gospel of Christ.",
+      "url": "https://www.kingjamesbibleonline.org/1-Corinthians-Chapter-9/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 25,
+        "verse": 4,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not muzzle the ox when he treadeth out [the corn].",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-25-4/"
+      }
+    ],
+    "explain": "Paul explicitly quotes the ox command, says the plower and thresher work in hope of partaking, and reasons about spiritual sowing and material support. Verse 12 adds that he has not used this right lest he hinder the gospel. The argument should not be turned into a universal fee schedule or landholding requirement.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience",
+      "paul-context"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 3,
+      "editorialDifficulty": 5,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "paul-ox-law-labor-share",
+      "mode": "multi-passage",
+      "learningObjective": "Recognize Paul’s stated use of a Torah animal-labor command in his argument about workers."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 5,
+      "learningObjective": "Recognize Paul’s stated use of a Torah animal-labor command in his argument about workers.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "Neither the quoted law nor Paul’s argument requires each spiritual teacher to own agricultural land.",
+        "Paul gives no fixed fee schedule and expressly says he has not used the right in this case.",
+        "The cited argument is about labor and support, not a priestly land-redemption payment.",
+        "Paul explicitly quotes the ox command, says the plower and thresher work in hope of partaking, and reasons about spiritual sowing and material support. Verse 12 adds that he has not used this right lest he hinder the gospel. The argument should not be turned into a universal fee schedule or landholding requirement."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "08488393",
+      "approvalReceipt": "a372b55a485e674cd7ace86f28f00faec1d752fc7404f53aefbc431f05978363",
+      "sourceDigest": "1c8817f732df5f850a7d1be7b0ebdebd73dcf6dbea53debb6ed38acc83dae65d"
+    }
+  },
+  {
+    "id": "torah-james-neighbor-love-no-partiality",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 2,
+    "q": "A congregation invokes neighbor-love to excuse favoring a wealthy claimant. Which comparison of James 2:8–11 and Leviticus 19:15, 18 best addresses that excuse?",
+    "options": [
+      "Neighbor-love is required, while respect of persons remains sin and righteous judgment excludes status favoritism.",
+      "Neighbor-love is required, so respect of persons is excused when the favored claimant contributes to the congregation.",
+      "Neighbor-love is required, so righteous judgment gives the richer claimant priority over contrary evidence.",
+      "Neighbor-love is required, while the rule against respect of persons is limited to cases involving family inheritance."
+    ],
+    "answer": 0,
+    "correctAnswer": "Neighbor-love is required, while respect of persons remains sin and righteous judgment excludes status favoritism.",
+    "scripture": {
+      "book": "James",
+      "chapter": 2,
+      "verse": 8,
+      "endVerse": 11,
+      "translation": "KJV",
+      "excerpt": "If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well: But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors. For whosoever shall keep the whole law, and yet offend in one [point], he is guilty of all. For he that said, Do not commit adultery, said also, Do not kill. Now if thou commit no adultery, yet if thou kill, thou art become a transgressor of the law.",
+      "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+    },
+    "supportingScriptures": [
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 15,
+        "translation": "KJV",
+        "excerpt": "¶ Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: [but] in righteousness shalt thou judge thy neighbour.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-15/"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 19,
+        "verse": 18,
+        "translation": "KJV",
+        "excerpt": "¶ Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I [am] the LORD.",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-19-18/"
+      }
+    ],
+    "explain": "James cites the royal law of loving one’s neighbor and immediately says respect of persons is sin. Leviticus requires neighbor-love while separately forbidding favor toward the poor or mighty in judgment. The comparison does not allow a claim of love to cancel the explicit anti-partiality rule.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "connections",
+      "complexity": 4,
+      "editorialDifficulty": 6,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "james-neighbor-love-no-partiality",
+      "mode": "multi-passage",
+      "learningObjective": "Integrate James’s royal-law citation with Torah’s rejection of partiality."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 6,
+      "learningObjective": "Integrate James’s royal-law citation with Torah’s rejection of partiality.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "James cites the royal law of loving one’s neighbor and immediately says respect of persons is sin. Leviticus requires neighbor-love while separately forbidding favor toward the poor or mighty in judgment. The comparison does not allow a claim of love to cancel the explicit anti-partiality rule.",
+        "A claimant’s contributions are not an exception to James’s statement that respect of persons is sin.",
+        "Leviticus rejects honoring the mighty in judgment rather than granting evidentiary priority to wealth.",
+        "Neither passage limits the prohibition to inheritance disputes."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "passage-comparison",
+      "contentFingerprint": "aca44bca",
+      "approvalReceipt": "a50e146bc21f7cd8a450358134c7df8a63cca3d7858b9229b8d1b3daa974fba9",
+      "sourceDigest": "3212464cae43230c8470a04cfdb0d097f9a665b11ed3b2b9bc97fb213e70ba04"
+    }
+  },
+  {
+    "id": "torah-resident-stranger-love-memory",
+    "category": "Holiness, personal conduct, and Torah connections",
+    "topic": "Prayer, worship and holiness",
+    "difficulty": 1,
+    "q": "Which treatment of the stranger dwelling in Israel’s land is required in Leviticus 19:33–34?",
+    "options": [
+      "Reserve neighbor-love for his children born in the land, remembering their own time as strangers in Egypt.",
+      "Treat him as one born among them and love him as oneself, remembering their own time as strangers in Egypt.",
+      "Require him to earn neighbor-love through a gift to the town, remembering their own time as strangers in Egypt.",
+      "Treat him as a temporary exception to protection until the next Jubilee, remembering their own time as strangers in Egypt."
+    ],
+    "answer": 1,
+    "correctAnswer": "Treat him as one born among them and love him as oneself, remembering their own time as strangers in Egypt.",
+    "scripture": {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 33,
+      "endVerse": 34,
+      "translation": "KJV",
+      "excerpt": "¶ And if a stranger sojourn with thee in your land, ye shall not vex him. [But] the stranger that dwelleth with you shall be unto you as one born among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt: I [am] the LORD your God.",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-19/"
+    },
+    "supportingScriptures": [],
+    "explain": "The stranger must not be vexed and is to be treated as one born among them and loved as oneself. Israel’s own experience as strangers in Egypt is the stated reminder. The question concerns these resident-stranger duties, without inventing a gift, Jubilee delay or birthplace condition.",
+    "tags": [
+      "commandments",
+      "torah",
+      "obedience"
+    ],
+    "trapType": null,
+    "trap": null,
+    "knowledge": {
+      "category": "torah",
+      "complexity": 2,
+      "editorialDifficulty": 3,
+      "difficultyMapping": "editorial-1-10-v1",
+      "concept": "resident-stranger-love-memory",
+      "mode": "explicit",
+      "learningObjective": "Identify the love and memory required concerning a resident stranger."
+    },
+    "editorial": {
+      "batch": "torah-everyday-life-50",
+      "curriculumTopicId": "06",
+      "curriculumDifficulty": 3,
+      "learningObjective": "Identify the love and memory required concerning a resident stranger.",
+      "evidenceStatus": "reviewed-via-local-ledger",
+      "manualReviewRequired": true
+    },
+    "review": {
+      "reviewedBy": "Codex — AI-assisted Scripture review; not independent human certification",
+      "reviewedOn": "2026-10-29",
+      "rationale": "Owner message: \"i authorize all banked questions\". This authorizes local AI-assisted review/publication of eligible banked records; unresolved records remain held. No commit, push or deployment. NOT independent human Scripture certification; NOT owner-performed passage verification.\nRetained source audit: Codex — AI-assisted Scripture-source audit; not human approval; 2026-10-26. Existing evidence and source hashes unchanged.\nText-bound question; passages and surrounding context read. No human approval or publication decision recorded.\nAI review checked cited wording/context, answer uniqueness, explanations and all four choices. Existing source ratings remain provisional.\nNo automated warnings; intentional distinct-objective reinforcement remains subject to the existing rotation/disclosure safeguards.",
+      "checks": {
+        "passages": true,
+        "references": true,
+        "quotations": true,
+        "singleAnswer": true,
+        "distractors": true,
+        "context": true,
+        "crossQuestion": true
+      },
+      "optionRationales": [
+        "It directs love toward the stranger dwelling with them, not just locally born children.",
+        "The stranger must not be vexed and is to be treated as one born among them and loved as oneself. Israel’s own experience as strangers in Egypt is the stated reminder. The question concerns these resident-stranger duties, without inventing a gift, Jubilee delay or birthplace condition.",
+        "A gift is not a condition of the commanded love and protection.",
+        "The passage gives no Jubilee waiting period for these duties."
+      ],
+      "resolvedWarnings": [],
+      "reviewMode": "checklist-only-v1",
+      "status": "verified",
+      "decision": "approved",
+      "basis": "explicit-passage",
+      "contentFingerprint": "b3caab07",
+      "approvalReceipt": "4311bf70dc4322422d3ccd9b2ffef25df17b1b82d3c9822ce0831cfd0707754f",
+      "sourceDigest": "3dde2af79243c54a09421fcb3debbf2869e676aa5e6bec5792330f15ae96d63f"
+    }
   }
 ];
