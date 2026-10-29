@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import './test-roman-knockout.mjs';
 import {readFile} from 'node:fs/promises';
 import {CombatDirector,combatDuration,defeatStart,defeatDuration,groundContactAt,bounceAt,settleAt,finisherVariation,combatHealth,combatDamageFeedback} from '../dist/combat.js';
 import {createRun,submit,advance,retryLevel,usePower} from '../dist/engine.js';
@@ -14,6 +15,7 @@ for(const target of ['enemy','judah'])for(const variation of ['rising','sweep'])
  const options={correct:target==='enemy',enemyDefeated:target==='enemy',heroDefeated:target==='judah',variation,reducedMotion,onFrame:f=>frames.push(f),onImpact:()=>impact++,onFinish:()=>finish++};
  assert.equal(d.start(options),true);if(!reducedMotion)assert.equal(d.start(options),false);
  if(!reducedMotion){c.tick(239);assert.equal(impact,0);c.tick(1);assert.equal(impact,1);c.tick(groundContactAt-240);assert.equal(finish,0);assert.equal(frames.at(-1).phase,target==='enemy'?'ground':'hero-ground');c.tick(bounceAt-groundContactAt);assert.ok(frames.at(-1).phase.endsWith('bounce'));c.tick(settleAt-bounceAt);assert.equal(finish,0);c.tick(1600-settleAt);}
+ if(reducedMotion&&target==='enemy'){assert.equal(impact,1);assert.equal(finish,0);assert.equal(frames.at(-1).phase,'settle');c.tick(320)}
  assert.equal(impact,1);assert.equal(finish,1);assert.equal(d.active,false);assert.equal(frames.at(-1).phase,target==='enemy'?'defeated':'hero-defeated');assert.equal(frames.at(-1).finisher,target);assert.deepEqual(run,after,'Finishing presentation does not apply extra damage/rewards');
  assert.equal(run.status,'feedback');advance(run,questions);assert.equal(run.status,target==='enemy'?'levelup':'gameover');if(target==='judah'){assert.equal(retryLevel(run,questions),true);assert.equal(run.lives,5);}
 }

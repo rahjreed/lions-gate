@@ -66,7 +66,7 @@ assert.equal(phases.at(-1).phase,'defeat');assert.equal(phases.at(-1).heroReady,
 assert.equal(jobs.at(-1).ms,defeatStart+defeatDuration);
 jobs.at(-1).fn();assert.equal(finished,1);assert.equal(director.active,false);assert.equal(phases.at(-1).phase,'defeated');
 director.start(callbacks);director.cancel();const counts=[impacts,finished];jobs.forEach(j=>j.fn());assert.deepEqual([impacts,finished],counts,'Canceled fall cannot open a stale reveal');
-director.start({...callbacks,reducedMotion:true});assert.equal(phases.at(-1).phase,'defeated');assert.deepEqual([impacts,finished],counts.map(n=>n+1));
+director.start({...callbacks,reducedMotion:true});assert.equal(phases.at(-1).phase,'settle');assert.equal(director.active,true);jobs.at(-1).fn();assert.equal(phases.at(-1).phase,'defeated');assert.deepEqual([impacts,finished],counts.map(n=>n+1));
 assert.equal(perfect.status,'feedback','Presentation does not advance a level');
 console.log('PASS health/defeat: derived HP, impact snapshot, correct/wrong/timeout/shield, duplicates, extended battle, carry-over lives, reset enemy, zero lives, gated fall completion, cancel and reduced motion.');
 // Pausing at any combat boundary retains pending time and exactly-once effects.

@@ -7,6 +7,9 @@ export const defeatDuration=1060;
 export const groundContactAt=1210;
 export const bounceAt=1330;
 export const settleAt=1470;
+export const shieldContactAt=1030;
+// Source rectangles preserve the generated art's pixels; no body-part transforms.
+export const romanKOFrames=[[15,59,425,373],[463,29,347,404],[826,155,411,279],[8,562,423,257],[444,641,377,186],[823,636,425,179],[44,1028,384,178],[446,1054,414,143]];
 export const finisherVariation=level=>level%2===0?'sweep':'rising';
 export const defeatStart=540;
 export const combatFrames=[
@@ -17,7 +20,7 @@ export const combatFrames=[
  {at:540,phase:'recover',enemy:5},
  {at:combatDuration,phase:'ready',enemy:0}
 ];
-export function romanSoldier(defeated=false){return `<div class="roman-soldier ${defeated?'is-defeated':''}" role="img" aria-label="Roman soldier with sword and shield${defeated?', defeated':''}"><span class="roman-sprite"></span></div>`}
+export function romanSoldier(defeated=false){return `<div class="roman-soldier ${defeated?'is-defeated':''}" role="img" aria-label="Roman soldier with sword and shield${defeated?', defeated':''}"><span class="roman-sprite"></span><span class="roman-knockout" aria-hidden="true"><span class="roman-ko-art"></span></span><span class="roman-dropped-shield" aria-hidden="true"></span></div>`}
 
 // Display only: derive from the engine's current level answers and actual lives.
 // A pending snapshot holds the bars until impact; it is never saved as health.
@@ -60,21 +63,31 @@ export class CombatDirector{
   this.active=true;this.paused=false;this.elapsed=0;this.offset=0;this.started=this.now();this.generation++;
   const finishingBlow=correct&&enemyDefeated,heroFalls=!correct&&heroDefeated;
   const finisher=finishingBlow?'enemy':heroFalls?'judah':'',variant=variation==='sweep'?'sweep':'rising';
-  const duration=finisher?defeatStart+defeatDuration:combatDuration;
-  if(reducedMotion){onFrame({at:duration,phase:finishingBlow?'defeated':heroFalls?'hero-defeated':'ready',enemy:finishingBlow?4:0,correct,finisher,variation:variant,heroReady:!heroFalls,reducedMotion:true});onImpact();this.active=false;onFinish();return true}
+  const duration=reducedMotion&&finishingBlow?320:finisher?defeatStart+defeatDuration:combatDuration;
+  if(reducedMotion&&!finishingBlow){onFrame({at:duration,phase:heroFalls?'hero-defeated':'ready',enemy:0,correct,finisher,variation:variant,heroReady:!heroFalls,reducedMotion:true});onImpact();this.active=false;onFinish();return true}
   const prefix=heroFalls?'hero-':'';
-  const timeline=finisher?[
+  const timeline=reducedMotion?[
+   {at:0,phase:'settle',enemy:4,heroReady:true},
+   {at:duration,phase:'defeated',enemy:4,heroReady:true}
+  ]:finisher?[
    ...combatFrames.map(f=>f.at>=defeatStart?{...f,phase:prefix+'defeat',enemy:finishingBlow?4:0,heroReady:!heroFalls&&f.at===combatDuration}:f),
    {at:groundContactAt,phase:prefix+'ground',enemy:finishingBlow?4:0,heroReady:!heroFalls},
    {at:bounceAt,phase:prefix+'bounce',enemy:finishingBlow?4:0,heroReady:!heroFalls},
    {at:settleAt,phase:prefix+'settle',enemy:finishingBlow?4:0,heroReady:!heroFalls},
+   ...(finishingBlow?[
+    {at:760,phase:'defeat',enemy:4,heroReady:false},
+    {at:shieldContactAt,phase:'defeat',enemy:4,heroReady:true,shieldImpact:true},
+    {at:1100,phase:'falling',enemy:4,heroReady:true},
+    {at:1400,phase:'settling',enemy:4,heroReady:true},
+    {at:1480,phase:'flicker',enemy:4,heroReady:true}
+   ]:[]),
    {at:duration,phase:prefix+'defeated',enemy:finishingBlow?4:0,heroReady:!heroFalls}
   ]:combatFrames;
-  this.jobs=timeline.map(frame=>({frame,done:false}));
+  this.jobs=timeline.sort((a,b)=>a.at-b.at).map(frame=>({frame,done:false}));
   this.apply=job=>{
    if(job.done)return;job.done=true;const frame=job.frame;this.elapsed=Math.max(this.elapsed,frame.at);
-   onFrame({...frame,correct,finisher,variation:variant,enemy:finishingBlow&&frame.at>=240?4:correct?(frame.at>=240&&frame.at<540?4:frame.at===540?5:0):frame.enemy});
-   if(frame.phase==='impact')onImpact();
+   onFrame({...frame,correct,finisher,variation:variant,reducedMotion,enemy:finishingBlow&&frame.at>=240?4:correct?(frame.at>=240&&frame.at<540?4:frame.at===540?5:0):frame.enemy});
+   if(frame.phase==='impact'||reducedMotion&&frame.at===0)onImpact();
    if(frame.at===duration){this.active=false;this.timers=[];onFinish()}
   };
   this.apply(this.jobs[0]);this.schedule();return true;
@@ -92,10 +105,19 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  scene.dataset.finisher=frame.finisher||'';scene.dataset.variation=frame.variation||'rising';scene.dataset.slowMotion=String(!!frame.finisher&&frame.at>=defeatStart&&frame.at<groundContactAt);
  scene.dataset.reducedMotion=String(!!frame.reducedMotion);
  const soldier=scene.querySelector('.roman-soldier');
+ const knockout=frame.finisher==='enemy'&&(frame.at>=240||frame.reducedMotion||frame.phase==='defeated');
+ scene.dataset.knockout=String(knockout);
+ if(knockout){
+  const index=frame.reducedMotion||frame.phase==='defeated'?7:frame.at>=1470?7:frame.at>=1400?6:frame.at>=1330?5:frame.at>=1100?4:frame.at>=760?3:frame.at>=540?2:frame.at>=340?1:0;
+  const [x,y,w,h]=romanKOFrames[index],scale=1.08;
+  scene.dataset.koFrame=String(index);
+  for(const [key,value]of Object.entries({width:w*scale/512*100+'%',height:h*scale/512*100+'%',left:(256-w*scale/2)/512*100+'%',top:(484-h*scale)/512*100+'%',size:`${1254/w*100}% ${1254/h*100}%`,position:`${x/(1254-w)*100}% ${y/(1254-h)*100}%`}))soldier.style.setProperty('--ko-'+key,value);
+  soldier.style.setProperty('--ko-lift',frame.reducedMotion?'0px':frame.at>=1100&&frame.at<1210?'calc(var(--fighter-unit) * -5)':frame.at>=1330&&frame.at<1400?'calc(var(--fighter-unit) * -2.5)':'0px');
+ }
  soldier.classList.toggle('is-defeated',frame.phase==='defeated');
  soldier.setAttribute('aria-label',`Roman soldier with sword and shield${frame.phase==='defeated'?', defeated':''}`);
  // Atlas rows have different transparent foot margins. Anchor visible boots, not tiles.
- soldier.style.setProperty('--roman-foot',String([28,26,26,66,64,64][frame.enemy]/512));
+ soldier.style.setProperty('--roman-foot',String((knockout?28:[28,26,26,66,64,64][frame.enemy])/512));
  const sprite=scene.querySelector('.roman-sprite');
  sprite.style.backgroundPosition=`${frame.enemy%3*50}% ${Math.floor(frame.enemy/3)*100}%`;
  const hero=scene.querySelector('.scene-status>.judah');
@@ -107,7 +129,7 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(frame.correct&&(frame.phase==='recover'||frame.phase==='defeat'&&frame.at===defeatStart))pose='walk';
  if(frame.phase==='ready'||frame.heroReady)pose='ready';
  if(frame.finisher==='judah'&&frame.at>=240)pose='recoil';
- if(frame.finisher==='enemy'&&frame.at>=groundContactAt)pose='victory';
+ if(frame.finisher==='enemy'&&frame.phase==='defeated')pose='victory';
  hero.setAttribute?.('aria-label',frame.phase==='hero-defeated'?'Judah, defeated':'Judah');
  if(pose!==hero.dataset.pose){
   const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment,wardrobe);

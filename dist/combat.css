@@ -131,3 +131,27 @@
  }
  .game-scene[data-combat=hero-defeated] .scene-status>.judah{transform:translate(calc(var(--fighter-unit) * -8),calc(var(--fighter-unit) * 10)) rotate(-105deg)}
 }
+/* Roman KO: drawn whole-body poses, with an independently tumbling shield.
+   No standing-sprite rotation. The presentation clock remains 1600ms. */
+.roman-knockout,.roman-dropped-shield{display:none}
+.roman-knockout{position:absolute;inset:0}
+.roman-ko-art{position:absolute;width:var(--ko-width);height:var(--ko-height);left:var(--ko-left);top:var(--ko-top);background:url('assets/console/roman-knockout.png') var(--ko-position)/var(--ko-size) no-repeat;image-rendering:pixelated;translate:0 var(--ko-lift,0px);transition:translate .11s linear}
+.game-scene[data-knockout=true] .roman-sprite{display:none}
+.game-scene[data-knockout=true] .roman-knockout{display:block}
+.game-scene[data-finisher=enemy] .roman-soldier{transform:none;translate:none;animation:roman-knockback 1.6s linear both}
+.game-scene[data-finisher=enemy][data-variation=sweep] .roman-soldier{animation-name:roman-knockback}
+.game-scene[data-finisher=enemy] .roman-dropped-shield{display:block;position:absolute;left:62%;top:18%;width:30%;height:53%;background:url('assets/console/roman-knockout.png') 88.272727% 91.963377%/814.285714% 462.730627% no-repeat;image-rendering:pixelated;transform-origin:center;animation:roman-shield-tumble 1.6s linear both}
+@keyframes roman-knockback{0%,15%{transform:translateX(0);opacity:1}21.25%{transform:translateX(calc(var(--fighter-unit) * 4))}33.75%{transform:translateX(calc(var(--fighter-unit) * 6))}57.5%,91.875%{transform:translateX(calc(var(--fighter-unit) * 8));opacity:1}93%{opacity:0}94.5%{opacity:1}96%{opacity:0}97.5%{opacity:1}99%,100%{transform:translateX(calc(var(--fighter-unit) * 8));opacity:0}}
+@keyframes roman-shield-tumble{0%,14.99%{opacity:0;transform:none}15%{opacity:1;transform:none}33.75%{transform:translate(calc(var(--roman-size) * .08),calc(var(--roman-size) * -.06)) rotate(50deg)}64.375%{transform:translate(calc(var(--roman-size) * .1),calc(var(--roman-size) * .35)) rotate(90deg)}69%{transform:translate(calc(var(--roman-size) * .1),calc(var(--roman-size) * .32)) rotate(98deg)}75.625%,100%{opacity:1;transform:translate(calc(var(--roman-size) * .1),calc(var(--roman-size) * .35)) rotate(90deg)}}
+.game-scene[data-combat=defeated] .roman-soldier,.game-scene[data-finisher=enemy] .roman-soldier.is-defeated{animation:none!important;transform:none;translate:none;opacity:0}
+@media(prefers-reduced-motion:reduce){
+ .game-scene[data-finisher=enemy] .roman-soldier{animation:roman-gentle-disappear .32s linear both!important;transform:none!important;translate:none!important}
+ .game-scene[data-finisher=enemy] .roman-ko-art{transition:none;translate:none}
+ .game-scene[data-finisher=enemy] .roman-dropped-shield{animation:none;left:66%;top:53%;transform:rotate(90deg)}
+ .game-scene[data-combat=defeated] .roman-soldier,.game-scene[data-finisher=enemy] .roman-soldier.is-defeated{animation:none!important;opacity:0}
+}
+@keyframes roman-gentle-disappear{0%,40%{opacity:1}100%{opacity:0}}
+.game-scene[data-finisher=enemy][data-reduced-motion=true] .roman-soldier{animation:roman-gentle-disappear .32s linear both!important;transform:none!important;translate:none!important}
+.game-scene[data-reduced-motion=true] .roman-ko-art{transition:none;translate:none}
+.game-scene[data-finisher=enemy][data-reduced-motion=true] .roman-dropped-shield{animation:none;left:66%;top:53%;transform:rotate(90deg)}
+.game-scene[data-reduced-motion=true][data-combat=defeated] .roman-soldier{animation:none!important;opacity:0}

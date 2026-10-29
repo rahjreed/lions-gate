@@ -49,7 +49,7 @@ function choose(choice){
 function playCombat(before){
  const last=run.answers.at(-1);
  combat.start({correct:last.correct,enemyDefeated:combatHealth(run).enemy===0,heroDefeated:!last.correct&&!last.shielded&&run.lives===0,variation:finisherVariation(run.level),reducedMotion:matchMedia('(prefers-reduced-motion: reduce)').matches,
-  onFrame:frame=>{paintCombat($('.game-scene'),frame,masteryCompleted(run),profile.armor.unlocked,wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted));if(frame.phase==='strike')audio.effect('swordSwing');if(frame.phase==='ground'||frame.phase==='hero-ground'){audio.effect('groundImpact');if(frame.phase==='ground')audio.effect('enemyDefeat');juice.burst($('.combat-sparks'),8,'gold');}},
+  onFrame:frame=>{paintCombat($('.game-scene'),frame,masteryCompleted(run),profile.armor.unlocked,wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted));if(frame.phase==='strike')audio.effect('swordSwing');if(frame.shieldImpact)audio.effect('shieldClang');if(frame.phase==='ground'||frame.phase==='hero-ground'){audio.effect('groundImpact');juice.burst($('.combat-sparks'),8,'gold');}},
   onImpact:()=>{
    pendingCombatHUD=null;
    updateCombatHealth($('.combat-health'),run);
@@ -58,7 +58,7 @@ function playCombat(before){
    $('.game-scene>.symbolic-gate')?.style.setProperty('--gate-power',String(gateProgress(run).broken/10));
    // Commit the visual reward/penalty at impact; the engine and save already own the result.
    const template=document.createElement('template');template.innerHTML=hud();$('.hud')?.replaceWith(template.content.firstElementChild);
-   if(last.correct){audio.effect('swordStrike');if(combatHealth(run).enemy===0){audio.effect('finisher');if(matchMedia('(prefers-reduced-motion: reduce)').matches)audio.effect('enemyDefeat');}else if(levelConfig(run.level).boss)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
+   if(last.correct){audio.effect('swordStrike');if(combatHealth(run).enemy===0){audio.effect('finisher');audio.effect('enemyDefeat');}else if(levelConfig(run.level).boss)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
    if(!last.correct&&!last.shielded){audio.effect('lifeLost',.2);if(run.lives===0)audio.effect('finisher');}
    juice.answer({...last,score:run.score,streak:run.streak});
    juice.combatNumber($('.game-scene'),combatDamageFeedback(before,combatHealth(run),last));

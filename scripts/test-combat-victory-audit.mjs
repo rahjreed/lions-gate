@@ -77,7 +77,7 @@ function appHarness(run,reduced=false){
 for(const level of [1,5])for(const kind of ['ko','survivor','judah'])for(const reduced of [false,true]){
  const h=appHarness(lastQuestion(kind,level),reduced),{c,clock,log,d}=h,before=combatHealth(c.run),choice=kind==='judah'?-1:correctChoice(c.run),duration=kind==='survivor'?920:1600;
  c.choose(choice);const accepted=c.run.asked;for(let i=0;i<20;i++)c.choose(choice);assert.equal(c.run.asked,accepted);
- if(!reduced){for(let time=0;time<duration;time+=40){c.proceed();assert.equal(log.advances,0);clock.tick(Math.min(40,duration-time))}assert.equal(log.reveals.length,1);assert.equal(log.reveals[0],duration)}else assert.equal(log.reveals.length,1);
+ if(!reduced){for(let time=0;time<duration;time+=40){c.proceed();assert.equal(log.advances,0);clock.tick(Math.min(40,duration-time))}assert.equal(log.reveals.length,1);assert.equal(log.reveals[0],duration)}else{if(kind==='ko'){assert.equal(log.reveals.length,0);clock.tick(320)}assert.equal(log.reveals.length,1)}
  assert.equal(log.health.length,1);assert.equal(log.numbers.length,1);assert.equal(log.numbers[0].at,reduced?0:240);assert.equal(log.numbers[0].delta.text,kind==='judah'?'-1 LIFE':'-10');assert.equal(log.advances,0);assert.equal(c.run.status,'feedback');assert.equal(d.active,false);
  if(kind==='survivor')assert.equal(log.frames.some(f=>f.phase==='defeated'),false);else assert.equal(log.frames.at(-1).phase,kind==='ko'?'defeated':'hero-defeated');
  c.proceed();for(let i=0;i<30;i++)c.proceed();assert.equal(log.advances,1);assert.equal(c.run.status,kind==='judah'?'gameover':kind==='survivor'?'playing':'levelup');

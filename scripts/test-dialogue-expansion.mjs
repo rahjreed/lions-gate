@@ -72,7 +72,7 @@ for(const level of [1,4,10])for(const reduced of [false,true]){
  const score=reopened.c.run.score,answers=structuredClone(reopened.c.run.answers);reopened.c.finishEncounter();reopened.c.finishEncounter();
  assert.equal(reopened.c.view,'game');assert.equal(reopened.events.questionClocks,0);reopened.c.proceed();if(!reduced)assert.equal(reopened.c.run.status,'feedback');
  reopened.tick(1600);assert.equal(reopened.events.impacts,1);assert.equal(reopened.events.frames.at(-1).phase,'defeated');assert.equal(reopened.events.reveals,1);
- assert.equal(reopened.c.run.score,reduced?score+levelConfig(level).bonus:score); // reduced proceed above may already clear
+ assert.equal(reopened.c.run.score,score); // Even the reduced-motion fade gates Continue.
  assert.deepEqual(reopened.c.run.answers,answers);reopened.c.proceed();reopened.c.proceed();assert.equal(reopened.c.run.status,'levelup');assert.equal(reopened.c.run.completed,level);assert.equal(reopened.c.run.score,score+levelConfig(level).bonus);
  assert.equal(reopened.c.run.battleDialogue.queue.length,0);assert.ok(validBattleDialogue(reopened.c.run.battleDialogue));
 }
