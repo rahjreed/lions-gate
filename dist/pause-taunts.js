@@ -39,6 +39,6 @@ export class PauseTauntRotation{
 const rotation=new PauseTauntRotation();
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function pauseGuardMarkup(name='ROMAN GUARD'){
- return `<aside class="pause-guard" aria-label="Roman guard taunt"><strong class="pause-guard-name">${esc(name)}</strong><p>“${esc(rotation.read())}”</p></aside>`;
+ return `<div class="pause-villain"><figure class="pause-portrait"><img src="assets/console/roman-portrait.png" width="1254" height="1254" alt="Roman guard with a shadowed face inside his gold-trimmed helmet and red crest" decoding="async"></figure><header class="pause-villain-heading"><p class="kicker">ROMAN GUARD</p><h1 class="pause-guard-name">${esc(name)}</h1></header><aside class="pause-guard" aria-label="Roman guard taunt"><p>“${esc(rotation.read())}”</p></aside></div>`;
 }
 export function closeGuardPause(){rotation.close()}

@@ -26,6 +26,8 @@ for(const level of [1,5,700]){
  context.run.level=level;const snapshot=structuredClone(context.run);closeGuardPause();
  const first=context.pauseScreen();assert.ok(first.includes(opponentFor(level).name));
  assert.match(first,/aria-label="Roman guard taunt"/);assert.doesNotMatch(first,/JUDAH|data-action="(?:next|dialogue-next)"/);
+ assert.match(first,/class="pause-portrait"/);assert.match(first,/assets\/console\/roman-portrait\.png/);assert.match(first,/class="pause-villain-card"/);
+ assert.doesNotMatch(first,/Time and animations|Your run is saved|TAKE A BREATH|animations are|time is paused/i);
  for(const action of ['resume','save-title','retire'])assert.ok(first.includes(`data-action="${action}"`));
  context.releasePause();assert.equal(context.pauseScreen(),first,'Paused rerender retains selected dialogue');
  context.paused=false;context.releasePause();context.paused=true;
@@ -33,4 +35,5 @@ for(const level of [1,5,700]){
 }
 assert.ok(!pauseGuardMarkup('<script>guard</script>').includes('<script>'));closeGuardPause();
 assert.match(source,/if\(!paused\)closeGuardPause\(\)/);
+const portrait=await readFile(new URL('../dist/assets/console/roman-portrait.png',import.meta.url));assert.equal(portrait.readUInt32BE(16),1254);assert.equal(portrait.readUInt32BE(20),1254);
 console.log('PASS guard pause taunts: 20 unique frozen lines, 6000 selections with full-cycle/no-adjacent-repeat guarantees, stable paused/settings redraws, resume reset, regular/Gatekeeper labels, unchanged controls/run and escaped speech.');
