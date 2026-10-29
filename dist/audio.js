@@ -1,7 +1,5 @@
 // Original oscillator patches. SFX and music have independent buses and mute states.
 export const patches={
- // Original voiced excitation, shaped by three /ah/ formants in tone().
- enemyDefeat:[[142,.36,'sawtooth',0,.095,83]],
  shieldClang:[[1330,.16,'triangle',0,.04,1250],[1870,.12,'square',.004,.018,1780],[887,.2,'triangle',.012,.025,860]],
  powerRestored:[[523,.06,'square',0,.025],[659,.06,'square',.06,.025],[784,.1,'triangle',.12,.05],[1047,.14,'triangle',.2,.04]],
  swordSwing:[[1300,.075,'sawtooth',0,.025,170],[760,.095,'triangle',.02,.028,90]],
@@ -31,24 +29,22 @@ export class ArcadeAudio{
  constructor({contextFactory=()=>new (globalThis.AudioContext||globalThis.webkitAudioContext)(),onState=()=>{}}={}){this.sound=false;this.music=false;this.context=null;this.loop=null;this.step=0;this.voices=new Set();this.contextFactory=contextFactory;this.onState=onState;this.playCount=0;this.generation=0}
  report(effect=''){this.onState({state:this.context?.state||'locked',effect,playCount:this.playCount,sound:this.sound})}
  async unlock(){try{this.context??=this.contextFactory();if(!this.sfxBus){this.sfxBus=this.context.createGain();this.sfxBus.gain.value=this.sound?.7:0;this.sfxBus.connect(this.context.destination);this.musicBus=this.context.createGain();this.musicBus.gain.value=.7;this.musicBus.connect(this.context.destination)}if(this.context.state!=='running')await this.context.resume();this.report();return this.context.state==='running'}catch{this.report('unavailable');return false}}
- tone(frequency,duration=.12,type='square',volume=.025,delay=0,endFrequency=null,bus='sfx',vowel=false){
+ tone(frequency,duration=.12,type='square',volume=.025,delay=0,endFrequency=null,bus='sfx'){
   if(!this.context||this.context.state!=='running')return;
   const c=this.context,o=c.createOscillator(),g=c.createGain(),at=c.currentTime+delay;
   o.type=type;o.frequency.setValueAtTime(frequency,at);if(endFrequency)o.frequency.exponentialRampToValueAtTime(endFrequency,at+duration);
-  g.gain.setValueAtTime(.001,at);g.gain.linearRampToValueAtTime(volume*(vowel?2.4:1),at+.006);g.gain.exponentialRampToValueAtTime(.001,at+duration);
-  o.connect(g);const filters=[];
-  if(vowel){for(const [hz,q]of [[730,4],[1090,5],[2440,7]]){const f=c.createBiquadFilter();f.type='bandpass';f.frequency.setValueAtTime(hz,at);f.Q.value=q;g.connect(f);f.connect(this.sfxBus);filters.push(f)}}
-  else g.connect(bus==='music'?this.musicBus:this.sfxBus);
-  const voice={o,g,bus,filters};this.voices.add(voice);
-  o.onended=()=>{o.disconnect();g.disconnect();filters.forEach(f=>f.disconnect());this.voices.delete(voice)};o.start(at);o.stop(at+duration+.01);
+  g.gain.setValueAtTime(.001,at);g.gain.linearRampToValueAtTime(volume,at+.006);g.gain.exponentialRampToValueAtTime(.001,at+duration);
+  o.connect(g);g.connect(bus==='music'?this.musicBus:this.sfxBus);
+  const voice={o,g,bus};this.voices.add(voice);
+  o.onended=()=>{o.disconnect();g.disconnect();this.voices.delete(voice)};o.start(at);o.stop(at+duration+.01);
  }
  async effect(name,offset=0){if(!this.sound||!patches[name])return false;const generation=this.generation;if(!await this.unlock()||!this.sound||generation!==this.generation)return false;
   // Bound rapid-click polyphony; gameplay is never delayed by an audio sequence.
   if(this.voices.size>48)this.cancel('sfx');
-  for(const [f,d,t,delay,v,end] of patches[name])this.tone(f,d,t,v,delay+offset,end,'sfx',name==='enemyDefeat');
+  for(const [f,d,t,delay,v,end] of patches[name])this.tone(f,d,t,v,delay+offset,end);
   this.playCount++;this.report(name);return true;
  }
- cancel(bus){for(const voice of [...this.voices])if(voice.bus===bus){try{voice.o.stop()}catch{}voice.o.disconnect();voice.g.disconnect();voice.filters?.forEach(f=>f.disconnect());this.voices.delete(voice)}}
+ cancel(bus){for(const voice of [...this.voices])if(voice.bus===bus){try{voice.o.stop()}catch{}voice.o.disconnect();voice.g.disconnect();this.voices.delete(voice)}}
  configure(sound,music,active=true){const wasSound=this.sound;this.sound=sound;this.music=music;
   if(wasSound&&!sound){this.generation++;this.cancel('sfx')}
   if(this.sfxBus)this.sfxBus.gain.setValueAtTime(sound?.7:0,this.context.currentTime);

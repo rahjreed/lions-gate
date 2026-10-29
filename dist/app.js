@@ -58,7 +58,7 @@ function playCombat(before){
    $('.game-scene>.symbolic-gate')?.style.setProperty('--gate-power',String(gateProgress(run).broken/10));
    // Commit the visual reward/penalty at impact; the engine and save already own the result.
    const template=document.createElement('template');template.innerHTML=hud();$('.hud')?.replaceWith(template.content.firstElementChild);
-   if(last.correct){audio.effect('swordStrike');if(combatHealth(run).enemy===0){audio.effect('finisher');audio.effect('enemyDefeat');}else if(levelConfig(run.level).boss)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
+   if(last.correct){audio.effect('swordStrike');if(combatHealth(run).enemy===0){audio.effect('finisher');}else if(levelConfig(run.level).boss)audio.effect('heavyImpact');audio.effect('correct',.18)}else audio.effect(last.shielded?'shield':'damage');
    if(!last.correct&&!last.shielded){audio.effect('lifeLost',.2);if(run.lives===0)audio.effect('finisher');}
    juice.answer({...last,score:run.score,streak:run.streak});
    juice.combatNumber($('.game-scene'),combatDamageFeedback(before,combatHealth(run),last));

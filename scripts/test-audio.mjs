@@ -1,11 +1,12 @@
 import assert from 'node:assert/strict';
 import {ArcadeAudio,patches} from '../dist/audio.js';
 class Param{constructor(){this.value=1;this.events=[]}setValueAtTime(...a){this.events.push(['set',...a])}linearRampToValueAtTime(...a){this.events.push(['linear',...a])}exponentialRampToValueAtTime(...a){this.events.push(['exp',...a])}}
-class Node{constructor(){this.gain=new Param();this.frequency=new Param();this.Q=new Param();this.connections=[];this.stopped=0}connect(n){this.connections.push(n)}disconnect(){this.connections=[]}start(at){this.started=at}stop(at){this.stopped++;this.stopAt=at}}
-class Context{constructor(){this.state='suspended';this.currentTime=4;this.destination={};this.oscillators=[];this.resumeCount=0}async resume(){this.resumeCount++;this.state='running'}createGain(){return new Node()}createBiquadFilter(){return new Node()}createOscillator(){const n=new Node();this.oscillators.push(n);return n}}
+class Node{constructor(){this.gain=new Param();this.frequency=new Param();this.connections=[];this.stopped=0}connect(n){this.connections.push(n)}disconnect(){this.connections=[]}start(at){this.started=at}stop(at){this.stopped++;this.stopAt=at}}
+class Context{constructor(){this.state='suspended';this.currentTime=4;this.destination={};this.oscillators=[];this.resumeCount=0}async resume(){this.resumeCount++;this.state='running'}createGain(){return new Node()}createOscillator(){const n=new Node();this.oscillators.push(n);return n}}
 const c=new Context(),reports=[],a=new ArcadeAudio({contextFactory:()=>c,onState:s=>reports.push(s)});
 assert.equal(await a.effect('correct'),false);assert.equal(c.oscillators.length,0);
-a.configure(true,false);for(const name of Object.keys(patches)){const before=c.oscillators.length;assert.equal(await a.effect(name),true);assert.equal(c.oscillators.length-before,patches[name].length);for(const o of c.oscillators.slice(before)){assert.ok(o.stopAt>o.started);if(name==='enemyDefeat'){const filters=o.connections[0].connections;assert.equal(filters.length,3);assert.ok(filters.every(f=>f.type==='bandpass'&&f.connections.includes(a.sfxBus)))}else assert.ok(o.connections[0].connections.includes(a.sfxBus));}}
+a.configure(true,false);assert.equal(Object.hasOwn(patches,'enemyDefeat'),false);assert.equal(await a.effect('enemyDefeat'),false);assert.equal(c.oscillators.length,0,'Removed yell never schedules audio, even with SFX on');
+for(const name of Object.keys(patches)){const before=c.oscillators.length;assert.equal(await a.effect(name),true);assert.equal(c.oscillators.length-before,patches[name].length);for(const o of c.oscillators.slice(before)){assert.ok(o.stopAt>o.started);assert.ok(o.connections[0].connections.includes(a.sfxBus));}}
 assert.equal(c.state,'running');assert.equal(a.playCount,Object.keys(patches).length);
 const beforeMute=c.oscillators.length;a.configure(false,false);assert.equal(a.sfxBus.gain.events.at(-1)[1],0);assert.equal(a.voices.size,0);assert.equal(await a.effect('next'),false);assert.equal(c.oscillators.length,beforeMute);
 a.configure(true,false);await a.effect('select');assert.ok(c.oscillators.length>beforeMute);assert.equal(reports.at(-1).effect,'select');

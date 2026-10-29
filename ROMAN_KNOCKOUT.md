@@ -6,7 +6,7 @@ Normal and Gatekeeper enemies use the same 1,600 ms presentation clock:
 
 | Time | Presentation |
 | --- | --- |
-| 240 ms | Existing final hit; upper-body recoil, shield release and synthesized pain yell |
+| 240 ms | Existing final hit and sword/finisher sounds; upper-body recoil and shield release |
 | 340 ms | Loss of balance and shoulder/arm reaction |
 | 540 ms | Knees buckle |
 | 760 ms | Descending, seated fall pose |
@@ -22,6 +22,6 @@ The presentation never changes simulation time, question timers, damage, score o
 
 Reduced motion uses a clearly collapsed body and settled shield with a gentle 320 ms fade, without launch, tumbling or flashing. Continue remains gated for that brief fade. Judah's existing defeat and regular-hit timings remain unchanged.
 
-The yell uses an original falling glottal oscillator with three /ah/ formant filters. The shield clang uses short inharmonic oscillator envelopes. Both use the existing SFX bus, unlock/mute protection and cleanup; no external recordings, speech service or copyrighted assets are used. The title/game music is unchanged. Physical speaker balance and whether the stylized yell matches the owner's taste require listening review.
+There is no vocal defeat sound. The rejected synthesized yell and its dedicated formant-generation code have been removed, without a replacement voice. The sword/finisher sounds, shield clang and body impact keep their existing patches, volume envelopes, SFX bus and contact timings. No external recordings, speech service or copyrighted sound assets are used. The title/game music and audio settings are unchanged.
 
 Run `node scripts/build-site.mjs`. The finisher suite imports `test-roman-knockout.mjs`, covering poses, source bounds, contact/fade timing, every new pause boundary and repeated/cancelled events. Existing suites retain full question, health, power-up, retry, save and publication checks. Browser fixture/checkpoint helpers live only under ignored `.verification/launch/`, not the production bundle.
