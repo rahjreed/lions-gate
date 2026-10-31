@@ -137,3 +137,11 @@ body>header #pause-control{min-height:44px;min-width:96px;font-size:12px;letter-
  .opening .title-art{height:196px}
  .opening .floating-sword{height:90px}
 }
+.menu-screen.name-entry-screen{width:min(520px,100%);margin:clamp(16px,6dvh,64px) auto;padding:clamp(20px,5vw,36px);border:1px solid #6c7896;background:linear-gradient(#263149,#1b2337);box-shadow:0 0 0 4px #161e30,0 0 0 5px #3e4c66;text-align:center;box-sizing:border-box}
+.name-entry-screen>h1{font-size:clamp(16px,3.5vw,24px);line-height:1.7;color:var(--gold);letter-spacing:0;margin:12px 0 28px;overflow-wrap:anywhere}
+.name-entry-screen .nickname-label{display:grid;gap:12px;width:100%;margin:0;text-align:left;font:10px var(--mono);color:var(--gold);letter-spacing:1px}
+.name-entry-screen #nickname{box-sizing:border-box;width:100%;max-width:100%;min-width:0;min-height:52px;margin:0;padding:14px 12px;font:16px var(--mono);letter-spacing:1px;text-align:left}
+.name-entry-screen #nickname:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.name-entry-actions{display:grid;gap:12px;margin-top:28px}
+.name-entry-actions .button{width:100%;min-height:48px;box-sizing:border-box}
+@media(max-height:500px){.menu-screen.name-entry-screen{margin:8px auto;padding:18px}.name-entry-screen>h1{margin:8px 0 16px}.name-entry-actions{margin-top:16px;gap:8px}}

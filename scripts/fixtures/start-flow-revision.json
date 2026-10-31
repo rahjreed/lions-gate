@@ -1,0 +1,13 @@
+{
+  "scope": "Owner-authorized name-entry navigation only; approved title changes only by removing its input.",
+  "files": [
+    {
+      "path": "dist/app.js",
+      "before": "f8645bf1edaadb308884cd6f61366728552b9f5da008a871f8d2519651156c0b",
+      "after": "3d0130b5aee45d06def8d0c34d7a1ae59169d0f0b7840863fbae48749a5f990b",
+      "reason": "Move the existing name field to a dedicated form; retain overwrite confirmation, new-game initialization and Continue."
+    }
+  ],
+  "titleFunctionWithoutInputSha256": "a80ebde88bd89c7aaa5399343f3a55b3c9d1cdbdd6f89483c539ed1412174ea3",
+  "continueRoute": "if(action==='continue'){if(pendingBattleDialogue(run))return beginBattleDialogue();if(pendingDialogue(run))return beginEncounter(true);view='game';paused=run.status==='playing';render();music();return}if(action==='next')"
+}
