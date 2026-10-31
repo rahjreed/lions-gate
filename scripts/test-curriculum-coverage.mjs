@@ -1,6 +1,6 @@
+import {assertProtectedText} from './protected-text.mjs';
 import assert from 'node:assert/strict';
 import {readFile,readdir} from 'node:fs/promises';
-import {createHash} from 'node:crypto';
 import {questions} from '../dist/questions.js';
 import {publishedQuestions} from '../dist/published-questions.js';
 import {canon,chapterLimits} from '../dist/question-rules.js';
@@ -12,7 +12,7 @@ assert.equal(tracker.summary.inventoryRecords,questions.length+batches.length);
 assert.equal(tracker.summary.candidates,batches.filter(q=>['draft','candidate'].includes(q.review.status)&&!questions.some(live=>live.id===q.id)).length);
 assert.equal(tracker.questionInventory.length,tracker.summary.inventoryRecords);
 assert.equal(new Set(tracker.questionInventory.map(r=>r.recordKey)).size,tracker.questionInventory.length);
-for(const [path,hash] of Object.entries(tracker.sourceHashes))assert.equal(createHash('sha256').update(await readFile(new URL(path,root))).digest('hex'),hash,`${path} changed or inventory is stale`);
+for(const [path,hash] of Object.entries(tracker.sourceHashes))assertProtectedText(path,await readFile(new URL(path,root)),hash,`${path} changed or inventory is stale`);
 assert.equal(tracker.torahChapters.length,187);
 for(const [book,count] of [['Genesis',50],['Exodus',40],['Leviticus',27],['Numbers',36],['Deuteronomy',34]])assert.deepEqual(tracker.torahChapters.filter(r=>r.book===book).map(r=>r.chapter),Array.from({length:count},(_,i)=>i+1));
 assert.equal(tracker.categories.filter(c=>c.id!=='general').length,18);

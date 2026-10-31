@@ -1,3 +1,4 @@
+import {assertProtectedText} from './protected-text.mjs';
 // Read-only regression of this exact owner-authorized local release.
 import assert from 'node:assert/strict';
 import {expectedStartFlowRevision} from './start-flow-revision.mjs';
@@ -21,7 +22,7 @@ for(const q of bankedBaseline.originalLive)assert.deepEqual(questions.find(p=>p.
 for(const [id,d]of Object.entries(bankedBaseline.originalLedger.decisions))assert.deepEqual(ledger.decisions[id],d,'Prior attribution and decision unchanged: '+id);
 assert.deepEqual(ledger.events.slice(0,118),bankedBaseline.originalLedger.events);assert.equal(ledger.events.length,218);assert.equal(Object.keys(ledger.decisions).length,218);
 for(const{q}of candidates)assert.equal(digest(q),bankedBaseline.candidateSources[q.id]);
-for(const[p,hash]of Object.entries(bankedBaseline.protectedHashes))assert.equal(sha(await bytes(p)),expectedStartFlowRevision(p,hash),'Unrelated runtime/source file unchanged: '+p);
+for(const[p,hash]of Object.entries(bankedBaseline.protectedHashes))assertProtectedText(p,await bytes(p),expectedStartFlowRevision(p,hash),'Unrelated runtime/source file unchanged: '+p);
 assert.equal(bankedBaseline.held.length,32);assert.equal(candidates.filter(c=>!questions.some(q=>q.id===c.q.id)).length,32);
 for(const h of bankedBaseline.held){assert.ok(h.reason&&h.authorizationDoesNotResolveConcern);assert.ok(!ledger.decisions[h.id]);assert.ok(!questions.some(q=>q.id===h.id));assert.equal(digest(candidates.find(c=>c.q.id===h.id).q),h.sourceDigest);}
 assertCurrentApprovals(bankedQuestions,candidates,ledger,bankedBaseline.originalLive);assert.equal(publicationBatch(bankedBaseline.originalLive,bankedQuestions).length,100);

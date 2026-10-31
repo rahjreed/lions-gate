@@ -1,3 +1,4 @@
+import {assertProtectedText} from './protected-text.mjs';
 // Read-only content/publication preflight. Never records approvals or publishes.
 import assert from 'node:assert/strict';
 import {expectedStartFlowRevision} from './start-flow-revision.mjs';
@@ -27,7 +28,7 @@ assert.equal(validateQuestions([...peers.values(),...batch],{allowCandidates:tru
 assert.throws(()=>publicationBatch(questions,batch),/review/i);assert.throws(()=>assertCurrentApprovals(batch,candidates,ledger,bankedBaseline.originalLive),/approval|altered|stale/i);
 assert.equal(release.candidateInventoryCount,candidates.length);assert.equal(release.liveDigest,digest(bankedBaseline.originalLive));assert.equal(release.ledgerSha256,sha(JSON.stringify(bankedBaseline.originalLedger,null,2)+'\n'));assert.deepEqual(ledger.events.slice(0,118),bankedBaseline.originalLedger.events);
 for(const {q}of candidates)assert.equal(release.candidateSources[q.id],digest(q),'Candidate inventory guard: '+q.id);
-for(const [p,hash]of Object.entries(audit.preservedFiles)){if(['dist/published-questions.js','content/editorial/decisions.json'].includes(p))continue;assert.equal(sha(await bytes(p)),expectedStartFlowRevision(p,hash),'Protected existing file: '+p);}
+for(const [p,hash]of Object.entries(audit.preservedFiles)){if(['dist/published-questions.js','content/editorial/decisions.json'].includes(p))continue;assertProtectedText(p,await bytes(p),expectedStartFlowRevision(p,hash),'Protected existing file: '+p);}
 const count=fn=>Object.fromEntries([...new Set(batch.map(fn))].sort().map(k=>[k,batch.filter(q=>fn(q)===k).length]));
 assert.deepEqual(count(q=>q.knowledge.complexity),{'3':5,'4':14,'5':13,'6':11,'7':7});assert.deepEqual(count(q=>q.editorial.section),audit.sectionCounts);assert.deepEqual(Object.values(audit.sectionCounts).sort((a,b)=>a-b),[7,8,8,8,8,11]);
 assert.deepEqual([0,1,2,3].map(i=>batch.filter(q=>q.answer===i).length),[13,13,12,12]);
