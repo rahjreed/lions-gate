@@ -1,0 +1,100 @@
+{
+  "purpose": "Owner-authorized player-facing name change only. Reverse these exact eleven text substitutions to verify prior source/audit hashes. Internal names and biblical content remain unchanged.",
+  "sourceCommit": "43a716f",
+  "files": {
+    "dist/app.js": {
+      "beforeSha256": "3d0130b5aee45d06def8d0c34d7a1ae59169d0f0b7840863fbae48749a5f990b",
+      "afterSha256": "97e0d363fcb1397f46d233d0a34164ab5c748ba9219548045a3e72a409a2035e",
+      "replacements": [
+        {
+          "from": "aria-label=\"Judah journeys toward the next Scripture challenge\"",
+          "to": "aria-label=\"Akobi journeys toward the next Scripture challenge\"",
+          "count": 1
+        },
+        {
+          "from": "Help Judah take the Kingdom",
+          "to": "Help Akobi take the Kingdom.",
+          "count": 1
+        }
+      ]
+    },
+    "dist/mascot.js": {
+      "beforeSha256": "f24ca029de8136c0daabe6289a83d4b6a4abdc8a6acba7757a6921e99cf59b63",
+      "afterSha256": "87263c40559ce755d5f5a0618933089850b88db314d3ce5ca522c0658fda12ff",
+      "replacements": [
+        {
+          "from": "aria-label=\"Judah ·",
+          "to": "aria-label=\"Akobi ·",
+          "count": 1
+        },
+        {
+          "from": "<figcaption><b>JUDAH</b>",
+          "to": "<figcaption><b>AKOBI</b>",
+          "count": 1
+        },
+        {
+          "from": "<h2>Judah’s journey</h2>",
+          "to": "<h2>Akobi’s journey</h2>",
+          "count": 1
+        }
+      ]
+    },
+    "dist/combat.js": {
+      "beforeSha256": "fbd6abf437b812f197f974ef93dab5884760b40cca0cc4f829eebd460484c5e1",
+      "afterSha256": "6c6bd53c101c755816353b672d4454b28f227eb6006463a7a1714af4c4735da7",
+      "replacements": [
+        {
+          "from": "meter('judah','JUDAH'",
+          "to": "meter('judah','AKOBI'",
+          "count": 1
+        },
+        {
+          "from": "?'Judah, defeated':'Judah'",
+          "to": "?'Akobi, defeated':'Akobi'",
+          "count": 1
+        }
+      ]
+    },
+    "dist/encounter-dialogue.js": {
+      "beforeSha256": "4d3d5505f084b8fb58029a9fd8b39e31e4fbd1eeb299852226880a34389baed7",
+      "afterSha256": "8f47c388622eee93466b80f5fedef917e3ec015296a11c43cb2ed4f62e2deb6d",
+      "replacements": [
+        {
+          "from": "STAND FIRM, JUDAH",
+          "to": "STAND FIRM, AKOBI",
+          "count": 1
+        },
+        {
+          "from": "<span class=\"speaker\">JUDAH</span>",
+          "to": "<span class=\"speaker\">AKOBI</span>",
+          "count": 1
+        },
+        {
+          "from": "JUDAH’S REPLY →",
+          "to": "AKOBI’S REPLY →",
+          "count": 1
+        }
+      ]
+    },
+    "dist/armor.js": {
+      "beforeSha256": "5f15dc5acab267c692b2bdbd1f854b27146d6a66258c140576eb05fb07fe3248",
+      "afterSha256": "7632f4a7bc3041b2e9bef0f0401e90906c2dd8ac5befd75d8097f0f165246194",
+      "replacements": [
+        {
+          "from": "A permanent cosmetic upgrade for Judah.",
+          "to": "A permanent cosmetic upgrade for Akobi.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "preserved": {
+    "dist/engine.js": "5de2f3da581541fd0bda0a4214ee321cb18a7e5f31b806b771f8f5a9e76d375a",
+    "dist/storage.js": "33efaf56c4b6b54d8513d97a089d1d1c4cb6031c3f511b953ff45fff291d36bc",
+    "dist/questions.js": "7e376d760df5dad2a0409d6ef39278847b023042495a49a15d30899a4ef642aa",
+    "dist/published-questions.js": "fb758c6cff3218af2361ff3c1d7fdd422c25a42444cfab1cdb1e1c7fb8b02cca",
+    "dist/course-lessons.js": "01e6b0bc42e26e23c6087703ca5742cb15cea15640f87bf9ff8c41cb86393074",
+    "dist/lessons.js": "a1db14d24cc8c99de0c28e6ed9513e0b38becbbb8f4380ea3a0a382075fce966",
+    "dist/dialogue-bank.js": "ad63c7d317befd0d14eaa941dcd9ec7bfeeaf8307c9ec910945684c77e645014"
+  }
+}

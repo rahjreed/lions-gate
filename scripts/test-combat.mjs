@@ -36,7 +36,7 @@ for(const outcome of ['correct','wrong','timeout','shield']){
  assert.deepEqual(combatHealth(run),expected);
  assert.equal(submit(run,questions,choice),false);assert.deepEqual(combatHealth(run),expected,'Duplicate events cannot subtract HP');
  assert.deepEqual(run,result,'Health rendering cannot change engine/save state');
- assert.match(combatHealthMarkup(run),/aria-label="JUDAH health"/);
+ assert.match(combatHealthMarkup(run),/aria-label="AKOBI health"/);
  assert.ok(combatHealthMarkup(run).includes(`aria-label="${opponentFor(run.level).name} health"`));
 }
 // An imperfect ten-question battle must continue until the tenth successful hit.

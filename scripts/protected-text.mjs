@@ -4,10 +4,11 @@
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
+import {beforeCharacterRename} from './character-name-revision.mjs';
 const {files}=JSON.parse(await readFile(new URL('fixtures/historical-line-endings.json',import.meta.url),'utf8'));
 const sha=value=>createHash('sha256').update(value).digest('hex');
 export function assertProtectedText(path,bytes,expected,message=`Protected text unchanged: ${path}`){
- const text=new TextDecoder('utf-8',{fatal:true,ignoreBOM:true}).decode(bytes).replace(/\r\n/g,'\n');
+ const text=beforeCharacterRename(path,new TextDecoder('utf-8',{fatal:true,ignoreBOM:true}).decode(bytes).replace(/\r\n/g,'\n'));
  const legacy=files[path];let historical=text;
  if(legacy){
   assert.equal(expected,legacy.historicalSha256,'Historical audit hash must remain intact: '+path);

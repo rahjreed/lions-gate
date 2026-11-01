@@ -16,7 +16,7 @@ assert.match(css,/prefers-reduced-motion/);assert.match(css,/aspect-ratio:1\.3/)
 const title=app.match(/function titleScreen\(\)[^\n]*/)[0];
 for(const action of ['start','continue','hall','guide','armory','settings'])assert.ok(title.includes("'"+action+"'"));
 assert.doesNotMatch(title,/<input|<canvas|<iframe|The Lion[’']s:/);
-assert.match(title,/Kingdom Race The Lion’s Gate/);assert.match(title,/Help Judah take the Kingdom/);assert.match(title,/Daniel 7:18/);
+assert.match(title,/Kingdom Race The Lion’s Gate/);assert.match(title,/Help Akobi take the Kingdom\./);assert.match(title,/Daniel 7:18/);
 assert.match(title,/judah\(profile\.bestCompleted\)/);assert.match(title,/floating-sword/);
 assert.match(await read('dist/art.js'),/assets\/console\/sword\.png/);
 console.log('PASS title reference: detailed scenery asset, preserved 1.3 composition; title-only CSS, late stylesheet ordering, live unchanged menu/name/Continue routes, original Judah/sword layers, touch targets and reduced motion.');

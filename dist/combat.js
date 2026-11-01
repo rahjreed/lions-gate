@@ -31,7 +31,7 @@ export function combatHealth(run,pending=null){
 export function combatHealthMarkup(run,pending=null){
  const h=combatHealth(run,pending);
  const meter=(who,label,value,max,text)=>`<div class="health-block health-${who}"><div class="health-label"><b>${label}</b><span class="health-value">${text}</span></div><div class="health-track" data-health="${who}" role="progressbar" aria-label="${label} health" aria-valuemin="0" aria-valuemax="${max}" aria-valuenow="${value}" aria-valuetext="${text}"><i class="health-lag" style="width:${value/max*100}%"></i><i class="health-fill" style="width:${value/max*100}%"></i></div></div>`;
- return `<div class="combat-health" aria-label="Combat health">${meter('judah','JUDAH',h.lives,MAX_LIVES,`${h.lives} / ${MAX_LIVES} LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>10 SUCCESSFUL HITS TO WIN · CORRECT ANSWERS DEAL 10%</small></div>`;
+ return `<div class="combat-health" aria-label="Combat health">${meter('judah','AKOBI',h.lives,MAX_LIVES,`${h.lives} / ${MAX_LIVES} LIVES`)}${meter('enemy',opponentFor(run.level).name,h.enemy,100,h.enemy?`${h.enemy}%`:'0% · KO')}<small>10 SUCCESSFUL HITS TO WIN · CORRECT ANSWERS DEAL 10%</small></div>`;
 }
 export function updateCombatHealth(root,run){
  if(!root)return;
@@ -130,7 +130,7 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(frame.phase==='ready'||frame.heroReady)pose='ready';
  if(frame.finisher==='judah'&&frame.at>=240)pose='recoil';
  if(frame.finisher==='enemy'&&frame.phase==='defeated')pose='victory';
- hero.setAttribute?.('aria-label',frame.phase==='hero-defeated'?'Judah, defeated':'Judah');
+ hero.setAttribute?.('aria-label',frame.phase==='hero-defeated'?'Akobi, defeated':'Akobi');
  if(pose!==hero.dataset.pose){
   const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment,wardrobe);
   const next=template.content.firstElementChild;
