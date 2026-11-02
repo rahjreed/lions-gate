@@ -1,0 +1,26 @@
+{
+  "files": {
+    "dist/app.js": {
+      "beforeSha256": "ad5f07a0fea7e7ab4e95a69e9075c011f370b7e048124597c981bd6375680f8a",
+      "afterSha256": "d9b9d0cd90a18b5e902d5348b12f3724f844398187a91ecc252acd79a7a83e03",
+      "edits": [
+        {
+          "from": "import {gameVersion} from './release.js';",
+          "to": "import {gameVersion} from './release.js';\nimport {shareScoreMarkup,bindChallengeCopy} from './share-score.js';"
+        },
+        {
+          "from": "let nameDraft=profile.nickname,collectionDraft=null;",
+          "to": "let nameDraft=profile.nickname,collectionDraft=null;\nbindChallengeCopy(app);"
+        },
+        {
+          "from": "'new-run','button')}<div class=\"menu-links\">",
+          "to": "'new-run','button')}${shareScoreMarkup(run)}<div class=\"menu-links\">"
+        },
+        {
+          "from": "</tbody></table></div><p class=\"fine-print\">Completed runs only.",
+          "to": "</tbody></table></div>${!sample&&rows.length?`<div class=\"hall-sharing\" aria-label=\"Share individual records\">${rows.map(r=>`<details><summary>SHARE · ${esc(cleanNickname(r.nickname))} · LEVEL ${r.level||r.completed+1} · ${number(r.score)} POINTS</summary>${shareScoreMarkup(r)}</details>`).join('')}</div>`:''}<p class=\"fine-print\">Completed runs only."
+        }
+      ]
+    }
+  }
+}

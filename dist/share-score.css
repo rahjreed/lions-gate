@@ -1,0 +1,17 @@
+.score-share{max-width:620px;width:100%;margin:10px auto;min-width:0;text-align:center}
+.score-share-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:6px}
+.score-share .button{min-height:44px;padding:10px 12px;font:10px/1.4 var(--mono);letter-spacing:0;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;color:#c6d8ec;background:#202e44;border-color:#7088a5;box-shadow:inset 0 0 0 2px #101b2d}
+.score-share .share-facebook{color:#a9d6fa}
+.score-share .button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.share-status{display:block;font:10px/1.5 var(--mono);color:var(--gold);overflow-wrap:anywhere}
+.share-status:empty{display:none}
+.challenge-text{width:100%;min-height:150px;margin-top:6px;padding:10px;background:#111c2c;color:#e3eaf1;border:1px solid #7185a0;font:13px/1.5 var(--mono);resize:vertical;box-sizing:border-box}
+.hall-sharing{display:grid;gap:8px;margin:18px 0}
+.hall-sharing details{border:1px solid #51637b;background:#192538;padding:0 10px;min-width:0}
+.hall-sharing summary{padding:12px 0;min-height:44px;box-sizing:border-box;cursor:pointer;font:12px/1.6 var(--mono);color:var(--gold);overflow-wrap:anywhere}
+@media(max-width:760px),(max-height:500px){
+ body.celebrating .score-share,body.game-over .score-share{margin:0}
+ .score-share .button{font-size:9px;padding:8px}
+ body.celebrating .result-screen .result-adventure{height:clamp(100px,17dvh,155px)}
+ body.game-over .result-screen .result-adventure{height:clamp(90px,17dvh,145px)}
+}
