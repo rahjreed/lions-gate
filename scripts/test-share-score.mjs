@@ -1,16 +1,16 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
-import {GAME_URL,FACEBOOK_URL,challengeText,shareScoreMarkup,copyChallenge,bindChallengeCopy} from '../dist/share-score.js';
+import {GAME_URL,ARCADE_URL,ACHIEVEMENT_URL,FACEBOOK_URL,challengeText,shareScoreMarkup,copyChallenge,bindChallengeCopy} from '../dist/share-score.js';
 import {beforeSharingFeature} from './share-score-revision.mjs';
 const source=(await readFile(new URL('../dist/app.js',import.meta.url),'utf8')).replace(/\r\n/g,'\n');
 beforeSharingFeature('dist/app.js',source);
 assert.throws(()=>beforeSharingFeature('dist/app.js',source.replace('run.score','run.score+1')),'Gameplay mutations still fail the exact audit');
 const record=Object.freeze({id:'r1',nickname:'ARCADE HERO',score:12345,completed:14,level:15}),before=JSON.stringify(record);
-const text=challengeText(record);assert.equal(text,"Kingdom Race The Lion's Gate\nARCADE HERO\nHighest level reached: 15\nSouls earned (score): 12,345\nCan you beat my score?\nhttps://lionsgate.callistadigital.com/");
+const text=challengeText(record);assert.equal(text,"Kingdom Race The Lion's Gate\nARCADE HERO\nHighest level reached: 15\nSouls earned (score): 12,345\nCAN YOU BEAT MY SCORE?\nPLAY AT RAHJREED.COM\nhttps://rahjreed.com\nhttps://lionsgate.callistadigital.com/challenge.html");
 assert.match(challengeText({nickname:'X',score:0,completed:9}),/level reached: 10/);
 assert.doesNotMatch(challengeText({nickname:'<script>',score:NaN,level:-1}),/<script>|NaN|-1/);
-const url=new URL(FACEBOOK_URL);assert.equal(url.origin,'https://www.facebook.com');assert.equal(url.pathname,'/sharer/sharer.php');assert.deepEqual([...url.searchParams],[['u',GAME_URL]]);assert.doesNotMatch(FACEBOOK_URL,/quote=|message=|12345|ARCADE/);
+const url=new URL(FACEBOOK_URL);assert.equal(url.origin,'https://www.facebook.com');assert.equal(url.pathname,'/sharer/sharer.php');assert.deepEqual([...url.searchParams],[['u',ACHIEVEMENT_URL]]);assert.doesNotMatch(FACEBOOK_URL,/quote=|message=|12345|ARCADE/);
 const markup=shareScoreMarkup(record);assert.match(markup,/target="_blank" rel="noopener noreferrer"/);assert.match(markup,/SHARE ON FACEBOOK/);assert.match(markup,/Copy Challenge/);assert.match(markup,/role="status"/);assert.match(markup,/readonly hidden/);assert.equal(JSON.stringify(record),before);
 function fixture(){const textArea={value:text,hidden:true,focus(){this.focused=true},select(){this.selected=true}},status={textContent:''},group={querySelector:s=>s==='.challenge-text'?textArea:status},button={disabled:false,closest:()=>group};return {textArea,status,button};}
 const ok=fixture();let copied;await copyChallenge(ok.button,{async writeText(value){copied=value}});assert.equal(copied,text);assert.equal(ok.status.textContent,'CHALLENGE COPIED!');assert.equal(ok.textArea.hidden,true);assert.equal(ok.button.disabled,false);

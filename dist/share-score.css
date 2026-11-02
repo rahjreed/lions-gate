@@ -9,6 +9,8 @@
 .hall-sharing{display:grid;gap:8px;margin:18px 0}
 .hall-sharing details{border:1px solid #51637b;background:#192538;padding:0 10px;min-width:0}
 .hall-sharing summary{padding:12px 0;min-height:44px;box-sizing:border-box;cursor:pointer;font:12px/1.6 var(--mono);color:var(--gold);overflow-wrap:anywhere}
+.achievement-preview{width:min(1000px,calc(100% - 24px));max-height:calc(100dvh - 24px);overflow:auto;padding:12px;background:#101b2d;color:#e6dfcc;border:2px solid #d4aa61;box-shadow:0 0 0 4px #070d1c}
+.achievement-preview::backdrop{background:#050b19e8}.achievement-preview canvas{display:block;width:100%;height:auto;margin:12px 0}.achievement-preview-controls{display:flex;justify-content:space-between;gap:8px}.achievement-preview .button{min-height:44px;padding:10px;font:11px/1.4 var(--mono)}.achievement-preview p{font:12px/1.6 var(--mono);margin:4px 0}.achievement-preview:focus-visible{outline:2px solid white}
 @media(max-width:760px),(max-height:500px){
  body.celebrating .score-share,body.game-over .score-share{margin:0}
  .score-share .button{font-size:9px;padding:8px}
