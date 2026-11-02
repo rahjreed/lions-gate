@@ -1,0 +1,110 @@
+{
+  "purpose": "Exact owner-authorized collection filtering, saved metadata and new-game navigation revision. Historical gameplay/publication snapshots remain checked after reversing only these edits.",
+  "sourceCommit": "60cf677",
+  "files": {
+    "dist/engine.js": {
+      "beforeSha256": "5de2f3da581541fd0bda0a4214ee321cb18a7e5f31b806b771f8f5a9e76d375a",
+      "afterSha256": "c30f99bd5db226b56abbd2ae2cf3874b82a5fc43a6f7a91b83b3702ac1e46a63",
+      "edits": [
+        {
+          "from": "export const VERSION=3;",
+          "to": "import {collectionFor,validCollection,questionInCollection} from './scripture-collections.js';\nexport const VERSION=3;"
+        },
+        {
+          "from": "createRun(bank,nickname='PLAYER 1',random=Math.random){",
+          "to": "createRun(bank,nickname='PLAYER 1',random=Math.random,scriptureCollection='kjv80'){\n if(!validCollection(scriptureCollection))throw new RangeError('Select a valid Scripture collection.');"
+        },
+        {
+          "from": "const run={version:VERSION,id:",
+          "to": "const run={version:VERSION,scriptureCollection,id:"
+        },
+        {
+          "from": "if(!q||![-1,0,1,2,3].includes(choice))return false;",
+          "to": "if(!q||!questionInCollection(q,collectionFor(run))||![-1,0,1,2,3].includes(choice))return false;"
+        },
+        {
+          "from": "export function validRun(run,bank){",
+          "to": "export function validRun(run,bank){\n if(run?.scriptureCollection!==undefined&&!validCollection(run.scriptureCollection))return false;\n bank=bank.filter(q=>questionInCollection(q,collectionFor(run)));"
+        }
+      ]
+    },
+    "dist/question-selection.js": {
+      "beforeSha256": "75664c4285808101a63d164c4e2a6d4130bc72ef9b346861bb1f6e81f7ff4f03",
+      "afterSha256": "e01bbe9bb727f6e1062027a358991adf5aa8f6e506fc5c406e7a0d6c79b876df",
+      "edits": [
+        {
+          "from": "import {focusTags}",
+          "to": "import {collectionFor,questionInCollection} from './scripture-collections.js';\nimport {focusTags}"
+        },
+        {
+          "from": "if(q.review?.status!=='verified'",
+          "to": "if(!questionInCollection(q,collectionFor(run)))return false;\n  if(q.review?.status!=='verified'"
+        }
+      ]
+    },
+    "dist/storage.js": {
+      "beforeSha256": "33efaf56c4b6b54d8513d97a089d1d1c4cb6031c3f511b953ff45fff291d36bc",
+      "afterSha256": "a88b134774296624485ae015a93e36221bdee519f07b4c805122cc5a51952a87",
+      "edits": [
+        {
+          "from": "import {validFlawless}",
+          "to": "import {collectionFor} from './scripture-collections.js';\nimport {validFlawless}"
+        },
+        {
+          "from": "if(loaded.run){loaded.run.rankHighWater=",
+          "to": "if(loaded.run){loaded.run.scriptureCollection=collectionFor(loaded.run);loaded.run.rankHighWater="
+        }
+      ]
+    },
+    "dist/app.js": {
+      "beforeSha256": "97e0d363fcb1397f46d233d0a34164ab5c748ba9219548045a3e72a409a2035e",
+      "afterSha256": "ad5f07a0fea7e7ab4e95a69e9075c011f370b7e048124597c981bd6375680f8a",
+      "edits": [
+        {
+          "from": "import {playerNameScreen} from './player-name.js';",
+          "to": "import {playerNameScreen} from './player-name.js';\nimport {collectionScreen,validCollection} from './scripture-collections.js';"
+        },
+        {
+          "from": "let nameDraft=profile.nickname;",
+          "to": "let nameDraft=profile.nickname,collectionDraft=null;"
+        },
+        {
+          "from": "||view==='name-entry'||view==='encounter'",
+          "to": "||view==='name-entry'||view==='collection'||view==='encounter'"
+        },
+        {
+          "from": "function start(){nameDraft=profile.nickname;setView('name-entry');$('#nickname')?.focus({preventScroll:true});$('#nickname')?.select()}",
+          "to": "function start(){nameDraft=profile.nickname;collectionDraft=null;setView('collection');$('#screen-title')?.focus()}\nfunction chooseCollection(id){if(view!=='collection'||!validCollection(id))return;collectionDraft=id;setView('name-entry');$('#nickname')?.focus({preventScroll:true});$('#nickname')?.select()}"
+        },
+        {
+          "from": "function cancelStart(){nameDraft=profile.nickname;setView('title');$('[data-action=\"start\"]')?.focus({preventScroll:true})}",
+          "to": "function cancelStart(){if(view==='name-entry'){setView('collection');$('#screen-title')?.focus();return}nameDraft=profile.nickname;collectionDraft=null;setView('title');$('[data-action=\"start\"]')?.focus({preventScroll:true})}"
+        },
+        {
+          "from": "if(view!=='name-entry')return;beginNewGame(",
+          "to": "if(view!=='name-entry'||!validCollection(collectionDraft))return;beginNewGame("
+        },
+        {
+          "from": "run=createRun(questions,profile.nickname);",
+          "to": "run=createRun(questions,profile.nickname,Math.random,collectionDraft);"
+        },
+        {
+          "from": "view==='name-entry'?playerNameScreen(nameDraft):",
+          "to": "view==='collection'?collectionScreen():view==='name-entry'?playerNameScreen(nameDraft):"
+        },
+        {
+          "from": "if(action==='confirm-name')return confirmPlayerName();",
+          "to": "if(action==='choose-kjv80')return chooseCollection('kjv80');if(action==='choose-kjv66')return chooseCollection('kjv66');if(action==='confirm-name')return confirmPlayerName();"
+        },
+        {
+          "from": "if(view==='name-entry'&&e.key==='Escape')",
+          "to": "if(['collection','name-entry'].includes(view)&&e.key==='Escape')"
+        },
+        {
+          "from": " updateAudioControls();\n app.innerHTML",
+          "to": " updateAudioControls();\n const collectionLabel=$('body>footer>span');if(collectionLabel)collectionLabel.textContent=(view==='name-entry'?collectionDraft:['game','encounter','journey'].includes(view)?run?.scriptureCollection:null)==='kjv66'?'66-BOOK KJV COLLECTION':'80-BOOK KJV COLLECTION';\n app.innerHTML"
+        }
+      ]
+    }
+  }
+}

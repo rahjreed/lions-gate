@@ -1,6 +1,7 @@
 import {flawlessState,breakFlawless,completeFlawlessLevel,validFlawless} from './flawless.js';
 import {newBattleDialogue,queueBattleDialogue,validBattleDialogue,clearBattleDialogue} from './battle-dialogue.js';
 import {selectKnowledgeQuestions} from './question-selection.js';
+import {collectionFor,validCollection,questionInCollection} from './scripture-collections.js';
 export const VERSION=3;
 export const MAX_LIVES=5;
 export const HITS_TO_WIN=10;
@@ -30,8 +31,9 @@ export function levelConfig(level){const difficulty=level<2?1:level<5?2:3;return
 export function shuffled(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 // Keep the public API and saved queue shape stable.
 export const selectQuestions=selectKnowledgeQuestions;
-export function createRun(bank,nickname='PLAYER 1',random=Math.random){
- const run={version:VERSION,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:MAX_LIVES,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};
+export function createRun(bank,nickname='PLAYER 1',random=Math.random,scriptureCollection='kjv80'){
+ if(!validCollection(scriptureCollection))throw new RangeError('Select a valid Scripture collection.');
+ const run={version:VERSION,scriptureCollection,id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${random()}`,nickname,level:1,completed:0,score:0,lives:MAX_LIVES,streak:0,bestStreak:0,history:{},asked:0,correct:0,perfects:0,bosses:0,powers:{fifty:3,time:2,shield:1},status:'playing',index:0,answers:[],remaining:35,eliminated:[],shielded:false,startedAt:new Date().toISOString()};
  run.rankHighWater=0;flawlessState(run);return beginLevel(run,bank,random);
 }
 function resetLevel(run,bank,random,avoid=[]){const c=levelConfig(run.level);run.queue=selectQuestions(bank,run,random,avoid);run.index=0;run.answers=[];delete run.combatPresentation;run.status='playing';run.remaining=c.seconds;run.eliminated=[];run.shielded=false;run.lastPromotion=null;run.battleDialogue=newBattleDialogue(run.level);return run}
@@ -51,7 +53,7 @@ export function retryLevel(run,bank,random=Math.random){
 }
 export function submit(run,bank,choice){
  if(run.status!=='playing')return false;
- const q=bank.find(q=>q.id===run.queue[run.index].id);if(!q||![-1,0,1,2,3].includes(choice))return false;
+ const q=bank.find(q=>q.id===run.queue[run.index].id);if(!q||!questionInCollection(q,collectionFor(run))||![-1,0,1,2,3].includes(choice))return false;
  const beforeLives=run.lives,correct=choice===q.answer,c=levelConfig(run.level),rewards=levelRewards(run);let earned=0;
  if(correct){run.streak++;run.correct++;run.bestStreak=Math.max(run.bestStreak,run.streak);rewards.attempt+=100*Math.min(5,1+Math.floor(run.streak/3))*(c.boss?2:1);earned=Math.max(0,rewards.attempt-rewards.highWater);rewards.highWater=Math.max(rewards.highWater,rewards.attempt);run.score+=earned}
  else{run.streak=0;breakFlawless(run);if(!run.shielded)run.lives--}
@@ -81,6 +83,8 @@ export function usePower(run,bank,power){
  levelRewards(run);run.powers[power]--;return true;
 }
 export function validRun(run,bank){
+ if(run?.scriptureCollection!==undefined&&!validCollection(run.scriptureCollection))return false;
+ bank=bank.filter(q=>questionInCollection(q,collectionFor(run)));
  if(!validCombatPresentation(run?.combatPresentation,run?.answers))return false;
  if(!validFlawless(run?.flawless)||!validBattleDialogue(run?.battleDialogue))return false;
  if(run?.rankHighWater!==undefined&&(!Number.isSafeInteger(run.rankHighWater)||run.rankHighWater<0))return false;

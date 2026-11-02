@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {nameRevision,beforeCharacterRename} from './character-name-revision.mjs';
+import {beforeCollectionFeature} from './collection-flow-revision.mjs';
 import {judah,judahJourney} from '../dist/mascot.js';
 import {EncounterDialogue,dialogueMarkup} from '../dist/encounter-dialogue.js';
 import {combatHealthMarkup} from '../dist/combat.js';
@@ -16,7 +17,7 @@ for(const [path,record]of Object.entries(nameRevision.files)){
  const source=await read(path);assert.equal(sha(beforeCharacterRename(path,source)),record.beforeSha256);
  assert.throws(()=>beforeCharacterRename(path,source+' '),'No unrelated edits may hide behind the rename');
 }
-for(const [path,expected]of Object.entries(nameRevision.preserved))assert.equal(sha(await read(path)),expected,'Question, explanation, dialogue, engine or save source changed: '+path);
+for(const [path,expected]of Object.entries(nameRevision.preserved))assert.equal(sha(beforeCollectionFeature(path,await read(path))),expected,'Question, explanation, dialogue, engine or save source changed beyond the collection feature: '+path);
 const markup=[];
 for(const completed of [0,35,110,185,260,335])for(const pose of ['idle','ready','slash','recoil','victory','transform']){
  const html=judah(completed,pose,true,['belt']);assert.match(html,/aria-label="Akobi/);assert.match(html,/<b>AKOBI<\/b>/);assert.match(html,/class="judah /);assert.match(html,/assets\/console\/judah-/);markup.push(html);

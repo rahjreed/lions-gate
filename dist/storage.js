@@ -1,3 +1,4 @@
+import {collectionFor} from './scripture-collections.js';
 import {validFlawless} from './flawless.js';
 import {validBattleDialogue} from './battle-dialogue.js';
 import {validCombatPresentation,validRun,achievements,leaderboardSort,weekStart} from './engine.js';
@@ -9,7 +10,7 @@ export function loadProfile(storage,bank){try{const p=JSON.parse(storage.getItem
  const legacy=p.mastery?.version!==2,peak=Math.max(loaded.bestCompleted,loaded.run?.completed||0,loaded.run?.rankHighWater||0,...loaded.records.map(r=>r.completed));
  loaded.mastery={version:2,legacyCompleted:legacy?peak:Number.isSafeInteger(p.mastery.legacyCompleted)?Math.max(0,p.mastery.legacyCompleted):0,legacyRecords:legacy?loaded.records.map(r=>({id:r.id,completed:r.completed})):Array.isArray(p.mastery.legacyRecords)?p.mastery.legacyRecords.filter(r=>typeof r.id==='string'&&Number.isSafeInteger(r.completed)&&r.completed>=0).slice(0,100):[]};
  loaded.bestCompleted=peak;
- if(loaded.run){loaded.run.rankHighWater=Math.max(loaded.run.rankHighWater||0,peak);if(legacy)loaded.run.lastPromotion=null;}
+ if(loaded.run){loaded.run.scriptureCollection=collectionFor(loaded.run);loaded.run.rankHighWater=Math.max(loaded.run.rankHighWater||0,peak);if(legacy)loaded.run.lastPromotion=null;}
  reconcileArmor(loaded);return loaded}catch{return emptyProfile()}}
 export function saveProfile(storage,p){try{storage.setItem(KEY,JSON.stringify(p));return true}catch{return false}}
 export function captureProgress(profile,run){profile.run=run;profile.bestScore=Math.max(profile.bestScore,run.score);profile.bestCompleted=Math.max(profile.bestCompleted,run.completed);run.rankHighWater=Math.max(run.rankHighWater||0,profile.bestCompleted);profile.badges=[...new Set([...profile.badges,...achievements(run)])];
