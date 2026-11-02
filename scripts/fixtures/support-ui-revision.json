@@ -1,0 +1,30 @@
+{
+  "files": {
+    "dist/app.js": {
+      "beforeSha256": "d9b9d0cd90a18b5e902d5348b12f3724f844398187a91ecc252acd79a7a83e03",
+      "afterSha256": "a53fa43851b8e5e56df805ad477151fee09be55187ef00b50450da44aa21fb44",
+      "edits": [
+        {
+          "from": "import {gameVersion} from './release.js';",
+          "to": "import {gameVersion} from './release.js';\nimport {bindSupport} from './support.js';"
+        },
+        {
+          "from": "bindChallengeCopy(app);",
+          "to": "bindChallengeCopy(app);\nbindSupport(app);"
+        },
+        {
+          "from": "button('SETTINGS','settings','menu-link')}</div><div class=\"personal-bar\">",
+          "to": "button('SETTINGS','settings','menu-link')}<button type=\"button\" class=\"menu-link support-link\" data-support-open>SUPPORT R2G2</button></div><div class=\"personal-bar\">"
+        },
+        {
+          "from": "button('END RUN','retire','menu-link')}</div></section></div>",
+          "to": "button('END RUN','retire','menu-link')}<button type=\"button\" class=\"menu-link support-link\" data-support-open>SUPPORT R2G2</button></div></section></div>"
+        },
+        {
+          "from": "${shareScoreMarkup(run)}<div class=\"menu-links\">",
+          "to": "${shareScoreMarkup(run)}${cleared?'':'<p class=\"support-invitation\"><button type=\"button\" class=\"menu-link support-link\" data-support-open>SUPPORT R2G2</button></p>'}<div class=\"menu-links\">"
+        }
+      ]
+    }
+  }
+}

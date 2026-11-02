@@ -1,3 +1,4 @@
+import {beforeSupportFeature} from './support-ui-revision.mjs';
 import {validCollection} from '../dist/scripture-collections.js';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -8,7 +9,7 @@ import {questions} from '../dist/questions.js';
 import {createRun,beginLevel} from '../dist/engine.js';
 import {emptyProfile,cleanNickname,captureProgress,saveProfile,loadProfile} from '../dist/storage.js';
 const source=await readFile(new URL('../dist/app.js',import.meta.url),'utf8'),fixture=JSON.parse(await readFile(new URL('fixtures/start-flow-revision.json',import.meta.url),'utf8')),sha=s=>createHash('sha256').update(s).digest('hex');
-const title=source.match(/function titleScreen\(\)[^\n]*/)[0];assert.equal(sha(title.replace('Help Akobi take the Kingdom.','Help Judah take the Kingdom')),fixture.titleFunctionWithoutInputSha256,'Only remove input from the approved title; all artwork, menu buttons and composition code unchanged');assert.doesNotMatch(title,/<input|nickname-label/);
+const title=beforeSupportFeature('dist/app.js',source.replace(/\r\n/g,'\n')).match(/function titleScreen\(\)[^\n]*/)[0];assert.equal(sha(title.replace('Help Akobi take the Kingdom.','Help Judah take the Kingdom')),fixture.titleFunctionWithoutInputSha256,'Only remove input from the approved title; all artwork, menu buttons and composition code unchanged');assert.doesNotMatch(title,/<input|nickname-label/);
 assert.equal(source.match(/if\(action==='continue'\)\{[\s\S]*?return\}if\(action==='next'\)/)[0],fixture.continueRoute,'Continue stays independent of name entry');
 const html=playerNameScreen('A"<script>');assert.match(html,/ENTER PLAYER NAME/);assert.match(html,/maxlength="16"/);assert.match(html,/autocomplete="nickname"/);assert.match(html,/enterkeyhint="go"/);assert.match(html,/type="submit"/);assert.match(html,/data-action="cancel-start"/);assert.ok(html.includes('A&quot;&lt;script&gt;'));assert.doesNotMatch(html,/Judith|CHARACTER SELECT|<script>/i);
 function definition(name){const at=source.indexOf(`function ${name}(`);assert.ok(at>=0);return source.slice(at).split('\n')[0];}
