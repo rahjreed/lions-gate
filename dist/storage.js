@@ -1,4 +1,5 @@
 import {collectionFor} from './scripture-collections.js';
+import {emptyMedals,loadMedals,topMasteryMedals} from './mastery-medals.js';
 import {studyPathFor} from './study-paths.js';
 import {validFlawless} from './flawless.js';
 import {validBattleDialogue} from './battle-dialogue.js';
@@ -6,15 +7,16 @@ import {validCombatPresentation,validRun,achievements,leaderboardSort,weekStart}
 import {reconcileArmor} from './armor.js';
 const KEY='lions-gate-arcade-v3';
 export const cleanNickname=value=>String(value||'PLAYER 1').replace(/[^a-zA-Z0-9 _-]/g,'').trim().slice(0,16)||'PLAYER 1';
-export function emptyProfile(){return {version:3,nickname:'PLAYER 1',run:null,records:[],badges:[],bestScore:0,bestCompleted:0,settings:{sound:true,music:true,shortJourneys:false,skipDialogue:false},armor:{unlocked:[],pending:[]},mastery:{version:2,legacyCompleted:0,legacyRecords:[]}}}
+export function emptyProfile(){return {version:3,nickname:'PLAYER 1',run:null,records:[],medals:emptyMedals(),badges:[],bestScore:0,bestCompleted:0,settings:{sound:true,music:true,shortJourneys:false,skipDialogue:false},armor:{unlocked:[],pending:[]},mastery:{version:2,legacyCompleted:0,legacyRecords:[]}}}
 export function loadProfile(storage,bank){try{const p=JSON.parse(storage.getItem(KEY));if(!p||p.version!==3)return emptyProfile();if(p.run){if(!validFlawless(p.run.flawless))delete p.run.flawless;if(!validBattleDialogue(p.run.battleDialogue))delete p.run.battleDialogue;if(!validCombatPresentation(p.run.combatPresentation,p.run.answers))delete p.run.combatPresentation;}const base=emptyProfile();const loaded={...base,nickname:cleanNickname(p.nickname),run:validRun(p.run,bank)?p.run:null,records:Array.isArray(p.records)?p.records.filter(r=>typeof r.id==='string'&&Number.isSafeInteger(r.score)&&r.score>=0&&Number.isSafeInteger(r.completed)&&r.completed>=0&&Number.isFinite(Date.parse(r.endedAt))).slice(0,100):[],badges:Array.isArray(p.badges)?p.badges.filter(b=>typeof b==='string').slice(0,30):[],bestScore:Number.isSafeInteger(p.bestScore)?Math.max(0,p.bestScore):0,bestCompleted:Number.isSafeInteger(p.bestCompleted)?Math.max(0,p.bestCompleted):0,settings:{sound:typeof p.settings?.sound==='boolean'?p.settings.sound:base.settings.sound,music:typeof p.settings?.music==='boolean'?p.settings.music:base.settings.music,shortJourneys:p.settings?.shortJourneys===true,skipDialogue:p.settings?.skipDialogue===true},armor:p.armor};
  const legacy=p.mastery?.version!==2,peak=Math.max(loaded.bestCompleted,loaded.run?.completed||0,loaded.run?.rankHighWater||0,...loaded.records.map(r=>r.completed));
  loaded.mastery={version:2,legacyCompleted:legacy?peak:Number.isSafeInteger(p.mastery.legacyCompleted)?Math.max(0,p.mastery.legacyCompleted):0,legacyRecords:legacy?loaded.records.map(r=>({id:r.id,completed:r.completed})):Array.isArray(p.mastery.legacyRecords)?p.mastery.legacyRecords.filter(r=>typeof r.id==='string'&&Number.isSafeInteger(r.completed)&&r.completed>=0).slice(0,100):[]};
  loaded.bestCompleted=peak;
  if(loaded.run){loaded.run.scriptureCollection=collectionFor(loaded.run);loaded.run.studyPath=studyPathFor(loaded.run);loaded.run.rankHighWater=Math.max(loaded.run.rankHighWater||0,peak);if(legacy)loaded.run.lastPromotion=null;}
+ loaded.medals=loadMedals(p.medals);
  reconcileArmor(loaded);return loaded}catch{return emptyProfile()}}
 export function saveProfile(storage,p){try{storage.setItem(KEY,JSON.stringify(p));return true}catch{return false}}
 export function captureProgress(profile,run){profile.run=run;profile.bestScore=Math.max(profile.bestScore,run.score);profile.bestCompleted=Math.max(profile.bestCompleted,run.completed);run.rankHighWater=Math.max(run.rankHighWater||0,profile.bestCompleted);profile.badges=[...new Set([...profile.badges,...achievements(run)])];
- reconcileArmor(profile);if(run.status==='gameover'){const row={id:run.id,nickname:cleanNickname(run.nickname),score:run.score,completed:run.completed,level:run.level,endedAt:run.endedAt};profile.records=[...profile.records.filter(r=>r.id!==row.id),row].sort(leaderboardSort).slice(0,100)}else profile.records=profile.records.filter(r=>r.id!==run.id);return profile;
+ reconcileArmor(profile);if(run.status==='gameover'){const earned=topMasteryMedals(profile.medals,run.nickname);const row={id:run.id,nickname:cleanNickname(run.nickname),score:run.score,completed:run.completed,level:run.level,endedAt:run.endedAt,...(earned.length?{masteryMedals:earned}:{})};profile.records=[...profile.records.filter(r=>r.id!==row.id),row].sort(leaderboardSort).slice(0,100)}else profile.records=profile.records.filter(r=>r.id!==run.id);return profile;
 }
 export function localScores(profile,filter='all',now=new Date()){return profile.records.filter(r=>filter!=='week'||r.endedAt>=weekStart(now)).sort(leaderboardSort)}

@@ -1,3 +1,4 @@
+import {creditMasteryAnswer} from '../dist/mastery-medals.js';
 import {validStudyPath} from '../dist/study-paths.js';
 import {beforeSupportFeature} from './support-ui-revision.mjs';
 import {validCollection} from '../dist/scripture-collections.js';
@@ -16,6 +17,7 @@ const html=playerNameScreen('A"<script>');assert.match(html,/ENTER PLAYER NAME/)
 function definition(name){const at=source.indexOf(`function ${name}(`);assert.ok(at>=0);return source.slice(at).split('\n')[0];}
 function setup(existing=false){
  const profile=emptyProfile();profile.nickname='Existing Hero';profile.bestCompleted=699;profile.bestScore=12345;profile.badges=['first-perfect'];profile.armor.unlocked=['belt'];profile.settings.skipDialogue=true;
+ const mq=questions[0];for(let asked=1;asked<=10;asked++)creditMasteryAnswer(profile,{id:'start-flow-medal-fixture',nickname:profile.nickname,status:'feedback',asked,index:0,queue:[{id:mq.id}],answers:[{id:mq.id,choice:mq.answer,correct:true}],scriptureCollection:'kjv80',studyPath:'complete'},questions);
  const old=existing?createRun(questions,profile.nickname,()=>.42):null;if(old){old.level=700;old.completed=699;beginLevel(old,questions,()=>.42);old.score=4321;old.lives=2;captureProgress(profile,old);}
  const storage={value:null,getItem(){return this.value},setItem(_,value){this.value=value}};saveProfile(storage,profile);
  const calls={newRuns:0,writes:0,encounters:0,confirmations:0,focus:[]},input={value:'',focus(){calls.focus.push('input')},select(){}};
@@ -26,13 +28,13 @@ function setup(existing=false){
  };vm.createContext(c);vm.runInContext(['start','chooseCollection','chooseStudyPath','openPlayerName','cancelStart','confirmPlayerName','beginNewGame','act'].map(definition).join('\n'),c);return{c,calls,input,storage};
 }
 for(const existing of [false,true])for(const mode of ['kjv80','kjv66'])for(const path of ['complete','ot','nt']){
- const {c,calls,input,storage}=setup(existing),before=JSON.stringify(c.profile),saved=storage.value,oldRun=JSON.stringify(c.run);
+ const {c,calls,input,storage}=setup(existing),before=JSON.stringify(c.profile),saved=storage.value,oldRun=JSON.stringify(c.run),medalsBefore=JSON.stringify(c.profile.medals);
  c.act('start');assert.equal(c.view,'collection');assert.equal(c.collectionDraft,null);c.act('confirm-name');assert.equal(calls.newRuns,0);c.act('choose-'+mode);assert.equal(c.view,'study-path');assert.equal(c.studyPathDraft,null);c.act('confirm-name');assert.equal(calls.newRuns,0);c.act('path-'+path);assert.equal(c.view,'name-entry');assert.equal(input.value,'Existing Hero');assert.equal(calls.newRuns,0);assert.equal(calls.confirmations,0);assert.equal(storage.value,saved);assert.equal(JSON.stringify(c.run),oldRun);
  input.value='Discarded';c.nameDraft=input.value;c.act('cancel-start');assert.equal(c.view,'study-path');assert.equal(c.studyPathDraft,path);c.act('cancel-start');assert.equal(c.view,'collection');assert.equal(c.collectionDraft,mode);c.act('cancel-start');assert.equal(c.view,'title');assert.equal(JSON.stringify(c.profile),before);assert.equal(storage.value,saved);assert.equal(calls.focus.at(-1),'start');
  c.act('start');c.act('choose-'+mode);c.act('path-'+path);assert.equal(input.value,'Existing Hero');input.value='New <Hero>!';c.nameDraft=input.value;
  if(existing){c.act('confirm-name');assert.equal(c.view,'name-entry');assert.equal(calls.confirmations,1);assert.equal(calls.newRuns,0);assert.equal(JSON.stringify(c.profile),before);assert.equal(storage.value,saved);c.allowOverwrite=true;}
- c.act('confirm-name');assert.equal(c.view,'game');assert.equal(c.profile.nickname,'New Hero');assert.equal(c.run.nickname,'New Hero');assert.equal(c.run.level,1);assert.equal(c.run.lives,5);assert.equal(c.run.scriptureCollection,mode);assert.equal(c.run.studyPath,path);assert.equal(calls.newRuns,1);assert.equal(calls.encounters,1);assert.equal(c.profile.bestCompleted,699);assert.equal(c.profile.bestScore,12345);assert.deepEqual(c.profile.armor.unlocked,['belt']);assert.ok(c.profile.badges.includes('first-perfect'));
- const loaded=loadProfile(storage,questions);assert.equal(loaded.nickname,'New Hero');assert.equal(loaded.run.nickname,'New Hero');assert.equal(loaded.run.id,c.run.id);assert.equal(loaded.run.studyPath,path);
+ c.act('confirm-name');assert.equal(c.view,'game');assert.equal(c.profile.nickname,'New Hero');assert.equal(c.run.nickname,'New Hero');assert.equal(c.run.level,1);assert.equal(c.run.lives,5);assert.equal(c.run.scriptureCollection,mode);assert.equal(c.run.studyPath,path);assert.equal(calls.newRuns,1);assert.equal(calls.encounters,1);assert.equal(c.profile.bestCompleted,699);assert.equal(c.profile.bestScore,12345);assert.deepEqual(c.profile.armor.unlocked,['belt']);assert.ok(c.profile.badges.includes('first-perfect'));assert.equal(JSON.stringify(c.profile.medals),medalsBefore,'New run/name never erases existing identity medals');
+ const loaded=loadProfile(storage,questions);assert.equal(loaded.nickname,'New Hero');assert.equal(loaded.run.nickname,'New Hero');assert.equal(loaded.run.id,c.run.id);assert.equal(loaded.run.studyPath,path);assert.equal(JSON.stringify(loaded.medals),medalsBefore);
  c.act('confirm-name');assert.equal(calls.newRuns,1,'Detached/repeated submissions cannot create a second run');
 }
 const {c,calls}=setup(true),prior=JSON.stringify(c.run),profileBefore=JSON.stringify(c.profile);c.act('continue');assert.equal(c.view,'game');assert.equal(c.paused,true);assert.equal(JSON.stringify(c.run),prior);assert.equal(JSON.stringify(c.profile),profileBefore);assert.equal(calls.newRuns,0);assert.equal(calls.confirmations,0);

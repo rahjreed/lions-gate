@@ -1,3 +1,4 @@
+import {creditMasteryAnswer} from '../dist/mastery-medals.js';
 // Regression tests for the owner-authorized true-defeat rule, superseding the audit characterization.
 import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import vm from 'node:vm';
 import {questions} from '../dist/questions.js';import {createRun,beginLevel,submit,advance,nextLevel,retryLevel,usePower,levelConfig,masteryCompleted,wardrobeFor} from '../dist/engine.js';
@@ -62,7 +63,7 @@ function lastQuestion(kind,level=1){const pattern=kind==='survivor'?patterns.eig
 function appHarness(run,reduced=false){
  const cclock=clock(),d=new CombatDirector(cclock.options),profile=emptyProfile(),saved={data:null,getItem(){return this.data},setItem(k,v){this.data=v}},log={frames:[],reveals:[],health:[],numbers:[],advances:0};profile.settings.skipDialogue=true;
  const control={setAttribute(){},focus(){}},app={innerHTML:'',querySelectorAll:()=>[],insertAdjacentHTML(){}};
- const c={run,profile,questions:bank,view:'game',paused:false,deadline:0,combat:d,pendingCombatHUD:null,storageOK:true,armorItems:[],armorReveal:{close(){}},app,
+ const c={medalAwards:[],creditMasteryAnswer,showMedalNotification(){},run,profile,questions:bank,view:'game',paused:false,deadline:0,combat:d,pendingCombatHUD:null,storageOK:true,armorItems:[],armorReveal:{close(){}},app,
   submit,advance:(...args)=>{const ok=advance(...args);if(ok)log.advances++;return ok},combatHealth,combatDamageFeedback,combatHealthMarkup,romanSoldier,finisherVariation,masteryCompleted,wardrobeFor,levelConfig,gateProgress,pendingBattleDialogue,pendingDialogue,clearBattleDialogue,
   director:{cancel(){}},releasePause(){},updateAudioControls(){},setGameLayout(){},stopClock(){},startClock(){},music(){},persist(){captureProgress(profile,c.run);saveProfile(saved,profile)},
   environments:[{unlock:0}],landscape:()=>'',symbolicGate:()=>'',sword:'',judah:(_,pose)=>`<figure class="judah" data-pose="${pose}"></figure>`,hud:()=>'',esc:String,

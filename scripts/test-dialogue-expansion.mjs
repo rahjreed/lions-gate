@@ -1,3 +1,4 @@
+import {creditMasteryAnswer} from '../dist/mastery-medals.js';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
@@ -49,7 +50,7 @@ function harness(run,{skip=false,reduced=false}={}){
  let now=0,id=0;const jobs=new Map(),profile=emptyProfile(),saved={data:null,getItem(){return this.data},setItem(k,v){this.data=v}},events={frames:[],reveals:0,impacts:0,questionClocks:0,html:'',preview:null};profile.settings.skipDialogue=skip;
  const director=new CombatDirector({now:()=>now,setTimer:(fn,ms)=>{jobs.set(++id,{fn,at:now+ms});return id},clearTimer:id=>jobs.delete(id)});
  const control={focus(){}};
- const c={run,profile,questions,view:'game',paused:false,deadline:0,timer:null,pendingCombatHUD:null,encounter:null,pauseFocus:null,
+ const c={medalAwards:[],creditMasteryAnswer,showMedalNotification(){},run,profile,questions,view:'game',paused:false,deadline:0,timer:null,pendingCombatHUD:null,encounter:null,pauseFocus:null,
   EncounterDialogue,pendingBattleDialogue,claimBattleDialogue,clearBattleDialogue,battleExchange,submit,advance,levelConfig,combatHealth,combatDamageFeedback,masteryCompleted,wardrobeFor,finisherVariation,
   combat:director,director:{cancel(){},pause(){},resume(){}},Date:{now:()=>now},window:{scrollTo(){}},document:{hidden:false,createElement:()=>({content:{firstElementChild:{}}})},matchMedia:()=>({matches:reduced}),
   $:s=>s==='#answer-reveal'?c.view==='game'&&c.run.status==='feedback'?control:null:['#screen-title','#dialogue-next'].includes(s)?control:null,

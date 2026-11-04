@@ -1,0 +1,68 @@
+{
+  "files": {
+    "dist/storage.js": {
+      "beforeSha256": "beffa81dc8d8bfc2efe0e9b569781c45b5b417ed37ecbe76139dc80104c05a4f",
+      "afterSha256": "2a4d39248c5e1b07d7574afeeeb839ae32b9859bbe637ecf5c4cec6623e030d5",
+      "edits": [
+        {
+          "from": "import {collectionFor} from './scripture-collections.js';",
+          "to": "import {collectionFor} from './scripture-collections.js';\nimport {emptyMedals,loadMedals,topMasteryMedals} from './mastery-medals.js';"
+        },
+        {
+          "from": "return {version:3,nickname:'PLAYER 1',run:null,records:[],badges:[]",
+          "to": "return {version:3,nickname:'PLAYER 1',run:null,records:[],medals:emptyMedals(),badges:[]"
+        },
+        {
+          "from": " reconcileArmor(loaded);return loaded",
+          "to": " loaded.medals=loadMedals(p.medals);\n reconcileArmor(loaded);return loaded"
+        },
+        {
+          "from": "const row={id:run.id,nickname:cleanNickname(run.nickname),score:run.score,completed:run.completed,level:run.level,endedAt:run.endedAt};",
+          "to": "const earned=topMasteryMedals(profile.medals,run.nickname);const row={id:run.id,nickname:cleanNickname(run.nickname),score:run.score,completed:run.completed,level:run.level,endedAt:run.endedAt,...(earned.length?{masteryMedals:earned}:{})};"
+        }
+      ]
+    },
+    "dist/app.js": {
+      "beforeSha256": "1fff314fc3d8393444e65b46a8a7d178295247842db33f7e2a9c06903bb70470",
+      "afterSha256": "bde7a9b61371f8083e924ff84c64d6600d109ad607672a5880ef5e728df3da1c",
+      "edits": [
+        {
+          "from": "import {gameVersion} from './release.js';",
+          "to": "import {gameVersion} from './release.js';\nimport {creditMasteryAnswer,trophyRoomMarkup,hallMedalsMarkup,showMedalNotification} from './mastery-medals.js';"
+        },
+        {
+          "from": "let pendingCombatHUD=null,heldAnimations=[],pauseFocus=null,encounter=null;",
+          "to": "let pendingCombatHUD=null,heldAnimations=[],pauseFocus=null,encounter=null,medalAwards=[];"
+        },
+        {
+          "from": "profile.nickname=cleanNickname(nickname);run=createRun",
+          "to": "profile.nickname=cleanNickname(nickname);medalAwards=[];run=createRun"
+        },
+        {
+          "from": " pendingCombatHUD=before;\n run.combatPresentation",
+          "to": " medalAwards=creditMasteryAnswer(profile,run,questions);\n pendingCombatHUD=before;\n run.combatPresentation"
+        },
+        {
+          "from": "onFinish:()=>{run.combatPresentation={answer:run.answers.length,complete:true};persist();if($('#answer-reveal'))answerReveal.open($('#answer-reveal'),proceed)}",
+          "to": "onFinish:()=>{run.combatPresentation={answer:run.answers.length,complete:true};persist();if($('#answer-reveal'))answerReveal.open($('#answer-reveal'),proceed);showMedalNotification(medalAwards,audio);medalAwards=[];}"
+        },
+        {
+          "from": "${button('SETTINGS','settings','menu-link')}<button type=\"button\" class=\"menu-link support-link\"",
+          "to": "${button('SETTINGS','settings','menu-link')}${button('TROPHY ROOM','trophies','menu-link')}<button type=\"button\" class=\"menu-link support-link\""
+        },
+        {
+          "from": "${esc(cleanNickname(r.nickname))}</td>",
+          "to": "${esc(cleanNickname(r.nickname))}${!sample?hallMedalsMarkup(r):''}</td>"
+        },
+        {
+          "from": "view==='hall'?hallScreen():view==='guide'",
+          "to": "view==='trophies'?trophyRoomMarkup(profile,questions):view==='hall'?hallScreen():view==='guide'"
+        },
+        {
+          "from": "if(['hall','guide','armory'].includes(action))",
+          "to": "if(action==='trophies'){setView('trophies');$('#screen-title')?.focus();return}if(['hall','guide','armory'].includes(action))"
+        }
+      ]
+    }
+  }
+}
