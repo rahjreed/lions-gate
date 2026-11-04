@@ -1,0 +1,116 @@
+{
+  "files": {
+    "dist/engine.js": {
+      "beforeSha256": "c30f99bd5db226b56abbd2ae2cf3874b82a5fc43a6f7a91b83b3702ac1e46a63",
+      "afterSha256": "628618fdb26ca0f89402edafd2e9a9ce86db5f6344d445c08e99968a3fec6f3f",
+      "edits": [
+        {
+          "from": "import {selectKnowledgeQuestions} from './question-selection.js';",
+          "to": "import {selectKnowledgeQuestions} from './question-selection.js';\nimport {studyPathFor,validStudyPath,questionInStudy} from './study-paths.js';"
+        },
+        {
+          "from": "random=Math.random,scriptureCollection='kjv80'){",
+          "to": "random=Math.random,scriptureCollection='kjv80',studyPath='complete'){"
+        },
+        {
+          "from": " if(!validCollection(scriptureCollection))throw new RangeError('Select a valid Scripture collection.');",
+          "to": " if(!validCollection(scriptureCollection))throw new RangeError('Select a valid Scripture collection.');\n if(!validStudyPath(studyPath))throw new RangeError('Select a valid study path.');"
+        },
+        {
+          "from": "const run={version:VERSION,scriptureCollection,",
+          "to": "const run={version:VERSION,scriptureCollection,studyPath,"
+        },
+        {
+          "from": "!questionInCollection(q,collectionFor(run))",
+          "to": "!questionInStudy(q,collectionFor(run),studyPathFor(run))"
+        },
+        {
+          "from": " bank=bank.filter(q=>questionInCollection(q,collectionFor(run)));",
+          "to": " if(!validStudyPath(studyPathFor(run)))return false;\n bank=bank.filter(q=>questionInStudy(q,collectionFor(run),studyPathFor(run)));"
+        }
+      ]
+    },
+    "dist/question-selection.js": {
+      "beforeSha256": "e01bbe9bb727f6e1062027a358991adf5aa8f6e506fc5c406e7a0d6c79b876df",
+      "afterSha256": "787aee3475a59ce18f32995ea0744c7ba549462eac6856ac26986ecd186cb8de",
+      "edits": [
+        {
+          "from": "import {focusTags} from './focus-questions.js';",
+          "to": "import {focusTags} from './focus-questions.js';\nimport {studyPathFor,questionInStudy} from './study-paths.js';"
+        },
+        {
+          "from": "if(!questionInCollection(q,collectionFor(run)))return false;",
+          "to": "if(!questionInStudy(q,collectionFor(run),studyPathFor(run)))return false;"
+        }
+      ]
+    },
+    "dist/storage.js": {
+      "beforeSha256": "a88b134774296624485ae015a93e36221bdee519f07b4c805122cc5a51952a87",
+      "afterSha256": "beffa81dc8d8bfc2efe0e9b569781c45b5b417ed37ecbe76139dc80104c05a4f",
+      "edits": [
+        {
+          "from": "import {collectionFor} from './scripture-collections.js';",
+          "to": "import {collectionFor} from './scripture-collections.js';\nimport {studyPathFor} from './study-paths.js';"
+        },
+        {
+          "from": "loaded.run.scriptureCollection=collectionFor(loaded.run);",
+          "to": "loaded.run.scriptureCollection=collectionFor(loaded.run);loaded.run.studyPath=studyPathFor(loaded.run);"
+        }
+      ]
+    },
+    "dist/app.js": {
+      "beforeSha256": "a53fa43851b8e5e56df805ad477151fee09be55187ef00b50450da44aa21fb44",
+      "afterSha256": "1fff314fc3d8393444e65b46a8a7d178295247842db33f7e2a9c06903bb70470",
+      "edits": [
+        {
+          "from": "import {gameVersion} from './release.js';",
+          "to": "import {gameVersion} from './release.js';\nimport {studyPathScreen,validStudyPath,studyCompletionMarkup} from './study-paths.js';"
+        },
+        {
+          "from": "let nameDraft=profile.nickname,collectionDraft=null;",
+          "to": "let nameDraft=profile.nickname,collectionDraft=null,studyPathDraft=null;"
+        },
+        {
+          "from": "view==='collection'||view==='encounter'",
+          "to": "view==='collection'||view==='study-path'||view==='encounter'"
+        },
+        {
+          "from": "function start(){nameDraft=profile.nickname;collectionDraft=null;setView('collection');",
+          "to": "function start(){nameDraft=profile.nickname;collectionDraft=null;studyPathDraft=null;setView('collection');"
+        },
+        {
+          "from": "function chooseCollection(id){if(view!=='collection'||!validCollection(id))return;collectionDraft=id;setView('name-entry');$('#nickname')?.focus({preventScroll:true});$('#nickname')?.select()}",
+          "to": "function chooseCollection(id){if(view!=='collection'||!validCollection(id))return;if(collectionDraft!==id)studyPathDraft=null;collectionDraft=id;setView('study-path');$('#screen-title')?.focus()}\nfunction chooseStudyPath(id){if(view!=='study-path'||!validCollection(collectionDraft)||!validStudyPath(id))return;studyPathDraft=id;openPlayerName()}\n// Future character selection can be inserted at this single flow boundary.\nfunction openPlayerName(){setView('name-entry');$('#nickname')?.focus({preventScroll:true});$('#nickname')?.select()}"
+        },
+        {
+          "from": "function cancelStart(){if(view==='name-entry'){setView('collection');$('#screen-title')?.focus();return}nameDraft=profile.nickname;collectionDraft=null;setView('title');",
+          "to": "function cancelStart(){if(view==='name-entry'){setView('study-path');$('#screen-title')?.focus();return}if(view==='study-path'){setView('collection');$('#screen-title')?.focus();return}nameDraft=profile.nickname;collectionDraft=null;studyPathDraft=null;setView('title');"
+        },
+        {
+          "from": "if(view!=='name-entry'||!validCollection(collectionDraft))return;",
+          "to": "if(view!=='name-entry'||!validCollection(collectionDraft)||!validStudyPath(studyPathDraft))return;"
+        },
+        {
+          "from": "createRun(questions,profile.nickname,Math.random,collectionDraft)",
+          "to": "createRun(questions,profile.nickname,Math.random,collectionDraft,studyPathDraft)"
+        },
+        {
+          "from": "if(action==='confirm-name')return confirmPlayerName();",
+          "to": "if(action.startsWith('path-'))return chooseStudyPath(action.slice(5));if(action==='confirm-name')return confirmPlayerName();"
+        },
+        {
+          "from": "view==='collection'?collectionScreen():",
+          "to": "view==='study-path'?studyPathScreen():view==='collection'?collectionScreen():"
+        },
+        {
+          "from": "['collection','name-entry'].includes(view)&&e.key==='Escape'",
+          "to": "['collection','study-path','name-entry'].includes(view)&&e.key==='Escape'"
+        },
+        {
+          "from": "</h1>${cleared?'':`<p class=\"gameover-level\">",
+          "to": "</h1>${studyCompletionMarkup(run)}${cleared?'':`<p class=\"gameover-level\">"
+        }
+      ]
+    }
+  }
+}

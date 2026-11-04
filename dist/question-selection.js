@@ -1,5 +1,6 @@
 import {collectionFor,questionInCollection} from './scripture-collections.js';
 import {focusTags} from './focus-questions.js';
+import {studyPathFor,questionInStudy} from './study-paths.js';
 import {contentFingerprint,validateQuestions} from './question-rules.js';
 import {knowledgeFor,knowledgeStage,normalizedText,answerConflict} from './knowledge.js';
 
@@ -8,7 +9,7 @@ export function selectKnowledgeQuestions(bank,run,random=Math.random,avoid=[],en
  const target=boss?stage.bossTarget:stage.target,ids=new Set(),stems=new Set();
  // Validate publication state even when a caller passes a mixed import batch.
  const approved=bank.filter(q=>{
-  if(!questionInCollection(q,collectionFor(run)))return false;
+  if(!questionInStudy(q,collectionFor(run),studyPathFor(run)))return false;
   if(q.review?.status!=='verified'||q.review.contentFingerprint!==contentFingerprint(q))return false;
   try{
    validateQuestions([q]);const stem=normalizedText(q.q);
