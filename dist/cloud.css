@@ -5,10 +5,21 @@
 .cloud-modal :focus-visible{outline:3px solid #86e4ff;outline-offset:3px}.cloud-modal .fine-print{font-size:12px;line-height:1.6}
 .cloud-summary,.cloud-leaderboard article{display:grid;gap:6px;padding:12px;border:1px solid #69708a;background:#1b2335;margin:12px 0;overflow-wrap:anywhere}
 .cloud-summary small,.cloud-leaderboard small{font-size:12px;line-height:1.5;color:#bbd2db}.cloud-status{color:#a9e5eb;min-height:44px}.cloud-public{display:flex;align-items:center;gap:12px;line-height:1.6;font-size:14px;margin:18px 0}.cloud-public input{width:24px;height:24px;flex-shrink:0}
-.opening .title-screen .title-menu>.cloud-account-button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:64px;padding:10px 8px;color:#eff9ff;border-color:#b9dcdf;background:linear-gradient(#315c88,#1b385f);box-shadow:inset 0 0 0 2px #13243c,inset 0 3px #8fb6d0,inset 0 -4px #132540,0 4px #0a1222,0 6px #677584;text-shadow:0 2px #14243b;white-space:normal}
-.opening .cloud-account-button .cloud-account-label{line-height:1.7;overflow-wrap:anywhere}
-.opening .cloud-account-button small{font:500 clamp(11px,1.6vw,13px)/1.4 var(--mono);letter-spacing:0;color:#d1e8f2;text-shadow:none}
-.opening .title-screen .title-menu>.cloud-account-button:hover{background:linear-gradient(#3c6f9b,#244971);border-color:#ffe49f}
-.opening .cloud-account-button:focus-visible{outline:3px solid #ffe49f;outline-offset:4px}
-@media(max-width:760px){.opening .title-screen .title-menu>.cloud-account-button{min-height:60px;padding:8px 6px;gap:3px}}
+/* Google's light button styling; the supplied logo/font are hosted locally. */
+@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:url('assets/account/google-sans-signin.woff2') format('woff2')}
+.google-signin{appearance:none;position:relative;z-index:21;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-width:0;min-height:44px;padding:11px 12px;background:#fff;color:#1f1f1f;border:1px solid #747775;border-radius:4px;box-shadow:none;text-shadow:none;text-transform:none;letter-spacing:.25px;font:500 14px/20px 'Google Sans',Arial,sans-serif;cursor:pointer}
+.google-signin img{width:20px;height:20px;flex:none;object-fit:contain;image-rendering:auto}.google-signin span{font:inherit;letter-spacing:inherit}
+.google-signin:hover{background:#f8f9fa}.google-signin:disabled{opacity:.55;cursor:wait}.google-signin:focus-visible{outline:3px solid #4285f4;outline-offset:3px}
+.opening .title-screen .title-menu>.cloud-account-entry{display:grid;gap:6px;width:100%;min-width:0;margin:0;flex:none}
+.cloud-account-entry>small{font:12px/1.4 Arial,sans-serif;color:#c9d6e3;text-align:center}
+.cloud-account-entry>.cloud-setup-button{width:100%;min-width:0;min-height:44px;margin:0;white-space:normal;font:700 13px/1.4 var(--mono)}
+.cloud-modal-heading{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;position:sticky;top:0;z-index:2;background:#101626;padding:0 0 8px;border-bottom:1px solid #69708a;margin-bottom:12px}
+.cloud-modal-heading h1{margin:0;min-width:0}.cloud-close{appearance:none;flex:none;min-height:44px;padding:8px 10px;border:1px solid #a2b5c6;border-radius:4px;background:#25374b;color:#f5f7fa;font:14px/20px Arial,sans-serif;cursor:pointer}
+.cloud-account-bar{box-sizing:border-box;display:flex;justify-content:flex-end;width:100%;max-width:1160px;margin:0 auto;padding:3px 12px;flex:none;min-width:0}
+.cloud-account-bar[hidden]{display:none!important}
+.cloud-account-indicator{appearance:none;display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:100%;min-width:0;min-height:36px;padding:6px 10px;border:1px solid #71859c;border-radius:5px;background:#18283c;color:#e2eaf4;cursor:pointer;font:12px/1.4 var(--mono);text-align:left;white-space:normal}
+.cloud-arcade-name{min-width:0;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cloud-connection-label{min-width:0;text-align:right}
+.cloud-account-bar[data-state=connected] .cloud-connection-label{color:#a3e8bf}.cloud-account-bar[data-state=pending] .cloud-connection-label{color:#f4d88c}.cloud-account-bar[data-state=action] .cloud-connection-label{color:#ffb8a8}
+.cloud-account-indicator:focus-visible{outline:3px solid #a3dcff;outline-offset:2px}
+.cloud-account-toast{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:10000;box-sizing:border-box;width:max-content;max-width:calc(100vw - 24px);padding:12px 16px;border:1px solid #a3e8bf;border-radius:5px;background:#173a2f;color:#edfff4;box-shadow:0 3px 14px #0008;font:14px/1.5 Arial,sans-serif;pointer-events:none}
 @media(prefers-reduced-motion:reduce){.cloud-modal{scroll-behavior:auto}}
