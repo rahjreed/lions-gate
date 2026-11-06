@@ -10,6 +10,7 @@ __pycache__/
 .verification/firebase-runtime/
 .verification/npm-cache/
 .verification/firebase-logs/
+.verification/browser-tests/
 
 # Dialogue submissions and reviewer identities are private local working files.
 content/dialogue/private/

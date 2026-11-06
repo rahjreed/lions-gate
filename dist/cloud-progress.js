@@ -42,7 +42,7 @@ export function publicSummary(p){
 export function validPublicRow(row){return row&&typeof row.name==='string'&&row.name===cleanNickname(row.name)&&Number.isSafeInteger(row.level)&&row.level>=1&&Number.isSafeInteger(row.souls)&&row.souls>=0&&Array.isArray(row.medals)&&row.medals.length<=3&&row.medals.every(m=>typeof m==='string'&&medalCategories.some(c=>medalTiers.some(t=>m===c.id+':'+t.id)));}
 // Dependency-injected controller: no network or SDK initialization at module import.
 export class CloudProgress{
- constructor({storage,bank,getProfile,applyProfile,onChange=()=>{},schedule=setTimeout,cancel=clearTimeout}){
+ constructor({storage,bank,getProfile,applyProfile,onChange=()=>{},schedule=(fn,delay)=>globalThis.setTimeout(fn,delay),cancel=id=>globalThis.clearTimeout(id)}){
   Object.assign(this,{storage,bank,getProfile,applyProfile,onChange,schedule,cancel});this.user=null;this.api=null;this.revision=null;this.bound=false;this.busy=false;this.generation=0;this.timer=null;this.public=false;this.status='Play as Guest — progress stays on this device.';
   try{this.prefs=JSON.parse(storage.getItem(CLOUD_KEY))||{};}catch{this.prefs={};}
  }
@@ -136,7 +136,10 @@ export function friendlyError(e){
  if(code==='auth/popup-closed-by-user'||code==='auth/cancelled-popup-request')return 'Sign-in cancelled. Guest progress is safe.';
  if(code==='auth/popup-blocked')return 'Allow the Google sign-in popup, then try again. Guest play remains available.';
  if(code==='auth/unauthorized-domain')return 'This hostname needs Firebase Authentication authorization. Guest play remains available.';
+ if(code==='auth/operation-not-supported-in-this-environment'||code==='auth/disallowed-useragent')return 'Google sign-in is unavailable in this browser. Open the game directly in Chrome or Safari. Local progress here is unchanged.';
+ if(code==='auth/web-storage-unsupported')return 'Google sign-in needs browser storage. Allow storage in Chrome or Safari, or keep playing as Guest.';
  if(code==='permission-denied')return 'Cloud access was denied. Check Firebase rules and sign-in. Local progress is safe.';
  if(code==='unavailable'||code==='auth/network-request-failed')return 'Cloud unavailable or offline. Keep playing locally; reconnect and compare saves later.';
+ if(typeof code==='string'&&code.startsWith('auth/'))return 'Google sign-in could not finish. Try again in Chrome or Safari. Local progress is unchanged.';
  return (e?.message||'Cloud unavailable.')+' Your local progress is safe.';
 }
