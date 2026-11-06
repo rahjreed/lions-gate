@@ -1,0 +1,58 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function owner(uid) { return request.auth != null && request.auth.uid == uid; }
+  function integer(n) { return n is int && n >= 0 && n <= 9007199254740991; }
+  function saveFields() {
+   let d = request.resource.data;
+   return d.keys().hasAll(['schema','revision','payload','leaderboardEnabled','updatedAt'])
+    && d.keys().hasOnly(['schema','revision','payload','leaderboardEnabled','updatedAt'])
+    && d.leaderboardEnabled is bool
+    && d.schema == 1 && integer(d.revision) && d.revision > 0
+    && d.payload is string && d.payload.size() > 0 && d.payload.toUtf8().size() <= 700000
+    && d.updatedAt == request.time;
+  }
+  function listingConsistent(uid) {
+   let path = /databases/$(database)/documents/leaderboard/$(uid);
+   return request.resource.data.leaderboardEnabled
+    ? existsAfter(path) && getAfter(path).data.revision == request.resource.data.revision
+      && getAfter(path).data.updatedAt == request.time
+    : !existsAfter(path);
+  }
+  match /players/{uid}/saves/current {
+   allow get: if owner(uid);
+   allow create: if owner(uid) && saveFields() && request.resource.data.revision == 1 && listingConsistent(uid);
+   allow update: if owner(uid) && saveFields() && request.resource.data.revision == resource.data.revision + 1 && listingConsistent(uid);
+   // No client deletes or collection-wide private-save queries.
+  }
+  function medalsValid(m) {
+   return m is list && m.size() <= 3 && m.toSet().size() == m.size()
+    && m.hasOnly(['people:bronze','people:silver','people:gold','people:master',
+     'torah:bronze','torah:silver','torah:gold','torah:master',
+     'yeshua:bronze','yeshua:silver','yeshua:gold','yeshua:master',
+     'connections:bronze','connections:silver','connections:gold','connections:master',
+     'context:bronze','context:silver','context:gold','context:master',
+     'kingdom:bronze','kingdom:silver','kingdom:gold','kingdom:master',
+     'discernment:bronze','discernment:silver','discernment:gold','discernment:master']);
+  }
+  match /leaderboard/{uid} {
+   allow get: if true;
+   allow list: if request.query.limit != null && request.query.limit <= 20;
+   allow create, update: if owner(uid)
+    && request.resource.data.keys().hasAll(['name','level','souls','medals','revision','updatedAt'])
+    && request.resource.data.keys().hasOnly(['name','level','souls','medals','revision','updatedAt'])
+    && request.resource.data.name is string && request.resource.data.name.size() >= 1
+    && request.resource.data.name.size() <= 16 && request.resource.data.name.matches('[a-zA-Z0-9 _-]+')
+    && integer(request.resource.data.level) && request.resource.data.level >= 1
+    && integer(request.resource.data.souls) && medalsValid(request.resource.data.medals)
+    && integer(request.resource.data.revision)
+    && request.resource.data.updatedAt == request.time
+    && getAfter(/databases/$(database)/documents/players/$(uid)/saves/current).data.revision == request.resource.data.revision
+    && getAfter(/databases/$(database)/documents/players/$(uid)/saves/current).data.leaderboardEnabled == true
+    && getAfter(/databases/$(database)/documents/players/$(uid)/saves/current).data.updatedAt == request.time;
+   allow delete: if owner(uid)
+    && getAfter(/databases/$(database)/documents/players/$(uid)/saves/current).data.leaderboardEnabled == false;
+  }
+  match /{document=**} { allow read, write: if false; }
+ }
+}

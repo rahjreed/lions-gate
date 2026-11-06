@@ -1,0 +1,8 @@
+{
+ "name":"kingdom-race-firebase-emulator-tests",
+ "private":true,
+ "type":"module",
+ "scripts":{"test":"node run-emulators.mjs"},
+ "devDependencies":{"@firebase/rules-unit-testing":"6.0.0","firebase":"13.2.0","firebase-tools":"15.35.0"},
+ "overrides":{"@grpc/grpc-js":"1.13.6"}
+}

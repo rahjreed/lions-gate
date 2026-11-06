@@ -1,0 +1,22 @@
+{
+  "files": {
+    "dist/app.js": {
+      "beforeSha256": "bde7a9b61371f8083e924ff84c64d6600d109ad607672a5880ef5e728df3da1c",
+      "afterSha256": "63eb0cbf5503d39e5f6ef1d32e02ab56bf929286a985d32e196d233d7d212e8f",
+      "edits": [
+        {
+          "from": "import {gameVersion} from './release.js';",
+          "to": "import {gameVersion} from './release.js';\nimport {bindCloud} from './cloud-ui.js';"
+        },
+        {
+          "from": "bindSupport(app);",
+          "to": "bindSupport(app);\nconst cloud=bindCloud({root:app,storage,bank:questions,getProfile:()=>profile,applyProfile:restored=>{profile=restored;run=profile.run;medalAwards=[];pendingCombatHUD=null;setView('title');}});"
+        },
+        {
+          "from": "storageOK=saveProfile(storage,profile);const msg=",
+          "to": "storageOK=saveProfile(storage,profile);if(storageOK&&typeof cloud!=='undefined')cloud.localChanged();const msg="
+        }
+      ]
+    }
+  }
+}

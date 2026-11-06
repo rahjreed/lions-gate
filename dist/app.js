@@ -1,4 +1,5 @@
 import {gameVersion} from './release.js';
+import {bindCloud} from './cloud-ui.js';
 import {creditMasteryAnswer,trophyRoomMarkup,hallMedalsMarkup,showMedalNotification} from './mastery-medals.js';
 import {studyPathScreen,validStudyPath,studyCompletionMarkup} from './study-paths.js';
 import {bindSupport} from './support.js';
@@ -31,6 +32,7 @@ let pendingCombatHUD=null,heldAnimations=[],pauseFocus=null,encounter=null,medal
 let nameDraft=profile.nickname,collectionDraft=null,studyPathDraft=null;
 bindChallengeCopy(app);
 bindSupport(app);
+const cloud=bindCloud({root:app,storage,bank:questions,getProfile:()=>profile,applyProfile:restored=>{profile=restored;run=profile.run;medalAwards=[];pendingCombatHUD=null;setView('title');}});
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 $('#game-version').textContent=`VERSION ${gameVersion}`;
 const number=n=>Math.floor(n).toLocaleString('en-US');
@@ -38,7 +40,7 @@ const button=(label,action,cls='button',disabled=false)=>`<button class="${cls}"
 function judah(completed=0,pose='idle',caption=true){return drawJudah(Math.max(completed,profile.bestCompleted),pose,caption,profile.armor.unlocked,wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted))}
 function legacyHonor(){const old=legacyRankFor(profile.mastery.legacyCompleted);return old.name==='Novice'?'':`<p class="fine-print legacy-honor">LEGACY HONOR · ${esc(rankLabel(old))} under the earlier milestones. Retained wardrobe access; current rank follows the new completed-level milestones.</p>`}
 function claimArmor(){const id=profile.armor.pending[0];if(!acknowledgeArmor(profile,id))return;armorReveal.close();persist();render()}
-function persist(){if(run)captureProgress(profile,run);storageOK=saveProfile(storage,profile);const msg=$('#storage-warning');if(msg)msg.hidden=storageOK;}
+function persist(){if(run)captureProgress(profile,run);storageOK=saveProfile(storage,profile);if(storageOK&&typeof cloud!=='undefined')cloud.localChanged();const msg=$('#storage-warning');if(msg)msg.hidden=storageOK;}
 function music(){audio.configure(profile.settings.sound,profile.settings.music,view==='game'&&!paused&&run?.status==='playing'||view==='title'||view==='settings'||view==='name-entry'||view==='collection'||view==='study-path'||view==='encounter'&&!paused&&!document.hidden||view==='journey'&&!paused&&!document.hidden)}
 function stopClock(){clearInterval(timer);timer=null;deadline=0}
 function clock(){if(view!=='game'||paused||run?.status!=='playing')return;run.remaining=Math.max(0,(deadline-Date.now())/1000);const seconds=Math.ceil(run.remaining);$('.question-panel')?.classList.toggle('time-urgent',seconds<=10);if($('#clock')){$('#clock').textContent=String(seconds).padStart(2,'0');$('#clock').classList.toggle('danger',seconds<=10)}if($('#time-fill'))$('#time-fill').style.width=`${Math.min(100,run.remaining/levelConfig(run.level).seconds*100)}%`;if(seconds!==lastSavedSecond){lastSavedSecond=seconds;persist()}if(run.remaining===0)choose(-1);}
