@@ -145,3 +145,5 @@ body>header #pause-control{min-height:44px;min-width:96px;font-size:12px;letter-
 .name-entry-actions{display:grid;gap:12px;margin-top:28px}
 .name-entry-actions .button{width:100%;min-height:48px;box-sizing:border-box}
 @media(max-height:500px){.menu-screen.name-entry-screen{margin:8px auto;padding:18px}.name-entry-screen>h1{margin:8px 0 16px}.name-entry-actions{margin-top:16px;gap:8px}}
+
+header nav[hidden]{display:none}

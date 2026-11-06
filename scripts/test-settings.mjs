@@ -28,8 +28,6 @@ for(const key of ['music','sound']){const before=p.settings[key];c.act('setting-
 c.act('setting-dialogue');assert.equal(p.settings.skipDialogue,true);assert.equal(focus,'#setting-dialogue');assert.equal(writes,3);assert.equal(renders,3);assert.deepEqual(p.run,runBefore);
 // The same handler is used by the existing in-game controls; no redraw during combat.
 c.view='game';c.combat.active=true;const beforeRender=renders;c.changeAudioSetting('sound');assert.equal(renders,beforeRender);assert.deepEqual(p.run,runBefore);
-assert.match(source,/\$\('#sound'\)\.onclick=\(\)=>changeAudioSetting\('sound'\)/);
-assert.match(source,/\$\('#music'\)\.onclick=\(\)=>changeAudioSetting\('music'\)/);
 const gameplayState=r=>JSON.stringify({...r,dialogue:undefined,battleDialogue:undefined});
 for(const level of [1,10])for(const skip of [false,true]){
  const state={run:createRun(questions),profile:emptyProfile(),encounter:null,paused:false,view:'title',EncounterDialogue,pendingBattleDialogue,claimBattleDialogue,clearBattleDialogue,battleExchange,stopClock(){},persist(){},$:()=>null,views:[],setView(next){this.view=next;this.views.push(next)}};

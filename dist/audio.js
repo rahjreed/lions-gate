@@ -28,13 +28,13 @@ export const patches={
 export class ArcadeAudio{
  constructor({contextFactory=()=>new (globalThis.AudioContext||globalThis.webkitAudioContext)(),onState=()=>{}}={}){this.sound=false;this.music=false;this.context=null;this.loop=null;this.step=0;this.voices=new Set();this.contextFactory=contextFactory;this.onState=onState;this.playCount=0;this.generation=0}
  report(effect=''){this.onState({state:this.context?.state||'locked',effect,playCount:this.playCount,sound:this.sound})}
- async unlock(){try{this.context??=this.contextFactory();if(!this.sfxBus){this.sfxBus=this.context.createGain();this.sfxBus.gain.value=this.sound?.7:0;this.sfxBus.connect(this.context.destination);this.musicBus=this.context.createGain();this.musicBus.gain.value=.7;this.musicBus.connect(this.context.destination)}if(this.context.state!=='running')await this.context.resume();this.report();return this.context.state==='running'}catch{this.report('unavailable');return false}}
+ async unlock(){try{this.context??=this.contextFactory();if(!this.sfxBus){this.sfxBus=this.context.createGain();this.sfxBus.gain.value=this.sound?.7:0;this.sfxBus.connect(this.context.destination);this.switchBus=this.context.createGain();this.switchBus.gain.value=.7;this.switchBus.connect(this.context.destination);this.musicBus=this.context.createGain();this.musicBus.gain.value=.7;this.musicBus.connect(this.context.destination)}if(this.context.state!=='running')await this.context.resume();this.report();return this.context.state==='running'}catch{this.report('unavailable');return false}}
  tone(frequency,duration=.12,type='square',volume=.025,delay=0,endFrequency=null,bus='sfx'){
   if(!this.context||this.context.state!=='running')return;
   const c=this.context,o=c.createOscillator(),g=c.createGain(),at=c.currentTime+delay;
   o.type=type;o.frequency.setValueAtTime(frequency,at);if(endFrequency)o.frequency.exponentialRampToValueAtTime(endFrequency,at+duration);
   g.gain.setValueAtTime(.001,at);g.gain.linearRampToValueAtTime(volume,at+.006);g.gain.exponentialRampToValueAtTime(.001,at+duration);
-  o.connect(g);g.connect(bus==='music'?this.musicBus:this.sfxBus);
+  o.connect(g);g.connect(bus==='music'?this.musicBus:bus==='switch'?this.switchBus:this.sfxBus);
   const voice={o,g,bus};this.voices.add(voice);
   o.onended=()=>{o.disconnect();g.disconnect();this.voices.delete(voice)};o.start(at);o.stop(at+duration+.01);
  }
@@ -44,6 +44,7 @@ export class ArcadeAudio{
   for(const [f,d,t,delay,v,end] of patches[name])this.tone(f,d,t,v,delay+offset,end);
   this.playCount++;this.report(name);return true;
  }
+ async settingsClick(finalClick=false){if(!this.sound&&!finalClick)return false;if(!await this.unlock())return false;this.tone(740,.035,'square',.025,0,420,'switch');this.tone(1050,.045,'triangle',.025,.015,620,'switch');return true}
  cancel(bus){for(const voice of [...this.voices])if(voice.bus===bus){try{voice.o.stop()}catch{}voice.o.disconnect();voice.g.disconnect();this.voices.delete(voice)}}
  configure(sound,music,active=true){const wasSound=this.sound;this.sound=sound;this.music=music;
   if(wasSound&&!sound){this.generation++;this.cancel('sfx')}

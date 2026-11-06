@@ -66,3 +66,9 @@ body.opening #offline-status{display:none}
 @media(max-width:360px){.opening .title-screen .menu-links{grid-template-columns:1fr 1fr;gap:0 14px}.opening .title-screen .menu-link{font-size:9px}}
 @media(max-height:620px) and (max-width:760px){.opening .title-screen{gap:9px}.opening .title-screen .title-menu{gap:7px}.opening .title-screen .title-scripture{font-size:14px}}
 @media(prefers-reduced-motion:reduce){.opening .title-screen .kingdom-title>.landscape:after,.opening .title-screen .kingdom-title .floating-sword:after{animation:none}}
+
+/* The existing statistics panel now precedes the title artwork. */
+.opening .title-screen>.personal-bar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:8px;margin:0;padding:9px 8px;border:3px double #89818a;outline:1px solid #484452;color:#a6a5ad;font:10px/1.5 var(--mono);text-align:center}
+.opening .title-screen>.personal-bar>span{min-width:0;overflow-wrap:anywhere}.opening .title-screen>.personal-bar b{display:block;color:#f1d394;font-size:13px;margin-top:3px}
+@media(max-width:760px){.opening .title-screen>.personal-bar{font-size:8px;padding:6px 4px;gap:4px}.opening .title-screen>.personal-bar b{font-size:11px}}
+
