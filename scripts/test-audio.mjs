@@ -12,7 +12,48 @@ const beforeMute=c.oscillators.length;a.configure(false,false);assert.equal(a.sf
 a.configure(true,false);await a.effect('select');assert.ok(c.oscillators.length>beforeMute);assert.equal(reports.at(-1).effect,'select');
 const d=new Context();let release;d.resume=()=>new Promise(resolve=>{release=()=>{d.state='running';resolve()}});const delayed=new ArcadeAudio({contextFactory:()=>d});delayed.configure(true,false);const pending=delayed.effect('correct');delayed.configure(false,false);release();assert.equal(await pending,false);assert.equal(d.oscillators.length,0);
 const bad=new ArcadeAudio({contextFactory:()=>{throw Error('No audio device')}});bad.configure(true,false);assert.equal(await bad.effect('correct'),false);
-const musicContext=new Context();let releaseMusic;musicContext.resume=()=>new Promise(resolve=>{releaseMusic=()=>{musicContext.state='running';resolve()}});const musicRace=new ArcadeAudio({contextFactory:()=>musicContext});musicRace.configure(true,true,true);musicRace.configure(true,true,false);releaseMusic();await Promise.resolve();await Promise.resolve();assert.equal(musicRace.loop,null);musicRace.configure(false,false,false);
+const musicContext=new Context();
+let releaseMusic;
+musicContext.resume=()=>new Promise(resolve=>{releaseMusic=()=>{musicContext.state='running';resolve()}});
+const musicRace=new ArcadeAudio({contextFactory:()=>musicContext});
+musicRace.configure(true,true,true);
+assert.equal(musicRace.context,null,'Configuring the title must not attempt autoplay');
+const pendingMusic=musicRace.unlock();
+musicRace.configure(true,true,false);
+releaseMusic();
+await pendingMusic;
+assert.equal(musicRace.loop,null,'Late resume must respect the current screen');
+musicRace.configure(false,false,false);
+
+const startupContext=new Context();
+const startup=new ArcadeAudio({contextFactory:()=>startupContext});
+try{
+ startup.configure(false,true);
+ startupContext.resume=async()=>{throw Error('Autoplay blocked')};
+ assert.equal(await startup.unlock(),false);
+ assert.equal(startup.loop,null,'A rejected resume does not mark music as started');
+ startupContext.resume=Context.prototype.resume;
+ assert.equal(await startup.unlock(),true);
+ const loop=startup.loop;
+ assert.notEqual(loop,null,'Gesture unlock starts music even with SFX off');
+ await Promise.all([startup.unlock(),startup.unlock()]);
+ startup.configure(false,true);
+ assert.equal(startup.loop,loop,'Repeated interactions preserve one loop');
+ await new Promise(resolve=>setTimeout(resolve,280));
+ assert.ok(startupContext.oscillators.some(o=>o.connections[0].connections.includes(startup.musicBus)));
+ startupContext.state='suspended';
+ const step=startup.step;
+ await new Promise(resolve=>setTimeout(resolve,280));
+ assert.equal(startup.step,step,'Background suspension does not advance the tune');
+ await startup.unlock();
+ assert.equal(startup.loop,loop,'Resume keeps the existing loop');
+ startup.configure(false,false);
+ await startup.unlock();
+ assert.equal(startup.loop,null,'A gesture cannot override Music OFF');
+ startup.configure(false,true);
+ assert.notEqual(startup.loop,null,'Enabling music reuses the running context');
+}finally{startup.configure(false,false);}
+console.log('PASS music startup: gesture unlock, rejected autoplay retry, single loop, suspension/resume, independent SFX and Music OFF.');
 for(const [name,patch] of Object.entries(patches)){assert.ok(patch.length<=8,name);for(const [f,d,t,delay,v,end] of patch){assert.ok(f>=40&&f<2000);assert.ok(d>0&&d<=.5);assert.ok(delay>=0&&delay<=.6);assert.ok(v>0&&v<=.1);assert.ok(['square','triangle','sawtooth'].includes(t));if(end)assert.ok(end>0)}}
 a.configure(false,false);console.log(`PASS audio: all ${Object.keys(patches).length} original cues schedule envelopes/oscillators, suspended-context resume, immediate mute, no muted nodes, re-enable, mute-during-resume race, unavailable-audio fallback, bounded patches.`);
 
