@@ -85,20 +85,25 @@ function verifyLink(reference,url){
  assert.ok(match,reference);
  assert.equal(url,`https://www.kingjamesbibleonline.org/${match[1].replaceAll(' ','-')}-Chapter-${match[2]}/`);
 }
+function verifyQuotation(scripture){
+ const verse = evidence[scripture.key];
+ assert.ok(verse && scripture.quote.trim());
+ assert.equal(scripture.reference,verse.reference);
+ assert.equal(scripture.url,verse.url);
+ assert.ok(verse.verse.replace(/[\[\]¶]/g,'').includes(scripture.quote),scripture.reference);
+ verifyLink(scripture.reference,scripture.url);
+}
 for(const [index,exchange] of proposed.entries()){
  const {romanScripture,choices,correct} = exchange;
- const verse = evidence[romanScripture.key];
- assert.equal(romanScripture.reference,verse.reference);
- assert.equal(romanScripture.url,verse.url);
- assert.ok(verse.verse.replace(/[\[\]¶]/g,'').includes(romanScripture.quote),exchange.id);
- verifyLink(romanScripture.reference,romanScripture.url);
- assert.deepEqual(choices.map(choice=>choice.id),['A','B','C','D']);
- assert.equal(new Set(choices.map(choice=>choice.text)).size,4);
+ verifyQuotation(romanScripture);
+ assert.deepEqual(choices.map(choice=>choice.id),['A','B']);
+ assert.equal(new Set(choices.map(choice=>choice.argument)).size,2);
  assert.equal(choices.filter(choice=>choice.id===correct).length,1);
  for(const choice of choices){
-  const words = choice.text.trim().split(/\s+/).length;
-  assert.ok(words>=8 && words<=16,choice.text);
-  if(choice.id!==correct)assert.ok(choice.weakness?.trim(),exchange.id);
+  const words = choice.argument.trim().split(/\s+/).length;
+  assert.ok(words>=12 && words<=22,choice.argument);
+  assert.ok(choice.feedback.trim(),exchange.id);
+  verifyQuotation(choice.scripture);
  }
  assert.ok(exchange.claim.trim() && exchange.explanation.trim() && exchange.editorialNotes.trim());
  assert.deepEqual(exchange.citations,exchanges[index].citations,'Retain the pilot evidence trail');
@@ -111,4 +116,8 @@ for(const name of publicFiles.filter(name=>name.endsWith('.js'))){
  const text=await readFile(new URL(name,dist),'utf8');
  assert.doesNotMatch(text,/precept-sabbath-v2|PB-SAB-\d+-V2/);
 }
-console.log('PASS V2 draft: ten excluded exchanges, 40 short choices, keyed feedback and exact pinned KJV excerpts.');
+for(const random of [()=>0,()=>.999]){
+ const attempt=new PreceptAttempt(draft,random);
+ assert.equal(attempt.exchange.choices[random()===0?0:1].id,attempt.exchange.correct);
+}
+console.log('PASS V2 draft: ten excluded exchanges, 20 argument-first choices, shuffled keys, individual feedback and exact pinned KJV excerpts.');

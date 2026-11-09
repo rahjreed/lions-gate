@@ -41,6 +41,9 @@
 .precept-line { margin: 0 0 10px; line-height: 1.36; }
 .precept-verse { margin: 0 0 8px; padding: 6px 9px; border-left: 3px solid var(--gold); background: #101724; font-size: 13px; line-height: 1.4; }
 .precept-verse p { margin: 0 0 3px; }
+.precept-option-copy { display: block; min-width: 0; text-align: left; }
+.precept-support { display: block; margin-top: 4px; color: #c2cbdc; font-size: 12px; line-height: 1.4; font-weight: normal; }
+.precept-support cite, .precept-support a { color: var(--cyan); font-style: normal; }
 .precept-debate .answers { gap: 6px; }
 .precept-debate .answer { min-height: 44px; padding: 7px 9px; gap: 7px; }
 .precept-debate .answer strong { font-size: 13px; line-height: 1.3; }

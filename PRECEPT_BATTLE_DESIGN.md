@@ -2,7 +2,9 @@
 
 The playable arena uses the [Sabbath vs Sunday pilot](content/PRECEPT_BATTLE_SABBATH_PILOT.md) with its original exchanges and citations. V2 updates the arena to percentage health. The [Scripture-to-Scripture draft](content/precept-sabbath-v2-draft.json) is a separate editorial proposal paired with [KJV verse evidence](content/precept-sabbath-v2-kjv-evidence.json).
 
-Before replacing the playable pilot, review each proposed key against its exact claim. Give particular attention to the competing readings of the Lord's day, the scope of days in Romans 14, the scope and implications of Sabbath language in Colossians 2, and the remaining rest in Hebrews 4. The closing exchange also needs a check that its option about separating gathering from rest remains clearly weaker than the keyed synthesis. The draft includes notes and a specific explanation for each distractor.
+The V2 proposal presents the Roman's KJV excerpt before his claim. It offers two shuffled responses, each with Akobi's argument first and a short supporting KJV excerpt second. The selected response stays in the lower panel during combat and receives its own feedback. The existing four-choice pilot remains the playable content until the proposal receives explicit approval. The full proposal is available in the [editorial review copy](content/PRECEPT_BATTLE_SABBATH_V2_REVIEW.md).
+
+Before replacing the playable pilot, review each proposed key against its exact claim. Give particular attention to the competing readings of the Lord's day, the scope of days in Romans 14, the scope and implications of Sabbath language in Colossians 2, and the remaining rest in Hebrews 4. In the closing exchange, check that the weaker option claims authority to call Sunday the Sabbath. A claim limited to permission to gather on Sunday would be defensible. The draft includes notes and feedback for both responses.
 
 ## Arena flow
 

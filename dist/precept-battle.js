@@ -10,6 +10,15 @@ const esc = text => String(text).replace(/[&<>"']/g, char => ({
 }[char]));
 const button = (label, action, primary = false) =>
  `<button type="button" class="button${primary ? ' primary' : ''}" data-precept="${action}">${label}</button>`;
+const argumentOf = option => option.argument ?? option.text;
+function supportingScripture(scripture, linked = false) {
+ if (!scripture) return '';
+ const reference = `${esc(scripture.reference)} · KJV excerpt`;
+ const citation = linked
+  ? `<a href="${esc(scripture.url)}" target="_blank" rel="noopener noreferrer">${reference} ↗</a>`
+  : `<cite>${reference}</cite>`;
+ return `<span class="precept-support"><q>${esc(scripture.quote)}</q> ${citation}</span>`;
+}
 
 export class PreceptAttempt {
  constructor(battle, random = Math.random) {
@@ -139,19 +148,25 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   const best = exchange.choices.find(option => option.id === exchange.correct);
   const links = exchange.citations.map(({label,url}) =>
    `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join(' · ');
-  const choices = exchange.choices.map((option,i) => `<button type="button" class="answer" data-precept-choice="${option.id}"><span>${'ABCD'[i]}</span><strong>${esc(option.text)}</strong></button>`).join('');
+  const choices = exchange.choices.map((option,i) => {
+   const argument = `<strong>${esc(argumentOf(option))}</strong>`;
+   const copy = option.scripture
+    ? `<span class="precept-option-copy">${argument}${supportingScripture(option.scripture)}</span>`
+    : argument;
+   return `<button type="button" class="answer" data-precept-choice="${option.id}"><span>${'ABCD'[i]}</span>${copy}</button>`;
+  }).join('');
   const verse = exchange.romanScripture;
   const finished = attempt.hits === HITS_TO_WIN || !attempt.heroHealth;
   find('.precept-debate').innerHTML = `<p class="precept-progress">CHAIN ${Math.floor(index / 5) + 1} / 2 · PRECEPT ${index % 5 + 1} / 5</p>
    <h2 tabindex="-1">${answering ? 'Roman Soldier' : 'Akobi'}</h2>
    ${answering && verse ? `<blockquote class="precept-verse"><p>${esc(verse.quote)}</p><a href="${esc(verse.url)}" target="_blank" rel="noopener noreferrer">${esc(verse.reference)} · KJV excerpt ↗</a></blockquote>` : ''}
-   <p class="precept-line">${esc(answering ? exchange.claim : choice.text)}</p>
+   <p class="precept-line">${esc(answering ? exchange.claim : argumentOf(choice))}${answering ? '' : supportingScripture(choice.scripture,true)}</p>
    ${answering ? `<div class="answers">${choices}</div>` : ''}
    ${feedback ? `<div class="precept-feedback ${correct ? 'right' : 'wrong'}">
     <strong>${correct ? 'PRECEPT LANDED!' : 'REBUTTAL FAILED · −20%'}</strong>
-    ${correct ? '' : `<p><b>Best response:</b> ${esc(best.text)}</p>`}
-    ${!correct && choice.weakness ? `<p>${esc(choice.weakness)}</p>` : ''}
-    <p>${esc(exchange.explanation)}</p><p>${links}</p>
+    ${choice.feedback ? `<p>${esc(choice.feedback)}</p>` : ''}
+    ${correct ? '' : `<p><b>Stronger response:</b> ${esc(argumentOf(best))}${supportingScripture(best.scripture,true)}</p>`}
+    ${choice.feedback ? '' : `<p>${esc(exchange.explanation)}</p>`}<p>${links}</p>
     ${button(finished ? 'SEE RESULT' : correct ? 'CONTINUE' : 'TRY THIS REBUTTAL AGAIN','advance',true)}
    </div>` : ''}`;
   find('.precept-debate h2').focus({preventScroll:true});
