@@ -27,7 +27,15 @@
 .game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong]:not([data-finisher=judah]) .scene-status>.judah{animation:judah-retreat .92s linear both}
 .game-scene[data-combat=impact][data-outcome=correct] .roman-sprite{filter:brightness(1.8)}
 /* The existing 240ms impact is 26.086957% of the 920ms exchange. */
-@keyframes judah-advance{0%{translate:0 0}6%{translate:calc(var(--fighter-unit) * -2) 0}15.217391%{translate:calc(var(--fighter-unit) * 47) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * 57) 0}36.956522%{translate:calc(var(--fighter-unit) * 60) 0}58.695652%{translate:calc(var(--fighter-unit) * 56) 0}70%{translate:calc(var(--fighter-unit) * 40) calc(var(--fighter-unit) * -2)}85%{translate:calc(var(--fighter-unit) * 20) 0}100%{translate:0 0}}
+@keyframes judah-advance {
+ 0% {translate:0 0;animation-timing-function:ease-out}
+ 6% {translate:calc(var(--fighter-unit) * -2) 0;animation-timing-function:cubic-bezier(.4,0,.7,.7)}
+ 15.217391% {translate:calc(var(--fighter-unit) * 33) calc(var(--fighter-unit) * -2);animation-timing-function:ease-out}
+ 26.086957% {translate:calc(var(--fighter-unit) * 57) 0;animation-timing-function:ease-out}
+ 36.956522% {translate:calc(var(--fighter-unit) * 60) 0}
+ 58.695652% {translate:calc(var(--fighter-unit) * 56) 0;animation-timing-function:ease-in-out}
+ 100% {translate:0 0}
+}
 @keyframes roman-advance{0%{translate:0 0}8%{translate:calc(var(--fighter-unit) * 3) 0}15.217391%{translate:calc(var(--fighter-unit) * -36) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * -43) 0}36.956522%{translate:calc(var(--fighter-unit) * -44) 0}58.695652%{translate:calc(var(--fighter-unit) * -40) 0}76%{translate:calc(var(--fighter-unit) * -18) calc(var(--fighter-unit) * -2)}100%{translate:0 0}}
 @keyframes roman-recoil{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * 8) 0}58.695652%{translate:calc(var(--fighter-unit) * 4) 0}100%{translate:0 0}}
 @keyframes judah-retreat{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * -8) 0}58.695652%{translate:calc(var(--fighter-unit) * -5) 0}100%{translate:0 0}}
@@ -180,9 +188,11 @@
  12.5% {background-position-x:71.698113%}
  15.217391% {background-position-x:22.641509%}
  20.652174% {background-position-x:24.528302%}
- 26.086957% {background-position-x:26.415094%}
- 36.956522% {background-position-x:28.301887%}
- 48.913043% {background-position-x:30.188679%}
+ /* Extension at impact, then sweep down. The atlas stores the low pose
+    before the extended poses, which reads as a reversal in column order. */
+ 26.086957% {background-position-x:28.301887%}
+ 33.695652% {background-position-x:30.188679%}
+ 41.304348% {background-position-x:26.415094%}
  58.695652% {background-position-x:66.037736%}
  65.217391% {background-position-x:64.150943%}
  71.739130% {background-position-x:62.264151%}
@@ -201,4 +211,5 @@
  45.652174% {background-position-x:49.056604%}
  58.695652% {background-position-x:50.943396%}
  75% {background-position-x:52.830189%}
+ 84.782609% {background-position-x:54.716981%}
 }

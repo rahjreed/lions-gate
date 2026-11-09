@@ -20,6 +20,13 @@ for (const [index,exchange] of exchanges.entries()) {
  for (const {label,url} of exchange.citations) assert.ok(block.includes(`[${label}](${url})`));
 }
 const arena = new PreceptAttempt(sabbathBattle,()=>.2);
+const reversed = new PreceptAttempt(sabbathBattle,()=>.999);
+for (const [index,exchange] of arena.exchanges.entries()) {
+ assert.equal(exchange.choices.length,2);
+ assert.equal(exchange.choices.filter(option=>option.id===exchange.correct).length,1);
+ for (const choice of exchange.choices) assert.ok(exchanges[index].choices.includes(choice));
+ assert.deepEqual(exchange.choices.map(choice=>choice.id),reversed.exchanges[index].choices.map(choice=>choice.id).reverse());
+}
 assert.deepEqual(arena.health,{enemy:100,hero:100});
 function answer(attempt,id) {
  assert.equal(attempt.select(id),true);

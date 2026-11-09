@@ -5,6 +5,12 @@ import {GameJuice} from './juice.js';
 import {sabbathBattle} from './precept-sabbath.js';
 
 const noticeKey = 'lions-gate-precept-notice-v1';
+// Approved pilot text has exchange-level citations, not evidence assigned to
+// individual answers. Keep its original key and one existing counter-reading.
+const approvedPilotAlternatives = Object.freeze({
+ 'PB-SAB-01':'A', 'PB-SAB-02':'C', 'PB-SAB-03':'D', 'PB-SAB-04':'A', 'PB-SAB-05':'A',
+ 'PB-SAB-06':'D', 'PB-SAB-07':'C', 'PB-SAB-08':'C', 'PB-SAB-09':'D', 'PB-SAB-10':'B'
+});
 const esc = text => String(text).replace(/[&<>"']/g, char => ({
  '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
 }[char]));
@@ -22,9 +28,13 @@ function supportingScripture(scripture, linked = false) {
 
 export class PreceptAttempt {
  constructor(battle, random = Math.random) {
-  this.exchanges = battle.chains.flatMap(chain => chain.exchanges.map(exchange => ({
-   ...exchange, choices: shuffled(exchange.choices, random)
-  })));
+  this.exchanges = battle.chains.flatMap(chain => chain.exchanges.map(exchange => {
+   const alternate = battle.id === sabbathBattle.id && approvedPilotAlternatives[exchange.id];
+   const choices = alternate
+    ? exchange.choices.filter(option => option.id === exchange.correct || option.id === alternate)
+    : exchange.choices;
+   return {...exchange, choices: shuffled(choices, random)};
+  }));
   this.hits = 0;
   this.heroHealth = 100;
   this.index = 0;
@@ -161,7 +171,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
    <h2 tabindex="-1">${answering ? 'Roman Soldier' : 'Akobi'}</h2>
    ${answering && verse ? `<blockquote class="precept-verse"><p>${esc(verse.quote)}</p><a href="${esc(verse.url)}" target="_blank" rel="noopener noreferrer">${esc(verse.reference)} · KJV excerpt ↗</a></blockquote>` : ''}
    <p class="precept-line">${esc(answering ? exchange.claim : argumentOf(choice))}${answering ? '' : supportingScripture(choice.scripture,true)}</p>
-   ${answering ? `<div class="answers">${choices}</div>` : ''}
+   ${answering ? `<div class="answers">${choices}</div>${verse ? '' : `<p class="precept-support">Scripture for this exchange: ${links}</p>`}` : ''}
    ${feedback ? `<div class="precept-feedback ${correct ? 'right' : 'wrong'}">
     <strong>${correct ? 'PRECEPT LANDED!' : 'REBUTTAL FAILED · −20%'}</strong>
     ${choice.feedback ? `<p>${esc(choice.feedback)}</p>` : ''}
