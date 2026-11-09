@@ -31,12 +31,7 @@
 @keyframes roman-advance{0%{translate:0 0}8%{translate:calc(var(--fighter-unit) * 3) 0}15.217391%{translate:calc(var(--fighter-unit) * -36) calc(var(--fighter-unit) * -2)}26.086957%{translate:calc(var(--fighter-unit) * -43) 0}36.956522%{translate:calc(var(--fighter-unit) * -44) 0}58.695652%{translate:calc(var(--fighter-unit) * -40) 0}76%{translate:calc(var(--fighter-unit) * -18) calc(var(--fighter-unit) * -2)}100%{translate:0 0}}
 @keyframes roman-recoil{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * 8) 0}58.695652%{translate:calc(var(--fighter-unit) * 4) 0}100%{translate:0 0}}
 @keyframes judah-retreat{0%,26.086957%{translate:0 0}36.956522%{translate:calc(var(--fighter-unit) * -8) 0}58.695652%{translate:calc(var(--fighter-unit) * -5) 0}100%{translate:0 0}}
-/* Reuse the existing locomotion frames; seek the slash to the shared clock. */
-.game-scene .judah-run .judah-sprite{animation-duration:.28s}
-.game-scene .judah-slash .judah-sprite{animation-name:judah-contact-sequence;animation-delay:-.14s}
-@keyframes judah-contact-sequence{0%{background-position-x:11.320755%}6%{background-position-x:22.641509%}15.217391%{background-position-x:24.528302%}23.913043%{background-position-x:26.415094%}36.956522%{background-position-x:28.301887%}52%{background-position-x:30.188679%}76%{background-position-x:32.075472%}100%{background-position-x:11.320755%}}
 .game-scene .judah-slash .hero-slash{animation-delay:-.06s}
-.game-scene .judah-walk .judah-sprite{animation-duration:.38s;animation-direction:reverse;animation-iteration-count:1;animation-fill-mode:both}
 .combat-sparks{position:absolute;left:calc(50% + var(--fighter-unit) * 40);top:56%;z-index:5;pointer-events:none}
 .game-scene[data-outcome=wrong] .combat-sparks{left:calc(50% - var(--fighter-unit) * 45)}
 .combat-sparks .pixel-burst{position:absolute;inset:0}
@@ -155,3 +150,55 @@
 .game-scene[data-reduced-motion=true] .roman-ko-art{transition:none;translate:none}
 .game-scene[data-finisher=enemy][data-reduced-motion=true] .roman-dropped-shield{animation:none;left:66%;top:53%;transform:rotate(90deg)}
 .game-scene[data-reduced-motion=true][data-combat=defeated] .roman-soldier{animation:none!important;opacity:0}
+
+/* Combat uses the same mounted atlas and armor through each pose. Hold each
+   authored cell exactly; never interpolate across adjacent atlas columns. */
+.game-scene .scene-status>.judah-ready .judah-sprite {
+ animation: akobi-guard-cells 4.2s steps(1,end) infinite, akobi-breath 4.2s ease-in-out infinite;
+ transform-origin: 40% 95%;
+}
+@keyframes akobi-guard-cells {
+ 0%,100% {background-position-x:11.320755%}
+ 10%,90% {background-position-x:13.207547%}
+ 20%,80% {background-position-x:15.094340%}
+ 30%,70% {background-position-x:16.981132%}
+ 40%,60% {background-position-x:18.867925%}
+ 50% {background-position-x:20.754717%}
+}
+@keyframes akobi-breath {
+ 0%,100% {transform:scale(1)}
+ 46% {transform:scale(1.003,1.008)}
+ 73% {transform:scale(1.001,1.002)}
+}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=correct] .scene-status>.judah:not(.judah-victory) .judah-sprite {
+ animation: akobi-sword-cells .92s steps(1,end) both;
+}
+@keyframes akobi-sword-cells {
+ 0% {background-position-x:11.320755%}
+ 4.347826% {background-position-x:67.924528%}
+ 8.695652% {background-position-x:69.811321%}
+ 12.5% {background-position-x:71.698113%}
+ 15.217391% {background-position-x:22.641509%}
+ 20.652174% {background-position-x:24.528302%}
+ 26.086957% {background-position-x:26.415094%}
+ 36.956522% {background-position-x:28.301887%}
+ 48.913043% {background-position-x:30.188679%}
+ 58.695652% {background-position-x:66.037736%}
+ 65.217391% {background-position-x:64.150943%}
+ 71.739130% {background-position-x:62.264151%}
+ 78.260870% {background-position-x:60.377358%}
+ 84.782609% {background-position-x:58.490566%}
+ 91.304348% {background-position-x:56.603774%}
+ 97.826087%,100% {background-position-x:11.320755%}
+}
+.game-scene[data-combat]:not([data-combat=ready])[data-outcome=wrong]:not([data-finisher=judah]) .scene-status>.judah .judah-sprite {
+ animation: akobi-hit-cells .92s steps(1,end) both;
+}
+@keyframes akobi-hit-cells {
+ 0%,91.304348%,100% {background-position-x:11.320755%}
+ 26.086957% {background-position-x:45.283019%}
+ 34.782609% {background-position-x:47.169811%}
+ 45.652174% {background-position-x:49.056604%}
+ 58.695652% {background-position-x:50.943396%}
+ 75% {background-position-x:52.830189%}
+}

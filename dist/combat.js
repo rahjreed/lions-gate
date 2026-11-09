@@ -1,5 +1,4 @@
 import {MAX_LIVES} from './engine.js';
-import {judah} from './mascot.js';
 import {opponentFor} from './opponents.js';
 
 export const combatDuration=920;
@@ -99,7 +98,7 @@ export class CombatDirector{
 
 }
 
-export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
+export function paintCombat(scene,frame){
  if(!scene)return;
  scene.dataset.combat=frame.phase;scene.dataset.outcome=frame.correct?'correct':'wrong';
  scene.dataset.finisher=frame.finisher||'';scene.dataset.variation=frame.variation||'rising';scene.dataset.slowMotion=String(!!frame.finisher&&frame.at>=defeatStart&&frame.at<groundContactAt);
@@ -121,7 +120,8 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  const sprite=scene.querySelector('.roman-sprite');
  sprite.style.backgroundPosition=`${frame.enemy%3*50}% ${Math.floor(frame.enemy/3)*100}%`;
  const hero=scene.querySelector('.scene-status>.judah');
- // Keep the figure itself alive: replacing it would restart its travel animation.
+ // Keep the figure and its atlas mounted so travel, body frames and armor
+ // keep the same clock. Only the transient sword effect needs a fresh node.
  let pose=hero.dataset.pose;
  if(frame.phase==='windup'&&frame.correct)pose=frame.finisher==='enemy'?'stance':'run';
  if(frame.phase==='strike'&&frame.correct)pose='slash';
@@ -132,8 +132,9 @@ export function paintCombat(scene,frame,completed,equipment=[],wardrobe){
  if(frame.finisher==='enemy'&&frame.phase==='defeated')pose='victory';
  hero.setAttribute?.('aria-label',frame.phase==='hero-defeated'?'Akobi, defeated':'Akobi');
  if(pose!==hero.dataset.pose){
-  const template=hero.ownerDocument.createElement('template');template.innerHTML=judah(completed,pose,false,equipment,wardrobe);
-  const next=template.content.firstElementChild;
-  hero.className=next.className;hero.dataset.pose=pose;hero.innerHTML=next.innerHTML;
+  hero.classList.replace('judah-'+hero.dataset.pose,'judah-'+pose);
+  hero.dataset.pose=pose;
+  hero.querySelector('.hero-slash')?.remove();
+  if(pose==='slash')hero.insertAdjacentHTML('beforeend','<span class="hero-slash" aria-hidden="true"></span>');
  }
 }

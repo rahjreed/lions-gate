@@ -5,8 +5,15 @@ import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {beforeCollectionFeature} from './collection-flow-revision.mjs';
 export const nameRevision=JSON.parse(await readFile(new URL('fixtures/akobi-name-revision.json',import.meta.url),'utf8'));
+const animationRevision=JSON.parse(await readFile(new URL('fixtures/akobi-animation-revision.json',import.meta.url),'utf8'));
 const sha=s=>createHash('sha256').update(s).digest('hex');
 export function beforeCharacterRename(path,text){
+ const revision=animationRevision[path];
+ if(revision){
+  assert.equal(sha(text),revision.sha256,'Exact Akobi presentation changes only: '+path);
+  assert.equal(text.split(revision.after).length,2);
+  text=text.replace(revision.after,()=>revision.before);
+ }
  text=beforeCollectionFeature(path,text);
  const record=nameRevision.files[path];if(!record)return text;
  assert.equal(sha(text),record.afterSha256,'Only the exact authorized name edit is allowed: '+path);

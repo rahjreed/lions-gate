@@ -83,12 +83,19 @@ for(const correct of [true,false])for(const enemyDefeated of [true,false])for(co
 console.log('PASS combat pause: 40 boundary/outcome combinations, background suspension, precise remaining delays, stale callbacks, repeated pause/resume, cancellation and single impact/finish.');
 
 // Pose changes must retain the travelling actor node and its animation clock.
-// This small DOM fixture parses only the production figure attributes it needs.
-const hero={dataset:{pose:'ready'},className:'judah judah-ready',innerHTML:'',ownerDocument:{
- createElement(){return {content:{},set innerHTML(html){
-  this.content.firstElementChild={className:html.match(/class="([^"]+)"/)[1],innerHTML:html.slice(html.indexOf('>')+1,html.lastIndexOf('</figure>'))};
- }}}
-}};
+// Keep the original sprite and armor mounted, even as the slash effect changes.
+const spriteNode={armor:'belt'};
+let slash=null;
+const hero={dataset:{pose:'ready'},classList:{replace(){}},
+ get innerHTML(){return '<span data-armor="belt"></span>'},
+ set innerHTML(value){assert.fail('The sprite must stay mounted: '+value)},
+ querySelector(selector){return selector==='.hero-slash'?slash:spriteNode},
+ insertAdjacentHTML(position,html){
+  assert.equal(position,'beforeend');
+  assert.match(html,/hero-slash/);
+  slash={remove(){slash=null}};
+ }
+};
 const soldier={classList:{toggle(){}},setAttribute(){},style:{setProperty(name,value){this[name]=value}}},sprite={style:{}},scene={dataset:{},querySelector:s=>s==='.roman-soldier'?soldier:s==='.roman-sprite'?sprite:hero};
 for(const completed of [0,35,110,185,260]){
  hero.dataset.pose='ready';
@@ -96,6 +103,8 @@ for(const completed of [0,35,110,185,260]){
  for(const [phase,at,enemy,pose] of [['windup',0,0,'run'],['strike',140,0,'slash'],['impact',240,4,'slash'],['recover',540,5,'walk'],['ready',920,0,'ready']]){
   paintCombat(scene,{phase,at,enemy,correct:true},completed,equipment);
   assert.equal(hero.dataset.pose,pose);assert.equal(scene.querySelector('.scene-status>.judah'),hero);
+  assert.equal(hero.querySelector('.judah-sprite'),spriteNode);
+  assert.equal(!!slash,pose==='slash');
   assert.ok(!Object.hasOwn(hero,'outerHTML'),'Do not replace/restart the actor');
   if(equipment.length)assert.match(hero.innerHTML,/data-armor="belt"/);
  }
