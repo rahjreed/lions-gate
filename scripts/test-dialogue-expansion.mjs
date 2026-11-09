@@ -59,6 +59,7 @@ function harness(run,{skip=false,reduced=false}={}){
   battleScene:()=>'',dialogueMarkup,opponentFor:()=>({name:'Roman QA'}),hud:()=>'',paintCombat:(_,frame)=>events.frames.push(frame),updateCombatHealth(){events.impacts++},
   audio:{effect(){}},juice:{answer(){},burst(){},combatNumber(){},enter(){},pause(){},resume(){}},answerReveal:{open(){events.reveals++},close(){}},armorReveal:{open(){}},
  };
+ c.startGatekeeperChain=()=>false;
  vm.createContext(c);vm.runInContext(['setView','choose','playCombat','proceed','beginBattleDialogue','finishEncounter','advanceDialogue','encounterScreen','previousCombatHUD','restoreCombatPresentation','pause','resume'].map(definition).join('\n'),c);
  return {c,events,saved,tick(ms){const end=now+ms;while(true){const due=[...jobs].filter(([,j])=>j.at<=end).sort((a,b)=>a[1].at-b[1].at)[0];if(!due)break;jobs.delete(due[0]);now=due[1].at;due[1].fn()}now=end}};
 }

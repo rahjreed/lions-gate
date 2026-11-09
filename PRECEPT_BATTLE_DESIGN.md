@@ -1,12 +1,14 @@
 # Lion's Gate — Precept Battle Mode
 
-The playable arena uses the [Sabbath vs Sunday pilot](content/PRECEPT_BATTLE_SABBATH_PILOT.md) with its original exchanges and citations. V2 updates the arena to percentage health. The [Scripture-to-Scripture draft](content/precept-sabbath-v2-draft.json) is a separate editorial proposal paired with [KJV verse evidence](content/precept-sabbath-v2-kjv-evidence.json).
+The playable arena uses the ten explicitly approved Sabbath vs Sunday Precept Chains. The [editorial review](content/PRECEPT_BATTLE_SABBATH_V2_REVIEW.md) and [KJV verse evidence](content/precept-sabbath-v2-kjv-evidence.json) document the active content. The [original pilot](content/PRECEPT_BATTLE_SABBATH_PILOT.md) is retained as an editorial archive.
 
-The V2 proposal presents the Roman's KJV excerpt before his claim. It offers two shuffled responses, each with Akobi's argument first and a short supporting KJV excerpt second. The selected response stays in the lower panel during combat and receives its own feedback. Until the proposal receives explicit approval, the playable arena presents the approved key and one original alternative from each exchange. The original citations are shared context below the pair. The full proposal is available in the [editorial review copy](content/PRECEPT_BATTLE_SABBATH_V2_REVIEW.md).
+The Roman presents his KJV excerpt before his claim. The same challenge stays in the lower panel as the player moves through a conversational rebuttal and two distinct Scripture stages. Each stage offers two shuffled options and individual feedback.
 
-Before replacing the playable pilot, review each proposed key against its exact claim. Give particular attention to the competing readings of the Lord's day, the scope of days in Romans 14, the scope and implications of Sabbath language in Colossians 2, and the remaining rest in Hebrews 4. In the closing exchange, check that the weaker option claims authority to call Sunday the Sabbath. A claim limited to permission to gather on Sunday would be defensible. The draft includes notes and feedback for both responses.
+The chain rules deal 10, 5, and 5 damage for the three successful stages. They award 100, 50, and 50 points, plus 200 for a complete chain. An opening miss deals 20 damage to Akobi and repeats the challenge. A support miss advances to the next challenge without changing either health total or taking away points. Roman health reaching zero ends the battle immediately after the finishing animation and feedback, even if a chain is incomplete. Challenges cycle in order if the pool is exhausted. Scores are local to the attempt.
 
-## Arena flow
+The review preserves the limits of the textual evidence, including the disputed identity of the Lord’s day and the distinction between Paul’s instruction about judgment and conclusions about Sabbath obligation.
+
+## Arena entry and original pilot design
 
 From the title, choose **Press Start** or **New Game**, then **Precept Battle**. Accept the first-entry notice if prompted and select **Sabbath vs Sunday**. Back from the notice or topic picker returns to the mode picker. Exiting an active or completed battle returns to the title. **Continue** on the title opens the saved Story run directly. The arena reuses Akobi and the Roman soldier against a stone arena backdrop.
 

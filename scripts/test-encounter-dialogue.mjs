@@ -22,6 +22,7 @@ let now=1000,id=0,intervals=new Map();
 const store={data:null,getItem(){return this.data},setItem(k,v){this.data=v}};
 const profile=emptyProfile();
 const c={EncounterDialogue,profile,questions,run:createRun(questions,'INTRO TEST'),encounter:null,view:'title',paused:false,deadline:0,timer:null,pauseFocus:null,document:{hidden:false},window:{scrollTo(){}},Date:{now:()=>now},setInterval:fn=>{intervals.set(++id,fn);return id},clearInterval:id=>intervals.delete(id),clock(){},$:()=>null,render(){},music(){},combat:{active:false,pause(){},resume(){}},director:{cancel(){},pause(){},resume(){}},juice:{enter(){},pause(){},resume(){}},audio:{unlock(){},effect(){}},mountPause(){},releasePause(){},retryLevel,nextLevel,levelConfig,persist(){captureProgress(profile,c.run);saveProfile(store,profile)}};
+c.startGatekeeperChain=()=>false;
 vm.createContext(c);vm.runInContext(definitions,c);
 const gameState=r=>JSON.stringify({...r,dialogue:undefined,rankHighWater:undefined});
 let before=gameState(c.run);c.beginEncounter();assert.equal(c.view,'encounter');assert.equal(intervals.size,0);assert.equal(pendingDialogue(c.run),true);

@@ -1,5 +1,5 @@
 {
-  "sha256": "58716316e9c6659898ca303f988f25d312c7b3940a227ee20d95824aec581ef2",
+  "sha256": "c3735a1e108a32a4ca8647d714156ddff745a201f3dd3065a1f206eb460eace3",
   "edits": [
     [
       "view==='title'||view==='settings'",
@@ -36,6 +36,50 @@
     [
       "restoreMusic:music,\n getWardrobe",
       "restoreMusic:music,onBattleExit:cancelStart,\n getWardrobe"
+    ],
+    [
+      "import {bindPreceptBattle} from './precept-battle.js';",
+      "import {bindPreceptBattle} from './precept-battle.js';\nimport {approvedGatekeeperChallenges} from './gatekeeper-approved.js';\nimport {gatekeeperBattle,settleGatekeeper} from './gatekeeper-chains.js';"
+    ],
+    [
+      "let nameDraft=profile.nickname,collectionDraft=null,studyPathDraft=null;",
+      "let nameDraft=profile.nickname,collectionDraft=null,studyPathDraft=null;\nlet arena;"
+    ],
+    [
+      "applyProfile:restored=>{profile=restored;",
+      "applyProfile:restored=>{arena?.dismissGatekeeper();profile=restored;"
+    ],
+    [
+      "function finishEncounter(){",
+      "function startGatekeeperChain(){\n const battle=gatekeeperBattle(run,approvedGatekeeperChallenges);\n if(!battle)return false;\n const owner=run,level=run.level;\n const opened=arena.startGatekeeper({\n  battle,\n  scene:()=>`<div class=\"game-scene precept-arena boss-scene adventure-arena\" aria-label=\"Gatekeeper arena\">${landscape(Math.min(environments.length-1,environments.filter(e=>owner.completed>=e.unlock).length-1))}${symbolicGate({broken:0,total:10})}<div class=\"scene-status\"><span>⚔ GATEKEEPER CHALLENGE <b>${esc(opponentFor(level).name)}</b></span>${judah(owner.completed,'ready',false)}${romanSoldier()}<span class=\"combat-sparks\" aria-hidden=\"true\"></span></div></div>`,\n  onExit:()=>setView('title'),\n  onResult:result=>{\n   if(run!==owner||!settleGatekeeper(run,level,result))return setView('title');\n   persist();\n   setView('game');\n   void audio.effect(result.phase==='victory'?'gateOpen':'gameover');\n   $('#screen-title')?.focus();\n  }\n });\n if(opened){stopClock();view='gatekeeper-chain';paused=false;}\n return opened;\n}\nfunction finishEncounter(){"
+    ],
+    [
+      "encounter=null;setView('game');$('#screen-title')?.focus();\n}\nfunction advanceDialogue",
+      "encounter=null;if(!startGatekeeperChain()){setView('game');$('#screen-title')?.focus()}\n}\nfunction advanceDialogue"
+    ],
+    [
+      "if(action==='continue'){if(pendingBattleDialogue",
+      "if(action==='continue'&&!pendingDialogue(run)&&startGatekeeperChain())return;if(action==='continue'){if(pendingBattleDialogue"
+    ],
+    [
+      "const cleared=run.status==='levelup',perfect=cleared&&run.answers.every",
+      "const cleared=run.status==='levelup',perfect=cleared&&run.answers.length>0&&run.answers.every"
+    ],
+    [
+      "broken:run.answers.filter(a=>a.correct).length,open:true",
+      "broken:run.answers.length?run.answers.filter(a=>a.correct).length:10,open:true"
+    ],
+    [
+      "bindPreceptBattle({root:app,storage,audio,",
+      "arena=bindPreceptBattle({root:app,storage,audio,"
+    ],
+    [
+      "function resultScreen(){const cleared=",
+      "function resultScreen(){const retryChain=canRetryLevel(run)&&gatekeeperBattle({...run,status:'playing'},approvedGatekeeperChallenges);const cleared="
+    ],
+    [
+      "`Retry Level ${run.level} with five lives. Your earned points and rank are kept. Retry points count only beyond this level’s previous best attempt.`",
+      "retryChain?`Retry the Level ${run.level} Gatekeeper at full health. Your earned points and rank are kept.`:`Retry Level ${run.level} with five lives. Your earned points and rank are kept. Retry points count only beyond this level’s previous best attempt.`"
     ]
   ]
 }

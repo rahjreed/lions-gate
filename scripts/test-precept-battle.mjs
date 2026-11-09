@@ -4,30 +4,6 @@ import {createHash} from 'node:crypto';
 import {PreceptAttempt} from '../dist/precept-battle.js';
 import {sabbathBattle} from '../dist/precept-sabbath.js';
 
-const source = await readFile(new URL('../content/PRECEPT_BATTLE_SABBATH_PILOT.md',import.meta.url),'utf8');
-assert.deepEqual(sabbathBattle.chains.map(chain=>chain.exchanges.length),[5,5]);
-const blocks = source.split(/^### /m).slice(1);
-const exchanges = sabbathBattle.chains.flatMap(chain=>chain.exchanges);
-assert.equal(new Set(exchanges.map(exchange=>exchange.id)).size,10);
-for (const [index,exchange] of exchanges.entries()) {
- const block = blocks[index];
- assert.ok(block.startsWith(exchange.id));
- assert.ok(block.includes(`**Roman:** “${exchange.claim}”`));
- assert.equal(new Set(exchange.choices.map(option=>option.text)).size,4);
- for (const {id,text} of exchange.choices) assert.ok(block.includes(`- ${id}. ${text}`));
- assert.ok(block.includes(`**Key ${exchange.correct}.** ${exchange.explanation}`));
- assert.ok(exchange.citations.length);
- for (const {label,url} of exchange.citations) assert.ok(block.includes(`[${label}](${url})`));
-}
-const arena = new PreceptAttempt(sabbathBattle,()=>.2);
-const reversed = new PreceptAttempt(sabbathBattle,()=>.999);
-for (const [index,exchange] of arena.exchanges.entries()) {
- assert.equal(exchange.choices.length,2);
- assert.equal(exchange.choices.filter(option=>option.id===exchange.correct).length,1);
- for (const choice of exchange.choices) assert.ok(exchanges[index].choices.includes(choice));
- assert.deepEqual(exchange.choices.map(choice=>choice.id),reversed.exchanges[index].choices.map(choice=>choice.id).reverse());
-}
-assert.deepEqual(arena.health,{enemy:100,hero:100});
 function answer(attempt,id) {
  assert.equal(attempt.select(id),true);
  assert.equal(attempt.select(id),false);
@@ -39,38 +15,10 @@ function answer(attempt,id) {
  assert.equal(attempt.phase,'feedback');
  attempt.proceed();
 }
-for(let miss=0;miss<4;miss++) {
- answer(arena,arena.exchange.choices.find(option=>option.id!==arena.exchange.correct).id);
- assert.equal(arena.index,0);
- assert.deepEqual(arena.health,{enemy:100,hero:80-miss*20});
-}
-for (let index=0;index<10;index++) {
- assert.equal(arena.exchange.id,exchanges[index].id);
- answer(arena,arena.exchange.correct);
- assert.deepEqual(arena.health,{enemy:90-index*10,hero:20});
- assert.equal(arena.phase,index===9?'victory':'answering');
-}
-assert.equal(arena.select(arena.exchange.correct),false);
-const retry = new PreceptAttempt(sabbathBattle);
-for (let miss=0;miss<5;miss++) answer(retry,retry.exchange.choices.find(option=>option.id!==retry.exchange.correct).id);
-assert.equal(retry.phase,'defeat');
-assert.deepEqual(retry.health,{enemy:100,hero:0});
-assert.equal(retry.index,0);
-assert.deepEqual(new PreceptAttempt(sabbathBattle).health,{enemy:100,hero:100});
-const closeWin = new PreceptAttempt(sabbathBattle);
-for (let i=0;i<3;i++) answer(closeWin,closeWin.exchange.choices.find(option=>option.id!==closeWin.exchange.correct).id);
-for (let i=0;i<10;i++) answer(closeWin,closeWin.exchange.correct);
-assert.equal(closeWin.phase,'victory');
-assert.deepEqual(closeWin.health,{enemy:0,hero:40});
-const closeLoss = new PreceptAttempt(sabbathBattle);
-for (let i=0;i<4;i++) answer(closeLoss,closeLoss.exchange.correct);
-for (let i=0;i<5;i++) answer(closeLoss,closeLoss.exchange.choices.find(option=>option.id!==closeLoss.exchange.correct).id);
-assert.equal(closeLoss.phase,'defeat');
-assert.deepEqual(closeLoss.health,{enemy:60,hero:0});
-console.log('PASS Precept Battle: exact Sabbath pilot, two ordered chains, ten hits, percentage health, retries, defeat and duplicate-input guards.');
-
 const readJSON = async path => JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
 const draft = await readJSON('../content/precept-sabbath-v2-draft.json');
+const review = await readFile(new URL('../content/PRECEPT_BATTLE_SABBATH_V2_REVIEW.md',import.meta.url),'utf8');
+assert.deepEqual(sabbathBattle,{...draft,status:'approved',chains:draft.chains.map(c=>({...c,exchanges:c.exchanges.map(e=>({...e,status:'approved'}))}))});
 const {source:kjv,evidence} = await readJSON('../content/precept-sabbath-v2-kjv-evidence.json');
 const {source:approvedKjv} = await readJSON('../content/launch/scripture-evidence.json');
 assert.deepEqual(kjv,approvedKjv);
@@ -84,9 +32,12 @@ if(fullSource){
  for(const [key,{verse}] of Object.entries(evidence))assert.ok(lines.has(`${key} ${verse}`),key);
 }
 assert.equal(draft.status,'pending-editorial-review');
+assert.equal(draft.rules,'precept-chain');
 assert.deepEqual(draft.chains.map(chain=>chain.exchanges.length),[5,5]);
 const proposed = draft.chains.flatMap(chain=>chain.exchanges);
 assert.equal(new Set(proposed.map(exchange=>exchange.id)).size,10);
+assert.equal(new Set(proposed.flatMap(exchange=>exchange.supports.map(round=>round.prompt))).size,20);
+for(const stage of [0,1,2])assert.equal(proposed.filter(e=>(stage?e.supports[stage-1]:e).correct==='A').length,5);
 function verifyLink(reference,url){
  const match = reference.match(/^((?:[1-3] )?[A-Za-z]+(?: [A-Za-z]+)*) ([1-9]\d*):[1-9]\d*(?:[–-][1-9]\d*)?(?:, [1-9]\d*[–-][1-9]\d*)?$/);
  assert.ok(match,reference);
@@ -101,6 +52,16 @@ function verifyQuotation(scripture){
  verifyLink(scripture.reference,scripture.url);
 }
 for(const [index,exchange] of proposed.entries()){
+ const section=review.split('### '+exchange.id)[1].split('\n### ')[0];
+ for(const text of [exchange.romanScripture.quote,exchange.claim,exchange.editorialNotes])assert.ok(section.includes(text));
+ for(const [stage,round] of [exchange,...exchange.supports].entries()){
+  if(stage)assert.ok(section.includes(round.prompt));
+  for(const c of round.choices){
+   const label=c.id===round.correct?' · Proposed strongest':'';
+   assert.ok(section.includes(`**${c.id}${label}**. ${stage?'“'+c.scripture.quote+'”':c.argument}`));
+   assert.ok(section.includes(c.feedback));
+  }
+ }
  const {romanScripture,choices,correct} = exchange;
  verifyQuotation(romanScripture);
  assert.deepEqual(choices.map(choice=>choice.id),['A','B']);
@@ -108,12 +69,24 @@ for(const [index,exchange] of proposed.entries()){
  assert.equal(choices.filter(choice=>choice.id===correct).length,1);
  for(const choice of choices){
   const words = choice.argument.trim().split(/\s+/).length;
-  assert.ok(words>=12 && words<=22,choice.argument);
+  assert.ok(words>=15 && words<=30,choice.argument);
   assert.ok(choice.feedback.trim(),exchange.id);
-  verifyQuotation(choice.scripture);
+ }
+ assert.equal(exchange.supports.length,2);
+ const used = new Set();
+ for(const round of exchange.supports){
+  assert.ok(round.prompt.trim());
+  assert.deepEqual(round.choices.map(choice=>choice.id),['A','B']);
+  assert.equal(round.choices.filter(choice=>choice.id===round.correct).length,1);
+  for(const choice of round.choices){
+   verifyQuotation(choice.scripture);
+   assert.ok(choice.feedback.trim());
+   assert.ok(!used.has(choice.scripture.key),'Use a different passage for each supporting choice');
+   used.add(choice.scripture.key);
+  }
  }
  assert.ok(exchange.claim.trim() && exchange.explanation.trim() && exchange.editorialNotes.trim());
- assert.deepEqual(exchange.citations,exchanges[index].citations,'Retain the pilot evidence trail');
+ assert.ok(exchange.citations.length);
  for(const {label,url} of exchange.citations)verifyLink(label,url);
 }
 const dist = new URL('../dist/',import.meta.url);
@@ -121,10 +94,49 @@ const publicFiles = await readdir(dist);
 assert.ok(!publicFiles.some(name=>/precept.*(?:draft|evidence)/i.test(name)));
 for(const name of publicFiles.filter(name=>name.endsWith('.js'))){
  const text=await readFile(new URL(name,dist),'utf8');
- assert.doesNotMatch(text,/precept-sabbath-v2|PB-SAB-\d+-V2/);
+ if(name!=='precept-sabbath.js')assert.doesNotMatch(text,/precept-sabbath-v2|PB-SAB-\d+-V2/);
 }
-for(const random of [()=>0,()=>.999]){
- const attempt=new PreceptAttempt(draft,random);
- assert.equal(attempt.exchange.choices[random()===0?0:1].id,attempt.exchange.correct);
+const forward=new PreceptAttempt(sabbathBattle,()=>.999),backward=new PreceptAttempt(sabbathBattle,()=>0);
+for(const [i,e] of forward.exchanges.entries()){
+ assert.equal(e.correct,backward.exchanges[i].correct);
+ assert.deepEqual(e.choices.map(c=>c.id),backward.exchanges[i].choices.map(c=>c.id).reverse());
 }
-console.log('PASS V2 draft: ten excluded exchanges, 20 argument-first choices, shuffled keys, individual feedback and exact pinned KJV excerpts.');
+console.log('PASS chain draft: ten exact approved exchanges, 20 opening choices, 40 supporting choices, shuffled keys and exact pinned KJV excerpts.');
+
+const hit = attempt => answer(attempt,attempt.round.correct);
+const miss = attempt => answer(attempt,attempt.round.choices.find(choice=>choice.id!==attempt.round.correct).id);
+const chain = new PreceptAttempt(sabbathBattle);
+miss(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.hero,chain.health.enemy,chain.score],[0,0,80,100,0]);
+hit(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.enemy,chain.score],[0,1,90,100]);
+miss(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.hero,chain.health.enemy,chain.score],[1,0,80,90,100]);
+hit(chain);hit(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.enemy,chain.score],[1,2,75,250]);
+miss(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.hero,chain.health.enemy,chain.score],[2,0,80,75,250]);
+hit(chain);hit(chain);hit(chain);
+assert.deepEqual([chain.index,chain.stage,chain.health.enemy,chain.score],[3,0,55,650]);
+const perfect = new PreceptAttempt(sabbathBattle);
+for(let i=0;i<15;i++)hit(perfect);
+assert.deepEqual([perfect.phase,perfect.health.enemy,perfect.score],['victory',0,2000]);
+const defeated = new PreceptAttempt(sabbathBattle);
+for(let i=0;i<5;i++)miss(defeated);
+assert.deepEqual([defeated.phase,defeated.health.hero,defeated.health.enemy],['defeat',0,100]);
+const smallPool = new PreceptAttempt({...sabbathBattle,chains:[{exchanges:[proposed[0]]}]});
+for(let i=0;i<9;i++){hit(smallPool);miss(smallPool);assert.equal(smallPool.index,0);}
+hit(smallPool);
+assert.deepEqual([smallPool.phase,smallPool.health.enemy,smallPool.score],['victory',0,1000]);
+const supportFinish = new PreceptAttempt(sabbathBattle);
+hit(supportFinish);hit(supportFinish);miss(supportFinish);
+hit(supportFinish);miss(supportFinish);
+for(let i=0;i<3;i++){hit(supportFinish);hit(supportFinish);hit(supportFinish);}
+hit(supportFinish);hit(supportFinish);
+assert.deepEqual([supportFinish.phase,supportFinish.health.enemy,supportFinish.score],['victory',0,1600]);
+console.log('PASS chain combat: all stage outcomes, exact score/damage, repeat guards, exhaustion fallback, perfect and partial wins, and defeat.');
+
+const longBattle=new PreceptAttempt(sabbathBattle);
+for(const exchange of proposed){assert.equal(longBattle.exchange.id,exchange.id);hit(longBattle);if(longBattle.phase!=='victory')miss(longBattle);}
+assert.equal(longBattle.phase,'victory');
+console.log('PASS standalone selection reaches all ten approved challenges when support stages are missed.');

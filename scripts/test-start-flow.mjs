@@ -24,7 +24,7 @@ function setup(existing=false){
  const c={profile,run:old,view:'title',paused:false,nameDraft:profile.nickname,collectionDraft:null,studyPathDraft:null,validStudyPath,validCollection,questions,cleanNickname,audio:{unlock(){},effect(){}},allowOverwrite:false,
   $:selector=>selector==='#nickname'?input:selector==='[data-action="start"]'?{focus(){calls.focus.push('start')}}:null,
   confirm(){calls.confirmations++;return c.allowOverwrite},createRun(...args){calls.newRuns++;return createRun(...args)},persist(){calls.writes++;if(c.run)captureProgress(c.profile,c.run);saveProfile(storage,c.profile)},
-  setView(view){c.view=view;if(view==='name-entry')input.value=c.nameDraft},beginEncounter(){calls.encounters++;c.view=c.profile.settings.skipDialogue?'game':'encounter'},pendingDialogue:()=>false,pendingBattleDialogue:()=>false,render(){},music(){}
+  setView(view){c.view=view;if(view==='name-entry')input.value=c.nameDraft},beginEncounter(){calls.encounters++;c.view=c.profile.settings.skipDialogue?'game':'encounter'},startGatekeeperChain:()=>false,pendingDialogue:()=>false,pendingBattleDialogue:()=>false,render(){},music(){}
  };vm.createContext(c);vm.runInContext(['start','chooseStoryMode','chooseCollection','chooseStudyPath','openPlayerName','cancelStart','confirmPlayerName','beginNewGame','act'].map(definition).join('\n'),c);return{c,calls,input,storage};
 }
 for(const existing of [false,true])for(const mode of ['kjv80','kjv66'])for(const path of ['complete','ot','nt']){

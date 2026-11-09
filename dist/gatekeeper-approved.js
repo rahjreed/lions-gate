@@ -1,0 +1,803 @@
+// All eight records explicitly approved by the owner from GATEKEEPER_CHAINS_REVIEW.md.
+export const approvedGatekeeperChallenges = Object.freeze([
+  {
+    "id": "GK-CHAIN-01",
+    "title": "The day and the rhythm",
+    "difficulty": 1,
+    "paths": [
+      "complete",
+      "ot"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "EXO 20:8",
+      "reference": "Exodus 20:8",
+      "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/",
+      "quote": "Remember the sabbath day, to keep it holy."
+    },
+    "claim": "Exodus ties the Sabbath to creation, while Deuteronomy also ties it to deliverance. If the reasons vary, why couldn’t the day vary too?",
+    "correct": "A",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "A day can mean more than one thing. If the command names the day, a second reason doesn't hand us a new date.",
+        "feedback": "The two reasons can coexist. Neither changes the day specified by the command."
+      },
+      {
+        "id": "B",
+        "argument": "Two different reasons tell me the point is the rest itself. Keep that weekly rhythm and you can still honor both reasons.",
+        "feedback": "This recognizes both reasons, but draws a scheduling freedom neither rationale states."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "Back it up with Scripture!",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "DEU 5:15",
+              "reference": "Deuteronomy 5:15",
+              "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-5/",
+              "quote": "therefore the LORD thy God commanded thee to keep the sabbath day."
+            },
+            "feedback": "Deliverance explains why Israel was commanded to observe the Sabbath. This excerpt does not answer which day the command names."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "EXO 20:10",
+              "reference": "Exodus 20:10",
+              "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/",
+              "quote": "the seventh day is the sabbath of the LORD thy God"
+            },
+            "feedback": "The command specifies which day. That is stronger evidence about the schedule than a reason for observing it."
+          }
+        ]
+      },
+      {
+        "prompt": "Bring another witness!",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "EXO 31:13",
+              "reference": "Exodus 31:13",
+              "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-31/",
+              "quote": "Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations"
+            },
+            "feedback": "The Sabbath as a sign adds another reason to observe it, but it describes Israel’s relationship to God rather than the day’s place in creation."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "GEN 2:3",
+              "reference": "Genesis 2:3",
+              "url": "https://www.kingjamesbibleonline.org/Genesis-Chapter-2/",
+              "quote": "And God blessed the seventh day, and sanctified it"
+            },
+            "feedback": "The creation account explicitly sets the day apart. This supplies the basis for Akobi’s distinction between a named day and a weekly rhythm."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Exodus 20:10",
+        "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/"
+      },
+      {
+        "label": "Genesis 2:3",
+        "url": "https://www.kingjamesbibleonline.org/Genesis-Chapter-2/"
+      }
+    ],
+    "explanation": "The two reasons can coexist. Neither changes the day specified by the command.",
+    "editorialNotes": "Keep the claim about what the texts name. Creation, deliverance, and covenant sign are compatible explanations. Modern application is a separate question. Difficulty comes from distinguishing a rationale from the instruction it explains."
+  },
+  {
+    "id": "GK-CHAIN-02",
+    "title": "Witnesses and inquiry",
+    "difficulty": 2,
+    "paths": [
+      "complete",
+      "ot"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "DEU 19:15",
+      "reference": "Deuteronomy 19:15",
+      "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/",
+      "quote": "at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+    },
+    "claim": "Two witnesses agree. A third person says one of them is lying but saw none of the original incident. How should the judges handle the charge?",
+    "correct": "B",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "I would stand on the two witnesses unless somebody can contradict them firsthand. Otherwise a bare accusation could tie up any case.",
+        "feedback": "The concern about delay is understandable, but the witness threshold does not eliminate the inquiry into an accusation of false testimony."
+      },
+      {
+        "id": "B",
+        "argument": "Two witnesses get the case through the door. If someone raises a charge of false testimony, the judges still have work to do.",
+        "feedback": "Deuteronomy sets a threshold for establishing a matter and directs judges to investigate disputed testimony. It does not say an accusation by itself overturns the case."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "What precept proves your point?",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "DEU 19:18",
+              "reference": "Deuteronomy 19:18",
+              "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/",
+              "quote": "And the judges shall make diligent inquisition: and, behold, if the witness be a false witness"
+            },
+            "feedback": "The judges investigate and determine whether the witness lied. The accusation alone does not establish that."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "DEU 17:6",
+              "reference": "Deuteronomy 17:6",
+              "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-17/",
+              "quote": "at the mouth of one witness he shall not be put to death."
+            },
+            "feedback": "This limits the evidence for a capital judgment. It does not resolve how a charge of false testimony should be handled."
+          }
+        ]
+      },
+      {
+        "prompt": "Can you establish that with another witness?",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "DEU 19:17",
+              "reference": "Deuteronomy 19:17",
+              "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/",
+              "quote": "Then both the men, between whom the controversy is, shall stand before the LORD, before the priests and the judges"
+            },
+            "feedback": "Both parties appear before the authorities. This places the dispute in a proceeding rather than leaving it to the accuser to resolve."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "DEU 19:19",
+              "reference": "Deuteronomy 19:19",
+              "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/",
+              "quote": "Then shall ye do unto him, as he had thought to have done unto his brother"
+            },
+            "feedback": "The consequence follows a finding of false witness. It does not establish the process for making that finding."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Deuteronomy 19:18",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+      },
+      {
+        "label": "Deuteronomy 19:17",
+        "url": "https://www.kingjamesbibleonline.org/Deuteronomy-Chapter-19/"
+      }
+    ],
+    "explanation": "Deuteronomy sets a threshold for establishing a matter and directs judges to investigate disputed testimony. It does not say an accusation by itself overturns the case.",
+    "editorialNotes": "Distinguish the original allegation from the charge of false witness. The text does not lay out a modern admissibility rule or authorize private enforcement. Difficulty turns on the difference between evidence, procedure, and consequence."
+  },
+  {
+    "id": "GK-CHAIN-03",
+    "title": "Offerings and poverty",
+    "difficulty": 4,
+    "paths": [
+      "complete",
+      "ot"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "LEV 5:6",
+      "reference": "Leviticus 5:6",
+      "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/",
+      "quote": "a female from the flock, a lamb or a kid of the goats, for a sin offering"
+    },
+    "claim": "The flock offering looks like the standard. Do the cheaper offerings belong to this same rule, or are we borrowing exceptions from other cases?",
+    "correct": "A",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "Same case, different means. The passage keeps talking about the person's sin while changing what they bring when they can't afford the first offering.",
+        "feedback": "Leviticus 5 attaches the alternatives to the person’s means within this same case. The kind of wrong is not what triggers each step down."
+      },
+      {
+        "id": "B",
+        "argument": "The cheaper offerings might apply to a different kind of case. Birds show up in other laws, so I wouldn't assume they substitute here.",
+        "feedback": "Other laws do use birds, but this passage gives its own substitute for the same trespass. No exception needs to be imported from another case."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "Show me what you’re standing on.",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "LEV 12:8",
+              "reference": "Leviticus 12:8",
+              "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-12/",
+              "quote": "if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons"
+            },
+            "feedback": "This is a real affordability provision, but its immediate context is purification after childbirth. It cannot establish the substitute for this trespass."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "LEV 5:7",
+              "reference": "Leviticus 5:7",
+              "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/",
+              "quote": "if he be not able to bring a lamb, then he shall bring for his trespass, which he hath committed, two turtledoves, or two young pigeons"
+            },
+            "feedback": "The condition and the words about the trespass keep the alternate offering within the same case."
+          }
+        ]
+      },
+      {
+        "prompt": "Don’t stop there. Bring another precept!",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "LEV 5:11",
+              "reference": "Leviticus 5:11",
+              "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/",
+              "quote": "if he be not able to bring two turtledoves, or two young pigeons, then he that sinned shall bring for his offering the tenth part of an ephah of fine flour for a sin offering"
+            },
+            "feedback": "The flour provision follows its own affordability condition. Together the verses show a progression from flock animal to birds to flour."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "LEV 5:13",
+              "reference": "Leviticus 5:13",
+              "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/",
+              "quote": "And the priest shall make an atonement for him as touching his sin that he hath sinned in one of these, and it shall be forgiven him"
+            },
+            "feedback": "This gives the result of the offering within the case. It does not specify what someone can bring when even the birds are out of reach."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Leviticus 5:7",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/"
+      },
+      {
+        "label": "Leviticus 5:11",
+        "url": "https://www.kingjamesbibleonline.org/Leviticus-Chapter-5/"
+      }
+    ],
+    "explanation": "Leviticus 5 attaches the alternatives to the person’s means within this same case. The kind of wrong is not what triggers each step down.",
+    "editorialNotes": "Scope the answer to Leviticus 5. Similar bird provisions elsewhere are legitimate parallels, not interchangeable rules. Difficulty comes from tracking the governing case and the two conditions."
+  },
+  {
+    "id": "GK-CHAIN-04",
+    "title": "Fasting and justice",
+    "difficulty": 6,
+    "paths": [
+      "complete",
+      "ot"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "ISA 58:5",
+      "reference": "Isaiah 58:5",
+      "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/",
+      "quote": "a day for a man to afflict his soul?"
+    },
+    "claim": "They’ve gone without food and humbled themselves. Is Isaiah asking for a more sincere fast, or is he challenging something the fast has left untouched?",
+    "correct": "B",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "I hear Isaiah calling out a show. If the fasting came from real humility instead of a performance, that would answer his complaint.",
+        "feedback": "The criticism of outward display is real. But a more inward fast alone would leave the burdens and neglect Isaiah names untouched."
+      },
+      {
+        "id": "B",
+        "argument": "You can't bow low and keep a boot on your neighbor. What good is that fast if you're still mistreating people?",
+        "feedback": "Isaiah challenges how the people treat others alongside their fast. Sincerity does not remove the concrete demands in his answer."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "Make your case from Scripture.",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "ISA 58:6",
+              "reference": "Isaiah 58:6",
+              "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/",
+              "quote": "to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke"
+            },
+            "feedback": "Isaiah demands that the oppression itself end. The verse provides the change Akobi argues for."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "ISA 58:3",
+              "reference": "Isaiah 58:3",
+              "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/",
+              "quote": "in the day of your fast ye find pleasure, and exact all your labours"
+            },
+            "feedback": "This diagnoses why their fast is challenged. It supports Akobi’s concern but does not prescribe what they must do differently."
+          }
+        ]
+      },
+      {
+        "prompt": "What else backs you up?",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "ISA 58:8",
+              "reference": "Isaiah 58:8",
+              "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/",
+              "quote": "Then shall thy light break forth as the morning, and thine health shall spring forth speedily"
+            },
+            "feedback": "The promise follows the practices Isaiah names. It describes a result rather than another responsibility toward a neighbor."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "ISA 58:7",
+              "reference": "Isaiah 58:7",
+              "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/",
+              "quote": "to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house"
+            },
+            "feedback": "Isaiah moves from lifting burdens to sharing food and shelter. Those actions add something positive to ceasing oppression."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Isaiah 58:6",
+        "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/"
+      },
+      {
+        "label": "Isaiah 58:7",
+        "url": "https://www.kingjamesbibleonline.org/Isaiah-Chapter-58/"
+      }
+    ],
+    "explanation": "Isaiah challenges how the people treat others alongside their fast. Sincerity does not remove the concrete demands in his answer.",
+    "editorialNotes": "Do not treat the passage as a universal ban on fasting. The sequence is diagnosis, release, and positive care. Difficulty comes from distinguishing the demand from both the complaint and the promised result."
+  },
+  {
+    "id": "GK-CHAIN-05",
+    "title": "Mercy on the Sabbath",
+    "difficulty": 1,
+    "paths": [
+      "complete",
+      "nt"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "MAT 12:8",
+      "reference": "Matthew 12:8",
+      "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/",
+      "quote": "For the Son of man is Lord even of the sabbath day."
+    },
+    "claim": "Yeshua claims authority over the Sabbath and heals on it. How do you tell whether he is ruling on an action or setting the day aside?",
+    "correct": "A",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "He rules on what they can do that day. If you say helping somebody is lawful on the Sabbath, you're still talking about the Sabbath.",
+        "feedback": "Matthew records a ruling about what is lawful on that day. The authority claim and the healing do not supply a ruling ending the day."
+      },
+      {
+        "id": "B",
+        "argument": "When the one in charge heals right in front of his critics, I take that as permission to stop setting the day apart.",
+        "feedback": "The healing challenges the critics’ restrictive application. It does not establish that the day itself, or every rule about it, is set aside."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "Where’s your evidence in Scripture?",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "MAT 12:12",
+              "reference": "Matthew 12:12",
+              "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/",
+              "quote": "How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days."
+            },
+            "feedback": "Matthew gives a conclusion about conduct on the day. This is more direct than establishing who has authority to make a ruling."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "MAR 2:28",
+              "reference": "Mark 2:28",
+              "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-2/",
+              "quote": "Therefore the Son of man is Lord also of the sabbath."
+            },
+            "feedback": "This supports Yeshua’s authority, but by itself does not distinguish a ruling about conduct from a change to the day."
+          }
+        ]
+      },
+      {
+        "prompt": "Give me a second witness.",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "MAT 12:7",
+              "reference": "Matthew 12:7",
+              "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/",
+              "quote": "I will have mercy, and not sacrifice, ye would not have condemned the guiltless."
+            },
+            "feedback": "The mercy principle matters. This line belongs to the earlier grainfield exchange, rather than giving the concrete comparison in the healing."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "MAT 12:11",
+              "reference": "Matthew 12:11",
+              "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/",
+              "quote": "if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?"
+            },
+            "feedback": "The sheep rescue gives the premise of the comparison. His next line applies the reasoning to helping a person."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Matthew 12:12",
+        "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/"
+      },
+      {
+        "label": "Matthew 12:11",
+        "url": "https://www.kingjamesbibleonline.org/Matthew-Chapter-12/"
+      }
+    ],
+    "explanation": "Matthew records a ruling about what is lawful on that day. The authority claim and the healing do not supply a ruling ending the day.",
+    "editorialNotes": "Both supporting themes are real. Grade the ruling and its immediate argument. Do not extrapolate a complete Sabbath code from this case."
+  },
+  {
+    "id": "GK-CHAIN-06",
+    "title": "Faith and the law",
+    "difficulty": 2,
+    "paths": [
+      "complete",
+      "nt"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "ROM 3:28",
+      "reference": "Romans 3:28",
+      "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-3/",
+      "quote": "a man is justified by faith without the deeds of the law."
+    },
+    "claim": "If Paul takes deeds out of the basis for justification, what place can the law still have in his argument?",
+    "correct": "B",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "I can see Paul keeping the law as a witness to what went wrong. But once faith justifies, I'd stop short of saying he upholds it.",
+        "feedback": "The law can expose sin, but this answer stops short of Paul’s explicit claim that faith establishes the law."
+      },
+      {
+        "id": "B",
+        "argument": "You're mixing up what makes somebody right with God and whether God's law still stands. Paul can answer those two questions differently.",
+        "feedback": "Paul separates the basis of justification from the standing of the law. His rejection of justification by deeds does not entail voiding the law."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "That’s your argument. What backs it up?",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "ROM 3:30",
+              "reference": "Romans 3:30",
+              "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-3/",
+              "quote": "which shall justify the circumcision by faith, and uncircumcision through faith"
+            },
+            "feedback": "This establishes the scope of justification by faith. It does not answer what happens to the law in Paul’s argument."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "ROM 3:31",
+              "reference": "Romans 3:31",
+              "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-3/",
+              "quote": "Do we then make void the law through faith? God forbid: yea, we establish the law."
+            },
+            "feedback": "Paul addresses the second question directly. The statement sits alongside, rather than replacing, his conclusion about justification by faith."
+          }
+        ]
+      },
+      {
+        "prompt": "Show me another Scripture!",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "ROM 4:3",
+              "reference": "Romans 4:3",
+              "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-4/",
+              "quote": "Abraham believed God, and it was counted unto him for righteousness."
+            },
+            "feedback": "Abraham gives Paul a concrete scriptural case of faith being credited, so upholding the law need not mean earning justification."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "ROM 4:4",
+              "reference": "Romans 4:4",
+              "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-4/",
+              "quote": "Now to him that worketh is the reward not reckoned of grace, but of debt."
+            },
+            "feedback": "The wages comparison clarifies what earning would mean. It is not the positive scriptural case of righteousness being credited."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Romans 3:31",
+        "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-3/"
+      },
+      {
+        "label": "Romans 4:3",
+        "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-4/"
+      }
+    ],
+    "explanation": "Paul separates the basis of justification from the standing of the law. His rejection of justification by deeds does not entail voiding the law.",
+    "editorialNotes": "The scope of what it means to establish the law is disputed. Grade the explicit distinction. The argument does not settle the role of each command or all debates over justification."
+  },
+  {
+    "id": "GK-CHAIN-07",
+    "title": "The faith that acts",
+    "difficulty": 4,
+    "paths": [
+      "complete",
+      "nt"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "JAM 2:17",
+      "reference": "James 2:17",
+      "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/",
+      "quote": "faith, if it hath not works, is dead, being alone."
+    },
+    "claim": "James says faith without works is dead. If deeds make the difference, why treat faith as anything more than the starting point?",
+    "correct": "A",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "A promise to help won't feed anybody. James wants faith that does something, and in Abraham's case the faith is still working when he acts.",
+        "feedback": "James connects Abraham’s trust and action, then gives practical tests of a claim to faith. The action does not render trust irrelevant."
+      },
+      {
+        "id": "B",
+        "argument": "Faith gets you started, but James puts the weight on the deed. I'd say trust has done its part by the time you act.",
+        "feedback": "James gives works real weight. But his account of Abraham says faith acts together with them, rather than dropping out after the start."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "You’ve made your point. Can you back it up?",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "JAM 2:24",
+              "reference": "James 2:24",
+              "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/",
+              "quote": "Ye see then how that by works a man is justified, and not by faith only."
+            },
+            "feedback": "The conclusion gives works real weight. It does not spell out how the two worked together in Abraham’s example as verse 22 does."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "JAM 2:22",
+              "reference": "James 2:22",
+              "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/",
+              "quote": "faith wrought with his works, and by works was faith made perfect"
+            },
+            "feedback": "The line describes faith working with action and being brought to completion through it. This directly addresses their relationship."
+          }
+        ]
+      },
+      {
+        "prompt": "One witness so far. Bring me another.",
+        "correct": "B",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "JAM 2:19",
+              "reference": "James 2:19",
+              "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/",
+              "quote": "the devils also believe, and tremble."
+            },
+            "feedback": "This shows that belief alone is inadequate. It does not show the concrete effect of withholding help from a neighbor."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "JAM 2:16",
+              "reference": "James 2:16",
+              "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/",
+              "quote": "notwithstanding ye give them not those things which are needful to the body; what doth it profit?"
+            },
+            "feedback": "James’s example contrasts kind words with withholding actual help. It makes the practical consequence of a bare profession visible."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "James 2:22",
+        "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+      },
+      {
+        "label": "James 2:16",
+        "url": "https://www.kingjamesbibleonline.org/James-Chapter-2/"
+      }
+    ],
+    "explanation": "James connects Abraham’s trust and action, then gives practical tests of a claim to faith. The action does not render trust irrelevant.",
+    "editorialNotes": "James 2:24 is serious evidence that works matter. James 2:22 is stronger for how faith and works relate in Abraham’s example. With that relationship established, James 2:16 supplies a different test: whether kind words lead to practical help. James 2:19 is relevant to inadequate belief, but is less direct for the specific point Akobi makes about feeding someone. Keep the grade on that distinction rather than settling disputes between readings of James and Paul."
+  },
+  {
+    "id": "GK-CHAIN-08",
+    "title": "A new covenant and written laws",
+    "difficulty": 6,
+    "paths": [
+      "complete",
+      "nt"
+    ],
+    "collections": [
+      "kjv66",
+      "kjv80"
+    ],
+    "status": "approved",
+    "romanScripture": {
+      "key": "HEB 8:13",
+      "reference": "Hebrews 8:13",
+      "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-8/",
+      "quote": "A new covenant, he hath made the first old."
+    },
+    "claim": "I grant that Hebrews still speaks of God’s laws. If they’re written within now, why couldn’t the change be only in how people receive the same covenant requirements?",
+    "correct": "B",
+    "choices": [
+      {
+        "id": "A",
+        "argument": "I’d say the instruction still stands as before. What changes is the person receiving it. God makes it part of them instead of leaving it outside.",
+        "feedback": "Internal instruction is part of the promise. The word ‘only’ is the problem with that reading: Hebrews also connects remission to the end of offerings for sin."
+      },
+      {
+        "id": "B",
+        "argument": "God still gives instruction, yes. But changing where it’s written isn’t the whole story. Hebrews also shows a change in how sin is dealt with.",
+        "feedback": "Hebrews describes God’s laws within the new covenant and draws a specific consequence from forgiveness for offerings for sin. The change goes beyond where instruction is received."
+      }
+    ],
+    "supports": [
+      {
+        "prompt": "Put some Scripture behind that claim.",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "HEB 8:10",
+              "reference": "Hebrews 8:10",
+              "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-8/",
+              "quote": "I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people"
+            },
+            "feedback": "This establishes the premise both speakers recognize: the new covenant includes God’s laws written within. It does not by itself establish that this is the only change."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "HEB 8:12",
+              "reference": "Hebrews 8:12",
+              "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-8/",
+              "quote": "I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more."
+            },
+            "feedback": "Mercy belongs to the promise, but this excerpt does not establish what happens to divine instruction. That is the premise the rebuttal needs first."
+          }
+        ]
+      },
+      {
+        "prompt": "What’s your next witness?",
+        "correct": "A",
+        "choices": [
+          {
+            "id": "A",
+            "scripture": {
+              "key": "HEB 10:18",
+              "reference": "Hebrews 10:18",
+              "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-10/",
+              "quote": "Now where remission of these is, there is no more offering for sin."
+            },
+            "feedback": "Hebrews names a change beyond internal instruction. Where there is remission, it says there is no more offering for sin. That is the specific difference Akobi’s reply needs."
+          },
+          {
+            "id": "B",
+            "scripture": {
+              "key": "HEB 10:16",
+              "reference": "Hebrews 10:16",
+              "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-10/",
+              "quote": "I will put my laws into their hearts, and in their minds will I write them"
+            },
+            "feedback": "This is a valid witness to internal instruction, but it repeats the first point. It cannot establish that the covenant change extends beyond how instruction is received."
+          }
+        ]
+      }
+    ],
+    "citations": [
+      {
+        "label": "Hebrews 8:10",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-8/"
+      },
+      {
+        "label": "Hebrews 10:18",
+        "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-10/"
+      }
+    ],
+    "explanation": "Hebrews describes God’s laws within the new covenant and draws a specific consequence from forgiveness for offerings for sin. The change goes beyond where instruction is received.",
+    "editorialNotes": "The weaker reading acknowledges divine instruction. The disagreement is whether internalization alone explains the change. Hebrews 8:10 establishes the shared premise, then Hebrews 10:18 gives a specific change concerning offerings for sin. The scope of continuity for other covenant provisions remains disputed and is outside the grade."
+  }
+]);

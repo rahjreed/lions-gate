@@ -33,6 +33,7 @@ for(const level of [1,10])for(const skip of [false,true]){
  const state={run:createRun(questions),profile:emptyProfile(),encounter:null,paused:false,view:'title',EncounterDialogue,pendingBattleDialogue,claimBattleDialogue,clearBattleDialogue,battleExchange,stopClock(){},persist(){},$:()=>null,views:[],setView(next){this.view=next;this.views.push(next)}};
  // A plain function avoids binding VM callbacks to the host global.
  state.setView=next=>{state.view=next;state.views.push(next)};state.profile.settings.skipDialogue=skip;state.run.level=level;state.run.completed=level-1;beginLevel(state.run,questions,()=>.42);
+ state.startGatekeeperChain=()=>false;
  vm.createContext(state);vm.runInContext(['beginEncounter','beginBattleDialogue','finishEncounter'].map(definition).join('\n'),state);
  const initial=gameplayState(state.run);state.beginEncounter();assert.equal(state.view,skip?'game':'encounter');assert.equal(gameplayState(state.run),initial);if(skip)assert.equal(state.run.dialogue.done,true);
  for(const kind of ['enemy-low','one-life','knockout']){

@@ -73,6 +73,7 @@ function appHarness(run,reduced=false){
   audio:{effect(){},unlock(){}},juice:{clear(){},enter(){},answer(){},burst(){},combatNumber:(_,delta)=>log.numbers.push({at:cclock.now,delta})},
   paintCombat:(_,frame)=>log.frames.push(frame),updateCombatHealth:()=>log.health.push({at:cclock.now,...combatHealth(c.run)}),
   answerReveal:{close(){},open(){log.reveals.push(cclock.now)}},beginBattleDialogue(){throw Error('Unexpected dialogue at encounter end')},beginEncounter(){},beginJourney(){}}
+ c.startGatekeeperChain=()=>false;
  vm.createContext(c);vm.runInContext(['battleScene','previousCombatHUD','restoreCombatPresentation','render','choose','playCombat','proceed','setView','act'].map(definition).join('\n'),c);return {c,clock:cclock,log,saved,d,app};
 }
 for(const level of [1,5])for(const kind of ['ko','survivor','judah'])for(const reduced of [false,true]){
