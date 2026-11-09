@@ -1,0 +1,28 @@
+{
+  "dist/app.js": {
+    "sha256": "fd549595f33088a8518e311aceb315006f771f83c82cf592b68798180e29d99a",
+    "edits": [
+      [
+        "import {landscape,sword,environments} from './art.js';",
+        "import {landscape,sword,environments} from './art.js';\nimport {bindPreceptBattle} from './precept-battle.js';"
+      ],
+      [
+        "<div class=\"menu-links\">${button('HALL OF MASTERS'",
+        "<div class=\"menu-links\"><button type=\"button\" class=\"menu-link\" data-precept-open>PRECEPT BATTLE</button>${button('HALL OF MASTERS'"
+      ],
+      [
+        "storageOK=saveProfile(storage,profile);\nmusic();\nrender();",
+        "bindPreceptBattle({root:app,storage,audio,getSettings:()=>profile.settings,restoreMusic:music,\n getWardrobe:()=>({completed:profile.bestCompleted,equipment:profile.armor.unlocked,rank:wardrobeFor(profile.bestCompleted,profile.mastery.legacyCompleted)})});\nstorageOK=saveProfile(storage,profile);\nmusic();\nrender();"
+      ]
+    ]
+  },
+  "dist/index.html": {
+    "sha256": "638690b134c3d08f02b0b9f2f945f31ea45cfc70890116b63bccf5e600e9d9c3",
+    "edits": [
+      [
+        "<link rel=\"stylesheet\" href=\"cloud.css\">",
+        "<link rel=\"stylesheet\" href=\"cloud.css\"><link rel=\"stylesheet\" href=\"precept-battle.css\">"
+      ]
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 # Lion's Gate — Precept Battle Mode
 
-Design proposal. The [Sabbath vs Sunday pilot](content/PRECEPT_BATTLE_SABBATH_PILOT.md) is editorial material for this mode.
+V1 arena design. The local implementation uses the [Sabbath vs Sunday pilot](content/PRECEPT_BATTLE_SABBATH_PILOT.md) without changing its exchanges or citations.
 
 ## Arena flow
 
-From the title menu, choose **Precept Battle**, read the required **Before You Enter** screen, and select **Enter the Arena** to proceed to topic selection. The pilot offers one topic. Reuse the existing Black warrior with locs, Roman soldier, and combat scenery layers. The brief calls the hero Judah. The current game displays Akobi, so the arena should inherit the live character name and presentation. Use a stone arena treatment around the existing combat stage for the prototype.
+From the title menu, choose **Precept Battle**, accept the first-entry notice, and select **Sabbath vs Sunday**. The arena reuses Akobi and the Roman soldier against a stone arena backdrop.
 
 ### Required entry screen
 
@@ -22,14 +22,14 @@ Use this player-facing copy:
 
 - **Enter the Arena** confirms readiness and opens topic selection. Require an explicit button activation. Opening the screen or pressing Enter with focus on the heading must leave the player on the screen.
 - **Back** and Escape return to the title menu. Focus the heading on entry and return focus to **Precept Battle** on exit.
-- Show this screen each time the player enters the mode from the title menu. **Replay Battle** within the mode can go directly to a fresh attempt. Treat the choice as readiness to proceed and keep it in the current navigation state.
+- Show this screen once per local browser profile, as specified in the V1 brief. Store acknowledgment under a separate local key. **Replay Battle** starts a fresh attempt directly. This is a readiness confirmation, with no religious identification or agreement required.
 
-Show two health bars, **Chain 1 of 2**, and **0 of 5 successful responses**. Display the Roman's current claim above four concise responses spoken by the hero. The claim is the prompt. An argument may contain a partly true premise, and the winning response should acknowledge it before showing where the conclusion goes beyond the cited text.
+Show both health bars and chain progress. Use the question panel below the fighters for every dialogue turn. Label the current speaker **Roman Soldier** or **Akobi**. Display four choices under the Roman's claim, then show Akobi's selected response in the same panel during combat. Put compact Scripture feedback directly beneath the response.
 
 1. The player selects a response. Lock input for the exchange and play the existing combat animation.
 2. At impact, apply the damage once and update the health bars. After the animation, show a compact reveal with the best response, a brief explanation, and KJV links.
 3. On a correct response, **Continue** opens the next rebuttal. On an incorrect response, **Try this rebuttal again** returns to the same claim with the same choices. Since the reveal teaches the answer, a corrected retry counts as a successful response. Health loss supplies the penalty.
-4. After the fifth success, the Roman concedes the first point and pivots to the second argument. Put that pivot in the next speech bubble. Keep both health bars as they are.
+4. After the fifth success, the Roman concedes the first point and pivots to the second argument in the lower panel. Keep both health bars as they are.
 5. At the tenth success, play the existing finishing strike, show the final compact reveal, then offer **Replay Battle** and **Return to Menu**. At zero hero lives, show the final correction and a defeat screen with the same actions. Replay starts both chains from the beginning with full health.
 
 Use Story Mode's baseline of five lives and one life lost per wrong answer. Each success deals 10 percentage points of damage to the Roman. Wrong answers leave the Roman's health and rebuttal cursor where they were. The fifth success leaves 50% health and the tenth leaves zero. With four errors the player can still win at one life. The fifth error ends the attempt, even at the last rebuttal. The pilot has no timer, shields, power-ups, scores, or Story rewards. Pace comes from short dialogue and one response per exchange.
@@ -59,7 +59,7 @@ Start with Sabbath vs Sunday. Expand only after the pilot works as a connected d
 1. Add a separate battle module and small pure attempt reducer. Proposed state includes battle ID and revision, phase, successes, lives, the current response order, and pending outcome. Derive chain and exchange from successes, and enemy health from successes times ten. Use phases for answering, animating, reveal, victory, and defeat. Reserve the response immediately, apply the outcome once at impact, and advance the visible prompt only after the reveal closes. Keep attempt state in memory for the pilot. A refresh returns to the menu, and retry creates a new attempt.
 2. Add title entry, the required **Before You Enter** screen, topic picker, arena view, and results routes in `dist/app.js`, with separate arena actions and state. Require readiness confirmation before opening topic selection or creating an attempt. Leave the Story run, answer queues, progression, and persistence path intact. Story's `choose` and `proceed` call engine and persistence logic tied to scoring, mastery, dialogue checkpoints, and level advancement. Route arena selections to the arena reducer instead of those handlers.
 3. Reuse `CombatDirector`, `paintCombat`, and `romanSoldier` from `dist/combat.js` with an arena-owned director. Use the director's impact and finish callbacks for synchronization, its pause and resume methods for backgrounding, and cancel on exit. Reuse `combatDamageFeedback` with arena before-and-after values. The existing health markup derives opponent identity from Story level and damage from Story answers. Use a small arena meter adapter or extract neutral rendering only when implementing, with Story regression coverage.
-4. Reuse the modal controller and styles in `dist/answer-reveal.js`. Its current markup includes Story points, shield, and timeout copy, so supply an arena-specific compact markup adapter with the expected focus and Continue hooks. Reuse sprites, motion preferences, existing combat sound cues, and audio settings. Add arena handling to the Pause control, keyboard dispatch, view lifecycle, and music policy. Arena pause and exit must operate on arena state only. Keep essential Roman prompts visible even if optional character dialogue is disabled.
+4. Use an accessible arena dialog as the separate view and keep feedback inline in its lower question panel. Reuse sprites, motion preferences, existing combat sound cues, and audio settings. Arena pause and exit operate on arena state only. Keep essential Roman prompts visible even if optional character dialogue is disabled.
 5. Verify that entering from the title shows the full entry copy, explicit confirmation opens topic selection, and Back and Escape return to the title without creating an attempt. Verify all ten successes, the chain boundary at five, wrong-answer retries, fifth-error defeat, final-hit sequencing, repeated input, pause and background recovery, cancellation during animation, reduced motion, and mobile layout. Verify that entering, replaying, and exiting the arena leaves Story progress, rewards, and saved profile intact. Run the production build and confirm the reviewed battle asset is available offline once runtime wiring exists.
 
 Review the pilot for fairness first. Then implement a single local, unscored arena using the existing stage and combat director. Play it through on desktop and a narrow phone before investing in custom arena art or more topics.

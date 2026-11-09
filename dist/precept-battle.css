@@ -1,0 +1,56 @@
+.precept-dialog {
+ width: min(100% - 24px, 850px);
+ max-height: calc(100dvh - 24px);
+ margin: auto;
+ padding: 0;
+ overflow: auto;
+ overscroll-behavior: contain;
+ border: 3px double #a68456;
+ background: #141929;
+ color: var(--white);
+ box-shadow: 0 0 0 4px #15101a, 0 14px 42px #000b;
+}
+.precept-dialog::backdrop { background: #070912e8; }
+.precept-dialog [hidden] { display: none !important; }
+.precept-menu { padding: clamp(16px, 4vw, 34px); }
+.precept-dialog h1 { color: var(--gold); font: 13px/1.65 var(--pixel); }
+.precept-menu p { max-width: 65ch; line-height: 1.55; }
+.precept-shell { padding: 10px; }
+.precept-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.precept-top h1 { margin: 0; }
+.precept-dialog .button { min-height: 44px; padding: 8px 12px; font-size: 8px; }
+.precept-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.precept-health { gap: 8px; padding: 6px 8px; }
+.precept-health .health-label { gap: 3px; flex-wrap: wrap; }
+.precept-health progress { display: block; width: 100%; height: 9px; accent-color: #e8be72; }
+.precept-health .health-enemy progress { accent-color: #e37a66; }
+.precept-arena { height: clamp(112px, 23dvh, 205px); }
+.precept-stone {
+ position: absolute;
+ inset: 0;
+ background:
+  linear-gradient(0deg, #362127 0 6%, #9e6852 6% 8%, #160e1a00 8%),
+  repeating-linear-gradient(90deg, #251c28 0 3%, #b98a6655 3% 4%, transparent 4% 24%, #211721 24% 25%),
+  repeating-linear-gradient(0deg, #1b182244 0 3px, transparent 3px 19px, #17121e 19px 22px),
+  radial-gradient(ellipse at 50% 0, #ca884e, #573740 53%, #171625 95%);
+ box-shadow: inset 0 0 28px #090610;
+}
+.precept-debate, .precept-pause { margin-top: 8px; padding: 10px 12px 15px; }
+.precept-progress { margin: 0 0 6px; color: var(--muted); font: 10px/1.5 var(--mono); }
+.precept-debate h2, .precept-pause h2 { margin: 0 0 4px; color: var(--gold); font: bold 13px/1.5 var(--mono); }
+.precept-line { margin: 0 0 10px; line-height: 1.36; }
+.precept-debate .answers { gap: 6px; }
+.precept-debate .answer { min-height: 44px; padding: 7px 9px; gap: 7px; }
+.precept-debate .answer strong { font-size: 13px; line-height: 1.3; }
+.precept-debate .answer > span:first-child { flex-shrink: 0; }
+.precept-feedback { padding: 8px 10px; border-left: 3px solid #7ebc9d; background: #101724; }
+.precept-feedback.wrong { border-color: #e891a4; }
+.precept-feedback p { margin: 6px 0; font-size: 13px; line-height: 1.4; }
+.precept-paused .game-scene, .precept-paused .game-scene * { animation-play-state: paused !important; }
+@media (max-width: 520px) {
+ .precept-dialog { width: calc(100% - 12px); max-height: calc(100dvh - 12px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+ .precept-shell { padding: 6px; }
+ .precept-top h1 { font-size: 10px; }
+ .precept-line { font-size: 14px; }
+ .precept-debate { padding: 8px 8px 12px; }
+}
