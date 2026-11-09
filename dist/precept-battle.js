@@ -79,7 +79,7 @@ const notice = `<h1 id="precept-title" tabindex="-1">⚔️ PRECEPT BATTLE MODE 
  <p>Are you ready to enter the arena?</p>
  <div class="precept-actions">${button('ENTER THE ARENA','accept',true)}${button('BACK','exit')}</div>`;
 
-export function bindPreceptBattle({root, storage, audio, getSettings, restoreMusic, getWardrobe}) {
+export function bindPreceptBattle({root, storage, audio, getSettings, restoreMusic, getWardrobe, onBattleExit}) {
  const dialog = document.createElement('dialog');
  dialog.className = 'precept-dialog';
  dialog.setAttribute('aria-labelledby','precept-title');
@@ -112,6 +112,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   void audio.unlock();
  }
  function close() {
+  const leavingBattle = Boolean(attempt);
   combat.cancel();
   juice.clear();
   attempt = null;
@@ -119,6 +120,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   dialog.classList.remove('precept-paused');
   dialog.close();
   dialog.replaceChildren();
+  if (leavingBattle) return onBattleExit();
   restoreMusic();
   (opener?.isConnected ? opener : root.querySelector('[data-precept-open]'))?.focus();
  }

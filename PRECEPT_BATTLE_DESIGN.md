@@ -8,7 +8,7 @@ Before replacing the playable pilot, review each proposed key against its exact 
 
 ## Arena flow
 
-From the title menu, choose **Precept Battle**, accept the first-entry notice, and select **Sabbath vs Sunday**. The arena reuses Akobi and the Roman soldier against a stone arena backdrop.
+From the title, choose **Press Start** or **New Game**, then **Precept Battle**. Accept the first-entry notice if prompted and select **Sabbath vs Sunday**. Back from the notice or topic picker returns to the mode picker. Exiting an active or completed battle returns to the title. **Continue** on the title opens the saved Story run directly. The arena reuses Akobi and the Roman soldier against a stone arena backdrop.
 
 ### Required entry screen
 

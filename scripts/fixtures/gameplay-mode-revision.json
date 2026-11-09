@@ -1,0 +1,41 @@
+{
+  "sha256": "58716316e9c6659898ca303f988f25d312c7b3940a227ee20d95824aec581ef2",
+  "edits": [
+    [
+      "view==='title'||view==='settings'",
+      "view==='title'||view==='mode-select'||view==='settings'"
+    ],
+    [
+      "function start(){nameDraft=profile.nickname;collectionDraft=null;studyPathDraft=null;setView('collection');$('#screen-title')?.focus()}",
+      "function start(){nameDraft=profile.nickname;collectionDraft=null;studyPathDraft=null;setView('mode-select');$('#screen-title')?.focus()}\nfunction chooseStoryMode(){if(view==='mode-select'){setView('collection');$('#screen-title')?.focus()}}"
+    ],
+    [
+      "if(view==='study-path'){setView('collection');$('#screen-title')?.focus();return}nameDraft=",
+      "if(view==='study-path'){setView('collection');$('#screen-title')?.focus();return}if(view==='collection'){setView('mode-select');$('#screen-title')?.focus();return}nameDraft="
+    ],
+    [
+      "<div class=\"menu-links\"><button type=\"button\" class=\"menu-link\" data-precept-open>PRECEPT BATTLE</button>${button('HALL OF MASTERS'",
+      "<div class=\"menu-links\">${button('HALL OF MASTERS'"
+    ],
+    [
+      "function titleScreen()",
+      "function gameplayModeScreen(){return `<section class=\"menu-screen collection-screen gameplay-mode-screen\" aria-labelledby=\"screen-title\">\n <p class=\"kicker\">LION’S GATE</p>\n <h1 id=\"screen-title\" tabindex=\"-1\">Choose Your Game Mode</h1>\n <div class=\"collection-options\">\n  <button type=\"button\" class=\"collection-choice\" data-action=\"choose-story\"><strong>STORY MODE</strong><span>Journey through Scripture, defeat enemies, earn armor, and progress toward the Kingdom.</span></button>\n  <button type=\"button\" class=\"collection-choice\" data-precept-open><strong>PRECEPT BATTLE</strong><span>Defend Scripture through direct debates, using biblical reasoning and supporting precepts.</span></button>\n </div>\n <button type=\"button\" class=\"button collection-back\" data-action=\"cancel-start\">BACK TO TITLE</button>\n </section>`;}\nfunction titleScreen()"
+    ],
+    [
+      "view==='title'?titleScreen():view==='settings'",
+      "view==='title'?titleScreen():view==='mode-select'?gameplayModeScreen():view==='settings'"
+    ],
+    [
+      "if(action==='start'||action==='new-run')return start();if(action==='choose-kjv80')",
+      "if(action==='start'||action==='new-run')return start();if(action==='choose-story')return chooseStoryMode();if(action==='choose-kjv80')"
+    ],
+    [
+      "['collection','study-path','name-entry'].includes(view)&&e.key==='Escape'",
+      "['mode-select','collection','study-path','name-entry'].includes(view)&&e.key==='Escape'"
+    ],
+    [
+      "restoreMusic:music,\n getWardrobe",
+      "restoreMusic:music,onBattleExit:cancelStart,\n getWardrobe"
+    ]
+  ]
+}

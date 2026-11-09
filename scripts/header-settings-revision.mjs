@@ -5,8 +5,16 @@ const {files}=JSON.parse(await readFile(new URL('fixtures/header-settings-revisi
 const sha=s=>createHash('sha256').update(s).digest('hex');
 const musicStartup=JSON.parse(await readFile(new URL('fixtures/music-startup-revision.json',import.meta.url),'utf8'));
 const precept=JSON.parse(await readFile(new URL('fixtures/precept-revision.json',import.meta.url),'utf8'));
+const gameplayMode=JSON.parse(await readFile(new URL('fixtures/gameplay-mode-revision.json',import.meta.url),'utf8'));
 export function beforeHeaderSettings(path,text){
  const r=files[path];if(!r)return text;
+ if(path==='dist/app.js'){
+  assert.equal(sha(text),gameplayMode.sha256,'Exact gameplay mode selection changes only');
+  for(const [before,after] of [...gameplayMode.edits].reverse()){
+   assert.equal(text.split(after).length,2);
+   text=text.replace(after,()=>before);
+  }
+ }
  const arena=precept[path];
  if(arena){
   assert.equal(sha(text),arena.sha256,'Exact Precept Battle integration only: '+path);
