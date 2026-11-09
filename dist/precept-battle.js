@@ -1,5 +1,5 @@
-import {MAX_LIVES, HITS_TO_WIN, shuffled} from './engine.js';
-import {CombatDirector, combatDamageFeedback, paintCombat, romanSoldier} from './combat.js';
+import {HITS_TO_WIN, shuffled} from './engine.js';
+import {CombatDirector, paintCombat, romanSoldier} from './combat.js';
 import {judah} from './mascot.js';
 import {GameJuice} from './juice.js';
 import {sabbathBattle} from './precept-sabbath.js';
@@ -17,12 +17,12 @@ export class PreceptAttempt {
    ...exchange, choices: shuffled(exchange.choices, random)
   })));
   this.hits = 0;
-  this.lives = MAX_LIVES;
+  this.heroHealth = 100;
   this.index = 0;
   this.phase = 'answering';
  }
  get exchange() { return this.exchanges[this.index]; }
- get health() { return {enemy: 100 - this.hits * 10, lives: this.lives}; }
+ get health() { return {enemy: Math.max(0, 100 - this.hits * 10), hero: this.heroHealth}; }
  select(id) {
   if (this.phase !== 'answering') return false;
   const choice = this.exchange.choices.find(option => option.id === id);
@@ -35,7 +35,7 @@ export class PreceptAttempt {
  impact() {
   if (this.phase !== 'animating') return false;
   if (this.correct) this.hits++;
-  else this.lives--;
+  else this.heroHealth = Math.max(0, this.heroHealth - 20);
   this.phase = 'recovering';
   return true;
  }
@@ -45,7 +45,7 @@ export class PreceptAttempt {
  proceed() {
   if (this.phase !== 'feedback') return;
   if (this.hits === HITS_TO_WIN) this.phase = 'victory';
-  else if (!this.lives) this.phase = 'defeat';
+  else if (!this.heroHealth) this.phase = 'defeat';
   else {
    if (this.correct) this.index++;
    this.phase = 'answering';
@@ -79,7 +79,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   focusHeading();
  }
  function topic() {
-  menu(`<h1 id="precept-title" tabindex="-1">PRECEPT BATTLE</h1><p>Two chains. Ten successful precepts. Five lives.</p>
+  menu(`<h1 id="precept-title" tabindex="-1">PRECEPT BATTLE</h1><p>Two chains. Ten successful precepts. Both fighters start at 100% health.</p>
    <div class="precept-actions">${button(sabbathBattle.title,'start',true)}${button('BACK','exit')}</div>`);
  }
  function open(control) {
@@ -110,7 +110,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   dialog.innerHTML = `<section class="precept-shell">
    <div class="precept-top"><h1 id="precept-title" tabindex="-1">${sabbathBattle.title}</h1>${button('Ⅱ PAUSE','pause')}</div>
    <div class="combat-health precept-health">
-    <div class="health-block health-judah"><div class="health-label"><b>AKOBI</b><span data-precept-value="hero"></span></div><progress data-precept-meter="hero" aria-label="Akobi lives" max="${MAX_LIVES}"></progress></div>
+    <div class="health-block health-judah"><div class="health-label"><b>AKOBI</b><span data-precept-value="hero"></span></div><progress data-precept-meter="hero" aria-label="Akobi health" max="100"></progress></div>
     <div class="health-block health-enemy"><div class="health-label"><b>ROMAN SOLDIER</b><span data-precept-value="enemy"></span></div><progress data-precept-meter="enemy" aria-label="Roman soldier health" max="100"></progress></div>
    </div>
    <div class="game-scene precept-arena" aria-label="Roman stone arena"><div class="precept-stone" aria-hidden="true"></div>
@@ -126,10 +126,10 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   music();
  }
  function updateHealth() {
-  const {lives, enemy} = attempt.health;
-  find('[data-precept-meter="hero"]').value = lives;
+  const {hero, enemy} = attempt.health;
+  find('[data-precept-meter="hero"]').value = hero;
   find('[data-precept-meter="enemy"]').value = enemy;
-  find('[data-precept-value="hero"]').textContent = `${lives} / ${MAX_LIVES} LIVES`;
+  find('[data-precept-value="hero"]').textContent = `${hero}%`;
   find('[data-precept-value="enemy"]').textContent = `${enemy}%`;
  }
  function debate() {
@@ -140,14 +140,17 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   const links = exchange.citations.map(({label,url}) =>
    `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join(' · ');
   const choices = exchange.choices.map((option,i) => `<button type="button" class="answer" data-precept-choice="${option.id}"><span>${'ABCD'[i]}</span><strong>${esc(option.text)}</strong></button>`).join('');
-  const finished = attempt.hits === HITS_TO_WIN || !attempt.lives;
-  find('.precept-debate').innerHTML = `<p class="precept-progress">CHAIN ${Math.floor(index / 5) + 1} / 2 · PRECEPT ${index % 5 + 1} / 5 · ${attempt.hits} / 10 HITS</p>
+  const verse = exchange.romanScripture;
+  const finished = attempt.hits === HITS_TO_WIN || !attempt.heroHealth;
+  find('.precept-debate').innerHTML = `<p class="precept-progress">CHAIN ${Math.floor(index / 5) + 1} / 2 · PRECEPT ${index % 5 + 1} / 5</p>
    <h2 tabindex="-1">${answering ? 'Roman Soldier' : 'Akobi'}</h2>
+   ${answering && verse ? `<blockquote class="precept-verse"><p>${esc(verse.quote)}</p><a href="${esc(verse.url)}" target="_blank" rel="noopener noreferrer">${esc(verse.reference)} · KJV excerpt ↗</a></blockquote>` : ''}
    <p class="precept-line">${esc(answering ? exchange.claim : choice.text)}</p>
    ${answering ? `<div class="answers">${choices}</div>` : ''}
    ${feedback ? `<div class="precept-feedback ${correct ? 'right' : 'wrong'}">
-    <strong>${correct ? 'Correct precept' : 'Incorrect · one life lost'}</strong>
+    <strong>${correct ? 'PRECEPT LANDED!' : 'REBUTTAL FAILED · −20%'}</strong>
     ${correct ? '' : `<p><b>Best response:</b> ${esc(best.text)}</p>`}
+    ${!correct && choice.weakness ? `<p>${esc(choice.weakness)}</p>` : ''}
     <p>${esc(exchange.explanation)}</p><p>${links}</p>
     ${button(finished ? 'SEE RESULT' : correct ? 'CONTINUE' : 'TRY THIS REBUTTAL AGAIN','advance',true)}
    </div>` : ''}`;
@@ -163,7 +166,7 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
   combat.start({
    correct,
    enemyDefeated: correct && current.hits === HITS_TO_WIN - 1,
-   heroDefeated: !correct && current.lives === 1,
+   heroDefeated: !correct && current.heroHealth === 20,
    reducedMotion: matchMedia('(prefers-reduced-motion: reduce)').matches,
    onFrame(frame) {
     paintCombat(scene,frame,wardrobe.completed,wardrobe.equipment,wardrobe.rank);
@@ -174,12 +177,12 @@ export function bindPreceptBattle({root, storage, audio, getSettings, restoreMus
    onImpact() {
     if (!current.impact()) return;
     updateHealth();
-    const hit = find('.precept-progress');
-    hit.textContent = hit.textContent.replace(/\d+ \/ 10 HITS$/, `${current.hits} / 10 HITS`);
-    juice.combatNumber(scene,combatDamageFeedback(before,current.health,{}));
+    const after = current.health;
+    const amount = correct ? before.enemy - after.enemy : before.hero - after.hero;
+    juice.combatNumber(scene,{who:correct ? 'enemy' : 'judah',kind:correct ? 'hit' : 'hurt',amount,text:`−${amount}%`});
     juice.burst(find('.combat-sparks'),12,correct ? 'gold' : 'green');
     void audio.effect(correct ? 'swordStrike' : 'damage');
-    if (current.hits === HITS_TO_WIN || !current.lives) void audio.effect('finisher');
+    if (current.hits === HITS_TO_WIN || !current.heroHealth) void audio.effect('finisher');
    },
    onFinish() {
     current.finish();

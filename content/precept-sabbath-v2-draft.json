@@ -1,0 +1,433 @@
+{
+  "id": "pb-sabbath-01-v2",
+  "revision": 2,
+  "title": "Sabbath vs Sunday",
+  "closing": "I showed thee a meeting and a warning. I did not show thee a command to change the day.",
+  "status": "pending-editorial-review",
+  "chains": [
+    {
+      "id": "chain-1",
+      "title": "From commandment to first-day practice",
+      "exchanges": [
+        {
+          "id": "PB-SAB-01-V2",
+          "romanScripture": {
+            "key": "EXO 20:10",
+            "reference": "Exodus 20:10",
+            "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/",
+            "quote": "But the seventh day is the sabbath of the LORD thy God"
+          },
+          "claim": "I grant Exodus names the seventh day. But isn't the lasting principle one day in seven, with the day itself adaptable?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The creation pattern gives us a weekly rhythm that churches can apply in different ways.",
+              "weakness": "That distinguishes principle and practice, but Exodus itself ties both to a named day."
+            },
+            {
+              "id": "B",
+              "text": "Exodus ties creation's blessing to the same seventh day it commands Israel to keep."
+            },
+            {
+              "id": "C",
+              "text": "The command's household setting suggests its day was specific to Israel's original covenant setting.",
+              "weakness": "The original audience matters, but it doesn't turn the stated day into a flexible one."
+            },
+            {
+              "id": "D",
+              "text": "Deuteronomy links Sabbath rest to deliverance, so liberation is the heart of the command.",
+              "weakness": "Deuteronomy adds a rationale without undoing the day specified in Exodus."
+            }
+          ],
+          "correct": "B",
+          "explanation": "Exodus uses the creation pattern to explain why the seventh day was blessed. A transferable principle is an application beyond the wording.",
+          "citations": [
+            {
+              "label": "Exodus 20:8–11",
+              "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/"
+            }
+          ],
+          "editorialNotes": "Distinguish the day named in the command from debates about later covenant application."
+        },
+        {
+          "id": "PB-SAB-02-V2",
+          "romanScripture": {
+            "key": "MAR 2:27",
+            "reference": "Mark 2:27",
+            "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-2/",
+            "quote": "The sabbath was made for man, and not man for the sabbath"
+          },
+          "claim": "Fair. But if the Sabbath serves people, why couldn't Yeshua's disciples adapt the day to their needs?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "His authority over Sabbath means the disciples could adapt its timing when their mission required.",
+              "weakness": "His authority is explicit, but the scene contains no decision about the day's timing."
+            },
+            {
+              "id": "B",
+              "text": "David's example makes human need the main test for how Sabbath observance should work.",
+              "weakness": "David's need addresses the accusation without establishing a general calendar rule."
+            },
+            {
+              "id": "C",
+              "text": "The grainfield dispute shows that mercy matters more than disputes about permitted Sabbath activities.",
+              "weakness": "Mercy is relevant, but this reply leaves the proposed change of day unanswered."
+            },
+            {
+              "id": "D",
+              "text": "He answers a charge about hunger and grain, leaving the day itself unchanged."
+            }
+          ],
+          "correct": "D",
+          "explanation": "Yeshua invokes David's hunger and claims authority over the Sabbath. His response concerns what happened on the day already being observed.",
+          "citations": [
+            {
+              "label": "Mark 2:23–28",
+              "url": "https://www.kingjamesbibleonline.org/Mark-Chapter-2/"
+            }
+          ],
+          "editorialNotes": "Readers differ on the wider scope of his authority here. Grade the action and conclusion shown in this scene."
+        },
+        {
+          "id": "PB-SAB-03-V2",
+          "romanScripture": {
+            "key": "LUK 24:1",
+            "reference": "Luke 24:1",
+            "url": "https://www.kingjamesbibleonline.org/Luke-Chapter-24/",
+            "quote": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre"
+          },
+          "claim": "Then let's look beyond the grainfields. The first-day visit marks the discovery of the resurrection. Isn't that reason to make it the new Sabbath?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Luke separates Sabbath rest under the commandment from the women's first-day visit."
+            },
+            {
+              "id": "B",
+              "text": "The first-day discovery supports celebrating the resurrection as the center of weekly worship.",
+              "weakness": "A reason to celebrate the resurrection does not establish that Sabbath rest was transferred."
+            },
+            {
+              "id": "C",
+              "text": "The Sabbath rest shows the women were still observing the practice they already knew.",
+              "weakness": "Their practice is relevant, but Luke also identifies their rest with the commandment."
+            },
+            {
+              "id": "D",
+              "text": "The empty tomb gives the first day special significance for remembering what happened.",
+              "weakness": "Significance for remembrance is distinct from a new weekly rest command."
+            }
+          ],
+          "correct": "A",
+          "explanation": "Luke connects the women's rest to the commandment before reporting the visit. The narrative supplies two distinct events and does not prescribe a replacement day.",
+          "citations": [
+            {
+              "label": "Luke 23:54–56",
+              "url": "https://www.kingjamesbibleonline.org/Luke-Chapter-23/"
+            },
+            {
+              "label": "Luke 24:1–3",
+              "url": "https://www.kingjamesbibleonline.org/Luke-Chapter-24/"
+            }
+          ],
+          "editorialNotes": "The passage dates the visit. Do not infer an exact resurrection hour or dismiss first-day commemoration."
+        },
+        {
+          "id": "PB-SAB-04-V2",
+          "romanScripture": {
+            "key": "ACT 20:7",
+            "reference": "Acts 20:7",
+            "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-20/",
+            "quote": "And upon the first day of the week, when the disciples came together to break bread, Paul preached unto them"
+          },
+          "claim": "All right, the tomb account records an event. At Troas, though, the disciples actually gather and break bread. Why isn't that a weekly pattern?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Breaking bread was part of fellowship, so the meeting can support a pattern of worship.",
+              "weakness": "A possible pattern for gatherings is weaker than a command changing the rest day."
+            },
+            {
+              "id": "B",
+              "text": "Paul's late preaching makes the timing a poor guide for a regular service.",
+              "weakness": "The late hour does not answer whether the gathering transfers Sabbath observance."
+            },
+            {
+              "id": "C",
+              "text": "Luke records a gathering before Paul's departure, with no instruction to replace Sabbath rest."
+            },
+            {
+              "id": "D",
+              "text": "The disciples' fellowship at Troas carries weight as an example for later churches.",
+              "weakness": "An example can carry weight without establishing a mandatory weekly replacement."
+            }
+          ],
+          "correct": "C",
+          "explanation": "Paul was preparing to leave, and Luke describes the events of that meeting. The passage records the gathering without prescribing a new rest day.",
+          "citations": [
+            {
+              "label": "Acts 20:6–12",
+              "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-20/"
+            }
+          ],
+          "editorialNotes": "The nature of breaking bread and ancient day boundaries need not be settled to answer this claim."
+        },
+        {
+          "id": "PB-SAB-05-V2",
+          "romanScripture": {
+            "key": "1CO 16:2",
+            "reference": "1 Corinthians 16:2",
+            "url": "https://www.kingjamesbibleonline.org/1-Corinthians-Chapter-16/",
+            "quote": "Upon the first day of the week let every one of you lay by him in store"
+          },
+          "claim": "A meeting could be incidental. Paul gave Corinth and Galatia a first-day instruction, though. Doesn't that show a settled weekly practice?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Giving on the first day could fit a regular meeting already familiar to them.",
+              "weakness": "A meeting is possible as background, but Paul's instructions do not specify one."
+            },
+            {
+              "id": "B",
+              "text": "Paul sets a schedule for gifts before his arrival, without directing a worship assembly."
+            },
+            {
+              "id": "C",
+              "text": "The order across churches makes regular giving more likely than an isolated request.",
+              "weakness": "The repeated instruction is evidence for the collection schedule. It does not establish a worship schedule."
+            },
+            {
+              "id": "D",
+              "text": "Setting gifts aside on the first day could make that day important to the churches.",
+              "weakness": "Importance to a collection leaves the question of a Sabbath replacement open."
+            }
+          ],
+          "correct": "B",
+          "explanation": "The order concerns a collection for the saints, with the gifts prepared before Paul arrives. The first-day timing is explicit. A required assembly is an inference.",
+          "citations": [
+            {
+              "label": "1 Corinthians 16:1–4",
+              "url": "https://www.kingjamesbibleonline.org/1-Corinthians-Chapter-16/"
+            }
+          ],
+          "editorialNotes": "Do not treat the location of the set-aside as settled by the wording."
+        }
+      ]
+    },
+    {
+      "id": "chain-2",
+      "title": "The Lord's day, judgment, and rest",
+      "exchanges": [
+        {
+          "id": "PB-SAB-06-V2",
+          "romanScripture": {
+            "key": "REV 1:10",
+            "reference": "Revelation 1:10",
+            "url": "https://www.kingjamesbibleonline.org/Revelation-Chapter-1/",
+            "quote": "I was in the Spirit on the Lord’s day"
+          },
+          "claim": "I'll grant the collection has its own purpose. But John uses a title his readers would recognize. Why wouldn't the Lord's day mean Sunday?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "John may have assumed the churches already knew the phrase from first-day worship.",
+              "weakness": "Shared usage is possible, but the verse itself does not establish what day the readers inferred."
+            },
+            {
+              "id": "B",
+              "text": "Since Yeshua is Lord of the Sabbath, John's phrase could point to the Sabbath.",
+              "weakness": "That connection is possible, but lordship over Sabbath does not define John's phrase here."
+            },
+            {
+              "id": "C",
+              "text": "John names the Lord's day without identifying a weekday or directing a change."
+            },
+            {
+              "id": "D",
+              "text": "The vision's prophetic setting could point to the coming day of the Lord.",
+              "weakness": "The prophetic setting allows a proposed reading without settling the expression's meaning."
+            }
+          ],
+          "correct": "C",
+          "explanation": "John reports when he was in the Spirit without specifying a weekday. An identification with Sunday, Sabbath, or a prophetic day needs evidence beyond the line.",
+          "citations": [
+            {
+              "label": "Revelation 1:9–11",
+              "url": "https://www.kingjamesbibleonline.org/Revelation-Chapter-1/"
+            }
+          ],
+          "editorialNotes": "Editorial review should ensure the key addresses what the text establishes, rather than grading a particular historical identification."
+        },
+        {
+          "id": "PB-SAB-07-V2",
+          "romanScripture": {
+            "key": "ROM 14:5",
+            "reference": "Romans 14:5",
+            "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-14/",
+            "quote": "One man esteemeth one day above another: another esteemeth every day alike."
+          },
+          "claim": "Even if John doesn't settle the weekday, Paul lets believers regard days differently. Why would Sabbath be exempt from that freedom?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Paul allows differences in days without identifying the Sabbath as the practice being disputed."
+            },
+            {
+              "id": "B",
+              "text": "Paul pairs days with eating, suggesting the dispute could concern days of fasting.",
+              "weakness": "The pairing makes that reading possible, but Paul does not specify fast days either."
+            },
+            {
+              "id": "C",
+              "text": "Paul's appeal to conscience may give believers room over how they honor days.",
+              "weakness": "Conscience is central to the passage, but this does not establish which days are at issue."
+            },
+            {
+              "id": "D",
+              "text": "Paul's priority is unity, so this passage weighs against imposing a common calendar.",
+              "weakness": "The call to unity is explicit. Its application to a commanded day still requires an argument."
+            }
+          ],
+          "correct": "A",
+          "explanation": "Paul discusses days and eating while warning against judging fellow believers. He names no particular observance in these verses.",
+          "citations": [
+            {
+              "label": "Romans 14:1–6, 10–13",
+              "url": "https://www.kingjamesbibleonline.org/Romans-Chapter-14/"
+            }
+          ],
+          "editorialNotes": "The range of days in Romans 14 is disputed. The key should remain a claim about the text's scope."
+        },
+        {
+          "id": "PB-SAB-08-V2",
+          "romanScripture": {
+            "key": "COL 2:16",
+            "reference": "Colossians 2:16",
+            "url": "https://www.kingjamesbibleonline.org/Colossians-Chapter-2/",
+            "quote": "Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days"
+          },
+          "claim": "Romans doesn't name it, but Colossians does. If Sabbath belongs with shadows fulfilled in Christ, why keep it as an obligation?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Paul's focus on Christ could mean Sabbath finds its fulfillment beyond calendar observance.",
+              "weakness": "That is a theological reading of fulfillment, but the passage's direct instruction concerns judgment."
+            },
+            {
+              "id": "B",
+              "text": "The surrounding warning against human rules may concern judgments about how people observe Sabbath.",
+              "weakness": "The warning is relevant context, but identifying all the judgments as added rules exceeds the text."
+            },
+            {
+              "id": "C",
+              "text": "The festival sequence can suggest a calendar pattern whose ceremonies point forward to Christ.",
+              "weakness": "The sequence matters, but this does not answer whether a shadow is forbidden to observe."
+            },
+            {
+              "id": "D",
+              "text": "Paul calls them shadows and forbids judgment, without expressly prohibiting Sabbath observance."
+            }
+          ],
+          "correct": "D",
+          "explanation": "Paul's direct instruction forbids judgment over the listed practices. The shadow language relates them to Christ without issuing a ban on keeping Sabbath.",
+          "citations": [
+            {
+              "label": "Colossians 2:13–17",
+              "url": "https://www.kingjamesbibleonline.org/Colossians-Chapter-2/"
+            }
+          ],
+          "editorialNotes": "Review weekly versus festival scope and the force of the shadow image. The answer need not settle either."
+        },
+        {
+          "id": "PB-SAB-09-V2",
+          "romanScripture": {
+            "key": "HEB 4:9",
+            "reference": "Hebrews 4:9",
+            "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-4/",
+            "quote": "There remaineth therefore a rest to the people of God."
+          },
+          "claim": "Granted, Colossians isn't a ban. But Hebrews says a rest remains for believers. Isn't that the rest the weekly Sabbath was pointing toward?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Hebrews connects entering rest with belief, which supports a wider meaning than weekly rest.",
+              "weakness": "A wider meaning does not establish replacement of the weekly day."
+            },
+            {
+              "id": "B",
+              "text": "Hebrews connects God's seventh-day rest with the promised rest without canceling the weekly day."
+            },
+            {
+              "id": "C",
+              "text": "God's example of ceasing from work could support believers continuing to keep weekly rest.",
+              "weakness": "The parallel supports a connection, but by itself does not settle the relationship between the two rests."
+            },
+            {
+              "id": "D",
+              "text": "The warning about unbelief shows that participation in God's rest involves trusting his promise.",
+              "weakness": "This captures the warning but does not address whether the remaining rest replaces the weekly day."
+            }
+          ],
+          "correct": "B",
+          "explanation": "Hebrews uses God's seventh-day rest in its argument about entering the rest that remains. It urges entry and does not state a change of weekly day.",
+          "citations": [
+            {
+              "label": "Hebrews 4:1–11",
+              "url": "https://www.kingjamesbibleonline.org/Hebrews-Chapter-4/"
+            }
+          ],
+          "editorialNotes": "The meaning of the remaining rest is debated. The strongest option allows a wider meaning while answering the implied replacement."
+        },
+        {
+          "id": "PB-SAB-10-V2",
+          "romanScripture": {
+            "key": "ACT 20:7",
+            "reference": "Acts 20:7",
+            "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-20/",
+            "quote": "And upon the first day of the week, when the disciples came together to break bread"
+          },
+          "claim": "Put Troas together with Colossians. A first-day gathering and freedom from judgment over Sabbaths seem like grounds for calling Sunday the new Sabbath.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The first-day example and Paul's warning can support freedom for churches to gather on Sunday.",
+              "weakness": "Permission to gather does not itself make that day the new Sabbath."
+            },
+            {
+              "id": "B",
+              "text": "The two passages favor worship centered on Christ rather than debates about the calendar.",
+              "weakness": "The point about Christ does not show how either text authorizes a change of day."
+            },
+            {
+              "id": "C",
+              "text": "Acts records a meeting, Colossians addresses judgment, and neither revises Exodus's stated day."
+            },
+            {
+              "id": "D",
+              "text": "The seventh-day command still shapes rest even if churches choose another day for gathering.",
+              "weakness": "This distinguishes gathering and rest, but the key explains why both of the Roman's cited premises fall short."
+            }
+          ],
+          "correct": "C",
+          "explanation": "Acts describes a gathering and Colossians forbids judgment over the listed observances. Neither gives a command changing the seventh day named in Exodus.",
+          "citations": [
+            {
+              "label": "Exodus 20:8–11",
+              "url": "https://www.kingjamesbibleonline.org/Exodus-Chapter-20/"
+            },
+            {
+              "label": "Acts 20:6–12",
+              "url": "https://www.kingjamesbibleonline.org/Acts-Chapter-20/"
+            },
+            {
+              "label": "Colossians 2:16–17",
+              "url": "https://www.kingjamesbibleonline.org/Colossians-Chapter-2/"
+            }
+          ],
+          "editorialNotes": "Check that the final distractor remains weaker rather than equally responsive. The issue is a new Sabbath, not whether Sunday gatherings are permissible."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import {PreceptAttempt} from '../dist/precept-battle.js';
 import {sabbathBattle} from '../dist/precept-sabbath.js';
 
@@ -19,7 +20,7 @@ for (const [index,exchange] of exchanges.entries()) {
  for (const {label,url} of exchange.citations) assert.ok(block.includes(`[${label}](${url})`));
 }
 const arena = new PreceptAttempt(sabbathBattle,()=>.2);
-assert.deepEqual(arena.health,{enemy:100,lives:5});
+assert.deepEqual(arena.health,{enemy:100,hero:100});
 function answer(attempt,id) {
  assert.equal(attempt.select(id),true);
  assert.equal(attempt.select(id),false);
@@ -34,19 +35,80 @@ function answer(attempt,id) {
 for(let miss=0;miss<4;miss++) {
  answer(arena,arena.exchange.choices.find(option=>option.id!==arena.exchange.correct).id);
  assert.equal(arena.index,0);
- assert.deepEqual(arena.health,{enemy:100,lives:4-miss});
+ assert.deepEqual(arena.health,{enemy:100,hero:80-miss*20});
 }
 for (let index=0;index<10;index++) {
  assert.equal(arena.exchange.id,exchanges[index].id);
  answer(arena,arena.exchange.correct);
- assert.deepEqual(arena.health,{enemy:90-index*10,lives:1});
+ assert.deepEqual(arena.health,{enemy:90-index*10,hero:20});
  assert.equal(arena.phase,index===9?'victory':'answering');
 }
 assert.equal(arena.select(arena.exchange.correct),false);
 const retry = new PreceptAttempt(sabbathBattle);
 for (let miss=0;miss<5;miss++) answer(retry,retry.exchange.choices.find(option=>option.id!==retry.exchange.correct).id);
 assert.equal(retry.phase,'defeat');
-assert.deepEqual(retry.health,{enemy:100,lives:0});
+assert.deepEqual(retry.health,{enemy:100,hero:0});
 assert.equal(retry.index,0);
-assert.deepEqual(new PreceptAttempt(sabbathBattle).health,{enemy:100,lives:5});
-console.log('PASS Precept Battle: exact Sabbath pilot, two ordered chains, ten hits, five lives, retries, defeat and duplicate-input guards.');
+assert.deepEqual(new PreceptAttempt(sabbathBattle).health,{enemy:100,hero:100});
+const closeWin = new PreceptAttempt(sabbathBattle);
+for (let i=0;i<3;i++) answer(closeWin,closeWin.exchange.choices.find(option=>option.id!==closeWin.exchange.correct).id);
+for (let i=0;i<10;i++) answer(closeWin,closeWin.exchange.correct);
+assert.equal(closeWin.phase,'victory');
+assert.deepEqual(closeWin.health,{enemy:0,hero:40});
+const closeLoss = new PreceptAttempt(sabbathBattle);
+for (let i=0;i<4;i++) answer(closeLoss,closeLoss.exchange.correct);
+for (let i=0;i<5;i++) answer(closeLoss,closeLoss.exchange.choices.find(option=>option.id!==closeLoss.exchange.correct).id);
+assert.equal(closeLoss.phase,'defeat');
+assert.deepEqual(closeLoss.health,{enemy:60,hero:0});
+console.log('PASS Precept Battle: exact Sabbath pilot, two ordered chains, ten hits, percentage health, retries, defeat and duplicate-input guards.');
+
+const readJSON = async path => JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
+const draft = await readJSON('../content/precept-sabbath-v2-draft.json');
+const {source:kjv,evidence} = await readJSON('../content/precept-sabbath-v2-kjv-evidence.json');
+const {source:approvedKjv} = await readJSON('../content/launch/scripture-evidence.json');
+assert.deepEqual(kjv,approvedKjv);
+// The checked-in verse subset supports offline CI. Verify it against the full
+// pinned edition whenever the editorial source archive has been extracted.
+const fullSource = await readFile(new URL('../.verification/launch/kjv-vpl/eng-kjv_vpl.txt',import.meta.url))
+ .catch(error=>{if(error.code!=='ENOENT')throw error;return null;});
+if(fullSource){
+ assert.equal(createHash('sha256').update(fullSource).digest('hex'),kjv.textSha256);
+ const lines = new Set(fullSource.toString('utf8').split(/\r?\n/));
+ for(const [key,{verse}] of Object.entries(evidence))assert.ok(lines.has(`${key} ${verse}`),key);
+}
+assert.equal(draft.status,'pending-editorial-review');
+assert.deepEqual(draft.chains.map(chain=>chain.exchanges.length),[5,5]);
+const proposed = draft.chains.flatMap(chain=>chain.exchanges);
+assert.equal(new Set(proposed.map(exchange=>exchange.id)).size,10);
+function verifyLink(reference,url){
+ const match = reference.match(/^((?:[1-3] )?[A-Za-z]+(?: [A-Za-z]+)*) ([1-9]\d*):[1-9]\d*(?:[–-][1-9]\d*)?(?:, [1-9]\d*[–-][1-9]\d*)?$/);
+ assert.ok(match,reference);
+ assert.equal(url,`https://www.kingjamesbibleonline.org/${match[1].replaceAll(' ','-')}-Chapter-${match[2]}/`);
+}
+for(const [index,exchange] of proposed.entries()){
+ const {romanScripture,choices,correct} = exchange;
+ const verse = evidence[romanScripture.key];
+ assert.equal(romanScripture.reference,verse.reference);
+ assert.equal(romanScripture.url,verse.url);
+ assert.ok(verse.verse.replace(/[\[\]¶]/g,'').includes(romanScripture.quote),exchange.id);
+ verifyLink(romanScripture.reference,romanScripture.url);
+ assert.deepEqual(choices.map(choice=>choice.id),['A','B','C','D']);
+ assert.equal(new Set(choices.map(choice=>choice.text)).size,4);
+ assert.equal(choices.filter(choice=>choice.id===correct).length,1);
+ for(const choice of choices){
+  const words = choice.text.trim().split(/\s+/).length;
+  assert.ok(words>=8 && words<=16,choice.text);
+  if(choice.id!==correct)assert.ok(choice.weakness?.trim(),exchange.id);
+ }
+ assert.ok(exchange.claim.trim() && exchange.explanation.trim() && exchange.editorialNotes.trim());
+ assert.deepEqual(exchange.citations,exchanges[index].citations,'Retain the pilot evidence trail');
+ for(const {label,url} of exchange.citations)verifyLink(label,url);
+}
+const dist = new URL('../dist/',import.meta.url);
+const publicFiles = await readdir(dist);
+assert.ok(!publicFiles.some(name=>/precept.*(?:draft|evidence)/i.test(name)));
+for(const name of publicFiles.filter(name=>name.endsWith('.js'))){
+ const text=await readFile(new URL(name,dist),'utf8');
+ assert.doesNotMatch(text,/precept-sabbath-v2|PB-SAB-\d+-V2/);
+}
+console.log('PASS V2 draft: ten excluded exchanges, 40 short choices, keyed feedback and exact pinned KJV excerpts.');
