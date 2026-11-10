@@ -13,6 +13,7 @@ for(const music of [true,false])for(const sound of [true,false])for(const dialog
  const store={getItem(){return this.value},setItem(k,v){this.value=v}};saveProfile(store,p);
  const loaded=loadProfile(store,questions);assert.deepEqual(loaded.settings,p.settings);assert.deepEqual(loaded.run,p.run);
  const html=settingsScreen(loaded.settings);assert.equal((html.match(/role="switch"/g)||[]).length,3);
+ for(const action of ['guide','trophies','armory'])assert.match(html,new RegExp(`data-action="${action}"`));
  for(const [key,on]of [['music',music],['sound',sound],['dialogue',dialogue]])assert.match(html,new RegExp(`id="setting-${key}"[^>]+aria-checked="${on}"`));
  assert.doesNotMatch(html,/study mode|questions.only|shortJourneys|data-action="(?:start|sample)"/i);
 }

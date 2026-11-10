@@ -1,5 +1,6 @@
 .support-link{color:#e9cd87!important;white-space:normal}
-.opening .title-screen .menu-links>[data-support-open]{grid-column:1/-1;justify-self:center;min-height:44px}
+.title-donate{display:flex;justify-content:center;margin:12px auto 0;padding:10px 0 4px;border-top:1px solid #a68a5355}
+.title-donate .donate-button{min-height:44px;min-width:132px;padding:8px 16px;border:2px solid #b88e53;background:#352a2d;color:#ffe4a9!important;font:800 14px/1.3 var(--mono);letter-spacing:.12em}
 .pause-villain-card>.menu-links:has([data-support-open]){flex-wrap:wrap}
 .support-invitation{margin:3px 0;font:11px/1.5 var(--mono)}
 .support-invitation .menu-link{min-height:44px;font-size:10px;padding:6px}

@@ -19,7 +19,7 @@ const caches={
   async match(key){return data.get(key)?.clone()}
  }},async keys(){return [...store.keys()]},async delete(key){return store.delete(key)}
 };
-function boot(source){const events={};vm.runInNewContext(source,{URL,Request,caches,fetch:()=>{fetches++;throw Error('Offline')},self:{registration:{scope},addEventListener:(type,fn)=>events[type]=fn,skipWaiting:()=>assert.fail('Must not replace active game'),clients:{claim:()=>assert.fail('No mid-session takeover')}}});return events}
+function boot(source,activation={}){const events={};vm.runInNewContext(source,{URL,Request,caches,fetch:()=>{fetches++;throw Error('Offline')},self:{registration:{scope},addEventListener:(type,fn)=>events[type]=fn,skipWaiting:activation.skipWaiting??(()=>assert.fail('Must not replace active game')),clients:{matchAll:()=>activation.windows,claim:()=>assert.fail('No mid-session takeover')}}});return events}
 async function lifecycle(fn){let work;fn({waitUntil:p=>work=p});await work}
 const events=boot(worker);await lifecycle(events.install);
 assert.equal(store.size,1);const oldCache=[...store.keys()][0],entries=store.get(oldCache);
@@ -37,6 +37,22 @@ failInstall=false;await lifecycle(updated.install);assert.equal(store.size,2);
 store.set('unrelated-app-cache',new Map());await lifecycle(updated.activate);
 assert.ok(!store.has(oldCache));assert.ok(store.has('unrelated-app-cache'));assert.equal(store.size,2);
 assert.ok(!/localStorage|indexedDB|Clear-Site-Data/.test(worker));
+const windows=[{id:'title',url:scope},{id:'battle',url:scope}];
+let activated=0,reply;
+const waiting=boot(worker,{windows,skipWaiting:()=>{activated++}});
+const request=(id,data='apply-title-update')=>{
+ let work;
+ waiting.message({data,source:{id},ports:[{postMessage:message=>{reply=message}}],waitUntil:promise=>{work=promise}});
+ return work;
+};
+await request('title');
+assert.equal(reply,'close-other-windows');
+assert.equal(activated,0);
+windows.pop();
+await request('title','unrelated');
+assert.equal(activated,0);
+await request('title');
+assert.equal(activated,1,'Only an explicit request from the sole game window activates the update');
 
 // Supported install prompt only; dismiss/re-enable, installed and unsupported UI.
 const pwa=(await readFile(new URL('pwa.js',root),'utf8')).replace("new URL('sw.js',import.meta.url)","'sw.js'");

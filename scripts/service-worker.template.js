@@ -9,7 +9,20 @@ self.addEventListener('install',event=>{
   try{await cache.addAll(urls.map(url=>new Request(url,{cache:'reload'})))}
   catch(error){await caches.delete(CACHE);throw error}
  })());
- // Deliberately no skipWaiting: do not replace code under an active game.
+ // Wait by default so an active game keeps one complete revision.
+});
+self.addEventListener('message',event=>{
+ if(event.data!=='apply-title-update'||!event.source?.id||!event.ports[0])return;
+ const reply=event.ports[0];
+ event.waitUntil((async()=>{
+  const windows=(await self.clients.matchAll({type:'window',includeUncontrolled:true}))
+   .filter(client=>client.url.startsWith(self.registration.scope));
+  if(windows.length!==1||windows[0].id!==event.source.id){
+   reply.postMessage('close-other-windows');
+   return;
+  }
+  await self.skipWaiting();
+ })().catch(()=>reply.postMessage('update-unavailable')));
 });
 self.addEventListener('activate',event=>{
  event.waitUntil((async()=>{
